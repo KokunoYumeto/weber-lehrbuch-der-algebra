@@ -1,0 +1,42 @@
+% !PRINTED 256
+\weberpage{256}
+
+Die Determinante
+
+\weq{3}{R = \Sigma \pm a_{1,1},\, a_{2,2} \ldots a_{m,m}}
+
+zeigt durch ihr Verschwinden an, dass $\varphi$ durch lineare Transformation in eine Function von weniger als $m$ Variablen transformirt werden kann, dass also $\varrho$ grösser als Null ist.
+
+Die Determinante $R$ ist eine symmetrische Determinante. Unter ihren Unterdeterminanten verschiedener Ordnung kommen gewisse vor, die wieder symmetrische Determinanten sind, nämlich die, die man aus $R$ erhält, wenn man Zeilen und Colonnen, die sich in Diagonalgliedern schneiden, ausstreicht, die also, wenn $\alpha, \beta, \gamma \ldots$ irgend welche unter den Indices $1, 2 \ldots m$ bedeuten, durch
+
+\weq{4}{\Sigma \pm a_{\alpha,\alpha}\, a_{\beta,\beta}\, a_{\gamma,\gamma} \ldots}
+
+zu bezeichnen sind. Diese wollen wir die Haupt-Unterdeterminanten von $R$ nennen.
+
+Wir wollen die Anzahl der Haupt-Unterdeterminanten bestimmen.
+
+Die Anzahl der $\mu$-reihigen Haupt-Unterdeterminanten ist gleich der Anzahl der Arten, wie man aus der Reihe der Indices $1, 2, 3 \ldots m$ Gruppen von $\mu$ verschiedenen auswählen kann, also gleich der Anzahl der Combinationen von $m$ Elementen zu je $\mu$, und diese Zahl ist gleich dem Binomialco\"efficienten $B_\mu^m$. Die Anzahl aller Haupt-Unterdeterminanten ist also, wenn wir die Determinante $R$ selbst und ausserdem noch die Einheit als eine nullreihige Determinante mitzählen,
+\[
+1 + m + \frac{m(m-1)}{1.2} + \cdots + m + 1 = 2^m.
+\]
+
+Es ist aber meist nur ein kleiner Theil von diesen wirklich zu berücksichtigen.
+
+Die Indices $1, 2, 3 \ldots m$ lassen sich auf $\Pi(m) = 1.2.3 \ldots m$ verschiedene Arten anordnen; wenn wir mit irgend einer dieser Anordnungen die Determinante bilden
+
+% [the printed determinant carries a dotted-line annotation boxing the entries that
+%  intersect the diagonal (a_{1,1}; a_{2,1},a_{2,2}; a_{3,1},a_{3,2},a_{3,3}) -- a graphical
+%  overlay in the print pointing out the rows/columns that get struck out; reproduced here
+%  as the plain determinant, the box itself is not a mathematical symbol]
+\[
+\begin{vmatrix}
+a_{1,1}, & a_{1,2}, & a_{1,3} & \cdots & a_{1,m} \\
+a_{2,1}, & a_{2,2}, & a_{2,3} & \cdots & a_{2,m} \\
+a_{3,1}, & a_{3,2}, & a_{3,3} & \cdots & a_{3,m} \\
+\cdot & \cdot & \cdot & \cdots & \cdot \\
+a_{m,1}, & a_{m,2}, & a_{m,3} & \cdots & a_{m,m}
+\end{vmatrix},
+\]
+
+so lässt sich eine Reihe von Haupt-Unterdeterminanten daraus
+%CONT>>

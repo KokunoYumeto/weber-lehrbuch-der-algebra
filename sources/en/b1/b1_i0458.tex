@@ -1,0 +1,44 @@
+% !PRINTED 433
+\weberpage{433}
+\weq{1}{\cos n\varphi + i\sin n\varphi = (\cos\varphi + i\sin\varphi)^n,}
+and if we apply the binomial theorem on the right-hand side, then by separation of the real from the imaginary it follows that
+\[
+\begin{aligned}
+\cos n\varphi &= \cos^n\varphi - B_2^{(n)}\cos^{n-2}\varphi\sin^2\varphi\\
+&\quad + B_4^{(n)}\cos^{n-4}\varphi\sin^4\varphi - \cdots
+\end{aligned}
+\]
+\weq{2}{
+\begin{aligned}
+\frac{\sin n\varphi}{\sin\varphi} &= n\cos^{n-1}\varphi - B_3^{(n)}\cos^{n-3}\varphi\sin^2\varphi\\
+&\quad + B_5^{(n)}\cos^{n-5}\varphi\sin^4\varphi - \cdots
+\end{aligned}
+}
+wherein $B_\nu^{(n)}$ are, as before, the binomial coefficients, and the sums on the right-hand side are to be continued as far as no negative exponents of $\cos\varphi$ occur. Since now $\sin^2\varphi = 1 - \cos^2\varphi$, these two expressions can be represented rationally in terms of $\cos\varphi$; we set
+\weq{3}{2\cos\varphi = x,}
+and introduce the notation
+\weq{4}{2\cos n\varphi = A_n(x), \qquad \frac{\sin n\varphi}{\sin\varphi} = B_n(x),}
+wherein, then, $A_n(x)$ and $B_n(x)$ are integral rational functions of $x$, $A_n(x)$ of degree $n$, $B_n(x)$ of degree $n-1$. We wish to determine the general law of these functions. We set them up for the first values $n = 1, 2, 3\ldots$, and then derive a recursion formula for the computation of the higher functions. One finds
+\weq{5}{
+\begin{aligned}
+A_1(x) &= x & B_1(x) &= 1\\
+A_2(x) &= x^2 - 2, & B_2(x) &= x\\
+A_3(x) &= x^3 - 3x, & B_3(x) &= x^2 - 1.
+\end{aligned}
+}
+But now, by well-known formulae,
+\[
+\begin{aligned}
+\cos(n+1)\varphi + \cos(n-1)\varphi &= 2\cos\varphi\cos n\varphi\\
+\sin(n+1)\varphi + \sin(n-1)\varphi &= 2\cos\varphi\sin n\varphi,
+\end{aligned}
+\]
+from which the recursion formulae for $A_n$ and $B_n$ follow:
+\weq{6}{
+\begin{aligned}
+A_{n+1}(x) &= x A_n(x) - A_{n-1}(x),\\
+B_{n+1}(x) &= x B_n(x) - B_{n-1}(x).
+\end{aligned}
+}
+From this one can compute $A_n$, $B_n$ for any arbitrary $n$, if these functions are known for $n = 1$ and $n = 2$. Thus one finds
+%CONT>>

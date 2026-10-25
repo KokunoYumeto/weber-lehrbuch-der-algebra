@@ -1,0 +1,23 @@
+% !PRINTED 300
+\weberpage{300}
+%<<CONT
+dass diese Congruenzen von einander unabh\"angig sind. Hierbei k\"onnen wir jede der Functionen $\varphi$ f\"ur sich betrachten. Setzen wir also
+\weq{2}{z' \equiv \varphi(z_1, z_2, \ldots, z_k) \quad (\mathrm{mod}\ p),}
+so haben wir, wenn wir f\"ur jede Combination der $z_i$ den zugeh\"origen Werth von $z'$ kennen, $p^k$ lineare Congruenzen zur Bestimmung der Co\"efficienten von $\varphi$. Es ist zu beweisen, dass diese Congruenzen immer l\"osbar sind, wobei wir voraussetzen k\"onnen, dass diese M\"oglichkeit f\"ur Functionen von weniger Variablen schon erwiesen sei.
+
+Wenn wir nun $\varphi$ nach Potenzen der Variablen $z_1$ ordnen, so erhalten wir
+\weq{3}{z' \equiv \chi_0 z_1^{p-1} + \chi_1 z_1^{p-2} + \cdots + \chi_{p-1} \quad (\mathrm{mod}\ p),}
+worin die Co\"efficienten $\chi_0, \chi_1, \ldots, \chi_{p-1}$ ebensolche Functionen sind wie $\varphi$, nur dass sie von einer Variablen weniger abh\"angen.
+
+Halten wir irgend eine der Combinationen der $z_2, \ldots, z_k$ fest, und setzen $z_1 = 0, 1, \ldots, p - 1$, so erhalten wir aus (3) ein System von $p$ linearen Congruenzen, dessen Determinante nicht durch $p$ theilbar ist, und wir k\"onnen daraus, wie im \S.\,180 des ersten Bandes, die Werthe von $\chi_0, \chi_1, \ldots, \chi_{p-1}$ f\"ur diese Combination der $z_2, \ldots, z_k$ bestimmen, und daher sind f\"ur jede Combination der Variablen die Werthe der Function $\chi_i$ (nach dem Modul $p$) bekannt. Der Voraussetzung nach k\"onnen wir aber die Co\"efficienten der Functionen $\chi_i$, die ja nur von $k - 1$ Variablen abh\"angen, daraus bestimmen, und damit ist der H\"ulfssatz bewiesen.
+
+Hiernach k\"onnen wir jede Permutation der Wurzeln $[z_1, \ldots, z_k]$ so darstellen:
+\weq{4}{\begin{pmatrix} z_1, & z_2, & \ldots \\ \varphi_1(z_1, z_2, \ldots), & \varphi_2(z_1, z_2, \ldots), & \ldots \end{pmatrix},}
+oder in noch abgek\"urzterer Schreibweise:
+\weq{5}{\begin{pmatrix} z \\ \varphi(z) \end{pmatrix}.}
+
+In dem Symbol (4) k\"onnen wir, ohne seine Bedeutung zu \"andern, $z_1, z_2, \ldots$ durch irgend eine andere Combination $z_1', z_2', \ldots$ ersetzen, und wenn also nach dem H\"ulfssatze
+\[
+z_i' = \psi_i(z_1, z_2, \ldots)
+\]
+%CONT>>

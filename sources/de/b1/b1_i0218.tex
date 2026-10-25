@@ -1,0 +1,39 @@
+% !PRINTED 193
+\weberpage{193}
+%<<CONT
+über. Hier bilden wir als erste \gesperrt{quadratische} Covariante die \gesperrt{Hesse'sche} Determinante. Wir wollen hier immer die Regel befolgen, dass wir die Formen mit ganzzahligen Zahlenco\"efficienten ohne gemeinsamen Factor schreiben. Dann müssen wir in der aus den zweiten Ableitungen von (1) gebildeten Determinante den Factor 4 abwerfen und erhalten als erste Covariante
+\[
+H = \left|\begin{array}{cc} 3\,a_0\,x + a_1\,y, & a_1\,x + a_2\,y \\ a_1\,x + a_2\,y, & a_2\,x + 3\,a_3\,y \end{array}\right|.
+\]
+oder
+\weq{2}{H = A_0\,x^2 + A_1\,x\,y + A_2\,y^2,}
+wenn zur Abkürzung
+\weq{3}{
+\begin{aligned}
+A_0 &= 3\,a_0\,a_2 - a_1^2 \\
+A_1 &= 9\,a_0\,a_3 - a_1\,a_2 \\
+A_2 &= 3\,a_1\,a_3 - a_2^2
+\end{aligned}
+}
+gesetzt ist.
+
+Die Discriminante dieser quadratischen Form ist eine Invariante der gegebenen cubischen Form. Sie enthält aber den Factor 3 in allen numerischen Co\"efficienten, und demnach setzen wir
+\weq{4}{3\,D = 4\,A_0\,A_2 - A_1^2,}
+und dann stimmt $D$ mit der Discriminante der cubischen Form [\S.\,46, (10)] überein:
+\weq{5}{D = a_1^2\,a_2^2 + 18\,a_0\,a_1\,a_2\,a_3 - 4\,a_0\,a_2^3 - 4\,a_1^3\,a_3 - 27\,a_0^2\,a_3^2.}
+
+Eine weitere cubische Covariante erhalten wir, wenn wir die Functionaldeterminante von $f(x,y)$ und $H(x,y)$ bilden:
+\weq{6}{Q(x,y) = f'(x)\,H'(y) - f'(y)\,H'(x)}
+oder
+\weq{7}{
+Q = \left|\begin{array}{cc} 3\,a_0\,x^2 + 2\,a_1\,x\,y + a_2\,y^2, & 2\,A_0\,x + A_1\,y \\ a_1\,x^2 + 2\,a_2\,x\,y + 3\,a_3\,y^2, & A_1\,x + 2\,A_2\,y \end{array}\right|,
+}
+in der sich kein numerischer Factor wegheben lässt. Wir setzen die ausgerechneten Co\"efficienten von $x^3$, $x^2y$, $xy^2$, $y^3$, deren Bildung keine Schwierigkeit macht, der Reihe nach hierher:
+\[
+\begin{aligned}
+&27\,a_0^2\,a_3 - 9\,a_0\,a_1\,a_2 + 2\,a_1^3,\\
+&27\,a_0\,a_1\,a_3 - 18\,a_0\,a_2^2 + 3\,a_1^2\,a_2,\\
+-\,&27\,a_0\,a_2\,a_3 + 18\,a_1^2\,a_3 - 3\,a_1\,a_2^2,\\
+-\,&27\,a_0\,a_3^2 + 9\,a_1\,a_2\,a_3 - 2\,a_2^3.
+\end{aligned}
+\]

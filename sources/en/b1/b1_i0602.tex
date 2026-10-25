@@ -1,0 +1,58 @@
+% !PRINTED 577
+\weberpage{577}
+
+%<<CONT
+in which the summation over $\nu$ extends from 0 to $\mu$, but may
+also be extended arbitrarily further, since $(\mu, \nu)$ vanishes
+when $\nu$ is negative or greater than $\mu$. Accordingly we also have
+
+\[ f(x, \mu) = -\overset{\nu}{\Sigma} (-1)^{\nu} (\mu, \nu + 1), \]
+
+and if we therefore multiply formula (9) by $(-1)^{\nu}$ and
+sum with respect to $\nu$, there results
+
+\weq{11}{(1 - x^{\mu + 1}) f(x, \mu) = f(x, \mu + 2).}
+
+From this it follows that $f(x, \mu)$ vanishes for every odd $\mu$, since $f(x, 1) = 0$. On the other hand, there results directly
+from (10)
+
+\[ f(x, 2) = 1 - x, \]
+
+and therefore from (11), for every even $\mu$,
+
+\weq{12}{f(x, \mu) = (1 - x)(1 - x^3)(1 - x^5) \ldots (1 - x^{\mu - 1}).}
+
+For if this formula is correct for $\mu$, its correctness for
+$\mu + 2$ follows from (11).
+
+We now apply this identical transformation to our
+problem, by setting $\mu = m = n - 1$ and $x = r$. Then
+
+\[ \frac{1 - x^m}{1 - x} = \frac{1 - r^{-1}}{1 - r} = -r^{-1}, \quad \frac{1 - x^{m - 1}}{1 - x^2} = \frac{1 - r^{-2}}{1 - r^2} = -r^{-2} \cdots, \]
+
+hence, so long as $0 \leqq \nu \leqq m$,
+
+\[ (m, \nu) = (-1)^{\nu} r^{-(1 + 2 + \cdots + \nu)} = (-1)^{\nu} r^{-\frac{\nu(\nu + 1)}{2}}, \]
+
+or, replacing $r$ by $r^{-2}$,
+
+\[ (m, \nu) = (-1)^{\nu} r^{\nu^2 + \nu}. \]
+
+Now
+
+\[ \nu^2 + \nu \equiv \nu^2 - (n - 1) \nu \equiv \left( \nu - \frac{n - 1}{2} \right)^2 - \left( \frac{n - 1}{2} \right)^2 \ (\mathrm{mod}\ n), \]
+
+hence
+
+\[ (m, \nu) = (-1)^{\nu} r^{-\frac{m^2}{4}} r^{\left( \nu - \frac{m}{2} \right)^2}, \]
+
+and it therefore becomes, by the defining equation (10),
+
+\[ f(r^{-2}, m) = r^{-\frac{m^2}{4}} \Sigma r^{\left( \nu - \frac{m}{2} \right)^2}, \]
+
+in which $\nu$ runs through a complete system of residues with respect to the modulus $n$.
+Now simultaneously with $\nu$, $\nu - {}^1/_2 m$ also runs through such a
+system of residues, so that we may also write
+
+\[ f(r^{-2}, m) = r^{-\frac{m^2}{4}} \Sigma r^{\nu^2} \]
+%CONT>>

@@ -1,0 +1,33 @@
+% !PRINTED 696
+\weberpage{696}
+Der Beweis ist durch Zurückführung auf ein Integral sehr einfach zu führen. Offenbar ist nämlich
+\[
+\frac{1}{(n+1)^s} < \int\limits_n^{n+1} \frac{dx}{x^s} < \frac{1}{n^s},
+\]
+weil sich der erste oder der zweite Werth, $(n+1)^{-s}$ oder $n^{-s}$, ergiebt, wenn unter dem Integralzeichen für $x^{-s}$ der zu kleine oder der zu grosse Werth $(n+1)^{-s}$ oder $n^{-s}$ gesetzt wird.
+
+Demnach ergiebt sich aus (3) für jedes positive $s$
+\[
+\alpha^s \int\limits_n^{n+1} \frac{dx}{x^s} < \frac{1}{\mu_n^s} < \beta^s \int\limits_{n-1}^n \frac{dx}{x^s}.
+\]
+Setzen wir
+\[
+R_m = \frac{1}{\mu_{m+1}^s} + \frac{1}{\mu_{m+2}^s} + \frac{1}{\mu_{m+3}^s} + \cdots,
+\]
+so ergiebt sich hieraus
+\[
+\alpha^s \int\limits_{m+1}^{\infty} \frac{dx}{x^s} < R_m < \beta^s \int\limits_m^{\infty} \frac{dx}{x^s}
+\]
+oder
+\weq{4}{\dfrac{\alpha^s}{(s-1)(m+1)^{s-1}} < R_m < \dfrac{\beta^s}{(s-1)\,m^{s-1}}.}
+
+Es bleibt also $R_m$, wie viele Glieder auch summirt werden mögen, wenn $s > 1$ ist, endlich, und dies ist bei Reihen mit positiven Gliedern eine ausreichende Bedingung für die Convergenz.
+
+Setzt man ferner (4) in die Form
+\[
+\frac{\alpha^s}{(m+1)^{s-1}} < (s-1)\,R_m < \frac{\beta^s}{m^{s-1}},
+\]
+so sieht man, dass die beiden Grenzen beliebig nahe an $\alpha, \beta$ gebracht werden können, wenn man $s-1$ klein genug annimmt, und daraus ergiebt sich, dass $(s-1)\,R_m$ bei hinlänglich kleinem $s-1$ nicht mehr ausserhalb der Grenzen $\alpha, \beta$ liegen kann, wenn es sich nicht mit abnehmendem $s-1$ einem dieser Werthe unbegrenzt annähert. Da sich nun $R_m$ von $S$ nur durch einen Bestandtheil unterscheidet, der für jedes positive $s$ endlich ist, so ist der Satz hiermit bewiesen.
+
+Es gilt der Satz aber auch dann noch, wenn die Ungleichheit (3) nicht für alle $n$ gilt, sondern wenn sie nur besteht, sobald $n$ eine beliebig gegebene Grenze $m$ überschritten hat. Auf
+%CONT>>

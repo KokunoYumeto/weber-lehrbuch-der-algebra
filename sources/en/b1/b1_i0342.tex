@@ -1,0 +1,50 @@
+% !PRINTED 317
+\weberpage{317}
+%<<CONT
+many ways, and in particular have rendered good service in the
+Tschirnhausen transformation.
+
+We defined these functions in \S.\,4 by
+\[
+\begin{aligned}
+f_0(x) &= 1\\
+f_1(x) &= x+a_1\\
+f_2(x) &= x^2+a_1x+a_2\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+f_{n-1}(x) &= x^{n-1}+a_1x^{n-2}+a_2x^{n-3}+\cdots+a_{n-1}\\
+f(x)=f_n(x) &= x^n+a_1x^{n-1}+a_2x^{n-2}+\cdots+a_{n-1}x+a_n.
+\end{aligned}
+\]
+and for them set up the recursion formula
+\[
+f_v(x)-xf_{v-1}(x)=a_v.
+\]
+One now has, as has already been shown in the place cited,
+\weq{3}{f(x)=(x-\alpha)\left[x^{n-1}f_0(\alpha)+x^{n-2}f_1(\alpha)+\cdots+f_{n-1}(\alpha)\right]+f(\alpha).}
+A glance at this formula shows that if $\alpha$ is a number which makes
+the functions
+\weq{4}{f_0(\alpha),\ f_1(\alpha),\ f_2(\alpha)\ldots f_{n-1}(\alpha),\ f(\alpha)}
+positive, then no positive $x$ greater than $\alpha$ can exist which
+makes $f(x)$ zero, since in that case nothing but positive terms stand
+on the right-hand side of (3).
+
+If, then, a positive $\alpha$ is so determined that the functions
+(4) are all positive, this is an upper limit for the positive
+roots of $f(x)$.
+
+In the same way one obtains a lower limit $-\beta$ for the negative roots,
+if one determines the positive quantity $\beta$ so that
+\weq{5}{f_0(-\beta),\ -f_1(-\beta),\ f_2(-\beta),\ \ldots (-1)^n f(-\beta)}
+all become positive.
+
+This determination of the limits is indeed simpler to handle in
+calculation, but under some circumstances it gives less accurate limits than
+the \gesperrt{Newton} determination.
+
+For if one differentiates (3) repeatedly with respect to $x$ and then
+sets $x=\alpha$, one obtains, under the assumption that the
+quantities (4) are all positive, for the derivatives $f'(x)f''(x)\ldots$
+expressions which for $x=\alpha$ consist of nothing but positive terms.
+If, then, the expressions (4) are positive, the derivatives (1) are
+also necessarily all positive, while the converse is not
+necessarily the case.

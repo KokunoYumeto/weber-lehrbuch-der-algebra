@@ -1,0 +1,59 @@
+% !PRINTED 665
+\weberpage{665}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% \S.\,182. \hfill \gesperrt{Proof of the Lemmas.} \hfill 665
+
+In order to form $S_n$, we multiply this equation by $t_1'$ and sum.
+This gives
+
+\[
+S_n \equiv \sum^{t_1'} t_1' \sum^{t_2} E\left(\frac{n t_2}{m}\right)
++ \sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right) \pmod q.
+% [source sic: the denominator m repeats the source's m-for-m' error from the preceding leaf]
+\]
+
+Now here $\sum t_1' = \sum t_1 \equiv 0 \pmod q$, because the $t_1$
+yield in pairs the sum $q$, and it follows:
+
+\weq{15}{S_n \equiv \sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right) \pmod q.}
+
+The sum that stands here on the right side is formed in just the same
+way as $S_n$ itself in the case where $m$ is a prime. For this case,
+however, we obtain
+
+\[
+\frac{n t_1}{q} = E\left(\frac{n t_1}{q}\right) + \left(\frac{n t_1}{q}\right)
+\]
+\[
+\frac{(q-n) t_1}{q} = E\left(\frac{(q-n) t_1}{q}\right) + \left(\frac{(q-n) t_1}{q}\right),
+\]
+
+and from this, by addition,
+
+\[
+t_1 = E\left(\frac{n t_1}{q}\right) + E\left(\frac{(q-n) t_1}{q}\right)
++ \left(\frac{n t_1}{q}\right) + \left(\frac{(q-n) t_1}{q}\right),
+\]
+
+and here the sum of the two positive proper fractions, which must after
+all be an integer, can only have the value 1. Hence it follows
+
+\[
+E\left(\frac{n t_1}{q}\right) + E\left(\frac{(q-n) t_1}{q}\right) = t_1 - 1,
+\]
+
+and from this, by multiplication by $t_1'$ and summation over all
+values of $t_1$ from 1 to $q - 1$,
+
+\[
+\sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right)
++ \sum^{t_1} t_1' E\left(\frac{(q-n) t_1}{q}\right) \equiv -1 \pmod q.
+\]
+
+Consequently the two sums on the left side can certainly not both be
+divisible by $q$. The expression (15) then shows that of the two sums
+$S_n$ and $S_{q-n}$ one is certainly not divisible by $q$.
+
+But this was what was to be proved.

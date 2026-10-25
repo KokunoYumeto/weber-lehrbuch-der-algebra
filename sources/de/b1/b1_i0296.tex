@@ -1,0 +1,24 @@
+% !PRINTED 271
+\weberpage{271}
+%<<CONT
+darum handeln, die Anzahl der \gesperrt{positiven Wurzeln} einer Gleichung $f(x) = 0$ zu ermitteln. Setzen wir $x = y^2$, so wird jedem reellen Werth von $y$ ein positiver Werth von $x$ entsprechen, und umgekehrt entsprechen jedem positiven Werth von $x$ zwei reelle, entgegengesetzte Werthe von $y$. % Source-original edge case: y=0 gives x=0, not a positive value, so the halving statement needs f(0) != 0 (or separate treatment of the zero root); the print is preserved.
+\gesperrt{Die Anzahl der positiven Wurzeln von $f(x) = 0$ ist also halb so gross, als die Anzahl der reellen Wurzeln von $f(y^2) = 0$.} Setzen wir ferner
+\[
+y = \frac{x - a}{b - x},
+\]
+% F(z^2) is correct: after f(x) has been transformed into F(y), the new substitution y=z^2 converts positive y-roots into pairs of real z-roots.
+so wird, während $x$ von $a$ bis $b$ geht, $y$ durch positive Werthe von $0$ bis Unendlich gehen, und wenn wir durch diese Substitution $f(x)$ in $F(y)$ transformiren, so wird $f(x) = 0$ ebenso viele Wurzeln zwischen $a$ und $b$ haben, als $F(y) = 0$ positive Wurzeln hat, mithin halb so viel als $F(z^2) = 0$ reelle Wurzeln hat. Unsere Aufgabe ist also dadurch in der That auf die Ermittelung der Anzahl der reellen Wurzeln einer gewissen anderen Gleichung zurückgeführt, deren Grad doppelt so gross ist, als der Grad der gegebenen Gleichung. Diese Zurückführung des Problems giebt aber seine Lösung nicht in der einfachsten Form, und wir müssen nach einer einfacheren Beantwortung der Frage suchen.
+
+\begin{center}
+\S.\,86.
+
+\gesperrt{Die Sturm'schen Ketten.}
+\end{center}
+
+Zu einer Lösung des Problems, das wir uns im vorigen Paragraphen gestellt haben, führt uns folgende Betrachtung.
+
+Es seien $\alpha$ und $\beta$ irgend zwei reelle Zahlen und $\alpha < \beta$. Es sei ferner $f(x)$ eine gegebene ganze rationale Function von $x$, von der ermittelt werden soll, wie viele ihrer Wurzeln in dem Intervall $\Delta$
+\[
+\alpha < x < \beta
+\]
+liegen. Wir nehmen an, dass $\alpha$, $\beta$ nicht selbst zu den Wurzeln von $f(x) = 0$ gehören, dass also $f(\alpha)$ und $f(\beta)$ von Null verschieden sind. Ausserdem wollen wir noch fürs erste annehmen, dass $f(x)$, wenigstens in dem Intervall $\Delta$, keine mehrfache Wurzel habe, dass also für keinen Werth des Intervalls $f(x)$ und $f'(x)$ zugleich verschwinden sollen.

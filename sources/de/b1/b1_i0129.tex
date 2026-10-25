@@ -1,0 +1,41 @@
+% !PRINTED 104
+\weberpage{104}
+
+\noindent IV. \gesperrt{$f(x)$ wird zugleich mit $x$ unendlich gross.}
+\medskip
+
+Das will sagen, wenn $C$ eine beliebig gegebene positive Zahl ist, so kann man die positive Zahl $R$ so wählen, dass
+\[
+ |f(x)|>C
+\]
+wird, sobald der absolute Werth von $x$ grösser als $R$ wird; oder geometrisch ausgedrückt: man kann in der $x$-Ebene einen Kreis um den Nullpunkt so beschreiben, dass ausserhalb dieses Kreises der absolute Werth von $f(x)$ nicht mehr unter $C$ herabsinkt, wie gross auch $C$ angenommen ist. Der Satz ist einleuchtend für den Fall einer einfachen Potenz $x^n$; denn ist $r$ der absolute Werth von $x$, so ist $r^n$ der absolute Werth von $x^n$, und $r^n$ ist, sobald $r$ grösser als $1$ geworden ist, grösser als $r$ und wächst also mit $r$ ins Unendliche.
+
+Um den Satz allgemein zu beweisen, bezeichnen wir die absoluten Werthe von $x,a_0,a_1,a_2,\ldots,a_n$ mit $r,c_0,c_1,c_2,\ldots,c_n$. Dann ist
+\begin{equation}
+ |f(x)|=r^n\left|a_0+\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|,
+\tag{2}% [sic] Weber's S31 hat KEINE Formel (1): die Eroeffnungsformel f(x)=a_0x^n+..+a_n ist im Druck UNNUMMERIERT (ZOOM p103, leerer linker Rand), erste nummerierte Formel ist (2) (ZOOM p104, "(2)" am linken Rand). Weber beginnt S31 bei (2). Quellentreu reproduziert (Eroeffnung untagged, erster tag (2)); NICHT zu (1) umnummeriert. Von tag_gaps_full (MISSING 1) entdeckt, als Weber-Quirk verifiziert (KEIN Swarm-Schaden).
+\end{equation}
+und, weil nach den in der Einleitung bewiesenen Sätzen der absolute Werth einer Summe nicht kleiner als die Differenz und nicht grösser als die Summe der absoluten Werthe der Summanden sein kann,
+\[
+\left|a_0+\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|
+\ge c_0-\left|\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|
+\ge c_0-\frac{c_1}{r}-\frac{c_2}{r^2}-\cdots-\frac{c_n}{r^n}.
+\]
+Da die $c_0,c_1,\ldots,c_n$ fest gegebene Constanten sind, so kann man $R$ so gross wählen, dass, sobald $r>R$ ist,
+\[
+ \frac{c_1}{r}+\frac{c_2}{r^2}+\cdots+\frac{c_n}{r^n}
+\]
+beliebig klein, z. B. kleiner als $\tfrac12c_0$ wird; dann ist
+\[
+ \left|a_0+\frac{a_1}{x}+\frac{a_2}{x}+\cdots+\frac{a_n}{x^n}\right|>\tfrac12c_0,% [sic] Weber druckt hier a_2/x (OHNE Exponent 2); die Formel (2) und die >=-Kette oben zeigen korrekt a_2/x^2 (ZOOM p104). Isolierter Druckfehler NUR in dieser Zeile; quellentreu reproduziert, NICHT zu x^2 korrigiert.
+\]
+und also nach (2)
+\[
+ |f(x)|>\tfrac12c_0R^n,
+\]
+also, wenn man
+\[
+ R^n>\frac{2C}{c_0}
+\]
+annimmt,
+%CONT>>

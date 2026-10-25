@@ -1,0 +1,42 @@
+% !PRINTED 559
+\weberpage{559}
+
+%<<CONT
+\[
+\begin{aligned}
+(a_{0,0} - \eta)\,\eta + &\ a_{1,0}\eta_1 + \cdots \hspace{2em} a_{e-1,0}\eta_{e-1} = 0 \\
+a_{0,1}\eta \ + &\ (a_{1,1} - \eta)\eta_1 + \cdots \hspace{2em} a_{e-1,1}\eta_{e-1} = 0 \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+a_{0,e-1} \ + &\ a_{1,e-1}\eta_1 + \cdots (a_{e-1,e-1} - \eta)\eta_{e-1} = 0,
+\end{aligned}
+\]
+% [sic] The printed last row omits the factor \eta after a_{0,e-1}; retained diplomatically although the parallel rows require it.
+one sees, since the $\eta, \eta_1 \ldots \eta_{e-1}$ do not vanish, that the determinant of this system must be zero, hence
+
+\weq{17}{\begin{vmatrix} a_{0,0}-\eta, & a_{1,0}, & \ldots & a_{e-1,0} \\ a_{0,1}, & a_{1,1}-\eta, & \ldots & a_{e-1,1} \\ \cdots & \cdots & \cdots & \cdots \\ a_{0,e-1}, & a_{1,e-1}, & \ldots & a_{e-1,e-1}-\eta \end{vmatrix} = 0,}
+
+which, if one writes $x$ for $\eta$, must agree, apart from the sign, with $F_e(x)$.
+
+\gesperrt{The function $F_e(x)$ therefore has not merely rational, but integer coefficients.}
+
+% [sic] authority says that r is indeterminate here, although the displayed polynomial has indeterminate x and r is one of its roots.
+One can now also form the equation of degree $f$ whose roots are $r, r_e, r_{2e} \ldots r_{(f-1)e}$; for, for an indeterminate $r$,
+
+\weq{18}{\Phi_e(x) = (x - r)(x - r_e) \cdots (x - r_{(f-1)e})}
+
+is a function in the field $R(\eta)$. Its coefficients can easily be computed from the \gesperrt{Newton} formulae, by which the coefficients of an equation are expressed by means of the power sums of the roots (\S.\,42). For by (12) and (3) we have
+\[
+r^{g^h} + r_e^{g^h} + \cdots + r_{(f-1)e}^{g^h} = \eta_h,
+\]
+and this is thus directly equal to one of the power sums, and every power sum is equal to one of the periods.
+
+But the equation (18) can be treated in just the same way as the equation (2); for the group of $\Phi_e(x) = 0$ is precisely $C_e$, and if $e'$ is a divisor of $f$, say $f = e'f'$, then $C_{ee'}$ is a divisor of $C_e$. But to $C_{ee'}$ belongs the period
+\[
+\eta' = r + r_{ee'} + r_{2ee'} + \cdots + r_{(f'-1)ee'},
+\]
+which therefore depends on an equation of degree $e'$ in the field $R(\eta)$.
+
+If one takes the numbers $e, e' \ldots$ to be primes, then the sequence of resolvents consists of a sequence of equations whose degrees are the prime factors of $n - 1$.
+
+As for the group of the equation of degree $e$ whose roots are the $e$ quantities $\eta$, we find this very simply
+%CONT>>

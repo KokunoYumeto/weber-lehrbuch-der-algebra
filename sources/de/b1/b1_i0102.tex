@@ -1,0 +1,45 @@
+% !PRINTED 77
+\weberpage{77}
+
+\begin{center}
+{\large \S.\ 23.}
+
+\vspace{0.5em}
+{\large\gesperrt{Die Unterdeterminanten im weiteren Sinne.}}
+\end{center}
+
+Wir können nun die Betrachtungen des vorigen Paragraphen in folgender Weise verallgemeinern.  Wie wir vorhin von der Aufgabe ausgegangen sind, alle Glieder in der entwickelten Determinante \(A\) aufzusuchen, die den Factor \(a_1^{(1)}\) enthalten, so wollen wir jetzt alle die Glieder aufsuchen, die den Factor
+\[
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)}
+\]
+enthalten, worin \(\nu\) eine beliebige Zahl unter \(n\) sein kann.  Diese Glieder erhalten wir aus dem Hauptgliede
+\[
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)}a_{\nu+1}^{(\nu+1)}\cdots a_n^{(n)},
+\]
+wenn wir bei der Permutation der unteren Indices \(1,2,\ldots,\nu\) ungeändert lassen und nur \(\nu+1,\ldots,n\) auf alle Arten permutiren unter Berücksichtigung der Vorzeichenregel.  Demnach ist der Inbegriff der gesuchten Glieder
+\begin{equation}
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)}
+        \begin{vmatrix}
+        a_{\nu+1}^{(\nu+1)}&\cdots&a_n^{(\nu+1)}\\
+        \vdots&&\vdots\\
+        a_{\nu+1}^{(n)}&\cdots&a_n^{(n)}
+        \end{vmatrix}.
+\tag{1}
+\end{equation}
+
+\gesperrt{I. Die hier als Factor auftretende Determinante von \(n-\nu\) Reihen, die wir mit}
+\[
+        A_{1,2,\ldots,\nu}^{1,2,\ldots,\nu}
+\]
+\gesperrt{bezeichnen, entsteht aus \(A\) durch Weglassen der \(\nu\) ersten Zeilen und Colonnen.}
+
+Dieses Resultat wollen wir nun auf folgende Art verallgemeinern:
+
+Wir wählen irgend \(\nu\) Elemente
+\[
+        a_{\alpha_1}^{(\beta_1)},
+        a_{\alpha_2}^{(\beta_2)},\ldots,
+        a_{\alpha_\nu}^{(\beta_\nu)}
+\]
+aus, jedoch so, dass nicht zwei Elemente in derselben Zeile oder in derselben Colonne vorkommen, d.~h. so, dass nicht zweimal derselbe untere oder derselbe obere Index vorkommt, und bezeichnen den Inbegriff der Glieder der Determinante, die das Product dieser Elemente als Factor enthalten, mit
+%CONT>>

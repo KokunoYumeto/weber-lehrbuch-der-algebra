@@ -1,0 +1,46 @@
+% !PRINTED 770
+\weberpage{770}
+
+Ist $p$ eine in $n$ aufgehende Primzahl, so ist
+\weq{3}{\frac{x^n-1}{x^{\frac{n}{p}}-1} = x^{\frac{n}{p}(p-1)} + x^{\frac{n}{p}(p-2)} + \cdots + x^{\frac{n}{p}} + 1,}
+und diese Function verschwindet für $x=\alpha, \beta, \gamma, \dots$ und ist
+daher durch $f_n(x)$ theilbar. Wir wollen sie $= f_n(x)\, g(x)$ setzen,
+worin dann $g(x)$ (nach Bd. I, \S.\,2) eine ganze Function von $x$
+mit ganzzahligen Coëfficienten ist.
+
+Ist nun
+\[
+n = p^k n',
+\]
+$n'$ nicht mehr durch $p$ theilbar, und $\alpha'$ eine primitive $n'^{\mathrm{te}}$ Einheitswurzel, so ist
+\[
+\alpha'^{\frac{n}{p}} = 1,
+\]
+und folglich, wenn man $x = \alpha'$ setzt [nach (3)]:
+\weq{4}{f_n(\alpha')\, g(\alpha') = p.}
+
+Wir leiten hieraus zunächst einen Beweis für die Irreducibilität von $f_n(x)$ unter der Voraussetzung ab, dass $n$ eine
+\gesperrt{Primzahlpotenz} ist, wenn auch für diesen Fall der in Bd. I,
+\S.\,134 gegebene Beweis einwandsfrei ist.
+
+Angenommen, es zerfalle $f_n(x)$ in zwei rationale Factoren:
+\weq{5}{f_n(x) = \varphi(x)\, \psi(x).}
+
+Dann sind alle Wurzeln, sowohl von $\varphi(x)$ als von $\psi(x)$,
+$n^{\mathrm{te}}$ Einheitswurzeln, und ihre $n^{\mathrm{ten}}$ Potenzen also gleich 1. Wenn
+nun $n = p^k$ ist, so können wir aus $\varphi(x)$ und $\psi(x)$ zwei ganze
+Functionen $\Phi(x)$, $\Psi(x)$ ableiten, deren Wurzeln die $n^{\mathrm{ten}}$ Potenzen der Wurzeln von $\varphi(x)$ und $\psi(x)$ sind und die daher alle
+gleich 1 sind, und aus (2) ergiebt sich:
+\[
+\varphi(x) \equiv \Phi(x), \quad \psi(x) \equiv \Psi(x) \ (\mathrm{mod}\ p),
+\]
+woraus für $x = 1$ folgt:
+\[
+\varphi(1) \equiv 0, \quad \psi(1) \equiv 0 \ (\mathrm{mod}\ p).
+\]
+Hiernach ergiebt sich aus (5):
+\weq{6}{f_n(1) \equiv 0 \ (\mathrm{mod}\ p^2).}
+
+Nun ist aber in diesem Falle $f_n(1) = p$ (Bd. I, \S.\,133, V.),
+was der Formel (6) widerspricht. Unsere Annahme war also
+unzulässig und $f_n(x)$ ist irreducibel.

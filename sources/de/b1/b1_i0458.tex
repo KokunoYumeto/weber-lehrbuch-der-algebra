@@ -1,0 +1,44 @@
+% !PRINTED 433
+\weberpage{433}
+\weq{1}{\cos n\varphi + i\sin n\varphi = (\cos\varphi + i\sin\varphi)^n,}
+und wenn wir auf der rechten Seite den binomischen Satz anwenden, so folgt durch Trennung des Reellen vom Imagin\"aren
+\[
+\begin{aligned}
+\cos n\varphi &= \cos^n\varphi - B_2^{(n)}\cos^{n-2}\varphi\sin^2\varphi\\
+&\quad + B_4^{(n)}\cos^{n-4}\varphi\sin^4\varphi - \cdots
+\end{aligned}
+\]
+\weq{2}{
+\begin{aligned}
+\frac{\sin n\varphi}{\sin\varphi} &= n\cos^{n-1}\varphi - B_3^{(n)}\cos^{n-3}\varphi\sin^2\varphi\\
+&\quad + B_5^{(n)}\cos^{n-5}\varphi\sin^4\varphi - \cdots
+\end{aligned}
+}
+worin $B_\nu^{(n)}$ wie fr\"uher die Binomialco\"efficienten sind, und die Summen auf der rechten Seite so weit fortzusetzen sind, als keine negativen Exponenten von $\cos\varphi$ vorkommen. Da nun $\sin^2\varphi = 1 - \cos^2\varphi$ ist, so lassen sich diese beiden Ausdr\"ucke rational durch $\cos\varphi$ darstellen; wir setzen
+\weq{3}{2\cos\varphi = x,}
+und f\"uhren die Bezeichnung ein
+\weq{4}{2\cos n\varphi = A_n(x), \qquad \frac{\sin n\varphi}{\sin\varphi} = B_n(x),}
+worin also $A_n(x)$ und $B_n(x)$ ganze rationale Functionen von $x$ sind, $A_n(x)$ vom Grade $n$, $B_n(x)$ vom Grade $n-1$. Wir wollen das allgemeine Gesetz dieser Functionen ermitteln. Wir stellen sie f\"ur die ersten Werthe $n = 1, 2, 3\ldots$ auf, und leiten dann eine Recursionsformel zur Berechnung der h\"oheren Functionen ab. Man findet
+\weq{5}{
+\begin{aligned}
+A_1(x) &= x & B_1(x) &= 1\\
+A_2(x) &= x^2 - 2, & B_2(x) &= x\\
+A_3(x) &= x^3 - 3x, & B_3(x) &= x^2 - 1.
+\end{aligned}
+}
+Nun ist aber nach bekannten Formeln
+\[
+\begin{aligned}
+\cos(n+1)\varphi + \cos(n-1)\varphi &= 2\cos\varphi\cos n\varphi\\
+\sin(n+1)\varphi + \sin(n-1)\varphi &= 2\cos\varphi\sin n\varphi,
+\end{aligned}
+\]
+woraus f\"ur $A_n$ und $B_n$ die Recursionsformeln folgen:
+\weq{6}{
+\begin{aligned}
+A_{n+1}(x) &= x A_n(x) - A_{n-1}(x),\\
+B_{n+1}(x) &= x B_n(x) - B_{n-1}(x).
+\end{aligned}
+}
+Daraus kann man $A_n$, $B_n$ f\"ur jedes beliebige $n$ berechnen, wenn diese Functionen f\"ur $n = 1$ und $n = 2$ bekannt sind. So findet man
+%CONT>>

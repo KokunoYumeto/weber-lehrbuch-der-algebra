@@ -1,0 +1,54 @@
+% !PRINTED 429
+\weberpage{429}
+
+Wir wollen beweisen, dass für jede Primzahl $n$ primitive Wurzeln existiren
+und ihre Anzahl bestimmen, und gehen dabei denselben Weg, wie bei den
+Einheitswurzeln.
+
+Es seien $a$ und $b$ zwei Theiler von $n-1$, die unter sich relativ prim
+sind, und $\alpha$ eine $a^{\mathrm{te}}$, $\beta$ eine $b^{\mathrm{te}}$
+primitive Congruenzwurzel von $n$. Setzen wir $ab=c$, so ist
+$\gamma=\alpha\beta$ eine primitive $c^{\mathrm{te}}$ Congruenzwurzel, und
+umgekehrt lässt sich auch jede primitive $c^{\mathrm{te}}$ Congruenzwurzel
+in der Form $\alpha\beta$ darstellen.
+
+Denn es ist erstens: $(\alpha\beta)^c = \alpha^c\beta^c \equiv 1 \pmod{n}$,
+und zweitens: wenn $(\alpha\beta)^h = \alpha^h\beta^h \equiv 1 \pmod{n}$
+ist, so ist auch $\alpha^{hb}\beta^{hb}\equiv 1$, also $\alpha^{hb}\equiv 1$,
+also $hb$ durch $a$ theilbar, also auch $h$ durch $a$ theilbar, und ebenso
+schliesst man, dass $h$ durch $b$, also auch durch $ab=c$ theilbar sein
+muss; d.\,h. $\alpha\beta$ ist primitive $c^{\mathrm{te}}$
+Congruenzwurzel.
+
+Ist umgekehrt $\gamma$ eine primitive $c^{\mathrm{te}}$ Congruenzwurzel, so
+bestimmen wir die positiven ganzen Zahlen $x, y$ so, dass
+\weq{10}{a y + b x \equiv 1 \pmod{c}}
+wird, indem wir zunächst $x$ aus $bx \equiv 1 \pmod{a}$ und dann $y$ aus
+$y \equiv \dfrac{1-bx}{a} \pmod{b}$ bestimmen. Dann ist $y$ relativ prim
+zu $b$ und $x$ relativ prim zu $a$. Hiernach ist
+\[
+\gamma \equiv \gamma^{bx}\gamma^{ay} = \alpha\beta \pmod{n}
+\]
+und $\gamma^{bx} = \alpha$ ist primitive $a^{\mathrm{te}}$
+Congruenzwurzel, $\gamma^{ay} = \beta$ primitive $b^{\mathrm{te}}$
+Congruenzwurzel (weil $\alpha^h = \gamma^{bxh}$ nur dann $\equiv 1$ sein
+kann, wenn $h$ durch $a$ theilbar ist).
+
+Es ist noch zu zeigen, dass die Producte $\alpha\beta$ alle von einander
+verschieden sind, d.\,h. dass die Congruenz
+\weq{11}{\alpha\beta \equiv \alpha'\beta' \pmod{n},}
+wenn $\alpha, \alpha'$; $\beta, \beta'$ primitive $a^{\mathrm{te}}$ und
+$b^{\mathrm{te}}$ Congruenzwurzeln sind, nur befriedigt werden kann, wenn
+\[
+\alpha \equiv \alpha', \quad \beta \equiv \beta' \pmod{n}
+\]
+ist. Dies folgt aber nach (10), wenn man (11) in die Potenz
+\[
+bx \equiv 1 \pmod{a}
+\]
+erhebt, woraus sich $\alpha \equiv \alpha'$ ergiebt, und dann auch
+$\beta \equiv \beta'$.
+
+Bezeichnen wir also die Anzahl der primitiven $a^{\mathrm{ten}}$
+Congruenzwurzeln mit $\varphi(a)$, so folgt aus dem Bewiesenen
+\weq{12}{\varphi(c) = \varphi(a)\varphi(b).}

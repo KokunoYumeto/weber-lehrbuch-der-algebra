@@ -1,0 +1,45 @@
+% !PRINTED 611
+\weberpage{611}
+%<<CONT
+auszuschliessen ist, weil sonst ja durch (3) alle verschiedenen $z$ in dasselbe $b$
+übergehen, also gar keine Permutation der Grössen $x_z$ ausgedrückt wäre. Ist aber $a$
+von 0 verschieden $(\mathrm{mod}\ n)$, so wird durch (3) immer eine Permutation
+dargestellt sein, weil dann nur, wenn $z \equiv z'$ ist, $az+b \equiv az'+b$ sein kann.
+Wir nennen (3) eine Substitution für $z$, die unter den $x$ eine Permutation
+hervorbringt. Die Anzahl der verschiedenen linearen Substitutionen von der Form (3)
+ist $n(n-1)$. Ihnen entsprechen ebenso viele verschiedene Permutationen unter den $x$;
+denn es kann nur dann für jedes $z$
+\[ az + b \equiv a'z + b' \, (\mathrm{mod}\ n) \]
+sein, wenn $b \equiv b'$ (aus $z = 0$ zu schliessen) und $a \equiv a'$ (aus $z = 1$ zu
+schliessen).
+
+Die Gesammtheit der Permutationen, die durch (3) dargestellt sind, bildet eine Gruppe;
+denn es seien
+\[ \lambda = (z,\ az+b), \qquad \lambda' = (z,\ a'z+b') \]
+zwei von diesen Permutationen, so ist
+\[
+\lambda \lambda' =
+\begin{pmatrix} x_z \\ x_{az+b} \end{pmatrix}
+\begin{pmatrix} x_z \\ x_{a'z+b'} \end{pmatrix}
+=
+\begin{pmatrix} x_z \\ x_{a'(az+b)+b'} \end{pmatrix},
+\]
+also
+\weq{4}{\lambda \lambda' = \lambda'' = (z,\ aa'z + a'b + b'),}
+was wieder von der Form $(z, a''z+b'')$ ist.
+
+Die durch alle Substitutionen von der Form (3) gebildete Gruppe, die eine
+Verallgemeinerung der cyklischen Gruppe (2) ist, wollen wir eine
+\gesperrt{lineare Gruppe} nennen\footnote{\gesperrt{Kronecker} nennt nur diese Gruppe
+metacyklisch.}; die in ihr enthaltenen Permutationen sollen
+lineare Permutationen heissen.
+
+In der linearen Gruppe sind verschiedene Divisoren enthalten. Wir finden darunter eine
+Gruppe vom Grade $n-1$, nämlich $(z, az)$, die selbst wieder Divisoren haben kann.
+
+Die Compositionsregel (4) zeigt, wie wir alle Divisoren der linearen Gruppe bilden
+können. Ist $\lambda = (z, az+b)$ eine lineare Substitution, so ergiebt sich nach (4)
+durch Wiederholung für jeden Exponenten $h$
+\[ \lambda^h = [z,\ a^h z + (1 + a + \cdots + a^{h-1})b], \]
+und für $a = 1$
+\[ \lambda^h = (z,\ z + hb). \]

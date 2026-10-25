@@ -1,0 +1,48 @@
+% !PRINTED 694
+\weberpage{694}
+\begin{center}
+§. 191.
+
+\gesperrt{Theorems from the theory of series.}
+\end{center}
+
+For the further applications of the results obtained hitherto, certain theorems from the theory of infinite series are required, and these shall first be derived here.
+
+1. \gesperrt{If $a_1, a_2, a_3, \ldots, a_n\ldots$ is an unlimited system of real (positive, negative, or also vanishing) quantities, of which we assume that the sum}
+
+\weq{1}{\sigma_n = a_1+a_2+\cdots+a_n}
+
+\gesperrt{remains, for every arbitrary $n$, in absolute value below a finite limit $C$, then the series}
+
+\weq{2}{S = \frac{a_1}{1^s}+\frac{a_2}{2^s}+\frac{a_3}{3^s}+\cdots}
+
+\gesperrt{is, for every positive $s$, not only convergent, but also a continuous function of $s$.}
+
+To prove this theorem, we decompose $S$ in the following way:
+\[
+S = S_m+R_m,
+\]
+in which
+\[
+S_m = \frac{a_1}{1^s}+\frac{a_2}{2^s}+\cdots+\frac{a_{m-1}}{(m-1)^s},
+\]
+\[
+R_m = \frac{a_m}{m^s}+\frac{a_{m+1}}{(m+1)^s}+\frac{a_{m+2}}{(m+2)^s}+\cdots
+\]
+Now by (1):
+\[
+a_m = \sigma_m-\sigma_{m-1}, \quad a_{m+1}=\sigma_{m+1}-\sigma_m, \quad a_{m+2}=\sigma_{m+2}-\sigma_{m+1}, \ldots
+\]
+and therefore
+\[
+\begin{aligned}
+R_m+\frac{\sigma_{m-1}}{m^s}
+&= \sigma_m\left(\frac{1}{m^s}-\frac{1}{(m+1)^s}\right) \\
+&\quad +\sigma_{m+1}\left(\frac{1}{(m+1)^s}-\frac{1}{(m+2)^s}\right)+\cdots
+\end{aligned}
+\]
+Since now, by the assumption, $\sigma_{m-1}, \sigma_m, \sigma_{m+1}, \ldots$ are enclosed between finite limits $\pm C$, it follows from this that $R_m+\dfrac{\sigma_{m-1}}{m^s}$ is contained between the two limits
+\[
+\pm C\left(\frac{1}{m^s}-\frac{1}{(m+1)^s}+\frac{1}{(m+1)^s}-\frac{1}{(m+2)^s}+\cdots\right) = \pm\frac{C}{m^s}
+\]
+%CONT>>

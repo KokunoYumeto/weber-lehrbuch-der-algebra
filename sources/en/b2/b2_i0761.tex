@@ -1,0 +1,52 @@
+% !PRINTED 740
+\weberpage{740}
+
+%<<CONT
+$a_{1,1}$ is this odd number. Then we determine a
+second solution:
+\[
+0, a_{2,2}, a_{3,2}, \ldots, a_{\nu-1,2},
+\]
+in which again an odd number, say $a_{2,2}$, occurs. Then we
+determine a third solution:
+\[
+0, 0, a_{3,3}, \ldots, a_{\nu-1,3},
+\]
+and we continue setting to zero as long as the number of the
+unknowns still remaining is greater than the number of the
+equations.
+
+In the last system, therefore, $\nu'-1$ zeros will occur, so
+that $\nu'$ unknowns remain.
+
+We may take these rows of numbers $a_{\nu,k}$ as the system (20),
+for in it the determinant
+\weq{21}{\Sigma \pm a_{1,1}\, a_{2,2} \ldots a_{\nu',\nu'}}
+reduces to the diagonal term $a_{1,1}\, a_{2,2} \ldots a_{\nu',\nu'}$, whose factors are all
+ odd.
+
+If now the condition in statement 2 is satisfied, the matrix
+(20) can be completed, by the addition of $\nu'-1$ rows, to a
+determinant of $\nu-1$ rows which likewise has an odd integral
+value:
+\weq{22}{a = \Sigma \pm a_{1,1}\, a_{2,2} \ldots a_{\nu',\nu'}\, a_{\nu'+1,\nu'+1} \ldots a_{\nu-1,\nu-1}.}
+
+One need only, when the determinant (21) is assumed to be odd,
+set nothing but zeros for the elements in the added rows, except
+those on the diagonal,
+ $a_{\nu'+1,\nu'+1} \ldots a_{\nu-1,\nu-1}$, which may be taken equal to 1. Then $a$
+receives the same value as the determinant
+ (21).
+
+But if we now form the product $a M$ according to the
+multiplication theorem for determinants, there results a
+determinant in which the $\nu-1$ sums
+\[
+\begin{aligned}
+& \sum\limits_{1,\, \nu-1}^{i} a_{i,s}\, m_{k,i}, \qquad \sum\limits_{1,\, \nu-1}^{i} a_{i,s}\, M_{k,i} \\
+& k = 1, 2, \ldots \nu'-1, \qquad k = 0, 1, 2 \ldots \nu'-1
+\end{aligned}
+\]
+form a row for each value $s = 1, 2, \ldots, \nu'$, and in which
+therefore $\nu'$ rows occur whose elements are all divisible by
+ 2.

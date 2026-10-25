@@ -1,0 +1,34 @@
+% !PRINTED 578
+\weberpage{578}
+
+\begin{center}
+\S.\,158.
+
+\gesperrt{Dedekind's theorem on the field discriminant.}
+\end{center}
+
+The natural primes which divide the discriminant $\Delta$ of the field $\Omega$ have, with regard to their decomposition into prime factors, a special character, concerning which a theorem of \gesperrt{Dedekind} gives the most concise information; to its derivation we now proceed\footnote{\gesperrt{Dedekind}, ``Ueber die Discriminanten endlicher K\"orper'' im XXIX. Bande der Abhandlungen der Gesellschaft der Wissenschaften in G\"ottingen (1882).}.
+
+Following \S.\,145, 2., we form the powers of the basis form
+\[
+\tau = t_1\omega_1 + t_2\omega_2 + \cdots + t_n\omega_n,
+\]
+and obtain the expressions:
+\weq{1}{\tau^k = u_{1,k}\,\omega_1 + u_{2,k}\,\omega_2 + \cdots + u_{n,k}\,\omega_n,}
+in which the $u_{i,k}$ are integral rational functions of the variables $t_1, t_2, \ldots, t_n$. As above, we set
+\weq{2}{F(t) = N(t-\tau),}
+so that $F(\tau)=0$. Now, following \S.\,144, we form the discriminant
+\weq{3}{\Delta(1,\tau,\tau^2,\ldots,\tau^{n-1}) = (-1)^{\frac{n(n-1)}{2}}\, N F'(\tau),}
+for which, according to (1), the value $\Delta U^2$ results, where $\Delta$ is the field discriminant and
+\weq{4}{U = \left|\begin{array}{cccc} u_{1,0}, & u_{2,0}, & \cdots, & u_{n,0} \\ u_{1,1}, & u_{2,1}, & \cdots, & u_{n,1} \\ \cdots & \cdots & \cdots & \cdots \\ u_{1,n-1}, & u_{2,n-1}, & \cdots, & u_{n,n-1} \end{array}\right|,}
+and is thus an integral function in $R$.
+
+We must show that the form $U$ is a unit. Suppose that some prime $p$ divides $U$; then, as was already proved in \S.\,147, we can determine a system of integral functions $y_0, y_1, \ldots, y_{n-1}$ in $R$, \gesperrt{not all divisible by $p$}, in such a way that for $i=1,2,\ldots,n$
+\[
+y_0\, u_{i,0} + y_1\, u_{i,1} + \cdots + y_{n-1}\, u_{i,n-1} \equiv 0\ (\mathrm{mod}\ p)
+\]
+holds. But then from (1) it follows that
+\[
+y_0 + y_1\tau + \cdots + y_{n-1}\tau^{n-1} \equiv 0\ (\mathrm{mod}\ p).
+\]
+%CONT>>

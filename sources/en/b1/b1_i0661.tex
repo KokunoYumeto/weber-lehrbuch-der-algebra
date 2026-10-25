@@ -1,0 +1,62 @@
+% !PRINTED 636
+\weberpage{636}
+%<<CONT
+and then multiply everything, and if we further observe that
+$\varepsilon^{g^{n-1}} = \varepsilon$, then in the product of the
+left-hand sides of the equations (5) all the resolvents except
+$(\varepsilon, x)$ cancel out, and it follows that
+
+\weq{8}{(\varepsilon, x)^{1-g^{n-1}} = f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+If we now denote by $\lambda$ a still undetermined integer
+exponent, we derive from (8) the following relation:
+
+\weq{9}{(\varepsilon^\lambda, x)^n = \left[ (\varepsilon, x)^{\frac{g^{n-1}-1}{n}} (\varepsilon^\lambda, x) \right]^n f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+If we understand by $g_1$ any fixed primitive root of $n$, we
+can set $g = g_1 + l n$, where $l$ denotes an arbitrary integer,
+since the primitive roots are defined only up to multiples of $n$.
+Then
+
+\[
+g^{n-1} \equiv g_1^{n-1} + n(n-1) l g_1^{n-2} \pmod{n^2},
+\]
+
+from which
+
+\[
+\frac{g^{n-1}-1}{n} \equiv \frac{g_1^{n-1}-1}{n} - l g^{n-2} \pmod{n},
+\]
+
+and $l$ can be so determined that
+
+\[
+\frac{g^{n-1}-1}{n} \equiv 1 \pmod{n}
+\]
+
+holds.
+
+In (9) we now set, under this assumption,
+
+\weq{10}{\lambda = \frac{g^{n-1}-1}{n} \equiv 1 \pmod{n},}
+
+and, as in (4),
+
+\weq{11}{F(\varepsilon) = (\varepsilon^\lambda, x)(\varepsilon, x)^{-\lambda} = (\varepsilon, x)^{nk},}
+
+where $\varepsilon^\lambda = \varepsilon$, and $1 - \lambda$, which is
+divisible by $n$, is set $= nk$. From this we obtain
+
+\weq{12}{(\varepsilon, x)^n = [F(\varepsilon)]^n f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+These formulae can be generalised if one observes that the
+functions $f_0, f_1 \ldots f_{n-2}$ undergo a cyclic permutation
+when the substitution $(\varepsilon, \varepsilon^g)$ is carried out.
+If we therefore stipulate that $f_h = f_k$ is to hold when $h \equiv k
+\pmod{n-1}$, and set
+
+\weq{13}{F(\varepsilon^{g^\nu}) = F_\nu = (\varepsilon^{g^\nu}, x)^{nk},}
+
+then the substitution $(\varepsilon, \varepsilon^{g^\nu})$ in (12) yields
+
+\weq{14}{(\varepsilon^{g^\nu}, x)^n = F_\nu^n f_\nu^{g^{n-2}} f_{\nu+1}^{g^{n-3}} \cdots f_{\nu+n-2}.}

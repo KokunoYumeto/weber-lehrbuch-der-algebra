@@ -1,0 +1,62 @@
+% !PRINTED 765
+\weberpage{765}
+%<<CONT
+then the sum
+
+\[
+C_1\,\varphi'(x_1)+\cdots+C_m\,\varphi'(x_m) = C_1\,\chi'(x_1)\,x_1^h+\cdots+C_m\,\chi'(x_m)\,x_m^h
+\]
+
+can certainly not vanish for every exponent $h$, since otherwise, contrary to the assumption, $C_1\,\chi'(x_1)\ldots C_m\,\chi'(x_m)$ would all have to be equal to zero.
+
+Now that the existence of a function $\varphi(x)$ of the kind required has been established in this way, we apply the formula \S.\,205, (12):
+
+% [sic] -- the source prints $P(x)$, although $P$ in \S.\,205, (12) is constant and the deduction below requires it to be independent of $x$.
+\[
+e^x\,P(x) = F(x) + e^{\xi}\,Q(x).
+\]
+
+In it we set $x=z_1, z_2, \ldots, z_m$, and denote the absolute values of $z_1, z_2, \ldots, z_m$ by $\xi_1, \xi_2, \ldots, \xi_m$.
+
+Then it follows from (11):
+
+\weq{15}{0 = C_1\,F(z_1)+C_2\,F(z_2)+\cdots+C_m\,F(z_m)+C_1\,e^{\xi_1}\,Q(z_1)+C_2\,e^{\xi_2}\,Q(z_2)+\cdots+C_m\,e^{\xi_m}\,Q(z_m),}
+
+and, if $f(x)$ is any integral function of degree $n$, we have
+
+\weq{16}{F(z) = f(z)+f'(z)+\cdots+f^{(n)}(z).}
+
+Denoting by $p$ a rational prime that may be taken arbitrarily large, we set $x=cz$ [by (13)] and
+
+\weq{17}{f(z) = \dfrac{\varphi(x)^{p-1}\,\varphi'(x)}{\Pi(p-1)},}
+
+where $\varphi(x)$ is the function satisfying the conditions 1), 2).
+
+Arranging by powers of $(x-x_1)$, we may obtain:
+
+\[
+\varphi(x)^{p-1}\,\varphi'(x) = \varphi'(x_1)^p\,(x-x_1)^{p-1}+A_p(x_1)\,(x-x_1)^p+A_{p+1}(x_1)\,(x-x_1)^{p+1}+\cdots,
+\]
+
+and in this the $A_p(x_1), A_{p+1}(x_1), \ldots$ are integral algebraic numbers, and indeed rational functions of $x_1$. On the other hand, by \gesperrt{Taylor}'s theorem:
+
+\[
+f(z) = f(z_1)+(z-z_1)\,f'(z_1)+\dfrac{(z-z_1)^2}{1\,.\,2}\,f''(z_1)+\cdots
+\]
+
+and $c(z-z_1)=x-x_1$. The comparison then gives
+
+\[
+f(z_1)=0,\ f'(z_1)=0,\ \ldots,\ f^{(p-2)}(z_1)=0,\ f^{(p-1)}(z_1)=c^{p-1}\,\varphi'(x_1)^p,
+\]
+\[
+f^{(p)}(z_1)=p\,c^p\,A_p(x_1),\ f^{(p+1)}(z_1)=p(p+1)\,c^{p+1}\,A_{p+1}(x_1),\ \ldots,
+\]
+
+and consequently
+
+\[
+F(z_1) = c^{p-1}\,\varphi'(x_1)^p+p\,c^p\,A_p(x_1)+p(p+1)\,c^{p+1}\,A_{p+1}(x_1)+\cdots;
+\]
+
+in this, $x_1, z_1$ may be replaced by $x_2, z_2$ or by $x_3, z_3$, and so on.

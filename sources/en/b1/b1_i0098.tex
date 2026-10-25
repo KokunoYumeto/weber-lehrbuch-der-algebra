@@ -1,0 +1,39 @@
+% !PRINTED 73
+\weberpage{73}
+
+The quantities \(A_\nu^{(\mu)}\) thereby completely defined are called the \gesperrt{subdeterminants} of the determinant \(A\). To become precisely acquainted with their mode of formation, let us first consider the complex \(a_1^{(1)}A_1^{(1)}\). It is obtained by leaving the lower index \(1\) unchanged in the product
+\[
+ a_1^{(1)}a_2^{(2)}\cdots a_n^{(n)}
+\]
+and permuting only the remaining indices \(2,3,\ldots,n\) in all ways, and forming the sum of the terms so obtained with regard to the rule of signs. Hence \(A_1^{(1)}\) is the \((n-1)\)-rowed determinant
+\begin{equation}
+ A_1^{(1)}=
+\begin{vmatrix}
+a_2^{(2)}&a_3^{(2)}&\cdots&a_n^{(2)}\\
+a_2^{(3)}&a_3^{(3)}&\cdots&a_n^{(3)}\\
+\vdots&\vdots&&\vdots\\
+a_2^{(n)}&a_3^{(n)}&\cdots&a_n^{(n)}
+\end{vmatrix},
+\tag{4}
+\end{equation}
+or the determinant obtained from \(A\) by deleting, in the square representing \(A\) [\S~20, (1)], the first row and the first column.
+
+From this one easily obtains the meaning of \(A_\nu^{(\mu)}\). By making \(\nu-1\) interchanges of rows one can bring the \(\nu\)-th row to the first, and by adding \(\mu-1\) interchanges of columns one can bring the \(\mu\)-th column to the first; apart from this the remaining rows and columns keep their relative order. The determinant itself has taken the factor \((-1)^{\mu+\nu}\), and has remained unchanged in absolute value. In the arrangement thus changed the element \(a_\nu^{(\mu)}\) has taken the place of the element \(a_1^{(1)}\), and from this one infers the following rule of formation:
+
+\gesperrt{One obtains the subdeterminant \(A_\nu^{(\mu)}\) by deleting from the square representing the determinant the row and column which intersect in \(a_\nu^{(\mu)}\), and adjoining the factor \((-1)^{\mu+\nu}\).}
+
+For example, for the determinant of three rows, one obtains the representation
+\begin{equation}
+\begin{aligned}
+\begin{vmatrix}
+a&b&c\\
+a'&b'&c'\\
+a''&b''&c''
+\end{vmatrix}
+&=a\begin{vmatrix}b'&c'\\b''&c''\end{vmatrix}
+-b\begin{vmatrix}a'&c'\\a''&c''\end{vmatrix}
++c\begin{vmatrix}a'&b'\\a''&b''\end{vmatrix}\\
+&=a(b'c''-c'b'')+b(c'a''-a'c'')+c(a'b''-b'a'').
+\end{aligned}
+\tag{5}
+\end{equation}

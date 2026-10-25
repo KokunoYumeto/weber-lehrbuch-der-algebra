@@ -1,0 +1,52 @@
+% !PRINTED 373
+\weberpage{373}
+%<<CONT
+man zuerst $x_1$ durch $x_3$ ausdrückt und dies in dem Ausdruck
+von $x$ durch $x_1$ einsetzt.
+
+Nach (8) ist eine zusammengesetzte Aequivalenz eine \gesperrt{eigentliche} oder \gesperrt{uneigentliche}, je nachdem sich unter den Componenten eine gerade oder eine ungerade Zahl von uneigentlichen findet.
+
+% [corrected 2026-08-07] The equation tag (12) was dropped: this display was set as an untagged
+% \[...\]. Two independent lines of evidence agreeing, so no crop was needed --
+%   - the page prints (12) in the left margin (reported by this page's translation pass);
+%   - the fragment ITSELF cites "die beiden Substitutionen (12)" nine lines below and had no
+%     (12) anywhere to refer to, while (13) and (14) follow contiguously.
+% The cross-reference-breaking class: the volume compiled and read plausibly, but a reader
+% following the reference had nowhere to land.
+% [source-restored 2026-08-26] The scan also prints the lead-in words immediately before (12).
+Wenn man die beiden Substitutionen
+\weq{12}{\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}, \quad
+\begin{pmatrix}\varepsilon\delta, & -\varepsilon\beta\\ -\varepsilon\gamma, & \varepsilon\alpha\end{pmatrix}}
+zusammensetzt, so erhält man, gleichviel welche von beiden man an die erste Stelle setzt,
+\weq{13}{\begin{pmatrix}1, & 0\\ 0, & 1\end{pmatrix}.}
+
+Diese Substitution ist nach (1) gleichbedeutend mit $y = x$; sie ändert nichts und wird die \gesperrt{identische Substitution} genannt und wohl auch kurz durch (1) bezeichnet. Demnach nennt man die beiden Substitutionen (12) zu einander \gesperrt{reciprok} und bezeichnet sie mit
+\[
+S, \; S^{-1},
+\]
+oder man setzt
+\weq{14}{\begin{pmatrix}\varepsilon\delta, & -\varepsilon\beta\\ -\varepsilon\gamma, & \varepsilon\alpha\end{pmatrix} = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}^{-1}.}
+
+Durch die Zusammensetzung mit der identischen Substitution (13) bleibt jede andere Substitution ungeändert.
+
+Wir leiten hieraus sehr einfach den Beweis des Satzes ab:
+
+\gesperrt{V. Alle rationalen Zahlen sind unter einander äquivalent, und zwar sowohl eigentlich als uneigentlich.}
+
+Sind nämlich $m:n$ und $m':n'$ zwei rationale Brüche und $m$ und $n$ sowohl als $m'$ und $n'$ ohne gemeinsamen Theiler, so können wir, wenn $\varepsilon, \varepsilon'$ nach Belieben $\pm 1$ sind, die Zahlen $\mu, \nu$ und $\mu', \nu'$ nach \S.\,118 so bestimmen, dass
+\[
+m\nu - n\mu = \varepsilon, \qquad m'\nu' - n'\mu' = \varepsilon'
+\]
+wird, dass also
+\[
+M = \begin{pmatrix}m, & \mu\\ n, & \nu\end{pmatrix}, \quad M' = \begin{pmatrix}m', & \mu'\\ n', & \nu'\end{pmatrix}
+\]
+zwei lineare Substitutionen sind. Es ist dann auch
+% [restored 2026-08-07, 4x zoom strip 4/4] The last display on page 373 was dropped. The fragment
+% ended on "Es ist dann auch" and i0399 opened with "eine lineare Substitution, und", so the
+% sentence had lost its own subject and read as broken German across the page break -- which is
+% how the omission was visible to a reader without the scan, and invisible to every check we run.
+\[
+M M'^{-1} = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}
+\]
+%CONT>>

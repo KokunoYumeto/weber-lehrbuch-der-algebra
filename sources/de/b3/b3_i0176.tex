@@ -1,0 +1,56 @@
+% !PRINTED 155
+\weberpage{155}
+
+$E(v)$ und $Z(v)$ sind \gesperrt{ungerade Funktionen des Arguments.}
+
+Aus dem Additionstheorem der $\Theta$-Funktion [§ 43 (11)] ergibt
+sich durch logarithmische Differentiation:
+
+\weq{9}{Z(u+v)+Z(u-v) = 2\,Z(u) - \dfrac{2\,\varkappa^2\,\mathrm{sn}^2v\,\mathrm{sn}\,u\,\mathrm{cn}\,u\,\mathrm{dn}\,u}{1-\varkappa^2\,\mathrm{sn}^2u\,\mathrm{sn}^2v},}
+
+\weq{10}{Z(u+v)-Z(u-v) = 2\,Z(v) - \dfrac{2\,\varkappa^2\,\mathrm{sn}^2u\,\mathrm{sn}\,v\,\mathrm{cn}\,v\,\mathrm{dn}\,v}{1-\varkappa^2\,\mathrm{sn}^2u\,\mathrm{sn}^2v}.}
+
+Hierin kann $Z$ auch durch $E$ ersetzt werden und durch
+Addition ergibt sich [§ 44 (16)]:
+
+\weq{11}{E(u)+E(v)-E(u+v) = \varkappa^2\,\mathrm{sn}\,u\,\mathrm{sn}\,v\,\mathrm{sn}(u+v).}
+
+Hieraus erhält man die Periodeneigenschaften der Funktion
+$E(u)$, wenn man $v=\pm K$, $K+iK'$ setzt. Man kommt aber
+auch auf folgendem Wege dazu.
+
+Aus der ersten Gleichung § 43 (3) folgt:
+
+\[
+\dfrac{d\log H(v)}{dv} = Z(v+iK') + \dfrac{i\pi}{2K},
+\]
+und demnach aus § 43 (6) und § 42 (11):
+
+\weq{12}{\begin{aligned}
+Z(v+iK') &= Z(v)+\dfrac{\mathrm{cn}\,v\,\mathrm{dn}\,v}{\mathrm{sn}\,v}-\dfrac{i\pi}{2K},\\
+Z(v+K) &= Z(v)-\dfrac{\varkappa^2\,\mathrm{sn}\,v\,\mathrm{cn}\,v}{\mathrm{dn}\,v},
+\end{aligned}}
+und wenn man in der ersten dieser Formeln $v=K$ setzt:
+
+\weq{13}{Z(K+iK') = -\dfrac{i\pi}{2K}.}
+
+Durch zweimalige Anwendung der Formeln (12) [mit Rücksicht
+auf § 44 (18), (20)]:
+
+\weq{14}{\begin{aligned}
+Z(v+2\,iK') &= Z(v)-\dfrac{i\pi}{K},\\
+Z(v+2K) &= Z(v).
+\end{aligned}}
+
+Überträgt man diese Gleichungen auf die Funktion $E(v)$, so
+folgt:
+
+\weq{15}{\begin{aligned}
+E(v+iK') &= E(v)+\dfrac{\mathrm{cn}\,v\,\mathrm{dn}\,v}{\mathrm{sn}\,v}+\dfrac{i\,E\,K'}{K}-\dfrac{i\pi}{2K},\\
+E(v+K) &= E(v)+E-\dfrac{\varkappa^2\,\mathrm{sn}\,v\,\mathrm{cn}\,v}{\mathrm{dn}\,v}.
+\end{aligned}}
+
+\weq{16}{\begin{aligned}
+E(v+2\,iK') &= E(v)+\dfrac{2\,i\,E\,K'}{K}-\dfrac{i\pi}{K},\\
+E(v+2K) &= E(v)+2\,E.
+\end{aligned}}

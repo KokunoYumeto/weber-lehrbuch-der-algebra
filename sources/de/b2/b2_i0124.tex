@@ -1,0 +1,31 @@
+% !PRINTED 103
+\weberpage{103}
+%<<CONT
+erhält man nach \S.\,22 für die Indices der Zahlen in $\mathfrak{A}$ die beiden Congruenzen:
+\weq{3}{\begin{aligned}
+e_{1,1}\alpha_1 + e_{1,2}\alpha_2 + \cdots + e_{1,\mu}\alpha_\mu &\equiv 0\\
+e_{2,1}\alpha_1 + e_{2,2}\alpha_2 + \cdots + e_{2,\mu}\alpha_\mu &\equiv 0
+\end{aligned}\ \ (\mathrm{mod}\ 2).}
+Um die Zahl der möglichen Gruppen $\mathfrak{A}$ zu ermitteln, bedenke man, dass man die Relationen (3), ohne ihren Inhalt zu ändern, durch zwei von einander unabhängige lineare Combinationen ersetzen kann. Danach kann man eines der Zahlenpaare in der Matrix (2), z.\,B. $e_{1,1}, e_{2,1} = 1, 0$ annehmen und so für (2) setzen:
+\[
+\begin{array}{cccc}
+1, & e_{1,2}, & \ldots & e_{1,\mu}\\
+0, & e_{2,2}, & \ldots & e_{2,\mu}.
+\end{array}
+\]
+Jetzt kann man für die $e_{2,2} \ldots e_{2,\mu}$ irgend eine Combination der Zahlen 0, 1 setzen, mit Ausnahme der einen, bei der alle $e_{2,h} = 0$ werden. Zu jedem $e_{2,h} = 0$ muss das zugehörige $e_{1,h} = 1$ sein, während einem $e_{2,h} = 1$ ein $e_{1,h} = 0$ oder $= 1$ entsprechen kann. Die Anzahl der auf diese Weise entstandenen Combinationen ist:
+\[
+1 + (\mu - 1)2 + \frac{(\mu - 1)(\mu - 2)}{1.2} 2^2 + \cdots + 2^{\mu - 1} - 1 = 3^{\mu - 1} - 1.
+\]
+Nun kann man aber die zweite der Gleichungen (3), ohne ihre Bedeutung zu ändern, zu der ersten noch addiren, so dass also je zwei der gewonnenen Combinationen dieselbe Gruppe ergeben. Es bleiben also
+\weq{4}{\frac{3^{\mu - 1} - 1}{2}}
+verschiedene Combinationen der $e_{h,k}$, die auch, wie leicht einzusehen ist, zu verschiedenen Gruppen $\mathfrak{A}$ führen. Denn angenommen, man habe das eine Mal $e_{1,2}, e_{2,2} = 1, 0$, das andere Mal $= 0, 1$ genommen, so genügt der ersten Annahme $\alpha_1 = 0, \alpha_2 = 1, \alpha_3 = 0, \ldots \alpha_\mu = 0$, was der zweiten nicht genügt. % [sic: Weber prints e_{h,k}; the defining matrix and congruences consistently use e_{k,h}.]
+
+Die Zahl, die wir eben bestimmt haben, ist nur dann erschöpfend, wenn $m$ nicht durch 8 theilbar ist, weil dabei angenommen ist, dass dabei niemals $e_{1,h}, e_{2,h} = 0, 0$ sei. Wenn aber $m$ durch 8 theilbar ist, dann kann bei einem Paare diese Werthcombination vorkommen, und wir müssen also noch die Fälle hinzufügen, die durch
+\[
+\begin{array}{ccccc}
+1 & 0 & e_{1,3} & \ldots & e_{1,\mu}\\
+0 & 0 & e_{2,3} & \ldots & e_{2,\mu}
+\end{array}
+\]
+%CONT>>

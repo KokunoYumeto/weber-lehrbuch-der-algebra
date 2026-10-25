@@ -1,0 +1,33 @@
+% !PRINTED 243
+\weberpage{243}
+Hierdurch ist die Lösung der Invariantengleichung $F_n = 0$ auf die successive Lösung solcher Fälle zurückgeführt, in denen $n$ eine \gesperrt{Primzahl} ist.
+
+6. Während bei der Ableitung der Transformationsgleichungen aus den Teilungsgleichungen von Haus aus feststeht, daß die numerischen Koeffizienten in diesen Gleichungen rationale Zahlen sind, so lehrt uns die zweite Ableitung zunächst nichts über die Zahlenkoeffizienten. Wir können aber nachträglich beweisen, daß diese Koeffizienten nicht nur \gesperrt{rationale}, sondern auch \gesperrt{ganze} Zahlen sind und gelangen zugleich zu einem wichtigen Satz über die Teilbarkeit dieser Koeffizienten.
+
+Wenn wir beweisen können, daß, wenn $p$ eine Primzahl ist, die Koeffizienten in $F_p(x, y)$ ganze Zahlen sind, so folgt das Gleiche aus 4. und 5. für jedes zusammengesetzte $n$.
+
+Nach (4) ist $j(\omega)$ in eine Reihe von der Form entwickelbar
+\weq{25}{j(\omega) = q^{-2} \sum_{0,\infty}^{h} a_h q^{2h},}
+deren Koeffizienten $a_h$ ganze Zahlen sind, und zwar $a_0 = 1$.
+Bilden wir hiervon, wenn $p$ eine Primzahl ist, die $p$te Potenz, und beachten den für jede ganze Zahl gültigen \gesperrt{Fermatschen} Satz:
+\[
+a^p \equiv a\ (\mathrm{mod}\ p),
+\]
+so folgt
+\weq{26}{j(\omega)^p = q^{-2p} \sum_{0,\infty}^{h} a_h q^{2hp} + p\, q^{-2(p-1)} \sum_{0,\infty}^{h} b_h q^{2h},}
+worin $b_h$ ebenfalls ganze Zahlen sind. Andererseits ist, wenn man in (25) $\omega$ durch $p\omega$ ersetzt:
+\weq{27}{j(p\omega) = q^{-2p} \sum_{0,\infty}^{h} a_h q^{2hp}}
+und daraus, wenn man
+\[
+j(\omega) = u, \quad j(p\omega) = v
+\]
+setzt:
+\[
+u^p - v = p\, q^{-2(p-1)} \sum_{0,\infty}^{h} b_h q^{2h},
+\]
+wofür wir auch schreiben können:
+\weq{28}{(u^p - v)(u - v^p) = p\, q^{-2(p^2+p-1)} \sum_{0,\infty}^{h} c_h q^{2h},}
+wenn $c_h$ ein drittes System ganzer Zahlen bedeutet.
+Nun kommen in $F_p(x, y)$ die in bezug auf $x, y$ höchsten Glieder $x^{p+1} + y^{p+1}$ vor, und wir setzen demnach
+\weq{29}{F_p(x, y) = (x^p - y)(x - y^p) - \sum_{0,p}^{h,k} c_{h,k} x^h y^k,}
+%CONT>>

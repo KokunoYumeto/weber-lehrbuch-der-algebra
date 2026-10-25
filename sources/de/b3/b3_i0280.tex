@@ -1,0 +1,59 @@
+% !PRINTED 259
+\weberpage{259}
+%<<CONT
+
+\weq{4}{\begin{array}{cccc}
+\omega, & u, & u_1, & u_2, \\
+-\dfrac{1}{\omega}, & u, & u_2, & u_1, \\
+\omega+1, & e^{-\frac{\pi i}{24}}u_1, & e^{-\frac{\pi i}{24}}u, & e^{\frac{\pi i}{12}}u_2, \\
+\omega+2, & e^{-\frac{\pi i}{12}}u, & e^{-\frac{\pi i}{12}}u_1, & e^{\frac{\pi i}{6}}u_2, \\
+\hline
+\omega, & v, & v_1, & v_2, \\
+-\dfrac{1}{\omega}, & \varrho v, & \varrho v_2, & \varrho v_1, \\
+\omega+1, & \sigma e^{-\frac{n\pi i}{24}}v_1, & \sigma e^{-\frac{n\pi i}{24}}v, & \sigma e^{\frac{n\pi i}{12}}v_2, \\
+\omega+2, & \sigma^2 e^{-\frac{n\pi i}{12}}v, & \sigma^2 e^{-\frac{n\pi i}{12}}v_1, & \sigma^2 e^{\frac{n\pi i}{6}}v_2,
+\end{array}}
+
+worin
+
+\[
+\varrho = e^{-\frac{2\pi i}{3}\left[\alpha(\gamma-\beta)+(\alpha^2-1)\beta^3\delta\right]}, \qquad \sigma = \left(\frac{2}{a}\right) e^{\frac{(n-\lambda)\pi i}{24}} % Source confirms \beta^3\delta.
+\]
+
+zwei dritte Einheitswurzeln sind, die, falls $n$ nicht durch 3 teilbar
+ist, den Wert 1 haben.
+
+Um ferner die Wirkung der Substitution (2), die aus der
+Transformation zweiten Grades
+
+\[
+\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix}
+\]
+
+hervorgeht, auf die Funktionen $u$, $v$ zu ermitteln, müssen wir die
+Transformationen erster und $n$\,ter Ordnung
+
+\[
+\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}, \quad \begin{pmatrix} a', & 0 \\ c', & \partial' \end{pmatrix}
+\]
+
+so bestimmen, daß
+
+\weq{5}{\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix} = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix}\begin{pmatrix} a', & 0 \\ c', & \partial' \end{pmatrix}}
+
+wird. Dieser Ansatz führt zu den Gleichungen
+
+\weq{6}{\begin{aligned}
+a &= a'(\alpha-\beta)+c'(\alpha+\beta), & a &= \partial'(\alpha+\beta), \\
+c-\partial &= a'(\gamma-\delta)+c'(\gamma+\delta), & c+\partial &= \partial'(\gamma+\delta).
+\end{aligned}}
+
+Hiermit ist zunächst, da $\alpha+\beta$ und $\gamma+\delta$ zufolge $\alpha\delta-\beta\gamma$
+$= 1$ relativ prim sind, $\partial'$ bestimmt als der größte gemeinschaftliche
+ Teiler von $a$ und $c+\partial$, und aus $n = a'\partial'$ ergibt sich $a'$.
+Dann ist nach den Gleichungen (6):
+
+\[
+\alpha+\beta = \frac{a}{\partial'}, \qquad \gamma+\delta = \frac{c+\partial}{\beta'}, % [sic] Source prints \beta'; equations (6) imply \partial'.
+\]
+%CONT>>

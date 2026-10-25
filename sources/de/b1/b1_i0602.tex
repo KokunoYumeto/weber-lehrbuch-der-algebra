@@ -1,0 +1,58 @@
+% !PRINTED 577
+\weberpage{577}
+
+%<<CONT
+worin die Summation über $\nu$ von 0 bis $\mu$ erstreckt, aber auch
+beliebig weiter ausgedehnt werden kann, da $(\mu, \nu)$ verschwindet,
+wenn $\nu$ negativ oder grösser als $\mu$ ist. Demnach ist auch
+
+\[ f(x, \mu) = -\overset{\nu}{\Sigma} (-1)^{\nu} (\mu, \nu + 1), \]
+
+und wenn wir also die Formel (9) mit $(-1)^{\nu}$ multipliciren und
+in Bezug auf $\nu$ summiren, so ergiebt sich
+
+\weq{11}{(1 - x^{\mu + 1}) f(x, \mu) = f(x, \mu + 2).}
+
+Hieraus geht hervor, dass $f(x, \mu)$ für jedes ungerade $\mu$ verschwindet, da $f(x, 1) = 0$ ist. Andererseits ergiebt sich direct
+aus (10)
+
+\[ f(x, 2) = 1 - x, \]
+
+und also aus (11) für jedes geradzahlige $\mu$
+
+\weq{12}{f(x, \mu) = (1 - x)(1 - x^3)(1 - x^5) \ldots (1 - x^{\mu - 1}).}
+
+Denn ist diese Formel für $\mu$ richtig, so folgt aus (11) ihre
+Richtigkeit für $\mu + 2$.
+
+Diese identische Umformung wenden wir nun auf unser
+Problem an, indem wir $\mu = m = n - 1$ und $x = r$ setzen. Dann wird
+
+\[ \frac{1 - x^m}{1 - x} = \frac{1 - r^{-1}}{1 - r} = -r^{-1}, \quad \frac{1 - x^{m - 1}}{1 - x^2} = \frac{1 - r^{-2}}{1 - r^2} = -r^{-2} \cdots, \]
+
+also, so lange $0 \leqq \nu \leqq m$ ist,
+
+\[ (m, \nu) = (-1)^{\nu} r^{-(1 + 2 + \cdots + \nu)} = (-1)^{\nu} r^{-\frac{\nu(\nu + 1)}{2}}, \]
+
+oder, indem wir $r$ durch $r^{-2}$ ersetzen
+
+\[ (m, \nu) = (-1)^{\nu} r^{\nu^2 + \nu}. \]
+
+Nun ist
+
+\[ \nu^2 + \nu \equiv \nu^2 - (n - 1) \nu \equiv \left( \nu - \frac{n - 1}{2} \right)^2 - \left( \frac{n - 1}{2} \right)^2 \ (\mathrm{mod}\ n), \]
+
+also
+
+\[ (m, \nu) = (-1)^{\nu} r^{-\frac{m^2}{4}} r^{\left( \nu - \frac{m}{2} \right)^2}, \]
+
+und es wird also nach der Definitionsgleichung (10)
+
+\[ f(r^{-2}, m) = r^{-\frac{m^2}{4}} \Sigma r^{\left( \nu - \frac{m}{2} \right)^2}, \]
+
+worin $\nu$ ein volles Restsystem nach dem Modul $n$ durchläuft.
+Nun durchläuft gleichzeitig mit $\nu$ auch $\nu - {}^1/_2 m$ ein solches
+Restsystem, so dass wir auch
+
+\[ f(r^{-2}, m) = r^{-\frac{m^2}{4}} \Sigma r^{\nu^2} \]
+%CONT>>

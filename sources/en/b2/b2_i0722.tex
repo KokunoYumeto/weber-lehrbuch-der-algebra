@@ -1,0 +1,27 @@
+% !PRINTED 699
+\weberpage{699}
+5. \gesperrt{If $T$ is the number of the quantities $\mu_n$ that are not greater than $t$, then}
+\weq{13}{\mathop{\mathrm{Lim}}\limits_{s=1}\sum_{1,\infty}^{n}\frac{s-1}{\mu_n^{s-1}} = \mathop{\mathrm{Lim}}\limits_{t=\infty}\frac{T}{t},}
+% [sic] The source prints exponent s-1 in the denominator. Theorem 3 and the application in section 192,(1) require exponent s; for mu_n=n the printed series diverges for 1<s<=2. Printed bytes are retained.
+\gesperrt{if the limiting value of $T:t$ is finite.}
+
+Let us assume that the quantities $\mu_1, \mu_2, \mu_3, \ldots$ satisfy not only the conditions of theorem 3., but also the further condition that, when
+\weq{14}{\mu_n = \frac{n+c_n}{\gamma}}
+is set, the $c_n$ do not become infinite as $n$ increases indefinitely (i. e. for every $n$, however large, they are enclosed between finite limits); then we can replace theorem 3. by the still sharper one:
+
+6. \gesperrt{If the numbers $\mu_n$ have the property that a finite $\gamma$ can be so determined that}
+\weq{15}{\gamma \mu_n - n = c_n}
+\gesperrt{does not become infinite as $n$ increases indefinitely, then the function of $s$ defined for every $s>1$}
+\weq{16}{S = \frac{1}{\mu_1^s} + \frac{1}{\mu_2^s} + \cdots}
+\gesperrt{has the property that the difference}
+\weq{17}{S - \frac{\gamma}{s-1} = C_s}
+\gesperrt{approaches a finite limit as $s-1$ decreases indefinitely.}
+
+To prove this, we set, according to (14) and (16):
+\weq{18}{\sum^{n} \frac{\gamma^s}{n^s} - S = \gamma^s \sum^{n} \frac{1}{n^s}\left[1-\left(1+\frac{c_n}{n}\right)^{-s}\right].}
+
+Now if $\varepsilon$ is a positive proper fraction, then, if we put
+\[
+a_n = \frac{1}{n^\varepsilon}\left[1-\left(1+\frac{c_n}{n}\right)^{-s}\right]
+\]
+$a_n n^{1+\varepsilon}$ does not become infinite for an infinitely increasing $n$, and consequently, by a well-known elementary theorem of the theory of series, $a_1 + a_2 + \cdots$ is an unconditionally convergent series.

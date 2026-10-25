@@ -1,0 +1,61 @@
+% !PRINTED 339
+\weberpage{339}
+%<<CONT
+\gesperrt{$\alpha$, then one obtains a narrower interval $(\alpha', \beta')$
+with the same properties, if one}
+\weq{4}{
+\alpha' = \alpha - \frac{f(\alpha)(\beta - \alpha)}{f(\beta) - f(\alpha)}, \quad \beta' = \beta - \frac{f(\beta)}{f'(\beta)}
+}
+\gesperrt{sets.}
+
+To prove these results of geometric intuition analytically,
+we assume that in the interval $f'(x)$ and
+$f''(x)$ are positive, hence $\alpha < \beta$, and
+\[
+f(\alpha) < 0, \quad f(\beta) > 0.
+\]
+
+We restrict ourselves to the consideration of this one
+case, since the three others are to be treated in exactly the same
+way.
+
+We form the function
+\[
+\varphi(x) = \frac{f(\beta) - f(x)}{\beta - x}
+\]
+and its first derivative
+\[
+\varphi'(x) = \frac{-(\beta - x)f'(x) + f(\beta) - f(x)}{(\beta - x)^2}.
+\]
+The numerator of this expression
+\[
+\psi(x) = -(\beta - x)f'(x) + f(\beta) - f(x)
+\]
+vanishes for $x = \beta$, and its derivative is
+\[
+\psi'(x) = -(\beta - x)f''(x),
+\]
+hence negative in the interval. From this it follows that $\psi(x)$ decreases
+in the interval as $x$ increases, and therefore, because it vanishes for the
+greatest value $x = \beta$, remains positive. Consequently
+$\varphi'(x)$ is also positive, and $\varphi(x)$ increases steadily in the interval
+as $x$ increases. We accordingly have
+\weq{5}{
+\begin{gathered}
+\frac{f(\beta) - f(\alpha)}{\beta - \alpha} < \frac{f(\beta) - f(x)}{\beta - x} < f'(\beta) \\
+\alpha < x < \beta.
+\end{gathered}
+}
+If we now set
+\[
+\alpha' = \alpha - \frac{f(\alpha)(\beta - \alpha)}{f(\beta) - f(\alpha)}, \quad \beta' = \beta - \frac{f(\beta)}{f'(\beta)},
+\]
+then
+\weq{6}{
+\beta' - \alpha' = f(\beta)\left\{\frac{\beta - \alpha}{f(\beta) - f(\alpha)} - \frac{1}{f'(\beta)}\right\},
+}
+and from (5) it follows that this difference is positive, hence
+\[
+\alpha < \alpha' < \beta' < \beta.
+\]
+% 22*

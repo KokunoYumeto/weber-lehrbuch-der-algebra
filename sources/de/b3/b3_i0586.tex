@@ -1,0 +1,52 @@
+% !PRINTED 555
+\weberpage{555}
+
+Dann ist
+\weq{8}{\begin{aligned}
+\frac{2\pi}{\beta}\log f(\omega_1)\cdot f(\omega_2) &= -S_{00} + S_{10} + S_{01} - S_{11}, \\
+\frac{2\pi}{\beta}\log f_1(\omega_1)\,f_1(\omega_2) &= -S_{00} + S_{10} - S_{01} + S_{11}, \\
+\frac{2\pi}{\beta}\log f_2(\omega_1)\,f_2(\omega_2) &= -S_{00} - S_{10} + S_{01} + S_{11},
+\end{aligned}}
+
+woraus durch Addition:
+\[
+\frac{2\pi}{\beta}\log 2 = -3\,S_{00} + S_{10} + S_{01} + S_{11},
+\]
+und wenn man hierdurch $S_{00}$ eliminierte:
+\weq{9}{\begin{aligned}
+\frac{2\pi}{\beta}\log f(\omega_1)\,f(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 + \tfrac{2}{3}S_{10} + \tfrac{2}{3}S_{01} - \tfrac{4}{3}S_{11}, \\
+\frac{2\pi}{\beta}\log f_1(\omega_1)\,f_1(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 + \tfrac{2}{3}S_{10} - \tfrac{4}{3}S_{01} + \tfrac{2}{3}S_{11}, \\
+\frac{2\pi}{\beta}\log f_2(\omega_1)\,f_2(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 - \tfrac{4}{3}S_{10} + \tfrac{2}{3}S_{01} + \tfrac{2}{3}S_{11}.
+\end{aligned}}
+
+Diese Summen sind aber so zu verstehen, daß in allen zugleich
+\[
+(x-\alpha y)^2 + \beta^2 y^2 < n
+\]
+sein soll, und dann $n$ ins Unendliche wächst. Jede einzelne Summe $S$ wird dann
+unendlich, aber ihre Verbindungen, wie sie in diesen Formeln vorkommen, erhalten
+endliche Grenzwerte.
+
+Wir wollen noch mit $S'_{01}$, $S'_{10}$, $S'_{11}$ die Summen bezeichnen, die denselben
+Ausdruck haben wie $S_{01}$, $S_{10}$, $S_{11}$ nach (6), nur mit dem Unterschied, \gesperrt{daß $x$
+und $y$ keinen gemeinschaftlichen Teiler haben sollen.}
+
+Setzen wir
+\[
+\begin{gathered}
+S_{10} + S_{01} - 2\,S_{11} = T_n,\\
+(x-\alpha y)^2 + \beta^2 y^2 < n,\\
+\mathop{\mathrm{Lim}}\limits_{n=\infty} T_n = T
+\end{gathered}
+\]
+und bezeichnen mit $T_n^{(p)}$ die Summe, die aus $T_n$ entsteht, wenn alle Glieder
+ausgeschieden werden, in denen $x$ und $y$ beide durch die ungerade Primzahl $p$ teilbar
+sind, so ergibt sich:
+\[
+T_n^{(p)} = T_n - \frac{1}{p^2}\,T_{np^{-2}}
+\]
+und durch Grenzübergang zu $n=\infty$:
+\[
+T^{(p)} = T\left(1 - \frac{1}{p^2}\right).
+\]
+% [sic] Der Druck verweist fuer S01,S10,S11 auf(6); ihre Definition steht in(7) der Vorseite. Druckverweis beibehalten.

@@ -1,0 +1,40 @@
+% !PRINTED 126
+\weberpage{126}
+
+We now consider two substitutions and the one composed of both, thus:
+\[
+\begin{pmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{pmatrix} = \begin{pmatrix}\alpha', & \beta'\\ \gamma', & \delta'\end{pmatrix}\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}.
+\]
+If then
+\[
+\omega' = \frac{\gamma+\delta\omega}{\alpha+\beta\omega},
+\]
+there results from the definition (7):
+\weq{12}{E\left(\begin{smallmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{smallmatrix}, \omega\right) = E\left(\begin{smallmatrix}\alpha', & \beta'\\ \gamma', & \delta'\end{smallmatrix}, \omega'\right) E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right),}
+and from this two special cases, by putting
+\[
+\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix} = \begin{pmatrix}1, & 0\\ \pm 1, & 1\end{pmatrix}, \ \begin{pmatrix}0, & 1\\ -1, & 0\end{pmatrix}
+\]
+and writing $\alpha$, $\beta$, $\gamma$, $\delta$ again in place of $\alpha'$, $\beta'$, $\gamma'$, $\delta'$, thus
+\[
+\begin{pmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{pmatrix} = \begin{pmatrix}\alpha\pm\beta, & \beta\\ \gamma\pm\delta, & \delta\end{pmatrix}, \ \begin{pmatrix}-\beta, & \alpha\\ -\delta, & \gamma\end{pmatrix}\text{:}
+\]
+\weq{13}{E\left(\begin{smallmatrix}\alpha\pm\beta, & \beta\\ \gamma\pm\delta, & \delta\end{smallmatrix}, \omega\right) = e^{\pm\frac{\pi i}{12}}\,E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\pm 1\right),}
+\weq{14}{E\left(\begin{smallmatrix}-\beta, & \alpha\\ -\delta, & \gamma\end{smallmatrix}, \omega\right) = \sqrt{-i\omega}\ E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \frac{-1}{\omega}\right).}
+It has now been shown in § 30 that \gesperrt{all} linear transformations can be composed by repeated application of the two fundamental transformations
+\[
+\begin{pmatrix}1, & 0\\ 1, & 1\end{pmatrix}, \ \begin{pmatrix}0, & 1\\ -1, & 0\end{pmatrix}
+\]
+and of their inverse transformations, and from this it follows on the basis of (12) that the \gesperrt{symbol $E$ is completely defined by the formulae (8) to (14).}
+
+If, then, we know an expression satisfying these conditions, it must agree with $E$. In order to set up such an expression, we distinguish two cases. Since $\alpha$, $\beta$ are relatively prime numbers, one of them is certainly odd. We put:
+
+1. \gesperrt{$\alpha$ odd and positive:}
+\weq{15}{\begin{aligned}
+E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right) &= \left(\frac{\beta}{\alpha}\right) i^{\frac{\alpha-1}{2}} e^{\frac{\pi i}{12}[\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta]}\,\sqrt{(\alpha+\beta\omega)};
+\end{aligned}}
+2. \gesperrt{$\beta$ odd and positive:}
+\[
+E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right) = \left(\frac{\alpha}{\beta}\right) i^{\frac{1-\beta}{2}} e^{\frac{\pi i}{12}[\beta(\alpha+\delta)-(\beta^2-1)\alpha\gamma]}\,\sqrt{-i(\alpha+\beta\omega)},
+\]
+%CONT>>

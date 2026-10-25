@@ -1,0 +1,35 @@
+% !PRINTED 141
+\weberpage{141}
+%<<CONT
+that the degree $pq$ is the product of two primes, which may also be equal to one another.
+
+Such a group $P$ is metacyclic and has a normal divisor $Q$ of degree $p$, which is therefore a cyclic group, which we represent thus:
+\weq{1}{Q = 1, a, a^2, \dots a^{p-1} \quad (a^p = 1).}
+If now $b$ is an element of $P$ not contained in $Q$, then
+\[
+b^{-1} Q b = Q.
+\]
+If $b^h$ is the lowest power of $b$ that occurs in $Q$, then $Q + Qb + \cdots Qb^{h-1}$ is a group, which must be identical with $P$, and consequently $h = q$ must hold. We can therefore represent $P$ thus:
+\weq{2}{P = Q + Qb + Qb^2 + \cdots + Qb^{q-1}.}
+If now $g$ is a primitive root of the prime $p$, and $\nu$ is an exponent that is for the present still undetermined, and is to be taken with respect to the modulus $p - 1$, then, since $b^{-1} a b$ is contained in $Q$, it follows that
+\weq{3}{b^{-1} a b = a^{g^\nu},}
+from which, for every exponent $\alpha$, there results:
+\weq{4}{b^{-1} a^\alpha b = a^{\alpha g^\nu},}
+and by repeated composition with $b$:
+\weq{5}{b^{-\beta} a^\alpha b^\beta = a^{\alpha g^{\nu\beta}}.}
+Now in any case $b^{pq} = 1$, and if we therefore set $\beta = pq$ in (5), it follows that for every $\alpha$
+\[
+a^{\alpha g^{\nu pq}} = a^\alpha,
+\]
+hence $g^{\nu pq} \equiv 1 \pmod{p}$, or
+\weq{6}{\nu pq \equiv 0 \pmod{p - 1}}
+must hold. From this one concludes further that, if $p - 1$ is not divisible by $q$, which always occurs when $p = q$, then $\nu$ is divisible by $p - 1$, and hence by (3)
+\[
+ab = ba,
+\]
+and in consequence also, for every $\alpha, \beta, \alpha', \beta'$:
+\[
+a^\alpha b^\beta = b^\beta a^\alpha, \quad a^\alpha b^\beta a^{\alpha'} b^{\beta'} = a^{\alpha'} b^{\beta'} a^\alpha b^\beta,
+\]
+i.e. that the group must be an \gesperrt{Abel}ian one. But we have already investigated this case in the second chapter of this volume and found that, when $p = q$, there are two groups (with
+%CONT>>

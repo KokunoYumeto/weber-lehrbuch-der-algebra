@@ -1,0 +1,54 @@
+% !PRINTED 2
+\weberpage{2}
+%<<CONT
+\gesperrt{zahl}. Die Zahl $1$ selbst pflegt man aus
+Zweckmässigkeitsgründen nicht als Primzahl zu bezeichnen. Sind zwei
+Zahlen durch eine dritte theilbar, so ist auch die Summe und die
+Differenz der beiden ersten durch die dritte theilbar; und ist eine
+Zahl durch eine zweite, diese durch eine dritte theilbar, so ist auch
+die erste durch die dritte theilbar.
+
+Zwei Zahlen haben immer den gemeinsamen Theiler $1$. Wenn sie keinen
+anderen gemeinsamen Theiler haben, wie z.~B. die Zahlenpaare $5$ und
+$7$ oder $21$ und $38$, so heissen die beiden Zahlen \gesperrt{relative
+Primzahlen} oder auch \gesperrt{theilerfremde Zahlen}.
+
+Unter den gemeinsamen Theilern von irgend zwei gegebenen Zahlen wird
+einer der grösste sein und es ist eine sehr wichtige Aufgabe, diesen
+grössten gemeinschaftlichen Theiler zu finden. Dazu führt ein Verfahren,
+das unter dem Namen \gesperrt{Algorithmus des grössten gemeinschaftlichen
+Theilers} bekannt ist und sich schon bei Euklid findet.\footnote{Elemente,
+Buch VII, II, Bd. II der Heiberg'schen Ausgabe.}
+
+Sind $a,a_1$ die beiden Zahlen, so nehme man die grössere von ihnen,
+die $a$ sei, als Dividenden, die kleinere $a_1$ als Divisor, und
+bestimme den Quotienten $q_1$; und wenn die Division nicht aufgeht,
+den Rest $a_2$, also
+\[
+ a=q_1a_1+a_2,
+\]
+so dass $a_2<a_1$ ist. Jeder gemeinschaftliche Theiler von $a$ und
+$a_1$ ist dann auch gemeinschaftlicher Theiler von $a_1$ und $a_2$
+und umgekehrt. Verfährt man mit $a_1,a_2$ ebenso wie mit $a$ und $a_1$
+und setzt, wenn die Division nicht aufgeht,
+\[
+ a_1=q_2a_2+a_3,
+\]
+so ist wieder $a_3<a_2$, und jeder gemeinschaftliche Theiler von $a_1$
+und $a_2$ ist auch gemeinschaftlicher Theiler von $a_2$ und $a_3$ und
+umgekehrt. Fährt man auf diese Weise fort zu dividiren, so muss, da die
+Zahlen $a,a_1,a_2,a_3,\ldots$ immer abnehmen, nothwendiger Weise die
+Division nach einer endlichen Anzahl von Schritten aufgehen, und es
+muss also zuletzt ein Paar von Gleichungen
+\[
+ a_{\nu-2}=q_{\nu-1}a_{\nu-1}+a_\nu,
+ \qquad
+ a_{\nu-1}=q_\nu a_\nu
+\]
+auftreten. Dann ist $a_\nu$ ein gemeinschaftlicher Theiler aller
+vorausgehenden $a$, also auch von $a$ und $a_1$, und jeder
+gemeinschaftliche Theiler von $a$ und $a_1$ ist Theiler von $a_\nu$.
+Also ist $a_\nu$ der grösste gemeinschaftliche Theiler von $a$ und
+$a_1$, und wir sind zugleich zu dem Satze gelangt, dass jeder
+gemeinschaftliche Theiler zweier Zahlen in ihrem grössten
+gemeinschaftlichen Theiler aufgehen muss.

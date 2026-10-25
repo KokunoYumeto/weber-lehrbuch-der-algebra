@@ -1,0 +1,42 @@
+% !PRINTED 573
+\weberpage{573}
+
+%<<CONT
+\[
+\begin{aligned}
+\psi_1(\alpha) &= \psi_3(\alpha^5)\\
+\psi_3(\alpha) &= \psi_1(\alpha^3),
+\end{aligned}
+\]
+und wenn man in (8) $\lambda = 1$ setzt
+\[
+\psi_2(\alpha)\,\psi_3(\alpha) = \psi_1(\alpha)\,\psi_1(\alpha^2);
+\]
+endlich nach (6)
+\[
+n = \psi_3(\alpha)\,\psi_3(\alpha^6) = \psi_3(\alpha)\,\psi_1(\alpha^4).
+\]
+Berechnet man hiernach die Formel \S.\,169, (15)
+\[
+(\alpha, \eta)^7 = n\,\psi_1(\alpha)\,\psi_2(\alpha)\,\psi_3(\alpha)\,\psi_4(\alpha)\,\psi_5(\alpha),
+\]
+so ergiebt sich
+\weq{9}{(\alpha, \eta)^7 = \psi_1(\alpha)^4\,\psi_1(\alpha^2)^2\,\psi_1(\alpha^4).}
+Durch diese Formel l\"asst sich unmittelbar die Relation aus \S.\,169, (14)
+\[
+(\alpha, \eta)^{14} = (\alpha^2, \eta)^7\,\psi_1(\alpha)^7
+\]
+verificiren.
+
+Wir wollen diese Betrachtungen \"uber die Functionen $\psi$ mit dem Beweise eines Satzes beschliessen, der uns sp\"ater n\"utzlich sein wird.
+
+Bestimmen wir eine positive ganze Zahl $\nu < m$ aus der Congruenz
+\weq{10}{\lambda + \mu + \nu \equiv 0 \pmod{m},}
+so k\"onnen wir die Function $\psi_{\lambda,\mu}(\varepsilon)$, wie sie durch \S.\,169, (6) definirt ist, so darstellen
+\weq{11}{\psi_{\lambda,\mu}(\varepsilon) = \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t + \nu\,\mathrm{ind}(t+1)}.}
+Hierin wollen wir nun die $m^{\text{te}}$ Einheitswurzel $\varepsilon$ durch die primitive Congruenzwurzel $g$ der Primzahl $n$, die dem Indexsystem zu Grunde liegt, ersetzen, d.\,h. wir wollen die ganze Zahl
+\weq{12}{\psi_{\lambda,\mu}(g) = \sum_{1,\,n-2}^{t} g^{\mu\,\mathrm{ind}\,t + \nu\,\mathrm{ind}(t+1)} \equiv \sum_{1,\,n-2}^{t} t^\mu(t+1)^\nu \pmod{n}}
+bilden. Betrachten wir diese Zahl nach dem Modul $n$, so k\"onnen wir die Summation bis $t = n - 1$ ausdehnen, da f\"ur diesen Werth $(t + 1)$ congruent mit Null ist. Wir erhalten also
+\weq{13}{\psi_{\lambda,\mu}(g) \equiv \sum_{1,\,n-1}^{t} t^\mu(t+1)^\nu \pmod{n}.}
+Auf die Potenz $(t + 1)^\nu$ k\"onnen wir den binomischen Lehrsatz anwenden und erhalten, wenn, wie fr\"uher, $B_h^{(\nu)}$ die Binomialco\"efficienten bedeuten,
+\weq{14}{\psi_{\lambda,\mu}(g) \equiv \sum_{0,\,\nu}^{h} B_h^{(\nu)} \sum_{1,\,n-1}^{t} t^{\mu+h} \pmod{n}.}

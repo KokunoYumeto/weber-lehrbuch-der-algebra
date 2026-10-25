@@ -1,0 +1,39 @@
+% !PRINTED 164
+\weberpage{164}
+In der Tabelle IV sind die Entwickelungen für die 12 Funktionen zusammengestellt.
+
+Unter den 16 Formeln der Tabellen II, III finden sich vier, die den Faktor $\vartheta_{11}(a)$ im Nenner enthalten, in denen man also nicht ohne weiteres $a=0$ setzen kann. Es sind dies die Formeln (1), (5), (9), (13). Entwickelt man in diesen Formeln nach steigenden Potenzen von $a$, so fangen die Entwickelungen rechts und links mit $a^{-1}$ an, und wenn man die von $a$ unabhängigen Glieder beiderseits einander gleich setzt, so ergeben sich die gesuchten Entwickelungen.
+
+Man kann etwa so verfahren, daß man in der Formel (1) $a$ in $-a$ verwandelt und das arithmetische Mittel aus beiden Formeln nimmt. Dann hebt sich rechts das unendliche Glied $1:\operatorname{cotg}\pi a$ heraus und links erhält man:
+\[
+\frac{\vartheta'_{11}[\vartheta_{11}(v+a)-\vartheta_{11}(v-a)]}{2\pi\vartheta_{11}(v)\vartheta_{11}(a)} = \frac{\vartheta'_{11}(v)}{\pi\vartheta_{11}(v)} \text{ für } a=0,
+\]
+auf der rechten Seite von (1) in Tabelle II ergibt sich:
+\[
+\operatorname{cotg}\pi v - 4i\sum\left(\frac{q^m}{e^{-2\pi iv}-q^m} - \frac{q^m}{e^{2\pi iv}-q^m}\right)
+\]
+\[
+= \operatorname{cotg}\pi v + 4\sum\frac{q^m\sin 2\pi v}{1-2q^m\cos 2\pi v+q^{2m}},
+\]
+und auf der rechten Seite der Formel (1) der Tabelle III erhält man
+\[
+\operatorname{cotg}\pi v + 4\sum\frac{q^{\frac{m}{2}}}{1-q^m}\sin m\pi v,
+\]
+und wenn man noch die \gesperrt{Jacobische} $H$-Funktion einführt, und $u$ für $v$ schreibt, erhält man
+\weq{3}{\frac{2K}{\pi}\frac{d\log H(2Ku)}{d\,2Ku} = \operatorname{cotg}\pi u + 4\sin 2\pi u\sum\frac{q^m}{1-2q^m\cos 2\pi u+q^m} % [sic] The source prints q^m as the final denominator term; the preceding equivalent expression requires q^{2m}.
+}
+% [sic] In the following equivalent series the source prints q^m in the numerator; the immediately preceding Table-III series prints q^{m/2}.
+\[
+= \operatorname{cotg}\pi u + 4\sum\frac{q^m}{1-q^m}\sin m\pi u.
+\]
+
+Auf der linken Seite steht eine Transzendente zweiter Gattung, die sich nach \S\,47, (12) durch die $Z$-Funktion ausdrücken läßt:
+\[
+% [sic] The source prints sin in the denominator; the identity mathematically requires sn.
+\frac{2K}{\pi}Z(2Ku) + \frac{2K}{\pi}\frac{\operatorname{cn}2Ku\,\operatorname{dn}2Ku}{\operatorname{sin}2Ku},
+\]
+wofür man auch setzen kann:
+\[
+% [sic] The source again prints sin; the identity mathematically requires sn.
+\frac{2K}{\pi}Z(2Ku) + \frac{d\log\operatorname{sin}2Ku}{\pi\,du}.
+\]

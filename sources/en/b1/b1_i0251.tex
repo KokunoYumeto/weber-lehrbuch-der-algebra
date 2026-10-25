@@ -1,0 +1,53 @@
+% !PRINTED 226
+\weberpage{226}
+Now by \S.\,68, (6),
+\[
+S f_0 = n a_0, \quad S f_1 = (n-1) a_1, \ldots S f_{n-1} = a_{n-1},
+\]
+so that one obtains
+\[
+\begin{aligned}
+S(y z) = {} & n a_0 \sum_{0,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + (n-1) a_1 \sum_{0,\,n-1}^{s} E_{1,s} \tau_{n-s-1} \\
+& \cdots\cdots\cdots\cdots \\
+& + a_{n-1} \sum_{0,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1}.
+\end{aligned}
+\]
+In this, now, the coefficient of $\tau_{n-1}$ is
+\[
+n a_0 E_{0,0} + (n-1) a_1 E_{1,0} + \cdots + a_{n-1} E_{n-1,0},
+\]
+hence by (3)
+\[
+= a_0 S(y).
+\]
+Now since $S(z)$ begins with the term $n a_0 \tau_{n-1}$, in the
+difference
+\weq{5}{S(y z) - \frac{1}{n} S(y) S(z)}
+no term will occur that is multiplied by $\tau_{n-1}$. But since this
+expression is moreover symmetric with respect to $t$ and $\tau$,
+it also does not contain $t_{n-1}$, and in forming it we may
+% [sic] The print omits “=0” after the first term; the immediately following paragraph confirms that both t_{n-1} and tau_{n-1} are set equal to zero.
+simply assume $t_{n-1}$ and $\tau_{n-1} = 0$.
+
+We now set
+\[
+S(y) = n a_0 t_{n-1} + \varphi(t),
+\]
+in which
+\weq{6}{\varphi(t) = (n-1) a_1 t_{n-2} + (n-2) a_2 t_{n-3} + \cdots + a_{n-1} t_0.}
+Then we have
+\weq{7}{
+\begin{aligned}
+S(y z) - \frac{1}{n} S(y) S(z) = {} & n a_0 \sum_{1,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + (n-1) a_1 \sum_{1,\,n-1}^{s} E_{1,s} \tau_{n-s-1} \\
+& \cdots\cdots\cdots\cdots \\
+& + a_{n-1} \sum_{1,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1} - \frac{1}{n} \varphi(t) \varphi(\tau),
+\end{aligned}
+}
+where, however, it is to be noted that $t_{n-1} = 0$ is to be assumed, and hence
+\[
+E_{s,s} = a_1 t_{n-2} + \cdots + a_s t_{n-s-1}
+\]
+is to be set, while the remaining $E$ are determined by the formulas (9) of the
+preceding section.

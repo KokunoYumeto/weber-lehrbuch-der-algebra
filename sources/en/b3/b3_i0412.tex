@@ -1,0 +1,51 @@
+% !PRINTED 391
+\weberpage{391}
+%<<CONT
+minant $D$ of this order and at the same time norm residues of a prime $p$ \gesperrt{with respect to this order, i.\,e. of the numbers $a$ which satisfy the condition}
+
+\weq{1}{N(\omega) \equiv a \pmod{p}}
+
+for a number $\omega$ of the order $O$. First of all the following theorem holds:
+
+1. \gesperrt{If $p$ does not divide $D$, then every number $a$ in $Z$ is a norm residue.}
+
+This needs to be proved only for the case that $a$ is a quadratic non-residue, since every quadratic residue is at the same time a norm residue. % [sic] German source prints quadratischer.
+
+So let $\mathfrak{p}$ be a prime ideal of the field $\Omega$ dividing $p$.
+
+If then $D$ is a quadratic residue of $p$, then $\mathfrak{p}$ is of the \gesperrt{first degree} (\S\,92), and every number is congruent to a rational number with respect to the modulus $\mathfrak{p}$.
+
+Since $p$ does not divide $D$, the ideal $\mathfrak{p}'$ conjugate to $\mathfrak{p}$ is different from $\mathfrak{p}$, and we can find a number $\omega$ in $O$ satisfying the congruences:
+
+\[
+\begin{aligned}
+\omega &\equiv a \pmod{\mathfrak{p}},\\
+&\equiv 1 \pmod{\mathfrak{p}'}\ ^{1)}
+\end{aligned}
+\]
+
+(Bd.\,II, \S\,166). If then $\omega'$ is conjugate to $\omega$, then
+
+\[ \omega \equiv a, \quad \omega' \equiv 1 \pmod{\mathfrak{p}}, \]
+
+and consequently
+
+\[ N(\omega) \equiv a \pmod{\mathfrak{p}}. \]
+
+If however $D$ is a quadratic non-residue of $p$, then $\mathfrak{p} = p$, and $D^{\frac{p-1}{2}} \equiv -1 \pmod{p}$, hence $\sqrt{D}^{\,p} \equiv -\sqrt{D}$ % Source scan places p outside the radical, as transcribed.
+and for every number in $O$
+
+\weq{2}{\begin{aligned} \omega^p &\equiv \omega' \pmod{p},\\ N(\omega) &\equiv \omega^{p+1} \pmod{p}. \end{aligned}}
+
+If now $\gamma$ is a primitive root of $p$ in the field $\Omega$, then $c \equiv \gamma^{p+1} \pmod{p}$ is a primitive root of $p$ in the field of rational numbers (Bd.\,II, \S\,167).
+
+If we therefore put
+
+\weq{3}{a \equiv \gamma^{(p+1)x}, \quad \omega \equiv \gamma^x \pmod{p},}
+
+then by (2) $N(\omega) \equiv a \pmod{p}$, and our theorem is thus proved.
+
+\par\noindent\rule{0.25\linewidth}{0.4pt}\par
+\begingroup\footnotesize
+$^{1)}$ If one puts $\omega = a + \xi \pi Q$, where $\pi$ is a number divisible by $\mathfrak{p}$ but not by $\mathfrak{p}'$, then the number $\xi$ can be determined from the congruence $a + \xi \pi Q \equiv 1 \pmod{\mathfrak{p}'}$, and $\omega$ belongs to the order $O$ on account of the factor $Q$.
+\endgroup

@@ -1,0 +1,70 @@
+% !PRINTED 565
+\weberpage{565}
+Wenn man in dem $(n-1)$fachen Integral $\xi_i$ durch
+$\sqrt{1-\alpha^2}\,\xi_i$ ersetzt, so findet man dafür den Werth
+$\sqrt{(1-\alpha^2)}^{\,n-1} K_{n-1}$, und es findet sich also die
+Ungleichung
+
+\[
+K_n > 2\alpha \sqrt{(1-\alpha^2)}^{\,n-1} K_{n-1}.
+\]
+
+Nun wollen wir $\alpha$ so wählen, dass $2\alpha
+\sqrt{(1-\alpha^2)}^{\,n-1}$ so gross als möglich wird, und dafür
+findet man nach der gewöhnlichen Regel durch Nullsetzen des
+Differentialquotienten
+
+\[
+\alpha = \frac{1}{\sqrt{n}}.
+\]
+
+Daraus
+
+\[
+K_n > 2\, \frac{\sqrt{(n-1)}^{\,n-1}}{\sqrt{n}^{\,n}}\, K_{n-1}
+\]
+
+\[
+\left(\frac{\sqrt{n}}{2}\right)^{n} K_n > \left(\frac{\sqrt{n-1}}{2}\right)^{n-1} K_{n-1}.
+\]
+
+Setzt man also
+
+\[
+K_n = \left(\frac{2}{\sqrt{\Theta_n\, n}}\right)^{n},
+\]
+
+so ist
+
+\weq{23}{\Theta_n^n < \Theta_{n-1}^{n-1},}
+
+also $\Theta_n^n$ eine mit wachsenden $n$ abnehmende Zahl. Zugleich
+ergiebt sich aus (16)
+
+\weq{24}{M < \Theta_n\, n\, \sqrt[n]{D}.}
+
+Für $n = 2$ ist $K_n$ gleich dem Flächeninhalt des Kreises mit dem
+Radius 1, d. h. gleich der \gesperrt{Ludolfischen} Zahl $\pi$, und
+daraus ergiebt sich
+
+\[
+\Theta_2 = \frac{2}{\pi} < 0{,}636,\qquad \Theta_2^2 < 0{,}404,
+\]
+
+% [sic: Weber prints references (22) and (23); the bound uses (24) and (23).]
+und es gilt also nach (22) und (23) die für alle Werthe von $n$,
+die grösser als 1 sind, gültige Grenzbestimmung:
+
+\weq{25}{M < n \sqrt[n]{0{,}404\, D}\ \footnotemark.}
+
+\footnotetext{Für specielle Anwendungen ist es nützlich, die Grenze
+so genau als möglich zu kennen. Dazu dient eine genaue Berechnung
+des Integrals $K_n$ nach seiner Definition (17), (18), die sich
+leicht nach verschiedenen Methoden der Integralrechnung, z. B.
+mittelst des discontinuirlichen Factors von \gesperrt{Dirichlet},
+ausführen lässt:
+
+\[
+K_n = \frac{\Gamma\left(\frac12\right)^{n}}{\Gamma\left(1+\frac{n}{2}\right)},
+\]
+}

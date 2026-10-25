@@ -1,0 +1,43 @@
+% !PRINTED 427
+\weberpage{427}
+%<<CONT
+the congruence is identical, i.e. that all coefficients of $f(x)$
+must be divisible by $n$.
+
+This theorem is, as one sees, entirely analogous to the algebraic theorem that an equation cannot have more roots
+than its degree indicates. But the other theorem, that every
+equation also actually has that many roots, cannot be carried
+over. A congruence of degree $m$ can have fewer roots, indeed
+none at all. All the more remarkable is a particular
+congruence in which the number of roots always equals the
+degree, on the basis of a theorem which is called \gesperrt{Fermat's theorem}, and which we formulate here as follows.
+
+\gesperrt{2. The congruences}
+\weq{5}{x^n - x \equiv 0, \quad x^{n-1} - 1 \equiv 0 \quad (\mathrm{mod}\ n)}
+\gesperrt{have, if $n$ is a prime, as many roots
+as their degree amounts to, namely $n$ and $n-1$.}
+
+The two assertions are not essentially different, for
+the first of the congruences (5) has all the roots of the second and
+in addition the root 0, which does not satisfy the second. Likewise
+the second has all the roots of the first, with the exception of the
+root 0.
+
+Now since for the modulus $n$ there are altogether only $n$ different
+numbers, it is thus to be proved that for every integer
+$\alpha$ the congruence holds
+\weq{6}{\alpha^n \equiv \alpha \quad (\mathrm{mod}\ n).}
+This congruence is correct for $\alpha = 0$ and $\alpha = 1$. We
+therefore prove it again by complete induction, deriving the congruence
+\weq{7}{(\alpha + 1)^n \equiv \alpha + 1 \quad (\mathrm{mod}\ n)}
+from congruence (6), assumed to be correct. This follows from the binomial theorem,
+if one observes that all binomial coefficients, with the exception of the first and the last, which are equal to 1, namely
+\[
+n, \quad \frac{n(n-1)}{1\,.\,2}, \quad \frac{n(n-1)(n-2)}{1\,.\,2\,.\,3}, \dots
+\]
+are integers divisible by $n$, because the numerator, but not
+the denominator, is divisible by $n$. Accordingly
+\[
+(\alpha + 1)^n \equiv \alpha^n + 1 \quad (\mathrm{mod}\ n),
+\]
+hence the formula (7) follows from the formula (6).

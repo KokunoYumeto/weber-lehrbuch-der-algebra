@@ -1,0 +1,44 @@
+% !PRINTED 565
+\weberpage{565}
+If the summation with respect to $t$ is carried out first,
+then $st$ may be put in place of $t$, since $s$ is different from zero,
+and hence $st$ and $t$ run at the same time through a complete system of residues
+with respect to the modulus $n$. Thus
+\weq{2}{(\varepsilon^\lambda, r)(\varepsilon^\mu, r) = \sum^{s} \sum^{t} r^{s(t+1)} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} \varepsilon^{\mu\,\mathrm{ind}\,t}.}
+We first dispose of the special case $\mu = -\lambda$, which
+we obtain from (2) when we carry out the summation with respect to $s$
+first:
+\[ (\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = \sum^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} \sum^{s} r^{s(t+1)}. \]
+Herein
+\[
+\begin{aligned}
+\sum^{s} r^{s(t+1)} &= -1, \quad \text{if } t = 1, 2 \ldots n-2\\
+&= n-1, \quad \text{if } t = n-1,
+\end{aligned}
+\]
+hence, since by \S.\,136 $\mathrm{ind}(n-1) = \frac{1}{2}(n-1)$ and
+\[ \varepsilon^{\frac{n-1}{2}} = -1 \]
+holds,
+\[ (\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = -\sum_{1,\,n-1}^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} + (-1)^\lambda n. \]
+In the sum taken with respect to $t$, $\mathrm{ind}\,t$ runs through a complete
+system of residues with respect to the modulus $n-1$, and hence, if $\lambda$ is
+assumed \gesperrt{not divisible} by $n-1$,
+\[ \sum_{1,\,n-1}^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} = 0, \]
+and therefore
+\weq{3}{(\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = (-1)^\lambda n,}
+while, if $\lambda$ is divisible by $n-1$, $(\varepsilon^\lambda, r) = (1, r) = -1$.
+
+We now, then, treat the sum (2) further under the
+assumption that $\lambda + \mu$ is not divisible by $(n-1)$.
+Then $\sum^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} = 0$, and in the sum on the
+right-hand side of (2) the terms corresponding to the value $t = n-1$
+may be omitted. One thus obtains
+\weq{4}{
+\begin{aligned}
+(\varepsilon^\lambda, r)(\varepsilon^\mu, r) &= \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t} \sum_{1,\,n-1}^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} r^{s(t+1)}\\
+&= \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t - (\lambda+\mu)\,\mathrm{ind}(t+1)} \sum^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s(t+1)} r^{s(t+1)}.
+\end{aligned}
+}
+Now, for fixed $t$, $s(t+1)$ runs at the same time as $s$
+through a complete system of residues with respect to the modulus $n$, and hence
+%CONT>>

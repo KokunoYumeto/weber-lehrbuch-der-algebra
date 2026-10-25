@@ -1,0 +1,58 @@
+% !PRINTED 56
+\weberpage{56}
+
+Ist nun $\varkappa = 1$, so sind nach der Definition von $g$ die Zahlen
+
+\[
+1,\ g,\ g^2 \ldots g^{q-2}
+\]
+
+nach dem Modul $q$ alle von einander verschieden, während $g^{q-1}$ wieder congruent mit 1 ist.
+
+Ist aber $\varkappa > 1$, so ist:
+
+\weq{4}{g^{q-1} = 1 + hq,}
+
+und nach unserer Voraussetzung über $g$ ist $h$ nicht durch $q$ theilbar. Wenn wir die Gleichung (4) in die Potenz $q$ erheben, und rechts den binomischen Lehrsatz anwenden, so ergiebt sich
+
+\[
+g^{q(q-1)} = 1 + hq^2 + h^2\, \frac{q^3(q-1)}{2} + \cdots,
+\]
+
+also
+
+\weq{5}{g^{q(q-1)} = 1 + h_1 q^2,}
+
+worin
+
+\[
+h_1 = h + h^2\, \frac{q(q-1)}{2} + \cdots
+\]
+
+nicht durch $q$ theilbar ist. (Das wäre für $q = 2$ nicht mehr richtig und darum verlangt die Primzahl 2 eine andere Behandlung.)
+
+Erheben wir (5) nochmals in die $q^{\mathrm{te}}$ Potenz, so ergiebt sich
+
+\[
+g^{q^2(q-1)} = 1 + h_2 q^3,
+\]
+
+und so können wir fortfahren und erhalten für jeden beliebigen positiven Exponenten $\lambda$
+
+\weq{6}{g^{q^{\lambda-1}(q-1)} = 1 + hq^\lambda,}
+
+worin $h$ eine durch $q$ nicht theilbare ganze Zahl ist. Setzen wir zur Abkürzung:
+
+\weq{7}{q^{\varkappa-1}(q-1) = \varphi(q^\varkappa) = c,}
+
+so ist also
+
+\weq{8}{g^c \equiv 1\ (\mathrm{mod}\ q^\varkappa),}
+
+und es ist noch nachzuweisen, dass $c$ der kleinste positive Exponent ist, für den die Congruenz (8) erfüllt ist. Nehmen wir an, es sei $e$ dieser kleinste Exponent, also
+
+\weq{9}{g^e \equiv 1\ (\mathrm{mod}\ q^\varkappa),}
+
+so muss $e$ ein Theiler von $c$ sein, weil sonst die Congruenz (8) auch erfüllt wäre, wenn $c$ durch den Rest der Division von $c$ durch $e$, der kleiner als $e$ ist, ersetzt wird.
+
+Andererseits muss $e$ durch $q-1$ theilbar sein, weil die in (9) enthaltene Congruenz $g^e \equiv 1\ (\mathrm{mod}\ q)$ nur für solche Exponenten, die durch $q-1$ theilbar sind, besteht.

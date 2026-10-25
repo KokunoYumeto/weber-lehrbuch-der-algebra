@@ -1,0 +1,72 @@
+% !PRINTED 253
+\weberpage{253}
+%<<CONT
+
+% [corrected 2026-08-07] Removed a bare \S.\,79. copied from the running head;
+% the actual section heading and title are on printed 252 (i0277).
+\gesperrt{If $x_1, x_2 \ldots x_\nu$ are roots of equation (1) that are distinct
+from one another, then $y_1, y_2 \ldots y_\nu$ are linearly independent.}
+
+For suppose there existed between $y_1, y_2 \ldots y_\nu$ a linear
+relation, identical with respect to $t$,
+\[
+\alpha_1 y_1 + \alpha_2 y_2 + \cdots + \alpha_\nu y_\nu = 0,
+\]
+whose coefficients $\alpha$ are independent of the $t$ and not all equal
+to zero; then this would break up into the following equations
+\[
+\begin{aligned}
+\alpha_1 f_0(x_1) + \alpha_2 f_0(x_2) + \cdots + \alpha_\nu f_0(x_\nu) &= 0, \\
+\alpha_1 f_1(x_1) + \alpha_2 f_1(x_2) + \cdots + \alpha_\nu f_1(x_\nu) &= 0, \\
+\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot & \\
+\alpha_1 f_{n-1}(x_1) + \alpha_2 f_{n-1}(x_2) + \cdots + \alpha_\nu f_{n-1}(x_\nu) &= 0.
+\end{aligned}
+\]
+Since now $\nu \leqq n$,
+the determinant of the first $\nu$
+of these equations must vanish, hence
+\[
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1) & \ldots & f_{\nu-1}(x_1) \\
+f_0(x_2), & f_1(x_2) & \ldots & f_{\nu-1}(x_2) \\
+\cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot\ \cdot & \cdot \\
+f_0(x_\nu), & f_1(x_\nu) & \ldots & f_{\nu-1}(x_\nu)
+\end{vmatrix}
+= 0,
+\]
+or
+\[
+\begin{vmatrix}
+1, & x_1 + a_1, & x_1^2 + a_1 x_1 + a_2 \ldots \\
+1, & x_2 + a_1, & x_2^2 + a_1 x_2 + a_2 \ldots \\
+\cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+1, & x_\nu + a_1, & x_\nu^2 + a_1 x_\nu + a_2 \ldots
+\end{vmatrix}
+= 0.
+\]
+But this determinant can be brought, by repeated application
+of the theorem on the addition of columns \S.\,22, (VII),
+to the form
+\[
+\pm
+\begin{vmatrix}
+1, & x_1, & x_1^2 & \ldots & x_1^{\nu-1} \\
+1, & x_2, & x_2^2 & \ldots & x_2^{\nu-1} \\
+\cdot & \cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot & \cdot \\
+1, & x_\nu, & x_\nu^2 & \ldots & x_\nu^{\nu-1}
+\end{vmatrix}
+=
+\begin{aligned}
+&(x_1 - x_2)(x_1 - x_3) \ldots (x_1 - x_\nu) \\
+&\hphantom{(x_1 - x_2)}(x_2 - x_3) \ldots (x_2 - x_\nu) \\
+&\hphantom{(x_1 - x_2)(x_2 - x_3)}\cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+&\hphantom{(x_1 - x_2)(x_2 - x_3)\cdot\cdot}(x_{\nu-1} - x_\nu),
+\end{aligned}
+\]
+and it therefore cannot vanish if, as was assumed,
+the $x_1, x_2 \ldots x_\nu$ are distinct.
+
+If, therefore, in the sum (4) we collect all terms that are equal
+to one another, \gesperrt{there remain as many squares
+of linearly independent functions as equation (1)
+has distinct roots.}

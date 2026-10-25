@@ -1,0 +1,25 @@
+% !PRINTED 271
+\weberpage{271}
+%<<CONT
+the problem of determining the number of \gesperrt{positive roots} of an equation $f(x) = 0$. If we set $x = y^2$, then to every real value of $y$ there corresponds a positive value of $x$, and conversely to every positive value of $x$ there correspond two real, opposite values of $y$. % Source-original edge case: y=0 gives x=0, not a positive value, so the halving statement needs f(0) != 0 (or separate treatment of the zero root); the print is preserved.
+\gesperrt{The number of positive roots of $f(x) = 0$ is therefore half as great as the number of real roots of $f(y^2) = 0$.} If we further set
+\[
+y = \frac{x - a}{b - x},
+\]
+% F(z^2) is correct: after f(x) has been transformed into F(y), the new substitution y=z^2 converts positive y-roots into pairs of real z-roots.
+then, while $x$ goes from $a$ to $b$, $y$ will run through positive values from $0$ to infinity; and if by this substitution we transform $f(x)$ into $F(y)$, then $f(x) = 0$ will have just as many roots between $a$ and $b$ as $F(y) = 0$ has positive roots, and hence half as many as $F(z^2) = 0$ has real roots. Our task is thus in fact reduced to determining the number of real roots of a certain other equation, whose degree is twice as great as the degree of the given equation. But this reduction of the problem does not give its solution in the simplest form, and we must look for a simpler answer to the question.
+
+\begin{center}
+\S.\,86.
+
+\gesperrt{The Sturm chains.}
+\end{center}
+
+The following consideration leads us to a solution of the problem that we posed in the preceding section.
+
+Let $\alpha$ and $\beta$ be any two real numbers with $\alpha < \beta$. Further, let $f(x)$ be a given integral rational function of $x$, for which it is to be determined how many of its roots lie in the interval $\Delta$
+\[
+\alpha < x < \beta\text{.}
+\]
+% the German verb "liegen" follows the display; English absorbs "lie" before it
+We assume that $\alpha$, $\beta$ do not themselves belong to the roots of $f(x) = 0$, so that $f(\alpha)$ and $f(\beta)$ are different from zero. Moreover, we shall assume for the present that $f(x)$ has no multiple root, at least in the interval $\Delta$, so that for no value of the interval are $f(x)$ and $f'(x)$ to vanish simultaneously.

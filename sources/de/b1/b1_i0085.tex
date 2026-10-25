@@ -1,0 +1,71 @@
+% !PRINTED 60
+\weberpage{60}
+%<<CONT
+
+\[
+ \alpha_1+\alpha_2+\cdots+\alpha_m=\nu
+\]
+ist, die \gesperrt{Derivirten $\nu$ter Ordnung der Function $\Phi$}.
+
+Man stellt sie auch nach der in der Differentialrechnung gebräuchlichen Bezeichnungsweise so dar:
+\begin{equation}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi
+ =
+ {\partial^\nu\Phi\over
+ \partial x_1^{\alpha_1}\partial x_2^{\alpha_2}\cdots\partial x_m^{\alpha_m}}.
+\tag{5}
+\end{equation}
+
+Das Bildungsgesetz der Derivirten lässt sich in folgende Sätze zusammenfassen, wobei wir der Kürze wegen die Indices bei dem Zeichen $D$ weglassen.
+
+\gesperrt{I. Ist $C$ eine Constante, so ist}
+\[
+ D(C\Phi)=CD\Phi.
+\]
+\gesperrt{II. Sind $\Phi$ und $\Psi$ irgend zwei Functionen, so ist}
+\[
+ D(\Phi+\Psi)=D\Phi+D\Psi.
+\]
+Beides folgt unmittelbar aus (4).
+
+Wir können also leicht die derivirten Functionen allgemein bilden, wenn wir sie für den speciellen Fall kennen, in dem $\Phi$ ein Product von Potenzen ist, also wenn wir
+\[
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}(x_1^{\mu_1}x_2^{\mu_2}\cdots x_m^{\mu_m})
+\]
+kennen, worin die $\mu$ beliebige, nicht negative Exponenten sind.
+
+Nun ist aber
+\[
+ (x_1+\xi_1)^{\mu_1}
+ =\sum^{\alpha_1}{\Pi(\mu_1)\over\Pi(\alpha_1)\Pi(\mu_1-\alpha_1)}
+ \xi_1^{\alpha_1}x_1^{\mu_1-\alpha_1}
+\]
+und folglich:
+\begin{equation}
+\begin{aligned}
+&(x_1+\xi_1)^{\mu_1}\cdots(x_m+\xi_m)^{\mu_m}\\
+&=\sum^{\alpha_1\ldots\alpha_m}
+ {\Pi(\mu_1)\cdots\Pi(\mu_m)x_1^{\mu_1-\alpha_1}\cdots x_m^{\mu_m-\alpha_m}
+ \over
+ \Pi(\mu_1-\alpha_1)\cdots\Pi(\mu_m-\alpha_m)\Pi(\alpha_1)\cdots\Pi(\alpha_m)}
+ \xi_1^{\alpha_1}\cdots\xi_m^{\alpha_m}.
+\end{aligned}
+\tag{6}
+\end{equation}
+und es ergiebt also die Vergleichung mit (4) und (6)
+\begin{equation}
+\begin{aligned}
+&D_{\alpha_1,\ldots,\alpha_m}(x_1^{\mu_1}\cdots x_m^{\mu_m})\\
+&\quad =
+{\Pi(\mu_1)\cdots\Pi(\mu_m)\over
+ \Pi(\mu_1-\alpha_1)\cdots\Pi(\mu_m-\alpha_m)}
+ x_1^{\mu_1-\alpha_1}\cdots x_m^{\mu_m-\alpha_m},
+\end{aligned}
+\tag{7}
+\end{equation}
+so lange $\alpha_1\leq\mu_1,\ldots,\alpha_m\leq\mu_m$. Dagegen ist
+\begin{equation}
+ D_{\alpha_1,\ldots,\alpha_m}(x_1^{\mu_1}\cdots x_m^{\mu_m})=0,
+\tag{8}
+\end{equation}
+sobald einer der Indices $\alpha$ grösser ist als der entsprechende Exponent $\mu$.

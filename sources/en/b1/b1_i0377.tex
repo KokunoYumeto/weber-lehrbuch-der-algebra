@@ -1,0 +1,50 @@
+% !PRINTED 352
+\weberpage{352}
+
+\begin{center}
+\S.\ 113.
+
+\gesperrt{Gauss's method for the solution of trinomial}
+
+\gesperrt{equations.}
+\end{center}
+
+\gesperrt{Gauss} has given a method for solving numerically, in a simple way, the roots of an equation that contains only three terms. Such equations occur frequently and include as special cases all quadratic equations and the reduced cubic equations. Of such an equation, whose general form is
+
+\weq{1}{x^{m+n} + a x^m + b = 0}
+
+only the positive root, if it exists, is sought at first. Any negative root is obtained by replacing $x$ by $-x$.
+
+According to the signs of $a$, $b$ one has three cases to distinguish, since, when both signs are positive, no positive root is present. Denoting by $e$ and $g$ positive numbers, we therefore consider the three cases:
+
+\[
+\begin{aligned}
+&\text{a)}\quad x^{m+n} + e x^m - g = 0,\\
+&\text{b)}\quad x^{m+n} - e x^m - g = 0,\\
+&\text{c)}\quad x^{m+n} - e x^m + g = 0.
+\end{aligned}
+\]
+
+In the first two cases we have, by the \gesperrt{Cartesian} theorem, one positive root each; in the third, two positive roots or none may be present.
+
+Following \gesperrt{Gauss}, we now set
+
+\[
+\lambda = \frac{g^n}{e^{m+n}},
+\]
+
+and seek to reduce the three equations a), b), c) by suitable substitutions to the form:
+
+\[
+\sin^2\Theta + \cos^2\Theta = 1
+\]
+
+We set:
+
+\weq{2}{
+\begin{aligned}
+&\text{a)}\quad \frac{x^{m+n}}{g} = \sin\Theta^2, \quad \frac{e x^m}{g} = \cos\Theta^2, \quad \lambda = \frac{\sin\Theta^{2m}}{\cos\Theta^{2m+2n}},\\
+&\text{b)}\quad g x^{-m-n} = \sin\Theta^2, \quad e x^{-n} = \cos\Theta^2, \quad \lambda = \frac{\sin\Theta^{2n}}{\cos\Theta^{2m+2n}},\\
+&\text{c)}\quad \frac{x^n}{e} = \sin\Theta^2, \quad \frac{g x^{-m}}{e} = \cos\Theta^2, \quad \lambda = \sin\Theta^{2m}\cos\Theta^{2n}.
+\end{aligned}
+}

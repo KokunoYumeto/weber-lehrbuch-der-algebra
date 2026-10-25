@@ -1,0 +1,53 @@
+% !PRINTED 753
+\weberpage{753}
+%<<CONT
+worin
+
+\weq{5}{U_r = \frac{x}{r+1}+\frac{x^2}{(r+1)(r+2)}+\frac{x^3}{(r+1)(r+2)(r+3)}+\cdots,}
+
+und diese Formel gilt auch für $r=0$, wenn man $\Pi(0)=1$ annimmt.
+
+Bezeichnen wir den absoluten Werth von $x$ mit $\xi$, so ist nach dem in der Einleitung bewiesenen Satze, dass der absolute Werth einer Summe niemals grösser ist als die Summe der absoluten Werthe ihrer Theile, der absolute Werth von $U_r$ gewiss nicht grösser als
+\[
+\frac{\xi}{r+1}+\frac{\xi^2}{(r+1)(r+2)}+\frac{\xi^3}{(r+1)(r+2)(r+3)}+\cdots,
+\]
+also kleiner als
+\[
+1+\frac{\xi}{1}+\frac{\xi^2}{1.2}+\frac{\xi^3}{1.2.3}+\cdots=e^{\xi}.
+\]
+Wenn wir daher
+\[
+U_r = q_r\,e^{\xi}
+\]
+setzen, so ist $q_r$ eine Function von $x$, von der wir nur so viel feststellen, dass ihr absoluter Werth kleiner als 1 ist.
+
+Hiernach stellen wir die Formel (4) für $r=0,1,\ldots,n$ auf, und schreiben die Glieder, in umgekehrter Reihenfolge geordnet, übersichtlich so:
+\[
+\begin{aligned}
+\Pi(n)\,e^x &= q_n\,x^n e^{\xi} + x^n + n\,x^{n-1} + n(n-1)x^{n-2}+\cdots\\
+&\qquad{}+\Pi(n)\\[4pt]
+(6)\qquad \Pi(n-1)\,e^x &= q_{n-1}\,x^{n-1}e^{\xi}+x^{n-1}+(n-1)x^{n-2}\\
+&\qquad{}+(n-1)(n-2)x^{n-3}+\cdots\\[4pt]
+&\hphantom{\Pi(n)\,e^x{}}\;\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\[4pt]
+e^x &= q_0\,e^{\xi}+1.
+\end{aligned}
+\]
+
+Nun nehmen wir eine beliebige ganze Function $n^{\text{ten}}$ Grades von $x$ an:
+
+\weq{7}{f(x) = c_n x^n + c_{n-1}x^{n-1} + c_{n-2}x^{n-2}+\cdots+c_0,}
+
+und ihre Derivirten
+\[
+\begin{aligned}
+f'(x) &= n\,c_n x^{n-1} + (n-1)c_{n-1}x^{n-2}+\cdots\\[4pt]
+(8)\qquad f''(x) &= n(n-1)c_n x^{n-2}+(n-1)(n-2)c_{n-1}x^{n-3}+\cdots\\[4pt]
+&\hphantom{f''(x){}}\;\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\[4pt]
+f^{(n)}(x) &= \Pi(n)\,c_n,
+\end{aligned}
+\]
+
+und setzen noch zur Abkürzung
+
+\weq{9}{F(x) = f(x)+f'(x)+f''(x)+\cdots+f^{(n)}(x).}
+% signature "Weber, Algebra. II." and gathering-mark "48" at foot -- not text, omitted

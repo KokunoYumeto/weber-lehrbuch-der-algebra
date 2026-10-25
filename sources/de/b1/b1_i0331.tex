@@ -1,0 +1,81 @@
+% !PRINTED 306
+\weberpage{306}
+
+Wir machen beim Beweis dieses Satzes die folgenden Voraussetzungen, von
+denen wir uns zum Theil später wieder befreien werden.
+
+1. $f(x)$ hat keine doppelten oder mehrfachen Wurzeln.
+
+2. Von den Functionen $f_\nu(x)$ verschwinden nicht zwei benachbarte für
+denselben Werth von $x$.
+
+3. Auch von den Functionen $F_\nu(x)$ verschwinden nicht zwei benachbarte
+für denselben Werth von $x$.
+
+4. Eine Folge von 2. ist [nach Formel (3)], dass nicht $f_\nu(x)$ und
+$F_\nu(x)$ für denselben Werth von $x$ verschwinden.
+
+5. Für $x = \alpha$ und $x = \beta$ selbst soll keine der Functionen
+$f_\nu$, $F_\nu$ verschwinden.
+
+Der Beweis der Sätze II und III ist nun folgender:
+
+Lassen wir $x$, stetig wachsend, von $\alpha$ bis $\beta$ gehen, so kann
+eine Aenderung in der Zeichenfolge nur dann eintreten, wenn eine der
+Functionen $f_\nu$ oder $F_\nu$ durch Null hindurchgeht, und es kommt nur
+darauf an, den Effect zu untersuchen, den ein solcher Durchgang durch
+Null in den verschiedenen Fällen hervorruft. Nehmen wir zunächst an, es
+gehe eine der mittleren Functionen $f$, etwa $f_\nu$, durch Null, wobei
+also $0 < \nu < n$. Je nachdem $f_{\nu+1}$ positiv oder negativ ist,
+wird $f_\nu$ wachsen oder abnehmen. Es wird also im ersten Falle
+$f_\nu(x - 0)$ negativ, $f_\nu(x + 0)$ positiv sein, und im zweiten
+Falle umgekehrt; ausserdem folgt aus (3), dass, wenn $f_\nu = 0$ ist,
+$F_{\nu-1}$ und $F_{\nu+1}$ positiv sind, und dass $F_\nu$ das
+entgegengesetzte Vorzeichen von $f_{\nu-1} f_{\nu+1}$ hat. Wir stellen
+die hiernach bleibenden Möglichkeiten tabellarisch zusammen, lassen aber
+in der Aufzählung solche Fälle weg, die durch gleichzeitige
+Vorzeichenänderung der drei Functionen $f_{\nu-1}$, $f_\nu$,
+$f_{\nu+1}$ aus den aufgeführten entstehen, da diese offenbar keine
+verschiedenen Resultate ergeben. Es bleiben uns hiernach nur zwei
+Fälle:
+
+% [restored 2026-08-07, 6x zoom strips 5/6 and 4/4] The lower third of this page was dropped:
+% two side-by-side sign tables, the connecting line "In diesen Fällen ist also", and a second
+% pair of tables. The fragment ended at "nur zwei Fälle:" -- announcing tables that were not
+% there -- and carried no %CONT>> marker, so the material was not deferred either. i0332 opens
+% with "Es wird also weder ein $VP$ noch ein $PP$ verloren oder gewonnen.", which is printed 307's
+% own first sentence, so nothing was moved: it was lost.
+%
+% Not caught by any mechanical check. Coverage did not move because a sign table is almost no
+% letters, and the fragment was internally well-formed. Raised as an omission by this page's
+% translation pass.
+%
+% The printed tables carry outer vertical rules as well as the rules separating the row labels
+% and the F row; all are reproduced. The heading of each half repeats "\nu-1, \nu, \nu+1".
+\[
+\begin{array}{|c|ccc|}
+ & \nu-1, & \nu, & \nu+1 \\ \hline
+f(x-0) & + & - & + \\
+f(x+0) & + & + & + \\ \hline
+F & + & - & +
+\end{array}
+\qquad
+\begin{array}{|ccc|}
+\nu-1, & \nu, & \nu+1 \\ \hline
+- & - & + \\
+- & + & + \\ \hline
++ & + & +
+\end{array}.
+\]
+In diesen Fällen ist also
+\[
+\begin{array}{|c|cc|}
+x-0 & VV, & VV \\
+x+0 & PV, & PV
+\end{array}
+\qquad
+\begin{array}{|cc|}
+PP, & VP \\
+VP, & PP
+\end{array}.
+\]

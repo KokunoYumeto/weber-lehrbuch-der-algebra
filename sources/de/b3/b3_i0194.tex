@@ -1,0 +1,38 @@
+% !PRINTED 173
+\weberpage{173}
+%<<CONT
+n\"ahert sich $\varkappa_\nu$ mit unendlich wachsendem $\nu$ der Grenze Null. Daraus erh\"alt man f\"ur $q$ die Darstellung:
+
+\weq{22}{q = \mathop{\mathrm{Lim}}\limits_{\nu=\infty} \sqrt[2^{\nu-1}]{\frac{\varkappa_\nu}{4\varkappa_\nu'}} = \mathrm{Lim} \sqrt[2^{\nu-1}]{\frac{\varkappa_\nu}{4}},}
+
+die bei reellen Werten von $\varkappa$ zur Berechnung geeignet ist.
+
+Aus jeder der Formeln (21) kann man eine Reihenentwickelung von $q$ nach den steigenden Potenzen von $\varkappa_\nu$ herleiten, deren Konvergenz mit wachsendem $\nu$ zunimmt. Wendet man insbesondere die Formel (20) an, so erh\"alt man eine Entwickelung, die von \gesperrt{Weierstrass} in den Monatsberichten der Berliner Akademie vom Jahre 1883 mitgeteilt ist, deren Konvergenzbereich die Ebene $\varkappa^2$ zweimal ausf\"ullt.
+
+Die Koeffizienten dieser Entwickelung berechnet man am einfachsten aus:
+
+\weq{23}{\sqrt{\varkappa_2} = \frac{\vartheta_{10}(0,4\omega)}{\vartheta_{00}(0,4\omega)} = \frac{2q+2q^9+2q^{25}+\cdots}{1+2q^4+2q^{16}+\cdots},}
+
+und erh\"alt so nach der Methode der unbestimmten Koeffizienten:
+
+\weq{24}{q = \frac{\sqrt{\varkappa_2}}{2} + 2\left(\frac{\sqrt{\varkappa_2}}{2}\right)^5 + 15\left(\frac{\sqrt{\varkappa_2}}{2}\right)^9 + 150\left(\frac{\sqrt{\varkappa_2}}{2}\right)^{13} + 1707\left(\frac{\sqrt{\varkappa_2}}{2}\right)^{17} + \cdots}
+
+Ebenso l\"a\ss{}t sich nach (23) auch umgekehrt $\sqrt{\varkappa_2}$ in eine nach Potenzen von $q$ fortschreitende Reihe entwickeln:
+
+\weq{25}{\tfrac{1}{2}\sqrt{\varkappa_2} = q - 2q^5 + 5q^9 - 10q^{13} + 18q^{17}\cdots,}
+
+die man auch durch Umkehrung der Reihe (24) erh\"alt.
+
+Damit ist die am Anfang dieses Paragraphen gestellte Frage vollst\"andig beantwortet.
+
+Bez\"uglich der Anwendung der hier entwickelten Formeln zu numerischer Berechnung von $q$ sei noch bemerkt, da\ss{}, wenn $\varkappa^2$ n\"aher an 1 liegt, man ein besser konvergentes Verfahren erh\"alt, wenn man $\varkappa^2$ mit $\varkappa'^2$ vertauscht. Die Rechnung ergibt dann zun\"achst nicht $q$, sondern
+
+\[
+q' = e^{-\frac{\pi i}{\omega}},
+\]
+
+woraus man aber $q$ aus der Formel erh\"alt:
+
+\[
+\log q \log q' = \pi^2.
+\]

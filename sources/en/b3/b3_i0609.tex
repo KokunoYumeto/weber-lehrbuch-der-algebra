@@ -1,0 +1,39 @@
+% !PRINTED 578
+\weberpage{578}
+%<<CONT
+numerical coefficients are rational. That they are integers cannot be
+seen, on account of the denominator 2 which appears at first.
+
+In order to investigate this more closely, we consider the roots
+of the function $A(x)$: they are, if we set:
+\[
+\Omega_{h,h'} = \frac{2hK+2h'iK'}{m},
+\]
+\weq{9}{x_{h,h'} = \sqrt{\varkappa}\,\mathrm{sn}\,\Omega_{h,h'} = \frac{\vartheta_{11}\left(\frac{h+h'\omega}{m},\omega\right)}{\vartheta_{01}\left(\frac{h+h'\omega}{m},\omega\right)},}
+in which $h,h'$ may be any integers whatever; only they must not
+both be equal to zero. One obtains \gesperrt{all the roots} of
+$A(x)$ by letting $h,h'$ each run through a complete system of
+residues with respect to the modulus $m$, apart from the combination 0,0.
+It is then
+\weq{10}{x_{h,h'} = \frac{-i\sum\limits_{-\infty,\infty}^{\nu}(-1)^\nu e^{\frac{\pi i h}{m}(2\nu+1)} q^{\left(\frac{2h+1}{2}+\frac{h'}{m}\right)^2}}{\sum\limits_{-\infty,\infty}^{\nu}(-1)^\nu e^{\frac{2\pi i \nu h}{m}} q^{\left(\nu+\frac{h'}{m}\right)^2}}.}
+% [source sic: the exponent prints 2h+1 although the summation index suggests 2\nu+1]
+In order to develop this expression in ascending powers of $q$,
+one must first seek out the lowest power of $q$ in the denominator,
+that is, the term in which $\nu+\frac{h'}{m}$ becomes as small as
+possible. This occurs when $\nu$ is the integer lying nearest to $-h'/m$.
+Since $m$ is odd, there is \gesperrt{only one} such
+number $\nu$, and formula (10) takes the shape:
+\weq{11}{x_{h,h'} = \frac{Q_1}{1+Q_2} = Q_1 - Q_1 Q_2 + Q_1 Q_2^2 - \dots,}
+in which $Q_1$ and $Q_2$ are series ordered according to ascending powers of $q$,
+whose coefficients are integral algebraic numbers (cyclotomic
+numbers).
+
+\gesperrt{Accordingly $x_{h,h'}$ can be developed in ascending powers
+of $q$, and the coefficients of this development
+are integral algebraic numbers.}
+
+If $S$ is a symmetric function of the $x_{h,h'}$ with rational
+integral coefficients, then it too can be developed in the same
+way in powers of $q$. On the other hand, by
+the fundamental theorem on symmetric functions $S$ is rationally expressible through
+%CONT>>

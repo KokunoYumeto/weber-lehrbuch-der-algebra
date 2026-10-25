@@ -1,0 +1,36 @@
+% !PRINTED 646
+\weberpage{646}
+
+In the further course of the proof a small distinction must now be made, according as $m$ is odd or even.
+
+If $m$ is, to begin with, \gesperrt{odd}, then in (2) we can assume the exponent $h$ to be even, since we can if necessary replace it by $h + m$. Further, in formula (2) only the upper sign is admissible. For if the lower sign stood there, it would follow that:
+\[
+\mathfrak{E}(r) \equiv \mathfrak{E}(1) \equiv -\mathfrak{E}(1), \quad 2\,\mathfrak{E}(1) \equiv 0\ [\mathrm{mod}\ (1 - r)].
+\]
+
+By §. 169, however, $1 - r$ is a divisor of $q$, hence relatively prime to 2, and therefore $\mathfrak{E}(1)$, and consequently also $\mathfrak{E}(r)$, is divisible by $(1 - r)$. But this contradicts the assumption that $\mathfrak{E}(r)$ is to be a unit.
+
+Accordingly, from (2) we obtain:
+\[
+r^{-1/2\,h}\, \mathfrak{E}(r) = r^{1/2\,h}\, \mathfrak{E}(r^{-1}),
+\]
+from which it follows that $r^{-1/2\,h}\, \mathfrak{E}(r)$ is a real unit. If we denote it by $e(r)$, we thus have
+\weq{3}{\mathfrak{E}(r) = r^{1/2\,h}\, e(r),}
+by which Theorem 1. is proved for this case.
+
+But if, secondly, $m$ \gesperrt{is a power of 2}, then $\mu = \tfrac{1}{2} m$ and $r^\mu = -1$, and together with $r$, $-r$ is also an $m$th root of unity. If we replace $h$ if necessary by $h + \tfrac{1}{2} m$, we can assume the upper sign in (2) and set:
+\weq{4}{\mathfrak{E}(r) = r^h\, \mathfrak{E}(r^{-1}).}
+
+It is now a matter of proving that $h$ must be even.
+
+If we represent $\mathfrak{E}(r)$ by the basis $1, r, r^2, \ldots r^{\mu-1}$, we obtain
+\weq{5}{\mathfrak{E}(r) = \sum_{0,\,\mu-1}^{s} x_s\, r^s,}
+in which the $x_s$ are integral rational numbers. But by (4) we then have
+\[
+\sum_{0,\,\mu-1}^{s} x_s\, r^s = \sum_{1,\,\mu-1}^{s} x_s\, r^{h-s}, % [sic] source prints lower limit 1 on the right; substitution in (4) requires 0
+\]
+and from this it follows that $x_s = \pm x_{s'}$ when $s + s' \equiv h\ (\mathrm{mod}\ \mu)$. Now if $h$ is \gesperrt{odd}, then of two numbers so connected the one is even, the other odd (since $\mu$ is a power of 2). The expression (5) therefore yields for $\mathfrak{E}(r)$ an aggregate of terms of the form
+\[
+x_s\,(r^s \pm r^{s'}).
+\]
+%CONT>>

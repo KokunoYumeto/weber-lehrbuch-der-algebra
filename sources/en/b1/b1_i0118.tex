@@ -1,0 +1,57 @@
+% !PRINTED 93
+\weberpage{93}
+%<<CONT
+
+\[
+A=\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_n^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ a_1^{(n)}&a_2^{(n)}&\cdots&a_n^{(n)}
+\end{vmatrix},\qquad
+B=\begin{vmatrix}
+ b_1^{(1)}&b_2^{(1)}&\cdots&b_n^{(1)}\\
+ b_1^{(2)}&b_2^{(2)}&\cdots&b_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ b_1^{(n)}&b_2^{(n)}&\cdots&b_n^{(n)}
+\end{vmatrix},
+\]
+and if $A_i^{(k)},B_i^{(k)}$ denote the first subdeterminants, one obtains
+\begin{align}
+ A x_k&=\sum_i A_k^{(i)}y_i,\tag{3}\\
+ B y_i&=\sum_h B_h^{(i)}z_h,\tag{4}
+\end{align}
+and, by substitution of (4) in (3),
+\begin{equation}
+ ABx_k=\sum_h z_h\sum_i A_k^{(i)}B_h^{(i)}.\tag{5}
+\end{equation}
+But one may also proceed by inserting from (1) the expressions for $y$ into (2), whereby, if
+\begin{equation}
+ c_i^{(h)}=\sum_s a_i^{(s)}b_h^{(s)}\tag{6}
+\end{equation}
+is put, one obtains
+\begin{equation}
+ \sum_i c_i^{(h)}x_i=z_h.\tag{7}
+\end{equation}
+Now put
+\[
+C=\begin{vmatrix}
+ c_1^{(1)}&c_2^{(1)}&\cdots&c_n^{(1)}\\
+ c_1^{(2)}&c_2^{(2)}&\cdots&c_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ c_1^{(n)}&c_2^{(n)}&\cdots&c_n^{(n)}
+\end{vmatrix}\tag{8}
+\]
+If $C_i^{(k)}$ denotes the subdeterminants of $C$, the solution of (7) gives
+\begin{equation}
+ Cx_k=\sum_h z_h C_k^{(h)},\tag{9}
+\end{equation}
+and comparison of (5) with (9) gives
+\begin{equation}
+ AB=C,\tag{10}
+\end{equation}
+and for the subdeterminants
+\begin{equation}
+ C_k^{(h)}=\sum_i A_k^{(i)}B_h^{(i)}.\tag{11}
+\end{equation}
+In this conclusion, however, there is still a gap, caused by the doubt whether (5) and (9) might not differ by a factor common to both sides. To remove this doubt we shall prove equation (10) directly; the correctness of (11) then follows.

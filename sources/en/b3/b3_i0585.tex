@@ -1,0 +1,53 @@
+% !PRINTED 554
+\weberpage{554}
+
+%<<CONT
+\weq{3}{\begin{aligned}
+\frac{Z^0(t)}{t} &= \frac{\pi}{2\,\beta} + \frac{\gamma^0}{\sqrt{t}}, \\
+\frac{Z^1(t)}{t} &= \frac{\pi}{2\,\beta} + \frac{\gamma^1}{\sqrt{t}},
+\end{aligned}}
+
+in which $\gamma^0$ and $\gamma^1$ remain finite for $t=\infty$. The factor $\frac{1}{2}$ in
+$\pi/2\,\beta$ comes from the fact that here the meshes of the lattice are rectangles of area 2.
+This, however, is in agreement with the formula § 146, (2).
+
+From (3) there follows
+
+\weq{4}{Z^0(t) - Z^1(t) = \gamma\sqrt{t},}
+
+in which $\gamma$ likewise remains finite.
+
+Now we can write the sum occurring in formula (12), § 145
+\[
+\sigma = \sum \frac{(-1)^x}{[(x-\alpha y)^2 + \beta^2 y^2]^s}
+\]
+in the following way:
+\[
+\sigma = \frac{\varepsilon_1}{\mu_1^s} + \frac{\varepsilon_2}{\mu_2^s} + \frac{\varepsilon_3}{\mu_3^s} + \cdots,
+\]
+in which the $\varepsilon_1$, $\varepsilon_2$, $\varepsilon_3$, \dots\ have only the values $\pm 1$ and
+
+\weq{5}{\begin{aligned}
+\varepsilon_1 + \varepsilon_2 + \varepsilon_3 + \cdots + \varepsilon_n &= Z^0(n) - Z^1(n), \\
+&= \gamma \sqrt{n}.
+\end{aligned}}
+
+With this the assumptions of our theorem § 146 are satisfied.
+
+Accordingly $\sigma$ is a continuous function of $s$ for $s > \frac{1}{2}$, and hence in
+particular also for $s=1$, and from § 145, (12) we obtain:
+\weq{6}{\begin{aligned}
+-\frac{2\pi}{\beta}\log f(\omega_1)\,f(\omega_2) &= \sum \frac{(-1)^{x+y}}{(x-\alpha y)^2 + \beta^2 y^2}, \\
+-\frac{2\pi}{\beta}\log f_1(\omega_1)\,f_1(\omega_2) &= \sum \frac{(-1)^{x}}{(x-\alpha y)^2 + \beta^2 y^2}, \\
+-\frac{2\pi}{\beta}\log f_2(\omega_1)\,f_2(\omega_2) &= \sum \frac{(-1)^{y}}{(x-\alpha y)^2 + \beta^2 y^2}.
+\end{aligned}}
+
+These formulae can also be represented in yet another way. We introduce the notation:
+
+\weq{7}{\begin{aligned}
+\sum \frac{1}{(x-\alpha y)^2 + \beta^2 y^2} &= S_{00} : x \text{ even}, \ y \text{ even}, \\
+&= S_{01} : x \text{ even}, \ y \text{ odd}, \\
+&= S_{10} : x \text{ odd}, \ y \text{ even}, \\
+&= S_{11} : x \text{ odd}, \ y \text{ odd}.
+\end{aligned}}
+% [sic] Equation(5) conflates the number n of sequence terms with the quadratic-form cutoff n; printed arguments retained.

@@ -1,0 +1,41 @@
+% !PRINTED 549
+\weberpage{549}
+%<<CONT
+there results
+\[
+A = 1, \quad B = \alpha, \quad C = \alpha^2+\beta^2, \quad m = \beta^2,
+\]
+and formula 1 gives:
+
+\weq{3}{\begin{aligned}
+\sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s} &= \sum^{x,y} \frac{1}{(x+\omega_1 y)^s (x-\omega_2 y)^s}\\
+&= \frac{\pi}{(s-1)\beta} - \frac{2\pi\Gamma'(1)}{\beta} - \frac{\pi}{\beta}\log 4\beta^2 - \frac{2\pi}{\beta}\log \eta(\omega_1)\eta(\omega_2).
+\end{aligned}}
+
+The symbol Lim has here been omitted for the sake of brevity.
+
+We put
+
+\weq{4}{S = \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s},}
+
+in which $x, y$ run through all integer values with the exception of the combination $0,0$. $S$ is an unconditionally convergent series so long as $s > 1$.
+
+Now we divide the terms of $S$ into three kinds, according as the $x, y$ are even or odd, and put
+
+\weq{5}{\begin{aligned}
+S_0 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & x &\equiv y \pmod2,\\
+S_1 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & x &\equiv 0 \pmod2,\\
+S_2 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & y &\equiv 0 \pmod2.
+\end{aligned}}
+
+In $S_0$, then, the numbers $x, y$ are either both even or both odd; in $S_1$, $x$ runs through the even numbers and $y$ through all integers; in $S_2$, $y$ is even and $x$ arbitrary. If one considers the sum $S_0+S_1+S_2$, all the terms of $S$ occur in it, and indeed three times over those terms in which $x$ and $y$ are both even. If one takes the factor $4^{-s}$ out of the sum of these terms, then $S$ itself remains, and there results accordingly:
+
+\weq{6}{S_0+S_1+S_2 = \left(1+\frac{2}{4^s}\right) S.}
+
+If one passes to the limit $s = 1$, one has to put
+
+\weq{7}{\frac{1}{4^s} = \frac14 - \frac{s-1}{2}\log2 \ldots,}
+
+and obtains from (3) the formula valid for $s = 1$:
+
+\weq{8}{S_0+S_1+S_2 = \frac32 S - \frac{\pi}{\beta}\log2.}

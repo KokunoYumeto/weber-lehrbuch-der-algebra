@@ -1,0 +1,63 @@
+% !PRINTED 284
+\weberpage{284}
+
+If we set
+\[
+H = \sum_{0,\,n-1}^{i} \sum^{k} H_{i,k}\, t_i\, t_k,
+\]
+then the coefficients $H_{i,k}$, whose determinant is to be formed, are given by the formula \S.\,91, (6). Here $H_{i,k}$ is the coefficient of $t_i \tau_k$ in that formula, hence
+\[
+H_{i,k} = S(x-\alpha)\,f_{n-i-1}\,f_{n-k-1}.
+\]
+By the multiplication theorem, however, the determinant of these $n^2$ quantities can be put into the form:
+\[
+\varDelta =
+\begin{vmatrix}
+(x_1-\alpha)f_0(x_1), & (x_1-\alpha)f_1(x_1), & \dots & (x_1-\alpha)f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+(x_n-\alpha)f_0(x_n), & (x_n-\alpha)f_1(x_n), & \dots & (x_n-\alpha)f_{n-1}(x_n)
+\end{vmatrix}
+\times
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1), & \dots & f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+f_0(x_n), & f_1(x_n), & \dots & f_{n-1}(x_n)
+\end{vmatrix},
+\]
+or also, since
+\[
+a_0 (x_1-\alpha)(x_2-\alpha)\cdots(x_n-\alpha) = (-1)^n f(\alpha)
+\]
+into the form
+\[
+\frac{(-1)^n f(\alpha)}{a_0}
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1) & \dots & f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+f_0(x_n), & f_1(x_n) & \dots & f_{n-1}(x_n)
+\end{vmatrix}^2.
+\]
+The determinant of the $f_k(x_i)$ still occurring here is the product of the two following:
+\[
+\begin{vmatrix}
+a_0, & 0 & \dots & 0 \\
+a_1, & a_0 & \dots & 0 \\
+\cdots & \cdots & \cdots & \cdots \\
+a_{n-1}, & a_{n-2} & \dots & a_0
+\end{vmatrix}
+\begin{vmatrix}
+1, & x_1, & x_1^2 & \dots & x_1^{n-1} \\
+1, & x_2, & x_2^2 & \dots & x_2^{n-1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots \\
+1, & x_n, & x_n^2 & \dots & x_n^{n-1}
+\end{vmatrix}.
+\]
+But the square of this product, if $D$ denotes the discriminant of the function $f(x)$ (\S.\,46), is equal to $a_0^2 D$, so that for $\varDelta$ we obtain
+\weq{1}{\varDelta = (-1)^n a_0 f(\alpha)\, D.} % source type in $(-1)^n$ is damaged; reading resolved by the immediately preceding identity
+Since by hypothesis $D$ is not to vanish, $\varDelta$ will therefore vanish only when one of the roots of $f(x) = 0$ is put for $\alpha$, and this too is to be excluded.
+
+If we denote a chain of principal subdeterminants of $\varDelta$, beginning with the lowest, by
+\[
+\varDelta_1(\alpha),\ \varDelta_2(\alpha), \dots, \varDelta_n(\alpha) = \varDelta,
+\]
+%CONT>>

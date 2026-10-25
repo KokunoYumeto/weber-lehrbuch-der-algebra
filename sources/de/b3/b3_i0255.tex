@@ -1,0 +1,52 @@
+% !PRINTED 234
+\weberpage{234}
+%<<CONT
+\weq{10}{\begin{aligned}
+\mu &\equiv \alpha = a\alpha' + c\beta'\\
+\mu' &\equiv \beta = \partial\beta'
+\end{aligned}\ (\mathrm{mod}\ n),}
+
+worin $\beta'$ eine beliebige, zu $a$ teilerfremde Zahl bedeutet und
+$\alpha'$ so bestimmt wird, daß $\alpha$, $\beta$ relativ prim werden, und
+es ist auch leicht [nach §\,65, (3)] einzusehen, daß, so lange $a$,
+$\partial$, $c$ dieselben bleiben, die nach (10) bestimmten Zahlenpaare
+$\mu$, $\mu'$ derselben Reihe angehören.
+
+Wir nennen die Zahlen $a$, $c$, $\partial$ (wie in §\,27) die
+\gesperrt{Transformationszahlen} und $n$ den \gesperrt{Transformationsgrad}.
+
+\gesperrt{Das Zahlensystem $a$, $c$, $\partial$ ist also vollständig charakteristisch
+für eine Reihe}, und die Anzahl der Reihen ist gleich der Anzahl dieser
+Zahlensysteme, woraus für die Zahl $\psi(n)$, (§\,63) folgt:
+
+\weq{11}{\psi(n) = \Sigma \frac{a}{e}\varphi(e),}
+
+wenn die Summe auf alle Divisoren $a$ von $n$ erstreckt wird.
+
+Es ist von Interesse, diese Relation auch direkt zu beweisen, wobei die
+Beschränkung auf ein ungerades $n$ wegfallen kann. Betrachten wir $\psi(n)$
+jetzt als Zeichen für die Summe (11), so ergibt sich, wenn $n'$, $n''$
+relativ prim sind, zunächst
+\[
+\psi(n')\psi(n'') = \psi(n'n''),
+\]
+und es bleibt also nur übrig, die Summe $\psi(n)$ für den Fall zu
+bestimmen, daß $n=p^\pi$ eine Primzahlpotenz ist. In diesem Falle ist nun
+$e$ gleich dem kleineren der beiden Divisoren $a$, $\partial$, und wenn
+$a=\partial$ ist, $e=a$. Wenn wir also das erste und letzte Glied der Summe
+$\psi(n)$ absondern, so erhalten wir
+\[
+\psi(p^\pi) = 1 + p^\pi + \sum_{1<a\leqq\sqrt{n}}\varphi(a) + \sum_{\sqrt{n}<a<n}\frac{a}{\partial}\varphi(\partial).
+\]
+Es ist aber
+\[
+\varphi(a) = a\frac{p-1}{p}, \qquad \varphi(\partial) = \partial\frac{p-1}{p},
+\]
+also
+\[
+\begin{aligned}
+\psi(p^\pi) &= 1 + p^\pi + \frac{p-1}{p}\sum_{1<a<n} a\\
+&= 1 + p^\pi + (p-1)(1+p+p^2+\cdots p^{\pi-2}) = p^\pi\Bigl(1+\frac{1}{p}\Bigr),
+\end{aligned}
+\]
+%CONT>>

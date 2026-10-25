@@ -1,0 +1,40 @@
+% !PRINTED 126
+\weberpage{126}
+
+Wir betrachten jetzt zwei Substitutionen und die aus beiden zusammengesetzte, also:
+\[
+\begin{pmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{pmatrix} = \begin{pmatrix}\alpha', & \beta'\\ \gamma', & \delta'\end{pmatrix}\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}.
+\]
+Ist dann
+\[
+\omega' = \frac{\gamma+\delta\omega}{\alpha+\beta\omega},
+\]
+so ergibt sich aus der Definition (7):
+\weq{12}{E\left(\begin{smallmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{smallmatrix}, \omega\right) = E\left(\begin{smallmatrix}\alpha', & \beta'\\ \gamma', & \delta'\end{smallmatrix}, \omega'\right) E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right),}
+und davon zwei besondere Fälle, indem man
+\[
+\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix} = \begin{pmatrix}1, & 0\\ \pm 1, & 1\end{pmatrix}, \ \begin{pmatrix}0, & 1\\ -1, & 0\end{pmatrix}
+\]
+setzt und an Stelle von $\alpha'$, $\beta'$, $\gamma'$, $\delta'$ wieder $\alpha$, $\beta$, $\gamma$, $\delta$ schreibt, also
+\[
+\begin{pmatrix}\alpha'', & \beta''\\ \gamma'', & \delta''\end{pmatrix} = \begin{pmatrix}\alpha\pm\beta, & \beta\\ \gamma\pm\delta, & \delta\end{pmatrix}, \ \begin{pmatrix}-\beta, & \alpha\\ -\delta, & \gamma\end{pmatrix}\text{:}
+\]
+\weq{13}{E\left(\begin{smallmatrix}\alpha\pm\beta, & \beta\\ \gamma\pm\delta, & \delta\end{smallmatrix}, \omega\right) = e^{\pm\frac{\pi i}{12}}\,E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\pm 1\right),}
+\weq{14}{E\left(\begin{smallmatrix}-\beta, & \alpha\\ -\delta, & \gamma\end{smallmatrix}, \omega\right) = \sqrt{-i\omega}\ E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \frac{-1}{\omega}\right).}
+Es hat sich nun in § 30 gezeigt, daß sich \gesperrt{alle} linearen Transformationen durch wiederholte Anwendung der beiden Fundamentaltransformationen
+\[
+\begin{pmatrix}1, & 0\\ 1, & 1\end{pmatrix}, \ \begin{pmatrix}0, & 1\\ -1, & 0\end{pmatrix}
+\]
+und ihrer inversen Transformationen zusammensetzen lassen, und daraus folgt auf Grund von (12), daß durch die \gesperrt{Formeln (8) bis (14) das Symbol $E$ vollständig definiert ist.}
+
+Wenn wir also einen diesen Bedingungen genügenden Ausdruck kennen, so muß dieser mit $E$ übereinstimmen. Um einen solchen aufzustellen, unterscheiden wir zwei Fälle. Da $\alpha$, $\beta$ relative Primzahlen sind, so ist eine von ihnen sicher ungerade. Wir setzen:
+
+1. \gesperrt{$\alpha$ ungerade und positiv:}
+\weq{15}{\begin{aligned}
+E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right) &= \left(\frac{\beta}{\alpha}\right) i^{\frac{\alpha-1}{2}} e^{\frac{\pi i}{12}[\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta]}\,\sqrt{(\alpha+\beta\omega)};
+\end{aligned}}
+2. \gesperrt{$\beta$ ungerade und positiv:}
+\[
+E\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right) = \left(\frac{\alpha}{\beta}\right) i^{\frac{1-\beta}{2}} e^{\frac{\pi i}{12}[\beta(\alpha+\delta)-(\beta^2-1)\alpha\gamma]}\,\sqrt{-i(\alpha+\beta\omega)},
+\]
+%CONT>>

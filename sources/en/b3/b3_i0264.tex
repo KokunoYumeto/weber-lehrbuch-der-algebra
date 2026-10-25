@@ -1,0 +1,33 @@
+% !PRINTED 243
+\weberpage{243}
+In this way the solution of the invariant equation $F_n = 0$ is reduced to the successive solution of those cases in which $n$ is a \gesperrt{prime}.
+
+6. In the derivation of the transformation equations from the division equations it is settled from the outset that the numerical coefficients in these equations are rational numbers; the second derivation, however, teaches us nothing at first about the numerical coefficients. But we can prove afterwards that these coefficients are not only \gesperrt{rational} numbers but \gesperrt{integers}, and we arrive at the same time at an important theorem on the divisibility of these coefficients.
+
+If we can prove that, when $p$ is a prime, the coefficients in $F_p(x, y)$ are integers, then the same follows from 4. and 5. for every composite $n$.
+
+By (4), $j(\omega)$ can be developed in a series of the form
+\weq{25}{j(\omega) = q^{-2} \sum_{0,\infty}^{h} a_h q^{2h},}
+whose coefficients $a_h$ are integers, and indeed $a_0 = 1$.
+If from this we form, when $p$ is a prime, the $p$th power, and observe \gesperrt{Fermat's} theorem, valid for every integer:
+\[
+a^p \equiv a\ (\mathrm{mod}\ p),
+\]
+then it follows
+\weq{26}{j(\omega)^p = q^{-2p} \sum_{0,\infty}^{h} a_h q^{2hp} + p\, q^{-2(p-1)} \sum_{0,\infty}^{h} b_h q^{2h},}
+in which $b_h$ are likewise integers. On the other hand, if one replaces $\omega$ by $p\omega$ in (25), then:
+\weq{27}{j(p\omega) = q^{-2p} \sum_{0,\infty}^{h} a_h q^{2hp}}
+and from this, if one puts
+\[
+j(\omega) = u, \quad j(p\omega) = v
+\]
+one obtains:
+\[
+u^p - v = p\, q^{-2(p-1)} \sum_{0,\infty}^{h} b_h q^{2h},
+\]
+for which we may also write:
+\weq{28}{(u^p - v)(u - v^p) = p\, q^{-2(p^2+p-1)} \sum_{0,\infty}^{h} c_h q^{2h},}
+if $c_h$ denotes a third system of integers.
+Now in $F_p(x, y)$ there occur the terms $x^{p+1} + y^{p+1}$, the highest with respect to $x, y$, and we accordingly put
+\weq{29}{F_p(x, y) = (x^p - y)(x - y^p) - \sum_{0,p}^{h,k} c_{h,k} x^h y^k,}
+%CONT>>

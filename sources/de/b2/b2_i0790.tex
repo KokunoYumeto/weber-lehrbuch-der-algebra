@@ -1,0 +1,57 @@
+% !PRINTED 769
+\weberpage{769}
+%<<CONT
+
+und folglich ist, wenn $u$, $v$ unbestimmte Grössen sind und die
+\gesperrt{Congruenz nur auf die Coëfficienten bezogen wird},
+\[
+(u+v)^p \equiv u^p+v^p \ (\mathrm{mod}\ p).
+\]
+
+Ersetzen wir darin $v$ wieder durch eine Summe $v+w+\cdots$,
+so erhalten wir durch vollständige Induction (oder auch aus
+dem polynomischen Lehrsatze):
+\[
+(u+v+w+\cdots)^p \equiv u^p+v^p+w^p+\cdots \ (\mathrm{mod}\ p),
+\]
+und wenn wir diese Formel wiederholt anwenden, und unter $k$
+einen beliebigen positiven Exponenten verstehen,
+\weq{1}{(u+v+w+\cdots)^{p^k} \equiv u^{p^k}+v^{p^k}+w^{p^k}+\cdots \ (\mathrm{mod}\ p).}
+
+Es sei jetzt $x$ eine Variable, $a_1, a_2, \dots, a_\nu$ ganze rationale
+Zahlen,
+\[
+f(x) = x^\nu + a_1 x^{\nu-1} + a_2 x^{\nu-2} + \cdots + a_\nu
+\]
+eine ganze Function von $x$, deren Wurzeln $\alpha, \beta, \gamma, \dots$ sein
+mögen, so dass
+\[
+-a_1 = \Sigma\alpha, \quad a_2 = \Sigma\alpha\beta, \quad -a_3 = \Sigma\alpha\beta\gamma \dots
+\]
+die symmetrischen Grundfunctionen der $\alpha, \beta, \gamma, \dots$ sind.
+
+Wir bilden die Function
+\[
+F(x) = x^\nu + A_1 x^{\nu-1} + A_2 x^{\nu-2} + \cdots + A_\nu,
+\]
+deren Wurzeln die $p^{k\,\mathrm{ten}}$ Potenzen der Wurzeln von $f$, also
+\[
+\alpha^{p^k}, \ \beta^{p^k}, \ \gamma^{p^k}, \dots
+\]
+sind. Die Coëfficienten von $F$:
+\[
+A_1 = -\Sigma\alpha^{p^k}, \quad A_2 = \Sigma\alpha^{p^k}\beta^{p^k}, \quad A_3 = -\Sigma\alpha^{p^k}\beta^{p^k}\gamma^{p^k} \dots
+\]
+sind als ganzzahlige symmetrische Functionen der $\alpha, \beta, \gamma, \dots$
+rational und ganzzahlig durch die $a_1, a_2, \dots$ darstellbar, und sind
+daher ganze Zahlen. Die Quotienten
+\[
+\frac{A_1 - a_1^{p^k}}{p}, \quad \frac{A_2 - a_2^{p^k}}{p}, \quad \frac{A_3 - a_3^{p^k}}{p}, \dots
+\]
+sind aber nach der Formel (1) gleichfalls ganze Zahlen, und es
+ist also nach dem \gesperrt{Fermat'schen Satze}
+\weq{2}{F(x) \equiv f(x) \ (\mathrm{mod}\ p).}
+
+Diese Sätze sollen nun auf die Function $f_n(x)$ angewandt
+werden, deren Wurzeln die sämmtlichen \gesperrt{primitiven} $n^{\mathrm{ten}}$ Einheitswurzeln $\alpha, \beta, \gamma, \dots$ sind, und die, wie im \S.\,133 des ersten
+Bandes bewiesen ist, ganzzahlige Coëfficienten $a_1, a_2, \dots$ hat.

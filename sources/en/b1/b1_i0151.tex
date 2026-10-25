@@ -1,0 +1,56 @@
+% !PRINTED 126
+\weberpage{126}
+%<<CONT
+
+different from zero. Thus suppose that $f'(\alpha),f''(\alpha),\ldots,f^{(m-1)}(\alpha)$ vanish, but $f^{(m)}(\alpha)$ does not vanish. We then have, by \S\,13,
+\begin{equation}
+ f(\alpha+h)=f(\alpha)+\frac{h^m}{\Pi(m)}f^{(m)}(\alpha)
+ +\frac{h^{m+1}}{\Pi(m+1)}f^{(m+1)}(\alpha)+\cdots .
+\tag{12}
+\end{equation}
+
+We choose, as is always possible by \S\,31, V, a positive number $\varepsilon$ so that
+\begin{equation}
+\left|\frac{h}{m+1}\frac{f^{(m+1)}(\alpha)}{f^{(m)}(\alpha)}
++\frac{h^2}{(m+1)(m+2)}\frac{f^{(m+2)}(\alpha)}{f^{(m)}(\alpha)}+\cdots\right|<1
+\tag{13}
+\end{equation}
+whenever
+\begin{equation}
+ |h|<\varepsilon,
+\tag{14}
+\end{equation}
+and a positive proper fraction $\delta$ such that
+\begin{equation}
+ \delta |f(\alpha)|<\left|\frac{\varepsilon^m f^{(m)}(\alpha)}{\Pi(m)}\right|,
+\tag{15}
+\end{equation}
+which, if $f(\alpha)$ does not vanish, is likewise possible. We then determine $h$ (on the basis of \S\,32) from the equation
+\begin{equation}
+ \frac{h^m f^{(m)}(\alpha)}{\Pi(m)}=-\delta f(\alpha),
+\tag{16}
+\end{equation}
+whence, by (15),
+\[
+ |h|<\varepsilon
+\]
+follows. From (12), when the value from (16) is substituted for $h^m$, we now get
+\[
+ f(\alpha+h)=(1-\delta)f(\alpha)
+ -\delta f(\alpha)\left(\frac{h}{m+1}\frac{f^{(m+1)}(\alpha)}{f^{(m)}(\alpha)}
+ +\frac{h^2}{(m+1)(m+2)}\frac{f^{(m+2)}(\alpha)}{f^{(m)}(\alpha)}+\cdots\right),
+\]
+and hence
+\begin{align}
+ |f(\alpha+h)|\le{}& |f(\alpha)|(1-\delta)\notag\\
+ &+\delta |f(\alpha)|\left|\frac{h}{m+1}\frac{f^{(m+1)}(\alpha)}{f^{(m)}(\alpha)}
+ +\frac{h^2}{(m+1)(m+2)}\frac{f^{(m+2)}(\alpha)}{f^{(m)}(\alpha)}+\cdots\right|.
+\tag{17}
+\end{align}
+By (13), therefore,
+\begin{equation}
+ |f(\alpha+h)|<|f(\alpha)|.\tag{18}
+\end{equation}
+\noindent\hfill q.e.d.
+
+Thus the proof of the fundamental theorem is completed.

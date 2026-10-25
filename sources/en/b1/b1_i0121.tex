@@ -1,0 +1,37 @@
+% !PRINTED 96
+\weberpage{96}
+%<<CONT
+
+\[
+\begin{matrix}
+ A_1^{(1)}&A_2^{(1)}&\cdots&A_n^{(1)}\\
+ A_1^{(2)}&A_2^{(2)}&\cdots&A_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ A_1^{(n)}&A_2^{(n)}&\cdots&A_n^{(n)}
+\end{matrix}\tag{2}
+\]
+be the system of subdeterminants. If we form from (2) the determinant which we shall denote by $\Delta$, we may apply the multiplication rule to the product $A\Delta$. By § 22, (3) and (7), this gives
+\[
+ A\Delta=\begin{vmatrix}
+ A&0&\cdots&0\\
+ 0&A&\cdots&0\\
+ \cdots&\cdots&&\cdots\\
+ 0&0&\cdots&A
+\end{vmatrix}=A^n,
+\]
+and, by division by $A$,
+\begin{equation}
+ \Delta=A^{n-1}.\tag{3}
+\end{equation}
+Thus $\Delta$ is the $(n-1)$st power of $A$. In this derivation it has indeed first been assumed that $A$ is different from zero. But since (3) is an identity with respect to the elements $a_i^{(h)}$, that is, since it also holds when these quantities are independent variables, it follows that the formula (3) still holds in the exceptional case; that is, if $A$ vanishes, then $\Delta$ also vanishes.
+
+This result is a special case of a more general theorem by which any determinant of the matrix (2) may be formed. Consider the $\nu$-rowed subdeterminant
+\[
+\Delta_\nu=\begin{vmatrix}
+ A_1^{(1)}&A_2^{(1)}&\cdots&A_\nu^{(1)}\\
+ A_1^{(2)}&A_2^{(2)}&\cdots&A_\nu^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ A_1^{(\nu)}&A_2^{(\nu)}&\cdots&A_\nu^{(\nu)}
+\end{vmatrix},\tag{4}
+\]
+from which all other $\nu$-rowed subdeterminants can be derived by permutation of the upper and lower indices. One may apply the multiplication rule by transforming $\Delta_\nu$, according to the concluding remark of the last paragraph, into an $n$-rowed determinant.

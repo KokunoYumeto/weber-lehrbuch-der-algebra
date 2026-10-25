@@ -1,0 +1,56 @@
+% !PRINTED 188
+\weberpage{188}
+%<<CONT
+\[
+\begin{array}{r@{}c@{}r@{}r@{}r}
+\displaystyle\frac{\partial^2\sigma}{\partial u^2} &{}={}& -\dfrac{g_2}{12}u^3 &{}- 12\,g_3\dfrac{u^5}{2^4\cdot3\cdot5} &{}- \dfrac{3}{8}g_2^2\dfrac{u^7}{2^3\cdot3\cdot5\cdot7},\\[2mm]
+\displaystyle\frac{\partial\sigma}{\partial g_2} &{}={}& &{}- \dfrac{u^5}{2^4\cdot3\cdot5} &\\[2mm]
+\displaystyle\frac{\partial\sigma}{\partial g_3} &{}={}& & &{}- \dfrac{u^7}{2^3\cdot3\cdot5\cdot7},\\[2mm]
+\displaystyle\frac{g_2}{12}u^2\sigma &{}={}& \dfrac{g_2}{12}u^3 & &{}-\dfrac{7}{24}g_2^2\dfrac{u^7}{2^3\cdot3\cdot5\cdot7},
+\end{array}
+\]
+
+and if we substitute this into (12) and set the coefficients of $u^5$
+and $u^7$ equal to zero, we find:
+
+\[
+h_2 = -12\,g_3, \qquad h_3 = -\tfrac{2}{3}g_2^2,
+\]
+
+and we obtain the differential equation:
+
+\weq{13}{\dfrac{\partial^2\sigma}{\partial u^2} - 12\,g_3\dfrac{\partial\sigma}{\partial g_2} - \dfrac{2}{3}g_2^2\dfrac{\partial\sigma}{\partial g_3} + \dfrac{g_2}{12}u^2\sigma = 0.}
+
+If we set up the series development for $\sigma$ with undetermined
+coefficients:
+
+\weq{14}{\sigma = \Sigma A_\nu\dfrac{u^{2\nu+1}}{(2\nu+1)!},}
+
+then from (13) we obtain the recursion formula:
+
+% [sic] The German source prints g_2^2 in the final term of (15); coefficient extraction from (13), and the homogeneous recurrence (17), require g_2.
+\weq{15}{A_\nu = 12\,g_3\dfrac{\partial A_{\nu-1}}{\partial g_2} + \dfrac{2}{3}g_2^2\dfrac{\partial A_{\nu-1}}{\partial g_3} - \dfrac{(2\nu-1)(2\nu-2)}{12}g_2^2A_{\nu-2},}
+
+from which it is to be concluded that the $A_\nu$ are \gesperrt{integral rational
+functions} of $g_2$ and $g_3$, whose coefficients are rational numbers
+that can have only powers of 2 and of 3 in the denominator. The series
+(14) therefore consists of terms of the form
+
+\[
+a_{m,n}\left(\tfrac12 g_2\right)^m(2g_3)^n\dfrac{u^{2\nu+1}}{(2\nu+1)!},
+\]
+
+and from the homogeneity of the function $\sigma$ [§ 37, (8), § 46,
+(13)] it follows that:
+
+\weq{16}{2m+3n=\nu,}
+
+for the coefficients $a_{m,n}$ there then results from (15):
+
+\weq{17}{\begin{aligned}
+a_{m,n} &= 3(m+1)a_{m+1,\,n-1} + \dfrac{16}{3}(n+1)a_{m-2,\,n+1}\\
+&\quad{}- \dfrac{1}{3}(2m+3n-1)(4m+6n-1)a_{m-1,\,n},
+\end{aligned}}
+
+where $a_{00}=1$, and those $a$ for which one of the two indices is
+negative are to be set equal to zero.

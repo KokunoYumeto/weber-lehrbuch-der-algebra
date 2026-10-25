@@ -1,0 +1,36 @@
+% !PRINTED 646
+\weberpage{646}
+
+Es ist nun im weiteren Beweise ein kleiner Unterschied zu machen, je nachdem $m$ ungerade oder gerade ist.
+
+Ist $m$ zunächst \gesperrt{ungerade}, so können wir in (2) den Exponenten $h$ gerade annehmen, da wir ihn nöthigenfalls durch $h + m$ ersetzen können. Ferner ist in der Formel (2) nur das obere Zeichen zulässig. Denn wenn das untere Zeichen stände, so würde folgen:
+\[
+\mathfrak{E}(r) \equiv \mathfrak{E}(1) \equiv -\mathfrak{E}(1), \quad 2\,\mathfrak{E}(1) \equiv 0\ [\mathrm{mod}\ (1 - r)].
+\]
+
+Nach §. 169 ist aber $1 - r$ ein Theiler von $q$, also relativ prim zu 2, und daher ist $\mathfrak{E}(1)$ und folglich auch $\mathfrak{E}(r)$ durch $(1 - r)$ theilbar. Dies aber widerspricht der Voraussetzung, dass $\mathfrak{E}(r)$ eine Einheit sein soll.
+
+Demnach ergiebt sich aus (2):
+\[
+r^{-1/2\,h}\, \mathfrak{E}(r) = r^{1/2\,h}\, \mathfrak{E}(r^{-1}),
+\]
+woraus folgt, dass $r^{-1/2\,h}\, \mathfrak{E}(r)$ eine reelle Einheit ist. Bezeichnen wir sie mit $e(r)$, so ist also
+\weq{3}{\mathfrak{E}(r) = r^{1/2\,h}\, e(r),}
+woraus für diesen Fall das Theorem 1. bewiesen ist.
+
+Wenn aber zweitens $m$ \gesperrt{eine Potenz von 2 ist}, so ist $\mu = \tfrac{1}{2} m$ und $r^\mu = -1$, und zugleich mit $r$ ist $-r$ eine $m^{\text{te}}$ Einheitswurzel. Wenn wir nöthigenfalls $h$ durch $h + \tfrac{1}{2} m$ ersetzen, so können wir in (2) das obere Zeichen annehmen und setzen:
+\weq{4}{\mathfrak{E}(r) = r^h\, \mathfrak{E}(r^{-1}).}
+
+Es kommt jetzt darauf an, nachzuweisen, dass $h$ gerade sein muss.
+
+Wenn wir $\mathfrak{E}(r)$ durch die Basis $1, r, r^2, \ldots r^{\mu-1}$ darstellen, so ergiebt sich
+\weq{5}{\mathfrak{E}(r) = \sum_{0,\,\mu-1}^{s} x_s\, r^s,}
+worin die $x_s$ ganze rationale Zahlen sind. Nach (4) ist aber dann
+\[
+\sum_{0,\,\mu-1}^{s} x_s\, r^s = \sum_{1,\,\mu-1}^{s} x_s\, r^{h-s}, % [sic] source prints lower limit 1 on the right; substitution in (4) requires 0
+\]
+und daraus folgt, dass $x_s = \pm x_{s'}$ ist, wenn $s + s' \equiv h\ (\mathrm{mod}\ \mu)$. Ist nun $h$ \gesperrt{ungerade}, so ist aus zwei so verbundenen Zahlen die eine gerade, die andere ungerade (da $\mu$ eine Potenz von 2 ist). Der Ausdruck (5) ergiebt also für $\mathfrak{E}(r)$ ein Aggregat von Gliedern der Form
+\[
+x_s\,(r^s \pm r^{s'}).
+\]
+%CONT>>

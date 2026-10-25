@@ -1,0 +1,37 @@
+% !PRINTED 630
+\weberpage{630}
+%<<CONT
+nach bilden die Funktionen (12) eine Basis des Körpers $\Omega$, und es folgt
+\weq{13}{ef = n.}
+Es sind also $e$ und $f$ Teiler von $n$.
+
+Bedeutet
+\weq{14}{\xi_1, \xi_2, \dots, \xi_e}
+eine Basis des Körpers $\Omega_1$, so bilden die $n$ Größen:
+\weq{15}{\xi_1 \theta^k, \xi_2 \theta^k, \dots, \xi_e \theta^k, \qquad k = 0, 1, 2, \dots, f-1}
+eine Basis von $\Omega$. Bildet man die Substitution der $e$ Größen:
+\weq{16}{(\xi \xi_i) = Y_1(\xi_i),}
+so ist
+\weq{17}{(-1)^e b_e' = |Y_1| = N_1(\xi)}
+die Norm von $\xi$ im Körper $\Omega_1$, und wenn man die Substitution für $(\xi \xi_i \theta_k)$ im Körper $\Omega$ mit der Basis (15) bildet, so ergibt sich
+% [sic] printed (\xi \xi_i \theta_k) with subscript k, a misprint: the basis (15) and the display below have the power \theta^k
+\[
+(\xi \xi_i \theta^k) = Y_1(\xi_i)\, Y_1(\xi_i \theta) \dots Y_1(\xi_i \theta^{e-1}),
+% [sic] printed \theta^{e-1} in the last factor, an error: k runs only to f-1 in (15), so the product has f factors ending in Y_1(\xi_i \theta^{f-1}), as N(\xi) = |Y_1|^f in (18) requires
+\]
+woraus
+\weq{18}{N(\xi) = |Y_1|^f.}
+Aus der Substitutionsdeterminante $|Y_1|$ leitet man die Funktion $\varphi_1(t)$ nach der Formel (2) ab, und es folgt also nach (18):
+\weq{19}{N(t - \xi) = [\varphi_1(t)]^f,}
+und daraus:
+
+6. \gesperrt{Die Funktion $\varphi(t) = N(t - \xi)$ ist entweder irreduzibel oder eine Potenz einer irreduziblen Funktion.}
+
+Ist der Exponent $f$ dieser Potenz größer als 1, so ist der Körper $\Omega$ imprimitiv, $\Omega_1$ ist ein Teilkörper, und $\Omega$ ist ein Körper vom Grade $f$ über $\Omega_1$ (Bd. I, \S\ 151).
+
+Ist $f = 1$, $e = n$, so heißt $\xi$ eine \gesperrt{primitive Funktion des Körpers} $\Omega$, und $\Omega_1$ ist mit $\Omega$ identisch.
+
+Wir kehren zu der Gleichung (2) oder (3) zurück, die, wie wir gesehen haben, von der Wahl der Basis unabhängig ist, und definieren den Koeffizienten
+\weq{20}{-b_1 = y_{1,1} + y_{2,2} + \cdots + y_{n,n} = S(\xi)}
+als die \gesperrt{Spur der Funktion} $\xi$. Für die Spur ergeben sich aus der Definition die folgenden fundamentalen Sätze, in denen $\xi, \xi'$ irgend zwei Funktionen in $\Omega$, und $x$ eine rationale Funktion bedeutet:
+%CONT>>

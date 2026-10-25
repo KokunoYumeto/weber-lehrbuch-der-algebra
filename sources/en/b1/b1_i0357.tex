@@ -1,0 +1,55 @@
+% !PRINTED 332
+\weberpage{332}
+
+%<<CONT
+\weq{2}{\begin{aligned}
+\Delta'_\xi &= \Delta_{\xi+1} - \Delta_\xi. \\
+&\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+\Delta_\xi^{(n-1)} &= \Delta_{\xi+1}^{(n-2)} - \Delta_\xi^{(n-2)}
+\end{aligned}}
+
+is set,
+
+\weq{3}{\varphi(\xi) = \varphi(0) + \Delta_0 B_1^{(\xi)} + \Delta'_0 B_2^{(\xi)} + \cdots + \Delta_0^{(n-1)} B_n^{(\xi)}.}
+
+The value of the formula lies in this, that the sequence of differences $\Delta_0, \Delta'_0, \Delta''_0 \ldots$ in many cases presents numerical values decreasing so rapidly that one can content oneself with a few of the first terms of the series (3).
+
+Now if $f(x)$ is the function to be investigated and $(\alpha, \beta)$ the interval in which one of the sought roots lies, then, understanding by $m$ any suitable integer, we set
+\[
+\delta = \frac{\beta - \alpha}{m}; \qquad x = \alpha + \delta \xi,
+\]
+and if we accordingly set
+\[
+\begin{aligned}
+\Delta_x &= f(x + \delta) - f(x) \\
+\Delta'_x &= \Delta_{x+\delta} - \Delta_x \\
+&\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot
+\end{aligned}
+\]
+then
+
+\weq{4}{f(x) = f(\alpha) + \frac{\Delta_\alpha}{\delta}(x - \alpha) + \frac{\Delta'_\alpha}{\delta^2}\frac{(x-\alpha)(x-\alpha-\delta)}{2} + \cdots}
+
+One could just as well start from the other end point $\beta$ of the interval, and would then have to set in (3)
+\[
+x = \beta - \delta \xi
+\]
+One would then obtain
+\[
+\begin{aligned}
+\Delta_x &= f(x - \delta) - f(x) \\
+\Delta'_x &= \Delta_{x-\delta} - \Delta_x \\
+&\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot
+\end{aligned}
+\]
+
+\weq{5}{f(x) = f(\beta) + \frac{\Delta_\beta}{\delta}(x - \beta) + \frac{\Delta'_\beta}{\delta^2}\frac{(x-\beta)(x-\beta+\delta)}{2} + \cdots}
+
+If one interprets the equation
+\[
+y = f(x)
+\]
+as the equation of a curve in a rectangular coordinate system $x, y$, then the relations can be illustrated geometrically.
+
+If, for example, one applies equation (4) to the interval from $\alpha$ to $(\alpha + \delta)$ and contents oneself with taking account of the first difference, that means, in the language of geometry,
+%CONT>>

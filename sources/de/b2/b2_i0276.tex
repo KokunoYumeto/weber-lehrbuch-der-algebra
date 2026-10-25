@@ -1,0 +1,33 @@
+% !PRINTED 255
+\weberpage{255}
+%<<CONT
+vor. Um dies nachzuweisen, bilden wir nach (2):
+\weq{5}{\begin{pmatrix} \lambda, & \mu \\ \nu, & \varrho \end{pmatrix}\begin{pmatrix} 0, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} \varrho, & -\mu \\ -\nu, & \lambda \end{pmatrix} = \begin{pmatrix} \mu\varrho\gamma-\lambda\nu\beta-\mu\nu\delta, & -\mu^2\gamma+\lambda^2\beta+\lambda\mu\delta \\ \varrho^2\gamma-\nu^2\beta-\varrho\nu\delta, & -\varrho\mu\gamma+\lambda\nu\beta+\lambda\varrho\delta \end{pmatrix},}
+und es ist also nur zu zeigen, dass man $\lambda,\mu,\nu,\varrho$ so bestimmen kann, dass die drei Gleichungen:
+\weq{6}{
+\begin{aligned}
+\lambda\varrho-\mu\nu &= 1\\
+\mu\varrho\gamma-\lambda\nu\beta-\mu\nu\delta &= 0\\
+-\mu^2\gamma+\lambda^2\beta+\lambda\mu\delta &= 1
+\end{aligned}
+}
+befriedigt sind. Aus den beiden letzten Gleichungen folgt aber, wenn man sie zuerst mit $\mu,\varrho$, dann mit $\lambda,\nu$ multiplicirt und jedesmal addirt, mit Benutzung der ersten Gleichung:
+\weq{7}{\lambda\beta+\mu\delta = \varrho, \quad \mu\gamma = \nu,}
+und wenn man diese Werthe von $\varrho,\nu$ in die erste Gleichung (6) einsetzt:
+\weq{8}{\lambda^2\beta+\lambda\mu\delta-\mu^2\gamma = 1.}
+Diese Gleichung kann aber immer befriedigt werden. Denn wegen $\beta\gamma=-1$ kann keine der beiden Zahlen $\beta,\gamma$ verschwinden. Ist nun $\beta$ ein Quadrat, so k\"onnen wir $\mu=0$ setzen und $\lambda$ aus $\lambda^2\beta=1$ bestimmen. Dies ist \gesperrt{immer} m\"oglich bei $p=2$. Ist aber $p$ ungerade, so erhalten wir, wenn $\beta$ ein Nichtquadrat ist, aus (8):
+\[
+(2\lambda\beta+\delta\mu)^2+\mu^2(4-\delta^2) = 4\beta.
+\]
+Ist nun zun\"achst $4-\delta^2$ Nichtquadrat, so kann man $\mu$ aus $\mu^2(4-\delta^2)=4\beta$ und dann $\lambda$ aus $2\lambda\beta+\delta\mu=0$ bestimmen. Ist aber $4-\delta^2$ Quadrat, so zerlege man $4\beta$ nach \S.\,64, 7. in die Summe aus zwei Quadraten $4\beta=\sigma^2+\tau^2$ und bestimme $\mu$ und $\lambda$ aus
+\[
+\mu^2(4-\delta^2) = \sigma^2, \quad 2\lambda\beta+\delta\mu = \tau.
+\]
+Hat man so $\lambda$ und $\mu$ ermittelt, so erh\"alt man $\varrho$ und $\nu$ aus (7), und dadurch sind die Gleichungen (6) thats\"achlich befriedigt. Damit ist das Ziel erreicht.
+% [sic] Der gedruckte Beweis uebergeht den Fall 4-\delta^2=0. Ueber F_5 gilt fuer \beta=\gamma=\delta=2 zwar \beta\gamma=-1, doch hat (8), 2\lambda^2+2\lambda\mu-2\mu^2=1, keine Loesung. Damit beweist das gedruckte Argument die behauptete allgemeine Loesbarkeit nicht; der Quelltext bleibt originalgetreu bewahrt.
+
+3) Die Gruppe $G$ enth\"alt die Substitution
+\[
+A_0 = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix},
+\]
+%CONT>>

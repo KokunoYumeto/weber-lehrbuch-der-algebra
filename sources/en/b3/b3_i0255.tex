@@ -1,0 +1,52 @@
+% !PRINTED 234
+\weberpage{234}
+%<<CONT
+\weq{10}{\begin{aligned}
+\mu &\equiv \alpha = a\alpha' + c\beta'\\
+\mu' &\equiv \beta = \partial\beta'
+\end{aligned}\ (\mathrm{mod}\ n),}
+
+where $\beta'$ denotes an arbitrary number coprime to $a$, and $\alpha'$ is so
+determined that $\alpha$, $\beta$ become relatively prime; and it is also easy
+to see [by §\,65, (3)] that, so long as $a$, $\partial$, $c$ remain the same,
+the pairs of numbers $\mu$, $\mu'$ determined by (10) belong to the same
+row.
+
+We call the numbers $a$, $c$, $\partial$ (as in §\,27) the \gesperrt{transformation
+numbers}, and $n$ the \gesperrt{degree of transformation}.
+
+\gesperrt{The system of numbers $a$, $c$, $\partial$ is therefore completely
+characteristic for a row}, and the number of rows is equal to the
+number of these systems of numbers, from which there follows for the number
+$\psi(n)$, (§\,63):
+
+\weq{11}{\psi(n) = \Sigma \frac{a}{e}\varphi(e),}
+
+when the sum is extended over all divisors $a$ of $n$.
+
+It is of interest to prove this relation directly as well, in which case the
+restriction to an odd $n$ can be dropped. If we now regard $\psi(n)$ as a
+symbol for the sum (11), then, when $n'$, $n''$ are relatively prime, we
+obtain first
+\[
+\psi(n')\psi(n'') = \psi(n'n''),
+\]
+and it thus only remains to determine the sum $\psi(n)$ for the case in which
+$n=p^\pi$ is a power of a prime. In this case $e$ is equal to the smaller of
+the two divisors $a$, $\partial$, and when $a=\partial$, $e=a$. If, then, we
+separate off the first and last term of the sum $\psi(n)$, we obtain
+\[
+\psi(p^\pi) = 1 + p^\pi + \sum_{1<a\leqq\sqrt{n}}\varphi(a) + \sum_{\sqrt{n}<a<n}\frac{a}{\partial}\varphi(\partial).
+\]
+But we have
+\[
+\varphi(a) = a\frac{p-1}{p}, \qquad \varphi(\partial) = \partial\frac{p-1}{p},
+\]
+hence
+\[
+\begin{aligned}
+\psi(p^\pi) &= 1 + p^\pi + \frac{p-1}{p}\sum_{1<a<n} a\\
+&= 1 + p^\pi + (p-1)(1+p+p^2+\cdots p^{\pi-2}) = p^\pi\Bigl(1+\frac{1}{p}\Bigr),
+\end{aligned}
+\]
+%CONT>>

@@ -1,0 +1,49 @@
+% !PRINTED 169
+\weberpage{169}
+
+%<<CONT
+if one sets $\alpha=\beta=\frac12$, $\gamma=1$. One of its
+particular integrals is therefore
+\weq{10}{F(\tfrac12,\tfrac12,1,x) = 1 + \sum_{\nu=1}^{\infty} \Bigl(\frac{1.3.5\ldots 2\nu-1}{2.4\ldots 2\nu}\Bigr)^2 x^\nu}
+\[
+{}= \sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu,
+\]
+and this series is convergent as long as the absolute value of
+$x$ is less than 1. As the second particular integral one may
+choose
+\weq{11}{F(\tfrac12,\tfrac12,1,1-x),}
+which, however, has a different domain of convergence. If we think of
+$x$ as a complex variable represented in a plane, then (10) converges
+in a circle described about the origin with radius 1, and (11) in an
+equal circle described about the point 1, so that the common domain of
+convergence consists of a lune containing the part of the real
+axis that lies between 0 and 1. But one can also, and this is important
+for us, set up the second particular integral in a form which converges
+in the same circle as the series (10). Here it is to be observed
+that the second particular integral becomes infinite for $x=0$.
+
+This second particular integral is obtained by the
+following passage to the limit. If we denote the hypergeometric
+series after \gesperrt{Gauss} by
+\[
+F(\alpha,\beta,\gamma,x) = 1 + \frac{\alpha.\beta}{1.\gamma}x + \frac{\alpha(\alpha+1)\beta(\beta+1)}{1.2.\gamma(\gamma+1)}x^2 + \cdots
+\]
+\[
+{}= \frac{\Pi(\gamma-1)}{\Pi(\alpha-1)\Pi(\beta-1)} \sum_{\nu=0}^{\infty} \frac{\Pi(\alpha+\nu-1)\Pi(\beta+\nu-1)}{\Pi(\gamma+\nu-1)\Pi(\nu)} x^\nu,
+\]
+then in general one obtains the two particular integrals
+of (9):
+\[
+\begin{aligned}
+y_1 &= F_1(x) = F(\alpha,\beta,\gamma,x), \\
+y_2 &= F_2(x) = x^{1-\gamma}(1-x)^{\gamma-\alpha-\beta} F(1-\alpha,1-\beta,2-\gamma,x).
+\end{aligned}
+\]
+But since for $\alpha=\beta=\frac12$, $\gamma=1$ these become identical
+with one another, one first sets $\alpha=\beta=\frac12$, $\gamma=1+\varepsilon$, hence
+\[
+\begin{aligned}
+y_1 &= F(\tfrac12,\tfrac12,1+\varepsilon,x), \\
+y_2 &= \Bigl(\frac{1-x}{x}\Bigr)^\varepsilon F(\tfrac12,\tfrac12,1-\varepsilon,x).
+\end{aligned}
+\]

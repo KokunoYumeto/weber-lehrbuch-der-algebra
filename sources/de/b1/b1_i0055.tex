@@ -1,0 +1,75 @@
+% !PRINTED 30
+\weberpage{30}
+
+\begingroup
+\setlength{\abovedisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{3pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}
+\linespread{0.94}\selectfont
+
+\begin{center}
+{\large \S.\ 4.}
+
+\vspace{0.5em}
+{\large\gesperrt{Theilung durch eine lineare Function.}}
+\end{center}
+
+Wir wollen die allgemeine Vorschrift für die Division noch auf einen
+besonderen Fall anwenden. Es sei der Dividend
+\begin{equation}
+ f(x)=a_0x^n+a_1x^{n-1}+a_2x^{n-2}+\cdots+a_n
+\tag{1}
+\end{equation}
+beliebig, dagegen der Divisor vom ersten Grade oder, wie man auch sagt,
+linear. Wir wollen auch den Coëfficienten der ersten Potenz von $x$ im
+Divisor $=1$ voraussetzen und also den Divisor in der einfachen Form
+$(x-\alpha)$ annehmen, worin $\alpha$ beliebig bleibt. Der Quotient
+$Q$ ist in diesem Falle vom $(n-1)$\textsuperscript{ten} Grade und der
+Rest $C$ vom $0$\textsuperscript{ten} Grade, d. h. von $x$ unabhängig.
+Setzen wir also
+\begin{equation}
+ f(x)=(x-\alpha)Q+C,
+\tag{2}
+\end{equation}
+so enthält $C$ das $x$ nicht mehr, und wenn wir
+\begin{equation}
+ Q=q_0x^{n-1}+q_1x^{n-2}+\cdots+q_{n-2}x+q_{n-1}
+\tag{3}
+\end{equation}
+setzen, so folgt aus (2):
+\begin{equation}
+\begin{aligned}
+ f(x)={}&q_0x^n+q_1x^{n-1}+\cdots+q_{n-2}x^2+q_{n-1}x+C\\
+ &-\alpha q_0x^{n-1}-\cdots-\alpha q_{n-3}x^2
+   -\alpha q_{n-2}x-\alpha q_{n-1},
+\end{aligned}
+\tag{4}
+\end{equation}
+und aus der Vergleichung mit (1):
+\begin{equation}
+\begin{aligned}
+ q_0&=a_0,\\
+ q_1-\alpha q_0&=a_1,\\
+ q_2-\alpha q_1&=a_2,\\
+ &\cdots,\\
+ q_{n-1}-\alpha q_{n-2}&=a_{n-1},\\
+ C-\alpha q_{n-1}&=a_n.
+\end{aligned}
+\tag{5}
+\end{equation}
+Daraus erhält man
+\begin{equation}
+\begin{aligned}
+ q_0&=a_0,\\
+ q_1&=a_0\alpha+a_1,\\
+ q_2&=a_0\alpha^2+a_1\alpha+a_2,\\
+ &\cdots,\\
+ q_{n-1}&=a_0\alpha^{n-1}+a_1\alpha^{n-2}+\cdots+a_{n-1},\\
+ C&=a_0\alpha^n+a_1\alpha^{n-1}+\cdots+a_{n-1}\alpha+a_n=f(\alpha).
+\end{aligned}
+\tag{6}
+\end{equation}
+$C$ entsteht aus $f(x)$, wenn man $x=\alpha$ setzt, und kann also auch
+mit $f(\alpha)$ bezeichnet werden.
+\endgroup

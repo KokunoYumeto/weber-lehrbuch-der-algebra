@@ -1,0 +1,53 @@
+% !PRINTED 384
+\weberpage{384}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% \noindent 384 \hfill \textsc{Elfter Abschnitt.} \hfill \S.\,124.
+
+%<<CONT
+% [source-reviewed 2026-08-26] The faint mark before the first word at the top edge is a scan speck, not body text; no text is transcribed.
+\gesperrt{$\omega$ ist positiv und grösser als 1, und die mit $\omega$ conjugirte Zahl $\omega'$
+ist negativ und dem absoluten Werth nach kleiner als 1,}
+
+oder in Zeichen:
+
+\weq{1}{0 < y\sqrt{d} - x < 1 < y\sqrt{d} + x.}
+
+Deutet man in einer Ebene $x, y$ als rechtwinklige Coordinaten, so
+dass die Punkte der Ebene die Bilder der Zahlen $\omega$ werden, so liegen
+also die Bilder der reducirten Zahlen in dem Theile der Ebene, der in
+der Fig. 27, die der Annahme $d = 2$ entspricht, schraffirt ist.
+
+% SOURCE FIGURE CROP: Bd. I registered scan 410 (printed p. 384), 600 dpi,
+% crop x=440,y=1230,w=1160,h=870; source-faithful raster, Fig. 27.
+\weberfigureimage{weber-b1-fig27.png}{0.48}
+
+Wir nehmen hier eigentliche und uneigentliche Aequivalenz zusammen
+und beweisen zunächst die Sätze:
+
+\noindent 1.\quad \gesperrt{Jede Zahl $\omega$ ist mit einer reducirten Zahl äquivalent.}
+
+Man sieht dies leicht ein, wenn man $\omega$ in einen Kettenbruch entwickelt
+und bis zur Schlusszahl $\omega_n$ geht:
+
+\weq{2}{\omega = (\alpha_0, \alpha_1, \alpha_2 \ldots \alpha_{n-1}, \omega_n).}
+
+Dann ist $\omega$ mit $\omega_n$ äquivalent, und $\omega_n$ ist, sobald $n$ grösser als 0
+ist, positiv und grösser als 1. Da $\omega_n$ mit $\omega$ äquivalent ist, so handelt
+es sich nur noch um den Nachweis, dass, wenn $n$ hinlänglich gross ist,
+die zu $\omega_n$ conjugirte Zahl $\omega'_n$ negativ und absolut kleiner als 1 ist.
+Dies aber ersieht man aus nachstehenden Formeln: Aus (2) folgt, wenn
+$P_n : Q_n$ die Näherungsbrüche sind,
+\[
+\omega = \dfrac{P_n \omega_n + P_{n-1}}{Q_n \omega_n + Q_{n-1}},
+\]
+oder durch Auflösung
+
+\weq{3}{\omega_n = -\dfrac{Q_{n-1}\omega - P_{n-1}}{Q_n\omega - P_n} = -\dfrac{Q_{n-1}}{Q_n} - \dfrac{(-1)^n}{Q_n(Q_n\omega - P_n)}.}
+
+Verwandeln wir in dieser Gleichung $\sqrt{d}$ in $-\sqrt{d}$, so geht gleichzeitig
+$\omega$ in $\omega'$, $\omega_n$ in $\omega'_n$ über und wir erhalten aus (3)
+
+\weq{4}{\omega'_n = -\dfrac{Q_{n-1}\omega' - P_{n-1}}{Q_n\omega' - P_n} = -\dfrac{Q_{n-1}}{Q_n} \dfrac{\omega' - \dfrac{P_{n-1}}{Q_{n-1}}}{\omega' - \dfrac{P_n}{Q_n}},}
+%CONT>>

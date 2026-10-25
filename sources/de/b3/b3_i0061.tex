@@ -1,0 +1,38 @@
+% !PRINTED 40
+\weberpage{40}
+\begin{center}
+\S\,12. \gesperrt{Darstellung der elliptischen Integrale durch die}\\
+\gesperrt{einfachsten Grundintegrale.}
+\end{center}
+Um das Integral $\Omega(x)$ durch Integrale von möglichst einfachem Typus darzustellen, zerlegen wir die rationale Funktion $\Phi(x)$ in eine ganze Funktion und in eine Summe von Partialbrüchen, d.\,h. wir stellen $\Phi(x)$ dar als eine Summe von Ausdrücken der Form
+\[
+x^n, \quad \frac{1}{(x-\alpha)^n}
+\]
+mit konstanten Koeffizienten, worin $n$ eine ganze positive Zahl (auch Null) und $\alpha$ einen konstanten Wert bedeutet, für den $\Phi(x)$ unendlich wird.
+
+Setzen wir dann für positive und für negative oder verschwindende $n$
+\weq{1}{S_n(\alpha) = \int \frac{(x-\alpha)^n\,dx}{\sqrt{f(x)}},}
+so wird $\Omega(x)$ eine Summe der Form
+\[
+\Omega(x) = \sum M S_n(\alpha),
+\]
+wo sich die Summe auf mehrere verschiedene Werte von $n$ und von $\alpha$ erstrecken kann und die $M$ Konstanten sind.
+
+Die Funktionen $S_n$ lassen sich durch Vermittelung algebraischer Funktionen auf eine geringe Anzahl zurückführen. Zu dem Ende bilden wir
+\[
+d(x-\alpha)^n\sqrt{f(x)} = \frac{n(x-\alpha)^{n-1}f(x) + (x-\alpha)^n\frac{1}{2}f'(x)}{\sqrt{f(x)}},
+\]
+und wenn wir darin setzen
+\[
+f(x) = f(\alpha) + (x-\alpha)f'(\alpha) + \frac{(x-\alpha)^2}{2}f''(\alpha) + \frac{(x-\alpha)^3}{6}f'''(\alpha) + \frac{(x-\alpha)^4}{24}f''''(\alpha),
+\]
+\[
+f'(x) = f'(\alpha) + (x-\alpha)f''(\alpha) + \frac{(x-\alpha)^2}{2}f'''(\alpha) + \frac{(x-\alpha)^3}{6}f''''(\alpha),
+\]
+so folgt
+\weq{2}{\begin{aligned}
+(x-\alpha)^n\sqrt{f(x)}
+  &= nf(\alpha)S_{n-1} + \left(n+\frac{1}{2}\right)f'(\alpha)S_n \\
+  &\quad + \frac{n+1}{2}f''(\alpha)S_{n+1} + \left(\frac{n}{6}+\frac{1}{4}\right)f'''(\alpha)S_{n+2} \\
+  &\quad + \left(\frac{n}{24}+\frac{1}{12}\right)f''''(\alpha)S_{n+3}.
+\end{aligned}} % source-adjudicated: faint raised mark is an ink artifact, not encoded

@@ -1,0 +1,44 @@
+% !PRINTED 124
+\weberpage{124}
+
+%<<CONT
+variables $u$, $\omega_1$, $\omega_2$, the former of the first order, the three others of the zeroth order, or, in symbols, if $\lambda$ denotes an arbitrary factor:
+% [sic] German source prints u_1 on all four left-hand sides; mathematically expected u.
+\weq{8}{\begin{aligned}
+\sigma(\lambda u_1, \lambda \omega_1, \lambda \omega_2) &= \lambda \sigma(u, \omega_1, \omega_2), \\
+\sigma_{00}(\lambda u_1, \lambda \omega_1, \lambda \omega_2) &= \sigma_{00}(u, \omega_1, \omega_2), \\
+\sigma_{01}(\lambda u_1, \lambda \omega_1, \lambda \omega_2) &= \sigma_{01}(u, \omega_1, \omega_2), \\
+\sigma_{10}(\lambda u_1, \lambda \omega_1, \lambda \omega_2) &= \sigma_{10}(u, \omega_1, \omega_2).
+\end{aligned}}
+
+\begin{center}
+\textbf{§ 38. \gesperrt{Linear Transformations of the Function $\eta(\omega)$.}}
+\end{center}
+
+The formulae (3), § 37 lead to the linear transformation of the function $\eta(\omega)$. For if
+\weq{1}{(\omega_1', \omega_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(\omega_1, \omega_2)}
+is set, then $(\eta_1, \eta_2)$ passes over into
+\weq{2}{(\eta_1', \eta_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(\eta_1, \eta_2)}
+[§ 35, (14)], and $\omega = \omega_2 : \omega_1$ into
+\weq{3}{\omega' = \frac{\gamma + \delta\omega}{\alpha + \beta\omega}.}
+Now from (2), having regard to (3) of the preceding section, there follows:
+\[
+\begin{aligned}
+\eta_1' &= -\frac{2\pi i}{\omega_1'}\,\frac{d\log\eta(\omega')}{d\omega'} = -\frac{2\pi i \omega_1'}{\omega_1^2}\,\frac{d\log\eta(\omega)}{d\omega} - \frac{\pi i \beta}{\omega_1}, \\
+\eta_2' &= -\frac{2\pi i \omega_2'}{{\omega_1'}^2}\,\frac{d\log\eta(\omega')}{d\omega'} - \frac{\pi i}{\omega_1'} = -\frac{2\pi i \omega_2'}{\omega_1^2}\,\frac{d\log\eta(\omega)}{d\omega} - \frac{\pi i \delta}{\omega_1},
+\end{aligned}
+\]
+and these two relations agree in giving
+\[
+\frac{d\log\eta(\omega')}{{\omega_1'}^2\,d\omega'} = \frac{d\log\eta(\omega)}{\omega_1^2\,d\omega} + \frac{\beta}{2\omega_1\omega_1'},
+\]
+or finally, since by (3)
+\[
+d\omega' = \frac{d\omega}{(\alpha+\beta\omega)^2}, \quad {\omega_1'}^2\,d\omega' = \omega_1^2\,d\omega,
+\]
+\[
+\frac{d\log\eta(\omega')}{d\omega} = \frac{d\log\eta(\omega)}{d\omega} + \frac{\beta}{2(\alpha+\beta\omega)}.
+\]
+From this it follows by integration:
+\weq{4}{\eta\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right) = \varepsilon\sqrt{\alpha+\beta\omega}\ \eta(\omega),}
+in which $\varepsilon$ is a quantity independent of $\omega$, and therefore depending only on the numbers $\alpha$, $\beta$, $\gamma$, $\delta$.

@@ -1,0 +1,59 @@
+% !PRINTED 576
+\weberpage{576}
+
+Es seien $\mu$ und $\nu$ zwei positive ganze Zahlen und $x$ eine
+Variable. Wir definiren eine rationale Function von $x$ durch
+die Gleichung
+
+\weq{4}{(\mu, \nu) = \frac{(1 - x^{\mu})(1 - x^{\mu - 1}) \ldots (1 - x^{\mu - \nu + 1})}{(1 - x)(1 - x^2) \ldots (1 - x^{\nu})}.}
+
+Wenn $\nu = \mu + 1$ wird, so verschwindet diese Function
+identisch, wegen des Factors $1 - x^{\mu - \nu + 1}$ und ebenso, wenn $\nu$
+noch grösser wird.
+
+Wir stellen für diese Functionen einige Recursionsformeln
+auf, die sich unmittelbar aus dem Anblick der Formel (4) ergeben:
+
+\weq{5}{(1 - x^{\mu - \nu + 1})(\mu + 1, \nu) = (1 - x^{\mu + 1})(\mu, \nu)}
+
+\weq{6}{(1 - x^{\nu + 1})\ (\mu, \nu + 1) = (1 - x^{\mu - \nu})(\mu, \nu),}
+
+und durch die Verbindung von (5) und (6), nachdem in (6) $\mu$
+durch $\mu + 1$ ersetzt ist,
+
+\weq{7}{(1 - x^{\nu + 1})(\mu + 1, \nu + 1) = (1 - x^{\mu + 1})(\mu, \nu).}
+
+Wenn man (6) von (7) subtrahirt und durch das nicht verschwindende $1 - x^{\nu + 1}$ dividirt, so folgt noch
+
+\weq{8}{(\mu + 1, \nu + 1) = (\mu, \nu + 1) + x^{\mu - \nu}(\mu, \nu).}
+% [resolved 2026-08-06, 5x zoom strip 3/5] Plain equals is correct. The mark above the bar is
+% ink spotting: formula (7) two lines above carries a clean "=" set in the same size, and the
+% derivation requires equality -- (8) comes from subtracting (6) from (7) and dividing by the
+% non-vanishing 1 - x^{nu+1}. Transcription stands.
+
+Setzen wir definitionsweise $(\mu, 0) = 1$, und $(\mu, \nu) = 0$ für
+negative $\nu$, so gelten diese Formeln alle allgemein für jedes
+ganzzahlige $\nu$.
+
+Aus der letzten Formel schliessen wir durch vollständige
+Induction, dass $(\mu, \nu)$ eine \gesperrt{ganze Function} von $x$ ist. Denn
+ist diese Eigenschaft für irgend ein $\mu$ bewiesen, so folgt sie für
+das nächst grössere $\mu$ aus der Formel (8). Es ist aber z.\,B.
+$(1, \nu)$ gleich 1 oder gleich 0, also der Satz allgemein richtig.
+
+Setzen wir in (8) $\mu + 1$ an Stelle von $\mu$, so können wir
+die Formel (5) mit ihrer Hülfe so umformen,
+
+\weq{9}{(1 - x^{\mu + 1})(\mu, \nu) = (\mu + 1, \nu) + (\mu + 1, \nu + 1) - (\mu + 2, \nu + 1).}
+
+Wir betrachten nun eine ganze Function
+
+\weq{10}{f(x, \mu) = 1 - (\mu, 1) + (\mu, 2) - (\mu, 3) + \cdots = \overset{\nu}{\Sigma} (-1)^{\nu} (\mu, \nu),}
+
+von \gesperrt{Dirichlet}, \gesperrt{Cauchy}, \gesperrt{Kronecker} bestimmt worden. Der Weg, den
+\gesperrt{Gauss} einschlägt, dem wir im Texte folgen, benutzt nur algebraische
+Hülfsmittel. \gesperrt{Kronecker} hat in Liouville's Journal Ser.\,2, Bd.\,1 einen
+Weg für die Vorzeichenbestimmung angegeben, der mit Benutzung einer
+Bemerkung von \gesperrt{Dedekind} (Schlömilch's Ztschr. Bd.\,15, Literaturzeitung
+S.\,21) gleichfalls zu einem rein algebraischen wird.
+%CONT>>

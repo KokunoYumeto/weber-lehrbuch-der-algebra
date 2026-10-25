@@ -1,0 +1,40 @@
+% !PRINTED 682
+\weberpage{682}
+
+Ist $\alpha$ eine ganze rationale Funktion von $z$, so ist $d\alpha/dz$ ebenfalls eine ganze rationale Funktion, nämlich die Derivierte von $\alpha$ nach $z$.
+
+\begin{center}
+\S\,195. \textbf{\gesperrt{Darstellung der Differentialquotienten durch Polygonquotienten.}}
+\end{center}
+
+Wir nehmen irgend eine Funktion $z$ der $n$ten Ordnung in $\Omega$ und eine Minimalbasis $\omega_1, \omega_2, \ldots, \omega_n$ in bezug auf $z$. Alle ganzen Funktionen von $z$ des Körpers $\Omega$ sind dann in der Form darstellbar:
+\weq{1}{\omega = x_1\omega_1 + x_2\omega_2 + \cdots + x_n\omega_n}
+und gehen aus dem Basisfunktional
+\weq{2}{\tau = t_1\omega_1 + t_2\omega_2 + \cdots + t_n\omega_n}
+hervor, wenn für die Funktionalvariablen $t_1, t_2, \ldots, t_n$ ganze rationale Funktionen $x_1, x_2, \ldots, x_n$ von $z$ gesetzt werden.
+
+Setzen wir, wie in \S\,184,
+\[
+N(t - \tau) = F(t, z),
+\]
+so genügt $\tau$ der irreduzibeln rationalen Gleichung:
+\[
+F(\tau, z) = 0,
+\]
+und man erhält nach \S\,194, 3.:
+\weq{3}{F'(\tau)\,d\tau + F'(z)\,dz = 0,}
+und hierin ist $F'(\tau)$ das \gesperrt{Verzweigungsfunktional} (\S\,184).
+
+Nach (1) und (2) ist
+\weq{4}{d\omega = d\tau + \omega_1\,dx_1 + \omega_2\,dx_2 + \cdots + \omega_n\,dx_n,}
+wo in $d\tau$ die $t_i$ durch die $x_i$ zu ersetzen sind, und es folgt also aus (3) der Satz:
+
+4. \gesperrt{Ist $\omega$ eine ganze Funktion von $z$, so ist}
+\weq{5}{F'(\tau)\frac{d\omega}{dz} = -F'(z) + \omega_1\frac{dx_1}{dz} + \cdots + \omega_n\frac{dx_n}{dz}}
+% [sic] printed $-F'(z) + \omega_1\frac{dx_1}{dz} + \cdots + \omega_n\frac{dx_n}{dz}$ as right side of (5), the terms $\omega_i\frac{dx_i}{dz}$ lack the factor $F'(\tau)$ required by (3) and (4) (cf. (7) on p. 683)
+\gesperrt{ein ganzes Funktional.}
+
+Andererseits ist $F'(\omega)$ nach \S\,182, 8. durch $F'(\tau)$ teilbar. Setzen wir also:
+\weq{6}{F'(\omega) = \varrho\,F'(\tau),}
+so ist $\varrho$ ein ganzes Funktional, und aus (4) ergibt sich, wenn man die $t_i$ durch die $x_i$ ersetzt:
+%CONT>>

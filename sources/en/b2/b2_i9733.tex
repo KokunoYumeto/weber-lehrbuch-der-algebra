@@ -1,0 +1,60 @@
+% !PRINTED 733
+\weberpage{733}
+%<<CONT
+
+therefore $\sigma_0$ positive, $\sigma_1$ negative. Here now $S_\beta = \sigma_\beta^{e_0}$,
+and hence $S_0$ and $S_1$ can have the same sign only when $e_0$
+is even.
+
+Accordingly we apply complete induction. For simplification
+we set $\nu' = 2\nu''$ and recall the notation
+
+\weq{16}{m = 2^{\varkappa}, \quad \mu = \tfrac{1}{2}m, \quad \nu = \tfrac{1}{2}\mu, \quad \nu' = \tfrac{1}{2}\nu, \quad \nu'' = \tfrac{1}{2}\nu',}
+and assume that our theorem has been proved correct when
+$\mu$ takes the place of $m$.
+
+We then have
+\[
+\begin{gathered}
+5^{\nu'} \equiv 1 \pmod{m}, \quad 5^{\nu'} \equiv 1+\mu \pmod{m}, \quad 5^{\nu''} \equiv 1+\nu \pmod{\mu} \\
+5^{\nu''} \equiv 1+\nu+\mu \pmod{m}
+\end{gathered}
+\]
+and from this there results
+
+\[
+\sigma_{\beta+\nu'} = -\sigma_\beta,
+\]
+\[
+\sigma_{\beta+\nu''} = -\cos\left(\frac{2\pi}{m}5^\beta\right),
+\]
+\weq{17}{\sigma_\beta \sigma_{\beta+\nu''} = -\tfrac{1}{2}\sin\left(\frac{2\pi}{\mu}5^\beta\right) = -\tfrac{1}{2}\sigma'_\beta,}
+\weq{18}{\sigma'_{\beta+\nu''} = -\sigma'_\beta,}
+if the $\sigma'_\beta$ arise from the $\sigma_\beta$ through the transition from $\varkappa$ to
+$\varkappa - 1$. Now, by (17), (18), we form the product
+$S_\beta S_{\beta+\nu''}$, and obtain, when in addition, for abbreviation,
+\[
+e' = e_0 + e_1 + \cdots + e_{\nu'-1}, \quad e'' = e_0 + e_1 + \cdots + e_{\nu''-1}
+\]
+is set,
+\[
+S_\beta S_{\beta+\nu''} = (-1)^{e''}\left(\tfrac{1}{2}\right)^{e'}\sigma_\beta'^{\,e_0+e_{\nu''}}\sigma_{\beta+1}'^{\,e_1+e_{\nu''+1}}\cdots\sigma_{\beta+\nu''-1}'^{\,e_{\nu''-1}+e_{\nu'-1}}.
+\]
+
+But this is a product of the same form as $S_\beta$, in
+which $\mu$ has taken the place of $m$, and which likewise has
+the same sign as all its conjugates. Therefore, by
+the assumption made,
+\weq{19}{e_0 \equiv e_{\nu''+1}, \; e_1 \equiv e_{\nu''+1}, \; \ldots, \; e_{\nu''-1} \equiv e_{\nu'-1} \pmod{2}.} % [sic: the source prints the same right-hand subscript in the first two congruences; the preceding product indicates that the first should be e_{\nu''}.]
+If, then, we set
+\[
+S'_\beta = \sigma_\beta'^{\,e_0}\sigma_{\beta+1}'^{\,e_1}\cdots\sigma_{\beta+\nu''-1}'^{\,e_{\nu''-1}},
+\]
+\[
+R_\beta = \sigma_{\beta+\nu''}^{\frac{1}{2}(e_0-e_{\nu''})}\sigma_{\beta+\nu''+1}^{\frac{1}{2}(e_1-e_{\nu''+1})}\cdots\sigma_{\beta+\nu'-1}^{\frac{1}{2}(e_{\nu''-1}-e_{\nu'-1})},
+\]
+then from (15) and (17) it follows that
+\[
+S_\beta R_\beta^2 = \left(-\tfrac{1}{2}\right)^{e''}S'_\beta,
+\]
+%CONT>>

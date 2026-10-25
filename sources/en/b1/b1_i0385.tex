@@ -1,0 +1,33 @@
+% !PRINTED 360
+\weberpage{360}
+
+This gives the development of the fraction $m:m_1$ or $m:n$ into a \gesperrt{continued fraction}. We obtain successively
+\weq{5}{
+\frac{m}{n} = a_0 + \cfrac{1}{\dfrac{m_1}{m_2}}, \quad
+\frac{m}{n} = a_0 + \cfrac{1}{a_1 + \cfrac{1}{\dfrac{m_2}{m_3}}} \cdots,
+}
+and finally
+\weq{6}{
+\frac{m}{n} = a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cdots + \cfrac{1}{a_{\nu-1} + \cfrac{1}{m_\nu}}}},
+}
+for which, for the sake of more convenient printing, we also
+\weq{7}{
+\begin{aligned}
+\frac{m}{n} &= \left(a_0, \frac{m_1}{m_2}\right), \quad \frac{m}{n} = \left(a_0, a_1, \frac{m_2}{m_3}\right)\\
+\frac{m}{n} &= (a_0, a_1, a_2 \ldots a_{\nu-1}, m_\nu)
+\end{aligned}
+}
+write.
+
+To this the following remark must still be added: every positive rational fraction can be put into the form $m:n$ in such a way that $m$ and $n$ are relatively prime, and hence we can develop every such fraction into a continued fraction of the form (6) or (7). This also holds for negative rational fractions, if we admit negative values for the number $a_0$ as well. The $a_1, a_2 \ldots a_{\nu-1}, m_\nu$ are, however, positive integers even then. These numbers are completely and unambiguously determined. Only in one respect is an arbitrariness still open to us.
+
+Namely, according to the determination made up to this point, the last of the partial denominators $m_\nu$ is greater than 1, since we have assumed that $m_{\nu+1}$ was to be the first among the residues that is equal to 1. Accordingly, if $a_\nu$ is a positive integer, we can set either
+\[
+m_\nu = a_\nu,
+\]
+or
+\[
+m_\nu = a_\nu + \frac{1}{1}
+\]
+and therefore obtain the two representations by continued fractions:
+%CONT>>

@@ -1,0 +1,38 @@
+% !PRINTED 592
+\weberpage{592}
+%<<CONT
+thus, when $t$ is a variable, assume the function $F$ in the form:
+\[
+F(t) = t^\nu + \alpha_1 t^{\nu-1} + \alpha_2 t^{\nu-2} + \cdots + \alpha_\nu,
+\]
+whose coefficients $\alpha_1, \alpha_2, \ldots, \alpha_\nu$ are integers in $R$. By division we can then, for every other integral function $F_1(t)$, determine the quotient $Q(t)$ and the residue $\varphi(t)$ in such a way that
+\weq{5}{F_1(t) = Q(t) F(t) + \varphi(t),}
+wherein
+\weq{6}{\varphi(t) = \varrho_0 + \varrho_1 t + \cdots + \varrho_{\nu-1} t^{\nu-1}}
+is a function of degree $(\nu-1)$ uniquely determined by $F_1(t)$, with integral coefficients $\varrho$.
+
+If we set for $\Theta$ the primitive root $\gamma$, and for $F_1(t)$ a power of $t$, it results from (4), (5) and (6) that every number $\omega$ not divisible by $\mathfrak{p}$ satisfies a congruence
+\weq{7}{\omega \equiv \varrho_0 + \varrho_1 \gamma + \cdots + \varrho_{\nu-1} \gamma^{\nu-1} \pmod{\mathfrak{p}}}
+and since the $\varrho$ may also be $= 0$, this still holds for an $\omega$ divisible by $\mathfrak{p}$.
+
+The coefficients $\varrho$ in the expression (7) are completely determined by $\omega$ itself with respect to the modulus $\mathfrak{P}$, since by our assumption $\gamma$ is to satisfy no congruence in $R$ of degree lower than $\nu$ whose coefficients are not all divisible by $\mathfrak{P}$. Consequently, since each of the coefficients in (7) can have only $P$ incongruent values, there are $P^\nu$ and no more incongruent numbers $\omega$, and from this it follows that we must have $\nu = f$.
+
+But now from a congruence $F(\gamma) \equiv 0 \pmod{\mathfrak{p}}$ there follows, by repeated raising to powers, with regard to (1):
+\[
+F(\gamma^P) \equiv 0, \ F(\gamma^{P^2}) \equiv 0, \ldots \pmod{\mathfrak{p}},
+\]
+and we have thus proved the theorem (\S.\,150, 2.):
+
+\gesperrt{A primitive root $\gamma$ of $\mathfrak{p}$ satisfies, with respect to the modulus $\mathfrak{p}$, a congruence in $R$ of degree $f$, of which}
+\[
+\gamma, \gamma^P, \gamma^{P^2}, \ldots, \gamma^{P^f-1}
+\]
+\gesperrt{are all the roots.}
+% [sic: The source prints $\gamma^{P^f-1}$ as the last root, with -1 on the P-exponent level rather than inside the exponent of P. The P-power orbit requires $\gamma^{P^{f-1}}$; the printed expression is retained.]
+
+This theorem can also be given the expression:
+
+\gesperrt{The product}
+% [sic: The last factor repeats the source's $\gamma^{P^f-1}$; the P-power-orbit factor would be $\gamma^{P^{f-1}}$.]
+\weq{8}{(t-\gamma)(t-\gamma^P) \ldots (t-\gamma^{P^f-1})}
+\gesperrt{is congruent, with respect to the modulus $\mathfrak{p}$, to an integral function $F(t)$ in $R$.}

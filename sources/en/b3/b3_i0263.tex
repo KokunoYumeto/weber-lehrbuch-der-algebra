@@ -1,0 +1,37 @@
+% !PRINTED 242
+\weberpage{242}
+%<<CONT
+i.e. for a root of the equation $F_n[x, j(\omega)] = 0$. In view of the irreducibility of the latter equation, and of the equality of the degree and of the coefficient of $x^{\nu}$, we therefore have
+\weq{21}{F_n[x, j(\omega)] = F_{n'}(x, x_1)\, F_{n'}(x, x_2) \dots F_{n'}(x, x_{\nu''}).}
+5. If $n = p^{\pi}$ is a power of a prime, then the degree of the function $F_n[x, j(\omega)]$ is equal to $p^{\pi-1}(p+1)$, and the equation
+\weq{22}{F_{p^{\pi-1}}[x, j(\omega)] = 0}
+is of degree
+\[
+\nu' = p^{\pi-2}(p+1).
+\]
+We denote its roots by $x_1, x_2, \dots x_{\nu'}$.
+The product
+\[
+P = F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{\nu'})
+\]
+is, with respect to $x$, of degree $\nu'(p+1) = p^{\pi-2}(p+1)^2$; it depends symmetrically on the roots of (22), and hence rationally on $j(\omega)$, and vanishes for
+\[
+x = j\left(\frac{\omega}{p^{\pi}}\right).
+\]
+Therefore $P$ is divisible by $F_n[x, j(\omega)]$.
+But the degree of $P$ is higher than that of $F_n$. If we take
+\[
+x_1 = j\left(\frac{p^{\pi-2}c + \omega}{p^{\pi-1}}\right),
+\]
+where $c$ may have any of the values $0, 1, 2, \dots p-1$, then $F_p(x, x_1)$ vanishes for
+\[
+x = j\left(\frac{\omega}{p^{\pi-2}}\right),
+\]
+i.e. $p$ of the factors of $P$ have a definite factor in common with $F_{p^{\pi-2}}[x, j(\omega)]$; from this it follows that $P$ is divisible by
+\[
+\{F_{p^{\pi-2}}[x, j(\omega)]\}^p
+\]
+and hence, as the comparison of the degrees and of the highest terms shows:
+\weq{23}{F_{p^{\pi}}[x, j(\omega)] = \dfrac{F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{\nu'})}{\{F_{p^{\pi-2}}[x, j(\omega)]\}^p}.}
+This formula is subject to an exception for $\pi = 2$, because in this case the degree of the function on the right-hand side is still too high. For this case, however, \gesperrt{each} of the $p+1$ factors of the product $P$ has the divisor $x - j(\omega)$, precisely because every $x_i$ is a root of the equation $F_p[x, j(\omega)]$, and in place of (23) there appears the formula
+\weq{24}{F_{p^2}[x, j(\omega)] = \dfrac{F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{p+1})}{[x - j(\omega)]^{p+1}}.}

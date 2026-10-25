@@ -1,0 +1,46 @@
+% !PRINTED 770
+\weberpage{770}
+
+If $p$ is a prime that divides $n$, then
+\weq{3}{\frac{x^n-1}{x^{\frac{n}{p}}-1} = x^{\frac{n}{p}(p-1)} + x^{\frac{n}{p}(p-2)} + \cdots + x^{\frac{n}{p}} + 1,}
+and this function vanishes for $x=\alpha, \beta, \gamma, \dots$ and is
+therefore divisible by $f_n(x)$. We will set it $= f_n(x)\, g(x)$,
+where $g(x)$ (by Bd. I, \S.\,2) is then an integral function of $x$
+with integral coefficients.
+
+Now if
+\[
+n = p^k n',
+\]
+where $n'$ is no longer divisible by $p$, and $\alpha'$ is a primitive $n'$th root of unity, then
+\[
+\alpha'^{\frac{n}{p}} = 1,
+\]
+and consequently, if one puts $x = \alpha'$ [by (3)]:
+\weq{4}{f_n(\alpha')\, g(\alpha') = p.}
+
+From this we first derive a proof of the irreducibility of $f_n(x)$ under the hypothesis that $n$ is a
+\gesperrt{prime power}, even though for this case the proof given in Bd. I,
+\S.\,134 is unobjectionable.
+
+Suppose that $f_n(x)$ splits into two rational factors:
+\weq{5}{f_n(x) = \varphi(x)\, \psi(x).}
+
+Then all the roots, both of $\varphi(x)$ and of $\psi(x)$, are
+$n$th roots of unity, and their $n$th powers are therefore equal to 1. If
+now $n = p^k$, then from $\varphi(x)$ and $\psi(x)$ we can derive two integral
+functions $\Phi(x)$, $\Psi(x)$ whose roots are the $n$th powers of the roots of $\varphi(x)$ and $\psi(x)$ and which are therefore all
+equal to 1, and from (2) there follows:
+\[
+\varphi(x) \equiv \Phi(x), \quad \psi(x) \equiv \Psi(x) \ (\mathrm{mod}\ p),
+\]
+from which, for $x = 1$, it follows that:
+\[
+\varphi(1) \equiv 0, \quad \psi(1) \equiv 0 \ (\mathrm{mod}\ p).
+\]
+Accordingly there follows from (5):
+\weq{6}{f_n(1) \equiv 0 \ (\mathrm{mod}\ p^2).}
+
+But in this case $f_n(1) = p$ (Bd. I, \S.\,133, V.),
+which contradicts formula (6). Our assumption was therefore
+inadmissible, and $f_n(x)$ is irreducible.

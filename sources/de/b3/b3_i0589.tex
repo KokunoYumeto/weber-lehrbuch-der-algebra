@@ -1,0 +1,68 @@
+% !PRINTED 558
+\weberpage{558}
+
+Summiert man diese Formeln abermals nach $y$ von $1$ bis $\infty$
+und macht von den Formeln Gebrauch, die teils bekannt sind,
+teils aus \S\,24, (11) folgen:
+
+\[
+\sum^{y}\frac{1}{y^2}=\frac{\pi^2}{6},\quad
+\sum^{y}\frac{(-1)^y}{y^2}=-\frac{\pi^2}{12},\quad
+\sum\frac{(-1)^y}{y}=-\log 2,\,.
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{q^{(2n-1)y}}{y}
+=-\log\Pi(1-q^{2n-1})=-\log f_1(\omega)-\frac{\pi i\omega}{24},
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{(-1)^y q^{2ny}}{y}
+=-\log\Pi(1+q^{2n})=-\log f_2(\omega)+\frac{\pi i\omega}{12}-\tfrac{1}{2}\log 2,
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{(-1)^y q^{(2n-1)y}}{y}
+=-\log\Pi(1+q^{2n-1})=-\log f(\omega)-\frac{\pi i\omega}{24},
+\]
+
+so ergibt sich:
+
+\weq{5}{\begin{aligned}
+\sum_{1,\infty}^{y}\sum_{1,\infty}^{x}\frac{(-1)^{x+y}\omega}{\omega^2y^2-x^2}
+&=\frac{\pi^2}{24\omega}-\frac{\pi^2\omega}{24}+\pi i\log f(\omega),\\[4pt]
+\sum^{y}\sum^{x}\frac{(-1)^x\omega}{\omega^2y^2-x^2}
+&=-\frac{\pi^2}{12\omega}-\frac{\pi^2\omega}{24}+\pi i\log f_1(\omega),\\[4pt]
+\sum^{y}\sum^{x}\frac{(-1)^y\omega}{\omega^2y^2-x^2}
+&=\frac{\pi^2}{24\omega}+\frac{\pi^2\omega}{12}+\pi i\log f_2(\omega)\,.
+\end{aligned}}
+
+Die Doppelsummen auf der linken Seite dieser Formeln sind
+so zu verstehen, daß zuerst die Summation in bezug auf $x$, dann
+die Summation in bezug auf $y$ auszuführen ist. Man kann aber
+auch so summieren, daß man
+
+\weq{6}{
+0<x<m,\quad 0<y<n,\quad n=\infty\,,\quad \frac{m}{n}=\infty
+}
+
+nimmt, und dann $m$ und $n$ so ins Unendliche wachsen läßt, daß
+$m:n$ unendlich wird. Daß beides dasselbe gibt, kann man auf
+verschiedene Weise zeigen, z.\,B. durch Vergleichung der Summen
+mit Integralen.
+
+Setzt man also, wie in \S\,147, (10), indem man $x$, $y$ an die
+Bedingung (6) bindet:
+
+\[
+\begin{aligned}
+\sum^{x,y}\frac{\omega}{\omega^2y^2-x^2}&=S_0 & x,\,y&\ \text{gerade,}\\
+&=S_1 & x,\,y&\ \text{ungerade,}\\
+&=S_2 & x\ \text{ungerade,}\ y&\ \text{gerade,}\\
+&=S_3 & x\ \text{gerade,}\ y&\ \text{ungerade,}
+\end{aligned}
+\]
+
+so folgt aus (5):
+%CONT>>
+% [sic] Der Druckverweis147,(10) bei der Definition von S0,S1,S2,S3 nennt statt der Definition(11) die vorherigen Logarithmenformeln. Beibehalten.

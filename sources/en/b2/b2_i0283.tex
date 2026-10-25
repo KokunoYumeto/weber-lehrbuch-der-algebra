@@ -1,0 +1,41 @@
+% !PRINTED 262
+\weberpage{262}
+Now let $A$ be any element of the group $L_p$,
+and $U = \begin{pmatrix} \lambda, & \mu \\ \nu, & \varrho \end{pmatrix}$ an element of $E_{2,p}$. We wish to derive from $A$, by
+transformation with $U$, a certain normal form.
+
+It shall first be attempted to transform $A$ into the normal form
+\weq{1}{S = \begin{pmatrix} \sigma, & 0 \\ 0, & \sigma^{-1} \end{pmatrix}}
+From the equation
+\[
+\begin{pmatrix} a, & b \\ c, & d \end{pmatrix} \begin{pmatrix} \lambda, & \mu \\ \nu, & \varrho \end{pmatrix} = \begin{pmatrix} \lambda, & \mu \\ \nu, & \varrho \end{pmatrix} \begin{pmatrix} \sigma, & 0 \\ 0, & \sigma^{-1} \end{pmatrix}
+\]
+one obtains
+\weq{2}{\begin{aligned}
+&(a-\sigma)\,\lambda + b\,\nu = 0, \quad (a-\sigma^{-1})\,\mu + b\,\varrho = 0,\\
+&c\,\lambda + (d-\sigma)\,\nu = 0, \quad\ \ c\,\mu + (d-\sigma^{-1})\,\varrho = 0,
+\end{aligned}}
+and from this it follows that $\sigma$ and $\sigma^{-1}$ must be the roots of the quadratic
+equation
+\[
+(a-\sigma)\,(d-\sigma) - b\,c = 0
+\]
+or
+\weq{3}{\sigma^2 - \sigma\,(a+d) + 1 = 0}
+Once $\sigma$ and $\sigma^{-1}$ have been determined from this, one finds
+from (2) the ratios $\lambda : \nu$ and $\mu : \varrho$. The quantities $\lambda, \mu, \nu, \varrho$
+themselves are then still to be determined so that $\lambda\varrho - \mu\nu = 1$.
+This is always possible if the values determined from (2)
+do not satisfy the equation $\lambda\varrho = \mu\nu$. If $b$ and $c$ are both $= 0$,
+then $A$ already has the form (1). But if one of the two numbers
+$b, c$, say $b$, is different from zero, then from (2) we obtain:
+\weq{4}{\frac{\nu}{\lambda} = -\frac{(a-\sigma)}{b}, \quad \frac{\varrho}{\mu} = -\frac{(a-\sigma^{-1})}{b},}
+and we can have $\lambda\varrho = \mu\nu$, or $\nu : \lambda = \varrho : \mu$, only if
+$\sigma = \sigma^{-1}$, that is, $\sigma = \pm 1$, i.\,e. by (3), if $a + d = \pm 2$.
+
+But equation (3) is always solvable in the field $\mathfrak{E}_{2,p}$, because
+every \gesperrt{real} number in this field is a square, and it yields
+\weq{5}{\begin{aligned}
+\sigma &= \frac{a+d}{2} + \sqrt{\left(\frac{a+d}{2}\right)^2 - 1}\\
+\sigma^{-1} &= \frac{a+d}{2} - \sqrt{\left(\frac{a+d}{2}\right)^2 - 1}
+\end{aligned}}

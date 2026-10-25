@@ -1,0 +1,54 @@
+% !PRINTED 50
+\weberpage{50}
+%<<CONT
+
+\[
+ F(x)=x+3{x(x-1)\over 1\cdot2}+2{x(x-1)(x-2)
+        \over 1\cdot2\cdot3}
+      ={x(x+1)(2x+1)\over 6}.
+\]
+For $f(x)=x^3$ the same calculation gives
+\[
+ F(x)=\left({x(x+1)\over2}\right)^2.
+\]
+Thus the sum of the first $m$ cubes is equal to the square of the $m$th triangular number.
+
+\begin{center}
+{\large \S.\ 12.}
+
+\vspace{0.5em}
+{\large\gesperrt{The Polynomial Theorem.}}
+\end{center}
+
+In \S~8 the following form of the binomial theorem was derived:
+\begin{equation}
+ (x+y)^n=\Pi(n)\sum^{\alpha,\beta}{x^\alpha y^\beta\over \Pi(\alpha)\Pi(\beta)},
+\tag{1}
+\end{equation}
+where the sum extends over all combinations of two numbers $\alpha,\beta$, neither of which is negative, and which satisfy the condition
+\begin{equation}
+ \alpha+\beta=n.
+\tag{2}
+\end{equation}
+
+This form permits, first by induction, a generalization to the $n$th power of a polynomial:
+\begin{equation}
+ (x+y+z+\cdots)^n=\Pi(n)\sum^{\alpha,\beta,\gamma,\ldots}
+ {x^\alpha y^\beta z^\gamma\cdots
+\over \Pi(\alpha)\Pi(\beta)\Pi(\gamma)\cdots},
+\tag{3}
+\end{equation}
+with the determination that $\alpha,\beta,\gamma,\ldots$ run through all positive or zero integer values which satisfy
+\begin{equation}
+ \alpha+\beta+\gamma+\cdots=n.
+\tag{4}
+\end{equation}
+But to prove the correctness of this formula in general, we assume that it is proved when the polynomial contains one term fewer, as is indeed the case when the polynomial contains only two terms.
+
+We then put
+\begin{equation}
+ u=y+z+\cdots
+\tag{5}
+\end{equation}
+and apply formula (1) to $(x+u)$, from which there follows
+%CONT>>

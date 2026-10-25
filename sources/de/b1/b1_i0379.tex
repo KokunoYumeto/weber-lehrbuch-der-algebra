@@ -1,0 +1,64 @@
+% !PRINTED 354
+\weberpage{354}
+
+Wir wollen dies auf den Fall b) anwenden; dabei ist zu unterscheiden, ob $\lambda$ kleiner oder grösser als $2^m$ ist, weil davon abhängt, ob $\Theta$ im ersten oder zweiten Octanten liegt. Es sind also wieder zwei Fälle zu unterscheiden:
+\[
+\alpha)\quad \lambda < 2^m,
+\]
+\[
+\lambda = \frac{b^m}{a^n} = \frac{c^m}{a^{m+n}} = \frac{b^{m+n}}{c^n},
+\]
+\[
+(5)\quad x^{m+n} = gc, \quad x^n = eb, \quad x^m = \frac{ga}{e}.
+\]
+\[
+\beta)\quad \lambda > 2^m,
+\]
+\[
+\lambda = a^{m+n}b^m = a^n c^m = \frac{c^{m+n}}{b^n},
+\]
+\[
+x^{m+n} = gb, \quad x^n = ec, \quad x^m = \frac{g}{ea}.
+\]
+
+Im Falle $\alpha)$ würde man also
+\[
+(6)\quad \log\lambda = mB - nA
+\]
+setzen und danach aus der Tafel die zusammengehörigen Werthe von $A$ und $B$ aufsuchen. Hat man diese gefunden, so ergiebt sich
+\[
+(7)\quad m\log x = A + \log g - \log e.
+\]
+Um den Gebrauch dieser Formeln an einem Beispiel zu erläutern, wollen wir die Gleichung betrachten:
+\[
+x^3 - 2x - 2 = 0,
+\]
+also $e = g = 2$, $m = 1$, $n = 2$, $\lambda = \frac{1}{2}$ setzen. Die Formel (6) giebt also
+\[
+(8)\quad 2A - B = 0{,}3010300
+\]
+und (7)
+\[
+(9)\quad \log x = A.
+\]
+
+Um den ersten Näherungswerth von $A$ zu finden, benutzt man einen kleinen Auszug aus der Tafel:
+\[
+\left|
+\begin{array}{ll}
+A = 0, & B = 0{,}301 \\
+A = 0{,}1, & B = 0{,}254 \\
+A = 0{,}2, & B = 0{,}212 \\
+A = 0{,}3, & B = 0{,}176
+\end{array}
+\right|.
+\]
+Es ergiebt sich daraus:
+\[
+\begin{array}{c|c|c}
+A & 2A - B & \text{Fehler} \\
+\hline
+0{,}2 & 0{,}188 & -0{,}113 \\
+0{,}3 & 0{,}424 & +0{,}123
+\end{array}
+\]

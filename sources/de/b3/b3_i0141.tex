@@ -1,0 +1,42 @@
+% !PRINTED 120
+\weberpage{120}
+%<<CONT
+\[
+(x_1', x_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(x_1, x_2); \quad (y_1', y_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(y_1, y_2),
+\]
+so ist auch
+
+\[
+x_1 y_2 - x_2 y_1 = x_1' y_2' - x_2' y_1',
+\]
+wie aus der Multiplikation der Determinanten hervorgeht. Demnach ist, was auch $x_1, x_2$ sei, nach (7), \S\,35:
+
+\weq{1}{\sigma(u + x_2\omega_1 - x_1\omega_2,\ \omega_1, \omega_2) = \sigma(u + x_2'\omega_1' - x_1'\omega_2',\ \omega_1', \omega_2').}
+Diese Funktion ändert sich der Formel (11) des vorigen Paragraphen gemäß, wenn $x_1, x_2$ um ganze Zahlen geändert werden. Diese Änderung kann man aber vermeiden, wenn man statt dessen die Funktion
+
+\[
+e^{-2(\eta_1 x_2 - \eta_2 x_1)u}\, \frac{\sigma(u + x_2\omega_1 - x_1\omega_2)}{\sigma(x_2\omega_1 - x_1\omega_2)}
+\]
+betrachtet, die wir (für den Augenblick) mit $\sigma(u, x_1, x_2, \omega_1, \omega_2)$ bezeichnen wollen. Diese Funktion genügt den Bedingungen:
+
+\weq{2}{\sigma(u, x_1', x_2', \omega_1', \omega_2') = \sigma(u, x_1, x_2, \omega_1, \omega_2),}
+
+\weq{3}{\begin{aligned}
+\sigma(u, x_1+1, x_2, \omega_1, \omega_2) &= \sigma(u, x_1, x_2, \omega_1, \omega_2),\\
+\sigma(u, x_1, x_2+1, \omega_1, \omega_2) &= \sigma(u, x_1, x_2, \omega_1, \omega_2),
+\end{aligned}}
+
+\weq{4}{\begin{aligned}
+\sigma(u+\omega_1) &= -e^{-2\pi i x_1}\,e^{\eta_1(2u+\omega_1)}\,\sigma(u),\\
+\sigma(u+\omega_2) &= -e^{-2\pi i x_2}\,e^{\eta_2(2u+\omega_2)}\,\sigma(u),
+\end{aligned}}
+\gesperrt{und bleibt also ungeändert, wenn $x_1$ und $x_2$ um ganze Zahlen geändert werden.}
+
+Indem wir uns nun wieder auf die Hauptcharakteristiken beschränken, setzen wir $(x_1, x_2) = \left(-\dfrac{1}{2}, \dfrac{1}{2}\right), \left(0, \dfrac{1}{2}\right), \left(-\dfrac{1}{2}, 0\right)$ und erhalten so die folgenden drei Funktionen:
+
+\weq{5}{\begin{aligned}
+\sigma_{00}(u) &= \sigma\left(u, -\frac{1}{2}, \frac{1}{2}, \omega_1, \omega_2\right) = e^{-(\eta_1+\eta_2)u}\,\frac{\sigma\left(u+\dfrac{\omega_1+\omega_2}{2}\right)}{\sigma\left(\dfrac{\omega_1+\omega_2}{2}\right)},\\
+\sigma_{10}(u) &= \sigma\left(u, 0, \frac{1}{2}, \omega_1, \omega_2\right) = e^{-\eta_1 u}\,\frac{\sigma\left(u+\dfrac{\omega_1}{2}\right)}{\sigma\left(\dfrac{\omega_1}{2}\right)},\\
+\sigma_{01}(u) &= \sigma\left(u, -\frac{1}{2}, 0, \omega_1, \omega_2\right) = e^{-\eta_2 u}\,\frac{\sigma\left(u+\dfrac{\omega_2}{2}\right)}{\sigma\left(\dfrac{\omega_2}{2}\right)},
+\end{aligned}}
+%CONT>>

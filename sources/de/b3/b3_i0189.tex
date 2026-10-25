@@ -1,0 +1,58 @@
+% !PRINTED 168
+\weberpage{168}
+
+Eine solche Differentialgleichung ist aber in den Formeln des § 23 bereits enthalten.
+
+Es folgt zunächst aus § 23, (14):
+
+\[
+d\log \varkappa^2 = i\pi\vartheta_{01}^4\,d\omega,
+\]
+
+oder mit Rücksicht auf
+
+\weq{2}{\pi\vartheta_{00}^2 = 2K, \quad \pi\vartheta_{10}^2 = 2\varkappa K, \quad \pi\vartheta_{01}^2 = 2\varkappa'K\ [\S\,42,\ (3),\ (15)]:}
+
+\weq{3}{\pi\,d(\varkappa^2) = 4i\varkappa^2\varkappa'^2K^2\,d\omega,}
+
+und aus § 23, (19):
+
+\[
+\frac{d}{d\omega}\frac{dK}{K^2d\omega} = -\frac{4}{\pi^2}\varkappa^2\varkappa'^2K^3.
+\]
+
+Führt man vermittelst (3) für $\omega$ die Variable $\varkappa^2$ ein, so folgt
+
+\weq{4}{\frac{d}{d(\varkappa^2)}\left(\varkappa^2\varkappa'^2\frac{dK}{d(\varkappa^2)}\right) = \frac14 K,}
+
+und dies ist die gesuchte Differentialgleichung.
+
+Setzen wir weiter
+
+\weq{5}{-i\omega = \frac{K'}{K},}
+
+\weq{6}{-iK^2d\omega = K\,dK' - K'\,dK,}
+
+so ergibt sich nach (3):
+
+\weq{7}{\varkappa^2\varkappa'^2\left(K\frac{dK'}{d(\varkappa^2)} - K'\frac{dK}{d(\varkappa^2)}\right) = -\frac{\pi}{4},}
+
+also durch abermalige Differentiation:
+
+\[
+\frac1K\frac{d}{d(\varkappa^2)}\left(\varkappa^2\varkappa'^2\frac{dK}{d(\varkappa^2)}\right) = \frac{1}{K'}\frac{d}{d(\varkappa^2)}\left(\varkappa^2\varkappa'^2\frac{dK'}{d(\varkappa^2)}\right),
+\]
+
+woraus zu ersehen, daß $K'$ das zweite partikulare Integral der Differentialgleichung (4) ist.
+
+% [sic] The source prints the Latin title as “seriem infinitum” (for “seriem infinitam”) and has no comma before Werke.
+Diese Differentialgleichung läßt sich durch hypergeometrische Reihen integrieren (\gesperrt{Gauss}, Disq. circa seriem infinitum Werke, Bd. III, S. 125).
+
+Setzen wir für den Augenblick $\varkappa^2 = x$, $K = y$, so lautet die Differentialgleichung (4)
+
+\weq{8}{x(1-x)\frac{d^2y}{dx^2} + (1-2x)\frac{dy}{dx} - \frac14 y = 0,}
+
+und sie geht aus der allgemeinen \gesperrt{Gauss}schen Differentialgleichung
+
+\weq{9}{(x-x^2)\frac{d^2y}{dx^2} + [\gamma-(\alpha+\beta+1)x]\frac{dy}{dx} - \alpha\beta y = 0}
+%CONT>>

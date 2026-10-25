@@ -1,0 +1,35 @@
+% !PRINTED 678
+\weberpage{678}
+%<<CONT
+sei bewiesen f\"ur $s - 1$ und leiten ihn durch vollst\"andige Induction allgemein her. Dazu ordnen wir die Determinante $L_s$ nach den Elementen der letzten Zeile, und schreiben sie so:
+\weq{2}{
+L_s = g_1 l_{s,1} + g_2 l_{s,2} + \cdots + g_s l_{s,s},
+}
+worin $g_s = L_{s-1}$ ist, und daher nach der gemachten Voraussetzung von Null verschieden angenommen werden kann. Substituiren wir diese Werthe von $g$ in die Formel des Satzes 4., \S.\,185, indem wir $g_{s+1} = 0, \ldots, g_\nu = 0$ annehmen, w\"ahrend $g_s$ nicht $= 0$ ist, so sind, so lange $s < \nu$ ist, gewiss nicht alle $g_1, g_2, \ldots, g_\nu$ einander gleich, und es ergiebt sich, dass sich $\varepsilon_s$ so annehmen l\"asst, dass $L_s$ von Null verschieden ist, wie bewiesen werden sollte.
+
+Auf $s = \nu$ ist diese Schlussweise nicht auszudehnen, und die Determinante $L_\nu$ muss auch in der That immer Null sein, weil f\"ur jede Einheit $\sum\limits_{1,\nu}^{s} l_s$ verschwindet.
+
+Wir wollen jetzt f\"ur den Fall, dass $s = \nu - 1$ ist, die Determinante $L_s$ so bezeichnen:
+\weq{3}{
+L_{\nu-1} = L(\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_{\nu-1}),
+}
+und ein System von Einheiten $\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_{\nu-1}$, f\"ur welches diese Determinante von Null verschieden ist, ein \gesperrt{System unabh\"angiger Einheiten} nennen.
+
+Der absolute Werth $L$ der Determinante $L(\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_{\nu-1})$ heisst der \gesperrt{Regulator} des Systems $\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_{\nu-1}$\footnote{\gesperrt{Dirichlet-Dedekind}, Vorlesungen \"uber Zahlentheorie 4. Auflage, \S.\,183.}.
+
+Wenn wir in der Determinante
+\weq{4}{
+\begin{vmatrix}
+l_{1,1}, & l_{1,2}, & \ldots, & l_{1,\nu} \\
+\cdots & \cdots & \cdots & \cdots \\
+l_{\nu-1,1}, & l_{\nu-1,2}, & \ldots, & l_{\nu-1,\nu} \\
+x_1, & x_2, & \ldots, & x_\nu
+\end{vmatrix},
+}
+in der die $x_1, x_2, \ldots, x_\nu$ willk\"urliche Gr\"ossen sind, alle Colonnen zu der letzten addiren, so erhalten wir mit R\"ucksicht auf die Relationen $\sum\limits^{i} l_{s,i} = 0$
+ihren Werth gleich
+\[
+\pm (x_1 + x_2 + \cdots + x_\nu) L.
+\]
+Wenn wir also alle $x$ mit Ausnahme von einem beliebigen
+%CONT>>

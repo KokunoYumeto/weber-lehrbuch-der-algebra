@@ -1,0 +1,53 @@
+% !PRINTED 87
+\weberpage{87}
+%<<CONT
+and from this:
+\[
+\begin{aligned}
+\vartheta_{00}(v+\omega) &= \sum c_\nu q^{\nu^2+2\nu} e^{2\pi i v \nu}\\
+&=q^{-1}e^{-2\pi i v}\sum c_\nu q^{(\nu+1)^2}e^{2\pi i v(\nu+1)}.
+\end{aligned}
+\]
+Since $\nu$ runs from $-\infty$ to $+\infty$, it is permissible to put $\nu - 1$
+in place of $\nu$ in this formula, and if one does so, there results
+\[
+\vartheta_{00}(v+\omega) = q^{-1}e^{-2\pi i v}\sum c_{\nu-1} q^{\nu^2}e^{2\pi i v \nu}.
+\]
+By the second of the fundamental equations [§ 20, (1)] the two series
+\[
+\sum c_\nu q^{\nu^2}e^{2\pi i v \nu} \quad \text{and} \quad \sum c_{\nu-1} q^{\nu^2}e^{2\pi i v \nu}
+\]
+must therefore agree with one another, that is, we must have
+\[
+c_{\nu-1} = c_\nu
+\]
+must hold. The $c_\nu$ are therefore all equal to one another; that they have the value 1 is shown by the
+comparison of the two developments
+\[
+\sum_{-\infty,\infty}^{\nu} q^{\nu^2}e^{2\pi i v \nu}, \qquad \prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 + q^{2\nu-1}e^{2\pi i v})(1 + q^{2\nu-1}e^{-2\pi i v})
+\]
+for the value $q = 0$.
+
+One may also give the development thus found for $\vartheta_{00}(v)$ the two
+formulae:
+\weq{1}{\begin{aligned}
+\vartheta_{00}(v) &= \sum q^{\nu^2} e^{2\nu \pi i v}\\
+&= 1 + 2q\cos 2\pi v + 2q^4\cos 4\pi v + 2q^9\cos 6\pi v + \cdots,
+\end{aligned}}
+and from this one obtains, by § 21, (8), through the increase of $v$ by $\frac{1}{2}$,
+$\frac{\omega}{2}$, $\frac{1+\omega}{2}$, the developments for the three remaining
+$\vartheta$-functions:
+\weq{2}{\begin{aligned}
+\vartheta_{01}(v) &= \sum(-1)^\nu q^{\nu^2} e^{2\nu \pi i v}\\
+&= 1 - 2q\cos 2\pi v + 2q^4\cos 4\pi v - 2q^9\cos 6\pi v + \cdots
+\end{aligned}}
+\weq{3}{\begin{aligned}
+\vartheta_{10}(v) &= \sum q^{\frac{(2\nu+1)^2}{4}} e^{(2\nu+1)\pi i v}\\
+&= 2q^{\frac{1}{4}}\cos\pi v + 2q^{\frac{9}{4}}\cos 3\pi v + 2q^{\frac{25}{4}}\cos 5\pi v + \cdots
+\end{aligned}}
+\weq{4}{\begin{aligned}
+\vartheta_{11}(v) &= -i\sum(-1)^\nu q^{\frac{(2\nu+1)^2}{4}} e^{(2\nu+1)\pi i v}\\
+&= 2q^{\frac{1}{4}}\sin\pi v - 2q^{\frac{9}{4}}\sin 3\pi v + 2q^{\frac{25}{4}}\sin 5\pi v + \cdots
+\end{aligned}}
+For later applications we draw from these developments the conclusions:
+%CONT>>

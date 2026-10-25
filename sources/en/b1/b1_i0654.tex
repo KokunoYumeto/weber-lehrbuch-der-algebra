@@ -1,0 +1,50 @@
+% !PRINTED 629
+\weberpage{629}
+%<<CONT
+\[
+\begin{aligned}
+\pi_1 \pi_2 &= (1, 2, 6) (3, 4, 5) \\
+\pi_1 \pi_2 \pi_3 &= (1, 6, 5, 4) \\
+\pi_1 \pi_2 \pi_3 \pi_4 &= (2, 4, 6, 3, 5) \\
+(\pi_1 \pi_2 \pi_3 \pi_4)^3 &= (2, 3, 4, 5, 6).
+\end{aligned}
+\]
+According to this, a function of the six quantities $v$ belonging to the group $C$ can easily be formed.
+
+A function such as
+\[
+v_1 v_3 + v_2 v_4 + v_5 v_6,
+\]
+remains unchanged by $\pi_1$ and by $\pi_1 \pi_2$; but if we apply to it the powers of the cyclic permutation $(2, 3, 4, 5, 6)$, five functions arise from it, which we shall denote as follows:
+\weq{2}{
+\begin{aligned}
+% [sic] Print has a prime after $v_4$ in this row; the parallel combinatorial pattern requires unprimed $v_4$.
+w_0 &= v_1 v_2 + v_4' v_5 + v_3 v_6 \\
+w_1 &= v_1 v_4 + v_2 v_6 + v_3 v_5 \\
+w_2 &= v_1 v_6 + v_2 v_5 + v_3 v_4 \\
+w_3 &= v_1 v_3 + v_2 v_4 + v_5 v_6 \\
+w_4 &= v_1 v_5 + v_2 v_3 + v_4 v_6.
+\end{aligned}
+}
+
+If we apply the permutations $\pi_1, \pi_2, \pi_3, \pi_4$ to the functions (2), these functions merely pass into one another, and indeed in the following way:
+\[
+\pi_1 = (w_0, w_1), \quad \pi_2 = (w_0, w_2), \quad \pi_3 = (w_0, w_3), \quad \pi_4 = (w_0, w_4),
+\]
+i.e. the $\pi_1, \pi_2, \pi_3, \pi_4$ correspond to the transpositions $(0, 1)$, $(0, 2)$, $(0, 3)$, $(0, 4)$ among the indices of the $w$, and thus by \S.\,153, 2. the symmetric group of the indices of the $w$ corresponds to the whole group $C$. A symmetric function of the five quantities $w$ which is not at the same time a symmetric function of the $v$, such as the sum of the $w$, is therefore a function belonging to $C$.
+
+One can, for example, take for this the sum of the squares
+\[
+W = w_0^2 + w_1^2 + w_2^2 + w_3^2 + w_4^2,
+\]
+or a function
+\[
+(\lambda - w_0) (\lambda - w_1) (\lambda - w_2) (\lambda - w_3) (\lambda - w_4)
+\]
+for an arbitrary rational $\lambda$.
+
+Such a quantity $W$ is the root of an irreducible equation of degree $6$, whose coefficients are symmetric functions of the six quantities $v$.
+
+\begin{center}
+\rule{3cm}{0.4pt}
+\end{center}

@@ -1,0 +1,46 @@
+% !PRINTED 90
+\weberpage{90}
+%<<CONT
+
+\begin{equation}
+\begin{aligned}
+ a_1^{(1)}x_1+a_2^{(1)}x_2+\cdots+a_n^{(1)}x_n&=y_1,\\
+ a_1^{(2)}x_1+a_2^{(2)}x_2+\cdots+a_n^{(2)}x_n&=y_2,\\
+ &\vdots\\
+ a_1^{(n)}x_1+a_2^{(n)}x_2+\cdots+a_n^{(n)}x_n&=y_n.
+\end{aligned}
+\tag{1}
+\end{equation}
+where the coefficients \(a_i^{(k)}\) and the independent terms \(y_1,y_2,\ldots,y_n\) are regarded as given. We denote by
+\begin{equation}
+        A=\sum\pm a_1^{(1)}a_2^{(2)}\cdots a_n^{(n)}
+\tag{2}
+\end{equation}
+the determinant of the system, and, as before, denote by \(A_i^{(k)}\) the first subdeterminants of \(A\). If \(k\) is one of the indices \(1,2,\ldots,n\), and we multiply equations (1) in succession by \(A_k^{(1)},A_k^{(2)},\ldots,A_k^{(n)}\) and then add them, we obtain
+\begin{equation}
+ x_1\sum^{i}a_1^{(i)}A_k^{(i)}+
+ x_2\sum^{i}a_2^{(i)}A_k^{(i)}+
+ \cdots+
+ x_n\sum^{i}a_n^{(i)}A_k^{(i)}
+ =\sum^{i}y_iA_k^{(i)}.
+\tag{3}
+\end{equation}
+By \S.\,22, (2) and (6), the coefficients of \(x_1,x_2,\ldots,x_n\) vanish here with the exception of the single coefficient of \(x_k\), which receives the value \(A\), and consequently:
+\begin{equation}
+ A x_k=\sum^{i}y_iA_k^{(i)},
+\tag{4}
+\end{equation}
+and in the case in which \(A\) is different from zero, the values of the unknowns can be calculated uniquely from this in such a way that equations (1) are actually satisfied [\S.\,23, (3), (7)]. If we put \(A_k^{(i)}=A\alpha_k^{(i)}\), we can write the solution in the form
+\begin{equation}
+\begin{aligned}
+ x_1&=\alpha_1^{(1)}y_1+\alpha_1^{(2)}y_2+\cdots+\alpha_1^{(n)}y_n,\\
+ x_2&=\alpha_2^{(1)}y_1+\alpha_2^{(2)}y_2+\cdots+\alpha_2^{(n)}y_n,\\
+ &\vdots\\
+ x_n&=\alpha_n^{(1)}y_1+\alpha_n^{(2)}y_2+\cdots+\alpha_n^{(n)}y_n,
+\end{aligned}
+\tag{5}
+\end{equation}
+whose analogy with system (1) is evident.
+
+But if \(A=0\), equations (4) teach nothing about the values of the \(x\)'s; they give only a system of conditions which the \(y\)'s must necessarily satisfy if equations (1) are to be soluble at all. To arrive at a generally valid result, we proceed quite similarly to the case of homogeneous equations. We assume that, besides the determinant \(A\), all subdeterminants down to a certain order are also zero. We denote a non-vanishing \(\nu\)-rowed subdeterminant by
+%CONT>>

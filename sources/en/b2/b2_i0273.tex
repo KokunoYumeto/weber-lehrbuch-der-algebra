@@ -1,0 +1,24 @@
+% !PRINTED 252
+\weberpage{252}
+%<<CONT
+denote, then we obtain a system of generating substitutions in the form:
+\weq{8}{A_0 = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}, \quad B_h = \begin{pmatrix} 1, & 0 \\ \varepsilon^h, & 1 \end{pmatrix}, \quad h = 0, 1, \ldots, n-1.}
+
+To prove this, we observe that
+\[ \begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} \begin{pmatrix} 1, & 0 \\ \gamma', & 1 \end{pmatrix} = \begin{pmatrix} 1, & 0 \\ \gamma + \gamma', & 1 \end{pmatrix} \]
+holds; repeated application therefore shows that, if
+\[ \gamma = c_0 + c_1 \varepsilon + \cdots + c_{n-1} \varepsilon^{n-1} \]
+is an arbitrary number in $\mathfrak{C}$ whose coefficients $c$ are integers, then
+\weq{9}{\begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} = B_0^{c_0} B_1^{c_1} \cdots B_{n-1}^{c_{n-1}}.}
+
+Further, by composition with $A_0$ it follows that:
+\weq{10}{\begin{gathered} \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ \alpha, & 1 \end{pmatrix} = \begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}, \quad \begin{pmatrix} 1, & 0 \\ \delta, & 1 \end{pmatrix}\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} 0, & 1 \\ -1, & \delta \end{pmatrix} \\ \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ -\beta, & 1 \end{pmatrix}\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} = \begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}. \end{gathered}}
+
+From this it appears that from the elements (8) one can compose all substitutions of the form
+\[ \begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}, \quad \begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}, \quad \begin{pmatrix} 1, & 0 \\ \gamma', & 1 \end{pmatrix}, \quad \begin{pmatrix} 0, & 1 \\ -1, & \delta \end{pmatrix} \]
+in which $\alpha, \beta, \gamma, \delta$ are arbitrary numbers in $\mathfrak{C}$. Further,
+\weq{11}{\begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} = \begin{pmatrix} \alpha + \gamma + \alpha\beta\gamma, & \alpha\beta + 1 \\ -\beta\gamma - 1, & -\beta \end{pmatrix}.}
+
+If one assumes $\beta$ different from zero, one can choose $\alpha$ and $\gamma$ so that $\alpha\beta + 1$, $-\beta\gamma - 1$ become arbitrary numbers, and by (11) one can therefore compose from $A_0, B_h$ all substitutions $\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}$ in which $\delta$ is different from zero. The restriction that $\delta$ be different from zero can, however, by the formula
+\[ \begin{pmatrix} \alpha, & \beta \\ \gamma, & 0 \end{pmatrix} = \begin{pmatrix} -\beta, & \alpha \\ 0, & \gamma \end{pmatrix}\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} \]
+be dropped.

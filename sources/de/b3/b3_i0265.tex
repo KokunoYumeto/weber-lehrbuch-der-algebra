@@ -1,0 +1,36 @@
+% !PRINTED 244
+\weberpage{244}
+%<<CONT
+worin $c_{h,k}$ die zu bestimmenden Koeffizienten sind, die nach 3. der Bedingung
+\[
+c_{h,k} = c_{k,h}
+\]
+genügen. Um sie zu bestimmen, setzen wir in (29)
+\[
+x = u, \quad y = v,
+\]
+wodurch $F_p$ verschwindet, und erhalten
+\weq{30}{(u^p - v)(u - v^p) = \sum^{h,k} c_{h,k} u^h v^k.}
+Hieraus folgt zunächst, daß
+\[
+c_{p,p} = 0
+\]
+sein muß, da nach (28) bei der Entwickelung (der linken Seite) nach Potenzen von $q$ die Potenz $q^{-2(p^2+p)}$ nicht vorkommen kann, und wir können (29) jetzt in die Form setzen:
+\weq{31}{(u^p - v)(u - v^p) = \sum_{0,p}^{h} \sum_{0,h-1}^{k} c_{h,k}(u^h v^k + u^k v^h) + \sum_{0,p-1}^{h} c_{h,h} u^h v^h.}
+Hierin sind die aus (25) und (27) sich ergebenden Entwickelungen von
+\[
+u^h v^k + u^k v^h, \quad u^h v^h
+\]
+nach Potenzen von $q$ einzusetzen, deren Anfangsglieder
+\[
+q^{-2(hp+k)}, \quad q^{-2h(p+1)}
+\]
+die Koeffizienten 1 haben.
+Auf der rechten Seite von (31) kommen nicht zwei Glieder vor, deren Entwickelung mit derselben Potenz von $q$ beginnt, denn aus
+\[
+hp + k = h'p + k'
+\]
+folgt $k \equiv k'\ (\mathrm{mod}\ p)$ und mithin, da $k$ und $k' < p$ sind, $k = k'$, $h = h'$.
+Ordnet man daher die Reihen, welche die beiden Seiten von (31) darstellen, nach aufsteigenden Potenzen von $q$, und setzt dann die Koeffizienten gleich hoher Potenzen einander gleich, so erhält man eine Reihe linearer Gleichungen für die Unbekannten $c_{h,k}$, von denen jede folgende nur \gesperrt{eine} neue Unbekannte enthält, und diese mit dem Koeffizienten 1. Die aus der linken Seite sich ergebenden bekannten Glieder dieser Gleichungen sind nach (28) lauter \gesperrt{durch $p$ teilbare ganze Zahlen}, und es ergeben sich also für die $c_{h,k}$ ebenfalls ganzzahlige, durch $p$ teilbare Zahlwerte. Demnach haben wir
+\weq{32}{F_p(x, y) = (x^p - y)(x - y^p) - p \sum_{0,p}^{h,k} a_{h,k} x^h y^k,}
+%CONT>>

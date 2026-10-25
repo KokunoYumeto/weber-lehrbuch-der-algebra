@@ -1,0 +1,64 @@
+% !PRINTED 455
+\weberpage{455}
+
+%<<CONT
+and the invariability under $\chi$, that besides this one term the two corresponding ones
+
+\[
+x_2^{h_1} x_3^{h_2} x_1^{h_3}, \quad x_3^{h_1} x_1^{h_2} x_2^{h_3}
+\]
+
+also occur in the function, unless $h_1 = h_2 = h_3$. To this is added the condition of invariability under $\omega$. We now wish to see how we can satisfy these requirements, and first of all in such a way that the degree $m$ of the invariant, that is, the sum $h_1 + h_2 + h_3$, becomes as small as possible.
+
+The condition (1) evidently cannot be satisfied if $m < 3$. If this sum is $= 3$, then $h_1 = h_2 = h_3 = 1$ must hold; but the product $x_1 x_2 x_3$ is evidently not unchanged under $\omega$. The smallest value that comes into consideration is therefore $m = 4$, and we therefore have to seek out all non-negative solutions of
+
+\[
+\begin{aligned}
+h_1 + h_2 + h_3 &= 4 \\
+h_1 + 2h_2 + 4h_3 &\equiv 0\ (\mathrm{mod}\ 7)
+\end{aligned}
+\]
+%CONT>>
+
+If we eliminate $h_1$, it follows that
+
+\[
+h_2 + 3h_3 \equiv 3\ (\mathrm{mod}\ 7),
+\]
+
+and from this result the only possible solutions:
+
+\[
+\begin{aligned}
+h_3 &= 0, & h_2 &= 3, & h_1 &= 1 \\
+h_3 &= 1, & h_2 &= 0, & h_1 &= 3 \\
+h_3 &= 3, & h_2 &= 1, & h_1 &= 0,
+\end{aligned}
+\]
+
+and consequently the \gesperrt{only} form of degree $4$ unchanged by $\chi$ and $\tau$
+
+\weq{2}{f\,(x_1, x_2, x_3) = x_1^3 x_3 + x_2^3 x_1 + x_3^3 x_2.}
+
+In order to test the influence of the substitution $\omega$ on the function $f$, we set
+
+\weq{3}{
+\begin{aligned}
+x_1 &= \alpha y_1 + \beta y_2 + \gamma y_3 \\
+x_2 &= \beta y_1 + \gamma y_2 + \alpha y_3 \\
+x_3 &= \gamma y_1 + \alpha y_2 + \beta y_3,
+\end{aligned}
+}
+
+in which the coefficients $\alpha, \beta, \gamma$ have the meaning fixed in \S.\,115, and assume that by (3) the transformation
+
+\weq{4}{F\,(y_1, y_2, y_3) = f\,(x_1, x_2, x_3)}
+
+is accomplished. We form the second derivatives of $F$ with respect to $y_1, y_2, y_3$, with regard to (3) and to the formulae
+
+\[
+\begin{aligned}
+&\tfrac{1}{6} f''(x_1, x_1) = x_1 x_3, \quad \tfrac{1}{6} f''(x_2, x_2) = x_2 x_1, \quad \tfrac{1}{6} f''(x_3, x_3) = x_3 x_2 \\
+&\tfrac{1}{3} f''(x_2, x_3) = x_3^2, \quad \tfrac{1}{3} f''(x_3, x_1) = x_1^2, \quad \tfrac{1}{3} f''(x_1, x_2) = x_2^2.
+\end{aligned}
+\]

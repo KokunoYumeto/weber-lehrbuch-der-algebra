@@ -1,0 +1,55 @@
+% !PRINTED 225
+\weberpage{225}
+To this it should further be remarked that the superfluously introduced
+variables $t_n, t_{n+1} \ldots$ have already been eliminated again in the
+second form of $E_{0,s}, E_{1,s} \ldots E_{s-1,s}$, and that the variable
+$t_{n-1}$ occurs only in $E_{s,s}$.
+
+\begin{center}
+\S.\,73.
+
+\gesperrt{The Bezoutiant.}
+\end{center}
+
+Equation (4) of the preceding section, when expanded, will have
+the form
+\[
+y^n + P_1 y^{n-1} + P_2 y^{n-2} + \cdots + P_n = 0,
+\]
+or, if we determine $t_{n-1}$ so that $S(y) = 0$,
+\weq{1}{y^n + P_2 y^{n-2} + \cdots + P_n = 0;}
+in it, then,
+\[
+- 2 P_2 = S(y^2)
+\]
+is a function of the second degree with respect to the $t$ and with
+respect to the $a$. This function is especially important for many
+applications and has received from \gesperrt{Sylvester} the name Bezoutiant
+of the function $f(x)$, in honour of the French mathematician
+\gesperrt{Bezout}, who already in the last century gave the first
+correct treatments of elimination.
+
+By the formulas of the last section this function can be
+computed comparatively simply. We first introduce, alongside
+the variables $t_{n-1}, t_{n-2} \ldots t_0$, a second
+system of variables independent of them, $\tau_{n-1}, \tau_{n-2} \ldots \tau_0$, and
+set
+\weq{2}{
+\begin{aligned}
+y &= t_{n-1} f_0 + t_{n-2} f_1 + \cdots + t_0 f_{n-1} \\
+z &= \tau_{n-1} f_0 + \tau_{n-2} f_1 + \cdots + \tau_0 f_{n-1}.
+\end{aligned}
+}
+Now instead of forming $S(y^2)$, we first compute $S(yz)$,
+from which $S(y^2)$ then results when one sets the $\tau$ equal to the $t$.
+
+If one multiplies formula (3) of the preceding section
+\weq{3}{y f_s = E_{0,s} f_0 + E_{1,s} f_1 + \cdots + E_{n-1,s} f_{n-1}}
+by $\tau_{n-s-1}$ and then sums with respect to $s$ from $0$ to $n-1$,
+one finds
+\weq{4}{
+\begin{aligned}
+y z = {} & f_0 \sum_{0,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + f_1 \sum_{0,\,n-1}^{s} E_{1,s} \tau_{n-s-1} + \cdots + f_{n-1} \sum_{0,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1}.
+\end{aligned}
+}

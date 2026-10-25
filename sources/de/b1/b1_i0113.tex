@@ -1,0 +1,38 @@
+% !PRINTED 88
+\weberpage{88}
+
+Um ein System von nothwendigen, hinreichenden und von einander unabhängigen Bedingungen zu erhalten, fassen wir die Fragestellung etwas präciser und fragen nach den Bedingungen:
+
+\gesperrt{dass aus einem System von $m$ linearen, homogenen Gleichungen mit $n$ Unbekannten $\nu$ von den Unbekannten durch $n-\nu$ willkürlich bleibende vollkommen bestimmt werden können.}
+
+Auch diese Frage ist in \S.\,24 eigentlich schon beantwortet. Es muss unter den $\nu$-reihigen Determinanten eine von Null verschieden sein, während die $(\nu+1)$reihigen alle verschwinden. Es genügt aber schon, wenn es von einer kleineren Anzahl der $(\nu+1)$reihigen Determinanten feststeht, dass sie verschwinden.
+
+Nehmen wir an, die Unbekannten $x_{\nu+1},x_{\nu+2},\ldots,x_n$ sollen willkürlich bleiben, $x_1,x_2,\ldots,x_\nu$ durch sie bestimmt sein, und nehmen die Determinante:
+\begin{equation}
+ A=\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}\\
+ \vdots&\vdots&&\vdots\\
+ a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}
+ \end{vmatrix}
+\tag{1}
+\end{equation}
+als von Null verschieden an. Wir berechnen die Unbekannten $x_1,x_2,\ldots,x_\nu$ nach \S.\,24, (9) und bilden die Summen (11), deren Verschwinden besagt, dass das gegebene Gleichungssystem wirklich befriedigt ist. Die Bedingungen dafür werden also:
+\begin{equation}
+\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}&a_h^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}&a_h^{(2)}\\
+ \vdots&\vdots&&\vdots&\vdots\\
+ a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}&a_h^{(\nu)}\\
+ a_1^{(k)}&a_2^{(k)}&\cdots&a_\nu^{(k)}&a_h^{(k)}
+\end{vmatrix}=0,
+\tag{2}
+\end{equation}
+oder anders geschrieben:
+\begin{equation}
+ Aa_h^{(k)}-\sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}
+ a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)}=0,
+\tag{3}
+\end{equation}
+und diese Bedingungen genügen auch. Die Gleichung (2) oder (3) ist aber identisch befriedigt, wenn $h=1,2\ldots\nu$ oder $k=1,2\ldots\nu$ ist, und giebt also für diese Werthe keine Bedingung für die Coëfficienten. Solche Bedingungen ergeben sich nur für
+%CONT>>

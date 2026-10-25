@@ -1,0 +1,37 @@
+% !PRINTED 146
+\weberpage{146}
+%<<CONT
+\weq{8}{\begin{gathered}
+ C_0\alpha_1^{n-1}+C_1\alpha_1^{n-2}+\cdots+C_{n-2}\alpha_1+(C_{n-1}-S)=0\\
+ C_0\alpha_2^{n-1}+C_1\alpha_2^{n-2}+\cdots+C_{n-2}\alpha_2+(C_{n-1}-S)=0\\
+ \makebox[30em]{\dotfill}\\
+ C_0\alpha_n^{n-1}+C_1\alpha_n^{n-2}+\cdots+C_{n-2}\alpha_n+(C_{n-1}-S)=0.
+\end{gathered}}
+If we regard this system as a system of homogeneous linear equations with the $n$ unknowns
+\[
+ C_0,C_1\ldots C_{n-2},C_{n-1}-S,
+\]
+then its determinant,
+\[
+\begin{vmatrix}
+ \alpha_1^{n-1},&\alpha_1^{n-2}&\ldots&\alpha_1,&1\\
+ \alpha_2^{n-1},&\alpha_2^{n-2}&\ldots&\alpha_2,&1\\
+ \multicolumn{5}{c}{\makebox[12em]{\dotfill}}\\
+ \alpha_n^{n-1},&\alpha_n^{n-2}&\ldots&\alpha_n,&1
+\end{vmatrix},
+\]
+which by \S\,22, formula (12), equals the product of all differences $\alpha_1-\alpha_2,\alpha_1-\alpha_3\ldots$, is different from zero, and consequently, by Theorem II in \S\,24,
+\[
+ C_0=0,\quad C_1=0\ldots\quad C_{n-2}=0
+\]
+and
+\weq{9}{S=C_{n-1},}
+which contains the fundamental theorem to be proved.
+
+The same result is also obtained by Theorem II, \S\,30; for since the function of degree $(n-1)$ in $x$
+\[
+ C_0x^{n-1}+C_1x^{n-2}+\cdots+C_{n-2}x+C_{n-1}-S
+\]
+vanishes for $x=\alpha_1,\alpha_2\ldots\alpha_n$, that is, for more than $n-1$ values, all its coefficients must be zero.
+
+The proof which we have given here for the fundamental theorem, following \gesperrt{Cauchy},\footnote[1]{\gesperrt{Cauchy}, Exercices de mathématiques, $4^{\text{ème}}$ année.} also provides a means of actually computing, in particular cases, the expression of a symmetric function in terms of the fundamental functions. The other known proofs of the theorem offer the same possibility. We shall give one more proof here, which often leads to a simpler method of computation\footnote[2]{\gesperrt{Waring}, Meditationes algebraicae. \gesperrt{Gauss}, Demonstratio nova altera theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse. Werke, vol.\ III, p.\ 36.}.

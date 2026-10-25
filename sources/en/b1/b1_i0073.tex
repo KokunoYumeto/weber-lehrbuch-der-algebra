@@ -1,0 +1,57 @@
+% !PRINTED 48
+\weberpage{48}
+%<<CONT
+
+\begin{equation}
+\Delta_0=u_1-u_0,
+ \Delta_1=u_2-u_1,
+ \Delta_2=u_3-u_2,\ldots
+\tag{2}
+\end{equation}
+the series of its differences; and
+\begin{equation}
+ \Delta'_0=\Delta_1-\Delta_0,
+ \Delta'_1=\Delta_2-\Delta_1,\ldots
+\tag{3}
+\end{equation}
+the series of its second differences, and so on.
+
+It is clear that the series (1) is completely determined when its first term and the series of its first differences are given; for
+\[
+ u_1=u_0+\Delta_0,
+ \quad u_2=u_0+\Delta_0+\Delta_1,
+ \quad\ldots,
+\]
+\[
+ u_m=u_0+\Delta_0+\Delta_1+\cdots+\Delta_{m-1}.
+\]
+Likewise the series (1) is completely determined when the first two terms and the series of its second differences are given, and so forth. The series (1) is called an \gesperrt{arithmetic series of $n$th order} when the series of its $n$th differences is constant, and hence the series of the $(n+1)$st differences consists entirely of zeros.
+
+One obtains an arithmetic series of $n$th order by substituting the numbers $0,1,2,3,\ldots$ for $x$ in a whole function $f(x)$ of degree $n$. For if one puts
+\[
+ \Delta_x=f(x+1)-f(x),
+\]
+\[
+ \Delta'_x=\Delta_{(x+1)}-\Delta_x,
+\]
+\[
+ \cdots\cdots\cdots\cdots\cdots
+\]
+\[
+ \Delta_x^{(n-1)}=\Delta_{(x+1)}^{(n-2)}-\Delta_x^{(n-2)},
+\]
+then $\Delta_x$ is of degree $(n-1)$, $\Delta'_x$ of degree $(n-2)$, and so on with respect to $x$, and therefore $\Delta_x^{(n-1)}$ is constant.
+
+If now
+\[
+ u_0,u_1,u_2,\ldots
+\]
+is an arithmetic series of $n$th order, then the whole series is completely determined when the $n$ values $u_0,u_1,u_2,\ldots,u_{n-1}$ and, besides these, the constant $n$th difference are given. But this latter is determined if also the $(n+1)$st term $u_n$ is given. We can therefore state the theorem:
+
+\gesperrt{An arithmetic series of $n$th order is completely determined when its first $n+1$ terms are given.}
+
+Since a function $f(x)$ of degree $n$ is likewise completely determined by the arbitrarily given values
+\[
+ f(0),f(1),f(2),\ldots,f(n)
+\]
+%CONT>>

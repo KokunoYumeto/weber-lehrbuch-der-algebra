@@ -1,0 +1,49 @@
+% !PRINTED 26
+\weberpage{26}
+
+Suppose now that $p$ divides
+\[
+ a_0,a_1\ldots a_{r-1},\quad \hbox{but not }a_r,
+\]
+and divides
+\[
+ b_0,b_1\ldots b_{s-1},\quad \hbox{but not }b_s,
+\]
+Then, by assumption, $r\leqq m$, and may also be zero if $p$ already
+does not divide $a_0$. Likewise $s\leqq n$.
+
+If now, by (4), we form $c_{r+s}$ and arrange it in the following way,
+\begin{equation}
+\begin{aligned}
+ c_{r+s}={}&a_rb_s+a_{r-1}b_{s+1}+a_{r-2}b_{s+2}+\cdots\\
+            &+a_{r+1}b_{s-1}+a_{r+2}b_{s-2}+\cdots,
+\end{aligned}
+\tag{1}
+\end{equation}
+one sees at once that $c_{r+s}$ cannot be divisible by $p$, as had
+been assumed; for the first term $a_rb_s$ is not divisible by $p$,
+while all other terms, since they are multiplied by one of the
+coefficients $a_0,a_1\ldots a_{r-1},b_0,b_1\ldots b_{s-1}$, are
+divisible by $p$. Thus the assumption that $C(x)$ is not primitive
+while $A(x)$ and $B(x)$ are primitive leads to a contradiction.
+
+This theorem can be transferred to functions of several variables. We
+call a whole rational function of $m$ variables with integral
+coefficients \gesperrt{original or primitive} if the coefficients have
+no common divisor, and we state the theorem that \gesperrt{the product
+of two primitive functions is again a primitive function}.
+
+To see its truth, we need only take, in the argument carried out above,
+the coefficients $a_0,a_1,a_2\ldots$, $b_0,b_1,b_2\ldots$ not as whole
+numbers but as whole rational functions of $m-1$ variables
+$y,z\ldots$, and call such a function divisible by a prime number $p$
+when all its coefficients are divisible by $p$. If we then suppose
+that the theorem to be proved has already been proved for functions of
+$m-1$ variables, formula (1) gives its correctness for functions of
+$m$ variables, hence its general validity by complete induction, or by
+the conclusion from $m-1$ to $m$.
+
+An imprimitive function is one whose integral coefficients all have a
+common divisor. We call this divisor the \gesperrt{divisor of the
+function}. Then we can also express the theorem just proved as follows:
+%CONT>>

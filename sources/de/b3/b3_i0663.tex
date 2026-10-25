@@ -1,0 +1,38 @@
+% !PRINTED 632
+\weberpage{632}
+Um auch das Umgekehrte zu beweisen, nehmen wir an, es sei $(\eta_i)$ eine Basis und
+\weq{5}{(\eta_i') = X(\eta_i)}
+eine lineare Substitution. Das System $(\eta_i')$ ist dann und nur dann gleichfalls eine Basis, wenn die Determinante $|X|$ dieser Substitution von Null verschieden ist (\S\ 171). Setzt man nach (5)
+\[
+\eta_h' = x_{h,1}\eta_1 + x_{h,2}\eta_2 + \cdots + x_{h,n}\eta_n,
+\]
+so wird
+\[
+S(\eta_h'\eta_k') = \sum^{i\,i'} x_{h,i} x_{k,i'} S(\eta_i \eta_{i'}),
+\]
+und indem man daraus die Determinante bildet:
+\weq{6}{\Delta(\eta_1', \eta_2', \dots, \eta_n') = |X|^2 \Delta(\eta_1, \eta_2, \dots, \eta_n).}
+
+Ist also $\Delta(\eta_i')$ von Null verschieden, so kann $|X|$ nicht verschwinden und $(\eta_i')$ ist eine Basis. Damit ist 7. bewiesen.
+
+Aus (6) ergibt sich noch nach der Definition der Norm in \S\ 172, wenn man $\eta_i' = \zeta\eta_i$ setzt, und $\zeta$ eine beliebige Funktion in $\Omega$ ist:
+\weq{7}{\Delta(\zeta\eta_i) = N(\zeta)^2 \Delta(\eta_i).}
+
+\S\ 174. \gesperrt{Die Potenzsummen.}
+
+Die Spuren der Potenzen von $\theta$
+\weq{1}{s_k = S(\theta^k)}
+sind nichts anderes als die \gesperrt{Potenzsummen}, die nach den \gesperrt{Newtonschen} Formeln berechnet werden können. Da wir aber hier nicht von den \glqq Wurzeln\grqq{} der Gleichung $f(\theta) = 0$ sprechen dürfen, die wir noch nicht haben, so müssen diese Formeln direkt aus der Definition der Spur abgeleitet werden.
+
+Ist $f(\theta) = 0$ die den Körper $\Omega$ definierende Gleichung, so setzen wir
+\weq{2}{f(t) = t^n + a_1 t^{n-1} + \cdots + a_{n-1} t + a_n}
+und bilden den Quotienten:
+\weq{3}{\frac{f(t)}{t - \theta} = \eta_0 + \eta_1 t + \eta_2 t^2 + \cdots + \eta_{n-1} t^{n-1},}
+worin
+\weq{4}{\begin{aligned}
+\eta_0 &= a_{n-1} + a_{n-2}\theta + \cdots + a_1\theta^{n-2} + \theta^{n-1}, \\
+\eta_1 &= a_{n-2} + a_{n-3}\theta + \cdots + \theta^{n-2}, \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+\eta_{n-2} &= a_1 + \theta, \\
+\eta_{n-1} &= 1.
+\end{aligned}}

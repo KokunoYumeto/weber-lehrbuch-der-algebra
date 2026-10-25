@@ -1,0 +1,42 @@
+% !PRINTED 540
+\weberpage{540}
+%<<CONT
+group of the equation, then $C_e$ is this group. But $C_e$ is intransitive when $e < m$, and the equation is reducible.
+
+The reduction carried out above can also be applied to the cyclic equations whose degree is not a prime.
+
+For if $m = ef$ is any decomposition of $m$ into two factors, the permutation $\pi^e$ splits into $e$ cycles $\gamma$ of $f$ terms each:
+\weq{10}{
+\begin{aligned}
+\gamma &= (\alpha, \alpha_e, \alpha_{2e} \ldots \alpha_{(f-1)e}), \\
+\gamma_1 &= (\alpha_1, \alpha_{e+1}, \alpha_{2e+1} \ldots \alpha_{(f-1)e+1}), \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+% [sic] authority prints c-1 here; mathematical cycle indexing requires e-1.
+\gamma_{c-1} &= (\alpha_{e-1}, \alpha_{2e-1}, \alpha_{3e-1} \ldots \alpha_{m-1}).
+\end{aligned}
+}
+Now we determine a function $\psi$ belonging to the first of these cycles, and set
+\weq{11}{
+\begin{aligned}
+\eta &= \psi(\alpha, \alpha_e, \alpha_{2e} \ldots \alpha_{(f-1)e}), \\
+\eta_1 &= \psi(\alpha_1, \alpha_{e+1}, \alpha_{2e+1} \ldots \alpha_{(f-1)e+1}), \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+\eta_{e-1} &= \psi(\alpha_{e-1}, \alpha_{2e-1}, \alpha_{3e-1} \ldots \alpha_{m-1}).
+\end{aligned}
+}
+These quantities are all different from one another, but under a cyclic permutation of their arguments they remain unchanged. By application of the permutation $\pi$ the quantities
+\[
+\eta, \eta_1, \eta_2 \ldots \eta_{e-1}
+\]
+pass cyclically into one another, and by the hypothesis their cyclic functions, and consequently also their symmetric functions, are therefore rational. They are thus the roots of a cyclic equation of degree $e$, while $F(x)$ splits into $e$ factors of degree $f$
+\[
+F(x) = F(x, \eta)\, F(x, \eta_1) \ldots F(x, \eta_{e-1})
+\]
+each of which yields a cyclic equation of degree $f$ for the roots of one of the cycles $\gamma$.
+
+For if we set, say,
+\[
+F_1 = (x - \alpha)(x - \alpha_e) \ldots (x - \alpha_{(f-1)e}),
+\]
+then this function admits the permutations of the period of $\gamma$. Hence it also admits the permutations of the group which, after adjunction of $\eta$, becomes the \gesperrt{Galois} group of our equation, and which indeed can consist only of powers of $\gamma, \gamma_1 \ldots \gamma_{e-1}$. Hence, by the theorem of \gesperrt{Lagrange} [\S.\,155, (2)], $F_1$ is rationally expressible in terms of $\eta$, so $F_1 = F(x, \eta)$. The equation
+%CONT>>

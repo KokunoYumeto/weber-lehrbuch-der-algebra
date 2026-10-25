@@ -1,0 +1,59 @@
+% !PRINTED 737
+\weberpage{737}
+
+From this the regulator $R$ of the system (7) is obtained from
+the determinant:
+
+\[
+\left|
+\begin{array}{cccccccc}
+l'_{1,1}, & l'_{2,1}, & \ldots, & l'_{\nu'-1,1}, & L_{0,1}, & L_{1,1}, & \ldots, & L_{\nu'-1,1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\
+l'_{1,\nu'-1}, & l'_{2,\nu'-1}, & \ldots, & l'_{\nu'-1,\nu'-1}, & L_{0,\nu'-1}, & L_{1,\nu'-1}, & \ldots, & L_{\nu'-1,\nu'-1} \\
+l'_{1,0}, & l'_{2,0}, & \ldots, & l'_{\nu'-1,0}, & -L_{0,0}, & -L_{1,0}, & \ldots, & -L_{\nu'-1,0} \\
+l'_{1,1}, & l'_{2,1}, & \ldots, & l'_{\nu'-1,1}, & -L_{0,1}, & -L_{1,1}, & \ldots, & -L_{\nu'-1,1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\
+l'_{1,\nu'-1}, & l'_{2,\nu'-1}, & \ldots, & l'_{\nu'-1,\nu'-1}, & -L_{0,\nu'-1}, & -L_{1,\nu'-1}, & \ldots, & -L_{\nu'-1,\nu'-1}
+\end{array}
+\right|.
+\]
+
+This determinant has $\nu-1$ rows; we add the first to the
+$(\nu'+1)$th, the second to the $(\nu'+2)$th, and so on, the $(\nu'-1)$th to
+the last. In this way the $L$ cancel out in the last $(\nu'-1)$ rows
+and the $l$ acquire the factor 2 [by (10), (11)], and from this
+there follows, by a theorem on determinants (Bd.\,I,
+\S.\,23, V.):
+\weq{12}{R = 2^{\nu'-1} E' T_0.}
+
+Since $R$ accordingly does not vanish, and there is therefore
+present in (7) a system of $\nu-1$ independent units of the field $H_m$,
+we can [by \S.\,186, (5)] determine the rational (integral
+or fractional) numbers $m_{i,k}$, $M_{i,k}$ from the equations
+\weq{13}{
+\begin{aligned}
+2\, l_{i,k} & = m_{1,i}\, l'_{1,k} + \cdots + m_{\nu'-1,i}\, l'_{\nu'-1,k} \\
+& \quad + M_{0,i}\, L_{0,k} + M_{1,i}\, L_{1,k} + \cdots + M_{\nu'-1,i}\, L_{\nu'-1,k}.
+\end{aligned}
+}
+
+But it can easily be shown by means of the relations (10), (11)
+that the numbers $m_{i,k}$, $M_{i,k}$ here must be \gesperrt{integral}.
+For we have
+\[
+\begin{aligned}
+l_{i,k} + l_{i,k+\nu'} & = \log \lvert \varepsilon_i(r_k)\, \varepsilon_i(-r_k) \rvert = \\
+& \quad m_{1,i}\, l'_{1,k} + \cdots + m_{\nu'-1,i}\, l'_{\nu'-1,k} \\
+l_{i,k} - l_{i,k+\nu'} & = \log \lvert \varepsilon_i(r_k)\, \varepsilon_i(-r_k)^{-1} \rvert = \\
+& \quad M_{0,i}\, L_{0,k} + M_{1,i}\, L_{1,k} + \cdots + M_{\nu'-1,i}\, L_{\nu'-1,k}.
+\end{aligned}
+\]
+
+But the units $\varepsilon_i(r)\, \varepsilon_i(-r)$ belong to the field $H_\mu$,
+and since the $\varepsilon'_i$ are by hypothesis a fundamental system
+of this field, the $m_{i,k}$ must, by \S.\,187, be integral rational
+ numbers.
+
+The units $\varepsilon_i(r)\, \varepsilon_i(-r)^{-1}$ are normal units of the field
+ $H_m$, and since the $\mathcal{E}_i$ were to be a fundamental system of normal
+ units, the $M_{i,k}$ are, by \S.\,200, integers.

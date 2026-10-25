@@ -1,0 +1,74 @@
+% !PRINTED 30
+\weberpage{30}
+
+\begingroup
+\setlength{\abovedisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{3pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}
+\linespread{0.94}\selectfont
+
+\begin{center}
+{\large \S.\ 4.}
+
+\vspace{0.5em}
+{\large\gesperrt{Division by a Linear Function.}}
+\end{center}
+
+We shall apply the general rule for division to one special case. Let
+the dividend be
+\begin{equation}
+ f(x)=a_0x^n+a_1x^{n-1}+a_2x^{n-2}+\cdots+a_n
+\tag{1}
+\end{equation}
+arbitrary, while the divisor is of the first degree, or, as one also
+says, linear. We shall also suppose the coefficient of the first power
+of $x$ in the divisor to be $=1$, and therefore take the divisor in the
+simple form $(x-\alpha)$, where $\alpha$ remains arbitrary. In this
+case the quotient $Q$ is of degree $(n-1)$, and the remainder $C$ is of
+degree $0$, that is, independent of $x$. Thus set
+\begin{equation}
+ f(x)=(x-\alpha)Q+C,
+\tag{2}
+\end{equation}
+so that $C$ no longer contains $x$; and if we set
+\begin{equation}
+ Q=q_0x^{n-1}+q_1x^{n-2}+\cdots+q_{n-2}x+q_{n-1}
+\tag{3}
+\end{equation}
+then there follows from (2):
+\begin{equation}
+\begin{aligned}
+ f(x)={}&q_0x^n+q_1x^{n-1}+\cdots+q_{n-2}x^2+q_{n-1}x+C\\
+ &-\alpha q_0x^{n-1}-\cdots-\alpha q_{n-3}x^2
+   -\alpha q_{n-2}x-\alpha q_{n-1},
+\end{aligned}
+\tag{4}
+\end{equation}
+and by comparison with (1):
+\begin{equation}
+\begin{aligned}
+ q_0&=a_0,\\
+ q_1-\alpha q_0&=a_1,\\
+ q_2-\alpha q_1&=a_2,\\
+ &\cdots,\\
+ q_{n-1}-\alpha q_{n-2}&=a_{n-1},\\
+ C-\alpha q_{n-1}&=a_n.
+\end{aligned}
+\tag{5}
+\end{equation}
+From this one obtains
+\begin{equation}
+\begin{aligned}
+ q_0&=a_0,\\
+ q_1&=a_0\alpha+a_1,\\
+ q_2&=a_0\alpha^2+a_1\alpha+a_2,\\
+ &\cdots,\\
+ q_{n-1}&=a_0\alpha^{n-1}+a_1\alpha^{n-2}+\cdots+a_{n-1},\\
+ C&=a_0\alpha^n+a_1\alpha^{n-1}+\cdots+a_{n-1}\alpha+a_n=f(\alpha).
+\end{aligned}
+\tag{6}
+\end{equation}
+$C$ arises from $f(x)$ by setting $x=\alpha$, and therefore can also
+be denoted by $f(\alpha)$.
+\endgroup

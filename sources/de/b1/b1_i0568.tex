@@ -1,0 +1,24 @@
+% !PRINTED 543
+\weberpage{543}
+
+%<<CONT
+Zahlenreihe $0, 1 \ldots m-1$ durchläuft, so können wir für die Gleichungen (2), (3) setzen
+\[
+m\alpha = \overset{\lambda}{\Sigma}(\varepsilon^\lambda, \alpha), \quad m\alpha_k = \overset{\lambda}{\Sigma}\varepsilon^{-\lambda k}(\varepsilon^\lambda, \alpha).
+\]
+Wir untersuchen diese Resolventen $(\varepsilon, \alpha)$ zunächst als Functionen der $m$ \gesperrt{unabhängigen Veränderlichen} $\alpha$, und wollen wegen der einfacheren Darstellungsweise der Formeln übereinkommen, dass $\alpha_m = \alpha_0 = \alpha$ und überhaupt $\alpha_h = \alpha_k$ sein soll, wenn $h \equiv k \pmod{m}$ ist. Wir erhalten dann das ganze System der Variablen $\alpha$, wenn wir in $\alpha_h$ den Index ein volles Restsystem nach dem Modul $m$ durchlaufen lassen.
+
+Für diese Resolventen gelten nun die folgenden Sätze.
+
+1. \gesperrt{Wenn man auf die Indices der $\alpha$ die cyklische Permutation $\pi = (0, 1, \ldots m-1)$ anwendet, so geht $(\varepsilon, \alpha)$ in $\varepsilon^{-1}(\varepsilon, \alpha)$ über, und durch die Permutation $\pi^k$ geht $(\varepsilon, \alpha)$ in $\varepsilon^{-k}(\varepsilon, \alpha)$ über.}
+
+Dies zeigt die Definition (1) der Resolventen unmittelbar.
+
+Wir verstehen ferner unter $\nu$ einen beliebigen positiven Exponenten und bilden nach dem polynomischen Lehrsatze $(\varepsilon, \alpha)^\nu$. In der entwickelten Potenz setzen wir $\varepsilon^m = 1$ und ordnen dann nach Potenzen von $\varepsilon$. Es ergiebt sich dann ein Ausdruck von der Form
+\weq{5}{\begin{split}(\varepsilon, \alpha)^\nu &= A_0^{(\nu)} + \varepsilon A_1^{(\nu)} + \varepsilon^2 A_2^{(\nu)} + \cdots + \varepsilon^{m-1}A_{m-1}^{(\nu)}\\ &= \sum_{0,\,m-1}^{h} \varepsilon^h A_h^{(\nu)},\end{split}}
+worin die $A_0^{(\nu)}, A_1^{(\nu)} \ldots A_{m-1}^{(\nu)}$ Formen $\nu^{\text{ten}}$ Grades mit ganzzahligen Coëfficienten und den Variablen $\alpha$ sind, aber von $\varepsilon$ unabhängig. Auch hier möge $A_h = A_k$ sein, so oft $h \equiv k \pmod{m}$. Danach beweisen wir den Satz:
+
+2. \gesperrt{Wenn man auf die Indices der $\alpha$ die cyklische Permutation $\pi$ anwendet, so erleiden die Indices der Coëfficienten von $(\varepsilon, \alpha)^\nu$ die cyklische Permutation $\pi^\nu$, d.\,h. $A_h^{(\nu)}$ geht in $A_{h+\nu}^{(\nu)}$ über.}
+
+Um dies nachzuweisen, bemerken wir, dass die Formel (5) für jede beliebige $m^{\text{te}}$ Einheitswurzel $\varepsilon$, einschliesslich $1$, richtig bleibt, und hiernach folgt aus (2)
+\weq{6}{mA_k^{(\nu)} = \overset{\varepsilon}{\Sigma}\varepsilon^{-k}(\varepsilon, \alpha)^\nu.}

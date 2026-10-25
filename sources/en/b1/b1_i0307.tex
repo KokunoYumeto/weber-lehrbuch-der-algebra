@@ -1,0 +1,44 @@
+% !PRINTED 282
+\weberpage{282}
+\begin{center}
+\S.\,91.
+
+\gesperrt{Determination of the Hermite form $H$.}
+\end{center}
+
+To determine the Hermite form $H$ we can apply the methods that we became acquainted with in Section VI. In \S.\,72 we derived the formula:
+\weq{1}{y f_s = E_{0,s} f_0 + E_{1,s} f_1 + \cdots + E_{n-1,s} f_{n-1}.}
+Making use of the relations
+\[ x f_0 = f_1 - a_1,\quad x f_1 = f_2 - a_2, \ldots x f_{n-1} = -a_n, \]
+it follows from this that
+% [sic] Print has superscript $s$ here; equations (1) and (4) have $f_s$.
+\weq{2}{\begin{aligned}
+x y f^s &= E_{0,s} f_1 + E_{1,s} f_2 + \cdots + E_{n-2,s} f_{n-1}\\
+&\quad - a_1 E_{0,s} - a_2 E_{1,s} - \cdots - a_n E_{n-1,s}.
+\end{aligned}}
+We therefore determine a further series of functions $E_{-1,s}$ by the equation
+\weq{3}{a_0 E_{-1,s} + a_1 E_{0,s} + a_2 E_{1,s} + \cdots + a_n E_{n-1,s} = 0}
+and then obtain from (1) and (2)
+\weq{4}{\begin{aligned}
+(x-\alpha) y f_s &= (E_{-1,s} - \alpha E_{0,s}) f_0 + (E_{0,s} - \alpha E_{1,s}) f_1 + \cdots\\
+&\quad + (E_{n-2,s} - \alpha E_{n-1,s}) f_{n-1}.
+\end{aligned}}
+The function $E_{-1,s}$ can, however, by means of the relation [\S.\,72. (7)]
+\[ a_0 t_{n+s} + a_1 t_{n+s-1} + \cdots + a_n t_s = 0 \]
+be expressed in entirely the same way as the remaining $E$, so that we obtain the following system of formulas [\S.\,72, (9)]:
+\weq{5}{\begin{aligned}
+E_{-1,s} &= a_0 t_{n+s} + a_1 t_{n+s-1} + \cdots + a_s t_n\\
+&= -a_{s+1} t_{n-1} \cdots - a_n t_s\\
+E_{0,s} &= a_0 t_{n+s-1} + a_1 t_{n+s-2} + \cdots + a_s t_{n-1}\\
+&= -a_{s+1} t_{n-2} \cdots - a_n t_{s-1}\\
+E_{1,s} &= a_0 t_{n+s-2} + a_1 t_{n+s-3} + \cdots + a_s t_{n-2}\\
+&= -a_{s+1} t_{n-3} \cdots - a_n t_{s-2}\\
+&\;\vdots\\
+E_{s-1,s} &= a_0 t_n + a_1 t_{n-1} + \cdots + a_s t_{n-s}\\
+&= -a_{s+1} t_{n-s-1} \cdots - a_n t_0\\
+E_{s,s} &= a_0 t_{n-1} + a_1 t_{n-2} + \cdots + a_s t_{n-s-1}\\
+E_{s+1,s} &= a_0 t_{n-2} + a_1 t_{n-3} + \cdots + a_s t_{n-s-2}\\
+&\;\vdots\\
+% [sic] Print has a multiplication dot after $a_1t_{s-1}$ before the following plus.
+E_{n-1,s} &= a_0 t_s + a_1 t_{s-1} \cdot + \cdots + a_s t_0.
+\end{aligned}}

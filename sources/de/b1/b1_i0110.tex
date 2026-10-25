@@ -1,0 +1,44 @@
+% !PRINTED 85
+\weberpage{85}
+%<<CONT
+
+Elemente der $\mu$ten Colonne $a_\mu^{(1)},a_\mu^{(2)},\ldots,a_\mu^{(\nu)}$ durch $a_\lambda^{(1)},a_\lambda^{(2)},\ldots,a_\lambda^{(\nu)}$ ersetzt. Durch (7) sind nun, da $A$ von Null verschieden ist, die $x_1,x_2,\ldots,x_\nu$ linear ausgedrückt durch $x_{\nu+1},\ldots,x_n$ und durch die bekannten Grössen.
+
+Es ist nun noch zu zeigen
+
+\gesperrt{III. dass durch die Ausdrücke (7) die Gleichungen (1) befriedigt sind, welche Werthe auch $x_{\nu+1},\ldots,x_n$ haben mögen, dass also $n-\nu$ von den Unbekannten willkürlich bleiben, von denen die übrigen $\nu$ nach (7) abhängig sind.}
+
+Um die Wahrheit dieses Satzes einzusehen, haben wir nur die Ausdrücke (7) in die Gleichungen (1) einzusetzen. Man vereinfacht die Rechnung sehr durch Anwendung eines Summenzeichens \(\Sigma\), bei dem wir, wie schon oben, die Summationsbuchstaben oben, die Grenzen unten anhängen. Zunächst können wir dann die Gleichungen (7) so schreiben:
+\begin{equation}
+ A x_\mu=-\sum_{h=\nu+1}^{n}\sum_{i=1}^{\nu}a_h^{(i)}A_\mu^{(i)}x_h,
+ \qquad \mu=1,2,\ldots,\nu.
+\tag{9}
+\end{equation}
+Wir multipliciren, wenn $k$ irgend eine der Ziffern $1,2,\ldots,m$ bedeutet, mit $a_\mu^{(k)}$ und summiren in Bezug auf $\mu$:
+\begin{equation}
+ A\sum_{\mu=1}^{\nu}a_\mu^{(k)}x_\mu
+ =-\sum_{h=\nu+1}^{n}x_h\sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}
+ a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)},
+ \qquad k=1,2,\ldots,m.
+\tag{10}
+\end{equation}
+Dazu addiren wir beiderseits die Summe $A\sum_{h=\nu+1}^{n}a_h^{(k)}x_h$ und erhalten
+\begin{equation}
+ A\sum_{\mu=1}^{n}a_\mu^{(k)}x_\mu
+ =\sum_{h=\nu+1}^{n}x_h\left(Aa_h^{(k)}-
+ \sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)}\right).
+\tag{11}
+\end{equation}
+Der Factor von $x_h$ in der Summe auf der rechten Seite ist nach \S.\,23, (12) die Determinante
+\begin{equation}
+\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}&a_h^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}&a_h^{(2)}\\
+ \vdots&\vdots&&\vdots&\vdots\\
+ a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}&a_h^{(\nu)}\\
+ a_1^{(k)}&a_2^{(k)}&\cdots&a_\nu^{(k)}&a_h^{(k)}
+\end{vmatrix},
+\tag{12}
+\end{equation}
+und verschwindet daher, wenn $k\le\nu$ ist, nach \S.\,21, V, weil
+%CONT>>

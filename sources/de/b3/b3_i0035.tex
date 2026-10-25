@@ -1,0 +1,58 @@
+% !PRINTED 14
+\weberpage{14}
+
+Die Wurzeln der kubischen Funktion
+\[
+\varphi(z) = 4z^3 - g_2 z - y_3 % [sic] printed y_3; expected g_3
+\]
+mögen mit $e_1$, $e_2$, $e_3$ bezeichnet sein. Dann ist
+\[
+\varphi(z) = 4(z-e_1)(z-e_2)(z-e_3)
+\]
+und $e_1 + e_2 + e_3 = 0$.
+
+Wir lassen die Werte von $x$ und $z$ einander folgendermaßen entsprechen:
+\[
+\begin{array}{ccccc}
+x, & x_1, & x_2, & x_3, & x_4, \\
+z, & \infty, & e_1, & e_2, & e_3,
+\end{array}
+\]
+und es ergibt sich, wenn wir mit $m$ einen konstanten Faktor bezeichnen, der willkürlich angenommen werden kann:
+\weq{4}{
+\begin{aligned}
+z - e_1 &= \frac{m(xx_2)}{(x_1x_2)(xx_1)} = m\left(\frac{1}{(x_1x_2)} - \frac{1}{(x_1x)}\right)\\
+z - e_2 &= \frac{m(xx_3)}{(x_1x_3)(xx_1)} = m\left(\frac{1}{(x_1x_3)} - \frac{1}{(x_1x)}\right).\\
+z - e_3 &= \frac{m(xx_4)}{(x_1x_4)(xx_1)} = m\left(\frac{1}{(x_1x_4)} - \frac{1}{(x_1x)}\right)
+\end{aligned}
+}
+
+Der Faktor $m$ muß in allen drei Gleichungen derselbe sein, damit die Differenzen $(z-e_3)-(z-e_2)=e_2-e_3$ usw. von $x$ unabhängig werden.
+
+Bildet man diese Differenzen und setzt wie in Algebra Bd.\,1, \S\ 70
+\[
+\begin{aligned}
+(x_1x_2)(x_3x_4) &= U,\\
+(x_1x_3)(x_4x_2) &= V,\\
+(x_1x_4)(x_2x_3) &= W,
+\end{aligned}
+\]
+so folgt
+\[
+e_2 - e_3 = \frac{-mU}{(x_1x_2)(x_1x_3)(x_1x_4)}.
+\]
+
+Führt man einen neuen willkürlichen Faktor $\mu$ ein, indem man
+\weq{5}{m = 3\mu a_0 (x_1x_2)(x_1x_3)(x_1x_4)}
+setzt, so folgt
+\[
+e_2 - e_3 = -3\mu a_0 U, \quad e_3 - e_1 = -3\mu a_0 V, \quad e_1 - e_2 = -3\mu a_0 W
+\]
+und daraus wegen $e_1+e_2+e_3=0$,
+\[
+\begin{aligned}
+e_1 &= \mu a_0 (V-W),\\
+e_2 &= \mu a_0 (W-U),\\
+e_3 &= \mu a_0 (U-V).
+\end{aligned}
+\]

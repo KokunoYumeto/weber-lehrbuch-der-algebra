@@ -1,0 +1,48 @@
+% !PRINTED 375
+\weberpage{375}
+
+If we substitute this in (1), it follows that
+
+\weq{4}{y = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} P_n, & P_{n-1} \\ Q_n, & Q_{n-1} \end{pmatrix}(x_n) = \begin{pmatrix} R_n, & R_{n-1} \\ S_n, & S_{n-1} \end{pmatrix}(x_n),}
+
+in which, by \S.\,120, (10) and (6), (7),
+
+\weq{5}{\begin{aligned}
+R_n &= \alpha P_n + \beta Q_n, & R_{n-1} &= \alpha P_{n-1} + \beta Q_{n-1}, \\
+S_n &= \gamma P_n + \delta Q_n, & S_{n-1} &= \gamma P_{n-1} + \delta Q_{n-1},
+\end{aligned}}
+
+\weq{6}{R_n S_{n-1} - S_n R_{n-1} = (-1)^n \varepsilon.}
+
+If one puts $S_n$ into the form
+\[
+S_n = Q_n\left(\gamma \frac{P_n}{Q_n} + \delta\right),
+\]
+then, since $P_n : Q_n$ approaches the value $x$ to any arbitrary degree and $Q_n$ is positive, it follows that, if $n$ is chosen large enough, $S_n$ agrees in sign with
+\[
+(\gamma x + \delta)
+\]
+Since $x$ is irrational, this quantity is different from zero, and we shall assume it to be positive. Were it negative, we should only have to change the signs of the four numbers $\alpha, \beta, \gamma, \delta$ simultaneously, whereby (1) remains unaltered, in order to make it positive.
+
+Hence $S_n$ will be positive for sufficiently large $n$. But now from (5), having regard to \S.\,117, it follows that
+\[
+S_{n+1} = a_n S_n + S_{n-1},
+\]
+from which one concludes that, if $n$ is so large that $S_{n-2}$ and the following $S$ are positive, $S_n$ increases together with $n$, and hence:
+
+\weq{7}{S_n > S_{n-1} > 0.}
+
+We now develop the rational fraction $R_n : S_n$ into a finite continued fraction
+
+\weq{8}{\frac{R_n}{S_n} = (b_0, b_1, b_2 \ldots b_{m-1}),}
+
+and denote the next-to-last convergent by $R' : S'$, so that we have the relation:
+
+\weq{9}{R_n S' - S_n R' = (-1)^m.}
+
+By Theorem I in \S.\,115, however, we may assume $m$ to be even or odd at pleasure, and we shall dispose of it in such a way that
+\[
+(-1)^m = (-1)^n \varepsilon
+\]
+holds. Moreover, as we know from \S.\,117, II,
+%CONT>>

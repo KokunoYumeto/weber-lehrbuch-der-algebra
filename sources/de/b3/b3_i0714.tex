@@ -1,0 +1,38 @@
+% !PRINTED 683
+\weberpage{683}
+%<<CONT
+\weq{7}{\begin{aligned}
+-F'(z) &= F'(\omega)\left(\frac{d\omega}{dz} - \omega_1\frac{dx_1}{dz} - \cdots - \omega_n\frac{dx_n}{dz}\right)\\
+&= \varrho\,F'(\tau)\left(\frac{d\omega}{dz} - \omega_1\frac{dx_1}{dz} - \cdots - \omega_n\frac{dx_n}{dz}\right),
+\end{aligned}}
+und daraus folgt, daß auch $F'(z)$ (nach Ersetzung der $t_i$ durch die $x_i$) durch $\varrho$ teilbar ist.
+
+Wir nennen demnach, mit Rücksicht auf die geometrische Analogie, $\varrho$ das \gesperrt{Funktional der Doppelpunkte} in $\omega, z$.
+
+Ist $\mathfrak{P}$ ein Punkt, in dem $z$ endlich und $F'(\tau)$ von Null verschieden ist, der also kein Verzweigungspunkt in $z$ ist, so hat eine ganze Funktion $\omega$ von $z$ nach 4. in $\mathfrak{P}$ einen endlichen Differentialquotienten. Eine gebrochene Funktion $\eta$ von $z$, die in $\mathfrak{P}$ endlich ist, läßt sich als Quotient zweier ganzer Funktionen $\omega' : \omega$ darstellen, deren Nenner $\omega$ in $\mathfrak{P}$ nicht verschwindet.
+
+Daraus folgt:
+\[
+\frac{d\eta}{dz} = \frac{1}{\omega^2}\left(\omega'\frac{d\omega}{dz} - \omega\frac{d\omega'}{dz}\right),
+% [sic] printed \frac{1}{\omega^2}\left(\omega'\frac{d\omega}{dz} - \omega\frac{d\omega'}{dz}\right), but for \eta = \omega' : \omega (denominator \omega) the quotient rule gives \frac{1}{\omega^2}\left(\omega\frac{d\omega'}{dz} - \omega'\frac{d\omega}{dz}\right); the printed right-hand side has the wrong sign (the conclusion that d\eta : dz is finite is unaffected)
+\]
+und folglich ist $d\eta : dz$ im Punkt $\mathfrak{P}$ gleichfalls endlich.
+
+Um das Verhalten eines beliebigen Differentialquotienten $d\alpha : d\beta$ in irgend einem Punkt $\mathfrak{P}$ zu erkennen, nehme man eine Funktion $z$, die in $\mathfrak{P}$ Null von der ersten Ordnung wird, und bezeichne mit $r, s$ die Ordnungszahlen von $\alpha - \alpha_0, \beta - \beta_0$ in Punkt $\mathfrak{P}$. Für den Fall, daß $\alpha$ in $\mathfrak{P}$ unendlich wird, setze man $\alpha_0 = 0$ und erhält eine negative Ordnungszahl $r$. Entsprechendes gilt, wenn $\beta$ unendlich wird.
+
+Dann ist nach \S\,185:
+\weq{8}{\begin{aligned}
+\alpha - \alpha_0 &= z^r\alpha',\\
+\beta - \beta_0 &= z^s\beta',
+\end{aligned}}
+worin $\alpha'$ und $\beta'$ Funktionen in $\Omega$ sind, die in $\mathfrak{P}$ weder Null noch unendlich werden.
+
+Daraus ergibt sich nach \S\,194:
+\[
+\begin{aligned}
+\frac{d\alpha}{dz} &= r z^{r-1}\alpha' + z^r\frac{d\alpha'}{dz},\\
+\frac{d\beta}{dz} &= s z^{s-1}\beta' + z^s\frac{d\beta'}{dz},
+\end{aligned}
+\]
+\weq{9}{\frac{\beta-\beta_0}{\alpha-\alpha_0}\frac{d\alpha}{d\beta} = \frac{r + z\dfrac{d\alpha'}{\alpha'\,dz}}{s + z\dfrac{d\beta'}{\beta'\,dz}},}
+%CONT>>

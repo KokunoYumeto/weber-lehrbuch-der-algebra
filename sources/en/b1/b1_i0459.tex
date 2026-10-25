@@ -1,0 +1,36 @@
+% !PRINTED 434
+\weberpage{434}
+
+\[
+\begin{gathered}
+A_4(x) = x^4 - 4x^2 + 2\\
+A_5(x) = x^5 - 5x^3 + 5x\\
+A_6(x) = x^6 - 6x^4 + 9x^2 - 2
+\end{gathered}
+\]
+\[
+\begin{gathered}
+B_4(x) = x^3 - 2x\\
+B_5(x) = x^4 - 3x^2 + 1\\
+B_6(x) = x^5 - 4x^3 + 3x,
+\end{gathered}
+\]
+and so one may continue. By induction one arrives at the following general law:
+\weq{7}{A_n(x) = \overset{\nu}{\Sigma}(-1)^\nu \dfrac{n}{n-\nu} B_\nu^{(n-\nu)} x^{n-2\nu}, \quad 0 \leqq \nu \leqq \dfrac{n}{2},}
+\weq{8}{B_n(x) = \overset{\nu}{\Sigma}(-1)^\nu B_\nu^{(n-\nu-1)} x^{n-2\nu-1}, \quad 0 \leqq \nu \leqq \dfrac{n-1}{2},}
+where the sums begin with $\nu=0$, and are to be continued so long as the exponents of $x$ do not become negative.
+
+Since these formulae prove to be correct in the first cases, in order to prove them generally it is only necessary to show that they verify the formulae (6). If for this purpose we form
+\[
+A_{n-1}(x) = \overset{\nu}{\Sigma}(-1)^\nu \dfrac{n-1}{n-\nu-1} B_\nu^{(n-\nu-1)} x^{n-2\nu-1},
+\]
+and put $\nu-1$ in place of $\nu$, it follows that
+\weq{9}{\begin{gathered} A_{n-1}(x) = -\overset{\nu}{\Sigma}(-1)^\nu \dfrac{n-1}{n-\nu} B_{\nu-1}^{(n-\nu)} x^{n-2\nu+1}, \\ 1 \leqq \nu \leqq \dfrac{n+1}{2}. \end{gathered}}
+If we assume $B_{-1}^{(n)} = 0$, we can let $\nu$ increase from 0 here as well.
+
+The values that $\nu$ takes in formula (7) then differ from those in formula (9) only when $n$ is odd, because then the value $\nu = (n+1):2$ occurs in (9), but not in (7). We can, however, add this value in (7), provided that
+\[
+B_{\frac{n+1}{2}}^{\left(\frac{n-1}{2}\right)} = 0
+\]
+is assumed. Then there results
+%CONT>>

@@ -1,0 +1,19 @@
+% !PRINTED 413
+\weberpage{413}
+%<<CONT
+$p^\pi$, a divisor of $p^{\pi-1}$; that is, every non-primitive root of unity of degree $p^\pi$ is at the same time a root of unity of degree $p^{\pi-1}$. But since there are $p^\pi$ roots of unity of degree $p^\pi$ and only $p^{\pi-1}$ roots of unity of degree $p^{\pi-1}$, there must be
+\[
+p^\pi - p^{\pi-1} = p^\pi \left(1 - \frac{1}{p}\right)
+\]
+primitive roots of unity of degree $p^\pi$. From this, by (5), one obtains the number of all primitive $n$th roots of unity
+\weq{6}{\varphi(n) = n\,\Pi\left(1 - \frac{1}{p}\right),}
+in which the product sign $\Pi$ extends over all the mutually distinct primes dividing $n$. Only in the case $n = 1$ does the formula (6) no longer apply; in this case $\varphi(1) = 1$ is to be set. The number $\varphi(n)$ is therefore never equal to zero. Since, by this, for every degree $n$ there is at least one primitive root of unity $r$, all $n$th roots of unity can be represented by the powers of $r$:
+\weq{7}{1, r, r^2, r^3 \ldots r^{n-1}.}
+If $r^k$ is any power of $r$, then $r^{km} = 1$ will hold if and only if $km$ is divisible by $n$. If, then, $n = n'n''$ and $n'$ is the greatest common divisor of $k$ and $n$, then $m$ must be divisible by $n''$, and $n''$ is the exponent of the lowest power of $r^k$ which becomes equal to 1; that is, $r^k$ is a primitive $n''$th root of unity. From this follows the theorem:
+
+\gesperrt{III. If $r$ is a primitive $n$th root of unity, then $r^k$ is a primitive $n$th root of unity if and only if $k$ is relatively prime to $n$.}
+
+If we take $k$ from the sequence of numbers $1, 2, 3 \ldots n$, there \gesperrt{results the theorem of number theory that $\varphi(n)$ is equal to the number of the numbers which are not greater than $n$ and relatively prime to $n$.} This is the original definition of the symbol $\varphi(n)$ in general use in number theory.
+
+If $k$ is relatively prime to $n$, one can determine an integer $x$ so that $kx \equiv 1\ (\mathrm{mod}\ n)$. If then $r, r_1$ are two $n$th roots of unity, $r^k = r_1^k$ can hold only when $r = r_1$, as follows by raising to the power $x$. From this it follows, by III.:
+%CONT>>

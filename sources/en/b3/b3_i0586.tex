@@ -1,0 +1,52 @@
+% !PRINTED 555
+\weberpage{555}
+
+Then
+\weq{8}{\begin{aligned}
+\frac{2\pi}{\beta}\log f(\omega_1)\cdot f(\omega_2) &= -S_{00} + S_{10} + S_{01} - S_{11}, \\
+\frac{2\pi}{\beta}\log f_1(\omega_1)\,f_1(\omega_2) &= -S_{00} + S_{10} - S_{01} + S_{11}, \\
+\frac{2\pi}{\beta}\log f_2(\omega_1)\,f_2(\omega_2) &= -S_{00} - S_{10} + S_{01} + S_{11},
+\end{aligned}}
+
+from which by addition:
+\[
+\frac{2\pi}{\beta}\log 2 = -3\,S_{00} + S_{10} + S_{01} + S_{11},
+\]
+and if one eliminates $S_{00}$ by means of this:
+\weq{9}{\begin{aligned}
+\frac{2\pi}{\beta}\log f(\omega_1)\,f(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 + \tfrac{2}{3}S_{10} + \tfrac{2}{3}S_{01} - \tfrac{4}{3}S_{11}, \\
+\frac{2\pi}{\beta}\log f_1(\omega_1)\,f_1(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 + \tfrac{2}{3}S_{10} - \tfrac{4}{3}S_{01} + \tfrac{2}{3}S_{11}, \\
+\frac{2\pi}{\beta}\log f_2(\omega_1)\,f_2(\omega_2) &= \frac{2\pi}{3\,\beta}\log 2 - \tfrac{4}{3}S_{10} + \tfrac{2}{3}S_{01} + \tfrac{2}{3}S_{11}.
+\end{aligned}}
+
+These sums, however, are to be understood in such a way that in all of them at once
+\[
+(x-\alpha y)^2 + \beta^2 y^2 < n
+\]
+shall hold, and that $n$ then grows to infinity. Each individual sum $S$ thereby becomes
+infinite, but their combinations, as they occur in these formulae, receive
+finite limiting values.
+
+We wish further to denote by $S'_{01}$, $S'_{10}$, $S'_{11}$ the sums which have the same
+expression as $S_{01}$, $S_{10}$, $S_{11}$ according to (6), only with the difference \gesperrt{that $x$
+and $y$ are to have no common divisor.}
+
+If we set
+\[
+\begin{gathered}
+S_{10} + S_{01} - 2\,S_{11} = T_n,\\
+(x-\alpha y)^2 + \beta^2 y^2 < n,\\
+\mathop{\mathrm{Lim}}\limits_{n=\infty} T_n = T
+\end{gathered}
+\]
+and denote by $T_n^{(p)}$ the sum which arises from $T_n$ when all terms
+are removed in which $x$ and $y$ are both divisible by the odd prime $p$, then
+there results:
+\[
+T_n^{(p)} = T_n - \frac{1}{p^2}\,T_{np^{-2}}
+\]
+and by passage to the limit $n=\infty$:
+\[
+T^{(p)} = T\left(1 - \frac{1}{p^2}\right).
+\]
+% [sic] Print cites(6) for S01,S10,S11; their definitions are in preceding-page(7). Printed reference retained.

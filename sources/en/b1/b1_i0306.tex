@@ -1,0 +1,28 @@
+% !PRINTED 281
+\weberpage{281}
+Let
+\weq{1}{f(x) = a_0 x^n + a_1 x^{n-1} + \cdots + a_{n-1} x + a_n = 0}
+be the given equation and
+\weq{2}{x_1,\, x_2 \ldots x_n}
+its roots, which we \gesperrt{assume to be distinct from one another}.
+
+We use the functions defined in \S.\,68
+\weq{3}{f_0(x),\, f_1(x),\, f_2(x) \ldots f_{n-1}(x)}
+and, understanding by $t_0, t_1 \ldots t_{n-1}$ independent variables, we set, as there,
+\weq{4}{y = t_{n-1} f_0(x) + t_{n-2} f_1(x) + \cdots + t_1 f_{n-2}(x) + t_0 f_{n-1}(x).}
+Let $y_1, y_2 \ldots y_n$ be the values that $y$ takes for $x = x_1, x_2 \ldots x_n$.
+
+Now if $\alpha$ is an arbitrary real value, we set
+\weq{5}{H_\alpha = (x_1-\alpha)y_1^2 + (x_2-\alpha)y_2^2 + \cdots + (x_n-\alpha)y_n^2.}
+This is a quadratic form in the $n$ variables $t$, and we wish first to determine the number of its negative and positive terms. If $x_1$ is a real root, so that $y_1$ is also real, then the square $(x_1-\alpha)y_1^2$ is positive or negative according as $x_1$ is greater or smaller than $\alpha$. But if $x_1, x_2$ form an imaginary pair, then $y_1, y_2$ are also conjugate imaginary, and
+\[ (x_1-\alpha)y_1^2 + (x_2-\alpha)y_2^2 \]
+decomposes into a \gesperrt{positive} and a \gesperrt{negative} square. This follows as in \S.\,79, if one sets $y_1\sqrt{x_1-\alpha} = u+iv$, $y_2\sqrt{x_2-\alpha} = u-iv$.
+
+From this it follows that the number $N_\alpha$ of negative squares in $H_\alpha$ is equal to the number of imaginary pairs, increased by the number of real roots that are smaller than $\alpha$.
+
+If we now take a second real number $\beta > \alpha$, form the function $H_\beta$, and denote by $N_\beta$ the number of its negative squares, then the \gesperrt{difference}
+\[ N_\beta - N_\alpha \]
+\gesperrt{is equal to the number of real roots between $\alpha$ and $\beta$.}
+
+One thus obtains a means of determining this number, that is, of solving Sturm's problem, if one expresses the coefficients of the function $H_\alpha$ as functions of the coefficients of $f(x)$ and of $\alpha$, and then investigates the number $N_\alpha$,
+% [sic] The printed page ends the complete sentence before § 91 with a comma.

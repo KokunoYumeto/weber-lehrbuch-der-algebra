@@ -1,0 +1,31 @@
+% !PRINTED 232
+\weberpage{232}
+%<<CONT
+worin $\left(\frac{2}{n}\right) = (-1)^{\frac{n^2-1}{8}}$, und wenn wir also die dem Falle $\mu = 1$, $\mu' = 0$ entsprechenden Funktionen $P$ mit $P^0$ bezeichnen, so folgt aus § 67, (2) und (4) mit Rücksicht auf § 34, (10):
+\weq{1}{\begin{aligned}
+P_{00}^0 &= \frac{f(n\omega)}{f(\omega)^n},\\
+P_{01}^0 &= \frac{f_1(n\omega)}{f_1(\omega)^n},\\
+P_{10}^0 &= \left(\frac{2}{n}\right)\frac{f_2(n\omega)}{f_2(\omega)^n},
+\end{aligned}}
+\weq{2}{P_{11}^0 = \sqrt{n}\,\frac{\eta(n\omega)}{\eta(\omega)}.}
+
+Um durch solche Formeln die sämtlichen Wurzeln der Transformationsgleichungen darzustellen, bestimmen wir eine lineare Transformation folgendermaßen:
+\weq{3}{\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix} \equiv \begin{pmatrix}1, & 0\\ 0, & 1\end{pmatrix} \pmod{16},}
+\weq{4}{\alpha \equiv \mu, \qquad \beta \equiv \mu' \pmod{n},}
+und ersetzen $\omega$ in (1), (2) durch
+\weq{5}{\omega' = \frac{\gamma + \delta\omega}{\alpha + \beta\omega};}
+auf die linke Seite lassen sich dann die Formeln (3) bis (6) § 39 und (19), § 38 anwenden und ergeben:
+\weq{6}{\begin{aligned}
+P_{00} &= \frac{f(n\omega')}{f(\omega')^n},\\
+P_{01} &= \frac{f_1(n\omega')}{f_1(\omega')^n},\\
+P_{10} &= \left(\frac{2}{n}\right)\frac{f_2(n\omega')}{f_2(\omega')^n},\\
+P_{11} &= \varepsilon^{1-n}\sqrt{n}\,\frac{\eta(n\omega')}{\eta(\omega')},
+\end{aligned}}
+worin $\varepsilon$ die in § 33, (15), (18) genau definierte 24ste Einheitswurzel ist.
+
+Nun lassen sich zwei Transformationen
+\[
+% [sic] The source prints a semicolon after \alpha' in the first matrix.
+\begin{pmatrix}\alpha'; & \beta'\\ \gamma', & \delta'\end{pmatrix}, \quad \begin{pmatrix}a, & 0\\ c, & \partial\end{pmatrix}, \quad a\partial = n,
+\]
+%CONT>>

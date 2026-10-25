@@ -1,0 +1,47 @@
+% !PRINTED 101
+\weberpage{101}
+Aus der Zusammensetzung
+\weq{7}{\begin{pmatrix}1, & 0\\0, & n\end{pmatrix}\begin{pmatrix}1, & 0\\0, & m\end{pmatrix} = \begin{pmatrix}1, & 0\\0, & mn\end{pmatrix}, \quad \begin{pmatrix}1, & 0\\0, & n\end{pmatrix}\begin{pmatrix}n, & 0\\0, & 1\end{pmatrix} = \begin{pmatrix}n, & 0\\0, & n\end{pmatrix}}
+können wir noch weiter schließen, daß sich \gesperrt{jede Transformation
+vom Grade $n$ aus solchen zusammensetzen läßt, deren
+Grad eine Primzahl ist.} Zerlegt man $n = pq$ in zwei Faktoren
+ $p$ und $q$, die zueinander relativ prim sind, so ergibt sich,
+indem man die Zahlen $\beta, \delta$ aus
+\[
+p\delta - q\beta = 1
+\]
+bestimmt, die Zusammensetzung
+\[
+\begin{pmatrix}p, & \beta\\q, & \delta\end{pmatrix}\begin{pmatrix}1, & 0\\0, & n\end{pmatrix}\begin{pmatrix}p\delta, & -q\beta\\-1, & 1\end{pmatrix} = \begin{pmatrix}p, & 0\\0, & q\end{pmatrix},
+\]
+woraus zu ersehen ist, daß man statt der Haupttransformation
+auch jede dieser Transformationen $\begin{pmatrix}p, & 0\\0, & q\end{pmatrix}$ zur Ableitung aller
+anderen benutzen kann.
+
+\begin{center}
+\textbf{§ 30. \gesperrt{Die linearen Fundamentaltransformationen.}}
+\end{center}
+
+Die ganze Gruppe $\mathfrak{L}$ der linearen Transformationen läßt sich
+durch Wiederholung von zweien unter ihnen, die wir die \gesperrt{linearen
+Fundamentaltransformationen} nennen, ableiten.
+Ist
+\[
+L = \begin{pmatrix}\alpha, & \beta\\\gamma, & \delta\end{pmatrix}, \quad \alpha\delta - \beta\gamma = 1
+\]
+eine beliebige lineare Transformation, so ist
+\weq{1}{\begin{pmatrix}\alpha, & \beta\\\gamma, & \delta\end{pmatrix}\begin{pmatrix}\delta, & -\beta\\-\gamma, & \alpha\end{pmatrix} = \begin{pmatrix}1, & 0\\0, & 1\end{pmatrix},}
+und da die identische Transformation die Einheit in der Gruppe $L$
+ist, % [sic] Printed L; the group is otherwise denoted $\mathfrak{L}$.
+so ist
+\[
+L^{-1} = \begin{pmatrix}\delta, & -\beta\\-\gamma, & \alpha\end{pmatrix}
+\]
+die zu $L$ \gesperrt{reziproke Transformation}.
+
+Wir bezeichnen durch die Potenz $L^{\pm m}$ das, was durch $m$ malige
+Wiederholung von $L$ oder $L^{-1}$ entsteht, und wollen nun nachweisen,
+daß sich durch die Potenzen der \gesperrt{Fundamentaltransformationen}
+
+\weq{2}{A = \begin{pmatrix}1, & 0\\1, & 1\end{pmatrix}, \quad B = \begin{pmatrix}0, & 1\\-1, & 0\end{pmatrix}}
+%CONT>>

@@ -1,0 +1,62 @@
+% !PRINTED 534
+\weberpage{534}
+
+%<<CONT
+die $a_{1,r}, a_{2,r}, \ldots, a_{r-1,r}$ können alle gleich Null
+angenommen werden.
+
+Bezeichnen wir mit $\Delta$ die Grundzahl des Körpers $\Omega$, so
+ergiebt sich die Discriminante des durch (3) bestimmten Systemes
+$\alpha_1, \alpha_2, \ldots, \alpha_n$ nach der Formel \S.\,144, (11):
+\weq{5}{
+\Delta(\alpha_1, \alpha_2, \ldots, \alpha_n) = a_{1,1}^2\, a_{2,2}^2
+\ldots a_{n,n}^2\, \Delta.
+}
+Dies ist eine von Null verschiedene ganze rationale Zahl, und folglich
+sind die Grössen $\alpha$ eine Basis von $\Omega$.
+
+Um also zu zeigen, dass das so bestimmte System $\alpha_1, \alpha_2,
+\ldots, \alpha_n$ eine Basis von $\mu$ ist, bleibt noch nachzuweisen,
+dass jede durch $\mu$ theilbare ganze Zahl $\alpha$ in der Form (2)
+dargestellt werden kann. Nehmen wir, um diesen Beweis zu führen, irgend
+einen Index $r \leqq n$ an, und suchen die Bedingung dafür, dass eine
+ganze Zahl von der Form
+\weq{6}{
+\gamma_r = h_1\,\omega_1 + h_2\,\omega_2 + \cdots + h_r\,\omega_r
+}
+durch $\mu$ theilbar ist, wenn $h_1, h_2, \ldots, h_r$ ganze rationale
+Zahlen sind.
+
+Zunächst folgt, dass $h_r$ durch $a_{r,r}$ theilbar sein muss. Denn
+bezeichnen wir mit $q_r$ den Rest der Division von $h_r$ durch $a_{r,r}$,
+und setzen
+\[
+h_r = l_r\,a_{r,r} + q_r, \qquad 0 \leqq q_r < a_{r,r},
+\]
+so ergiebt sich nach (6)
+\[
+\gamma_r - l_r\,\alpha_r = (h_1 - l_r\,a_{1,r})\,\omega_1 +
+(h_2 - l_r\,a_{2,r})\,\omega_2 + \cdots + q_r\,\omega_r,
+\]
+und diese Zahl müsste auch durch $\mu$ theilbar sein. Dies ist aber nach
+der Definition von $a_{r,r}$ nur möglich, wenn $q_r = 0$ ist. Dann aber
+erhält $\gamma_r - l_r\,\alpha_r$ den Ausdruck:
+\weq{7}{
+\gamma_r - l_r\,\alpha_r = h_1'\,\omega_1 + h_1'\,\omega_2 + \cdots +
+h_{r-1}'\,\omega_{r-1}, % [sic]
+}
+wird also von derselben Form, wie (6), nur dass $r - 1$ an Stelle von $r$
+tritt, und in (7) ist dieselbe Schlussweise zu wiederholen. Demnach
+ergiebt sich durch vollständige Induction der Satz:
+
+\gesperrt{Eine in der Form $h_1\,\omega_1 + h_2\,\omega_2 + \cdots +
+h_r\,\omega_r$ darstellbare ganze Zahl des Körpers $\Omega$ ist immer
+dann und nur dann durch $\mu$ theilbar, wenn sie in der Form}
+\[
+l_1\,\alpha_1 + l_2\,\alpha_2 + \cdots + l_r\,\alpha_r
+\]
+\gesperrt{darstellbar ist, in der die Co\"efficienten $l_1, l_2, \ldots,
+l_r$ ganze rationale Zahlen sind.}
+
+Setzt man in diesem Satze $r = n$, so hat man den Beweis dafür, dass das
+Zahlensystem (3) eine Basis von $\mu$ ist.

@@ -1,0 +1,29 @@
+% !PRINTED 344
+\weberpage{344}
+%<<CONT
+marked, an approximation to the absolutely smallest root. But by shifting the origin one can make any root the absolutely smallest, though for this, admittedly, the knowledge of a value approximated to a certain degree is necessary.
+
+A formula that suffices for all cases has been given by Fr. \gesperrt{Meyer}\footnote{Mathematische Annalen, Bd. 33.}. Let $\alpha_1, \alpha_2, \alpha_3 \ldots \alpha_n$ be the roots of the equation $f(x) = 0$, which may be real or imaginary. One seeks a point $p$ in the $x$-plane such that a circle can be described about $p$ as centre which contains \gesperrt{only one} of the points $\alpha_1, \alpha_2 \ldots \alpha_n$, say the point $\alpha_1$, so that the absolute values of
+\weq{5}{
+\frac{p-\alpha_1}{p-\alpha_2}, \quad \frac{p-\alpha_1}{p-\alpha_3}, \quad \cdots \quad \frac{p-\alpha_1}{p-\alpha_n}
+}
+are proper fractions. Such points always exist; if need be, they must be found by the \gesperrt{Sturm} method. If, in addition, one chooses an arbitrary function $\varphi(x)$ that has no common divisor with $f(x)$, e.g. $\varphi(x) = 1$, and forms the symmetric functions
+\weq{6}{
+y_m = \dfrac{\dfrac{\alpha_1\varphi(\alpha_1)}{(p-\alpha_1)^m} + \dfrac{\alpha_2\varphi(\alpha_2)}{(p-\alpha_2)^m} + \cdots + \dfrac{\alpha_n\varphi(\alpha_n)}{(p-\alpha_n)^m}}{\dfrac{\varphi(\alpha_1)}{(p-\alpha_1)^m} + \dfrac{\varphi(\alpha_2)}{(p-\alpha_2)^m} + \cdots + \dfrac{\varphi(\alpha_n)}{(p-\alpha_n)^m}},
+}
+then with increasing $m$ these approach the limit $\alpha_1$, and the more rapidly, the smaller the absolute values of the fractions (5) already are.
+
+The correctness of this shows itself at once if one writes the formula (6) in the following way:
+\[
+y_m = \frac{\alpha_1\varphi(\alpha_1) + \alpha_2\varphi(\alpha_2)\left(\dfrac{p-\alpha_1}{p-\alpha_2}\right)^m + \cdots + \alpha_m\varphi(\alpha_m)\left(\dfrac{p-\alpha_1}{p-\alpha_n}\right)^m}{\varphi(\alpha_1) + \varphi(\alpha_2)\left(\dfrac{p-\alpha_1}{p-\alpha_2}\right)^m + \cdots + \varphi(\alpha_m)\left(\dfrac{p-\alpha_1}{p-\alpha_n}\right)^m}.
+\]
+% [sic] source prints the final outer subscripts as $m$, although the sequence and the inner $p-\alpha_n$ indicate $n$
+
+\begin{center}
+\S.\,111.
+
+\gesperrt{The approximation method of Gräffe.}
+\end{center}
+
+On an idea similar to that of the \gesperrt{Bernoulli} approximation there also rests a procedure that \gesperrt{Gräffe}
+%CONT>>

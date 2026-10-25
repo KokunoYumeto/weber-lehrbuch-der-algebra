@@ -1,0 +1,59 @@
+% !PRINTED 665
+\weberpage{665}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% \S.\,182. \hfill \gesperrt{Beweis der H\"ulfss\"atze.} \hfill 665
+
+Um $S_n$ zu bilden, multipliciren wir diese Gleichung mit $t_1'$ und
+summiren. Dadurch ergiebt sich
+
+\[
+S_n \equiv \sum^{t_1'} t_1' \sum^{t_2} E\left(\frac{n t_2}{m}\right)
++ \sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right) \pmod q.
+% [source sic: the denominator m repeats the source's m-for-m' error from the preceding leaf]
+\]
+
+Darin ist nun $\sum t_1' = \sum t_1 \equiv 0 \pmod q$, weil die $t_1$
+paarweise die Summe $q$ ergeben, und es folgt:
+
+\weq{15}{S_n \equiv \sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right) \pmod q.}
+
+Die Summe, die hier auf der rechten Seite steht, ist ebenso gebildet,
+wie $S_n$ selbst in dem Falle, wo $m$ eine Primzahl ist. F\"ur diesen
+Fall ergiebt sich aber
+
+\[
+\frac{n t_1}{q} = E\left(\frac{n t_1}{q}\right) + \left(\frac{n t_1}{q}\right)
+\]
+\[
+\frac{(q-n) t_1}{q} = E\left(\frac{(q-n) t_1}{q}\right) + \left(\frac{(q-n) t_1}{q}\right),
+\]
+
+und daraus durch Addition
+
+\[
+t_1 = E\left(\frac{n t_1}{q}\right) + E\left(\frac{(q-n) t_1}{q}\right)
++ \left(\frac{n t_1}{q}\right) + \left(\frac{(q-n) t_1}{q}\right),
+\]
+
+und dabei kann die Summe der beiden positiven echten Br\"uche, die
+doch eine ganze Zahl sein muss, nur den Werth 1 haben. Es folgt also
+
+\[
+E\left(\frac{n t_1}{q}\right) + E\left(\frac{(q-n) t_1}{q}\right) = t_1 - 1,
+\]
+
+und daraus durch Multiplication mit $t_1'$ und Summation \"uber alle
+Werthe von $t_1$ von 1 bis $q - 1$
+
+\[
+\sum^{t_1} t_1' E\left(\frac{n t_1}{q}\right)
++ \sum^{t_1} t_1' E\left(\frac{(q-n) t_1}{q}\right) \equiv -1 \pmod q.
+\]
+
+Folglich k\"onnen sicher nicht beide Summen auf der linken Seite durch
+$q$ theilbar sein. Dann zeigt der Ausdruck (15), dass von den beiden
+Summen $S_n$ und $S_{q-n}$ gewiss eine durch $q$ untheilbar ist.
+
+Dies aber war zu beweisen.

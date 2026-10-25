@@ -1,0 +1,58 @@
+% !PRINTED 355
+\weberpage{355}
+%<<CONT
+thus, if we arrange both sides according to powers of $t$:
+
+\[
+\begin{aligned}
+P_2(x,\mu x + \lambda y) &= \lambda^2 P_2(x,y)\\
+P_3(x,\mu x + \lambda y) &= 3\lambda^2\mu\, P_2(x,y) + \lambda^3 P_3(x,y)\\
+P_4(x,\mu x + \lambda y) &= 6\lambda^2\mu^2 P_2(x,y) + 4\lambda^3\mu\, P_3(x,y) + \lambda^4 P_4(x,y),
+\end{aligned}
+\]
+
+and from this one obtains, by (6),
+
+\weq{11}{R(x,\mu x+\lambda y) = \lambda^6 R(x,y).}
+
+But this formula does not hold identically; it holds only under the assumption that $(x)$ is a point of the curve, that is, that $f(x) = 0$.
+
+The point $(\mu x+\lambda y)$ can be an entirely arbitrary point of the tangent at $(x)$, and hence, if $a_1, a_2, a_3$ are three arbitrary quantities, we can so dispose of $\mu, \lambda$ that
+
+\weq{12}{\begin{aligned}
+\mu x_1 + \lambda y_1 &= a_2 f'(x_3) - a_3 f'(x_2)\\
+\mu x_2 + \lambda y_2 &= a_3 f'(x_1) - a_1 f'(x_3)\\
+\mu x_3 + \lambda y_3 &= a_1 f'(x_2) - a_2 f'(x_1)
+\end{aligned}}
+
+holds. Then $(\mu x+\lambda y)$ is the point of intersection of the tangent with the line $a_x = 0$, if
+
+\weq{13}{a_x = a_1 x_1 + a_2 x_2 + a_3 x_3}
+
+is set. By this, $R(x,\mu x+\lambda y)$ passes over into $D(x,a)$.
+
+Now, in order to determine $\lambda$ and $\mu$, we multiply the equations (10) and (12) by $a_1, a_2, a_3$, then (12) by $b_1, b_2, b_3$, and add in each case. In view of $b_y = 0$ we thereby obtain:
+
+\[
+\begin{aligned}
+a_y &= -\mu b_x = \Sigma \pm a_1 b_2 f'(x_3)\\
+\mu a_x + \lambda a_y &= 0,
+\end{aligned}
+\]
+
+and from this
+
+\[
+\lambda b_x = a_x.
+\]
+
+According to this, equation (11) can be represented as follows:
+
+\weq{14}{\frac{D(x,a)}{a_x^6} = \frac{D(x,b)}{b_x^6},}
+
+and in this form it shows that the quotient $D(x,a) : a_x^6$ is independent of the arbitrary quantities $a$. But equation (14) is not an identity; it is satisfied only so long as $f(x) = 0$. We can, however, derive an identity from it if we assume that $f(x)$ is irreducible (or at least contains no multiply counting factor). For the form of degree $26$
+
+\[
+b_x^6\, D(x,a) - a_x^6\, D(x,b)
+\]
+%CONT>>

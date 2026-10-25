@@ -1,0 +1,65 @@
+% !PRINTED 232
+\weberpage{232}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% 232 \hfill Sixth Section. \hfill \S.\,74.
+
+%<<CONT
+we assume that another of the three quantities $B_{0,3}, B_{1,3}, B_{2,3}$
+is different from zero.
+
+\indent In order now to treat the equations (5), (6) in a symmetric
+way, and in particular to recognise which square root is required
+for their solution, we proceed as follows. For brevity we set
+\weq{7}{
+\begin{array}{rcl}
+B_0 &=& \alpha_0\,B_{0,0} + \alpha_1\,B_{0,1} + \alpha_2\,B_{0,2} \\
+B_1 &=& \alpha_0\,B_{1,0} + \alpha_1\,B_{1,1} + \alpha_2\,B_{1,2} \\
+B_2 &=& \alpha_0\,B_{2,0} + \alpha_1\,B_{2,1} + \alpha_2\,B_{2,2}\,.
+\end{array}
+}
+Then we can represent the equations (5) and (6) as follows:
+\weq{8}{
+\begin{array}{rcccccl}
+\alpha_0\,B_0 & + & \alpha_1\,B_1 & + & \alpha_2\,B_2 & = & 0 \\
+\alpha_0\,B_{0,3} & + & \alpha_1\,B_{1,3} & + & \alpha_2\,B_{2,3} & = & 0\,.
+\end{array}
+}
+We multiply the second by an indeterminate factor
+$\alpha_3$ and add it to the first, whereby we obtain
+\[
+\text{(9)} \qquad \alpha_0\,(B_0 + \alpha_3\,B_{0,3}) + \alpha_1\,(B_1 + \alpha_3\,B_{1,3}) + \alpha_2\,(B_2 + \alpha_3\,B_{2,3}) = 0\,,
+\]
+an equation which is satisfied if we set
+\weq{10}{
+\begin{array}{rcl}
+B_0 + \alpha_3\,B_{0,3} &=& 0 \\
+B_1 + \alpha_3\,B_{1,3} &=& \sigma\,\alpha_2 \\
+B_2 + \alpha_3\,B_{2,3} &=& -\,\sigma\,\alpha_1\,.
+\end{array}
+}
+From these three equations, in combination with the equation
+(6), we have to determine the unknowns $\alpha_0, \alpha_1, \alpha_2, \alpha_3, \sigma$.
+We first write the equations out here in full
+\weq{11}{
+\begin{array}{rcrcrcrcl}
+\alpha_0\,B_{0,0} & + & \alpha_1\,B_{0,1} & + & \alpha_2\,B_{0,2} & + & \alpha_3\,B_{0,3} & = & 0 \\
+\alpha_0\,B_{1,0} & + & \alpha_1\,B_{1,1} & + & \alpha_2\,(B_{1,2} - \sigma) & + & \alpha_3\,B_{1,3} & = & 0 \\
+\alpha_0\,B_{2,0} & + & \alpha_1\,(B_{2,1} + \sigma) & + & \alpha_2\,B_{2,2} & + & \alpha_3\,B_{2,3} & = & 0 \\
+\alpha_0\,B_{3,0} & + & \alpha_1\,B_{3,1} & + & \alpha_2\,B_{3,2} & & & = & 0\,,
+\end{array}
+}
+and if we eliminate $\alpha_0, \alpha_1, \alpha_2, \alpha_3$ from these, there results
+a quadratic equation for $\sigma$, after whose solution the
+ratios $\alpha_0 : \alpha_1 : \alpha_2 : \alpha_3$ can be determined from linear equations.
+
+\indent The quadratic equation for $\sigma$, however, reads in determinant form
+\[
+\begin{vmatrix}
+B_{0,0}, & B_{0,1}, & B_{0,2}, & B_{0,3} \\
+B_{1,0}, & B_{1,1}, & B_{1,2} - \sigma, & B_{1,3} \\
+B_{2,0}, & B_{2,1} + \sigma, & B_{2,2}, & B_{2,3} \\
+B_{3,0}, & B_{3,1}, & B_{3,2}, & 0
+\end{vmatrix} = 0\,.
+\]

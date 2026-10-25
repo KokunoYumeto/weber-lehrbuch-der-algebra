@@ -1,0 +1,49 @@
+% !PRINTED 91
+\weberpage{91}
+%<<CONT
+
+\begin{equation}
+        B=\begin{vmatrix}
+        a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}\\
+        a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}\\
+        \vdots&\vdots&&\vdots\\
+        a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}
+        \end{vmatrix},
+\tag{6}
+\end{equation}
+denote its subdeterminants by \(B_k^{(h)}\), where \(h,k\) run only through the values from \(1\) to \(\nu\), and now suppose that \gesperrt{all \((\nu+1)\)-rowed subdeterminants of \(A\) vanish}. If we multiply the first \(\nu\) equations of the system (1) by \(B_k^{(1)},B_k^{(2)},\ldots,B_k^{(\nu)}\), and add, it follows [\S.\,22, (2), (6)]:
+\begin{equation}
+ Bx_k=\sum_{i=1}^{\nu}B_k^{(i)}y_i-
+ \sum_{s=\nu+1}^{n}x_s\sum_{i=1}^{\nu}B_k^{(i)}a_s^{(i)}.
+\tag{7}
+\end{equation}
+Hereby \(\nu\) of the unknowns \(x\) are determined by the others, and, to see how far equations (1) are thereby satisfied, we substitute the expressions in (1). For this purpose we multiply (7) by \(a_k^{(\lambda)}\), where \(\lambda\) runs through the values \(1,2,\ldots,n\), and sum with respect to \(k\). Thus follows:
+\begin{equation}
+ B\sum_{k=1}^{\nu}a_k^{(\lambda)}x_k
+ =\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+ -\sum_{s=\nu+1}^{n}x_s\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_s^{(i)}a_k^{(\lambda)}.
+\tag{8}
+\end{equation}
+and if we add to both sides
+\[
+ B\sum_{k=\nu+1}^{n}a_k^{(\lambda)}x_k
+\]
+we obtain:
+\begin{equation}
+ B\sum_{k=1}^{n}a_k^{(\lambda)}x_k
+ =\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+ +\sum_{s=\nu+1}^{n}x_s\left(Ba_s^{(\lambda)}-
+ \sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_s^{(i)}a_k^{(\lambda)}\right).
+\tag{9}
+\end{equation}
+Now, by \S.\,23, (12), the coefficient of \(x_s\) on the right-hand side is a \((\nu+1)\)-rowed subdeterminant of \(A\), and hence is zero by the hypothesis. According to (1),
+\[
+ \sum_{k=1}^{n}a_k^{(\lambda)}x_k=y_\lambda
+\]
+is to hold, and consequently the expressions (7) satisfy equations (1) if and only if
+\begin{equation}
+ B y_\lambda=\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+\tag{10}
+\end{equation}
+holds. This equation is always satisfied when \(\lambda\le\nu\), by \S.\,22, (2), (6). But if \(\lambda=\nu+1,\nu+2,\ldots,n\), then (10) contains \(n-\nu\) conditions on the \(y\)'s which, since each
+%CONT>>

@@ -1,0 +1,47 @@
+% !PRINTED 133
+\weberpage{133}
+%<<CONT
+zunächst $\beta$ als \gesperrt{gerade} und folglich $\alpha, \delta$ als ungerade voraus, so ist
+\weq{1}{
+\begin{pmatrix}1, & 0\\ 0, & 2\end{pmatrix}\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}
+= \begin{pmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{pmatrix}\begin{pmatrix}1, & 0\\ 0, & 2\end{pmatrix},
+}
+d.\,h.
+\[
+2\,\frac{\gamma+\delta\omega}{\alpha+\beta\omega} = \frac{2\gamma+\delta.2\omega}{\alpha+\frac{1}{2}\beta.2\omega}.
+\]
+Es ist aber nach § 34, (9):
+\[
+f_2(\omega) = \sqrt{2}\,\frac{\eta(2\omega)}{\eta(\omega)},
+\]
+und wenn wir also die Substitution
+\[
+\omega,\ \frac{\gamma+\delta\omega}{\alpha+\beta\omega}
+\]
+machen, so ergibt sich, mit Benutzung der Bezeichnung des § 38
+\weq{2}{
+f_2\!\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right)
+= \frac{E\!\left(\begin{smallmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{smallmatrix}, 2\omega\right)}{E\!\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right)}\, f_2(\omega).
+}
+Hier sind die $E$-Funktionen nach § 38, (15), 1. zu bestimmen, woraus sich ergibt:
+\[
+\frac{E\!\left(\begin{smallmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{smallmatrix}, 2\omega\right)}{E\!\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right)}
+= \left(\frac{2}{\alpha}\right) e^{\frac{\pi i}{12}\left(\alpha\gamma + \frac{\alpha\beta}{2} + (\alpha^2-1)\frac{\beta\delta}{2}\right)}.
+\]
+Es ist aber $\dfrac{1}{24} = \dfrac{3}{8} - \dfrac{1}{3}$ und
+\[
+\alpha\gamma + \frac{\alpha\beta}{2} + (\alpha^2-1)\frac{\beta\delta}{2} \equiv \frac{\alpha(2\gamma+\beta)}{2} \pmod{8}
+\]
+\[
+\equiv \alpha(\gamma-\beta) - (\alpha^2-1)\beta\delta \pmod{3},
+\]
+und wenn wir also zur Abkürzung
+\weq{3}{
+\varrho = e^{-\frac{2\pi i}{3}\left[\alpha(\gamma-\beta) - (\alpha^2-1)\beta\delta\right]}
+}
+setzen, so ergibt sich aus (2):
+\weq{4}{
+f_2\!\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right) = \left(\frac{2}{\alpha}\right)\varrho\, e^{\frac{3\pi i}{8}\alpha(2\gamma+\beta)}\, f_2(\omega), \qquad \beta \equiv 0 \pmod{2}.
+}
+In derselben Weise lassen sich alle anderen Formeln dieser Art herleiten; man erhält sie aber einfacher aus (4) selbst mit Benutzung der Fundamentaltransformationen § 34, (13), (14), (15). So ergibt sich, wenn man in (4) $\omega$ durch $-1:\omega$ ersetzt und dann $\alpha, \beta, \gamma, \delta$ mit $\beta, -\alpha, \delta, -\gamma$ vertauscht (wodurch $\varrho$ ungeändert bleibt):
+%CONT>>

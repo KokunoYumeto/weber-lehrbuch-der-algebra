@@ -1,0 +1,38 @@
+% !PRINTED 555
+\weberpage{555}
+%<<CONT
+darstellbar. Im Exponenten von $r$ kommt es nur auf den Rest nach dem Modul $n$ an, da immer und nur dann $r^h = r^k$ ist, wenn $h \equiv k \pmod{n}$.
+
+Wie wir schon im zwölften Abschnitt gesehen haben, sind die Grössen (1) die Wurzeln einer \gesperrt{irreducibeln Gleichung} $(n-1)^{\text{ten}}$ Grades
+\weq{2}{X = x^{n-1} + x^{n-2} + x^{n-3} + \cdots + x + 1 = 0,}
+und wir wollen zunächst nachweisen, dass diese Gleichung \gesperrt{cyklisch} ist. Diese Eigenschaft ergiebt sich aus der Existenz primitiver Wurzeln der Primzahl $n$, mit denen wir uns im \S.\,136 beschäftigt haben. Es wurde dort nachgewiesen, dass es für jede Primzahl $n$ gewisse Zahlen $g$ giebt, die man primitive Wurzeln von $n$ nennt, die durch die Eigenschaft charakterisirt sind, dass unter den Resten der Potenzen
+\[
+1, \ g, \ g^2, \ g^3 \dots g^{n-2},
+\]
+bei der Theilung durch $n$ jede der Zahlen
+% [sic] authority includes 0 here; powers of a primitive root modulo n cover only 1,...,n-1.
+\[
+0, \ 1, \ 2, \dots n-1
+\]
+ein und nur einmal vorkommt. Der Rest einer Potenz $g^h$ bleibt derselbe, wenn $h$ um ein Vielfaches von $n-1$ verändert wird. Ist
+\[
+g^\alpha \equiv a \pmod{n},
+\]
+so heisst $\alpha$ der Index von $a$ ($\alpha = \operatorname{ind} a$) und $a$ die Zahl oder der Numerus. Der Index wird nach dem Modul $n-1$ genommen, der Numerus nach dem Modul $n$ (\S.\,136).
+
+Nehmen wir also eine solche primitive Wurzel von $n$ an, so können wir, von der Reihenfolge abgesehen, die Grössen (1) so darstellen:
+\[
+r, \ r^g, \ r^{g^2} \dots r^{g^{n-2}},
+\]
+oder, wenn wir
+\weq{3}{r^{g^h} = r_h}
+setzen,
+\weq{4}{r, \ r_1, \ r_2 \dots r_{n-2}.}
+Jede Zahl des Körpers $R(r)$, d.\,h. jede rationale Function von $r$ lässt sich in die Form bringen
+\weq{5}{\varphi(r) = b_0 + b_1 r + b_2 r^2 + \cdots + b_{n-2} r^{n-2},}
+oder, da nach (2)
+\[
+1 + r + r^2 + \cdots + r^{n-1} = 0
+\]
+ist,
+%CONT>>

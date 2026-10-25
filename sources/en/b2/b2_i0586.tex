@@ -1,0 +1,70 @@
+% !PRINTED 565
+\weberpage{565}
+If in the $(n-1)$-fold integral one replaces $\xi_i$ by
+$\sqrt{1-\alpha^2}\,\xi_i$, one finds for it the value
+$\sqrt{(1-\alpha^2)}^{\,n-1} K_{n-1}$, and thus one finds the
+inequality
+
+\[
+K_n > 2\alpha \sqrt{(1-\alpha^2)}^{\,n-1} K_{n-1}.
+\]
+
+Now we wish to choose $\alpha$ so that $2\alpha
+\sqrt{(1-\alpha^2)}^{\,n-1}$ becomes as great as possible, and for
+this one finds, by the ordinary rule, by setting the differential
+quotient equal to zero,
+
+\[
+\alpha = \frac{1}{\sqrt{n}}.
+\]
+
+From this
+
+\[
+K_n > 2\, \frac{\sqrt{(n-1)}^{\,n-1}}{\sqrt{n}^{\,n}}\, K_{n-1}
+\]
+
+\[
+\left(\frac{\sqrt{n}}{2}\right)^{n} K_n > \left(\frac{\sqrt{n-1}}{2}\right)^{n-1} K_{n-1}.
+\]
+
+If one therefore sets
+
+\[
+K_n = \left(\frac{2}{\sqrt{\Theta_n\, n}}\right)^{n},
+\]
+
+then
+
+\weq{23}{\Theta_n^n < \Theta_{n-1}^{n-1},}
+
+hence $\Theta_n^n$ is a number that decreases as $n$ increases. At the
+same time there results from (16)
+
+\weq{24}{M < \Theta_n\, n\, \sqrt[n]{D}.}
+
+For $n = 2$, $K_n$ is equal to the area of the circle with radius 1,
+that is, to the \gesperrt{Ludolphian} number $\pi$, and from this
+there results
+
+\[
+\Theta_2 = \frac{2}{\pi} < 0{,}636,\qquad \Theta_2^2 < 0{,}404,
+\]
+
+% [sic: Weber prints references (22) and (23); the bound uses (24) and (23).]
+and hence, by (22) and (23), the following determination of the limit
+holds, valid for all values of $n$ greater than 1:
+
+\weq{25}{M < n \sqrt[n]{0{,}404\, D}\ \footnotemark.}
+
+\footnotetext{For special applications it is useful to know the limit
+as exactly as possible. For this purpose serves an exact computation
+of the integral $K_n$ according to its definition (17), (18), which
+can easily be carried out by various methods of the integral
+calculus, e.g. by means of the discontinuous factor of
+\gesperrt{Dirichlet}:
+
+\[
+K_n = \frac{\Gamma\left(\frac12\right)^{n}}{\Gamma\left(1+\frac{n}{2}\right)},
+\]
+}

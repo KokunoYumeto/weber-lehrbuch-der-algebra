@@ -1,0 +1,64 @@
+% !PRINTED 408
+\weberpage{408}
+%<<CONT
+und da $\sigma$ reell ist:
+
+\[
+\begin{aligned}
+\Delta>0. &\qquad \sigma = \frac{1}{\sqrt{\Delta}}\overset{k}{\sum}(\Delta,k)\overset{n}{\sum}\frac{1}{n}\cos\frac{2nk\pi}{\Delta},\\
+\Delta<0. &\qquad \sigma = \frac{1}{\sqrt{-\Delta}}\overset{k}{\sum}(\Delta,k)\overset{n}{\sum}\frac{1}{n}\sin\frac{mk\pi}{-\Delta}. % [sic] index \textquotedbl{}m\textquotedbl{} as printed, sum is taken over n
+\end{aligned}
+\]
+
+Die beiden unendlichen Reihen nach $n$ haben aber bestimmte
+Werte, die \gesperrt{Abel} in der Abhandlung über die Binomialreihe
+aus der Potenzwickelung von $\log(1-z)$ abgeleitet hat, und die sich % [sic: Potenzwickelung as printed]
+auch aus der Theorie der \gesperrt{Fourier}schen Reihen ergeben. Wird
+dann $k$ positiv und zwischen $0$ und $\pm\Delta$ genommen, so ergibt sich:
+
+\[
+\begin{aligned}
+\sum\frac{1}{n}\cos\frac{2nk\pi}{\Delta} &= -\log\left(2\sin\frac{k\pi}{\Delta}\right),\\
+\sum\frac{1}{n}\sin\frac{2nk\pi}{-\Delta} &= \frac{\pi}{2}\left(1 - \frac{2k}{-\Delta}\right).
+\end{aligned}
+\]
+
+Also ergibt sich aus (8) [mit Rücksicht auf $\Sigma(\Delta,k) = 0$]:
+
+\weq{10}{\begin{aligned}
+h\log\varepsilon &= -\overset{k}{\Sigma}(\Delta,k)\log\sin\frac{k\pi}{\Delta}, & \Delta&>0,\\
+h &= \frac{1}{\Delta}\overset{k}{\Sigma}(\Delta,k)\,k, & \Delta&<0.
+\end{aligned}}
+
+Für den Fall der negativen Diskriminante kann man den
+Ausdruck für $h$ so umgestalten, daß er die Form einer ganzen
+Zahl annimmt.
+
+Ist zunächst $\Delta$ ungerade ($\equiv 1 \bmod 4$), so kann man die
+Zahlenreihe $k$ so zerlegen:
+
+\[
+\begin{aligned}
+v, &\quad -\Delta - v,\\
+2v, &\quad -\Delta - 2v,
+\end{aligned}
+\qquad 0 < v < -\frac{\Delta}{2},
+\]
+
+und erhält also, da hier $(\Delta,-v) = -(\Delta,v)$ ist (§ 85), zwei
+Formen des Ausdrucks $h$:
+
+\[
+\begin{aligned}
+h &= \frac{2}{\Delta}\overset{v}{\Sigma}(\Delta,v)\,v + \overset{v}{\Sigma}(\Delta,v),\\
+h &= \frac{4}{\Delta}\Sigma(\Delta,2v)\,v + \overset{v}{\Sigma}(\Delta,v),
+\end{aligned}
+\]
+
+woraus, wenn man die erste mit 2, die zweite mit $(\Delta,2)$ multipliziert
+und subtrahiert:
+
+\weq{11}{[2 - (\Delta,2)]\,h = \overset{v}{\Sigma}(\Delta,v).}
+
+Wenn also $(\Delta,2) = -1$ ist, so muß die rechte Seite
+durch 3 teilbar sein.

@@ -1,0 +1,31 @@
+% !PRINTED 300
+\weberpage{300}
+%<<CONT
+und ihre Potenzen; ebenso die Substitutionen
+\[
+\begin{pmatrix} 1, & 2 \\ 0, & 1 \end{pmatrix},\quad \begin{pmatrix} 2, & 1 \\ -1, & 0 \end{pmatrix},
+\]
+und folglich auch
+\weq{6}{B = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} 1, & 2 \\ 0, & 1 \end{pmatrix}\begin{pmatrix} 2, & 1 \\ -1, & 0 \end{pmatrix}.}
+Wenn aber die Substitutionen $A$, $B$ in $\mathfrak{K}$ enthalten sind, so muß $\mathfrak{K}$ nach § 79 mit $\mathfrak{L}_0$ identisch sein. Wir haben also den Satz:
+
+\gesperrt{Der Index eines Teilers von $\mathfrak{L}_0$ kann nicht kleiner als $p$ sein.}
+
+Unser Problem beschränkt sich also auf die Frage nach den Teilern von $\mathfrak{L}_0$ vom Index $p$ oder vom Grade $\dfrac{p^2-1}{2}$.
+
+Es sei $\mathfrak{K}$ ein solcher Teiler und $S_0, S_1, \ldots, S_{\nu-1}$ seien seine Elemente, so daß die Zahl $\nu$ den Wert
+\weq{7}{\nu = \frac{p^2-1}{2}}
+hat.
+
+Da der Grad eines jeden Elementes einer Gruppe immer ein Teiler des Grades der Gruppe ist, so kann, da $\nu$ durch $p$ nicht teilbar ist, in $\mathfrak{K}$ \gesperrt{kein} Element vom Grade $p$ vorkommen; nehmen wir also für $T$ die Substitution vom Grade $p$:
+\weq{8}{A = \begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix},}
+so läßt sich die Gruppe $\mathfrak{L}_0$ in die $p$ Nebengruppen zerlegen:
+\weq{9}{\mathfrak{L}_0 = \mathfrak{K},\ A\mathfrak{K},\ A^2\mathfrak{K}\ \ldots,\ A^{p-1}\mathfrak{K}.}
+Mit $\mathfrak{K}$ sind von demselben Grade, also auch von demselben Index alle seine konjugierten Teiler
+\[
+T\mathfrak{K}T^{-1}.
+\]
+Es sei nun $g$ eine primitive Wurzel der Primzahl $p$, und
+\weq{10}{C = \begin{pmatrix} g, & 0 \\ 0, & g^{-1} \end{pmatrix},}
+eine Substitution, die offenbar vom Grade $\dfrac{p-1}{2}$ ist. Diese muß, wie jede Substitution von $\mathfrak{L}_0$, in einer der Reihen (9) vorkommen; d.\,h. es gibt eine Substitution $S$ in $\mathfrak{K}$ und einen Exponenten $\lambda$, für den
+\weq{11}{C = A^\lambda S,\quad S = A^{-\lambda} C.}

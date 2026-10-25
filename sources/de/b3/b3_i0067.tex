@@ -1,0 +1,36 @@
+% !PRINTED 46
+\weberpage{46}
+%<<CONT
+\weq{11}{\begin{vmatrix} 1, & x_1, & x_1^2, & \sqrt{f(x_1)} \\ 1, & x_2, & x_2^2, & \sqrt{f(x_2)} \\ 1, & x_3, & x_3^2, & \sqrt{f(x_3)} \\ 1, & x_4, & x_4^2, & \sqrt{f(x_4)} \end{vmatrix} = 0.}
+
+Aus dieser Gleichung kann man $x_1$ und $\sqrt{f(x_1)}$ \gesperrt{rational}
+durch $x_2, \sqrt{f(x_2)}$; $x_3, \sqrt{f(x_3)}$; $x_4, \sqrt{f(x_4)}$ ausdrücken; denn
+$x_1$ ist die Wurzel einer biquadratischen Gleichung, deren drei
+andere Wurzeln $x_2, x_3, x_4$ sind, und deren Koeffizienten rational
+von $x_2, \sqrt{f(x_2)}$; $x_3, \sqrt{f(x_3)}$; $x_4, \sqrt{f(x_4)}$ abhängen, und $\sqrt{f(x_1)}$ ist
+mittels (11) rational durch $x_1$ darstellbar. Setzt man $x_4$ einer
+beliebigen Konstanten gleich, so geht die Differentialgleichung
+(10) in (1) über und (11) ergibt ihr Integral.
+
+Wir wenden dies Theorem zunächst auf die Normalform an
+und setzen
+\[ f(x) = x(1-x)(1-\varkappa^2 x). \]
+Nehmen wir in (11) $x_4 = 0$ an, so reduziert sich diese
+Gleichung durch Division mit $\sqrt{x_1 x_2 x_3}$ auf:
+\weq{12}{\begin{vmatrix} \sqrt{x_1}, & x_1\sqrt{x_1}, & \sqrt{(1-x_1)(1-\varkappa^2 x_1)} \\ \sqrt{x_2}, & x_2\sqrt{x_2}, & \sqrt{(1-x_2)(1-\varkappa^2 x_2)} \\ \sqrt{x_3}, & x_3\sqrt{x_3}, & \sqrt{(1-x_3)(1-\varkappa^2 x_3)} \end{vmatrix} = 0,}
+oder wenn wir die Determinante nach den Elementen der ersten
+Zeile entwickeln:
+\weq{13}{\sqrt{x_1}\,(a + bx_1) + c\sqrt{(1-x_1)(1-\varkappa^2 x_1)} = 0,}
+worin zur Abkürzung gesetzt ist:
+\weq{14}{\begin{aligned}
+a &= x_2\sqrt{x_2}\sqrt{(1-x_3)(1-\varkappa^2 x_3)} - x_3\sqrt{x_3}\sqrt{(1-x_2)(1-\varkappa^2 x_2)}, \\
+b &= -\sqrt{x_2}\sqrt{(1-x_3)(1-\varkappa^2 x_3)} + \sqrt{x_3}\sqrt{(1-x_2)(1-\varkappa^2 x_2)}, \\
+c &= -(x_2-x_3)\sqrt{x_2}\sqrt{x_3}.
+\end{aligned}}
+
+Wenn wir (13) rational machen, so erhalten wir die kubische
+Gleichung:
+\[ x(a+bx)^2 - c^2(1-x)(1-\varkappa^2 x) = 0, \]
+deren drei Wurzeln $x_1, x_2, x_3$ sind. Es ist demnach identisch
+\weq{15}{b^2(x-x_1)(x-x_2)(x-x_3) = x(a+bx)^2 - c^2(1-x)(1-\varkappa^2 x),}
+%CONT>>

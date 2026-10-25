@@ -1,0 +1,49 @@
+% !PRINTED 201
+\weberpage{201}
+
+\begin{center}
+§. 65.
+
+\gesperrt{Solution of the biquadratic equation.}
+\end{center}
+
+We wish to produce a normal form by a linear substitution
+with determinant 1; for its derivation we assume the
+given biquadratic form decomposed into linear factors
+:
+\weq{1}{f(x,\,y) = a_0\,(x - \alpha y)\,(x - \beta y)\,(x - \gamma y)\,(x - \delta y).}
+We set
+\weq{2}{\begin{gathered}
+x\,\sqrt{\alpha - \beta} = \beta\,\xi - \alpha\,\eta, \quad r = 1,\\
+y\,\sqrt{\alpha - \beta} = \xi - \eta,
+\end{gathered}}
+hence
+\weq{3}{\begin{gathered}
+x - \alpha y = -\sqrt{\alpha - \beta}\,\xi\\
+x - \beta y = -\sqrt{\alpha - \beta}\,\eta\\
+(x - \gamma y)\,\sqrt{\alpha - \beta} = (\beta - \gamma)\,\xi - (\alpha - \gamma)\,\eta\\
+(x - \delta y)\,\sqrt{\alpha - \beta} = (\beta - \delta)\,\xi - (\alpha - \delta)\,\eta,
+\end{gathered}}
+and thereby $f(x,\,y)$ passes over into
+\weq{4}{F(\xi,\,\eta) = a_1'\,\xi^3\eta + a_2'\,\xi^2\eta^2 + a_3'\,\xi\eta^3.}
+
+The coefficients $a_1', a_2', a_3'$ are easily expressed by (3) in terms of the
+$\alpha, \beta, \gamma, \delta$:
+\weq{5}{\begin{gathered}
+a_1' = \phantom{-{}} a_0\,(\beta - \gamma)\,(\beta - \delta)\\
+a_3' = \phantom{-{}} a_0\,(\alpha - \gamma)\,(\alpha - \delta)\\
+a_2' = -a_0\,[(\alpha - \gamma)\,(\beta - \delta) + (\alpha - \delta)\,(\beta - \gamma)]
+\end{gathered}}
+
+By permutation of the roots we can produce the normal form
+ (4) in six different ways, which however yield only
+three different values of $a_2'$. These three values
+are, if as above
+\weq{6}{\begin{gathered}
+U = (\alpha - \beta)\,(\gamma - \delta),\\
+V = (\alpha - \gamma)\,(\delta - \beta),\\
+W = (\alpha - \delta)\,(\beta - \gamma),\\
+U + V + W = 0
+\end{gathered}}
+is set,
+%CONT>>

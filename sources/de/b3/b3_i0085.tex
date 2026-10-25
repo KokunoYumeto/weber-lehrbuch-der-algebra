@@ -1,0 +1,36 @@
+% !PRINTED 64
+\weberpage{64}
+Diese Summe oder vielmehr die Gesamtheit der damit nach dem Modul $(\omega_1, \omega_2)$ kongruenten Zahlen heißt der \gesperrt{Charakter} der $T$-Funktion.
+
+Der Charakter der Funktion $T$ ändert sich nicht, wenn man $T$ durch eine der Funktionen $LT$ ersetzt (nach 8.). Man kann also nach 5. den Charakter auch in der Form darstellen:
+\weq{12}{\Sigma\alpha \equiv \frac{1}{2}(g_1\omega_2 - g_2\omega_1) + \frac{m}{2}(\omega_1+\omega_2),}
+worin $g_1$, $g_2$ \gesperrt{reell} sind. Diese reellen Zahlen sind durch den Charakter bis auf Vielfache von 2 bestimmt und können jeden Wert zwischen 0 und 2 haben. Das Symbol $(g_1, g_2)$ heißt die \gesperrt{Charakteristik} der $T$-Funktion. Aus der Charakteristik wird der Charakter der $T$-Funktion nach (12) bestimmt.
+
+Ist $\gamma$ der Charakter einer Funktion $T(u)$ von der Ordnung $m$ und $v$ eine beliebige Konstante, so hat $T(u+v)$ den Charakter
+\[
+\gamma' \equiv \gamma - vm.
+\]
+\gesperrt{Hiernach lassen sich, wenn $m > 0$ ist, die verschiedenen Charaktere aufeinander zurückführen.}
+
+Mit Hilfe der Gleichung (10) kann man die beiden Gleichungen (6) in eine allgemeine zusammenfassen:
+
+Wenn man in der ersten Gleichung (6) wiederholt $u$ in $u + \omega_1$ verwandelt, so erhält man das System:
+\[
+\begin{aligned}
+T(u+\omega_1) &= e^{-\pi i[a_1(2u+\omega_1)+b_1]}T(u),\\
+T(u+2\omega_1) &= e^{-\pi i[a_1(2u+3\omega_1)+b_1]}T(u+\omega_1),\\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+T(u+n_1\omega_1) &= e^{-\pi i[a_1(2u+(2n_1-1)\omega_1)+b_1]}T[u+(n_1-1)\omega_1],
+\end{aligned}
+\]
+und durch Multiplikation aller dieser Formeln:
+\weq{13}{T(u+n_1\omega_1) = e^{-\pi i[a_1(2n_1u+n_1^2\omega_1)+n_1b_1]}T(u).}
+Diese Formel ist zunächst für ein positives ganzzahliges $n_1$ abgeleitet. Ersetzt man aber darin $u$ durch $u - n_1\omega_1$, so ergibt sich ihre Richtigkeit auch für negative $n_1$.
+
+Ebenso ergibt sich:
+\weq{14}{T(u+n_2\omega_2) = e^{-\pi i[a_2(2n_2u+n_2^2\omega_2)+n_2b_2]}T(u),}
+und wenn man in dieser Formel $u$ in $u + n_1\omega_1$ verwandelt und wieder (13) anwendet:
+\weq{15}{\begin{aligned}
+&T(u+n_1\omega_1+n_2\omega_2)\\
+&= e^{-\pi i[2(a_1n_1+a_2n_2)u+2a_2n_1n_2\omega_1+a_1n_1^2\omega_1+a_2n_2^2\omega_2+n_1b_1+n_2b_2]}T(u).
+\end{aligned}}

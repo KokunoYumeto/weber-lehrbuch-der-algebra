@@ -1,0 +1,54 @@
+% !PRINTED 200
+\weberpage{200}
+%<<CONT
+They therefore differ from one another only by a constant factor,
+which by (7) turns out to be equal to 1. We therefore have
+\weq{14}{\begin{aligned}
+&\psi_{m+n}(u)\,\psi_{m+n}(u)\\
+% [sic] The German source prints m+n in both factors; the identity mathematically requires m-n in the second.
+={}&\psi_{m+1}(u)\,\psi_{m-1}(u)\,\psi_n(u)^2 - \psi_{n+1}(u)\,\psi_{n-1}(u)\,\psi_m(u)^2.
+\end{aligned}}
+We apply this formula to two special cases, by putting $n+1$, $n$
+or $n+1$, $n-1$ in place of $m$, $n$, and so obtain:
+\[
+\begin{aligned}
+\psi_{2n+1}(u) &= \psi_{n+2}(u)\,\psi_n(u)^3 - \psi_{n+1}(u)^3\,\psi_{n-1}(u)\\
+\wp'(u)\,\psi_{2n}(u) &= -\,\psi_n(u)\,[\psi_{n+2}(u)\,\psi_{n-1}(u)^2 - \psi_{n+1}(u)^2\,\psi_{n-2}(u)],
+\end{aligned}
+\]
+and from this one obtains, by (6), the recursion formulae for $P_n$:
+\weq{15}{\begin{aligned}
+P_{2n+1} &= \wp'(u)^4\,P_{n+2}\,P_n^3 - P_{n+1}^3\,P_{n-1}, &&\text{$n$ even,}\\
+&= P_{n+2}\,P_n^3 - \wp'(u)^4\,P_{n+1}^3\,P_{n-1}, &&\text{$n$ odd.}
+\end{aligned}}
+\weq{16}{P_{2n} = -\,P_n\,(P_{n+2}\,P_{n-1}^2 - P_{n+1}^2\,P_{n-2}).}
+
+Since in this way the functions $P_n$ can all be calculated from $P_1$, $P_2$, $P_3$, $P_4$,
+it follows \gesperrt{that the coefficients of}
+$P_n$ \gesperrt{are rationally composed of} $g_2$, $g_3$ \gesperrt{and
+rational numbers}.
+
+Our further considerations on the division, however, we attach
+to the multiplication formulae of the functions $\operatorname{sn} u$, $\operatorname{cn} u$,
+$\operatorname{dn} u$, whose advantages will come fully into their own only in
+the fourth part.
+
+\begin{center}
+\textbf{\S~59. Division by 2.}
+\end{center}
+
+Turning first to the consideration of the simplest case, we
+put $v$ in place of $2v$ in the equations (5) of \S~57. Then, if we
+set
+\weq{1}{x = \operatorname{sn}\frac{v}{2}, \qquad y = \operatorname{cn}\frac{v}{2}, \qquad z = \operatorname{dn}\frac{v}{2}}
+we have:
+\weq{2}{\begin{aligned}
+\operatorname{sn} v &= \frac{2\,x\,y\,z}{1 - \varkappa^2\,x^4},\\
+\operatorname{cn} v &= \frac{y^2 - x^2\,z^2}{1 - \varkappa^2\,x^4},\\
+\operatorname{dn} v &= \frac{z^2 - \varkappa^2\,x^2\,y^2}{1 - \varkappa^2\,x^4}.
+\end{aligned}}
+
+The last two of these equations are quadratic with
+respect to $x^2$, but they have only \gesperrt{one common}
+root, for the roots of the second of the equations (2) are
+%CONT>>

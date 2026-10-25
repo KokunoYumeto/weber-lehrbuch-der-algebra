@@ -1,0 +1,38 @@
+% !PRINTED 262
+\weberpage{262}
+
+%<<CONT
+\weq{1}{\psi = \varphi(x_1, x_2, x_3 \ldots x_m) - \lambda x_m^2}
+verschwindet. Die Determinante ist nämlich
+\[
+\begin{vmatrix}
+a_{1,1},\, a_{1,2} \ldots a_{1,m} \\
+a_{2,1},\, a_{2,2} \ldots a_{2,m} \\
+\cdots\cdots\cdots\cdots \\
+a_{m,1},\, a_{m,2} \ldots a_{m,m} - \lambda
+\end{vmatrix}
+= R_m - \lambda R_{m-1},
+\]
+und sie verschwindet, wenn
+\[
+\lambda = \frac{R_m}{R_{m-1}}
+\]
+gesetzt wird.
+
+Die Function $\psi$ lässt sich dann durch $m-1$ Variable $y$ ausdrücken, und man erhält nach der Formel (6), \S.\,81
+\[
+\psi(x_1, x_2 \ldots x_m) = \psi(y_1, y_2 \ldots y_{m-1}, 0),
+\]
+oder nach (1)
+\weq{2}{\varphi(x_1, x_2 \ldots x_m) = \frac{R_m}{R_{m-1}}\, x_m^2 + \varphi(y_1, y_2 \ldots y_{m-1}, 0),}
+und die Untersuchung der Function $\varphi$ von $m$ Variablen ist dadurch auf die Untersuchung von $\varphi_1(y) = \varphi(y_1, y_2 \ldots y_{m-1}, 0)$ von $m-1$ Variablen zurückgeführt, deren Determinante gleich $R_{m-1}$, also von Null verschieden ist. Je nachdem $R_m : R_{m-1}$ positiv oder negativ ist, wird die Function $\varphi(x)$ ein positives oder ein negatives Quadrat mehr haben als $\varphi_1(y)$.
+
+Durch Anwendung des gleichen Verfahrens auf $\varphi_1(y)$ und die folgenden Functionen ergiebt sich der Satz:
+
+Die Anzahl der positiven und negativen Glieder der Reihe
+\weq{3}{\frac{R_m}{R_{m-1}}, \quad \frac{R_{m-1}}{R_{m-2}}, \ldots \frac{R_1}{R_0}}
+stimmt überein mit der Anzahl der positiven und negativen Quadrate, in die sich die Function $\varphi(x)$ zerlegen lässt.
+
+Wir wollen diesem Satze noch einen etwas anderen Ausdruck geben, schicken aber folgende Erklärung voraus.
+
+Wenn eine Reihe von Null verschiedener reeller Zahlen in bestimmter Anordnung vorliegt, so können die Vorzeichen dieser Grössen in mannigfaltiger Weise wechseln; folgen zwei Grössen von gleichem Zeichen auf einander, so findet eine \gesperrt{Zeichenfolge} (Permanenz) statt, folgt aber auf eine Grösse eine andere von entgegengesetztem Zeichen, so haben wir einen \gesperrt{Zeichenwechsel} (Variation).

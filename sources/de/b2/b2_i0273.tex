@@ -1,0 +1,24 @@
+% !PRINTED 252
+\weberpage{252}
+%<<CONT
+bedeuten, so erhalten wir ein System erzeugender Substitutionen in der Form:
+\weq{8}{A_0 = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}, \quad B_h = \begin{pmatrix} 1, & 0 \\ \varepsilon^h, & 1 \end{pmatrix}, \quad h = 0, 1, \ldots, n-1.}
+
+Um dies nachzuweisen, bemerken wir, dass
+\[ \begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} \begin{pmatrix} 1, & 0 \\ \gamma', & 1 \end{pmatrix} = \begin{pmatrix} 1, & 0 \\ \gamma + \gamma', & 1 \end{pmatrix} \]
+ist; und durch wiederholte Anwendung hiervon folgt, wenn
+\[ \gamma = c_0 + c_1 \varepsilon + \cdots + c_{n-1} \varepsilon^{n-1} \]
+mit ganzen rationalen Co\"efficienten $c$ eine beliebige Zahl in $\mathfrak{C}$ ist,
+\weq{9}{\begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} = B_0^{c_0} B_1^{c_1} \cdots B_{n-1}^{c_{n-1}}.}
+
+Ferner folgt durch Zusammensetzung mit $A_0$:
+\weq{10}{\begin{gathered} \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ \alpha, & 1 \end{pmatrix} = \begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}, \quad \begin{pmatrix} 1, & 0 \\ \delta, & 1 \end{pmatrix}\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} 0, & 1 \\ -1, & \delta \end{pmatrix} \\ \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ -\beta, & 1 \end{pmatrix}\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} = \begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}. \end{gathered}}
+
+Daraus geht hervor, dass man aus den Elementen (8) alle Substitutionen von der Form
+\[ \begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}, \quad \begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}, \quad \begin{pmatrix} 1, & 0 \\ \gamma', & 1 \end{pmatrix}, \quad \begin{pmatrix} 0, & 1 \\ -1, & \delta \end{pmatrix} \]
+zusammensetzen kann, worin $\alpha, \beta, \gamma, \delta$ beliebige Zahlen in $\mathfrak{C}$ sind. Ferner ist
+\weq{11}{\begin{pmatrix} \alpha, & 1 \\ -1, & 0 \end{pmatrix}\begin{pmatrix} 1, & \beta \\ 0, & 1 \end{pmatrix}\begin{pmatrix} 1, & 0 \\ \gamma, & 1 \end{pmatrix} = \begin{pmatrix} \alpha + \gamma + \alpha\beta\gamma, & \alpha\beta + 1 \\ -\beta\gamma - 1, & -\beta \end{pmatrix}.}
+
+Nimmt man $\beta$ von Null verschieden an, so kann man $\alpha$ und $\gamma$ so w\"ahlen, dass $\alpha\beta + 1$, $-\beta\gamma - 1$ beliebige Zahlen werden, und nach (11) kann man also alle Substitutionen $\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}$, worin $\delta$ von Null verschieden ist, aus $A_0, B_h$ zusammensetzen. Die Beschr\"ankung, dass $\delta$ von Null verschieden sei, kann aber nach der Formel
+\[ \begin{pmatrix} \alpha, & \beta \\ \gamma, & 0 \end{pmatrix} = \begin{pmatrix} -\beta, & \alpha \\ 0, & \gamma \end{pmatrix}\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} \]
+fallen gelassen werden.

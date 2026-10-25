@@ -1,0 +1,43 @@
+% !PRINTED 493
+\weberpage{493}
+%<<CONT
+\[
+\begin{pmatrix} 0, & 1, & 2 \dots m-2 \\ b_0, & b_1, & b_2 \dots b_{m-2} \end{pmatrix}
+\]
+dargestellt werden kann und also eine Permutation von höchstens $m-1$ Ziffern ist. Da nun auch
+\[
+\pi = \pi_1(m-1, a_{m-1})
+\]
+ist, so folgt hieraus durch vollständige Induction
+
+1. \gesperrt{dass man jede Permutation (und zwar auf unendlich viele verschiedene Arten) in Transpositionen zerlegen kann.}
+
+Und daraus folgt weiter:
+
+2. \gesperrt{Wenn eine Permutationsgruppe von $m$ Ziffern alle Transpositionen mit einer festen Ziffer, z. B.:
+\[
+(0,1), (0,2) \dots (0, m-1)
+\]
+enthält, so ist sie mit der symmetrischen Gruppe identisch.}
+
+Denn eine solche Gruppe enthält, wie man aus der Zusammensetzung
+\[
+(1,2) = (0,1)(0,2)(0,1)
+\]
+erkennt, auch alle anderen Transpositionen, und nach 1. lassen sich daraus alle Permutationen der symmetrischen Gruppe zusammensetzen.
+
+Eine Permutation $\pi$ heisst \gesperrt{cyklisch}, wenn sich die Ziffern so in eine Reihe ordnen lassen, dass durch $\pi$ jede Ziffer in die folgende und die letzte wieder in die erste übergeht, also z. B.
+\[
+\begin{pmatrix} 0, & 1, & 2 \dots m-2, & m-1 \\ 1, & 2, & 3 \dots m-1, & 0 \end{pmatrix};
+\]
+solche cyklische Permutationen bezeichnet man einfacher, indem man die Ziffern des Cyklus neben einander setzt, durch
+\[
+(0, 1, 2 \dots m-1).
+\]
+Dabei ist es gleichgültig, mit welcher Ziffer man anfängt; man könnte also auch
+\[
+(1, 2 \dots m-1, 0)
+\]
+dafür setzen. Es gilt nun der folgende Satz:
+
+3. \gesperrt{Jede Permutation $\pi$ lässt sich, und zwar nur auf eine Weise, in eine Reihe von cyklischen Permutationen zerlegen, so dass keine zwei dieser Cyklen eine Ziffer gemeinschaftlich haben.}

@@ -1,0 +1,48 @@
+% !PRINTED 375
+\weberpage{375}
+
+Wenn wir dies in (1) substituiren, so folgt
+
+\weq{4}{y = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} P_n, & P_{n-1} \\ Q_n, & Q_{n-1} \end{pmatrix}(x_n) = \begin{pmatrix} R_n, & R_{n-1} \\ S_n, & S_{n-1} \end{pmatrix}(x_n),}
+
+worin nach \S.\,120, (10) und (6), (7)
+
+\weq{5}{\begin{aligned}
+R_n &= \alpha P_n + \beta Q_n, & R_{n-1} &= \alpha P_{n-1} + \beta Q_{n-1}, \\
+S_n &= \gamma P_n + \delta Q_n, & S_{n-1} &= \gamma P_{n-1} + \delta Q_{n-1},
+\end{aligned}}
+
+\weq{6}{R_n S_{n-1} - S_n R_{n-1} = (-1)^n \varepsilon.}
+
+Setzt man $S_n$ in die Form
+\[
+S_n = Q_n\left(\gamma \frac{P_n}{Q_n} + \delta\right),
+\]
+so ergiebt sich, da sich $P_n : Q_n$ dem Werthe $x$ bis auf jeden beliebigen Grad annähert und $Q_n$ positiv ist, dass, wenn $n$ gross genug gewählt ist, $S_n$ im Vorzeichen mit
+\[
+(\gamma x + \delta)
+\]
+übereinstimmt. Da $x$ irrational ist, so ist diese Grösse von Null verschieden, und wir wollen sie als positiv voraussetzen. Wäre sie negativ, so hätten wir nur die Vorzeichen der vier Zahlen $\alpha, \beta, \gamma, \delta$ gleichzeitig zu ändern, wodurch (1) ungeändert bleibt, um sie positiv zu machen.
+
+Es wird also $S_n$ für hinlänglich grosse $n$ positiv sein. Nun folgt aber aus (5) mit Rücksicht auf \S.\,117
+\[
+S_{n+1} = a_n S_n + S_{n-1},
+\]
+woraus man schliesst, dass, wenn $n$ so gross ist, dass $S_{n-2}$ und die folgenden $S$ positiv sind, $S_n$ mit $n$ zugleich wächst, also:
+
+\weq{7}{S_n > S_{n-1} > 0.}
+
+Wir entwickeln nun den rationalen Bruch $R_n : S_n$ in einen endlichen Kettenbruch
+
+\weq{8}{\frac{R_n}{S_n} = (b_0, b_1, b_2 \ldots b_{m-1}),}
+
+und bezeichnen den vorletzten Näherungsbruch mit $R' : S'$, so dass wir die Relation haben:
+
+\weq{9}{R_n S' - S_n R' = (-1)^m.}
+
+Nach dem Satze I in \S.\,115 können wir aber $m$ nach Belieben gerade oder ungerade voraussetzen, und wir wollen so darüber verfügen, dass
+\[
+(-1)^m = (-1)^n \varepsilon
+\]
+wird. Ausserdem ist, wie wir aus \S.\,117, II wissen,
+%CONT>>

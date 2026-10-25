@@ -1,0 +1,57 @@
+% !PRINTED 93
+\weberpage{93}
+%<<CONT
+
+\[
+A=\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_n^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ a_1^{(n)}&a_2^{(n)}&\cdots&a_n^{(n)}
+\end{vmatrix},\qquad
+B=\begin{vmatrix}
+ b_1^{(1)}&b_2^{(1)}&\cdots&b_n^{(1)}\\
+ b_1^{(2)}&b_2^{(2)}&\cdots&b_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ b_1^{(n)}&b_2^{(n)}&\cdots&b_n^{(n)}
+\end{vmatrix},
+\]
+und mit $A_i^{(k)},B_i^{(k)}$ die ersten Unterdeterminanten, so erhält man
+\begin{align}
+ A x_k&=\sum_i A_k^{(i)}y_i,\tag{3}\\
+ B y_i&=\sum_h B_h^{(i)}z_h,\tag{4}
+\end{align}
+und durch Substitution von (4) in (3):
+\begin{equation}
+ ABx_k=\sum_h z_h\sum_i A_k^{(i)}B_h^{(i)}.\tag{5}
+\end{equation}
+Man kann aber auch so verfahren, dass man aus (1) die Ausdrücke für $y$ in (2) einsetzt, wodurch man, wenn
+\begin{equation}
+ c_i^{(h)}=\sum_s a_i^{(s)}b_h^{(s)}\tag{6}
+\end{equation}
+gesetzt wird, erhält:
+\begin{equation}
+ \sum_i c_i^{(h)}x_i=z_h.\tag{7}
+\end{equation}
+Wenn man nun
+\[
+C=\begin{vmatrix}
+ c_1^{(1)}&c_2^{(1)}&\cdots&c_n^{(1)}\\
+ c_1^{(2)}&c_2^{(2)}&\cdots&c_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ c_1^{(n)}&c_2^{(n)}&\cdots&c_n^{(n)}
+\end{vmatrix}\tag{8}
+\]
+setzt, und mit $C_i^{(k)}$ die Unterdeterminanten von $C$ bezeichnet, so ergiebt die Auflösung von (7):
+\begin{equation}
+ Cx_k=\sum_h z_h C_k^{(h)},\tag{9}
+\end{equation}
+und die Vergleichung von (5) mit (9) ergiebt:
+\begin{equation}
+ AB=C,\tag{10}
+\end{equation}
+und für die Unterdeterminanten:
+\begin{equation}
+ C_k^{(h)}=\sum_i A_k^{(i)}B_h^{(i)}.\tag{11}
+\end{equation}
+In dieser Schlussweise ist aber noch eine Lücke, bedingt durch den Zweifel, ob sich (5) von (9) nicht durch einen beiden Seiten gemeinschaftlichen Factor unterscheiden könnte. Um diesem Zweifel zu begegnen, wollen wir die Gleichung (10) direct beweisen, woraus dann die Richtigkeit von (11) folgt.

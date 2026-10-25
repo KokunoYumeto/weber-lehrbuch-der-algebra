@@ -1,0 +1,57 @@
+% !PRINTED 157
+\weberpage{157}
+
+This expression now shows that $R$, apart from the factor
+$(-1)^{mn}$, depends on $\varphi(x)$ in the same way as
+on $f(x)$, and that we may therefore also set
+
+\weq{7}{(-1)^{mn}\, R = b_0^n\, f(\beta_1)\, f(\beta_2)\, \ldots\, f(\beta_m).}
+
+The discriminants are accordingly a special case of the
+resultants, which one obtains when one takes for $\varphi(x)$ the derivative
+$f'(x)$.
+
+\gesperrt{The vanishing of the resultant of $f(x)$ and
+$\varphi(x)$ is the necessary and sufficient condition
+for the two equations}
+
+\[ f(x) = 0 \quad \text{and} \quad \varphi(x) = 0 \]
+
+\gesperrt{to have a common root.}
+
+The equation that arises by setting the resultant equal to zero
+is also called the \gesperrt{final equation} from $f(x) = 0$ and $\varphi(x) = 0$,
+and the setting up of the \gesperrt{final equation} the \gesperrt{elimination}
+of $x$.
+
+For the computation of resultants one may apply the algorithm
+of the greatest common divisor (\S.\,6). For if
+$m \leqq n$, one can determine an integral function $Q$ and a like
+ function $\psi(x)$, whose degree is smaller than $m$, in such a way
+ that
+
+\[ f(x) = Q\varphi(x) + \psi(x), \]
+
+and hence, if one puts for $x$ one of the roots $\beta_i$,
+
+\[ f(\beta_i) = \psi(\beta_i), \]
+
+hence
+
+\weq{8}{b_0^n \overset{i}{\Pi} f(\beta_i) = b_0^n \overset{i}{\Pi} \psi(\beta_i);}
+
+if $m'$ is the degree of $\psi(x)$, then
+
+\weq{9}{b_0^{m'} \overset{i}{\Pi} \psi(\beta_i) = R'}
+
+is the resultant of $\varphi(x)$ and $\psi(x)$, and therefore
+
+\weq{10}{R = b_0^{n-m'}\, R'.}
+
+The formation of the resultant $R$ is hereby reduced to the formation
+of $R'$. One can now divide $\varphi(x)$ again by $\psi(x)$,
+and thus reduces the formation of $R'$ to the formation of a
+resultant of functions of ever lower degree, until
+one finally arrives at a constant, i.\,e. a function of the
+coefficients $a$, $b$, which must be identical with the resultant
+ sought.

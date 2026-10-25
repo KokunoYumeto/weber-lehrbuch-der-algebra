@@ -1,0 +1,39 @@
+% !PRINTED 118
+\weberpage{118}
+%<<CONT
+\gesperrt{bleibt ungeändert, wenn man $\omega_1$, $\omega_2$ durch $\omega_1'$, $\omega_2'$ ersetzt, d.\,h. wenn man irgend eine lineare Transformation anwendet, oder:}
+
+\weq{7}{\sigma(u,\omega_1',\omega_2') = \sigma(u,\omega_1,\omega_2).}
+Die durch (6) definierte Funktion bleibt, wie eine einfache Rechnung zeigt, ungeändert, wenn man $t$ durch irgend eine verwandte $t$-Funktion ersetzt.
+
+Die Funktion $t(u)$ hat nach Voraussetzung die Charakteristik $(1,1)$ und ihre Nullpunkte sind also kongruent mit 0. Demnach hat $t(-u)$ dieselben Nullpunkte und daher auch denselben Charakter wie $t(u)$. Beide Funktionen unterscheiden sich also nur durch einen Exponentialfaktor voneinander, und es ergibt sich leicht, wenn man einen konstanten Faktor aus $u = 0$ bestimmt:
+\[
+t(-u) = -e^{2\pi i \mu u} t(u),
+\]
+worin $\mu$ eine Konstante ist.
+
+Differentiiert man diese Gleichung zweimal nach $u$ und setzt dann $u = 0$, so folgt
+\[
+2\pi i \mu = -\frac{t''}{t'},
+\]
+und daraus ergibt sich nach (6), daß die Funktion $\sigma(u)$ der Bedingung
+
+\weq{8}{\sigma(-u) = -\sigma(u)}
+genügt, also eine \gesperrt{ungerade} Funktion von $u$ ist.
+
+Da $\sigma(u)$ eine $t$-Funktion erster Ordnung ist, so genügt es den beiden Bedingungen:
+\[
+\begin{aligned}
+\sigma(u+\omega_1) &= c_1 e^{\eta_1(2u+\omega_1)} \sigma(u),\\
+\sigma(u+\omega_2) &= c_2 e^{\eta_2(2u+\omega_2)} \sigma(u),
+\end{aligned}
+\]
+worin $c_1$, $c_2$, $\eta_1$, $\eta_2$ Konstanten sind. Die Funktion $\sigma(u)$ verschwindet für $u = 0$, aber nicht für $u = \frac{1}{2}\omega_1$, $u = \frac{1}{2}\omega_2$, und wenn man also in den vorstehenden Formeln $u = -\frac{1}{2}\omega_1$, $-\frac{1}{2}\omega_2$ setzt, so ergibt sich nach (8) $c_1 = -1$, $c_2 = -1$, also die Formeln:
+
+\weq{9}{\begin{aligned}
+\sigma(u+\omega_1) &= -e^{\eta_1(2u+\omega_1)} \sigma(u), \\
+\sigma(u+\omega_2) &= -e^{\eta_2(2u+\omega_2)} \sigma(u).
+\end{aligned}}
+Die hierdurch eingeführten $\eta_1$, $\eta_2$ sind Funktionen von $\omega_1$, $\omega_2$, die nach der Relation \S\,17, (10) (worin $\pi i a_1$, $\pi i a_2$, $m$ durch $-\eta_1$, $-\eta_2$, $1$ zu ersetzen ist) die Gleichung befriedigen:
+
+\weq{10}{\eta_1 \omega_2 - \eta_2 \omega_1 = \pi i.}

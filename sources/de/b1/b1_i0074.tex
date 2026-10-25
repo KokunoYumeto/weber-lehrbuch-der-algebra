@@ -1,0 +1,60 @@
+% !PRINTED 49
+\weberpage{49}
+%<<CONT
+
+\gesperrt{völlig bestimmt ist, so folgt, dass aus den ganzen rationalen Functionen \(n\)ten Grades \(f(x)\) alle arithmetischen Reihen \(n\)ter Ordnung erzeugt werden, wenn man darin für \(x\) die Reihe der natürlichen Zahlen setzt.}
+
+Der Ausdruck des allgemeinen Gliedes ist dann durch die Formel (7) des vorigen Paragraphen gegeben.
+
+Die Summen der \(m+1\) ersten Glieder einer arithmetischen Reihe \(n\)ter Ordnung
+\[
+s_m=u_0+u_1+\cdots+u_m
+\]
+bilden eine arithmetische Reihe \((n+1)\)ter Ordnung, da ihre ersten Differenzen
+\[
+s_{m+1}-s_m=u_{m+1}
+\]
+eine arithmetische Reihe \(n\)ter Ordnung bilden.
+
+Es lässt sich also mit Hülfe der Formel (7) des \S~10 die Summe \(s_m\) allgemein bestimmen, wenn man \(s_0,s_1,\ldots,s_{n+1}\) als bekannt annimmt.
+
+Um die erzeugende Function \(F(x)\) von \(s_m\) zu finden, wenn \(f(x)\) die erzeugende Function von \(u_m\) ist, setzt man
+\[
+F(0)=f(0),
+\]
+\[
+F(1)=f(0)+f(1),
+\]
+\[
+F(2)=f(0)+f(1)+f(2),
+\]
+\[
+\cdots\cdots\cdots\cdots
+\]
+und hat dann in der Formel (7), \S~10:
+\[
+F(x)=F(0)+D_0B_1^{(x)}+D'_0B_2^{(x)}+\cdots
+\]
+zu setzen:
+\[
+\begin{aligned}
+D_0&=F(1)-F(0)=f(1),&
+D'_0&=f(2)-f(1)=\Delta_1,\\
+D_1&=F(2)-F(1)=f(2),&
+D'_1&=f(3)-f(2)=\Delta_2,\\
+D_2&=F(3)-F(2)=f(3),&
+D''_0&=\Delta_2-\Delta_1=\Delta'_1.
+\end{aligned}
+\]
+So erhält man
+\begin{equation}
+F(x)=f(0)+f(1)B_1^{(x)}+\Delta_1B_2^{(x)}+\Delta'_1B_3^{(x)}+\cdots.
+\tag{4}
+\end{equation}
+
+Nehmen wir z.\ B. \(f(x)=x^2\), so giebt uns \(F(m)\) die Summe der \(m\) ersten Quadratzahlen. Es ist
+\[
+\Delta_x=2x+1,\qquad \Delta'_x=2,
+\]
+also
+%CONT>>

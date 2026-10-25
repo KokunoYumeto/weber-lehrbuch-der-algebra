@@ -1,0 +1,56 @@
+% !PRINTED 225
+\weberpage{225}
+Hierzu ist noch zu bemerken, dass die überzählig eingeführten
+Variabeln $t_n, t_{n+1} \ldots$ in der zweiten Form von $E_{0,s}, E_{1,s} \ldots E_{s-1,s}$
+bereits wieder eliminirt sind, und dass die Variable $t_{n-1}$ nur
+in $E_{s,s}$ vorkommt.
+
+\begin{center}
+\S.\,73.
+
+\gesperrt{Die Bezoutiante.}
+\end{center}
+
+Die Gleichung (4) des vorigen Paragraphen wird, entwickelt,
+die Gestalt haben
+\[
+y^n + P_1 y^{n-1} + P_2 y^{n-2} + \cdots + P_n = 0,
+\]
+oder wenn wir $t_{n-1}$ so bestimmen, dass $S(y) = 0$ wird,
+\weq{1}{y^n + P_2 y^{n-2} + \cdots + P_n = 0;}
+darin ist dann
+\[
+- 2 P_2 = S(y^2)
+\]
+eine Function zweiten Grades in Bezug auf die $t$ und in Bezug
+auf die $a$. Diese Function ist für viele Anwendungen besonders
+wichtig und hat von \gesperrt{Sylvester} den Namen Bezoutiante
+der Function $f(x)$ erhalten, zu Ehren des französischen Mathematikers
+\gesperrt{Bezout}, der schon im vorigen Jahrhundert die ersten
+richtigen Ausführungen über Elimination gegeben hat.
+
+Nach den Formeln des letzten Paragraphen lässt sich diese
+Function verhältnissmässig einfach berechnen. Wir führen zunächst
+neben den Variablen $t_{n-1}, t_{n-2} \ldots t_0$ noch ein zweites
+System davon unabhängiger Variabeln $\tau_{n-1}, \tau_{n-2} \ldots \tau_0$ ein und
+setzen
+\weq{2}{
+\begin{aligned}
+y &= t_{n-1} f_0 + t_{n-2} f_1 + \cdots + t_0 f_{n-1} \\
+z &= \tau_{n-1} f_0 + \tau_{n-2} f_1 + \cdots + \tau_0 f_{n-1}.
+\end{aligned}
+}
+Statt nun $S(y^2)$ zu bilden, berechnen wir zunächst $S(yz)$,
+woraus dann $S(y^2)$ hervorgeht, wenn man die $\tau$ gleich den $t$
+setzt.
+
+Wenn man die Formel (3) des vorigen Paragraphen
+\weq{3}{y f_s = E_{0,s} f_0 + E_{1,s} f_1 + \cdots + E_{n-1,s} f_{n-1}}
+mit $\tau_{n-s-1}$ multiplicirt und dann in Bezug auf $s$ von $0$ bis $n-1$
+summirt, so findet man
+\weq{4}{
+\begin{aligned}
+y z = {} & f_0 \sum_{0,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + f_1 \sum_{0,\,n-1}^{s} E_{1,s} \tau_{n-s-1} + \cdots + f_{n-1} \sum_{0,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1}.
+\end{aligned}
+}

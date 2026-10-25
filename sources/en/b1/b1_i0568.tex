@@ -1,0 +1,24 @@
+% !PRINTED 543
+\weberpage{543}
+
+%<<CONT
+sequence of numbers $0, 1 \ldots m-1$, then for the equations (2), (3) we can set
+\[
+m\alpha = \overset{\lambda}{\Sigma}(\varepsilon^\lambda, \alpha), \quad m\alpha_k = \overset{\lambda}{\Sigma}\varepsilon^{-\lambda k}(\varepsilon^\lambda, \alpha).
+\]
+We investigate these resolvents $(\varepsilon, \alpha)$ first as functions of the $m$ \gesperrt{independent variables} $\alpha$, and, for the sake of a simpler presentation of the formulae, we shall agree that $\alpha_m = \alpha_0 = \alpha$, and in general that $\alpha_h = \alpha_k$ shall hold whenever $h \equiv k \pmod{m}$. We then obtain the whole system of the variables $\alpha$ when in $\alpha_h$ we let the index run through a complete system of residues to the modulus $m$.
+
+For these resolvents the following theorems now hold.
+
+1. \gesperrt{If one applies to the indices of the $\alpha$ the cyclic permutation $\pi = (0, 1, \ldots m-1)$, then $(\varepsilon, \alpha)$ passes into $\varepsilon^{-1}(\varepsilon, \alpha)$, and by the permutation $\pi^k$, $(\varepsilon, \alpha)$ passes into $\varepsilon^{-k}(\varepsilon, \alpha)$.}
+
+This is shown immediately by the definition (1) of the resolvents.
+
+We further understand by $\nu$ an arbitrary positive exponent, and form $(\varepsilon, \alpha)^\nu$ according to the polynomial theorem. In the developed power we set $\varepsilon^m = 1$ and then arrange according to powers of $\varepsilon$. There then results an expression of the form
+\weq{5}{\begin{split}(\varepsilon, \alpha)^\nu &= A_0^{(\nu)} + \varepsilon A_1^{(\nu)} + \varepsilon^2 A_2^{(\nu)} + \cdots + \varepsilon^{m-1}A_{m-1}^{(\nu)}\\ &= \sum_{0,\,m-1}^{h} \varepsilon^h A_h^{(\nu)},\end{split}}
+in which the $A_0^{(\nu)}, A_1^{(\nu)} \ldots A_{m-1}^{(\nu)}$ are forms of degree $\nu$ with integral coefficients and the variables $\alpha$, but independent of $\varepsilon$. Here too let $A_h = A_k$ hold whenever $h \equiv k \pmod{m}$. We then prove the theorem:
+
+2. \gesperrt{If one applies to the indices of the $\alpha$ the cyclic permutation $\pi$, then the indices of the coefficients of $(\varepsilon, \alpha)^\nu$ undergo the cyclic permutation $\pi^\nu$, i.\,e. $A_h^{(\nu)}$ passes into $A_{h+\nu}^{(\nu)}$.}
+
+To prove this, we remark that the formula (5) remains correct for every arbitrary $m$th root of unity $\varepsilon$, including $1$, and accordingly there follows from (2)
+\weq{6}{mA_k^{(\nu)} = \overset{\varepsilon}{\Sigma}\varepsilon^{-k}(\varepsilon, \alpha)^\nu.}

@@ -1,0 +1,52 @@
+% !PRINTED 11
+\weberpage{11}
+
+%<<CONT
+results in the three cases:
+
+\[
+\begin{array}{ll}
+1) & \dfrac{dx}{\sqrt{-x(1-x)(1-\lambda^2x)}}, \\[10pt]
+2) & \dfrac{\lambda\,dx}{\sqrt{x(1-x)(1-\lambda^2x)}}, \\[10pt]
+3) & \dfrac{dx}{\sqrt{x(1-x)(1-\lambda^2x)}}.
+\end{array}
+\]
+
+\begin{center}
+\textbf{\S\,4. The \gesperrt{Legendre} Normal Form.}
+\end{center}
+
+If the function $f(x)$, which stands under the root sign in the elliptic differential, has real coefficients, then three cases are possible:
+
+1. $f(x)$ has four real roots $x_1$, $x_2$, $x_3$, $x_4$;
+
+2. $f(x)$ has two real roots $x_1$, $x_2$ and a pair of conjugate imaginary roots $x_3$, $x_4$;
+
+3. $f(x)$ has two pairs of conjugate imaginary roots $x_1$, $x_2$ and $x_3$, $x_4$.
+
+In all three cases the elliptic differential can be brought by a real linear transformation into the form:
+
+\weq{1}{\dfrac{dz}{\sqrt{(z^2-\alpha)(z^2-\beta)}},}
+
+in which $\alpha$ and $\beta$ are real (positive or negative) constants.
+
+We determine the linear dependence between the variables $x$ and $z$ in such a way that the following values correspond to one another:
+
+\weq{2}{\begin{array}{ccccc}
+x, & x_1, & x_2, & x_3, & x_4, \\
+z, & \sqrt{\alpha}, & -\sqrt{\alpha}, & \sqrt{\beta}, & -\sqrt{\beta},
+\end{array}}
+
+and obtain a substitution of the form:
+
+\weq{3}{h\,\dfrac{x-x_1}{x-x_2} = \dfrac{z-\sqrt{\alpha}}{z+\sqrt{\alpha}}.}
+
+In order to determine $h$ we set $x = x_3$, $x = x_4$ and correspondingly $z = \sqrt{\beta}$, $z = -\sqrt{\beta}$, and obtain
+
+\[
+h\,\dfrac{(x_3x_1)}{(x_3x_2)} = \dfrac{\sqrt{\beta}-\sqrt{\alpha}}{\sqrt{\beta}+\sqrt{\alpha}}, \quad h\,\dfrac{(x_4x_1)}{(x_4x_2)} = \dfrac{\sqrt{\beta}+\sqrt{\alpha}}{\sqrt{\beta}-\sqrt{\alpha}}.
+\]
+
+From this, by multiplication and division,
+
+\weq{4}{h = \sqrt{\dfrac{(x_3x_2)(x_4x_2)}{(x_3x_1)(x_4x_1)}}, \quad \dfrac{\sqrt{\alpha}-\sqrt{\beta}}{\sqrt{\alpha}+\sqrt{\beta}} = \sqrt{\dfrac{(x_3x_1)(x_4x_2)}{(x_3x_2)(x_4x_1)}}.}

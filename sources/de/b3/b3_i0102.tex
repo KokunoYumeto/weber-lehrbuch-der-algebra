@@ -1,0 +1,44 @@
+% !PRINTED 81
+\weberpage{81}
+%<<CONT
+so ergibt sich aus (21) für $g_1', g_2' = 1,1$:
+\[
+0 = \sum\limits^{g_1,g_2} (-1)^{g_1+g_2}\,\vartheta_{g_1,g_2}(u)\vartheta_{g_1,g_2}(v)\vartheta_{g_1,g_2}(w)\vartheta_{g_1,g_2}(u+v+w),
+\]
+und hieraus erhält man dann, wenn man in (21) für $g_1', g_2'$ die drei anderen Charakteristiken setzt, die Formeln (12), (13), (14).
+
+\begin{center}
+\textbf{\S\,23. \gesperrt{Die Derivierten der $\vartheta$-Funktionen.}}
+\end{center}
+
+Wir bezeichnen im folgenden durch $\vartheta'_{g_1,g_2}(v)$, $\vartheta''_{g_1,g_1}(v)$ % [sic] printed subscript \textquotedbl{}g_1,g_1\textquotedbl{}, expected g_1,g_2
+die nach $v$ genommenen Derivierten der Funktion $\vartheta_{g_1,g_2}(v)$, und mit $\vartheta'_{g_1,g_2}$, $\vartheta''_{g_1,g_2}$ die Werte dieser Funktion für $v=0$. Es verschwinden dann $\vartheta'_{01}$, $\vartheta'_{10}$, $\vartheta'_{00}$, weil $\vartheta_{01}(v)$, $\vartheta_{10}(v)$, $\vartheta_{00}(v)$ \gesperrt{gerade} Funktionen von $v$ sind, und ebenso verschwindet $\vartheta''_{11}$.
+
+Die sechs Funktionen
+\[
+\vartheta_{g_1,g_2}(v)\vartheta'_{g_1',g_2'}(v) - \vartheta_{g_1',g_2'}(v)\vartheta'_{g_1,g_2}(v)
+\]
+sind, wie aus den Fundamentalgleichungen \S\,20, (1) hervorgeht, $\vartheta$-Funktionen zweiter Ordnung mit der Charakteristik
+\[
+(g_1+g_1', g_2+g_2'),
+\]
+und zugleich entweder gerade oder ungerade Funktionen, wonach sie sich nach \S\,21 durch $\vartheta$-Funktionen darstellen lassen. Ein konstanter Faktor wird durch einen speziellen Wert von $v$ ($v=0$) bestimmt. So ist
+\weq{1}{\vartheta_{11}'(v)\vartheta_{01}(v) - \vartheta_{01}'(v)\vartheta_{11}(v) = A\,\vartheta_{10}(v)\vartheta_{00}(v).}
+\weq{2}{A = \frac{\vartheta_{11}'\,\vartheta_{01}}{\vartheta_{10}\,\vartheta_{00}}.}
+
+Dieser Ausdruck für $A$ läßt sich aber noch vereinfachen.
+
+Differentiieren wir (1) zweimal nach $v$ und setzen dann $v=0$, so folgt
+\[
+\vartheta_{11}'''\vartheta_{01} - \vartheta_{01}''\vartheta_{11}' = A(\vartheta_{10}''\vartheta_{00} + \vartheta_{10}\vartheta_{00}''),
+\]
+und wenn man für $A$ den Wert (2) einführt:
+\weq{3}{\frac{\vartheta_{11}'''}{\vartheta_{11}'} = \frac{\vartheta_{01}''}{\vartheta_{01}} + \frac{\vartheta_{10}''}{\vartheta_{10}} + \frac{\vartheta_{00}''}{\vartheta_{00}}.}
+
+Nun genügen aber [nach \S\,20, (4)] die vier Funktionen $\vartheta_{11}'$, $\vartheta_{01}$, $\vartheta_{10}$, $\vartheta_{00}$ der Differentialgleichung
+\weq{4}{\vartheta'' = 4\pi i\,\frac{\partial \vartheta}{\partial \omega},}
+und danach läßt sich (3) so schreiben:
+\[
+\frac{d\log \vartheta_{11}'}{d\omega} = \frac{d\log \vartheta_{00}\vartheta_{10}\vartheta_{01}}{d\omega},
+\]
+%CONT>>

@@ -1,0 +1,47 @@
+% !PRINTED 133
+\weberpage{133}
+%<<CONT
+first that $\beta$ is \gesperrt{even} and consequently that $\alpha, \delta$ are odd, then
+\weq{1}{
+\begin{pmatrix}1, & 0\\ 0, & 2\end{pmatrix}\begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}
+= \begin{pmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{pmatrix}\begin{pmatrix}1, & 0\\ 0, & 2\end{pmatrix},
+}
+that is,
+\[
+2\,\frac{\gamma+\delta\omega}{\alpha+\beta\omega} = \frac{2\gamma+\delta.2\omega}{\alpha+\frac{1}{2}\beta.2\omega}.
+\]
+But by § 34, (9) we have:
+\[
+f_2(\omega) = \sqrt{2}\,\frac{\eta(2\omega)}{\eta(\omega)},
+\]
+and if we therefore carry out the substitution
+\[
+\omega,\ \frac{\gamma+\delta\omega}{\alpha+\beta\omega}
+\]
+then, using the notation of § 38, we obtain
+\weq{2}{
+f_2\!\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right)
+= \frac{E\!\left(\begin{smallmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{smallmatrix}, 2\omega\right)}{E\!\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right)}\, f_2(\omega).
+}
+Here the $E$-functions are to be determined according to § 38, (15), 1., from which it follows:
+\[
+\frac{E\!\left(\begin{smallmatrix}\alpha, & \frac{1}{2}\beta\\ 2\gamma, & \delta\end{smallmatrix}, 2\omega\right)}{E\!\left(\begin{smallmatrix}\alpha, & \beta\\ \gamma, & \delta\end{smallmatrix}, \omega\right)}
+= \left(\frac{2}{\alpha}\right) e^{\frac{\pi i}{12}\left(\alpha\gamma + \frac{\alpha\beta}{2} + (\alpha^2-1)\frac{\beta\delta}{2}\right)}.
+\]
+But $\dfrac{1}{24} = \dfrac{3}{8} - \dfrac{1}{3}$, and
+\[
+\alpha\gamma + \frac{\alpha\beta}{2} + (\alpha^2-1)\frac{\beta\delta}{2} \equiv \frac{\alpha(2\gamma+\beta)}{2} \pmod{8}
+\]
+\[
+\equiv \alpha(\gamma-\beta) - (\alpha^2-1)\beta\delta \pmod{3},
+\]
+and if we therefore put, for brevity,
+\weq{3}{
+\varrho = e^{-\frac{2\pi i}{3}\left[\alpha(\gamma-\beta) - (\alpha^2-1)\beta\delta\right]}
+}
+then from (2) we obtain:
+\weq{4}{
+f_2\!\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right) = \left(\frac{2}{\alpha}\right)\varrho\, e^{\frac{3\pi i}{8}\alpha(2\gamma+\beta)}\, f_2(\omega), \qquad \beta \equiv 0 \pmod{2}.
+}
+In the same way all the other formulae of this kind may be derived; but they are obtained more simply from (4) itself by using the fundamental transformations § 34, (13), (14), (15). Thus, if in (4) one replaces $\omega$ by $-1:\omega$ and then interchanges $\alpha, \beta, \gamma, \delta$ with $\beta, -\alpha, \delta, -\gamma$ (whereby $\varrho$ remains unchanged), it follows that:
+%CONT>>

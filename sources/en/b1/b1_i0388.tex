@@ -1,0 +1,39 @@
+% !PRINTED 363
+\weberpage{363}
+
+If we assume the formula (2) as already proved for $n$, then, setting
+\[
+x_n = a_n + \frac{1}{x_{n+1}}
+\]
+we obtain:
+\[
+x = \frac{(P_n a_n + P_{n-1}) x_{n+1} + P_n}{(Q_n a_n + Q_{n-1}) x_{n+1} + Q_n}.
+\]
+\gesperrt{But this is the formula that results from (2) by permutation of $n$ with $n+1$, if we adopt the following law of formation for the $P_n$, $Q_n$:}
+\weq{3}{
+\begin{aligned}
+P_{n+1} &= a_n P_n + P_{n-1} \\
+Q_{n+1} &= a_n Q_n + Q_{n-1}.
+\end{aligned}
+}
+
+These formulas completely determine the $P_n$, $Q_n$ for $n = 2, 3, 4 \ldots$, if we further add the determination:
+\weq{4}{
+\begin{aligned}
+P_0 &= 1, & P_1 &= a_0, \\
+Q_0 &= 0, & Q_1 &= 1.
+\end{aligned}
+}
+The fractions
+\[
+\frac{P_0}{Q_0}, \ \frac{P_1}{Q_1}, \ \frac{P_2}{Q_2} \ldots,
+\]
+of which the first, with the denominator zero, is introduced only formally, for the sake of uniformity, are called the \gesperrt{convergents} of the continued fraction (1), $P_n$ the numerator and $Q_n$ the denominator of the $n$th convergent.
+
+The law of formation (3) shows that, if the $a$ are integers, then $P_n$ and $Q_n$ are also integers. If the partial denominators from $a_1$ on are positive, then the denominators $Q_1, Q_2, Q_3 \ldots$ are all \gesperrt{positive} and increase with $n$, and indeed, since they are integers, to infinity. Only in the special case where $a_1 = 1$ is $Q_1 = Q_2 = 1$, and the increase begins only from $Q_3$ on, and we can therefore formulate the theorem:
+
+II. \gesperrt{If} $Q_{n-1}, Q_n$ \gesperrt{are the denominators of two successive convergents, then}
+\[
+0 \leqq Q_{n-1} \leqq Q_n, \quad Q_n = \infty \ \text{for} \ n = \infty,
+\]
+\gesperrt{where equality with the lower limit 0 can occur only for $n = 1$, and with the upper limit $Q_n$ only for $n = 2$.}

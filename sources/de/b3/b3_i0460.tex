@@ -1,0 +1,41 @@
+% !PRINTED 429
+\weberpage{429}
+%<<CONT
+ist aus $\varphi_1\varphi_2$ komponiert. Die Form $\varphi$ gehört in eine Klasse $k$, die aus $k_1,k_2$ \gesperrt{komponiert} heißt.
+
+Nehmen wir $\varphi=(a,b,c)$ so an, daß $a$ relativ prim zu $m$ ist, so ist auch $b$ relativ prim zu $a$ (wegen $m=4ac-b^2$). Ist $a=a_1a_2$, so sind auch $(a_1,b,ca_2)$, $(a_2,b,ca_1)$ einhellige primitive Formen, und man erhält die Komposition
+\[
+(a,b,c) = (a_1,b,ca_2),\ (a_2,b,ca), % [sic] source omits the expected subscript 1 on the final a.
+\]
+und durch wiederholte Anwendung dieses Satzes gelangt man zu dem Resultat:
+
+I. \gesperrt{Die Form $\varphi=(a,b,c)$ läßt sich, wenn $a$ relativ prim zu $m$ ist, aus solchen Formen zusammensetzen, deren erste Koeffizienten Primzahlen, nämlich die Primfaktoren von $a$ sind.}
+
+Eine dieser Komponenten, etwa
+\[
+(p,b,acp^{-1}),
+\]
+läßt sich durch eine äquivalente Form $(p,b',c'p^g)$ ersetzen, deren dritter Koeffizient $c'p^g$ durch eine beliebig hohe Potenz von $p$ teilbar ist.
+
+Um dies zu beweisen, brauchen wir für die Äquivalenz das Zeichen $\sim$, und haben
+\[
+(p,b,cp^{g-1}) \sim (p,b+2\lambda p^g,c'p^g),
+\]
+worin $c'$ wegen der Gleichheit der Diskriminanten aus
+\[
+pc' = c+\lambda b+\lambda^2 p^g
+\]
+zu bestimmen ist. Da nun $b$ durch $p$ nicht teilbar ist, so kann $\lambda$ aus der Kongruenz $c+\lambda b \equiv 0\ (\mathrm{mod}\ p)$ bestimmt werden, und $c'$ ergibt sich als ganze Zahl. Damit ist mit Rücksicht auf (I.) bewiesen:
+
+II. \gesperrt{Man kann in jeder Klasse $k$ von primitiven Formen der Diskriminante $D$ einen Repräsentanten $\varphi$ finden, der sich aus Formen}
+\[
+P=(p,b,p^gc),
+\]
+\gesperrt{worin $p$ eine in $D$ nicht aufgehende Primzahl, und $g$ ein beliebiger Exponent ist, zusammensetzen läßt.}
+
+Die Form $P$ läßt sich leicht mit sich selbst zusammensetzen, denn es ist im Sinne der Kompositionen, wenn $g>\nu$ ist:
+\[
+(p^\nu,b,p^{g-\nu}c)(p,b,p^gc) = (p^{\nu+1},b,p^{g-\nu-1}c),
+\]
+und folglich durch den Schluß von $\nu-1$ auf $\nu$:
+\weq{2}{P^\nu = (p^\nu,b,p^{g-\nu}c).}

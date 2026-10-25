@@ -1,0 +1,171 @@
+% Preamble for the swarm-transcribed Weber volumes.
+% Deliberately close to weber_v1_ge.tex so the verified p1-148 region and the swarm
+% region can live in one document.
+\documentclass[11pt]{article}
+\usepackage[ngerman]{babel}
+\usepackage[a4paper,margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[leqno]{amsmath}
+\usepackage{amssymb,mathtools,mathrsfs}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{array,longtable,enumitem,multicol}
+\usepackage{tikz}
+\usepackage{graphicx}
+\graphicspath{{../swarm_assets/b1/}{../swarm_assets/b2/}{../swarm_assets/b3/}{assets/b1/}{assets/b2/}{assets/b3/}}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.18em}
+\emergencystretch=6em
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+
+% --- Weber conventions -------------------------------------------------------
+% Sperrung (letter-spacing) is Weber's emphasis. There is no bold in his body text.
+\providecommand{\gesperrt}[1]{\textls[130]{#1}}
+% Printed-page marker: a no-op in the PDF. The machine-readable anchor is the
+% "% !PRINTED n" comment in the source, which the collector and Codex both read.
+\providecommand{\weberpage}[1]{}
+% Displayed equation numbered in the LEFT margin, as Weber prints them.
+\providecommand{\weq}[2]{\begin{equation}\tag{#1}#2\end{equation}}
+% Figure placeholder. A later pass replaces it with TikZ or a cleaned scan crop.
+% A marked gap is honest; a fabricated diagram is not.
+\providecommand{\weberfigure}[2]{%
+  \begin{center}\fbox{\parbox{0.78\linewidth}{\centering\small [Figur, S.~#1: #2]}}\end{center}}
+% Source-faithful figure crop.  The asset search path works both from the live
+% swarm_build directory and from a self-contained release bundle with assets/.
+\providecommand{\weberfigureimage}[2]{%
+  \begin{center}\includegraphics[width=#2\linewidth]{#1}\end{center}}
+
+% Text symbols agents reach for that are not always defined. Providing them in the preamble
+% fixes every occurrence at once and leaves the generated fragments untouched, which is the
+% right trade whenever the fix is "define the macro" rather than "change the text".
+\usepackage{textcomp}
+% amsmath caps matrix environments at 10 columns. Weber prints permutation matrices far wider
+% than that -- Bd III has an 11-column pmatrix of the w_nu -- and the failure is the opaque
+% "Extra alignment tab has been changed to \cr".
+\setcounter{MaxMatrixCols}{30}
+\providecommand{\textquotedblbase}{\glqq}
+\providecommand{\textquotedblleft}{``}
+\providecommand{\textquotedblright}{''}
+\providecommand{\textquotesinglbase}{\glq}
+
+% --- Greek capitals are SLANTED in this fount -------------------------------------------
+% RULING 2026-08-07, after the same observation was reported from five separate pages
+% (printed 271, 275, 285, 333 and the nu/v cousin on 172).
+%
+% Verified at 8x zoom on printed 333 (b1 idx 358): every capital Delta on that page --
+% "f(x) - f(alpha) = Delta", "Delta_alpha = f(alpha+delta) - f(alpha)" -- is the INCLINED
+% form, which LaTeX calls \varDelta. \Delta, LaTeX's default, is upright and is not what
+% Vieweg set. The same inclination is visible on capital Phi (printed 171, 282).
+%
+% This is a property of the TYPEFACE, not of any occurrence -- the same kind of fact as the
+% varkappa ruling -- so it holds wherever the letter appears, and the right fix is one line
+% here rather than several thousand edits across the fragments. \let leaves every fragment
+% untouched, applies to the whole corpus at once, and is reversible by deleting these lines.
+%
+% Delta and Phi are the two verified by eye. The rest follow from its being a single fount;
+% if any capital is later found upright on the page, delete its line and the fragments still
+% say exactly what they said before.
+\let\Gamma\varGamma
+\let\Delta\varDelta
+\let\Theta\varTheta
+\let\Lambda\varLambda
+\let\Xi\varXi
+\let\uprightPi\Pi
+\let\Pi\varPi
+\let\Sigma\varSigma
+\let\Upsilon\varUpsilon
+\let\Phi\varPhi
+\let\Psi\varPsi
+\let\Omega\varOmega
+% Lower-case rho is the OPEN-TAILED form in this fount. Verified at 10x on printed 419
+% ("wenn also überhaupt ein \varrho vorhanden ist"): the tail curves down and left rather than
+% descending straight, which is \varrho, not \rho. Same kind of fact as the capitals above, and
+% the same one-line treatment. (kappa is already handled: the fragments write \varkappa
+% explicitly, on the ruling recorded in resolve_class.py.)
+\let\rho\varrho
+
+% --- Fractions written in running text -------------------------------------------------
+% Gauss's German prose says things like "von 6\tfrac{1}{2} Jahren" and "\tfrac{1}{2} Grad":
+% a fraction as an ordinary word, not inside math. Bare \tfrac there is
+%     ! Missing $ inserted.
+% and the error points at the sentence, not at the macro.
+%
+% Wrapping the three fraction macros in \ensuremath fixes every occurrence at once and leaves
+% the fragments untouched -- the right trade whenever the fix is "define the macro" rather than
+% "change the text", as with the Greek capitals above. Inside math \ensuremath is a no-op, so
+% the thousands of legitimate in-math uses are unaffected.
+\let\swarmfrac\frac
+\let\swarmtfrac\tfrac
+\let\swarmdfrac\dfrac
+\renewcommand{\frac}[2]{\ensuremath{\swarmfrac{#1}{#2}}}
+\renewcommand{\tfrac}[2]{\ensuremath{\swarmtfrac{#1}{#2}}}
+\renewcommand{\dfrac}[2]{\ensuremath{\swarmdfrac{#1}{#2}}}
+
+% --- Unicode vulgar fractions -----------------------------------------------------------
+% Agents sometimes type the single Unicode glyph the page shows -- "erstere ⅔" -- rather than a
+% macro. utf8 inputenc has no default binding for U+2153..U+215E and stops the build with
+%     ! LaTeX Error: Unicode character ⅔ (U+2154)
+% Declaring them costs nothing, keeps the fragment reading exactly as the agent saw the page,
+% and is the same "define it in the preamble" trade as the fraction macros above. Typing the
+% glyph is not wrong; it is arguably closer to the page than \tfrac would be.
+\DeclareUnicodeCharacter{2153}{\ensuremath{\swarmtfrac{1}{3}}}
+\DeclareUnicodeCharacter{2154}{\ensuremath{\swarmtfrac{2}{3}}}
+\DeclareUnicodeCharacter{2155}{\ensuremath{\swarmtfrac{1}{5}}}
+\DeclareUnicodeCharacter{2156}{\ensuremath{\swarmtfrac{2}{5}}}
+\DeclareUnicodeCharacter{2157}{\ensuremath{\swarmtfrac{3}{5}}}
+\DeclareUnicodeCharacter{2158}{\ensuremath{\swarmtfrac{4}{5}}}
+\DeclareUnicodeCharacter{2159}{\ensuremath{\swarmtfrac{1}{6}}}
+\DeclareUnicodeCharacter{215A}{\ensuremath{\swarmtfrac{5}{6}}}
+\DeclareUnicodeCharacter{215B}{\ensuremath{\swarmtfrac{1}{8}}}
+\DeclareUnicodeCharacter{215C}{\ensuremath{\swarmtfrac{3}{8}}}
+\DeclareUnicodeCharacter{215D}{\ensuremath{\swarmtfrac{5}{8}}}
+\DeclareUnicodeCharacter{215E}{\ensuremath{\swarmtfrac{7}{8}}}
+% Prime and double prime: arcminutes and arcseconds. Gauss's geodesy and astronomy volumes are
+% full of "43° 37' 6\"741", and agents type the true Unicode prime characters rather than the
+% ASCII apostrophe -- which is right, since that is what the page prints.
+\DeclareUnicodeCharacter{2032}{\ensuremath{{}^{\prime}}}
+\DeclareUnicodeCharacter{2033}{\ensuremath{{}^{\prime\prime}}}
+\DeclareUnicodeCharacter{2034}{\ensuremath{{}^{\prime\prime\prime}}}
+\DeclareUnicodeCharacter{00BD}{\ensuremath{\swarmtfrac{1}{2}}}
+\DeclareUnicodeCharacter{00BC}{\ensuremath{\swarmtfrac{1}{4}}}
+\DeclareUnicodeCharacter{00BE}{\ensuremath{\swarmtfrac{3}{4}}}
+
+% Macros agents invent for a text fraction. \textfrac is not a real LaTeX command, but the
+% intent is unambiguous and providing it is cheaper and safer than rewriting the fragment --
+% the alternative is editing a table cell by hand and risking its alignment.
+\providecommand{\textfrac}[2]{\ensuremath{\swarmtfrac{#1}{#2}}}
+
+% Common shorthands inherited from the volume I file, so fragments that use them compile.
+\providecommand{\eps}{\varepsilon}
+\providecommand{\ii}{\mathrm{i}}
+\providecommand{\tg}{\operatorname{tg}}
+% Gauss writes the trigonometric functions in the period's Latin abbreviations -- "tang" for
+% tangent, "cotang" for cotangent -- rather than Weber's "tg"/"cotg". Same function, different
+% century's shorthand; both are reproduced as the author sets them.
+\providecommand{\tang}{\operatorname{tang}}
+\providecommand{\cotang}{\operatorname{cotang}}
+\providecommand{\arctang}{\operatorname{arc\,tang}}
+\providecommand{\ctg}{\operatorname{cotg}}
+\providecommand{\cotg}{\operatorname{cotg}}
+\providecommand{\sn}{\operatorname{sn}}
+\providecommand{\cn}{\operatorname{cn}}
+\providecommand{\dn}{\operatorname{dn}}
+\providecommand{\am}{\operatorname{am}}
+\providecommand{\dd}{\,d}
+\providecommand{\tht}{\vartheta}
+\providecommand{\vark}{\varkappa}
+\providecommand{\Norm}{\operatorname{N}}
+\providecommand{\ord}{\operatorname{ord}}
+\providecommand{\ind}{\operatorname{ind}}
+\providecommand{\abs}[1]{\left|#1\right|}
+\providecommand{\sect}[2]{\section*{\S.\,#1. #2}}
+\providecommand{\frp}{\mathfrak p}
+\providecommand{\frP}{\mathfrak P}
+\providecommand{\frG}{\mathfrak G}
+\providecommand{\frA}{\mathfrak A}
+\providecommand{\frB}{\mathfrak B}

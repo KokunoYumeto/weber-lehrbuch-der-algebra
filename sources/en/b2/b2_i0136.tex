@@ -1,0 +1,30 @@
+% !PRINTED 115
+\weberpage{115}
+For any arbitrary degree number $n$ we always have one, namely the cyclic group, which we obtain if we take $a^n = 1$ and assume the $n$ elements
+\[
+1, a, a^2 \ldots a^{n-1}
+\]
+to be distinct.
+
+If $n$ is a prime, then this is the only group of degree $n$ (if isomorphic groups are regarded as identical). For the degree of every element of a group is a divisor of the degree of the group, and hence in a group of prime degree every element, with the exception of the unit element, has degree $n$.
+
+To represent a group of degree $n$ completely, one would have to construct a square table with $n^2$ cells; arranged in $n$ rows and $n$ columns. One designates each row and each column by one of the given elements, and places in the cell in which these two intersect the composed element, where, say, the row indicator denotes the first component and the column indicator the second:
+\[
+\begin{array}{c!{\vrule width 0.8pt}c|c|c|c}
+ & 1 & \alpha & \beta & \gamma \ldots \\
+\noalign{\hrule height 0.8pt}
+1 & 1 & \alpha & \beta & \gamma \ldots \\ \hline
+\alpha & \alpha & \alpha^2 & \alpha\beta & \alpha\gamma \ldots \\ \hline
+\beta & \beta & \beta\alpha & \beta^2 & \beta\gamma \ldots \\ \hline
+\gamma & \gamma & \gamma\alpha & \gamma\beta & \gamma^2 \ldots \\
+\multicolumn{5}{c}{\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots}
+\end{array}
+\]
+
+But the cells of such a table cannot be filled in with the elements quite arbitrarily; rather, one must keep to the associative law, so that, when one looks up $\alpha\beta\gamma$ by first finding in the row $\alpha$ and the column $\beta$ the element $(\alpha\beta)$, and then in the row $(\alpha\beta)$ and the column $\gamma$ the element $(\alpha\beta)\gamma$, one finds the same result as when one first looks up $(\beta\gamma)$ in the row $\beta$ and the column $\gamma$, and then $\alpha(\beta\gamma)$ in the row $\alpha$ and the column $(\beta\gamma)$.
+
+For $n = 4$ we have, if an element of degree $4$ exists, the cyclic group
+\[
+1, \alpha, \alpha^2, \alpha^3,
+\]
+%CONT>>

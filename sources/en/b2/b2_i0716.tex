@@ -1,0 +1,47 @@
+% !PRINTED 693
+\weberpage{693}
+Now one changes the order of integration and puts first a second imaginary pair, if such a pair is still present, which is then treated again in the same way.
+
+The various parts $U_1, U_2, \ldots$ differ in the signs of the $u$ corresponding to the real $y$. If we take the sign so that $\pm u$ becomes positive, and set
+
+\weq{8}{z = \log(\pm u), \quad \pm du = e^z\,dz,}
+
+then for the various $U_1, U_2, \ldots$ we obtain the same expression by means of a $\nu$-fold integral
+
+\weq{9}{U_1 = \pi^{n-\nu}\int\int\cdots\int e^{z_1+z_2+\cdots+z_\nu}\,dz_1\,dz_2\ldots dz_\nu,}
+
+provided we assume $dz_1, dz_2, \ldots, dz_\nu$ to be positive.
+
+But by (6) and (8) the variables $z_k$ are here none other than those in §. 189, (8), (9), (10), and accordingly
+
+\[
+z_1+z_2+\cdots+z_\nu = n\xi_\nu.
+\]
+
+If we now apply the transformation formula (1) to the $\nu$-fold integral (9) in order to introduce the variables $\xi_1, \xi_2, \ldots, \xi_\nu$, then we have to form the determinant
+
+\[
+\Sigma\pm\frac{\partial z_1}{\partial\xi_1}\frac{\partial z_2}{\partial\xi_2}\cdots\frac{\partial z_\nu}{\partial\xi_\nu}
+\]
+
+which by §. 188, (3) agrees in absolute value with $nL$, that is, with the $n$-fold value of the \gesperrt{field regulator} $L$, and accordingly
+
+\[
+U_1 = \pi^{n-\nu}nL\int\limits_0^1 d\xi_1\ldots\int\limits_0^1 d\xi_{\nu-1}\int\limits_{-\infty}^0 e^{n\xi_\nu}\,d\xi_\nu = \pi^{n-\nu}L
+\]
+
+and
+
+\[
+U = 2^{2\nu-n}\pi^{n-\nu}L.
+\]
+
+From this there follows at last, by (4), the theorem:
+
+1. \gesperrt{If $T$ denotes the number of non-associated integers divisible by $\mathfrak{a}$ whose absolute norm is less than $t$, then}
+
+\weq{10}{\mathop{\mathrm{Lim}}\limits_{t=\infty}\frac{T}{t} = \frac{2^\nu\pi^{n-\nu}L}{w\,N(\mathfrak{a})\sqrt{\pm\varDelta}} = \frac{g}{N(\mathfrak{a})},}
+
+\gesperrt{where $g$ is a positive number completely determined by the nature of the field $\Omega$, namely:}
+
+\weq{11}{g = \frac{2^\nu\pi^{n-\nu}L}{w\sqrt{\pm\varDelta}}.}

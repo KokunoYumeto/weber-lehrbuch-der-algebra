@@ -1,0 +1,42 @@
+% !PRINTED 573
+\weberpage{573}
+
+%<<CONT
+\[
+\begin{aligned}
+\psi_1(\alpha) &= \psi_3(\alpha^5)\\
+\psi_3(\alpha) &= \psi_1(\alpha^3),
+\end{aligned}
+\]
+and if in (8) one sets $\lambda = 1$
+\[
+\psi_2(\alpha)\,\psi_3(\alpha) = \psi_1(\alpha)\,\psi_1(\alpha^2);
+\]
+finally, by (6)
+\[
+n = \psi_3(\alpha)\,\psi_3(\alpha^6) = \psi_3(\alpha)\,\psi_1(\alpha^4).
+\]
+If one now computes accordingly the formula \S.\,169, (15)
+\[
+(\alpha, \eta)^7 = n\,\psi_1(\alpha)\,\psi_2(\alpha)\,\psi_3(\alpha)\,\psi_4(\alpha)\,\psi_5(\alpha),
+\]
+there results
+\weq{9}{(\alpha, \eta)^7 = \psi_1(\alpha)^4\,\psi_1(\alpha^2)^2\,\psi_1(\alpha^4).}
+By this formula the relation from \S.\,169, (14)
+\[
+(\alpha, \eta)^{14} = (\alpha^2, \eta)^7\,\psi_1(\alpha)^7
+\]
+can be verified immediately.
+
+We shall conclude these considerations on the functions $\psi$ with the proof of a theorem that will be useful to us later.
+
+If we determine a positive integer $\nu < m$ from the congruence
+\weq{10}{\lambda + \mu + \nu \equiv 0 \pmod{m},}
+then we can represent the function $\psi_{\lambda,\mu}(\varepsilon)$, as it is defined by \S.\,169, (6), in the following way
+\weq{11}{\psi_{\lambda,\mu}(\varepsilon) = \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t + \nu\,\mathrm{ind}(t+1)}.}
+In this we now wish to replace the $m$th root of unity $\varepsilon$ by the primitive congruence root $g$ of the prime $n$ on which the index system is based, i.\,e.\ we wish to form the integer
+\weq{12}{\psi_{\lambda,\mu}(g) = \sum_{1,\,n-2}^{t} g^{\mu\,\mathrm{ind}\,t + \nu\,\mathrm{ind}(t+1)} \equiv \sum_{1,\,n-2}^{t} t^\mu(t+1)^\nu \pmod{n}}
+Considering this number with respect to the modulus $n$, we can extend the summation to $t = n - 1$, since for this value $(t + 1)$ is congruent to zero. We thus obtain
+\weq{13}{\psi_{\lambda,\mu}(g) \equiv \sum_{1,\,n-1}^{t} t^\mu(t+1)^\nu \pmod{n}.}
+To the power $(t + 1)^\nu$ we can apply the binomial theorem, and we obtain, if, as before, $B_h^{(\nu)}$ denote the binomial coefficients,
+\weq{14}{\psi_{\lambda,\mu}(g) \equiv \sum_{0,\,\nu}^{h} B_h^{(\nu)} \sum_{1,\,n-1}^{t} t^{\mu+h} \pmod{n}.}

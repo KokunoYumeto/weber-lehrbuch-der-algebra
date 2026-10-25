@@ -1,0 +1,59 @@
+% !PRINTED 537
+\weberpage{537}
+%<<CONT
+% [sic] The source prints -4D here; the preceding construction uses the discriminant -4m.
+deren Produkt $= 2$ ist, Klasseninvariante der Diskriminante $-4D$.
+Hiernach ist:
+\[
+\Pi f(\omega) = 2^{\frac{1}{3}h},
+\]
+also
+\weq{7}{\tau = \frac{1}{3}, \quad m \equiv 3\ (\mathrm{mod}\ 8).}
+
+3. Für den Fall $m \equiv 7\ (\mathrm{mod}\ 8)$ können wir den
+Wert von $\tau$ auf diesem einfachen Wege nicht bestimmen. Es ist dazu
+die im vorigen Paragraphen abgeleitete Grenzformel erforderlich. Zunächst
+behandeln wir die beiden Fälle $m \equiv 3\ (\mathrm{mod}\ 4)$
+gleichmäßig und setzen:
+\[
+\varphi = ax^2 + bxy + cy^2 = (a,b,c),
+\]
+\weq{8}{b^2 - 4ac = -m,}
+\weq{9}{S' = \sum^{x,y}\frac{1}{\varphi(x,y)^s},}
+worin $x, y$ alle ganzzahligen Werte, mit Ausnahme der Kombination
+$0, 0$, durchlaufen.
+
+% [sic] Printed unprimed S refers to the sum S' defined in (9) and decomposed in (10).
+Die Summe $S$ zerlegen wir in vier Partialsummen
+\[
+S_{00}', \quad S_{01}', \quad S_{10}', \quad S_{11}',
+\]
+so daß $x, y$ in $S_{00}'$ nur geradzahlige, in $S_{11}'$ nur
+ungeradzahlige Werte durchläuft. In $S_{10}'$ durchläuft $x$ die
+ungeraden, $y$ die geraden Zahlen und umgekehrt in $S_{01}'$. Dann ist
+\weq{10}{S' + 2S_{00}' = (S_{01}'+S_{00}') + (S_{10}'+S_{00}') + (S_{11}'+S_{00}').}
+
+Ersetzen wir
+\[
+\begin{array}{l@{\quad}l@{\quad}l@{\quad}c@{\quad}l}
+\text{in} & S_{00}' & x,y & \text{durch} & 2x,\ 2y,\\
+\text{\glqq} & S_{01}'+S_{00}' & x,y & \text{\glqq} & 2x,\ y,\\
+\text{\glqq} & S_{10}'+S_{00}' & x,y & \text{\glqq} & x,\ 2y,\\
+\text{\glqq} & S_{00}'+S_{11}' & x,y & \text{\glqq} & x-y,\ x+y,
+\end{array}
+\]
+so sind die neuen $x, y$ keiner weiteren Beschränkung mehr unterworfen,
+als der, daß nicht beide zugleich verschwinden. Setzen wir daher:
+\weq{11}{\begin{aligned}
+\varphi &= (a,b,c),\\
+\varphi_1 &= (4a, 2b, c),\\
+\varphi_2 &= (a, 2b, 4c),\\
+\varphi_3 &= (a+b+c,\ 2(c-a),\ a-b+c),
+\end{aligned}}
+so ist
+\weq{12}{\begin{aligned}
+4^s S_{00}' &= S',\\
+S_{01}' + S_{00}' &= \overset{x,y}{\Sigma} \varphi_1^{-s},\\
+S_{10}' + S_{00}' &= \overset{x,y}{\Sigma} \varphi_2^{-s},\\
+S_{00}' + S_{11}' &= \overset{x,y}{\Sigma} \varphi_3^{-s}.
+\end{aligned}}

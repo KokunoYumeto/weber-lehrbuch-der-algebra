@@ -1,0 +1,62 @@
+% !PRINTED 224
+\weberpage{224}
+%<<CONT
+\weq{6}{
+\begin{aligned}
+x f_0 &= f_1 - a_1 \\
+x f_1 &= f_2 - a_2 \\
+&\cdots\cdots\cdots\cdots \\
+x f_{n-2} &= f_{n-1} - a_{n-1} \\
+x f_{n-1} &= -a_n;
+\end{aligned}
+}
+of which the last is a consequence of the equation $f(x) = 0$.
+
+If we now continue the series of variables $t_0, t_1 \ldots t_{n-1}$ by defining the new variables $t_n, t_{n+1}, t_{n+2} \ldots$ through the following equations
+\weq{7}{
+\begin{aligned}
+a_0 t_n &+ a_1 t_{n-1} + a_2 t_{n-2} + \cdots + a_n t_0 = 0, \\
+a_0 t_{n+1} &+ a_1 t_n + a_2 t_{n-1} + \cdots + a_n t_1 = 0, \\
+a_0 t_{n+2} &+ a_1 t_{n+1} + a_2 t_n + \cdots + a_n t_2 = 0, \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots
+\end{aligned}
+}
+then, multiplying the equations (6) in order by $t_{n-1}, t_{n-2} \ldots t_0$ and adding, we obtain
+\[
+x y = t_n f_0 + t_{n-1} f_1 + \cdots + t_1 f_{n-1},
+\]
+and if we now multiply (6) in the same way by $t_n, t_{n-1} \ldots t_1$,
+\[
+x^2 y = t_{n+1} f_0 + t_n f_1 + \cdots + t_2 f_{n-1}.
+\]
+Thus the following system results
+\weq{8}{
+\begin{aligned}
+y &= t_{n-1} f_0 + t_{n-2} f_1 + \cdots + t_0 f_{n-1} \\
+x y &= t_n f_0 + t_{n-1} f_1 + \cdots + t_1 f_{n-1} \\
+x^2 y &= t_{n+1} f_0 + t_n f_1 + \cdots + t_2 f_{n-1} \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+x^s y &= t_{n+s-1} f_0 + t_{n+s-2} f_1 + \cdots + t_s f_{n-1},
+\end{aligned}
+}
+and if we multiply these equations in turn by $a_s, a_{s-1} \ldots a_0$ and add, there follows the expression sought
+\[
+y f_s = E_{0,s} f_0 + E_{1,s} f_1 + \cdots + E_{n-1,s} f_{n-1},
+\]
+in which, by (7),
+\weq{9}{
+\begin{aligned}
+E_{0,s} &= a_0 t_{n+s-1} + a_1 t_{n+s-2} + \cdots + a_s t_{n-1} \\
+&= -a_{s+1} t_{n-2} \cdots - a_n t_{s-1} \\
+E_{1,s} &= a_0 t_{n+s-2} + a_1 t_{n+s-3} + \cdots + a_s t_{n-2} \\
+&= -a_{s+1} t_{n-3} \cdots - a_n t_{s-2} \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+E_{s-1,s} &= a_0 t_n + a_1 t_{n-1} + \cdots + a_s t_{n-s} \\
+&= -a_{s+1} t_{n-s-1} \cdots - a_n t_0 \\
+E_{s,s} &= a_0 t_{n-1} + a_1 t_{n-2} + \cdots + a_s t_{n-s-1} \\
+E_{s+1,s} &= a_0 t_{n-2} + a_1 t_{n-3} + \cdots + a_s t_{n-s-2} \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+E_{n-1,s} &= a_0 t_s + a_1 t_{s-1} + \cdots + a_s t_0.
+\end{aligned}
+}
+%CONT>>

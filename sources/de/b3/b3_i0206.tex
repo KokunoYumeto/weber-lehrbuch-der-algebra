@@ -1,0 +1,50 @@
+% !PRINTED 185
+\weberpage{185}
+
+\begin{center}
+\textbf{\S\,56. \gesperrt{Potenzreihen für die Weierstrassschen Funktionen}}\\
+{\boldmath\textbf{$\wp(u), \sigma(u)$.}}
+\end{center}
+
+Die Funktion $\sigma(u)$, als Funktion von $u$ betrachtet, läßt sich,
+wie schon bemerkt, in eine in der ganzen $u$-Ebene konvergierende
+Reihe nach Potenzen von $u$ entwickeln, und nach \S\,35, (8), (12)
+hat diese Entwickelung die folgende Form:
+
+\weq{1}{\sigma(u) = u + \alpha u^3 + \alpha_1 u^5 + \alpha_2 u^7 + \alpha_3 u^9 + \cdots}
+
+Die Funktion
+
+\weq{2}{\wp(u) = -\frac{d^2\log\sigma(u)}{du^2} = \frac{\sigma'(u)^2 - \sigma\sigma''(u)}{\sigma(u)^2}}
+
+läßt sich ebenfalls nach steigenden Potenzen von $u$ entwickeln,
+aber nicht mehr in eine immer konvergente Reihe, sondern diese
+Reihe hat einen Konvergenzkreis. Sie hat die Form:
+
+\weq{3}{\wp(u) = \frac{1}{u^2} + a + a_1 u^2 + a_2 u^4 + a_3 u^6 + \cdots}
+
+und man kann die Koeffizienten $a, a_1, a_2, a_3, \ldots$ der Reihe nach
+aus der Differentialgleichung [\S\,46, (18)]
+
+\weq{4}{\wp'(u)^2 = 4\wp(u)^3 - g_2\wp(u) - g_3}
+
+als Funktionen von $g_2, g_3$ bestimmen.
+Es ist zunächst
+\[
+\wp'(u) = -\frac{2}{u^3} + 2a_1 u + 4a_2 u^3 + 6a_3 u^5 + \cdots,
+\]
+\[
+\wp'(u)^2 = \frac{4}{u^6} - \frac{8a_1}{u^2} - 16a_2 + (4a_1^2 - 24a_3)u^2 + \cdots,
+\]
+und da $\wp'(u)^2$ kein Glied mit $u^{-4}$ enthält, während in $\wp(u)^3$
+das Glied $3au^{-4}$ vorkommt, so muß $a=0$ sein. Danach ergibt
+sich:
+\[
+\begin{aligned}
+\wp(u)^3 &= \frac{1}{u^6} + \frac{3a_1}{u^2} + 3a_2 + 3(a_3+a_1^2)u^2 + \cdots,\\
+\wp(u) &= \frac{1}{u^2} \phantom{{}+ \frac{3a_1}{u^2} + 3a_2{}} + a_1 u^2 + \cdots
+\end{aligned}
+\]
+Und wenn man dies in die Gleichung (4) einsetzt, so folgt
+
+\weq{5}{a_1 = \frac{g_2}{20}, \quad a_2 = \frac{g_3}{28}, \quad a_3 = \frac{g_2^2}{1200}.}

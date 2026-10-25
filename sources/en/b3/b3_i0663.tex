@@ -1,0 +1,38 @@
+% !PRINTED 632
+\weberpage{632}
+In order to prove the converse as well, we assume that $(\eta_i)$ is a basis and that
+\weq{5}{(\eta_i') = X(\eta_i)}
+is a linear substitution. The system $(\eta_i')$ is then and only then likewise a basis, when the determinant $|X|$ of this substitution is different from zero (\S\ 171). If one sets, in accordance with (5),
+\[
+\eta_h' = x_{h,1}\eta_1 + x_{h,2}\eta_2 + \cdots + x_{h,n}\eta_n,
+\]
+then
+\[
+S(\eta_h'\eta_k') = \sum^{i\,i'} x_{h,i} x_{k,i'} S(\eta_i \eta_{i'}),
+\]
+and by forming the determinant from this:
+\weq{6}{\Delta(\eta_1', \eta_2', \dots, \eta_n') = |X|^2 \Delta(\eta_1, \eta_2, \dots, \eta_n).}
+
+If, then, $\Delta(\eta_i')$ is different from zero, $|X|$ cannot vanish, and $(\eta_i')$ is a basis. With this, 7. is proved.
+
+From (6) there follows further, by the definition of the norm in \S\ 172, if one sets $\eta_i' = \zeta\eta_i$, where $\zeta$ is an arbitrary function in $\Omega$:
+\weq{7}{\Delta(\zeta\eta_i) = N(\zeta)^2 \Delta(\eta_i).}
+
+\S\,174. \gesperrt{The Power Sums.}
+
+The traces of the powers of $\theta$
+\weq{1}{s_k = S(\theta^k)}
+are nothing other than the \gesperrt{power sums}, which can be calculated by the \gesperrt{Newton} formulae. But since we may not speak here of the \glqq roots\grqq{} of the equation $f(\theta) = 0$, which we do not yet possess, these formulae must be derived directly from the definition of the trace.
+
+If $f(\theta) = 0$ is the equation defining the field $\Omega$, we set
+\weq{2}{f(t) = t^n + a_1 t^{n-1} + \cdots + a_{n-1} t + a_n}
+and form the quotient:
+\weq{3}{\frac{f(t)}{t - \theta} = \eta_0 + \eta_1 t + \eta_2 t^2 + \cdots + \eta_{n-1} t^{n-1},}
+in which
+\weq{4}{\begin{aligned}
+\eta_0 &= a_{n-1} + a_{n-2}\theta + \cdots + a_1\theta^{n-2} + \theta^{n-1}, \\
+\eta_1 &= a_{n-2} + a_{n-3}\theta + \cdots + \theta^{n-2}, \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+\eta_{n-2} &= a_1 + \theta, \\
+\eta_{n-1} &= 1.
+\end{aligned}}

@@ -1,0 +1,40 @@
+% !PRINTED 631
+\weberpage{631}
+%<<CONT
+\weq{21}{\begin{aligned}
+S(0) &= 0, \\
+S(1) &= n, \\
+S(x\xi) &= x\,S(\zeta), \\
+S(\zeta + \zeta') &= S(\zeta) + S(\zeta').
+% [sic] printed S(x xi) = x S(zeta) and S(zeta + zeta') = S(zeta) + S(zeta'), one function written with two letters: xi on the left of the third line, zeta in the other five places
+\end{aligned}}
+
+All traces are rational functions of $z$.
+
+\S\,173. \gesperrt{Discriminants.}
+
+If $(\eta_1, \eta_2, \dots, \eta_n) = (\eta_i)$ is a system of $n$ functions in the field $\Omega$, then the $n^2$ traces $S(\eta_i \eta_k)$ are rational functions of $z$. We define as the \gesperrt{discriminant of the system} $(\eta_i)$ the determinant
+\weq{1}{\Delta(\eta_1, \eta_2, \dots, \eta_n) =
+\begin{vmatrix}
+S(\eta_1\eta_1), & S(\eta_1\eta_2), & \dots, & S(\eta_1\eta_n) \\
+S(\eta_2\eta_1), & S(\eta_2\eta_2), & \dots, & S(\eta_2\eta_n) \\
+\cdots & \cdots & \cdots & \cdots \\
+S(\eta_n\eta_1), & S(\eta_n\eta_2), & \dots, & S(\eta_n\eta_n)
+\end{vmatrix},}
+for which we also write, more briefly, $\Delta(\eta_i)$.
+
+We prove the theorem:
+
+7. \gesperrt{The discriminant $\Delta(\eta_i)$ is then and only then different from zero, when $(\eta_i)$ is a basis of the field $\Omega$.}
+
+In order to prove it, let us first assume that $\Delta(\eta_i) = 0$. Then, by an elementary theorem on determinants, the rational functions $y_1, y_2, \dots, y_n$ can be so determined, without their being all zero, that
+\weq{2}{y_1 S(\eta_1\eta_k) + y_2 S(\eta_2\eta_k) + \cdots + y_n S(\eta_n\eta_k) = S[\eta_k(y_1\eta_1 + y_2\eta_2 + \cdots + y_n\eta_n)] = 0 \qquad (k = 1, 2, \dots, n)}
+holds. If $x_1, x_2, \dots, x_n$ denotes an arbitrary system of rational functions, and one sets
+\weq{3}{\begin{aligned}
+y_1\eta_1 + y_2\eta_2 + \cdots + y_n\eta_n &= \eta, \\
+x_1\eta_1 + x_2\eta_2 + \cdots + x_n\eta_n &= \xi,
+\end{aligned}}
+then from (2), by multiplication by $x_k$ and summation, there follows:
+\weq{4}{S(\xi\eta) = 0.}
+
+Now if $(\eta_i)$ is a basis, then $\xi$ can be any function whatever in $\Omega$, and hence also $1/\eta$, and then formula (4) gives the contradictory result $S(1) = 0$; the discriminant of a basis $(\eta_i)$ can therefore not vanish.

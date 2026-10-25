@@ -1,0 +1,44 @@
+% !PRINTED 238
+\weberpage{238}
+%<<CONT
+so erkennt man, daß $j(\omega)$ sich in eine nach Potenzen von $q^2$
+fortschreitende Reihe entwickeln läßt, welche die Form hat
+\weq{4}{j(\omega) = q^{-2} + a_1 + a_2 q^2 + a_3 q^4 + \cdots,}
+worin die $a_1$, $a_2$, $a_3 \ldots$ \gesperrt{ganze rationale Zahlen} sind, die sich
+successive berechnen lassen (es ergibt sich z. B. $a_1 = 744$,
+$a_2 = 196\,884$). Die Entwickelungen der Größen (1) beginnen
+also mit
+\weq{5}{e^{-\frac{2\pi i c}{a}} e^{-\frac{2\pi i \partial}{a}\omega}}
+\gesperrt{und sind daher alle voneinander verschieden. Die
+Invariantengleichung ist also nach § 65 irreducibel.}
+
+Es gibt aber einen zweiten Weg, um zu dieser wie überhaupt
+zu den Transformationsgleichungen zu gelangen, den wir jetzt
+zunächst bei der Invariantengleichung kennen lernen wollen.
+Diese Ableitung stützt sich auf die Sätze des § 54 über Modulfunktionen
+und gilt auch für ein \gesperrt{gerades} $n$. Hier ist es der
+Satz 4, § 54, der zur Anwendung kommt:
+
+I. \gesperrt{Jede Modulfunktion, die durch die beiden Transformationen}
+\weq{6}{\begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix},}
+\weq{7}{\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}}
+\gesperrt{ungeändert bleibt, ist eine rationale Funktion von $j(\omega)$.}
+
+Wir weisen zunächst nach, daß durch Anwendung der Substitutionen
+(6), (7) die $\nu$ Größen (1) untereinander vertauscht
+werden. Wir haben die Zusammensetzung
+\weq{8}{\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix} = \begin{pmatrix} 1, & 0 \\ \lambda, & 1 \end{pmatrix}\begin{pmatrix} a, & 0 \\ c_1, & \partial \end{pmatrix},}
+wenn
+\weq{9}{c_1 = c + \partial - \lambda a}
+gesetzt wird, und es geht durch die Transformation (6), da $j(\omega)$
+durch jede lineare Transformation ungeändert bleibt,
+\[
+j\left(\frac{c+\partial\omega}{a}\right) \text{ in } j\left(\frac{c_1+\partial\omega}{a}\right)
+\]
+über.
+
+Ferner bestimmen wir $a_2$, $\partial_2$, $c_2$, so daß
+\weq{10}{\begin{gathered}
+\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} a_2, & 0 \\ c_2, & \partial_2 \end{pmatrix}, \\
+\alpha\delta - \beta\gamma = 1.
+\end{gathered}}

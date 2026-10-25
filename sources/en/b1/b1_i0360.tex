@@ -1,0 +1,43 @@
+% !PRINTED 335
+\weberpage{335}
+%<<CONT
+racy in advance than the decrease of the differences
+$\varDelta, \varDelta', \varDelta''\ldots$ If $\varDelta'$ is so small
+that it falls outside the limits of the intended accuracy, then taking
+the first difference into account gives an exact result. The rule for
+the computation of roots set forth here is called the \gesperrt{Regula falsi}.
+
+The simplest form of this rule, suited to the first approximation, is
+this:
+
+If a root $x$ of the equation $f(x)=0$ lies between $\alpha$ and
+$\beta$, and if $f(\alpha) = -a, f(\beta) = b$, then
+\weq{9}{ x = \frac{b\alpha + a\beta}{a+b} }
+is an approximate value of $x$. This is only another way of writing
+formula (7).
+
+\begin{center}
+§. 109.\\
+\gesperrt{The Newton method of approximation.}
+\end{center}
+
+A method which, for the approximate computation of the roots of an
+equation, is usually better than interpolation is due to
+\gesperrt{Newton} and was developed and more closely investigated by
+\gesperrt{Fourier}.
+
+The method consists simply in the following. Let
+\weq{1}{ f(x) = 0 }
+be the equation to be solved, and let a value $x = \alpha$ have been
+found which may be regarded as a certain approximation to a root. We
+set in (1)
+\[ x = \alpha + h, \]
+and obtain
+\weq{2}{ f(\alpha+h) = f(\alpha) + hf'(\alpha) +
+  \frac{h^2}{1.2}f''(\alpha) + \cdots }
+If one now determines $h$ from the equation
+\weq{3}{ f(\alpha) + hf'(\alpha) = 0, }
+which presupposes that $f'(\alpha)$ is different from zero, then
+\[ f(\alpha+h) = \frac{h^2}{1.2}f''(\alpha) + \cdots, \]
+and thus becomes, if $h$ is a small number, since only the square
+%CONT>>

@@ -1,0 +1,29 @@
+% !PRINTED 678
+\weberpage{678}
+%<<CONT
+und setzen diese Reihe fort, solange man noch Funktionen $\lambda_s$ finden kann, die nicht in der Form (3) enthalten sind.
+
+Nach 4., 3) sind die Funktionen $\lambda_1, \lambda_2, \ldots, \lambda_s$ in dem Sinne linear unabhängig, daß zwischen ihnen keine lineare Gleichung besteht mit rationalen Koeffizienten in $z$. Da es nicht mehr als $n$ linear unabhängige Funktionen gibt, so kann $s$ nicht größer als $n$ sein. Andererseits gibt es, solange $s \leqq n$ ist, immer noch ganze Funktionen, die von $\lambda_1, \lambda_2, \ldots, \lambda_{s-1}$ nicht linear abhängig sind, und darunter auch solche von kleinstem Exponenten. Wir erhalten also $n$ Funktionen
+\weq{4}{L = (\lambda_1, \lambda_2, \ldots, \lambda_n),}
+und diese bilden eine Basis des Körpers $\Omega$ nach $z$. Sie bilden eine Minimalbasis; denn wäre dies nicht der Fall, so müßte für irgend ein $s \leqq n$ eine Funktion $x_1\lambda_1 + x_2\lambda_2 + \cdots + x_s\lambda_s$ durch eine lineare Funktion $z - c$ teilbar sein, ohne daß $x_s$ durch $z - c$ teilbar ist. Reduziert man $x_1, x_2, \ldots, x_s$ auf ihre Reste nach $z - c$, so ergibt sich eine Gleichung:
+\[
+c_1\lambda_1 + c_2\lambda_2 + \cdots + c_s\lambda_s = (z - c)\mu,
+\]
+worin die $c_1, c_2, \ldots, c_s$ konstant sind, $c_s$ von Null verschieden und $\mu$ eine ganze Funktion ist. Es ist $\mu$ nicht in der Form (3) enthalten und sein Exponent ist nach 2. und 3. kleiner als der Exponent von $\lambda_s$, was der Bestimmung 4. 3) widerspricht. Also:
+
+5. \gesperrt{Die Funktionen $\lambda_1, \lambda_2, \ldots, \lambda_n$ bilden eine Minimalbasis von $\Omega$ nach $z$. Sie heißt eine Normalbasis.}
+
+Die Exponenten $r_1, r_2, r_3, \ldots, r_n$ dieser Funktionen genügen der Bedingung:
+\weq{5}{r_1 = 0, \quad 1 \leqq r_2 \leqq r_3 \ldots \leqq r_n.}
+Denn wäre $r_s < r_{s-1}$, so hätte man nach 3. 3) $\lambda_s$ an Stelle von $\lambda_{s-1}$ nehmen müssen.
+% [sic] printed "3. 3)", the rule invoked (taking the function of least exponent) is the recurrent determination 4. 3), cited as such twice earlier on this page
+
+Von den Funktionen $\lambda_i$ ist keine durch $z$ teilbar; denn wäre $\lambda_s = z\mu$, so hätte $\mu$ einen kleineren Exponenten als $\lambda_s$ und wäre nicht in der Form (3) enthalten. Es müßte also $\mu$ an Stelle von $\lambda_s$ treten.
+
+6. Demnach sind (nach 1.)
+\[
+r_1, r_2, \ldots, r_n
+\]
+die Exponenten von
+\weq{6}{\lambda_1' = z'^{r_1}\lambda_1, \quad \lambda_2' = z'^{r_2}\lambda_2, \ldots, \lambda_n' = z'^{r_n}\lambda_n}
+in bezug auf $z' = 1:z$, und diese Funktionen sind die Elemente einer Normalbasis von $\Omega$ nach $z'$.

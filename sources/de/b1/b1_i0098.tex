@@ -1,0 +1,39 @@
+% !PRINTED 73
+\weberpage{73}
+
+Die hierdurch vollständig definirten Grössen \(A_\nu^{(\mu)}\) heissen die \gesperrt{Unterdeterminanten} der Determinante \(A\). Um ihre Bildungsweise genau kennen zu lernen, betrachten wir zunächst den Complex \(a_1^{(1)}A_1^{(1)}\). Man erhält ihn, wenn man in dem Product
+\[
+a_1^{(1)}a_2^{(2)}\cdots a_n^{(n)}
+\]
+den unteren Index \(1\) ungeändert lässt und nur die übrigen Indices \(2,3,\ldots,n\) auf alle Arten permutirt und die Summe der entstandenen Glieder mit Rücksicht auf die Zeichenregel bildet, d.~h. es ist \(A_1^{(1)}\) die \((n-1)\)-reihige Determinante:
+\begin{equation}
+A_1^{(1)}=
+\begin{vmatrix}
+a_2^{(2)}&a_3^{(2)}&\cdots&a_n^{(2)}\\
+a_2^{(3)}&a_3^{(3)}&\cdots&a_n^{(3)}\\
+\vdots&\vdots&&\vdots\\
+a_2^{(n)}&a_3^{(n)}&\cdots&a_n^{(n)}
+\end{vmatrix},
+\tag{4}
+\end{equation}
+oder die Determinante, die man aus \(A\) erhält, wenn man in dem \(A\) darstellenden Quadrat [\S.\,20, (1)] die erste Zeile und die erste Colonne weglässt.
+
+Daraus ergiebt sich leicht die Bedeutung von \(A_\nu^{(\mu)}\): man kann, indem man \(\nu-1\) Zeilenvertauschungen vornimmt, die \(\nu\)te Zeile zur ersten machen, und wenn man noch \(\mu-1\) Vertauschungen der Colonnen hinzunimmt, die \(\mu\)te Colonne zur ersten; im Uebrigen bleiben die Reihen in ihrer Aufeinanderfolge ungeändert. Die Determinante selbst hat den Factor \((-1)^{\mu+\nu}\) angenommen und ist dem absoluten Werthe nach ungeändert geblieben. In der so umgeänderten Reihenfolge ist aber das Element \(a_\nu^{(\mu)}\) an die Stelle des Elementes \(a_1^{(1)}\) getreten, und daraus schliesst man auf folgendes Bildungsgesetz:
+
+\gesperrt{Man erhält die Unterdeterminante \(A_\nu^{(\mu)}\) dadurch, dass man in dem die Determinante darstellenden Quadrat die beiden Reihen weglässt, die sich in \(a_\nu^{(\mu)}\) kreuzen, und den Factor \((-1)^{\mu+\nu}\) hinzufügt.}
+
+So erhält man z.~B. für die dreireihige Determinante die folgende Darstellung:
+\begin{equation}
+\begin{aligned}
+\begin{vmatrix}
+a&b&c\\
+a'&b'&c'\\
+a''&b''&c''
+\end{vmatrix}
+&=a\begin{vmatrix}b'&c'\\b''&c''\end{vmatrix}
+-b\begin{vmatrix}a'&c'\\a''&c''\end{vmatrix}
++c\begin{vmatrix}a'&b'\\a''&b''\end{vmatrix}\\
+&=a(b'c''-c'b'')+b(c'a''-a'c'')+c(a'b''-b'a'').
+\end{aligned}
+\tag{5}
+\end{equation}

@@ -1,0 +1,43 @@
+% !PRINTED 700
+\weberpage{700}
+If we now set
+\[
+s = s_1 + \varepsilon,
+\]
+then from (18) there results:
+\[
+\sum \frac{\gamma^s}{n^s} - S = \gamma^s \sum \frac{a_s}{n^{s_1}},
+\]
+% [sic] The German source prints a_s; a_n is required by the definition on printed p. 699 and by the summation index.
+and by 1. this is a function of $s_1$ that is finite and continuous for positive $s_1$. But for $s_1 = 1-\varepsilon$ we have $s=1$, and consequently
+\weq{19}{\sum \frac{\gamma^s}{n^s} - S = D_s}
+is finite for $s=1$, namely equal to
+\[
+D_1 = \sum \frac{\gamma c_n}{n(n+c_n)}.
+\]
+By applying simple theorems from the theory of the $\Gamma$-functions, however, the sum $\sum \dfrac{1}{n^s}$ can be expressed by a definite integral. We have
+\[
+\frac{1}{n^s} = \frac{1}{\Gamma(s)}\int_0^{\infty} e^{-nx} x^{s-1}\, dx,
+\]
+and consequently
+\[
+\sum \frac{1}{n^s} = \frac{1}{\Gamma(s)}\int_0^{\infty} \frac{x^{s-1}e^{-x}\,dx}{1-e^{-x}}.
+\]
+Further we have [by the theorem $(s-1)\Gamma(s-1) = \Gamma(s)$]:
+\[
+\frac{1}{s-1} = \frac{1}{\Gamma(s)}\int_0^{\infty} e^{-x} x^{s-2}\, dx,
+\]
+and from this
+\[
+\sum \frac{1}{n^s} - \frac{1}{s-1} = \frac{1}{\Gamma(s)}\int_0^{\infty} x^{s-1}e^{-x}\left(\frac{1}{1-e^{-x}} - \frac{1}{x}\right)dx.
+\]
+Here the right-hand side is a function continuous for all positive values of $s$, which for $s=1$ passes over into \gesperrt{Euler}'s constant
+\[
+\int_0^{\infty} e^{-x}\left(\frac{1}{1-e^{-x}} - \frac{1}{x}\right)dx = -\Gamma'(1) = 0{,}57721566\ldots
+\]
+Now by (19):
+\[
+D_s = \gamma^s\left(\sum \frac{1}{n^s} - \frac{1}{s-1}\right) - \left(S - \frac{\gamma_s}{s-1}\right),
+\]
+% [sic] The source has a subscript in the final gamma_s, unlike the leading gamma^s. Equation (19) requires gamma^s in both places; the printed subscript is preserved.
+%CONT>>

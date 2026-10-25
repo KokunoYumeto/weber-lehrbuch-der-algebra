@@ -1,0 +1,38 @@
+% !PRINTED 40
+\weberpage{40}
+\begin{center}
+\S\,12. \gesperrt{Representation of the elliptic integrals by the}\\
+\gesperrt{simplest fundamental integrals.}
+\end{center}
+In order to represent the integral $\Omega(x)$ by integrals of the simplest possible type, we decompose the rational function $\Phi(x)$ into an integral function and a sum of partial fractions; that is, we represent $\Phi(x)$ as a sum of expressions of the form
+\[
+x^n, \quad \frac{1}{(x-\alpha)^n}
+\]
+with constant coefficients, in which $n$ denotes a positive integer (also zero) and $\alpha$ a constant value for which $\Phi(x)$ becomes infinite.
+
+If we then set, for positive and for negative or vanishing $n$,
+\weq{1}{S_n(\alpha) = \int \frac{(x-\alpha)^n\,dx}{\sqrt{f(x)}},}
+then $\Omega(x)$ becomes a sum of the form
+\[
+\Omega(x) = \sum M S_n(\alpha),
+\]
+where the sum may extend over several different values of $n$ and of $\alpha$, and the $M$ are constants.
+
+The functions $S_n$ can be reduced to a small number by the mediation of algebraic functions. To this end we form
+\[
+d(x-\alpha)^n\sqrt{f(x)} = \frac{n(x-\alpha)^{n-1}f(x) + (x-\alpha)^n\frac{1}{2}f'(x)}{\sqrt{f(x)}},
+\]
+and if we set in it
+\[
+f(x) = f(\alpha) + (x-\alpha)f'(\alpha) + \frac{(x-\alpha)^2}{2}f''(\alpha) + \frac{(x-\alpha)^3}{6}f'''(\alpha) + \frac{(x-\alpha)^4}{24}f''''(\alpha),
+\]
+\[
+f'(x) = f'(\alpha) + (x-\alpha)f''(\alpha) + \frac{(x-\alpha)^2}{2}f'''(\alpha) + \frac{(x-\alpha)^3}{6}f''''(\alpha),
+\]
+there follows
+\weq{2}{\begin{aligned}
+(x-\alpha)^n\sqrt{f(x)}
+  &= nf(\alpha)S_{n-1} + \left(n+\frac{1}{2}\right)f'(\alpha)S_n \\
+  &\quad + \frac{n+1}{2}f''(\alpha)S_{n+1} + \left(\frac{n}{6}+\frac{1}{4}\right)f'''(\alpha)S_{n+2} \\
+  &\quad + \left(\frac{n}{24}+\frac{1}{12}\right)f''''(\alpha)S_{n+3}.
+\end{aligned}} % source-adjudicated: faint raised mark is an ink artifact, not encoded

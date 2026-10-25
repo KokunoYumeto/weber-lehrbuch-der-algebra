@@ -1,0 +1,41 @@
+% !PRINTED 427
+\weberpage{427}
+If we set, as in § 54, (4)
+\[
+\gamma_2(\omega) = \sqrt[3]{j(\omega)}, \quad \gamma_3(\omega) = \sqrt[2]{j(\omega)-1728},
+\]
+then it follows from § 54, (14):
+\[
+\gamma_3(i) = -\gamma_3(i), \quad \text{hence} \quad \gamma_3(i) = 0.
+\]
+Furthermore, by the same formula, if we set
+\[
+\varrho = \frac{-1+i\sqrt{3}}{2}, \qquad \varrho+1 = \frac{-1}{\varrho}
+\]
+then:
+\[
+\gamma_2(\varrho+1) = e^{-\frac{2\pi i}{3}}\gamma_2(\varrho) = \gamma_2\left(-\frac{1}{\varrho}\right) = \gamma_2(\varrho),
+\]
+consequently $\gamma_2(\varrho) = 0$, and we obtain
+\weq{1}{\begin{aligned}
+H_3(u) &= u, & j(\varrho) &= 0, \\
+H_4(u) &= u-1728, & j(i) &= 1728.
+\end{aligned}}
+
+The two functions $H_3(u)$ and $H_4(u)$ therefore have integral rational numerical coefficients. This property we can now establish in general for all $H_m$ by complete induction.
+
+First we observe that, once it has been proved that $H_m(u)$ has \gesperrt{rational coefficients}, it follows at once that the coefficients are \gesperrt{integral rational numbers} (the first $=1$). For these coefficients are integral algebraic numbers (by § 115, VI.), and consequently, if they are rational, \gesperrt{integral rational numbers}. Now we consider the largest among the values of $m$ that occur in equation (10), § 115; these are
+\[
+\begin{aligned}
+m &= 4n, & x &= 1, & y &= 0, & k &= 1, \\
+m &= 4n-1, & x &= 1, & y &= \pm 1, & k &= 2.
+\end{aligned}
+\]
+
+Accordingly $F_n(u,u)$ contains the two factors $H_{4n}(u)$, $H_{4n-1}(u)^2$, and otherwise nothing but factors $H_m(u)$ in which $m<4n-1$. If we assume that it has already been proved of the latter that they have rational coefficients, it follows that
+\[
+H_{4n}(u)\, H_{4n-1}(u)^2 = \varPhi(u)
+\]
+has rational coefficients, and hence, in order to find $H_{4n-1}(u)$, one has to seek the greatest common divisor of $\varPhi(u)$ and $\varPhi'(u)$, which is done by rational calculation. But thereby $H_{4n}(u)$ too is found by rational means, and since $H_3(u)$ and $H_4(u)$ have rational coefficients, it follows in general:
+
+VII. \gesperrt{The class functions $H_m(u)$ have integral rational numerical coefficients.}

@@ -1,0 +1,53 @@
+% !PRINTED 384
+\weberpage{384}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% \noindent 384 \hfill \textsc{Eleventh Section.} \hfill \S.\,124.
+
+%<<CONT
+% [source-reviewed 2026-08-26] The faint mark before the first word at the top edge is a scan speck, not body text; no text is transcribed.
+\gesperrt{$\omega$ is positive and greater than 1, and the number $\omega'$
+conjugate to $\omega$ is negative and smaller than 1 in absolute value,}
+
+or in symbols:
+
+\weq{1}{0 < y\sqrt{d} - x < 1 < y\sqrt{d} + x.}
+
+If one interprets $x, y$ in a plane as rectangular coordinates, so
+that the points of the plane become the images of the numbers $\omega$, then
+the images of the reduced numbers lie in that part of the plane which is
+shaded in Fig. 27, which corresponds to the assumption $d = 2$.
+
+% SOURCE FIGURE CROP: Bd. I registered scan 410 (printed p. 384), 600 dpi,
+% crop x=440,y=1230,w=1160,h=870; source-faithful raster, Fig. 27.
+\weberfigureimage{weber-b1-fig27.png}{0.48}
+
+We here take proper and improper equivalence together
+and first prove the theorems:
+
+\noindent 1.\quad \gesperrt{Every number $\omega$ is equivalent to a reduced number.}
+
+One sees this easily if one develops $\omega$ into a continued fraction
+and goes as far as the closing number $\omega_n$:
+
+\weq{2}{\omega = (\alpha_0, \alpha_1, \alpha_2 \ldots \alpha_{n-1}, \omega_n).}
+
+Then $\omega$ is equivalent to $\omega_n$, and $\omega_n$, as soon as $n$ is greater than 0,
+is positive and greater than 1. Since $\omega_n$ is equivalent to $\omega$, it only
+remains to prove that, when $n$ is sufficiently large,
+the number $\omega'_n$ conjugate to $\omega_n$ is negative and absolutely smaller than 1.
+But this one sees from the following formulae: From (2) it follows, if
+$P_n : Q_n$ are the convergents,
+\[
+\omega = \dfrac{P_n \omega_n + P_{n-1}}{Q_n \omega_n + Q_{n-1}},
+\]
+or by solving
+
+\weq{3}{\omega_n = -\dfrac{Q_{n-1}\omega - P_{n-1}}{Q_n\omega - P_n} = -\dfrac{Q_{n-1}}{Q_n} - \dfrac{(-1)^n}{Q_n(Q_n\omega - P_n)}.}
+
+If in this equation we change $\sqrt{d}$ into $-\sqrt{d}$, then at the same time
+$\omega$ passes into $\omega'$, $\omega_n$ into $\omega'_n$, and from (3) we obtain
+
+\weq{4}{\omega'_n = -\dfrac{Q_{n-1}\omega' - P_{n-1}}{Q_n\omega' - P_n} = -\dfrac{Q_{n-1}}{Q_n} \dfrac{\omega' - \dfrac{P_{n-1}}{Q_{n-1}}}{\omega' - \dfrac{P_n}{Q_n}},}
+%CONT>>

@@ -1,0 +1,70 @@
+% !PRINTED 634
+\weberpage{634}
+%<<CONT
+und folglich, solange $r \leqq n$ ist, nach (4) mit der Bezeichnung (1):
+
+\weq{12}{(n-r)a_r = a_r s_0 + a_{r-1}s_1 + \cdots + a_1 s_{r-1} + s_r,}
+
+und wenn man die Spur von $\theta^r f(\theta) = 0$ nimmt:
+
+\weq{13}{0 = a_n s_r + a_{n-1}s_{r+1} + \cdots + a_1 s_{r+n-1} + s_{r+n}.}
+
+Dies sind die \gesperrt{Newton}schen Formeln (Bd.\ I, \S\,46).
+
+Bezeichnen wir mit
+
+\[
+f'(t) = n t^{n-1} + (n-1)a_1 t^{n-2} + \cdots + 2a_{n-2}t + a_{n-1}
+\]
+
+die abgeleitete Funktion von $f(t)$, multiplizieren die Gleichung (12) mit
+$\theta^{n-r-1}$ und summieren von $r=0$ bis $r=n-1$, so folgt:
+
+\weq{14}{f'(\theta) = \eta_0 s_0 + \eta_1 s_1 + \cdots + \eta_{n-1}s_{n-1},}
+
+und wenn man f\"ur irgend ein positives $k$ die Gleichungen (12) mit
+$\theta^{n-r+k-1}$ multipliziert und noch so viele von den Gleichungen (13) hinzunimmt,
+bis $n-r+k-1$ anf\"angt, negativ zu werden, so ergibt sich:
+
+\weq{15}{\theta^k f'(\theta) = \eta_0 s_k + \eta_1 s_{k+1} + \cdots + \eta_{n-1}s_{k+n-1}.}
+
+Um die Norm von $f'(\theta)$ zu bilden, h\"atte man in diesen Gleichungen zun\"achst die
+Basis $\eta_0, \eta_1, \ldots, \eta_{n-1}$ durch die Substitution (2) durch
+$(1, \theta, \theta^2, \ldots, \theta^{n-1})$ auszudr\"ucken, dann die Gleichung (15) f\"ur
+$k = 0, 1, \ldots, n-1$ zu bilden und die Determinante dieses Systems zu nehmen. Statt
+dessen kann man die Determinante in bezug auf die $\eta$ nehmen, und dann mit der
+Substitutionsdeterminante:
+
+\[
+\begin{vmatrix}
+a_{n-1}, & a_{n-2}, & \ldots, & a_1, & 1 \\
+a_{n-2}, & a_{n-3}, & \ldots, & 1, & 0 \\
+\cdots & \cdots & \cdots & \cdots & \cdots \\
+1, & 0, & \ldots, & 0, & 0
+\end{vmatrix}
+= (-1)^{\frac{1}{2}n(n+1)}
+% [sic] printed (-1)^{\frac{1}{2}n(n+1)}, but this determinant (1 on the anti-diagonal, 0 below it) equals (-1)^{\frac{1}{2}n(n-1)}; wrong sign for odd n
+\]
+
+multiplizieren. Dadurch erh\"alt man
+
+\weq{16}{N[f'(\theta)] = (-1)^{\frac{1}{2}n(n+1)}
+% [sic] printed (-1)^{\frac{1}{2}n(n+1)}, the factor is the substitution determinant, whose value is (-1)^{\frac{1}{2}n(n-1)}; wrong sign for odd n
+\begin{vmatrix}
+s_0, & s_1, & \ldots, & s_{n-1} \\
+s_1, & s_2, & \ldots, & s_n \\
+\cdots & \cdots & \cdots & \cdots \\
+s_{n-1}, & s_n, & \ldots, & s_{2n-2}
+\end{vmatrix}.}
+
+Diese Determinante ist aber nach der Definition der Diskriminante (\S\,173):
+
+\[
+\Delta(1, \theta, \theta^2, \ldots, \theta^{n-1}),
+\]
+
+und wir haben also:
+
+\weq{17}{Nf'(\theta) = (-1)^{\frac{1}{2}n(n+1)}\Delta(1, \theta, \theta^2, \ldots, \theta^{n-1}).
+% [sic] printed (-1)^{\frac{1}{2}n(n+1)}, the correct relation is Nf'(\theta) = (-1)^{\frac{1}{2}n(n-1)}\Delta(1, \theta, \ldots, \theta^{n-1}); wrong sign for odd n (e.g. n = 1)
+}

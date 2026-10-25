@@ -1,0 +1,30 @@
+% !PRINTED 115
+\weberpage{115}
+Für jede beliebige Gradzahl $n$ haben wir immer eine, nämlich die cyklische Gruppe, die wir erhalten, wenn wir $a^n = 1$ und die $n$ Elemente
+\[
+1, a, a^2 \ldots a^{n-1}
+\]
+als verschieden annehmen.
+
+Wenn $n$ eine Primzahl ist, so ist diese die einzige Gruppe vom Grade $n$ (wenn isomorphe Gruppen als identisch betrachtet werden). Denn der Grad eines jeden Elementes einer Gruppe ist ein Theiler des Grades der Gruppe, und also hat in einer Gruppe von Primzahlgrad jedes Element, mit Ausnahme des Einheitselementes, den Grad $n$.
+
+Um eine Gruppe vom Grade $n$ vollständig darzustellen, müsste man eine quadratische Tafel construiren mit $n^2$ Feldern; die in $n$ Zeilen und $n$ Colonnen angeordnet sind. Man bezeichnet jede Zeile und jede Colonne durch eines der gegebenen Elemente, und setzt in das Feld, in dem diese beiden sich schneiden, das zusammengesetzte Element, wobei etwa der Zeilenzeiger die erste, der Colonnenzeiger die zweite Componente bedeutet:
+\[
+\begin{array}{c!{\vrule width 0.8pt}c|c|c|c}
+ & 1 & \alpha & \beta & \gamma \ldots \\
+\noalign{\hrule height 0.8pt}
+1 & 1 & \alpha & \beta & \gamma \ldots \\ \hline
+\alpha & \alpha & \alpha^2 & \alpha\beta & \alpha\gamma \ldots \\ \hline
+\beta & \beta & \beta\alpha & \beta^2 & \beta\gamma \ldots \\ \hline
+\gamma & \gamma & \gamma\alpha & \gamma\beta & \gamma^2 \ldots \\
+\multicolumn{5}{c}{\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots}
+\end{array}
+\]
+
+Man kann aber die Felder einer solchen Tafel nicht ganz beliebig mit den Elementen ausfüllen, sondern man muss sich dabei an das associative Gesetz halten, so dass man, wenn man $\alpha\beta\gamma$ aufsucht, indem man zuerst in der Zeile $\alpha$ und in der Colonne $\beta$ das Element $(\alpha\beta)$, dann in der Zeile $(\alpha\beta)$ und der Colonne $\gamma$ das Element $(\alpha\beta)\gamma$ aufsucht, dasselbe Resultat findet, wie wenn man zuerst $(\beta\gamma)$ in der Zeile $\beta$ und der Colonne $\gamma$ und dann $\alpha(\beta\gamma)$ in der Zeile $\alpha$ und in der Colonne $(\beta\gamma)$ aufsucht.
+
+Für $n = 4$ haben wir, wenn ein Element vom $4^{\mathrm{ten}}$ Grade existirt, die cyklische Gruppe
+\[
+1, \alpha, \alpha^2, \alpha^3,
+\]
+%CONT>>

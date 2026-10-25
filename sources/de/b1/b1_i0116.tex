@@ -1,0 +1,49 @@
+% !PRINTED 91
+\weberpage{91}
+%<<CONT
+
+\begin{equation}
+ B=\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}\\
+ \vdots&\vdots&&\vdots\\
+ a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}
+ \end{vmatrix},
+\tag{6}
+\end{equation}
+ihre Unterdeterminanten mit $B_k^{(h)}$, worin $h,k$ nur die Werthe von $1$ bis $\nu$ durchlaufen, und setzen nun voraus, \gesperrt{alle $(\nu+1)$reihigen Unterdeterminanten von $A$ verschwinden}. Wenn wir die ersten $\nu$ Gleichungen des Systems (1) mit $B_k^{(1)},B_k^{(2)},\ldots,B_k^{(\nu)}$ multipliciren und addiren, so folgt [\S.\,22, (2), (6)]:
+\begin{equation}
+ Bx_k=\sum_{i=1}^{\nu}B_k^{(i)}y_i-
+ \sum_{s=\nu+1}^{n}x_s\sum_{i=1}^{\nu}B_k^{(i)}a_s^{(i)}.
+\tag{7}
+\end{equation}
+Hierdurch sind $\nu$ der Unbekannten $x$ durch die übrigen bestimmt, und wir setzen, um zu sehen, inwieweit hierdurch die Gleichungen (1) befriedigt sind, die Ausdrücke in (1) ein. Wir multipliciren hierzu (7) mit $a_k^{(\lambda)}$, wo $\lambda$ die Werthe $1,2,\ldots,n$ durchläuft, und summiren in Bezug auf $k$. So folgt:
+\begin{equation}
+ B\sum_{k=1}^{\nu}a_k^{(\lambda)}x_k
+ =\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+ -\sum_{s=\nu+1}^{n}x_s\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_s^{(i)}a_k^{(\lambda)}.
+\tag{8}
+\end{equation}
+und wenn wir beiderseits
+\[
+ B\sum_{k=\nu+1}^{n}a_k^{(\lambda)}x_k
+\]
+addiren:
+\begin{equation}
+ B\sum_{k=1}^{n}a_k^{(\lambda)}x_k
+ =\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+ +\sum_{s=\nu+1}^{n}x_s\left(Ba_s^{(\lambda)}-
+ \sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_s^{(i)}a_k^{(\lambda)}\right).
+\tag{9}
+\end{equation}
+Nun ist nach \S.\,23, (12) der Coëfficient von $x_s$ auf der rechten Seite eine $(\nu+1)$reihige Unterdeterminante von $A$ und also nach der Voraussetzung gleich Null. Nach (1) soll
+\[
+ \sum_{k=1}^{n}a_k^{(\lambda)}x_k=y_\lambda
+\]
+sein, und folglich genügen die Ausdrücke (7) dann und nur dann den Gleichungen (1), wenn
+\begin{equation}
+ B y_\lambda=\sum_{i=1}^{\nu}\sum_{k=1}^{\nu}B_k^{(i)}a_k^{(\lambda)}y_i
+\tag{10}
+\end{equation}
+ist. Diese Gleichung ist, wenn $\lambda\le\nu$ ist, wegen \S.\,22, (2), (6) immer befriedigt. Ist aber $\lambda=\nu+1,\nu+2,\ldots,n$, so sind $n-\nu$ Bedingungen für die $y$ in (10) enthalten, die, da jede
+%CONT>>

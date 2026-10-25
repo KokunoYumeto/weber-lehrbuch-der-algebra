@@ -1,0 +1,43 @@
+% !PRINTED 238
+\weberpage{238}
+%<<CONT
+one recognises that $j(\omega)$ can be developed into a series
+progressing according to powers of $q^2$, which has the form
+\weq{4}{j(\omega) = q^{-2} + a_1 + a_2 q^2 + a_3 q^4 + \cdots,}
+in which the $a_1$, $a_2$, $a_3 \ldots$ are \gesperrt{integers} which
+can be calculated successively (there results, for example, $a_1 = 744$,
+$a_2 = 196\,884$). The developments of the quantities (1) therefore
+begin with
+\weq{5}{e^{-\frac{2\pi i c}{a}} e^{-\frac{2\pi i \partial}{a}\omega}}
+\gesperrt{and are therefore all different from one another. The
+invariant equation is therefore, by § 65, irreducible.}
+
+There is, however, a second way of arriving at this equation, and at
+the transformation equations generally, which we shall now first
+become acquainted with in the case of the invariant equation.
+This derivation rests upon the theorems of § 54 on modular functions
+and holds also for an \gesperrt{even} $n$. Here it is
+Theorem 4, § 54, that comes into application:
+
+I. \gesperrt{Every modular function which under the two transformations}
+\weq{6}{\begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix},}
+\weq{7}{\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}}
+\gesperrt{remains unchanged is a rational function of $j(\omega)$.}
+
+We first show that by application of the substitutions
+(6), (7) the $\nu$ quantities (1) are permuted among one another.
+We have the composition
+\weq{8}{\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix} = \begin{pmatrix} 1, & 0 \\ \lambda, & 1 \end{pmatrix}\begin{pmatrix} a, & 0 \\ c_1, & \partial \end{pmatrix},}
+when
+\weq{9}{c_1 = c + \partial - \lambda a}
+is set. Since $j(\omega)$ remains unchanged under every linear
+transformation, transformation (6) acts as follows:
+\[
+j\left(\frac{c+\partial\omega}{a}\right) \text{ goes to } j\left(\frac{c_1+\partial\omega}{a}\right)
+\]
+
+Further we determine $a_2$, $\partial_2$, $c_2$ so that
+\weq{10}{\begin{gathered}
+\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} a_2, & 0 \\ c_2, & \partial_2 \end{pmatrix}, \\
+\alpha\delta - \beta\gamma = 1.
+\end{gathered}}

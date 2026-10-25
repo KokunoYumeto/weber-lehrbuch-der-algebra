@@ -1,0 +1,24 @@
+% !PRINTED 237
+\weberpage{237}
+
+%<<CONT
+must hold, in which $r$ denotes an integer. According as $r$ is taken odd or even, we obtain two different groups, which cannot be reduced to one another by transformation:
+\weq{1}{C_n' = \begin{pmatrix} e^{\frac{\pi i h}{2n}}, & 0 \\ 0, & (-1)^h e^{-\frac{\pi i h}{2n}} \end{pmatrix} \quad h = 0, 1, \ldots, 2n-1,}
+\weq{2}{C_n'' = \begin{pmatrix} e^{\frac{\pi i h}{n}}, & 0 \\ 0, & \pm e^{-\frac{\pi i h}{n}} \end{pmatrix} \quad h = 0, 1, \ldots, n-1. \quad \text{(both signs)}}
+If $n$ is even, then $C_1'$ and $C_1''$ are both contained in $C_n''$; but if $n$ is odd, then $C_1'$ is contained in $C_n'$, and $C_1''$ in $C_n''$.
+
+If next $\alpha = \delta = 0$, $\beta\gamma = 1$, then we can transform $\varphi$ by the transformation
+\[
+\begin{pmatrix} \beta^{-1/2}, & 0 \\ 0, & \beta^{1/2} \end{pmatrix}
+\begin{pmatrix} 0, & \beta \\ \gamma, & 0 \end{pmatrix}
+\begin{pmatrix} \beta^{1/2}, & 0 \\ 0, & \beta^{-1/2} \end{pmatrix}
+= \begin{pmatrix} 0, & 1 \\ 1, & 0 \end{pmatrix},
+\]
+by which the group $P$ remains unchanged, and we obtain yet a third group:
+\weq{3}{C_n''' = \begin{pmatrix} e^{\frac{\pi i h}{n}}, & 0 \\ 0, & e^{-\frac{\pi i h}{n}} \end{pmatrix}, \quad \begin{pmatrix} 0, & e^{\frac{\pi i h}{n}} \\ e^{-\frac{\pi i h}{n}}, & 0 \end{pmatrix} \qquad h = 0, 1, \ldots, n-1.}
+
+III. Let $P$ be the dihedral group $D_n$, which consists of the substitutions
+\weq{8}{\begin{aligned} D_n = {}& 1, c, c^2, \ldots, c^{n-1} \\ & d, cd, c^2d, \ldots, c^{n-1}d, \\ = {}& C_n + C_n d \end{aligned} \qquad d = \begin{pmatrix} 0, & i \\ i, & 0 \end{pmatrix}}
+The substitution $c$ is of degree $n$, and the $c^\lambda d$ are all of degree $2$. But $\varphi^{-1}c\varphi$ is of degree $n$, and must therefore, if $n > 2$, be contained among the powers of $c$. Consequently the preceding considerations are applicable to the determination of $\varphi$, and one of the groups $C_n'$, $C_n''$, $C_n'''$ must be contained in the group $Q$. Since $d$ does not occur in these groups, there result for the dihedral groups of the second kind the forms
+\weq{9}{C_n' + C_n'd, \quad C_n'' + C_n''d, \quad C_n''' + C_n'''d,}
+%CONT>>

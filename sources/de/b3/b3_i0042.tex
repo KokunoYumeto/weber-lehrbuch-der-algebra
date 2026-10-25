@@ -1,0 +1,45 @@
+% !PRINTED 21
+\weberpage{21}
+%<<CONT
+setzt, so ergibt sich aus (4) der Ausdruck für das allgemeinste
+zu der Kurve $f$ gehörige algebraische Differential:
+\weq{5}{d\Omega = \frac{\Psi\Sigma \pm c_1x_2dx_3}{c_1f_1+c_2f_2+c_3f_3},}
+worin $\Psi$ eine ganze oder gebrochene homogene Funktion der
+$(n-3)$ten Ordnung ist. Die willkürlichen Größen $c_1$, $c_2$, $c_3$
+kommen nur scheinbar in diesem Ausdruck vor. In Wirklichkeit
+ist er davon ganz unabhängig.
+
+Wir betrachten wieder den Fall $n=3$. Dann ist der einfachste
+Fall der, daß $\Psi$ eine Konstante ist, und (5) geht dann
+in das elliptische Differential erster Gattung über:
+\weq{6}{du = \frac{\Sigma \pm c_1x_2dx_3}{c_1f_1+c_2f_2+c_3f_3}.}
+
+Dieses wollen wir nun mit Hilfe der Kovarianten der ternären
+Form dritten Grades auf die \gesperrt{Weierstrasssche} Form transformieren.
+
+Wir haben Bd.\,II, § 107 die fundamentalen Kovarianten der
+kubischen Form kennen gelernt. Es waren dies außer $f$ selbst:
+\[
+\Delta = \frac{1}{6^3}\begin{vmatrix} f_{11}, & f_{12}, & f_{13} \\ f_{21}, & f_{22}, & f_{23} \\ f_{31}, & f_{32}, & f_{33} \end{vmatrix}, \quad
+J = \frac{1}{36}\begin{vmatrix} f_{11}, & f_{12}, & f_{13}, & \Delta_1 \\ f_{21}, & f_{22}, & f_{23}, & \Delta_2 \\ f_{31}, & f_{32}, & f_{33}, & \Delta_3 \\ \Delta_1, & \Delta_2, & \Delta_3, & 0 \end{vmatrix},
+\]
+\[
+K = \frac{1}{9}\begin{vmatrix} f_1, & \Delta_1, & J_1 \\ f_2, & \Delta_2, & J_2 \\ f_3, & \Delta_3, & J_3 \end{vmatrix},
+\]
+wobei die Indizes 1, 2, 3 die Differentiation nach den Variablen
+$x_1$, $x_2$, $x_3$ bedeuten.
+
+Es folgt aus dem Multiplikationssatz der Determinanten, da
+$f$ und $df=0$ sind:
+\[
+\begin{vmatrix} c_1, & c_2, & c_3 \\ x_1, & x_2, & x_3 \\ dx_1, & dx_2, & dx_3 \end{vmatrix}
+\begin{vmatrix} f_1, & f_2, & f_3 \\ \Delta_1, & \Delta_2, & \Delta_3 \\ J_1, & J_2, & J_3 \end{vmatrix}
+=
+\begin{vmatrix} \Sigma x_i\Delta_i, & d\Delta \\ \Sigma x_iJ_i, & dJ \end{vmatrix}
+\Sigma c_if_i
+\]
+\[
+= 3\Sigma c_if_i(\Delta dJ - 2Jd\Delta),
+\]
+und daraus
+\weq{7}{du = 3\frac{\Delta dJ-2Jd\Delta}{K}.}

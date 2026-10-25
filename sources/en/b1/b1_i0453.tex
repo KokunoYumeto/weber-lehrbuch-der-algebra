@@ -1,0 +1,52 @@
+% !PRINTED 428
+\weberpage{428}
+The difference
+\[
+x(x-1)(x-2)\dots(x-n+1) - x^n + x
+\]
+is a function of degree at most $n-1$. But it is congruent
+to zero for $n$ values of $x$, namely for $x = 0, 1, 2, \dots n-1$, and hence we have identically
+\[
+x(x-1)(x-2)\dots(x-n+1) \equiv x^n - x \quad (\mathrm{mod}\ n).
+\]
+From this there results \gesperrt{Wilson's theorem}:
+\[
+1\,.\,2\,.\,3\dots(n-1) \equiv -1 \quad (\mathrm{mod}\ n),
+\]
+if one compares the coefficients of the first power of $x$ on both
+sides.
+
+We now restrict ourselves to the second of the congruences (5)
+\weq{8}{x^{n-1} \equiv 1 \quad (\mathrm{mod}\ n)}
+and first prove the theorem:
+
+\gesperrt{3. If $a$ is a divisor of $n-1$, then the congruence}
+\weq{9}{x^a \equiv 1 \quad (\mathrm{mod}\ n)}
+\gesperrt{has exactly $a$ different roots.}
+
+For, if $n-1 = ab$, we have
+\[
+x^{n-1} - 1 = (x^a - 1)(x^{a(b-1)} + x^{a(b-2)} + \cdots + x^a + 1),
+\]
+and since every root of the left-hand side must be a root of
+one or the other factor on the right-hand side, it follows that
+if $x^a - 1 \equiv 0$ had fewer than $a$ roots, the second factor
+would have to have more roots than its degree indicates,
+contrary to Theorem 1.
+
+If $\alpha$ is a number not divisible by $n$, and $a$ is the least
+positive number for which $\alpha^a \equiv 1 \pmod n$, and if further $h$ is any
+positive integer for which $\alpha^h \equiv 1 \pmod n$, then $a$ is
+necessarily a divisor of $h$, and so in particular $a$ is a divisor
+of $n - 1$.
+
+For if we set $h = qa + a'$, where $q$ is an integer and
+$a' < a$, then also $\alpha^{a'} \equiv 1$; hence we must have $a' = 0$, because $a$ was to be the
+least positive number for which this congruence is satisfied.
+
+\gesperrt{A root $\alpha$ of the congruence (9) with the
+property that no power lower than the $a$th
+becomes congruent to unity is called a
+primitive root of this congruence, or a primitive $a$th congruence root of the prime $n$, and a
+primitive root $g$ of the congruence (8) we
+also call, for short, a primitive root of the prime $n$.}

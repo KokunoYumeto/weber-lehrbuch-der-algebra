@@ -1,0 +1,71 @@
+% !PRINTED 214
+\weberpage{214}
+%<<CONT
+Die Gleichung (9), die in Bezug auf $\tau$ identisch ist, bleibt
+aber auch richtig, wenn nach Ausf\"uhrung der angedeuteten
+Potenzirung rechts $\tau^k$ durch $\tau_k$ ersetzt wird, und sie lehrt also,
+dass zwischen den Functionen $Y(t, x)$, $H(\tau, \xi)$ die Relation besteht
+
+\weq{12}{H(\tau, \xi) = r\, Y(t, x),}
+
+wenn wir die $t$ von den $\tau$ in folgender Weise abh\"angen lassen:
+Man setze
+
+\weq{13}{\begin{aligned}
+t_{n-2} &= (\alpha\tau+\beta)^{n-2}\\
+t_{n-3} &= (\alpha\tau+\beta)^{n-3}(\gamma\tau+\delta)\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+t_0 &= (\gamma\tau+\delta)^{n-2},
+\end{aligned}}
+
+und ersetze \gesperrt{nach Ausf\"uhrung der Potenzen} $\tau^k$ durch $\tau_k$.
+
+Es sei nun $z$ eine beliebige Ver\"anderliche, und wir multipliciren,
+ehe wir die Potenzirungen in (13) ausf\"uhren, diese
+Gleichungen der Reihe nach mit
+
+\[
+1, \quad -(n-2)z, \quad \frac{(n-2)(n-3)}{1\,.\,2}z^2, \cdots \pm z^{n-2};
+\]
+
+dann bekommen wir links eine ganze rationale Function von $z$
+vom $(n-2)^{\text{ten}}$ Grade
+
+\weq{14}{\begin{aligned}
+T(z) &= t_{n-2} - (n-2)t_{n-3}z\\
+&\quad + \frac{(n-2)(n-3)}{1\,.\,2}t_{n-4}z^2 - \cdots \pm t_0 z^{n-2},
+\end{aligned}}
+
+und die rechte Seite ergiebt nach dem binomischen Satz
+
+\[
+[(\alpha\tau+\beta) - z(\gamma\tau+\delta)]^{n-2} = [\tau(\alpha-\gamma z) + (\beta-\delta z)]^{n-2},
+\]
+
+was, wenn wir
+
+\weq{15}{z = \frac{\alpha\xi+\beta}{\gamma\xi+\delta}, \qquad \xi = \frac{\delta z-\beta}{-\gamma z+\alpha}}
+
+setzen, in
+
+\[
+(\alpha-\gamma z)^{n-2}(\tau-\xi)^{n-2} = \frac{r^{n-2}(\tau-\xi)^{n-2}}{(\gamma\xi+\delta)^{n-2}}
+\]
+
+\"ubergeht.
+
+Wenn wir hierin die Potenz $(\tau-\xi)^{n-2}$ nach dem binomischen
+Satze ausf\"uhren, und dann $\tau^k$ durch $\tau_k$ ersetzen, so erhalten
+wir eine Umformung der Function $T(z)$. Wir setzen also
+
+% [sic] Im Druck steht vor \cdots ein Pluszeichen; die Binomialentwicklung und (14) verlangen dort ein Minuszeichen.
+
+\[
+\begin{aligned}
+\Theta(\xi) &= \tau_{n-2} - (n-2)\tau_{n-3}\xi\\
+&\quad + \frac{(n-2)(n-3)}{1\,.\,2}\tau_{n-4}\xi^2 + \cdots \pm \tau_0\xi^{n-2}
+\end{aligned}
+\]
+
+und erhalten die identische Umformung
+%CONT>>

@@ -1,0 +1,53 @@
+% !PRINTED 59
+\weberpage{59}
+
+\begin{center}
+{\large \S.\ 16.}
+
+\vspace{0.5em}
+{\large\gesperrt{The Derivatives of Functions of Several Variables.}}
+\end{center}
+
+In \S~13 we defined the derived functions of a whole rational function of one variable. The concept is immediately transferable to functions of several variables, by forming the derivatives with respect to each variable for itself, as though it were the only one. Thus, if one writes for instance as in \S~15
+\begin{equation}
+ F(x,y,z,\ldots)=\sum A_{\alpha,\beta,\gamma,\ldots}x^\alpha y^\beta z^\gamma\cdots,
+\tag{1}
+\end{equation}
+one obtains the first derivative with respect to $x$:
+\begin{equation}
+ F'(x)=\sum \alpha A_{\alpha,\beta,\gamma,\ldots}x^{\alpha-1}y^\beta z^\gamma\cdots,
+\tag{2}
+\end{equation}
+or with respect to $y$:
+\begin{equation}
+ F'(y)=\sum \beta A_{\alpha,\beta,\gamma,\ldots}x^\alpha y^{\beta-1}z^\gamma\cdots
+\tag{3}
+\end{equation}
+and so on. From these functions one can again form, according to the same rules, the derivatives with respect to the different variables, and thus obtains the higher derivatives.
+
+In order to display the results more clearly, let $\Phi(x_1,x_2,\ldots,x_m)$ be a whole rational function of order $n$ in the $m$ variables $x_1,x_2,\ldots,x_m$. We replace these variables by binomials
+\[
+ x_1+\xi_1,\quad x_2+\xi_2,\ldots,\quad x_m+\xi_m
+\]
+and expand, in each term of the function
+\[
+ \Phi(x_1+\xi_1,x_2+\xi_2,\ldots,x_m+\xi_m)=\Phi(x+\xi),
+\]
+by carrying out the multiplication
+\[
+ (x_1+\xi_1)^{\mu_1}(x_2+\xi_2)^{\mu_2}\cdots(x_m+\xi_m)^{\mu_m}
+\]
+according to powers of $\xi_1,\xi_2,\ldots,\xi_m$. If equal powers and products of the variables $\xi$ are collected each into one term, then for $\Phi(x+\xi)$, in the notation (2) of \S~15, one obtains a representation which in differential calculus is called the \gesperrt{Taylor expansion}:
+\begin{equation}
+ \Phi(x+\xi)=\sum
+ {\xi_1^{\alpha_1}\xi_2^{\alpha_2}\cdots\xi_m^{\alpha_m}
+ \over \Pi(\alpha_1)\Pi(\alpha_2)\cdots\Pi(\alpha_m)}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi .
+\tag{4}
+\end{equation}
+The coefficients, which we denote by
+\[
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi,
+\]
+are functions of the variables $x$ and are called, when
+%CONT>>

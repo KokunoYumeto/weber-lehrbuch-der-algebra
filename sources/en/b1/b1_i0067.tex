@@ -1,0 +1,53 @@
+% !PRINTED 42
+\weberpage{42}
+
+From the meaning of $B_\nu^{(n)}$ it follows, and it is also proved from the formulas (10) by complete induction, that the $B_\nu^{(n)}$ are positive integers.
+% SOURCE-ORIGINAL-SIC: The English states the mathematical sense of the source's historical expletive construction; the German leaf preserves it verbatim.
+
+\begin{center}
+{\large \S.\ 8.}
+
+\vspace{0.5em}
+{\large\gesperrt{The Binomial Theorem.}}
+\end{center}
+
+If in formula (1) of the preceding paragraph we set the previously arbitrary quantities $\alpha_1,\alpha_2\ldots\alpha_n$ equal to one another, we obtain the \gesperrt{binomial theorem}, which consists in nothing other than arranging the $n$th power of a binomial $x+y$ according to powers of $x$. Namely, if we put
+\[
+ \alpha_1=\alpha_2=\cdots=\alpha_n=-y
+\]
+then formula (2) gives
+\[
+ a_\nu=(-1)^\nu\sum \alpha_1\alpha_2\cdots\alpha_\nu=y^\nu B_\nu^{(n)},
+\]
+where, according to the definition of the preceding paragraph, $B_\nu^{(n)}$ means the number of terms of the sum, which all become equal to one another and equal to $(-1)^\nu y^\nu$.
+
+Accordingly one obtains
+\begin{equation}
+ (x+y)^n=x^n+B_1^{(n)}x^{n-1}y+B_2^{(n)}x^{n-2}y^2+\cdots+B_n^{(n)}y^n,
+\tag{1}
+\end{equation}
+or, written out,
+\[
+\begin{aligned}
+(x+y)^n
+&=x^n+nx^{n-1}y+{n(n-1)\over1\cdot2}x^{n-2}y^2+\cdots+y^n\\
+&=\Pi(n)\sum_{\nu=0}^{n} {x^{n-\nu}y^\nu\over \Pi(n-\nu)\Pi(\nu)}
+ =\Pi(n)\sum {x^\alpha y^\beta\over \Pi(\alpha)\Pi(\beta)},
+\end{aligned}
+\]
+the last sum being extended over all non-negative integer values $\alpha,\beta$ which satisfy the condition $\alpha+\beta=n$.
+
+Accordingly the coefficients $B_\nu^{(n)}$ are called the \gesperrt{binomial coefficients}.
+
+For reference we put here a small table of the first values of the binomial coefficients:
+\[
+\begin{array}{crrrrrrrr}
+ n=1&1&1\\
+ n=2&1&2&1\\
+ n=3&1&3&3&1\\
+ n=4&1&4&6&4&1\\
+ n=5&1&5&10&10&5&1\\
+ n=6&1&6&15&20&15&6&1\\
+ n=7&1&7&21&35&35&21&7&1
+\end{array}
+\]

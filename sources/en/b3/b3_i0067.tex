@@ -1,0 +1,36 @@
+% !PRINTED 46
+\weberpage{46}
+%<<CONT
+\weq{11}{\begin{vmatrix} 1, & x_1, & x_1^2, & \sqrt{f(x_1)} \\ 1, & x_2, & x_2^2, & \sqrt{f(x_2)} \\ 1, & x_3, & x_3^2, & \sqrt{f(x_3)} \\ 1, & x_4, & x_4^2, & \sqrt{f(x_4)} \end{vmatrix} = 0.}
+
+From this equation one can express $x_1$ and $\sqrt{f(x_1)}$ \gesperrt{rationally}
+in terms of $x_2, \sqrt{f(x_2)}$; $x_3, \sqrt{f(x_3)}$; $x_4, \sqrt{f(x_4)}$; for
+$x_1$ is the root of a biquadratic equation whose three
+other roots are $x_2, x_3, x_4$, and whose coefficients depend
+rationally on $x_2, \sqrt{f(x_2)}$; $x_3, \sqrt{f(x_3)}$; $x_4, \sqrt{f(x_4)}$, and $\sqrt{f(x_1)}$ can
+be represented rationally in terms of $x_1$ by means of (11). If one sets $x_4$ equal to an
+arbitrary constant, the differential equation
+(10) passes into (1), and (11) yields its integral.
+
+We apply this theorem first to the normal form % German source: "dies Theorem"
+and set
+\[ f(x) = x(1-x)(1-\varkappa^2 x). \]
+If we assume $x_4 = 0$ in (11), then this
+equation reduces, on division by $\sqrt{x_1 x_2 x_3}$, to:
+\weq{12}{\begin{vmatrix} \sqrt{x_1}, & x_1\sqrt{x_1}, & \sqrt{(1-x_1)(1-\varkappa^2 x_1)} \\ \sqrt{x_2}, & x_2\sqrt{x_2}, & \sqrt{(1-x_2)(1-\varkappa^2 x_2)} \\ \sqrt{x_3}, & x_3\sqrt{x_3}, & \sqrt{(1-x_3)(1-\varkappa^2 x_3)} \end{vmatrix} = 0,}
+or, if we develop the determinant according to the elements of the first
+row:
+\weq{13}{\sqrt{x_1}\,(a + bx_1) + c\sqrt{(1-x_1)(1-\varkappa^2 x_1)} = 0,}
+in which, for abbreviation, we have set:
+\weq{14}{\begin{aligned}
+a &= x_2\sqrt{x_2}\sqrt{(1-x_3)(1-\varkappa^2 x_3)} - x_3\sqrt{x_3}\sqrt{(1-x_2)(1-\varkappa^2 x_2)}, \\
+b &= -\sqrt{x_2}\sqrt{(1-x_3)(1-\varkappa^2 x_3)} + \sqrt{x_3}\sqrt{(1-x_2)(1-\varkappa^2 x_2)}, \\
+c &= -(x_2-x_3)\sqrt{x_2}\sqrt{x_3}.
+\end{aligned}}
+
+If we make (13) rational, we obtain the cubic
+equation:
+\[ x(a+bx)^2 - c^2(1-x)(1-\varkappa^2 x) = 0, \]
+whose three roots are $x_1, x_2, x_3$. Accordingly we have identically
+\weq{15}{b^2(x-x_1)(x-x_2)(x-x_3) = x(a+bx)^2 - c^2(1-x)(1-\varkappa^2 x),}
+%CONT>>

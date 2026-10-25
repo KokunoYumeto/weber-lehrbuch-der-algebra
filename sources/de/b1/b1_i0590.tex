@@ -1,0 +1,44 @@
+% !PRINTED 565
+\weberpage{565}
+Wenn die Summation in Bezug auf $t$ zuerst ausgef\"uhrt wird,
+so kann $st$ an Stelle von $t$ gesetzt werden, da $s$ von Null verschieden
+ ist, und also $st$ und $t$ zugleich ein volles Restsystem
+nach dem Modul $n$ durchlaufen. Also wird
+\weq{2}{(\varepsilon^\lambda, r)(\varepsilon^\mu, r) = \sum^{s} \sum^{t} r^{s(t+1)} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} \varepsilon^{\mu\,\mathrm{ind}\,t}.}
+Wir erledigen zuerst den speciellen Fall $\mu = -\lambda$, den
+wir aus (2) erhalten, wenn wir die Summation nach $s$ zuerst
+ausf\"uhren:
+\[ (\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = \sum^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} \sum^{s} r^{s(t+1)}. \]
+Hierin ist
+\[
+\begin{aligned}
+\sum^{s} r^{s(t+1)} &= -1, \quad \text{wenn } t = 1, 2 \ldots n-2\\
+&= n-1, \quad \text{wenn } t = n-1,
+\end{aligned}
+\]
+also, da nach \S.\,136 $\mathrm{ind}(n-1) = \frac{1}{2}(n-1)$ und
+\[ \varepsilon^{\frac{n-1}{2}} = -1 \]
+ist,
+\[ (\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = -\sum_{1,\,n-1}^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} + (-1)^\lambda n. \]
+In der nach $t$ genommenen Summe durchl\"auft $\mathrm{ind}\,t$ ein volles
+Restsystem nach dem Modul $n-1$, und also ist, wenn $\lambda$ durch
+$n-1$ \gesperrt{nicht theilbar} angenommen wird,
+\[ \sum_{1,\,n-1}^{t} \varepsilon^{-\lambda\,\mathrm{ind}\,t} = 0, \]
+und daher
+\weq{3}{(\varepsilon^\lambda, r)(\varepsilon^{-\lambda}, r) = (-1)^\lambda n,}
+w\"ahrend, wenn $\lambda$ durch $n-1$ theilbar ist, $(\varepsilon^\lambda, r) = (1, r) = -1$ wird.
+
+Wir behandeln also nun die Summe (2) weiter unter der
+Voraussetzung, dass $\lambda + \mu$ nicht durch $(n-1)$ theilbar ist.
+Dann ist $\sum^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} = 0$, und es k\"onnen in der Summe auf der
+rechten Seite von (2) die dem Werthe $t = n-1$ entsprechenden
+Glieder weggelassen werden. Man erh\"alt so
+\weq{4}{
+\begin{aligned}
+(\varepsilon^\lambda, r)(\varepsilon^\mu, r) &= \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t} \sum_{1,\,n-1}^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s} r^{s(t+1)}\\
+&= \sum_{1,\,n-2}^{t} \varepsilon^{\mu\,\mathrm{ind}\,t - (\lambda+\mu)\,\mathrm{ind}(t+1)} \sum^{s} \varepsilon^{(\lambda+\mu)\,\mathrm{ind}\,s(t+1)} r^{s(t+1)}.
+\end{aligned}
+}
+Nun durchl\"auft $s(t+1)$ bei feststehendem $t$ zugleich mit $s$
+ein volles Restsystem nach dem Modul $n$, und es ist also
+%CONT>>

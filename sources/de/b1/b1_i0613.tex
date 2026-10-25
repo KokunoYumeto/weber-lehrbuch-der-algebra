@@ -1,0 +1,54 @@
+% !PRINTED 588
+\weberpage{588}
+%<<CONT
+und so bestimmt man eine Reihe ganzer Zahlen $\alpha, \alpha_1, \alpha_2, \alpha_3 \dots$
+mit stets abnehmender Norm, die sich fortsetzen lässt, so lange
+die Null nicht darunter vorkommt. Da diese Normen ganze rationale
+positive Zahlen sind, die immer abnehmen, so muss nach
+einer endlichen Zahl von Schritten die Null auftreten und man
+erhält also ein Gleichungssystem
+
+\weq{1}{\begin{aligned}
+\alpha &= \mu\alpha_1 + \alpha_2,\\
+\alpha_1 &= \mu_1\alpha_2 + \alpha_3,\\
+&\cdots\cdots\cdots\cdots\\
+\alpha_{h-2} &= \mu_{h-2}\alpha_{h-1} + \alpha_h,\\
+\alpha_{h-1} &= \mu_{h-1}\alpha_h.
+\end{aligned}}
+
+Daraus schliesst man, dass die ganze Reihe der Zahlen
+$\alpha, \alpha_1, \alpha_2 \dots$, also insbesondere auch $\alpha$ und $\alpha_1$ durch $\alpha_h$ theilbar
+sind, und umgekehrt, dass jeder gemeinsamer Theiler von $\alpha$
+und $\alpha_1$ Theiler von allen folgenden $\alpha$, also auch von $\alpha_h$ ist.
+Jede andere Zahl, die diese beiden Eigenschaften hat, muss
+mit $\alpha_h$ associirt sein, und man nennt also $\alpha_h$ (und jede mit $\alpha_h$
+associirte Zahl) den \gesperrt{grössten gemeinschaftlichen Theiler} von
+$\alpha$ und $\alpha_1$.
+
+Wenn wir aus dem Algorithmus (1) die zwischenliegenden $\alpha$
+eliminiren, indem wir $\alpha_2$ aus der ersten in die zweite, dann $\alpha_3$
+aus der zweiten in die dritte Gleichung substituiren, so ergiebt
+sich ein Resultat von der Form $\alpha\varkappa + \alpha_1\lambda = \alpha_h$, und wir können
+also, wenn wir statt $\alpha, \alpha_1, \alpha_h$ setzen $\alpha, \beta, \delta$, den Satz aussprechen:
+
+4. \gesperrt{Wenn $\alpha, \beta$ irgend zwei ganze Zahlen in $R(i)$
+sind, und $\delta$ ihr grösster gemeinschaftlicher
+Theiler, so kann man die ganzen Zahlen $\varkappa, \lambda$
+so bestimmen, dass}
+
+\weq{2}{\alpha\varkappa + \beta\lambda = \delta}
+\gesperrt{wird.}
+
+Ist der grösste gemeinschaftliche Theiler $\delta$ zweier Zahlen
+$\alpha, \beta$ eine Einheit, so heissen $\alpha$ und $\beta$ relativ prim und wir
+können in diesem Falle der Gleichung
+
+\weq{3}{\alpha\varkappa + \beta\lambda = 1}
+durch ganzzahlige $\varkappa, \lambda$ genügen.
+
+Ist $\beta$ eine Primzahl, so ist entweder $\alpha$ durch $\beta$ theilbar,
+oder $\alpha$ und $\beta$ sind relativ prim. Im letzteren Fall besteht die
+Gleichung (3). Ist dann $\gamma$ eine andere Zahl in $R(i)$, so folgt aus (3)
+\[
+\alpha\gamma\varkappa + \beta\gamma\lambda = \gamma.
+\]

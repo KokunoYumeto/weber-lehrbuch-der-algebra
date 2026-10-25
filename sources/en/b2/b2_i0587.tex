@@ -1,0 +1,52 @@
+% !PRINTED 566
+\weberpage{566}
+
+\begin{center}
+\S.\,156.
+
+\gesperrt{Application to algebraic fields.}
+\end{center}
+
+From the minimum for a positive quadratic form one can
+derive a minimum of linear forms, by conceiving a positive
+quadratic form as a sum of squares of linear forms. On this
+rest the following applications to the theory of algebraic
+fields, which we preface with a lemma:
+
+1. \gesperrt{If $a_1, a_2, \ldots, a_n$ are real positive numerical values, then}
+\weq{1}{a_1 + a_2 + \cdots + a_n \geqq n \sqrt[n]{a_1 a_2 \ldots a_n}.}
+
+This theorem is evidently correct for $n=2$, for
+$a_1 + a_2 - 2\sqrt{a_1 a_2} = (\sqrt{a_1} - \sqrt{a_2})^2$, and thus never negative. We
+therefore apply complete induction, by assuming formula
+(1) as already proved for $n-1$ terms. If we then assume
+that $a_n$ is exceeded in magnitude by none of the remaining
+$a$, then
+\[ a_n \geqq \sqrt[n-1]{a_1 a_2 \ldots a_{n-1}} = b, \]
+and
+\[ a_1 + a_2 + \cdots + a_{n-1} \geqq (n-1)\,b. \]
+Hence
+\[ a_1 + a_2 + \cdots + a_n \geqq a_n + (n-1)\,b, \]
+and consequently
+\[ \frac{a_1 + a_2 + \cdots + a_n}{n} \geqq b + \frac{a_n - b}{n}, \]
+
+\begin{footnotesize}
+\noindent\rule{4cm}{0.4pt}
+
+in which $\Gamma(x)$ denotes the gamma function, for which the equations
+\[ \Gamma(x) = (x-1)\,\Gamma(x-1), \quad \Gamma\left(\frac{1}{2}\right) = \sqrt{\pi} \]
+hold, so that $K_n$ is expressed by rational numbers and by
+$\sqrt{\pi}$.
+
+(Cf. e.\,g. Vorlesungen \"uber die Theorie der bestimmten Integrale
+nach \gesperrt{Lejeune-Dirichlet} von G.\,F. \gesperrt{Meyer} herausgegeben, \S.\,175.
+Leipzig 1871).
+
+From this there results
+\[ \Theta_n = \frac{4}{n\pi}\,\Gamma\left(1 + \frac{n}{2}\right)^{\frac{2}{n}}, \]
+which, by the approximation formulae for the $\Gamma$-function, for large
+values of $n$ agrees nearly with
+\[ \frac{2}{\pi e} = 0{,}234\ldots \]
+(\gesperrt{Minkowski}, Crelle, Bd. 107, S. 292).
+\end{footnotesize}
+%CONT>>

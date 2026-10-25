@@ -1,0 +1,40 @@
+% !PRINTED 574
+\weberpage{574}
+
+If we set $t \equiv g^s \pmod{n}$, then $s$ runs through a system of residues with respect to the modulus $m$, and we obtain
+\[
+\sum_{1,\,n-1}^{t} t^{\mu+h} \equiv \sum_{0,\,m-1}^{s} g^{s(\mu+h)} \pmod{n}.
+\]
+But by the summation formula for the geometric series
+\[
+(g^{\mu+h} - 1) \sum_{0,\,m-1}^{s} g^{s(\mu+h)} = g^{m(\mu+h)} - 1 \equiv 0 \pmod{n},
+\]
+and consequently
+\weq{15}{\sum_{0,\,m-1}^{s} g^{s(\mu+h)} \equiv 0 \pmod{n},}
+except when $\mu + h \equiv 0 \pmod{m}$, and in this case
+\weq{16}{\sum_{0,\,m-1}^{s} g^{s(\mu+h)} \equiv m \equiv -1 \pmod{n}.}
+If we take $\lambda, \mu$ between $0$ and $m$, then
+\begin{quote}
+1) when $\lambda + \mu < m$, \quad $\nu = m - \lambda - \mu$,\\
+2) when $\lambda + \mu > m$, \quad $\nu = 2m - \lambda - \mu$.
+\end{quote}
+The exponent $\mu + h$ in the sum (14) therefore runs, in case 1), through the values $\mu + h = \mu, \mu + 1, \ldots m - \lambda$, and in case 2) through $\mu, \mu + 1, \ldots 2m - \lambda$.
+
+In case 1), therefore, the case $\mu + h \equiv 0 \pmod{m}$ assumed in (16) does not occur at all; in case 2) it occurs once, for $h = m - \mu$.
+
+Accordingly, from (14), having regard to (15) and (16), if for the binomial coefficient $B_h^{(\nu)}$ the value $\dfrac{\Pi(\nu)}{\Pi(h)\,\Pi(\nu-h)}$ is put, we have
+\weq{17}{
+\begin{aligned}
+&\text{1)}\quad \psi_{\lambda,\mu}(g) \equiv 0, \quad \lambda + \mu < m\\
+&\text{2)}\quad \psi_{\lambda,\mu}(g) \equiv -\frac{\Pi(2m-\lambda-\mu)}{\Pi(m-\lambda)\,\Pi(m-\mu)}, \quad m < \lambda + \mu < 2m.
+\end{aligned}
+\quad \pmod{n}}
+
+\begin{center}
+\S.\ 171.
+
+\gesperrt{The Gauss Sums.}
+\end{center}
+
+In \S.\,169 it is shown that, if $n - 1 = ef$, the periods $\eta, \eta_1, \ldots \eta_{e-1}$ of an equation of degree $e$ with integral coefficients
+%CONT>>

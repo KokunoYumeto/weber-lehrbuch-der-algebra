@@ -1,0 +1,35 @@
+% !PRINTED 141
+\weberpage{141}
+%<<CONT
+dass der Grad $pq$ das Product zweier Primzahlen ist, die auch einander gleich sein können.
+
+Eine solche Gruppe $P$ ist metacyklisch und hat einen Normaltheiler $Q$ vom Grade $p$, der also eine cyklische Gruppe ist, die wir so darstellen:
+\weq{1}{Q = 1, a, a^2, \dots a^{p-1} \quad (a^p = 1).}
+Ist nun $b$ ein nicht in $Q$ enthaltenes Element von $P$, so ist
+\[
+b^{-1} Q b = Q.
+\]
+Wenn $b^h$ die niedrigste Potenz von $b$ ist, die in $Q$ vorkommt, so ist $Q + Qb + \cdots Qb^{h-1}$ eine Gruppe, die mit $P$ identisch sein muss, und folglich muss $h = q$ sein. Wir können also $P$ so darstellen:
+\weq{2}{P = Q + Qb + Qb^2 + \cdots + Qb^{q-1}.}
+Ist nun $g$ eine primitive Wurzel der Primzahl $p$ und $\nu$ ein vorläufig noch unbestimmter Exponent, der nach dem Modul $p - 1$ zu nehmen ist, so folgt, da $b^{-1} a b$ in $Q$ enthalten ist,
+\weq{3}{b^{-1} a b = a^{g^\nu},}
+woraus sich für jeden Exponenten $\alpha$ ergiebt:
+\weq{4}{b^{-1} a^\alpha b = a^{\alpha g^\nu},}
+und durch wiederholte Zusammensetzung mit $b$:
+\weq{5}{b^{-\beta} a^\alpha b^\beta = a^{\alpha g^{\nu\beta}}.}
+Nun ist jedenfalls $b^{pq} = 1$, und wenn wir also in (5) $\beta = pq$ setzen, so folgt, dass für jedes $\alpha$
+\[
+a^{\alpha g^{\nu pq}} = a^\alpha,
+\]
+also $g^{\nu pq} \equiv 1 \pmod{p}$ oder
+\weq{6}{\nu pq \equiv 0 \pmod{p - 1}}
+sein muss. Hieraus schliesst man weiter, dass, wenn $p - 1$ nicht durch $q$ theilbar ist, was immer eintritt, wenn $p = q$ ist, $\nu$ durch $p - 1$ theilbar, also nach (3)
+\[
+ab = ba,
+\]
+und in Folge dessen auch für jedes $\alpha, \beta, \alpha', \beta'$:
+\[
+a^\alpha b^\beta = b^\beta a^\alpha, \quad a^\alpha b^\beta a^{\alpha'} b^{\beta'} = a^{\alpha'} b^{\beta'} a^\alpha b^\beta,
+\]
+d. h. dass die Gruppe eine \gesperrt{Abel}'sche sein muss. Diesen Fall haben wir aber schon im zweiten Abschnitte dieses Bandes untersucht und gefunden, dass es, wenn $p = q$ ist, zwei Gruppen (mit
+%CONT>>

@@ -1,0 +1,48 @@
+% !PRINTED 304
+\weberpage{304}
+
+\begin{center}
+\S.\,100.
+
+\gesperrt{Newton's Rule.}
+\end{center}
+
+A supplement to the preceding rule, which permits a further
+approximation to the exact determination of the limits of the roots, is
+given by the prescription now to be discussed, which originates with
+\gesperrt{Newton} but was first proved by
+\gesperrt{Sylvester}\footnote{\gesperrt{Newton},
+Arithmetica universalis. \gesperrt{Sylvester}, Transactions of the
+R. Irish Academy, t.\,24 (1871). Phil. Mag., 4.\,ser., t.\,31. Cf. also
+\gesperrt{Petersen}, Theorie der algebr. Gleichungen. Kopenhagen 1878.}.
+
+Again let
+\weq{1}{f(x) = a_0 x^n + a_1 x^{n-1} + \cdots + a_{n-1} x + a_n = 0}
+be the equation to be investigated. Denoting by $\Pi(m)$, as always,
+the product $1.\,2.\,3 \ldots m$, and by $f^{(\nu)}(x)$ the $\nu$th
+derivative, we set
+\weq{2}{f_\nu(x) = \frac{\Pi(n - \nu)}{\Pi(n)} f^{(\nu)}(x),}
+\weq{3}{F_\nu(x) = f_\nu^2(x) - f_{\nu+1}(x) f_{\nu-1}(x),}
+with the addition that
+\weq{4}{F_0 = F = 1, \quad F_n = f_n^2,}
+and hence, which is the essential point, are to be positive.
+
+For the derivatives of the functions $f_\nu$, $F_\nu$ we obtain from
+(2) and (3)
+\weq{5}{f_\nu'(x) = (n - \nu) f_{\nu+1},}
+\weq{6}{f_\nu F_\nu'(x) = (n - \nu - 1)(F_\nu f_{\nu+1} + F_{\nu+1} f_{\nu-1}).}
+
+Since the positive numerical factors do not matter, we can, in place of
+the Budan sequence, take the sequence of functions
+\[
+f, f_1, f_2 \ldots f_n
+\]
+instead.
+
+\gesperrt{Newton's} rule now makes use of the double sequence:
+\weq{7}{
+\begin{array}{l}
+f,\ f_1,\ f_2 \ldots f_n \\
+F,\ F_1,\ F_2 \ldots F_n.
+\end{array}
+}

@@ -1,0 +1,55 @@
+% !PRINTED 479
+\weberpage{479}
+%<<CONT
+or, in our abbreviated notation:
+
+\[
+\left(\frac{\partial \Phi}{\partial x_1}, \frac{\partial \Phi}{\partial x_2}, \frac{\partial \Phi}{\partial x_3}\right) = A_1 \left(\frac{\partial \Phi}{\partial y_1}, \frac{\partial \Phi}{\partial y_2}, \frac{\partial \Phi}{\partial y_3}\right).
+\]
+
+This proves the theorem:
+
+1. \gesperrt{The sequences of variables}
+
+\[
+(x_1, x_2, x_3) \quad \text{and} \quad \left(\frac{\partial \Phi}{\partial x_1}, \frac{\partial \Phi}{\partial x_2}, \frac{\partial \Phi}{\partial x_3}\right)
+\]
+
+\gesperrt{are contragredient.}
+
+By repeated application of this theorem, the higher differential quotients with respect to the $x$ can also be formed by means of those with respect to the $y$, for which one obtains the following rule:
+
+2. \gesperrt{To express the $m$th derivatives}
+
+\[
+\frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma}, \quad \alpha + \beta + \gamma = m
+\]
+
+\gesperrt{by means of the derivatives with respect to $y$, replace, in the developed expression}
+
+\weq{4}{\xi_1^\alpha \xi_2^\beta \xi_3^\gamma = \sum^{\varkappa, \lambda, \mu} C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} \eta_1^\varkappa \eta_2^\lambda \eta_3^\mu, \quad \varkappa + \lambda + \mu = m}
+
+\gesperrt{the products}
+
+\[
+\begin{aligned}
+&\xi_1^\alpha \xi_2^\beta \xi_3^\gamma \quad \text{by} \quad \frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma} \\
+&\eta_1^\varkappa \eta_2^\lambda \eta_3^\mu \quad \text{by} \quad \frac{\partial^m \Phi}{\partial y_1^\varkappa \partial y_2^\lambda \partial y_3^\mu},
+\end{aligned}
+\]
+
+\gesperrt{hence}
+
+\weq{5}{\frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma} = \sum C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} \frac{\partial^m \Phi}{\partial y_1^\varkappa \partial y_2^\lambda \partial y_3^\mu},}
+
+\gesperrt{where under the summation sign $\varkappa, \lambda, \mu$ run through all non-negative values satisfying the condition $\varkappa + \lambda + \mu = m$.}
+
+The coefficients $C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu}$ are integral rational functions of the substitution coefficients $a_1, a_2, \ldots$
+
+To prove this rule in general, one need only regard formula (5) as proved for $m - 1$ in place of $m$, and, with application of formula (3), form the derivative with respect to one of the variables $x$, and in doing so take the relation following from the definition (4)
+
+\[
+C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} = C^{\alpha - 1, \beta, \gamma}_{\varkappa - 1, \lambda, \mu}\, a_1 + C^{\alpha - 1, \beta, \gamma}_{\varkappa, \lambda - 1, \mu}\, a_2 + C^{\alpha - 1, \beta, \gamma}_{\varkappa, \lambda, \mu - 1}\, a_3
+\]
+
+into account.

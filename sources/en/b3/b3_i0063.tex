@@ -1,0 +1,42 @@
+% !PRINTED 42
+\weberpage{42}
+%<<CONT
+\[
+\frac{1}{\sqrt{f(x)}} = (x^4 + a_1 x^3 + a_2 x^2 + a_3 x^2 + a_4)^{-1/2} % [sic] source prints a_3x^2; the defining quartic and later full polynomial require a_3x.
+\]
+\[
+= x^{-2} - \frac{a_1}{2}x^{-3} + \cdots,
+\]
+and in the development of $\left(x^2 + \dfrac{a_1}{2}x\right):\sqrt{f(x)}$ in descending powers no term with $x^{-1}$ occurs. Consequently $S_2 + \dfrac{a_2}{2}S_1$ is an \gesperrt{integral of the second kind}. % [sic] source prints a_2/2; the displayed expansion immediately above gives a_1/2.
+
+By the mediation of a logarithmic function, however, the four integrals of Case I can be further reduced to three. To this end let $f(x)$ be brought into the form
+\[
+x^4 + a_1 x^3 + a_2 x^2 + a_3 x + a_4 = P^2 + ax + b,
+\]
+in which $P = x^2 + px + q$ is a quadratic function and $a$ and $b$ are constants. There results:
+\[
+p = \frac{a_1}{2}, \quad q = \frac{a_2}{2} - \frac{a_1^2}{8},
+\]
+\[
+a = a_3 - \frac{a_1 a_2}{2} + \frac{a_1^3}{8}, \quad b = a_4 - \left(\frac{a_2}{2} - \frac{a_1^2}{8}\right)^2.
+\]
+
+Now:
+\weq{3}{d\log\frac{\sqrt{f}-P}{\sqrt{f}+P} = \frac{f'(x)P - 2f(x)P'(x)}{f - P^2}\,\frac{dx}{\sqrt{f(x)}},}
+\[
+f - P^2 = ax + b,
+\]
+\[
+f'(x) = 2PP' + a
+\]
+and consequently
+\[
+f'(x)P - 2f(x)P'(x) = a(P - 2xP') - 2bP' = Q
+\]
+is a quadratic function of $x$, and accordingly there results from (3)
+\weq{4}{\log\frac{\sqrt{f}-P}{\sqrt{f}+P} = \int \frac{Q}{ax+b}\,\frac{dx}{\sqrt{f(x)}}.}
+
+The right-hand side, however, is a linear function of $S_0$, $S_1$ and $S_{-1}$ (for $\alpha = -b/a$). In the particular case where $a = 0$, $Q$ becomes of the first degree, and a linear combination of $S_0$ and $S_{-1}$ can be expressed by a logarithmic function.
+
+If we assume $a_1$ and $a_3 = 0$, to which we can reduce the general case by \S\ 4 by means of a linear transformation, we obtain as the fundamental integrals
+%CONT>>

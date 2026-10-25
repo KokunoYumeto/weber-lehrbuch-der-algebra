@@ -1,0 +1,47 @@
+% !PRINTED 86
+\weberpage{86}
+
+%<<CONT
+worin die Funktionen $f(\omega)$, $f_1(\omega)$, $f_2(\omega)$
+folgendermaßen definiert sind:
+\weq{11}{
+\begin{aligned}
+f(\omega) &= q^{-\frac{1}{24}}\prod_{1,\infty}^{\nu}(1+q^{2\nu-1}),\\
+f_1(\omega) &= q^{-\frac{1}{24}}\prod_{1,\infty}^{\nu}(1-q^{2\nu-1}),\\
+f_2(\omega) &= \sqrt{2}\,q^{\frac{1}{12}}\prod_{1,\infty}^{\nu}(1+q^{2\nu}).
+\end{aligned}
+}
+
+Die Funktionen $\eta(\omega)$, $f(\omega)$, $f_1(\omega)$,
+$f_2(\omega)$ werden in unseren späteren Betrachtungen eine
+wichtige Rolle spielen. Aus § 21, (14) ergibt sich nach (10)
+die Relation
+\weq{12}{f(\omega)^8 = f_1(\omega)^8 + f_2(\omega)^8,}
+und aus § 23 (5) nach (9)
+\weq{13}{f(\omega)f_1(\omega)f_2(\omega) = \sqrt{2}.}
+Die letzte Formel ergibt sich auch aus (11) mit Benutzung der
+identischen Relation:
+\[ \prod (1+q^\nu)(1-q^{2\nu-1}) = \prod \frac{(1+q^\nu)(1-q^\nu)}{1-q^{2\nu}} = 1. \]
+
+\begin{center}
+\textbf{§ 25. Darstellung der $\vartheta$-Funktionen durch
+unendliche Reihen.}
+\end{center}
+
+Der zweite Weg, um zur Darstellung der $\vartheta$-Funktionen zu
+gelangen, besteht darin, daß man eine den Fundamentalgleichungen
+genügende konvergente unendliche Reihe zu bilden sucht.
+
+Bemerken wir zunächst, daß wegen der Bedingung
+\[ \vartheta_{00}(v+1) = \vartheta_{00}(v) \]
+die Funktion $\vartheta_{00}(v)$ als eindeutige Funktion von
+$e^{2\pi i v}$ angesehen werden kann, und setzen demgemäß
+\[ \vartheta_{00}(v) = \sum_{-\infty,\infty}^{\nu} A_\nu e^{2\pi i v \nu}, \]
+so ergibt die Differentialgleichung § 20, (4):
+\[ \frac{\partial^2 \vartheta}{\partial v^2} - 4\pi i \frac{\partial \vartheta}{\partial \omega} = 0 \]
+für $A_\nu$ die Bedingung
+\[ \frac{dA_\nu}{d\omega} = \pi i \nu^2 A_\nu, \qquad A_\nu = c_\nu e^{\pi i \omega \nu^2} = c_\nu q^{\nu^2}, \]
+worin $c_\nu$ in bezug auf $\omega$ konstant ist. Es wird also
+\[ \vartheta_{00}(v) = \sum c_\nu q^{\nu^2} c^{2\pi i v \nu}, \]
+% [sic] Printed c as the exponential base; mathematically expected e.
+%CONT>>

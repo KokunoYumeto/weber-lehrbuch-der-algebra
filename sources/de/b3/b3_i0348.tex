@@ -1,0 +1,56 @@
+% !PRINTED 327
+\weberpage{327}
+%<<CONT
+nach dem Algorithmus des größten gemeinschaftlichen Teilers dienen. Denn man kann aus den Kongruenzen
+\[
+\begin{aligned}
+D &\equiv D' \pmod{4n}, \\
+n &\equiv n' \pmod{D'}, \\
+D' &\equiv D'' \pmod{4n'}, \\
+n' &\equiv n'' \pmod{D''}, \\
+&\cdots\cdots\cdots\cdots
+\end{aligned}
+\]
+die Reihe der Zahlen
+\[
+D', \quad 2n', \quad D'', \quad 2n'', \quad \dots
+\]
+so bestimmen, daß jede folgende dem absoluten Werte nach kleiner ist als die vorhergehende, solange keine der Zahlen $n'$, $n''$, $n'''$, $\dots$ gleich $\pm 1$ geworden ist.
+
+Ist $D$ keine Quadratzahl, so läßt sich immer eine Zahl $\beta$ so bestimmen, daß
+\weq{21}{(D, \beta) = -1.}
+
+Ist nämlich $\varDelta$ der Stamm von $D$ und ist $\beta$ relativ prim zu $D$, so ist (nach 9)
+\[
+(D, \beta) = (\varDelta, \beta).
+\]
+
+Ist $\varDelta = \delta \varDelta'$ und $\delta$ eine Primdiskriminante, also relativ prim zu $\varDelta'$, so kann man $\beta_0$ so annehmen, daß
+\[
+(\delta, \beta_0) = -1
+\]
+wird [nach (10) und (11)] und man kann $\beta$ aus den beiden Kongruenzen
+\[
+\begin{aligned}
+\beta &\equiv \beta_0 \pmod{\delta}, \\
+&\equiv 1 \pmod{\varDelta'}
+\end{aligned}
+\]
+bestimmen. Dann erhält man nach (12)
+\[
+(D, \beta) = (\delta, \beta_0) = -1.
+\]
+
+Läßt man $s$ ein volles Restsystem nach dem Modul $D$ durchlaufen und setzt
+\[
+S = \overset{s}{\Sigma}(D, s), % Source scan confirms s as the upper index on Sigma.
+\]
+so folgt durch Multiplikation mit $(D, \beta)$
+\[
+-S = \overset{s}{\Sigma}(D, \beta s),
+\]
+und da $\beta s$ zugleich mit $s$ ein Restsystem durchläuft, so folgt
+\weq{22}{S = 0.}
+
+Es folgt hieraus:
+%CONT>>

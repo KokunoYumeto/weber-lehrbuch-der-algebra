@@ -1,0 +1,69 @@
+% !PRINTED 214
+\weberpage{214}
+%<<CONT
+Equation (9), which is an identity with respect to $\tau$, remains
+valid, however, when after carrying out the indicated raising to
+powers $\tau^k$ is replaced on the right by $\tau_k$, and it therefore teaches
+that between the functions $Y(t, x)$, $H(\tau, \xi)$ the relation holds
+
+\weq{12}{H(\tau, \xi) = r\, Y(t, x),}
+
+if we let the $t$ depend on the $\tau$ in the following way:
+Set
+
+\weq{13}{\begin{aligned}
+t_{n-2} &= (\alpha\tau+\beta)^{n-2}\\
+t_{n-3} &= (\alpha\tau+\beta)^{n-3}(\gamma\tau+\delta)\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+t_0 &= (\gamma\tau+\delta)^{n-2},
+\end{aligned}}
+
+and \gesperrt{after carrying out the powers} replace $\tau^k$ by $\tau_k$.
+
+Now let $z$ be an arbitrary variable, and before we carry out
+the raising to powers in (13), let us multiply these equations
+in order by
+
+\[
+1, \quad -(n-2)z, \quad \frac{(n-2)(n-3)}{1\,.\,2}z^2, \cdots \pm z^{n-2};
+\]
+
+then on the left we obtain an integral rational function of $z$
+of degree $(n-2)$
+
+\weq{14}{\begin{aligned}
+T(z) &= t_{n-2} - (n-2)t_{n-3}z\\
+&\quad + \frac{(n-2)(n-3)}{1\,.\,2}t_{n-4}z^2 - \cdots \pm t_0 z^{n-2},
+\end{aligned}}
+
+and the right side yields, by the binomial theorem,
+
+\[
+[(\alpha\tau+\beta) - z(\gamma\tau+\delta)]^{n-2} = [\tau(\alpha-\gamma z) + (\beta-\delta z)]^{n-2},
+\]
+
+which, if we set
+
+\weq{15}{z = \frac{\alpha\xi+\beta}{\gamma\xi+\delta}, \qquad \xi = \frac{\delta z-\beta}{-\gamma z+\alpha}}
+
+goes over into
+
+\[
+(\alpha-\gamma z)^{n-2}(\tau-\xi)^{n-2} = \frac{r^{n-2}(\tau-\xi)^{n-2}}{(\gamma\xi+\delta)^{n-2}}
+\]
+
+If we carry out the power $(\tau-\xi)^{n-2}$ here by the binomial
+theorem, and then replace $\tau^k$ by $\tau_k$, we obtain a transformation
+of the function $T(z)$. We therefore set
+
+% [sic] The print has a plus sign before \cdots; the binomial expansion and (14) require a minus sign there.
+
+\[
+\begin{aligned}
+\Theta(\xi) &= \tau_{n-2} - (n-2)\tau_{n-3}\xi\\
+&\quad + \frac{(n-2)(n-3)}{1\,.\,2}\tau_{n-4}\xi^2 + \cdots \pm \tau_0\xi^{n-2}
+\end{aligned}
+\]
+
+and obtain the identical transformation
+%CONT>>

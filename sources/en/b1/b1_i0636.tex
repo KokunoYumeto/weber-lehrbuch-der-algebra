@@ -1,0 +1,45 @@
+% !PRINTED 611
+\weberpage{611}
+%<<CONT
+is to be excluded, because otherwise by (3) all the different $z$
+would pass into the same $b$, and thus no permutation of the quantities $x_z$ would be
+expressed at all. But if $a$ is different from 0 $(\mathrm{mod}\ n)$, then a permutation
+will always be represented by (3), because then $az+b \equiv az'+b$ can hold only when
+$z \equiv z'$. We call (3) a substitution for $z$, which produces a permutation among
+the $x$. The number of the different linear substitutions of the form (3)
+is $n(n-1)$. To them correspond just as many different permutations among the $x$;
+for it is only then that, for every $z$,
+\[ az + b \equiv a'z + b' \, (\mathrm{mod}\ n) \]
+can hold, when $b \equiv b'$ (to be concluded from $z = 0$) and $a \equiv a'$ (to be
+concluded from $z = 1$).
+
+The totality of the permutations that are represented by (3) forms a group;
+for let
+\[ \lambda = (z,\ az+b), \qquad \lambda' = (z,\ a'z+b') \]
+be two of these permutations; then
+\[
+\lambda \lambda' =
+\begin{pmatrix} x_z \\ x_{az+b} \end{pmatrix}
+\begin{pmatrix} x_z \\ x_{a'z+b'} \end{pmatrix}
+=
+\begin{pmatrix} x_z \\ x_{a'(az+b)+b'} \end{pmatrix},
+\]
+hence
+\weq{4}{\lambda \lambda' = \lambda'' = (z,\ aa'z + a'b + b'),}
+which is again of the form $(z, a''z+b'')$.
+
+The group formed by all substitutions of the form (3), which is a
+generalisation of the cyclic group (2), we shall call a
+\gesperrt{linear group}\footnote{\gesperrt{Kronecker} calls only this group
+metacyclic.}; the permutations contained in it shall be called
+linear permutations.
+
+In the linear group various divisors are contained. Among them we find a
+group of degree $n-1$, namely $(z, az)$, which may itself in turn have divisors.
+
+The composition rule (4) shows how we can form all divisors of the linear
+group. If $\lambda = (z, az+b)$ is a linear substitution, then by (4), through
+repetition, we obtain for every exponent $h$
+\[ \lambda^h = [z,\ a^h z + (1 + a + \cdots + a^{h-1})b], \]
+and for $a = 1$
+\[ \lambda^h = (z,\ z + hb). \]

@@ -1,0 +1,58 @@
+% !PRINTED 473
+\weberpage{473}
+
+Dies führt uns also darauf, die Permutationen von $m$ Ziffern
+\[
+0, 1, 2 \ldots m-1
+\]
+und ihre Eigenschaften im Allgemeinen genauer zu studiren.
+
+Geht die Ziffer 0 in $a_0$, 1 in $a_1$, 2 in $a_2$ u.\,s.\,f., $m-1$ in
+$a_{m-1}$ über, so muss
+
+\weq{4}{a_0, a_1, a_2 \ldots a_{m-1}}
+
+irgend eine andere Anordnung der Ziffern $0, 1, 2 \ldots m-1$ sein. Den
+Uebergang von der einen zu der anderen Anordnung bezeichnen wir durch
+ein Symbol, wie
+
+\weq{5}{\pi_a = \begin{pmatrix} 0, & 1, & 2 & \ldots & m-1 \\ a_0, & a_1, & a_2 & \ldots & a_{m-1} \end{pmatrix}}
+
+und nennen diesen Uebergang eine \gesperrt{Permutation}.
+
+Die Anzahl aller möglichen Permutationen von $m$ Elementen ist
+\[
+\Pi(m) = 1 \,.\, 2 \,.\, 3 \ldots m,
+\]
+worunter auch die \gesperrt{identische Permutation}
+\[
+\begin{pmatrix} 0, & 1, & 2 & \ldots & m-1 \\ 0, & 1, & 2 & \ldots & m-1 \end{pmatrix},
+\]
+die jedes Element an seiner Stelle lässt, mitgezählt ist.
+
+Das Symbol (5) ändert seine Bedeutung nicht, wenn man die einzelnen
+Paare
+\[
+\begin{array}{ccccc}
+0, & 1, & 2, & \ldots & m-1 \\
+a_0, & a_1, & a_2, & \ldots & a_{m-1}
+\end{array}
+\]
+anders anordnet. Ist also
+\[
+b_0, b_1, b_2 \ldots b_{m-1}
+\]
+irgend eine Anordnung der Ziffern $0, 1, 2 \ldots m-1$, so können wir
+für (5) auch setzen:
+
+\weq{6}{\pi_a = \begin{pmatrix} b_0, & b_1, & b_2 & \ldots & b_{m-1} \\ a_{b_0}, & a_{b_1}, & a_{b_2} & \ldots & a_{b_{m-1}} \end{pmatrix},}
+
+was mit (5) völlig gleichbedeutend ist.
+
+Hieraus lässt sich der sehr wichtige Begriff der \gesperrt{Zusammensetzung von
+Permutationen} ableiten. Ersetzen wir einen Index $a$ durch einen Index
+$b$, dann $b$ durch $c$, so ist der Erfolg derselbe, als wenn sogleich
+$a$ durch $c$ ersetzt wird. Wenn wir also zwei Permutationen nach
+einander ausführen, so ist das Ergebniss eine bestimmte Permutation,
+die wir in folgender Weise darstellen können. Sind
+%CONT>>

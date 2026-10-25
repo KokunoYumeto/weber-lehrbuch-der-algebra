@@ -1,0 +1,23 @@
+% !PRINTED 495
+\weberpage{495}
+
+Aus der gleichzeitigen Betrachtung der Zerlegung der Permutationen in Cyklen und in Transpositionen ergiebt sich ein Beweis für die Eintheilung der Permutationen in zwei Classen, die wir schon im zweiten Abschnitt bei den Determinanten kennen gelernt haben.
+
+Bedeutet $\tau$ eine Transposition und $\pi$ eine beliebige Permutation, so ist in der zusammengesetzten Permutation $\tau\pi$ die Anzahl der Cyklen um eins grösser oder um eins kleiner als in $\pi$. Die beiden Ziffern, die durch $\tau$ mit einander vertauscht werden, können entweder in demselben Cyklus von $\pi$ vorkommen oder in zwei verschiedenen Cyklen. Nehmen wir an, es sei ein in $\pi$ vorkommender Cyklus $\gamma = (1, 2 \dots a, a + 1 \dots b)$ und es enthalte $\tau$ zwei Ziffern, die in $\gamma$ vorkommen, etwa $\tau = (1, a)$, dann ist
+\[
+\tau\gamma = (1, a + 1 \dots b)\ (2, 3 \dots a),
+\]
+d.\,h. $\gamma$ wird durch Zusammensetzung mit $\tau$ in zwei Cyklen zerlegt, während die übrigen Cyklen durch $\tau$ nicht berührt werden.
+
+Wenn aber die beiden Ziffern von $\tau$ in zwei verschiedenen Cyklen von $\pi$ vorkommen, so mögen diese beiden Cyklen
+\[
+\gamma = (1, 2, 3 \dots a), \quad \gamma' = (1', 2', 3' \dots a')
+\]
+sein und $\tau = (1, 1')$. Es ist dann
+\[
+\tau\gamma\gamma' = (1, 2', 3' \dots a', 1', 2, 3 \dots a),
+\]
+d.\,h. die beiden Cyklen $\gamma$, $\gamma'$ werden durch $\tau$ zu einem einzigen Cyklus vereinigt, während wieder die übrigen Cyklen ungeändert bleiben.
+
+Wenn wir also eine Permutation $\pi$ von $m$ Ziffern, die aus $\nu$ Cyklen besteht (wobei die eingliedrigen Cyklen mitgezählt werden), durch $\mu$ Transpositionen dargestellt haben, so kann sie durch Zusammensetzung mit diesen $\mu$ Transpositionen in umgekehrter Reihenfolge in die identische Permutation verwandelt werden, die aus $m$ eingliedrigen Cyklen besteht. Es sind daher im Ganzen $m - \nu$ Cyklen gewonnen, und da jeder Transposition ein gewonnener oder ein verlorener Cyklus entspricht, so muss $\mu \equiv m - \nu\ (\mathrm{mod}.\ 2)$ sein, d.\,h. $\mu$ ist eine gerade oder eine ungerade Zahl, je nachdem $m - \nu$ gerade oder ungerade ist. Die letzte Zahl ist aber nur von der Permutation $\pi$, nicht von der Art der Zerlegung in Transpositionen abhängig. Wir haben damit den Satz:
+%CONT>>

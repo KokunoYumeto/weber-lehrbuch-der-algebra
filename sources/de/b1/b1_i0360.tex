@@ -1,0 +1,43 @@
+% !PRINTED 335
+\weberpage{335}
+%<<CONT
+keit von vornherein zu schätzen, als die Abnahme der Differenzen
+$\varDelta, \varDelta', \varDelta''\ldots$ Ist $\varDelta'$ so klein,
+dass es ausserhalb der Grenzen der beabsichtigten Genauigkeit fällt, so
+giebt die Berücksichtigung der ersten Differenz ein genaues Resultat.
+Die hier aus einander gesetzte Vorschrift zur Wurzelberechnung wird die
+\gesperrt{Regula falsi} genannt.
+
+Die einfachste, für die erste Annäherung geeignete, Form dieser
+Vorschrift ist die:
+
+Liegt zwischen $\alpha$ und $\beta$ eine Wurzel $x$ der Gleichung
+$f(x)=0$ und ist $f(\alpha) = -a, f(\beta) = b$, so ist
+\weq{9}{ x = \frac{b\alpha + a\beta}{a+b} }
+ein genäherter Werth von $x$. Dies ist nur eine andere Schreibweise für
+die Formel (7).
+
+\begin{center}
+§. 109.\\
+\gesperrt{Die Newton'sche Näherungsmethode.}
+\end{center}
+
+Eine Methode, die zur genäherten Berechnung der Wurzeln einer Gleichung
+meist besser ist als die Interpolation, rührt von \gesperrt{Newton} her
+und wurde von \gesperrt{Fourier} ausgebildet und genauer untersucht.
+
+Die Methode besteht einfach in Folgendem. Es sei
+\weq{1}{ f(x) = 0 }
+die aufzulösende Gleichung und es sei ein Werth $x = \alpha$ gefunden,
+den man als eine gewisse Annäherung an eine Wurzel betrachten kann. Wir
+setzen in (1)
+\[ x = \alpha + h, \]
+und erhalten
+\weq{2}{ f(\alpha+h) = f(\alpha) + hf'(\alpha) +
+  \frac{h^2}{1.2}f''(\alpha) + \cdots }
+Wenn man nun $h$ aus der Gleichung bestimmt
+\weq{3}{ f(\alpha) + hf'(\alpha) = 0, }
+was voraussetzt, dass $f'(\alpha)$ von Null verschieden ist, so wird
+\[ f(\alpha+h) = \frac{h^2}{1.2}f''(\alpha) + \cdots, \]
+und wird also, wenn $h$ eine kleine Zahl ist, da nur das Quadrat
+%CONT>>

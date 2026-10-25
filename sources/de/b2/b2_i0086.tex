@@ -1,0 +1,46 @@
+% !PRINTED 65
+\weberpage{65}
+%<<CONT
+ist, so folgt
+\[
+g^\nu \equiv g^{\frac{1}{2}\varphi(q^\varkappa)} \ (\mathrm{mod}\ q^{\varkappa-1});
+\]
+also $\nu \equiv \tfrac{1}{2}\varphi(q^\varkappa)\ \bigl[\mathrm{mod}\ \varphi(q^{\varkappa-1})\bigr]$, da der Index einer Zahl für den Modul $q^{\varkappa-1}$ völlig bestimmt ist nach dem Modul $\varphi(q^{\varkappa-1})$. Es wird also
+\weq{11}{\nu \equiv \tfrac{1}{2}\varphi(q^\varkappa) + \tau\varphi(q^{\varkappa-1})\ \bigl[\mathrm{mod}\ \varphi(q^\varkappa)\bigr],}
+und hierin durchläuft nun, da $\varphi(q^\varkappa) = q\,\varphi(q^{\varkappa-1})$ ist, $\tau$ zugleich mit $t$ ein volles Restsystem nach dem Modul $q$. Dem Werthe $t=0$ entspricht der Werth $\tau=0$ wegen (10).
+
+Es ist aber
+\[
+\varepsilon^{\frac{1}{2}\varphi(q^\varkappa)} = -1, \qquad \varepsilon^{\varphi(q^{\varkappa-1})} = \varrho,
+\]
+wenn $\varrho$ eine primitive $q^{\text{te}}$ Einheitswurzel ist, also nach (11)
+\[
+\varepsilon^\nu = -\varrho^\tau,
+\]
+und danach ergiebt sich aus (8) und (9):
+\[
+(\varepsilon^{-\beta}, r)(\varepsilon^{\beta}, r) = \sum \varepsilon^{\beta\nu}\sigma_t
+\]
+\[
+= (-1)^\beta (q^\varkappa - q^{\varkappa-1}) - (-1)^\beta q^{\varkappa-1} \sum_{1,\,q-1}^{\tau} \varrho^{\tau\beta}.
+\]
+
+Nun hat die Summe $\sum\limits_{1,\,q-1}^{\tau} \varrho^{\tau\beta}$, wenn $\beta$ nicht durch $q$ theilbar ist, den Werth $-1$, und wenn $\beta$ durch $q$ theilbar ist, den Werth $q-1$, so dass man folgendes Resultat erhält:
+\weq{12}{\begin{aligned}
+(\varepsilon^{-\beta}, r)(\varepsilon^{\beta}, r) &= 0, & \beta &\equiv 0\ (\mathrm{mod}\ q) \\
+&= (-1)^\beta q^\varkappa, & \beta\ \text{nicht} &\equiv 0\ (\mathrm{mod}\ q).
+\end{aligned}}
+
+Wenn also $\beta$ nicht durch $q$ theilbar ist, so kann von den Factoren $(\varepsilon^{-\beta}, r), (\varepsilon^{\beta}, r)$ keiner verschwinden; wenn aber $\beta$ durch $q$ theilbar ist, so verschwindet wenigstens einer der beiden Factoren. Dass sie dann beide verschwinden, zeigt die folgende directe Betrachtung der Summe.
+
+Wenn $\beta$ durch $q$ theilbar ist, so ist für jedes ganzzahlige $t$
+\[
+\varepsilon^{\beta[\nu + t\varphi(q^{\varkappa-1})]} = \varepsilon^{\beta\nu}
+\]
+\[
+g^{t\varphi(q^{\varkappa-1})} \equiv 1 + \tau q^{\varkappa-1}\ (\mathrm{mod}\ q^\varkappa),
+\]
+worin nun $\tau$ zugleich mit $t$ ein volles Restsystem nach dem Modul $q$ durchläuft. Wenn man also in (3) unter der Voraussetzung, dass $\beta$ durch $q$ theilbar sei, $\nu$ durch $\nu + t\varphi(q^{\varkappa-1})$, d.\,h. $n$ durch $n(1+\tau q^{\varkappa-1})$ ersetzt, so folgt
+\[
+(\varepsilon^\beta, r) = \sum^{n} \varepsilon^{\beta\nu} r^n r^{n q^{\varkappa-1}\tau}.
+\]

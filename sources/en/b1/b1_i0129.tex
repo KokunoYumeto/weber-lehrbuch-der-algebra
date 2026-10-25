@@ -1,0 +1,40 @@
+% !PRINTED 104
+\weberpage{104}
+
+\noindent IV. \gesperrt{$f(x)$ becomes infinitely large at the same time as $x$.}
+\medskip
+
+This means that, if $C$ is an arbitrarily given positive number, the positive number $R$ can be so chosen that
+\[
+ |f(x)|>C
+\]
+as soon as the absolute value of $x$ becomes greater than $R$; or, expressed geometrically: one can describe in the $x$-plane a circle around the origin such that outside this circle the absolute value of $f(x)$ no longer falls below $C$, however large $C$ is assumed. The theorem is evident for the case of a simple power $x^n$; for if $r$ is the absolute value of $x$, then $r^n$ is the absolute value of $x^n$, and $r^n$, as soon as $r$ has become greater than $1$, is greater than $r$ and hence grows with $r$ into the infinite.
+
+To prove the theorem in general, let us denote the absolute values of $x,a_0,a_1,a_2,\ldots,a_n$ by $r,c_0,c_1,c_2,\ldots,c_n$. Then
+\begin{equation}
+ |f(x)|=r^n\left|a_0+\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|,
+\tag{2}% [sic] Section 31 has no printed equation (1); its opening polynomial is unnumbered and the first printed tag is (2). The source-original numbering gap is preserved.
+\end{equation}
+and, since by the theorems proved in the Introduction the absolute value of a sum cannot be smaller than the difference and cannot be greater than the sum of the absolute values of the summands,
+\[
+\left|a_0+\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|
+\ge c_0-\left|\frac{a_1}{x}+\frac{a_2}{x^2}+\cdots+\frac{a_n}{x^n}\right|
+\ge c_0-\frac{c_1}{r}-\frac{c_2}{r^2}-\cdots-\frac{c_n}{r^n}.
+\]
+Since $c_0,c_1,\ldots,c_n$ are fixed constants, one can choose $R$ so large that, as soon as $r>R$,
+\[
+ \frac{c_1}{r}+\frac{c_2}{r^2}+\cdots+\frac{c_n}{r^n}
+\]
+becomes arbitrarily small, for example smaller than $\tfrac12c_0$. Then
+\[
+ \left|a_0+\frac{a_1}{x}+\frac{a_2}{x}+\cdots+\frac{a_n}{x^n}\right|>\tfrac12c_0,% [sic] Weber prints a_2/x without exponent 2 in this isolated line; source-original error preserved to match the scan.
+\]
+and hence by (2)
+\[
+ |f(x)|>\tfrac12c_0R^n,
+\]
+so that, if one assumes
+\[
+ R^n>\frac{2C}{c_0}
+\]
+%CONT>>

@@ -1,0 +1,42 @@
+% !PRINTED 99
+\weberpage{99}
+%<<CONT
+
+folgt. In dem Product aller dieser Ausdrücke kommt jeder Factor des Productes (1) zweimal mit entgegengesetztem Zeichen vor, so dass wir, da die Anzahl der Factoren von (1) gleich $\frac{n(n-1)}{2}$ ist, die Gleichung erhalten
+\begin{equation}
+ f'(\alpha_1)f'(\alpha_2)\cdots f'(\alpha_n)=(-1)^{\frac{n(n-1)}2}[\alpha_1,\alpha_2,\ldots,\alpha_n]^2.\tag{5}
+\end{equation}
+Wir können unser Product (1) aber auch mit Hülfe der Relationen (4) folgendermaassen darstellen:
+\begin{align}
+ [\alpha_1,\alpha_2,\ldots,\alpha_n]
+ &= f'(\alpha_1)[\alpha_2,\alpha_3,\ldots,\alpha_n]\notag\\
+ &=-f'(\alpha_2)[\alpha_1,\alpha_3,\ldots,\alpha_n]\tag{6}\\
+ &=+f'(\alpha_3)[\alpha_1,\alpha_2,\ldots,\alpha_n]\notag\\% [sic] Weber druckt hier die vollstaendige Folge alpha_1,alpha_2,...,alpha_n, obwohl der Faktor f'(alpha_3) die Klammer ohne alpha_3 erfordert und der unmittelbar folgende Satz ausdruecklich sagt, jeder rechte Klammerausdruck enthalte ein Element weniger. Quellentreuer mathematischer Druckfehler; nicht stillschweigend zu [alpha_1,alpha_2,alpha_4,...,alpha_n] normalisiert.
+ &=\cdots=(-1)^{n-1}f'(\alpha_n)[\alpha_1,\alpha_2,\ldots,\alpha_{n-1}],\notag
+\end{align}
+wo auf der rechten Seite jeder der Klammerausdrücke ein Element weniger enthält als der Klammerausdruck auf der linken Seite.
+
+Es soll also jetzt die Aufgabe gestellt sein, eine ganze rationale Function $(n-1)$ten Grades $\varphi(x)$ zu bestimmen, die für die Argumentwerthe $x=\alpha_1,\alpha_2,\ldots,\alpha_n$ der Reihe nach die vorgeschriebenen Werthe $\varphi(\alpha_1),\varphi(\alpha_2),\ldots,\varphi(\alpha_n)$ annimmt.
+
+Setzt man
+\begin{equation}
+ \varphi(x)=a_1x^{n-1}+a_2x^{n-2}+\cdots+a_{n-1}x+a_n,\tag{7}
+\end{equation}
+so sind die $n$ unbekannten Coëfficienten $a_1,a_2,\ldots,a_n$ aus den linearen Gleichungen
+\begin{align}
+ \varphi(\alpha_1)&=a_1\alpha_1^{n-1}+a_2\alpha_1^{n-2}+\cdots+a_{n-1}\alpha_1+a_n,\notag\\
+ \varphi(\alpha_2)&=a_1\alpha_2^{n-1}+a_2\alpha_2^{n-2}+\cdots+a_{n-1}\alpha_2+a_n,\tag{8}\\
+ &\vdots\notag\\
+ \varphi(\alpha_n)&=a_1\alpha_n^{n-1}+a_2\alpha_n^{n-2}+\cdots+a_{n-1}\alpha_n+a_n\notag
+\end{align}
+zu bestimmen. Die Determinante dieses Systems ist aber genau die Grösse (2)
+\[
+[\alpha_1,\alpha_2,\ldots,\alpha_n],
+\]
+und die Aufgabe ist also nach §. 26 immer lösbar, wenn diese Grösse von Null verschieden ist, d. h. wenn von den $n$ Grössen $\alpha_1,\alpha_2,\ldots,\alpha_n$ keine zwei einander gleich sind.
+
+Statt aber die Gleichungen (8) nach §. 26 aufzulösen und die gefundenen Ausdrücke in (7) einzusetzen, ist es vorzuziehen, nach §. 24, II. die homogenen Grössen
+\[
+1,a_1,a_2,\ldots,a_n
+\]
+%CONT>>

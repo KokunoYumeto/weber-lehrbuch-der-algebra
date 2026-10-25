@@ -1,0 +1,39 @@
+% !PRINTED 526
+\weberpage{526}
+Im folgenden soll durch direkte Umformung der Summe $S$
+nachgewiesen werden, daß
+\[ S - \frac{\pi}{(s-1)\sqrt{m}} \]
+für $s=1$ einen endlichen Grenzwert hat und dieser Grenzwert
+soll bestimmt werden.
+
+\begin{center}
+\S\ 141.\quad \gesperrt{Die Kroneckersche Grenzformel.}
+\end{center}
+
+Wir ordnen die Glieder der Reihe
+\[ S = \Sigma^{x,y}\frac{1}{\psi(x,y)^s} \]
+zunächst in der Weise an, daß wir die dem verschwindenden $y$
+entsprechenden Glieder absondern und von den übrigen je zwei,
+welche entgegengesetzten Werten von $x$ und $y$ entsprechen, zusammenfassen.
+
+So erhalten wir:
+\weq{1}{S = M_s + N_s,}
+wenn zur Abkürzung
+\weq{2}{M_s = 2\Sigma_{1,\infty}^{y}\Sigma_{-\infty,\infty}^{x}\frac{1}{(Ax^2+2Bxy+Cy^2)^s},}
+\weq{3}{N_s = 2\Sigma_{1,\infty}^{x}\frac{1}{(Ax^2)^s}}
+gesetzt ist. Der Wert $N$, den $N_s$ für $s=1$ erhält, läßt sich,
+da die Reihe für $s=1$ unbedingt konvergent bleibt, direkt
+bestimmen und ergibt:
+\weq{4}{N = \frac{2}{A}\Sigma_{1,\infty}^{x}\frac{1}{x^2} = \frac{\pi^2}{3A}.}
+
+Um das Verhalten von $M_s$ für $s=1$ zu ermitteln, zerlegen
+wir die Funktion $\psi(x,y) = Ax^2 + 2Bxy + Cy^2$ in zwei konjugiert
+ imaginäre lineare Faktoren:
+\[ Ax^2 + 2Bxy + Cy^2 = A(x+\omega_1y)(x-\omega_2y), \]
+wenn
+\weq{5}{\omega_1 = \frac{B+i\sqrt{m}}{A}, \quad \omega_2 = \frac{-B+i\sqrt{m}}{A}}
+so erklärt werden, daß $\sqrt{m}$ positiv ist.
+
+Hierdurch wird
+\weq{6}{M = \frac{2}{A^s}\Sigma_{1,\infty}^{y}\Sigma_{-\infty,\infty}^{x}\frac{1}{(x+\omega_1y)^s(x-\omega_2y)^s}.}
+% SOURCE-ORIGINAL-SIC: Equation (6) prints bare M although it rewrites the M_s defined in (2); the subscript s is mathematically expected but the source reading is preserved.

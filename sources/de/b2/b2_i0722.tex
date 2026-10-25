@@ -1,0 +1,27 @@
+% !PRINTED 699
+\weberpage{699}
+5. \gesperrt{Ist $T$ die Anzahl der Grössen $\mu_n$, die nicht grösser als $t$ sind, so ist}
+\weq{13}{\mathop{\mathrm{Lim}}\limits_{s=1}\sum_{1,\infty}^{n}\frac{s-1}{\mu_n^{s-1}} = \mathop{\mathrm{Lim}}\limits_{t=\infty}\frac{T}{t},}
+% [sic] The source prints exponent s-1 in the denominator. Theorem 3 and the application in section 192,(1) require exponent s; for mu_n=n the printed series diverges for 1<s<=2. Printed bytes are retained.
+\gesperrt{wenn der Grenzwerth von $T:t$ endlich ist.}
+
+Nehmen wir an, dass die Grössen $\mu_1, \mu_2, \mu_3, \ldots$ nicht nur den Bedingungen des Satzes 3., sondern noch den weiteren genügen, dass, wenn
+\weq{14}{\mu_n = \frac{n+c_n}{\gamma}}
+gesetzt wird, die $c_n$ mit unendlich wachsendem $n$ nicht unendlich werden (d. h. für jedes noch so grosse $n$ zwischen endlichen Grenzen eingeschlossen sind), so können wir den Satz 3. durch den noch schärferen ersetzen:
+
+6. \gesperrt{Haben die Zahlen $\mu_n$ die Eigenschaft, dass sich ein endliches $\gamma$ so bestimmen lässt, dass}
+\weq{15}{\gamma \mu_n - n = c_n}
+\gesperrt{mit unendlich wachsendem $n$ nicht unendlich wird, so hat die für jedes $s>1$ definirte Function von $s$}
+\weq{16}{S = \frac{1}{\mu_1^s} + \frac{1}{\mu_2^s} + \cdots}
+\gesperrt{die Eigenschaft, dass die Differenz}
+\weq{17}{S - \frac{\gamma}{s-1} = C_s}
+\gesperrt{sich mit unendlich abnehmendem $s-1$ einer endlichen Grenze nähert.}
+
+Um dies zu beweisen, setzen wir nach (14) und (16):
+\weq{18}{\sum^{n} \frac{\gamma^s}{n^s} - S = \gamma^s \sum^{n} \frac{1}{n^s}\left[1-\left(1+\frac{c_n}{n}\right)^{-s}\right].}
+
+Wenn nun $\varepsilon$ ein positiver echter Bruch ist, so ist, wenn wir
+\[
+a_n = \frac{1}{n^\varepsilon}\left[1-\left(1+\frac{c_n}{n}\right)^{-s}\right]
+\]
+setzen, $a_n n^{1+\varepsilon}$ für ein unendlich wachsendes $n$ nicht unendlich, und folglich ist nach einem bekannten elementaren Satze der Reihenlehre $a_1 + a_2 + \cdots$ eine unbedingt convergente Reihe.

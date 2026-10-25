@@ -1,0 +1,42 @@
+% !PRINTED 540
+\weberpage{540}
+%<<CONT
+Gruppe der Gleichung vorkommt, so ist $C_e$ diese Gruppe. $C_e$ ist aber, wenn $e < m$ ist, intransitiv, und die Gleichung ist reducibel.
+
+Auch auf die cyklischen Gleichungen, deren Grad keine Primzahl ist, lässt sich die oben durchgeführte Reduction anwenden.
+
+Wenn nämlich $m = ef$ irgend eine Zerlegung von $m$ in zwei Factoren ist, so zerfällt die Permutation $\pi^e$ in $e$ Cyklen $\gamma$ von je $f$ Gliedern:
+\weq{10}{
+\begin{aligned}
+\gamma &= (\alpha, \alpha_e, \alpha_{2e} \ldots \alpha_{(f-1)e}), \\
+\gamma_1 &= (\alpha_1, \alpha_{e+1}, \alpha_{2e+1} \ldots \alpha_{(f-1)e+1}), \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+% [sic] authority prints c-1 here; mathematical cycle indexing requires e-1.
+\gamma_{c-1} &= (\alpha_{e-1}, \alpha_{2e-1}, \alpha_{3e-1} \ldots \alpha_{m-1}).
+\end{aligned}
+}
+Nun bestimmen wir eine zu dem ersten dieser Cyklen gehörige Function $\psi$ und setzen
+\weq{11}{
+\begin{aligned}
+\eta &= \psi(\alpha, \alpha_e, \alpha_{2e} \ldots \alpha_{(f-1)e}), \\
+\eta_1 &= \psi(\alpha_1, \alpha_{e+1}, \alpha_{2e+1} \ldots \alpha_{(f-1)e+1}), \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+\eta_{e-1} &= \psi(\alpha_{e-1}, \alpha_{2e-1}, \alpha_{3e-1} \ldots \alpha_{m-1}).
+\end{aligned}
+}
+Diese Grössen sind alle von einander verschieden, aber bei einer cyklischen Permutation ihrer Argumente bleiben sie ungeändert. Durch Anwendung der Permutation $\pi$ gehen die Grössen
+\[
+\eta, \eta_1, \eta_2 \ldots \eta_{e-1}
+\]
+cyklisch in einander über, und nach der Voraussetzung sind also ihre cyklischen Functionen, und folglich auch ihre symmetrischen Functionen rational. Sie sind also die Wurzeln einer cyklischen Gleichung $e^{\mathrm{ten}}$ Grades, während $F(x)$ in $e$ Factoren $f^{\mathrm{ten}}$ Grades
+\[
+F(x) = F(x, \eta)\, F(x, \eta_1) \ldots F(x, \eta_{e-1})
+\]
+zerfällt, deren jeder eine cyklische Gleichung $f^{\mathrm{ten}}$ Grades für die Wurzeln eines der Cyklen $\gamma$ ergiebt.
+
+Denn setzen wir etwa
+\[
+F_1 = (x - \alpha)(x - \alpha_e) \ldots (x - \alpha_{(f-1)e}),
+\]
+so gestattet diese Function die Permutationen der Periode von $\gamma$. Also gestattet sie auch die Permutationen der Gruppe, die nach Adjunction von $\eta$ zur \gesperrt{Galois}'schen Gruppe unserer Gleichung wird, die ja nur aus Potenzen von $\gamma, \gamma_1 \ldots \gamma_{e-1}$ bestehen kann. Es ist daher nach dem Satze von \gesperrt{Lagrange} [\S.\,155, (2)] $F_1$ rational durch $\eta$ darstellbar, also $F_1 = F(x, \eta)$. Die Gleichung
+%CONT>>

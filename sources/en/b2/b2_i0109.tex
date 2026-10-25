@@ -1,0 +1,48 @@
+% !PRINTED 88
+\weberpage{88}
+%<<CONT
+form a determinant of $\tau$ rows that is not divisible by $p$, while all determinants of more than $\tau$ rows,
+if any such exist, are divisible by $p$. We may
+assume that the indices are so arranged that
+\[
+\Delta = \sum \pm a_{1,1}a_{2,2} \dots a_{\tau,\tau}
+\]
+is not divisible by $p$. If we denote by $\Delta_{k,h}$ the subdeterminants of $\Delta$ and set
+\[
+\Delta_{k,1}a_{s,1} + \Delta_{k,2}a_{s,2} + \cdots \Delta_{k,\tau}a_{s,\tau} = D_{k,s},
+\]
+then $D_{k,s} = \Delta$ when $k = s$, and $= 0$ when $s \leqq \tau$ and is different from
+$k$, and, when $s > \tau$, it is a $\tau$-rowed determinant of the matrix (22). With the aid of this notation, the following can
+now be derived from the first $\tau$ congruences (21):
+\begin{gather}
+\Delta y_1 + D_{1,\tau+1}y_{\tau+1} + \cdots D_{1,\varrho}y_\varrho \equiv 0 \notag\\
+\Delta y_2 + D_{2,\tau+1}y_{\tau+1} + \cdots D_{2,\varrho}y_\varrho \equiv 0\ (\mathrm{mod}\ p^\pi) \tag{23}\\
+\dots\dots\dots\dots\dots\dots\dots\dots\dots \notag\\
+\Delta y_\tau + D_{\tau,\tau+1}y_{\tau+1} + \cdots D_{\tau,\varrho}y_\varrho \equiv 0. \notag
+\end{gather}
+If for brevity we set
+\[
+A_{s,r} = \Delta a_{s,r} - \sum_{1,\tau}^{k} a_{k,r}D_{k,s} = \Delta a_{s,r} - \sum_{1,\tau}^{h}\sum_{1,\tau}^{k} \Delta_{k,h}a_{s,h}a_{k,r},
+\]
+then by Bd. I, \S.\,23, $A_{s,r}$ is a $(\tau+1)$-rowed determinant of the
+matrix (22), and hence by hypothesis divisible by $p$.
+
+    According to this notation we obtain from (23):
+\[
+\Delta (a_{1,r}y_1 + a_{2,r}y_2 + \cdots + a_{\varrho,r}y_\varrho)
+\equiv A_{\tau+1,r}y_{\tau+1} + \cdots + A_{\varrho,r}y_\varrho\ (\mathrm{mod}\ p^\pi),
+\]
+and it thus appears that, when $\tau < \varrho$, the congruences (20)
+are already satisfied when $y_{\tau+1}, \dots y_\varrho$ are assumed divisible by $p^{\pi-1}$, because all the $A_{s,r}$ are divisible by $p$. This,
+then, is not admissible. Hence we must have $\tau = \varrho$, and this also
+suffices, because (23) then reduces to
+\[
+\Delta y_1 \equiv 0,\ \Delta y_2 \equiv 0 \dots \Delta y_\varrho \equiv 0\ (\mathrm{mod}\ p^\pi)
+\]
+and consequently, since $\Delta$ is not divisible by $p$, the quantities $y_1, y_2, \dots y_\varrho$
+must be divisible by $p^\pi$.
+
+    Hereby the requirement 6. has been brought into another form, which, returning to our original notation
+in (20), we can state as follows:
+% [sic: Weber prints requirement 6; the determinant argument reformulates requirement 5, while requirement 6 is the separate primarity condition.]
+%CONT>>

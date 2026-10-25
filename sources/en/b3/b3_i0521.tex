@@ -1,0 +1,54 @@
+% !PRINTED 490
+\weberpage{490}
+
+By multiplication with $u^{12}v^{12}$ equation (3) passes over into a form which does not contain $u$, $v$ in the denominator, and which we denote for the moment by
+
+\weq{4}{F(u, v) = 0}
+
+so that for an indeterminate $x$ and $\omega$:
+
+\weq{5}{F'[f(\omega), x] = [x - f(23\,\omega)] \prod \left[x - f\left(\frac{c+\omega}{23}\right)\right].}
+% [sic] German source prints a prime on $F'$, inconsistent with $F(u,v)$ in (4) and $F(u,u)$ in (6)
+
+We now investigate for which values of $\omega$ the function:
+
+\weq{6}{\begin{aligned}
+F(u, u) &= F[f(\omega), f(\omega)] \\
+&= [f(\omega) - f(23\,\omega)] \prod \left[f(\omega) - f\left(\frac{c+\omega}{23}\right)\right]
+\end{aligned}}
+
+vanishes. First of all, the factor
+
+\[
+f(\omega) - f\left(\frac{\omega}{23}\right)
+\]
+evidently vanishes for
+\[
+u = f(\sqrt{-23}) = f\left(\frac{\sqrt{-23}}{23}\right).
+\]
+
+If we further understand by $r$ one of the numbers $\pm 2$ or $\pm 4$, and correspondingly by
+
+\[
+m = 23 - r^2
+\]
+either 19 or 7, then of the factors of (6) \gesperrt{two} vanish in each case for $\omega = \sqrt{-m}$, namely:
+
+\[
+f(\omega) - f\left(\frac{24\,r + \omega}{23}\right),
+\]
+for we have
+
+\[
+\begin{aligned}
+f\left(\frac{24\,r + \sqrt{-m}}{23}\right) &= e^{\frac{r\pi i}{24}} f\left(\frac{r + \sqrt{-m}}{23}\right) \\
+&= e^{\frac{r\pi i}{24}} f\left(\frac{1}{r - \sqrt{-m}}\right) = f(\sqrt{-m}).
+\end{aligned}
+\]
+
+We add further that
+
+\[
+\frac{f(\omega) - f\left(\dfrac{24\,r + \omega}{23}\right)}{f(\omega) - f(\sqrt{-m})}
+\]
+tends to a finite limit for $\omega = \sqrt{-m}$, as one recognises by differentiation with respect to $\omega$ (\S\,54), and from this it follows that $F(u, u)$ is divisible by $[u - f(\sqrt{-m})]^2$.

@@ -1,0 +1,48 @@
+% !PRINTED 634
+\weberpage{634}
+%<<CONT
+therefore be divisible by some of these prime factors, and they can, no more than $p$ itself, be divisible by the square of a $\mathfrak{p}_n$. We must establish by which prime divisors $\mathfrak{p}_n$ each of these numbers $\psi_s(r)$ is divisible.
+
+To this end, however, we are led on the one hand by the congruences of the preceding section:
+\weq{12}{r \equiv g^{-n\frac{p-1}{m}} \ (\mathrm{mod}\ \mathfrak{p}_{n'}), \qquad n n' \equiv 1\ (\mathrm{mod}\ m),}
+and on the other hand by the congruences (17) derived in \S.\,170 of the first volume:
+\weq{13}{\begin{aligned}
+&\psi_{\lambda,\mu}(g) \equiv 0, && \lambda+\mu<p-1\\[4pt]
+&\psi_{\lambda,\mu}(g) \equiv -\dfrac{\Pi(2p-\lambda-\mu-2)}{\Pi(p-\lambda-1)\,\Pi(p-\mu-1)}, && (\mathrm{mod}\ p)\\
+&&& p-1<\lambda+\mu<2p-2,
+\end{aligned}}
+in which $\lambda$ and $\mu$ are taken between $0$ and $p-1$, so that the binomial coefficient % [sic] German source prints "Binominalcoëfficient"; "Binomialcoëfficient" is meant
+\[
+\frac{\Pi(2p-\lambda-\mu-2)}{\Pi(p-\lambda-1)\,\Pi(p-\mu-1)}
+\]
+is an integer not divisible by $p$.
+
+By the congruence (12) we have
+\[
+\psi_s(r) \equiv \psi_s(g^{-nm'}) \equiv \sum\limits^{t} g^{-nm'\,[\mathrm{ind}\,t - (s+1)\,\mathrm{ind}\,(t+1)]},
+\]
+or, by (6):
+\[
+\psi_s(r) \equiv \psi_{\lambda,\mu}(g) \ (\mathrm{mod}\ \mathfrak{p}_{n'}),
+\]
+if
+\weq{14}{\begin{aligned}
+\lambda &\ \text{denotes the least positive residue of } {-}nm's\\
+\mu &\ \text{\textquotedbl\ \textquotedbl\ \textquotedbl\ \textquotedbl\ \textquotedbl}\ {-}nm'
+\end{aligned}\quad (\mathrm{mod}\ p-1)}
+and the congruences (13) then show that $\psi_s(r)$ is divisible by $\mathfrak{p}_{n'}$ if $\lambda+\mu<p-1$, and not divisible if $\lambda+\mu>p-1$.
+
+Since the number $n$, coprime to $m$, is determined only with respect to the modulus $m$, we now take it \gesperrt{positive and less than $m$}. Then
+\[
+\mu = m'(m-n).
+\]
+
+The number $\lambda$ determined from (14) is a multiple of $m'$, and if we set $\lambda = m'\varkappa$, then
+\weq{15}{\varkappa \ \text{is the least positive residue of } {-}ns \ (\mathrm{mod}\ m).}
+
+According to this, $\psi_s(r)$ will be divisible by $\mathfrak{p}_{\varkappa'}$ if
+% [sic] Source prints the index varkappa' in this sentence; the preceding derivation and following factor count indicate mathfrak p_{n'}. Preserve the printed index.
+\[
+m'(\varkappa+m-n) < m m'
+\]
+or $\varkappa < n$, and not divisible if $\varkappa > n$.

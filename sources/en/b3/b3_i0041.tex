@@ -1,0 +1,56 @@
+% !PRINTED 20
+\weberpage{20}
+
+For the investigation of algebraic differentials from this point of view it is
+expedient to introduce \gesperrt{homogeneous variables}. We put $x = x_1{:}x_3$, $y = x_2{:}x_3$,
+$x_3^n F(x,y) = f(x_1,x_2,x_3)$; then $f(x_1,x_2,x_3)$ is a \gesperrt{homogeneous function} of
+order $n$ in the three variables $x_1, x_2, x_3$, and
+\weq{3}{f(x_1,x_2,x_3) = 0}
+is the equation of a curve of order $n$ in homogeneous coordinates. There results
+\[
+dx = \frac{x_3\,dx_1 - x_1\,dx_3}{x_3^2}
+\]
+and
+\weq{4}{d\Omega = \Phi(x,y)\,dx = \frac{1}{x_3^2}\,\Phi\!\left(\frac{x_1}{x_3},\frac{x_2}{x_3}\right)(x_3\,dx_1 - x_1\,dx_3).}
+
+Now by \gesperrt{Euler's theorem} on homogeneous functions, if we denote by
+$f_1, f_2, f_3$ the partial derivatives of $f$ with respect to
+$x_1, x_2, x_3$, we have
+\[
+\begin{aligned}
+f_1x_1 + f_2x_2 + f_3x_3 &= 0,\\
+f_1\,dx_1 + f_2\,dx_2 + f_3\,dx_3 &= 0,
+\end{aligned}
+\]
+hence, if $\varrho$ denotes a factor of proportionality,
+\[
+\begin{aligned}
+f_1 &= \varrho(x_2\,dx_3 - x_3\,dx_2),\\
+f_2 &= \varrho(x_3\,dx_1 - x_1\,dx_3),\\
+f_3 &= \varrho(x_1\,dx_2 - x_2\,dx_1),
+\end{aligned}
+\]
+and if one denotes by $c_1, c_2, c_3$ entirely arbitrary quantities, e.\,g. constants:
+\[
+c_1f_1 + c_2f_2 + c_3f_3 = \varrho\,\Sigma \pm c_1x_2\,dx_3,
+\]
+where, in the usual way, $\Sigma \pm c_1x_2\,dx_3$ denotes the determinant
+\[
+\begin{vmatrix} c_1 & c_2 & c_3 \\ x_1 & x_2 & x_3 \\ dx_1 & dx_2 & dx_3 \end{vmatrix}
+\]
+It follows therefore:
+\[
+x_3\,dx_1 - x_1\,dx_3 = \frac{f_2\,\Sigma \pm c_1x_2\,dx_3}{c_1f_1 + c_2f_2 + c_3f_3},
+\]
+and if one puts
+\[
+\frac{f_2}{x_3^2}\,\Phi\!\left(\frac{x_1}{x_4}, \frac{x_2}{x_3}\right) = \Psi
+% [sic] printed first denominator x_4; expected x_3 by the surrounding formulas.
+\]
+
+%CONT>>
+
+\begin{center}\rule{2cm}{0.4pt}\end{center}
+\gesperrt{Brill}, Über diejenigen Kurven, deren Koordinaten sich als hyperelliptische Funktionen eines Parameters darstellen lassen (ibid., Bd. 65).
+
+\gesperrt{Clebsch} and \gesperrt{Gordan}, Theorie der Abelschen Funktionen (Teubner, Leipzig 1866).

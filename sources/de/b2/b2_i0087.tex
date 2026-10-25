@@ -1,0 +1,35 @@
+% !PRINTED 66
+\weberpage{66}
+Diese Summe ist also von dem willkürlich anzunehmenden $\tau$ unabhängig. Summirt man hier von $\tau=0$ bis $\tau=q-1$, so ergiebt sich, da $\sum r^{n q^{\varkappa-1}\tau}=0$ ist:
+\weq{13}{(\varepsilon^\beta, r) = 0.}
+Wir haben also den Satz:
+
+1.~\gesperrt{Ist der Grad der Einheitswurzel $r$ eine Potenz einer ungeraden Primzahl, so verschwindet die Resolvente $(\varepsilon^\beta, r)$ dann und nur dann, wenn $\beta$ durch $q$ theilbar ist.}
+
+Wir haben noch den Fall zu betrachten, dass der Grad der Einheitswurzel $r$ eine Potenz von 2 ist. Wir setzen also
+\[
+m = 2^\lambda
+\]
+und nehmen zunächst $\lambda \geqq 3$ an. Dann können wir für jede ungerade Zahl $n$ ein Indexpaar $\nu, \nu_1$ aus den Congruenzen
+\[
+n \equiv (-1)^{\nu_1} 5^\nu\ (\mathrm{mod}\ m)
+\]
+bestimmen, und zwar ist $\nu_1$ nach dem Modul 2, $\nu$ nach dem Modul $2^{\lambda-2}$ bestimmt. Unter den Resolventen verstehen wir in diesem Falle die Summen
+\weq{14}{\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^n,}
+worin $\Theta$ eine primitive Einheitswurzel vom Grade $2^{\lambda-2}$ bedeutet. Nun verfahren wir ganz ähnlich wie vorher. Wenn wir in (14) $n$ durch $nn'$ ersetzen und mit $\nu_1', \nu'$ die Indices von $n'$ bezeichnen, so ergiebt sich
+\weq{15}{(-1)^{-\beta_1 \nu_1'} \Theta^{-\beta \nu'} \bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^{n n'},}
+und daraus durch Multiplication mit $r^{n'}$ und Summation nach $n'$
+\weq{16}{\bigl((-1)^{-\beta_1}, \Theta^{-\beta}, r\bigr)\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n n'} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^{n'(n+1)}.}
+Nun ist aber aus den oben angeführten Gründen
+\[
+\begin{aligned}
+\sum^{n'} r^{n'(n+1)} &= 0, & &\text{wenn } n+1 \text{ nicht durch } 2^{\lambda-1} \text{ theilbar ist,} \\
+&= 2^{\lambda-1} & &\text{für } n+1 \equiv 0\ (\mathrm{mod}\ 2^\lambda),\ \nu=0,\ \nu_1=1, \\
+&= -2^{\lambda-1} & &\text{für } n+1 \equiv 2^{\lambda-1}\ (\mathrm{mod}\ 2^\lambda),\ \nu=2^{\lambda-3},\ \nu_1=1,
+\end{aligned}
+\]
+und danach giebt (16)
+\weq{17}{\begin{aligned}
+\bigl((-1)^{-\beta_1}, \Theta^{-\beta}, r\bigr)\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) &= (-1)^{\beta_1} 2^\lambda, & \beta &\equiv 1\ (\mathrm{mod}\ 2) \\
+&= 0, & \beta &\equiv 0\ (\mathrm{mod}\ 2).
+\end{aligned}}

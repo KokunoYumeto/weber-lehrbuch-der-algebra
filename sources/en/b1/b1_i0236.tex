@@ -1,0 +1,46 @@
+% !PRINTED 211
+\weberpage{211}
+%<<CONT
+\weq{3}{\frac{f(t)}{t-x} = t^{n-1}f_0(x) + t^{n-2}f_1(x) + \cdots + t f_{n-2}(x) + f_{n-1}(x)}
+and
+\begin{align*}
+f_0(x) &= a_0\\
+f_1(x) &= a_0 x + a_1\\
+f_2(x) &= a_0 x^2 + a_1 x + a_2 \tag{4}\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+f_{n-1}(x) &= a_0 x^{n-1} + a_1 x^{n-2} + a_2 x^{n-3} + \cdots + a_{n-1}.
+\end{align*}
+We now assume the substitution (2) in the form
+\weq{5}{y = t_{n-1} f_0(x) + t_{n-2} f_1(x) + \cdots + t_1 f_{n-2}(x) + t_0 f_{n-1}(x),}
+in which the $t_{n-1}, t_{n-2} \ldots t_1, t_0$ are the indeterminate quantities
+that have taken the place of the $\alpha$, and are not to be confused
+with the powers of $t$. But $y$ arises \gesperrt{from the expression (3)
+when $t^k$ is replaced by $t_k$.}
+
+If, as in \S.\,42, we denote by the sign $S$ placed before
+a function that the sum is to be taken over all the roots
+$x$ of equation (1), then we have
+\begin{align*}
+S[f_0(x)] &= n a_0\\
+S[f_1(x)] &= (n-1) a_1\\
+S[f_2(x)] &= (n-2) a_2 \tag{6}\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+S[f_{n-1}(x)] &= a_{n-1},
+\end{align*}
+hence
+\weq{7}{S(y) = n a_0 t_{n-1} + (n-1) a_1 t_{n-2} + \cdots + 2 a_{n-2} t_1 + a_{n-1} t_0,}
+an expression which results from $f'(t)$ when $t^k$ is replaced
+by $t_k$.
+
+If with the help of (7) we eliminate the variable $t_{n-1}$ from (5),
+it follows that
+\weq{8}{y - \frac{1}{n} S(y) = t_{n-2} F_0(x) + t_{n-3} F_1(x) + \cdots + t_0 F_{n-2}(x),}
+if
+\begin{align*}
+F_0 &= f_1 - \frac{n-1}{n} a_1 = a_0 x + \frac{a_1}{n},\\
+F_1 &= f_2 - \frac{n-2}{n} a_2 = a_0 x^2 + a_1 x + \frac{2 a_2}{n}, \tag{9}\\
+&\ \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+F_{n-2} &= f_{n-1} - \frac{1}{n} a_{n-1} = a_0 x^{n-1} + a_1 x^{n-2} + \cdots + \frac{n-1}{n} a_{n-1},
+\end{align*}
+so that
+%CONT>>

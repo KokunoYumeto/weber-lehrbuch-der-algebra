@@ -1,0 +1,56 @@
+% !PRINTED 129
+\weberpage{129}
+%<<CONT
+
+\begin{equation}
+ f(\alpha+h)=f(\alpha)+h f'(\alpha)+\frac{h^2}{1\cdot2}f''(\alpha)+\cdots
+\tag{6}
+\end{equation}
+\begin{equation}
+ h=-\delta\frac{f(\alpha)}{f'(\alpha)},
+\tag{7}
+\end{equation}
+and obtain
+\begin{align}
+ f(\alpha+h)={}&(1-\delta)f(\alpha)
+ +\delta^2\left\{\frac{f(\alpha)^2 f''(\alpha)}{1\cdot2\,f'(\alpha)^2}
+ -\delta\frac{f(\alpha)^3 f'''(\alpha)}{1\cdot2\cdot3\,f'(\alpha)^3}+\cdots\right\}.
+\tag{8}
+\end{align}
+
+Now by (2)
+\[
+ f'(\alpha)=n(\alpha-\beta_1)(\alpha-\beta_2)\cdots(\alpha-\beta_{n-1});
+\]
+therefore, if the absolute values of $(\alpha-\beta_1),(\alpha-\beta_2),
+\ldots,(\alpha-\beta_{n-1})$ are denoted by $r_1,r_2,
+\ldots,r_{n-1}$,
+\[
+ |f'(\alpha)|=nr_1r_2\cdots r_{n-1}.
+\]
+Since $\alpha$ lies outside the circle $\varrho_1$ drawn about $\beta_1$, we have $r_1>\varrho_1,r_2>\varrho_2,\ldots$, and consequently
+\[
+ |f'(\alpha)|>n\varrho_1\varrho_2\cdots\varrho_{n-1}.
+\]
+Thus $|f'(\alpha)|$ is greater than a positive number $k$ independent of the position of $\alpha$ in $G$. It follows that one can choose a sufficiently large positive number $Q$, likewise independent of the position of $\alpha$ and of the proper fraction $\delta$, so that
+\begin{equation}
+ \left|\frac{f(\alpha)^2f''(\alpha)}{1\cdot2\,f'(\alpha)^2}
+ -\delta\frac{f(\alpha)^3f'''(\alpha)}{1\cdot2\cdot3\,f'(\alpha)^3}+\cdots\right|<Q .
+\tag{9}
+\end{equation}
+
+One can obtain $Q$ by replacing in the denominators on the left of (9) $f'(\alpha)$ by $k$, replacing $\delta$ by $1$, replacing all the other terms by their absolute values, replacing finally the absolute value of $\alpha$ by the greater value $R$, and then making the number so obtained arbitrarily larger. From (8) one then obtains
+\begin{equation}
+ |f(\alpha+h)|<(1-\delta)|f(\alpha)|+\delta^2Q.
+\tag{10}
+\end{equation}
+Assume now $Q$ so chosen that, for every $\alpha$ in $G$,
+\[
+ 2Q>|f(\alpha)|=a
+\]
+which is plainly compatible with the above determination. We may then put
+\[
+ \delta=\frac{a}{2Q},\qquad
+ h=-\frac{a f(\alpha)}{2Q f'(\alpha)}
+\]
+%CONT>>

@@ -1,0 +1,37 @@
+% !PRINTED 172
+\weberpage{172}
+
+%<<CONT
+vollständig gelöst ist, so ist damit auch die Gleichung (1) vollständig gelöst [wenn (11) $n$ verschiedene Wurzeln hat] oder wenigstens auf die Lösung einer Gleichung niederen Grades zurückgeführt [wenn (11) gleiche Wurzeln hat].
+
+Demnach betrachten wir (11) als eine Umformung der Gleichung (1), und die Bildung von (11) aus (1) heisst die \gesperrt{Tschirnhausen-Transformation} der Gleichung (1).
+
+Der Zweck einer solchen Transformation ist, die Coëfficienten $\alpha_i$ so zu bestimmen, dass $\Phi(y)$ eine einfachere Gestalt erhält als $f(x)$.
+
+Man kann die Coëfficienten $b_\nu$ bilden, wenn man die Potenzsummen der $y_i$ kennt (\S.\,42).
+
+Bezeichnen wir die Summen der $m^{\text{ten}}$ Potenzen der $x_i$ mit $s_m$, der $y_i$ mit $\sigma_m$, also
+\[
+s_m = S x_i^m, \qquad \sigma_m = S y_i^m,
+\]
+so können wir $\sigma_m$ durch die $s_m$ auf folgende Art bilden.
+
+Wir entwickeln zunächst $y^m$ nach dem polynomischen Lehrsatz (\S.\,12), setzen also
+% [sic] Im Druck fehlt im folgenden Exponenten das Pluszeichen vor \cdots.
+\weq{12}{
+y^m = \sum^{\nu} \frac{\Pi(m)}{\Pi(\nu_0)\,\Pi(\nu_1)\,\dots\,\Pi(\nu_{n-1})}\, \alpha_0^{\nu_0}\alpha_1^{\nu_1}\dots\alpha_{n-1}^{\nu_{n-1}}\, x^{\nu_1+2\nu_2\cdots+(n-1)\nu_{n-1}},
+}
+worin die Summe sich auf alle nicht negativen ganzzahligen Werthe von $\nu_0, \nu_1 \dots \nu_{n-1}$ erstreckt, die der Bedingung
+\weq{13}{
+\nu_0 + \nu_1 + \cdots + \nu_{n-1} = m
+}
+genügen. Setzen wir dann in (12) $x_1, x_2 \dots x_n$ für $x$ und bilden die Summe der so erhaltenen Werthe von $y_1^m, y_2^m \dots y_n^m$, so folgt
+\weq{14}{
+\sigma_m = \sum^{\nu} \frac{\Pi(m)}{\Pi(\nu_0)\,\Pi(\nu_1)\,\dots\,\Pi(\nu_{n-1})}\, s_{\nu_1+2\nu_2+\cdots+(n+1)\nu_{n-1}}\, \alpha_0^{\nu_0}\alpha_1^{\nu_1}\dots\alpha_{n-1}^{\nu_{n-1}}. % [sic] exponent reads (n+1), cf. (n-1) in (12)
+}
+Hierdurch ist $\sigma_m$ als ganze homogene Function $m^{\text{ter}}$ Ordnung der $\alpha_0, \alpha_1 \dots \alpha_{n-1}$ dargestellt. Eine etwas vereinfachte Schreibweise erhält man nach der zweiten Darstellung von Formen (\S.\,15). Lassen wir $\mu_1, \mu_2 \dots \mu_m$ unabhängig von einander die Reihe der Zahlen $0, 1 \dots n-1$ durchlaufen, so wird, wenn in einer Combination $\nu_0$ mal der Index 0, $\nu_1$ mal der Index 1, $\nu_2$ mal der Index 2, \dots $\nu_{n-1}$ mal der Index $n-1$ vorkommt,
+\[
+\nu_0 + \nu_1 + \nu_2 + \cdots + \nu_{n-1} = m
+\]
+und
+%CONT>>

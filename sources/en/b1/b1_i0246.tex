@@ -1,0 +1,51 @@
+% !PRINTED 221
+\weberpage{221}
+
+The computation of the coefficients $Q$ is easy to carry out if one sets up this equation for $x_1$, $x_2$, $x_3$ and correspondingly $y_1$, $y_2$, $y_3$.
+
+We shall give a few indications of the course of the computation, which requires only the representation of symmetric functions of the roots of a cubic equation by the coefficients, according to the prescriptions of the fourth section (\S.\,42, 45). If one first takes the sum of the three equations (9), one obtains by (6)
+\[
+3 Q_0 = \frac{2}{3} H(t_1, t_0) Q_2 - a_1 f(t_1, t_0),
+\]
+so that only $Q_1$ and $Q_2$ still need to be computed; these one finds by multiplying the equation (9) formed for $x = x_1$ by
+\[
+y_2 - y_3 = a_0 (x_2 - x_3) (t_1 - t_0 x_1)
+\]
+and by
+\[
+y_2^2 - y_3^2 = -a_0 (x_2 - x_3) y_1 (t_1 - t_0 x_1)
+\]
+and adding the three analogous equations formed by cyclic permutation of the indices 1, 2, 3.
+
+One then has only to make use of the two formulae
+\[
+a_0^2 \Sigma x_1^2 (x_2 - x_3) = -\sqrt{D}
+\]
+\[
+a_0^3 \Sigma x_1^3 (x_2 - x_3) = a_1 \sqrt{D},
+\]
+and thus finds
+\[
+Q_0 = \frac{-a_1}{3} f(t_1, t_0) - \frac{2}{3} t_0 H(t_1, t_0)
+\]
+\[
+Q_1 = a_0 t_1^2 + \frac{2}{3} a_1 t_0 t_1 + \frac{1}{3} a_2 t_0^2
+\]
+\[
+Q_2 = -t_0.
+\]
+
+If for simplification we set $t_1 = t$, $t_0 = 1$, thus passing to the inhomogeneous expressions, we obtain
+\weq{10}{
+(3 a_0 x + a_1) f(t) = -\frac{2}{3} H(t) + y f'(t) - 3 y^2,
+}
+while the equation for $y$ reads
+\weq{11}{
+y^3 + \frac{1}{3} H(t) y + \frac{1}{27} Q(t) = 0,
+}
+if we write $H(t)$, $Q(t)$ for $H(t, 1)$, $Q(t, 1)$.
+
+Now, in order to solve the cubic equation, we determine $t$ from the quadratic equation
+\[
+H(t) = 0.
+\]

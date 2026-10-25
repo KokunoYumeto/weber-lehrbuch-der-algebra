@@ -1,0 +1,60 @@
+% !PRINTED 44
+\weberpage{44}
+%<<CONT
+
+\begin{equation}
+\begin{aligned}
+0&=B_0^{(0)}B_0^{(n)}-B_0^{(1)}B_1^{(n)}+B_0^{(2)}B_2^{(n)}-\cdots\pm B_0^{(n)}B_n^{(n)},\\
+0&=-B_1^{(1)}B_1^{(n)}+B_1^{(2)}B_2^{(n)}-\cdots\pm B_1^{(n)}B_n^{(n)},\\
+&\cdots\\
+\pm 1&=\pm B_n^{(n)}B_n^{(n)},
+\end{aligned}
+\tag{6}
+\end{equation}
+und dies Formelsystem lässt sich in umgekehrter Reihenfolge mit Benutzung der Relation $B_\nu^{(n)}=B_{n-\nu}^{(n)}$ auch so darstellen:
+\begin{equation}
+\begin{aligned}
+1&=B_0^{(n)}B_0^{(n)},\\
+0&=B_1^{(n)}B_0^{(n)}-B_0^{(n-1)}B_1^{(n)},\\
+0&=B_2^{(n)}B_0^{(n)}-B_1^{(n-1)}B_1^{(n)}+B_0^{(n-2)}B_2^{(n)},\\
+&\cdots\\
+0&=B_n^{(n)}B_0^{(n)}-B_{n-1}^{(n-1)}B_1^{(n)}+B_{n-2}^{(n-2)}B_2^{(n)}-\cdots\pm B_0^{(0)}B_n^{(n)},
+\end{aligned}
+\tag{7}
+\end{equation}
+oder auch in zusammenfassender Bezeichnung:
+\begin{equation}
+ \sum_{\nu=0}^{\mu}(-1)^\nu B_{\mu-\nu}^{(n-\nu)}B_\nu^{(n)}
+ =\begin{cases}
+ 1,&\mu=0,\\
+ 0,&\mu=1,2,\ldots,n.
+ \end{cases}
+\tag{8}
+\end{equation}
+
+
+\begin{center}
+{\large \S.\ 9.}
+
+\vspace{0.5em}
+{\large\gesperrt{Interpolation.}}
+\end{center}
+
+Wir wollen von den zuletzt gewonnenen Formeln eine Anwendung machen auf eine Aufgabe aus der Theorie der Interpolation.
+
+\gesperrt{Es soll eine ganze rationale Function $n$ten Grades bestimmt werden, die für $n+1$ gegebene Werthe der Veränderlichen $x$ vorgeschriebene Werthe hat.}
+
+Es handelt sich also um die Bestimmung der $n+1$ Coëfficienten $a_0,a_1,\ldots,a_n$ in
+\begin{equation}
+ f(x)=a_0x^n+a_1x^{n-1}+\cdots+a_{n-1}x+a_n
+\tag{1}
+\end{equation}
+aus den $n+1$ Gleichungen
+\begin{equation}
+ f(\alpha_0)=A_0,\quad f(\alpha_1)=A_1,\quad \ldots,\quad f(\alpha_n)=A_n,
+\tag{2}
+\end{equation}
+wenn $\alpha_0,\alpha_1,\ldots,\alpha_n$ die gegebenen Werthe von $x$, und $A_0,A_1,\ldots,A_n$ die entsprechenden Werthe von $f(x)$ sind.
+
+Die Gleichungen (2) sind ein System von Gleichungen ersten Grades für die Unbekannten $a_0,a_1,\ldots,a_n$, die sich im Allgemeinen durch Determinanten auflösen lassen, wie wir im nächsten Abschnitt sehen werden. Wir kommen später auf diese Aufgabe zurück,
+%CONT>>

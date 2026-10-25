@@ -1,0 +1,57 @@
+% !PRINTED 769
+\weberpage{769}
+%<<CONT
+
+and consequently, if $u$, $v$ are indeterminate quantities and the
+\gesperrt{congruence is referred only to the coefficients},
+\[
+(u+v)^p \equiv u^p+v^p \ (\mathrm{mod}\ p).
+\]
+
+If we again replace $v$ in it by a sum $v+w+\cdots$,
+we obtain by complete induction (or else from the
+polynomial theorem):
+\[
+(u+v+w+\cdots)^p \equiv u^p+v^p+w^p+\cdots \ (\mathrm{mod}\ p),
+\]
+and if we apply this formula repeatedly, and understand by $k$
+an arbitrary positive exponent,
+\weq{1}{(u+v+w+\cdots)^{p^k} \equiv u^{p^k}+v^{p^k}+w^{p^k}+\cdots \ (\mathrm{mod}\ p).}
+
+Let $x$ now be a variable, and let $a_1, a_2, \dots, a_\nu$ be integral rational
+numbers,
+\[
+f(x) = x^\nu + a_1 x^{\nu-1} + a_2 x^{\nu-2} + \cdots + a_\nu
+\]
+an integral function of $x$, whose roots we may take to be $\alpha, \beta, \gamma, \dots$,
+so that
+\[
+-a_1 = \Sigma\alpha, \quad a_2 = \Sigma\alpha\beta, \quad -a_3 = \Sigma\alpha\beta\gamma \dots
+\]
+are the symmetric fundamental functions of the $\alpha, \beta, \gamma, \dots$.
+
+We form the function
+\[
+F(x) = x^\nu + A_1 x^{\nu-1} + A_2 x^{\nu-2} + \cdots + A_\nu,
+\]
+whose roots are the $p^{k}$th powers of the roots of $f$, that is,
+\[
+\alpha^{p^k}, \ \beta^{p^k}, \ \gamma^{p^k}, \dots
+\]
+The coefficients of $F$:
+\[
+A_1 = -\Sigma\alpha^{p^k}, \quad A_2 = \Sigma\alpha^{p^k}\beta^{p^k}, \quad A_3 = -\Sigma\alpha^{p^k}\beta^{p^k}\gamma^{p^k} \dots
+\]
+are, as symmetric functions of the $\alpha, \beta, \gamma, \dots$ with integral
+coefficients, representable rationally and with integral coefficients by means of the $a_1, a_2, \dots$, and are
+therefore integers. The quotients
+\[
+\frac{A_1 - a_1^{p^k}}{p}, \quad \frac{A_2 - a_2^{p^k}}{p}, \quad \frac{A_3 - a_3^{p^k}}{p}, \dots
+\]
+are, however, by formula (1) likewise integers, and thus by
+\gesperrt{Fermat's theorem}
+\weq{2}{F(x) \equiv f(x) \ (\mathrm{mod}\ p).}
+
+These theorems are now to be applied to the function $f_n(x)$,
+whose roots are all the \gesperrt{primitive} $n$th roots of unity $\alpha, \beta, \gamma, \dots$, and which, as was proved in \S.\,133 of the first
+volume, has integral coefficients $a_1, a_2, \dots$.

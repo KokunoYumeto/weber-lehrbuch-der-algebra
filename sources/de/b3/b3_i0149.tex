@@ -1,0 +1,62 @@
+% !PRINTED 128
+\weberpage{128}
+%<<CONT
+\[
+-i\omega = r\,e^{i\varphi}, \qquad \alpha-\frac{\beta}{\omega} = \varrho\,e^{i\psi}
+\]
+\[
+-i(-\beta+\alpha\omega) = r\varrho\,e^{i(\varphi+\psi)},
+\]
+so ist, da die reellen Teile von $-i\omega$, $-i(-\beta+\alpha\omega)$ positiv sind,
+\[
+-\frac{\pi}{2} < \varphi < \frac{\pi}{2}, \quad -\pi < \psi < \pi, \quad
+-\frac{\pi}{2} < \varphi+\psi < \frac{\pi}{2},
+\]
+\[
+\sqrt{-i\omega} = \sqrt{r}\,e^{\frac{i\varphi}{2}}, \qquad
+\sqrt{\alpha-\frac{\beta}{\omega}} = \sqrt{\varrho}\,e^{\frac{i\psi}{2}},
+\]
+und der reelle Teil von
+\[
+\sqrt{-i\omega}\ \sqrt{\alpha-\frac{\beta}{\omega}} = \sqrt{-i(-\beta+\alpha\omega)}
+= \sqrt{r\varrho}\,e^{\frac{i(\varphi+\psi)}{2}}
+\]
+positiv. Demnach ergibt sich aus (15), 1:
+\[
+\sqrt{-i\omega}\, E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \frac{-1}{\omega}\right)
+= \left(\frac{\beta}{\alpha}\right) i^{\frac{\alpha-1}{2}}
+e^{\frac{\pi i}{12}\left[\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta\right]}
+\sqrt{-i(-\beta+\alpha\omega)}.
+\]
+
+Dieselbe Formel aber erhält man, da $\left(\dfrac{-\beta}{\alpha}\right)=i^{(\alpha-1)}\left(\dfrac{\beta}{\alpha}\right)$,
+aus (15), 2. für
+\[
+E\!\left(\begin{matrix}-\beta, & \alpha \\ -\delta, & \gamma\end{matrix}, \omega\right),
+\]
+und damit ist (14) bewiesen.
+
+Es bleibt noch die Formel (13). Es genügt, die oberen
+Zeichen allein zu berücksichtigen, also die Formel
+\[
+E\!\left(\begin{matrix}\alpha+\beta, & \beta \\ \gamma+\delta, & \delta\end{matrix}, \omega\right)
+= e^{\frac{\pi i}{12}} E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \omega+1\right)
+\]
+zu beweisen, da der andere Fall durch Vertauschung von $\alpha, \gamma, \omega$
+mit $\alpha+\beta, \gamma+\delta, \omega+1$ auf diesen zurückkommt. Ist zunächst
+$\beta$ ungerade (und positiv), so ergibt sich (13) aus (15), 2. auf
+Grund der Kongruenz
+\[
+(\beta^2-1)(1-\beta\gamma-\alpha\delta-\beta\delta) \equiv -\beta(\beta^2-1)(2\gamma+\delta) \equiv 0\ (\mathrm{mod}\ 24).
+\]
+
+Ist $\beta$ gerade, so ist $\alpha$ ungerade. Nehmen wir $\alpha$ positiv, so
+kann $\alpha+\beta$ positiv oder negativ sein. Gelten im ersten Falle die
+oberen, im zweiten die unteren Zeichen, so ergibt uns (15), 1:
+\weq{16}{
+e^{\frac{i\pi}{12}} E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \omega+1\right)
+= \left(\frac{\beta}{\alpha}\right) i^{-\frac{1-\alpha}{2}}
+e^{\frac{\pi i}{12}\left[1+\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta\right]}
+\sqrt{\alpha+\beta+\beta\omega},
+}
+%CONT>>

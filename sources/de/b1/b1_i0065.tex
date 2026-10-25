@@ -1,0 +1,49 @@
+% !PRINTED 40
+\weberpage{40}
+%<<CONT
+
+\[
+(x-\alpha_1)(x-\alpha_2)=x^2-(\alpha_1+\alpha_2)x+\alpha_1\alpha_2,
+\]
+\[
+\begin{aligned}
+ (x-\alpha_1)(x-\alpha_2)(x-\alpha_3)&=x^3-(\alpha_1+\alpha_2+\alpha_3)x^2\\
+&\quad +(\alpha_1\alpha_2+\alpha_1\alpha_3+\alpha_2\alpha_3)x-\alpha_1\alpha_2\alpha_3.
+\end{aligned}
+\]
+Nehmen wir die Richtigkeit unseres Bildungsgesetzes bei $n-1$ Factoren als bewiesen an und setzen
+\[
+ (x-\alpha_1)(x-\alpha_2)\cdots(x-\alpha_{n-1})=x^{n-1}+a'_1x^{n-2}+\cdots+a'_{n-1},
+\]
+so findet man durch Multiplication mit $x-\alpha_n$:
+\begin{equation}
+\begin{aligned}
+ a_1&=a'_1-\alpha_n,\\
+ a_2&=a'_2-\alpha_n a'_1,\\
+ a_3&=a'_3-\alpha_n a'_2,\\
+&\cdots\\
+ a_\nu&=a'_\nu-\alpha_n a'_{\nu-1},\\
+&\cdots\\
+ a_n&=-\alpha_n a'_{n-1},
+\end{aligned}
+\tag{3}
+\end{equation}
+und daraus ist die Richtigkeit der Formeln (2) unmittelbar ersichtlich.
+
+Es ist von Wichtigkeit, die Anzahl der Glieder zu bestimmen, die in jeder der Summen (2) vorkommen. Wir bezeichnen die Anzahl der Terme, die in der Summe $(-1)^\nu a_\nu$ vorkommen, mit $B_\nu^{(n)}$; es ist die Anzahl der Combinationen ohne Wiederholung von $n$ Elementen zur $\nu$ten Classe (d. h. von je $\nu$ verschiedenen der $n$ Elemente). Um sie zu bestimmen, denke man sich zunächst die $B_{\nu-1}^{(n)}$ Combinationen zur $(\nu-1)$ten Classe gebildet. Aus jeder dieser Combinationen kann man durch Hinzufügung je eines der fehlenden $n-\nu+1$ Elemente $n-\nu+1$ Combinationen zur $\nu$ten Classe ableiten. Auf diese Art aber wird jede Combination $\nu$mal, nämlich durch Hinzufügung jedes ihrer Elemente gebildet, so dass man die Relation
+\begin{equation}
+ B_\nu^{(n)}=B_{\nu-1}^{(n)}{n-\nu+1\over \nu}
+\tag{4}
+\end{equation}
+erhält, während $B_1^{(n)}$ offenbar den Werth $n$ hat. Wenn man also die aus (4) folgenden Gleichungen
+\begin{equation}
+\begin{aligned}
+ B_1^{(n)}&=n,\\
+ B_2^{(n)}&=B_1^{(n)}{n-1\over 2},\\
+&\cdots\\
+ B_\nu^{(n)}&=B_{\nu-1}^{(n)}{n-\nu+1\over \nu}
+\end{aligned}
+\tag{5}
+\end{equation}
+multiplicirt, so folgt:
+%CONT>>

@@ -1,0 +1,28 @@
+% !PRINTED 154
+\weberpage{154}
+If we there put $v:2K$ in place of $v$, then from §\,42 and 43 we obtain:
+\weq{2}{\begin{aligned}
+\frac{d^2\log\Theta(v)}{dv^2} &= \frac{1}{4K^2}\frac{\vartheta_{01}''}{\vartheta_{01}}-\varkappa^2\mathrm{sn}^2v \\
+&= \frac{1}{4K^2}\frac{\vartheta_{01}''}{\vartheta_{01}}-1+\mathrm{dn}^2v.
+\end{aligned}}
+We set
+\weq{3}{1-\frac{\vartheta_{01}''}{4K^2\vartheta_{01}} = \frac{E}{K},}
+and obtain by integration of (2)
+\[ \frac{d\log\Theta(v)}{dv} = Z(v) = -\frac{E}{K}v+\int_0^v \mathrm{dn}^2v\,dv, \]
+or, if we set
+\weq{4}{E(v) = \int_0^v \mathrm{dn}^2v\,dv}
+we have:
+\weq{5}{Z(v) = E(v)-\frac{E}{K}v, \qquad \frac{dZ(v)}{dv} = \mathrm{dn}^2v-\frac{E}{K}.}
+
+% [sic] German source omits =0 after \Theta'(0); evenness implies both derivatives vanish.
+The functions $\Theta(v)$ and $\Theta(v+K)$ are even functions, so both derivatives vanish: $\Theta'(0)$
+and $\Theta'(K)=0$.
+If, then, we set $v=K$ in (5), it follows that:
+\weq{6}{E = \int_0^K \mathrm{dn}^2v\,dv.}
+
+If one further introduces for $dv$ the differential
+\[ \frac{1}{2}\frac{d\xi}{\sqrt{\xi(1-\xi)(1-\varkappa^2\xi)}} \]
+[§\,42 (8)], one obtains for $E(v)$ an elliptic integral \gesperrt{of the second kind} (§\,11):
+\weq{7}{E(v) = \frac{1}{2}\int_0^{\xi} \frac{d\xi(1-\varkappa^2\xi)}{\sqrt{\xi(1-\xi)(1-\varkappa^2\xi)}},}
+\weq{8}{E = \frac{1}{2}\int_0^1 \frac{d\xi(1-\varkappa^2\xi)}{\sqrt{\xi(1-\xi)(1-\varkappa^2\xi)}},}
+where the latter integral is to be taken in the same sense as §\,42 (17).

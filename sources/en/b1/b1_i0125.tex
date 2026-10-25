@@ -1,0 +1,49 @@
+% !PRINTED 100
+\weberpage{100}
+%<<CONT
+
+from the $n+1$ equations (7) and (8). This gives the determinant equation
+\[
+\begin{vmatrix}
+ \varphi(x)&x^{n-1}&x^{n-2}&\cdots&x&1\\
+ \varphi(\alpha_1)&\alpha_1^{n-1}&\alpha_1^{n-2}&\cdots&\alpha_1&1\\
+ \varphi(\alpha_2)&\alpha_2^{n-1}&\alpha_2^{n-2}&\cdots&\alpha_2&1\\
+ \cdots&\cdots&\cdots&&\cdots&\cdots\\
+ \varphi(\alpha_n)&\alpha_n^{n-1}&\alpha_n^{n-1}&\cdots&\alpha_n&1% [sic] Weber prints the third element of the last row as \alpha_n^{n-1}, not \alpha_n^{n-2}; source-original error preserved to match the scan.
+\end{vmatrix}=0.\tag{9}
+\]
+We now expand this determinant according to the elements of the first column. For the subdeterminants which occur there we can use the notation (2), and we obtain
+\begin{align}
+&\varphi(x)[\alpha_1,\alpha_2,\ldots,\alpha_n]
+-\varphi(\alpha_1)[x,\alpha_2,\alpha_3,\ldots,\alpha_n]
++\varphi(\alpha_2)[x,\alpha_1,\alpha_3,\ldots,\alpha_n]
+\notag\\
+&\qquad+\cdots(-1)^n\varphi(\alpha_n)[x,\alpha_1,\alpha_2,\ldots,\alpha_{n-1}]=0.\tag{10}
+\end{align}
+Now by (1)
+\[
+ [x,\alpha_2,\alpha_3,
+ \ldots,\alpha_n]=(x-\alpha_2)(x-\alpha_3)\cdots(x-\alpha_n)[\alpha_2,\alpha_3,
+ \ldots,\alpha_n],
+\]
+for which we may also write
+\[
+ [x,\alpha_2,\alpha_3,\ldots,\alpha_n]=\frac{f(x)}{x-\alpha_1}[\alpha_2,\alpha_3,\ldots,\alpha_n],
+\]
+and likewise
+\[
+ [x,\alpha_1,\alpha_3,\ldots,\alpha_n]=\frac{f(x)}{x-\alpha_2}[\alpha_1,\alpha_3,\ldots,\alpha_n],
+\]
+\[\cdots\]
+\[
+ [x,\alpha_1,\alpha_2,\ldots,\alpha_{n-1}]=\frac{f(x)}{x-\alpha_n}[\alpha_1,\alpha_2,\ldots,\alpha_{n-1}],
+\]
+Dividing (10) by $[\alpha_1,\alpha_2,
+\ldots,\alpha_n]$ and taking account of the several expressions (6), one finally obtains
+\begin{equation}
+ \varphi(x)=f(x)\left(\frac{\varphi(\alpha_1)}{(x-\alpha_1)f'(\alpha_1)}+\frac{\varphi(\alpha_2)}{(x-\alpha_2)f'(\alpha_2)}+\cdots+\frac{\varphi(\alpha_n)}{(x-\alpha_n)f'(\alpha_n)}\right).\tag{11}
+\end{equation}
+This completely determines the function $\varphi(x)$. This expression for $\varphi(x)$ is called the \gesperrt{interpolation formula of Lagrange}. That it satisfies the stipulated requirements can be verified afterwards very easily by putting $x_1=\alpha_1,\alpha_2,
+\ldots,\alpha_n$.% [sic] Weber prints x_1 rather than x in this verification clause; source-original error preserved to match the scan.
+\ The denominators $x-\alpha_1,x-\alpha_2,
+\ldots,x-\alpha_n$ are present in it only apparently.

@@ -1,0 +1,37 @@
+% !PRINTED 94
+\weberpage{94}
+
+Wir wollen das Hauptglied der Determinante $C$ nach (6) bilden, indem wir mit $s_1,s_2,\ldots,s_n$ von einander unabhängige Summationsbuchstaben bezeichnen, die von $1$ bis $n$ laufen:
+\begin{align}
+ c_1^{(1)}c_2^{(2)}\cdots c_n^{(n)}
+ &=\sum_{s_1}a_1^{(s_1)}b_1^{(s_1)}
+   \sum_{s_2}a_2^{(s_2)}b_2^{(s_2)}\cdots
+   \sum_{s_n}a_n^{(s_n)}b_n^{(s_n)}\notag\\
+ &=\sum_{s_1,s_2,\ldots,s_n}a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}
+ b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)}.\tag{12}
+\end{align}
+Die Permutation der unteren Indices der $c$ entspricht der Permutation der unteren Indices der $a$, und wenn man also mit Rücksicht auf die Vorzeichenregel die Determinante $C$ bildet, so erhält man
+\begin{align}
+ \sum \pm c_1^{(1)}c_2^{(2)}\cdots c_n^{(n)}
+ =\sum_{s_1,s_2,\ldots,s_n} b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)}
+ \sum\pm a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}.\tag{13}
+\end{align}
+Nun ist
+\[
+\sum\pm a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}
+\]
+nach §. 21, VI. immer dann gleich Null, wenn unter den $s_1,s_2,\ldots,s_n$ zweimal dieselbe Ziffer vorkommt; es behalten also nur die Glieder in (13) einen von Null verschiedenen Werth, in denen $s_1,s_2,\ldots,s_n$ eine Anordnung der Indices $1,2,\ldots,n$ ist, und zwar ist dieser Werth $+A$ oder $-A$, je nachdem diese Anordnung zur ersten oder zur zweiten Art gehört (§. 21, IV).
+
+Demnach wird die rechte Seite von (13):
+\[
+ A\sum_{s_1,s_2,\ldots,s_n}\pm b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)},
+\]
+die Summe erstreckt über alle Permutationen $s_1,s_2,\ldots,s_n$. Diese Summe ist aber gerade die Determinante $B$ und daher die Formel
+\[
+ C=AB
+\]
+bewiesen.
+
+Das in der Formel (6) enthaltene Bildungsgesetz der Elemente $c_i^{(h)}$ können wir in Worten so ausdrücken: \gesperrt{Um die Elemente der Determinante $C$, die das Product der beiden Determinanten $A,B$ ist, zu erhalten, multiplicirt man die Elemente je einer Colonne von $A$ mit den entsprechenden Elementen einer Colonne von $B$ und addirt die Producte.}
+
+Nach den Sätzen über die Determinanten kann man die Form von $C$ in mannigfacher Weise abändern. Wir wollen darüber Folgendes bemerken.

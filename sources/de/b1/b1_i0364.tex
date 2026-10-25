@@ -1,0 +1,61 @@
+% !PRINTED 339
+\weberpage{339}
+%<<CONT
+\gesperrt{$\alpha$ ist, so erh\"alt man ein engeres Intervall $(\alpha', \beta')$
+von denselben Eigenschaften, wenn man}
+\weq{4}{
+\alpha' = \alpha - \frac{f(\alpha)(\beta - \alpha)}{f(\beta) - f(\alpha)}, \quad \beta' = \beta - \frac{f(\beta)}{f'(\beta)}
+}
+\gesperrt{setzt.}
+
+Um diese Resultate der geometrischen Anschauung analytisch
+ zu beweisen, nehmen wir an, es sei im Intervall $f'(x)$ und
+$f''(x)$ positiv, also $\alpha < \beta$, und
+\[
+f(\alpha) < 0, \quad f(\beta) > 0.
+\]
+
+Wir beschr\"anken uns auf die Betrachtung dieses einen
+Falles, da die drei anderen genau in derselben Weise zu behandeln
+ sind.
+
+Wir bilden die Function
+\[
+\varphi(x) = \frac{f(\beta) - f(x)}{\beta - x}
+\]
+und deren erste Derivirte
+\[
+\varphi'(x) = \frac{-(\beta - x)f'(x) + f(\beta) - f(x)}{(\beta - x)^2}.
+\]
+Der Z\"ahler dieses Ausdruckes
+\[
+\psi(x) = -(\beta - x)f'(x) + f(\beta) - f(x)
+\]
+verschwindet f\"ur $x = \beta$, und seine Derivirte ist
+\[
+\psi'(x) = -(\beta - x)f''(x),
+\]
+also im Intervall negativ. Daraus folgt, dass $\psi(x)$ im Intervall
+mit wachsendem $x$ abnimmt und daher, weil es f\"ur den gr\"ossten
+Werth $x = \beta$ verschwindet, positiv bleibt. Folglich ist auch
+$\varphi'(x)$ positiv und $\varphi(x)$ w\"achst im Intervall mit wachsendem $x$
+best\"andig. Wir haben demnach
+\weq{5}{
+\begin{gathered}
+\frac{f(\beta) - f(\alpha)}{\beta - \alpha} < \frac{f(\beta) - f(x)}{\beta - x} < f'(\beta) \\
+\alpha < x < \beta.
+\end{gathered}
+}
+Setzen wir nun
+\[
+\alpha' = \alpha - \frac{f(\alpha)(\beta - \alpha)}{f(\beta) - f(\alpha)}, \quad \beta' = \beta - \frac{f(\beta)}{f'(\beta)},
+\]
+so wird
+\weq{6}{
+\beta' - \alpha' = f(\beta)\left\{\frac{\beta - \alpha}{f(\beta) - f(\alpha)} - \frac{1}{f'(\beta)}\right\},
+}
+und nach (5) folgt, dass diese Differenz positiv ist, also
+\[
+\alpha < \alpha' < \beta' < \beta.
+\]
+% 22*

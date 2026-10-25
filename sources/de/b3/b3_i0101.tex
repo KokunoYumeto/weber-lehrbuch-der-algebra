@@ -1,0 +1,56 @@
+% !PRINTED 80
+\weberpage{80}
+
+Hieraus erhält man aber:
+
+\weq{20}{
+\begin{aligned}
+v_1' &= \tfrac{1}{2}(v_1+v_2+v_3+v_4), & a_1 &= \tfrac{1}{2}(\phantom{-}v_2+v_3+v_4),\\
+v_2' &= \tfrac{1}{2}(v_1+v_2-v_3-v_4), & a_2 &= \tfrac{1}{2}(\phantom{-}v_2-v_3-v_4),\\
+v_3' &= \tfrac{1}{2}(v_1-v_2+v_3-v_4), & a_3 &= \tfrac{1}{2}(-v_2+v_3-v_4),\\
+v_4' &= \tfrac{1}{2}(v_1-v_2-v_3+v_4), & a_4 &= \tfrac{1}{2}(-v_2-v_3+v_4),
+\end{aligned}
+}
+
+und danach ergibt die Formel (18):
+\[
+4\,A_1\,\vartheta_{00}(v_1) = \sum \vartheta_{g_1,g_2}(v_1')\vartheta_{g_1,g_2}(v_2')\vartheta_{g_1,g_2}(v_3')\vartheta_{g_1,g_2}(v_4'),
+\]
+worin nun entweder die $v_i$ oder die $v_i'$ als unabhängige Variable angesehen werden können.
+
+Betrachtet man die $v_i$ als unabhängige Variable, so ist in dieser Formel $A_1$ von $v_1$ unabhängig, wohl aber noch von $v_2$, $v_3$, $v_4$ abhängig. Setzen wir daher $4\,A_1 = c\,\vartheta_{00}(v_2)\vartheta_{00}(v_3)\vartheta_{00}(v_4)$, so ergibt sich
+\[
+c\,\vartheta_{00}(v_1)\vartheta_{00}(v_2)\vartheta_{00}(v_3)\vartheta_{00}(v_4)
+= \sum \vartheta_{g_1,g_2}(v_1')\vartheta_{g_1,g_2}(v_2')\vartheta_{g_1,g_2}(v_3')\vartheta_{g_1,g_2}(v_4'),
+\]
+und darin ist $c$ jedenfalls von $v_1$ unabhängig. Da nun aber die rechte Seite dieser Formel bei beliebigen Vertauschungen von $v_1, v_2, v_3, v_4$ ungeändert bleibt, so ist $c$ von allen $v_i$ unabhängig, und man erhält seinen Wert, wenn man alle $v_i = 0$ setzt:
+\[
+c\,\vartheta_{00}^4 = \vartheta_{00}^4 + \vartheta_{01}^4 + \vartheta_{10}^4,
+\]
+woraus nach \S\,21, (14) $c=2$ folgt.
+
+Wir haben also die Formel:
+\[
+2\,\vartheta_{00}(v_1)\vartheta_{00}(v_2)\vartheta_{00}(v_3)\vartheta_{00}(v_4)
+= \sum\limits^{g_1,g_2} \vartheta_{g_1,g_2}(v_1')\vartheta_{g_1,g_2}(v_2')\vartheta_{g_1,g_2}(v_3')\vartheta_{g_1,g_2}(v_4').
+\]
+
+Wenn man darin jede der Variablen $v_1, v_2, v_3, v_4$ um eine halbe Periode $-\tfrac{1}{2}(g_1'\omega_1 - g_2')$ vermehrt, so wird $v_1'$ um eine ganze Periode $-(g_1'\omega_1 - g_2')$ vermehrt, während $v_2', v_3', v_4'$ ungeändert bleiben, und demnach erhält man mit Hilfe von \S\,21, (2) und (3) ein System von vier Formeln:
+% [sic] Printed \omega_1 in both shifts; in the normalized theta setting the period is \omega.
+
+\weq{21}{
+\begin{aligned}
+&2\,\vartheta_{g_1',g_2'}(v_1)\vartheta_{g_1',g_2'}(v_2)\vartheta_{g_1',g_2'}(v_3)\vartheta_{g_1',g_2'}(v_4)\\
+&=\sum\limits^{g_1,g_2} (-1)^{g_1g_2'+g_2g_1'+g_1'g_2'}\,\vartheta_{g_1,g_2}(v_1')\vartheta_{g_1,g_2}(v_2')\vartheta_{g_1,g_2}(v_3')\vartheta_{g_1,g_\nu}(v_4'). % [sic] Printed g_\nu; mathematically expected g_2
+\end{aligned}
+}
+
+Dies sind die \gesperrt{Jacobischen} Formeln.
+Setzt man z.\,B.
+\[
+\begin{aligned}
+v_1 &= 0, & v_2 &= v+w, & v_3 &= u+v, & v_4 &= u+w,\\
+v_1' &= u+v+w, & v_2' &= -u, & v_3' &= -w, & v_4' &= -v,
+\end{aligned}
+\]
+%CONT>>

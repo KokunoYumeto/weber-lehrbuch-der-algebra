@@ -1,0 +1,48 @@
+% !PRINTED 567
+\weberpage{567}
+Da die $f$-gliedrigen Perioden (f\"ur $f = 1$) die Gr\"ossen $r$ mit
+umfassen, so wollen wir gleich zur Bestimmung dieser Perioden
+\"ubergehen.
+
+Wir wollen also unter $\alpha$ eine primitive $e^{\mathrm{te}}$ Einheitswurzel
+verstehen und $\mu = f$ setzen.
+Dann ist
+\[ (\alpha^\lambda, r) = r + \alpha^\lambda r_1 + \alpha^{2\lambda} r_2 + \cdots + \alpha^{(n-2)\lambda} r_{n-2}, \]
+oder nach \S.\,167, (12)
+\weq{11}{(\alpha^\lambda, r) = (\alpha^\lambda, \eta) = \eta + \alpha^\lambda \eta_1 + \alpha^{2\lambda} \eta_2 + \cdots + \alpha^{(e-1)\lambda} \eta_{e-1},}
+und die Formeln (9) und (10) ergeben
+\weq{12}{(\alpha^\lambda, \eta)(\alpha, \eta) = (\alpha^{\lambda+1}, \eta)\psi_\lambda(\alpha) \qquad \lambda = 1, 2 \ldots (e-2),}
+\weq{13}{(\alpha^\lambda, \eta)(\alpha^{-\lambda}, \eta) = (-1)^{f\lambda} n.}
+Die Gleichung (13) zeigt, dass keine der Zahlen $(\alpha^\lambda, \eta)$ verschwindet,
+und nach (12) sind auch die $\psi_\lambda(\alpha)$ von Null verschieden,
+und wenn wir die Gleichung (12) f\"ur $\lambda = 1, 2 \ldots \lambda - 1$
+bilden, so folgt
+% [source-original mathematical notation, verified 2026-08-29] The print uses lambda
+% both for the running values and for the fixed upper index in "lambda-1". The displayed
+% sequence below makes the intended range clear; the diplomatic text is preserved.
+\[
+\begin{aligned}
+(\alpha, \eta)(\alpha, \eta) &= (\alpha^2, \eta)\psi_1(\alpha)\\
+(\alpha^2, \eta)(\alpha, \eta) &= (\alpha^3, \eta)\psi_2(\alpha)\\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+(\alpha^{\lambda-1}, \eta)(\alpha, \eta) &= (\alpha^\lambda, \eta)\psi_{\lambda-1}(\alpha).
+\end{aligned}
+\]
+Daraus erhalten wir durch Multiplication und Wegheben
+des Factors $(\alpha^2, \eta) \ldots (\alpha^{\lambda-1}, \eta)$
+\weq{14}{(\alpha, \eta)^\lambda = (\alpha^\lambda, \eta)\psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{\lambda-1}(\alpha).}
+Dadurch ist $(\alpha^\lambda, \eta)$ rational durch $(\alpha, \eta)$ ausgedr\"uckt. Setzen
+wir aber in (14) $\lambda = e - 1$, so ergiebt sich
+\[ (\alpha, \eta)^{e-1} = (\alpha^{-1}, \eta)\psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{e-2}(\alpha), \]
+und durch Multiplication mit $(\alpha, \eta)$, wenn (13) in der Form
+\[ (\alpha, \eta)(\alpha^{-1}, \eta) = (-1)^f n \]
+benutzt wird,
+\weq{15}{(\alpha, \eta)^e = (-1)^f n\, \psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{e-2}(\alpha),}
+wodurch die Bildung von $(\alpha, \eta)$ auf eine $e^{\mathrm{te}}$ Wurzel zur\"uckgef\"uhrt ist. Setzen wir $e = m$, so erhalten wir $(\varepsilon, r)$.
+
+Wir wollen dies Verfahren auf den interessanten Fall $n = 17$
+anwenden, der zu dem geometrisch merkw\"urdigen, von \gesperrt{Gauss}
+zuerst gefundenen Resultat f\"uhrt, dass die Theilung der Kreisperipherie
+ in 17 Theile von einer Reihe quadratischer Gleichungen
+ abh\"angt, und dass daher das regul\"are Siebzehneck mit
+Cirkel und Lineal construirt werden kann.

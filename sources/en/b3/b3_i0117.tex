@@ -1,0 +1,42 @@
+% !PRINTED 96
+\weberpage{96}
+
+\begin{center}
+\textbf{\S\ 28.\quad\gesperrt{Composition of the Transformations.}}
+\end{center}
+
+A transformation [\S\ 27, (9)] is completely determined by the transformation numbers $a, b, c, \partial$, and these four integers may be given arbitrarily, provided only that their determinant $n = a\partial - bc$ is \gesperrt{positive}. If one gives these four numbers the opposite sign, then $\omega_1', \omega_2'$ pass over, by \S\ 27, (6), into $-\omega_1', -\omega_2'$, and if one replaces $a, b, c, d$ by $ma, mb, mc, m\partial$, % [sic] \textquotedbl{}d\textquotedbl{} here, \textquotedbl{}\partial\textquotedbl{} a few words later — same variable printed two ways
+where $m$ is an arbitrary natural number, then $\omega_1', \omega_2'$ pass over into $\omega_1'/m$, $\omega_2'/m$ and $n$ into $m^2n$. The ratio of the periods $\omega' = \omega_2'/\omega_1'$ remains unchanged in these two cases. For the present, however, we shall always regard two transformations as different when the transformation numbers are different. In accordance with this stipulation we can represent a transformation unambiguously by a matrix
+
+\weq{1}{S = \begin{pmatrix} a, & b \\ c, & \partial \end{pmatrix}}
+
+The determinant
+
+\weq{2}{n = a\partial - bc}
+
+is the degree of the transformation.
+
+With this notation we represent the relations (6), \S\ 27 in this way as well:
+
+\weq{3}{n(\omega_1', \omega_2') = \begin{pmatrix} a, & b \\ c, & \partial \end{pmatrix}(\omega_1, \omega_2).}
+
+If one puts
+\[
+S' = \begin{pmatrix} a', & b' \\ c', & \partial' \end{pmatrix}, \quad a'\partial' - b'c' = n',
+\]
+then
+
+\weq{4}{n'(\omega_1'', \omega_2'') = \begin{pmatrix} a', & b' \\ c', & \partial' \end{pmatrix}(\omega_1', \omega_2'),}
+
+and if in (4) one expresses $\omega_1', \omega_2'$ in terms of $\omega_1, \omega_2$ according to (3), one obtains
+
+\weq{5}{nn'(\omega_1'', \omega_2'') = \begin{pmatrix} a'a+b'c, & a'b+b'\partial \\ c'a+\partial'c, & c'b+\partial'\partial \end{pmatrix}(\omega_1, \omega_2).}
+
+If we therefore put
+
+\weq{6}{S'' = S'S,}
+
+then
+\[
+S'' = \begin{pmatrix} a'a+b'c, & a'b+b'\partial \\ c'a+\partial'c, & c'b+\partial'\partial \end{pmatrix} = \begin{pmatrix} a'', & b'' \\ c'', & \partial'' \end{pmatrix}, \quad a''\partial'' - b''c'' = n'' = nn'.
+\]

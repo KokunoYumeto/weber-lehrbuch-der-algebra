@@ -1,0 +1,42 @@
+% !PRINTED 344
+\weberpage{344}
+Mit Benutzung des Symbols $(\Delta, p)$, das wir in §\,85 eingeführt haben, können wir diesen Sätzen auch die Form geben:
+\[
+\begin{array}{@{}l@{\enspace}l@{}}
+\text{3.} & \gesperrt{\text{Ist } \ensuremath{(\Delta, p) = -1} \text{, so ist } \ensuremath{p} \text{ unzerlegbar in } \ensuremath{\Omega}\text{.}} \\
+ & \gesperrt{\text{„} \ \ensuremath{(\Delta, p) = +1} \text{, so zerfällt } \ensuremath{p} \text{ in zwei verschiedene konjugierte Primideale.}} \\
+ & \gesperrt{\text{„} \ \ensuremath{(\Delta, p) = 0} \text{, so ist } \ensuremath{p} \text{ das Quadrat eines Primideals.}}
+\end{array}
+\]
+
+\begin{center}
+§ 93. \gesperrt{Darstellung von Zahlen als Idealnormen.}
+\end{center}
+
+Eine Primzahl $p$ ist nur dann die Norm eines Ideals, wenn
+$(\Delta, p) = +1$ oder $= 0$ ist, nicht aber, wenn $(\Delta, p) = -1$ ist.
+Im letzten Falle ist erst $p^2$ eine Norm, nämlich die von $p$. Im
+allgemeinen kann eine positive ganze rationale Zahl $m$ auf \gesperrt{mehrfache Art als Norm} dargestellt werden. Wir wollen die Anzahl
+dieser Darstellungen für den Augenblick mit $\psi(m)$ bezeichnen
+und näher bestimmen.
+
+Wir nehmen zunächst $m$ als Primzahlpotenz $p^k$ an. Ist dann
+$(\Delta, p) = +1$ und $p = \mathfrak{p}\mathfrak{p}'$, so kann man $p^k$ in folgender Weise
+darstellen:
+\weq{1}{p^k = N(\mathfrak{p}^k),\ N(\mathfrak{p}^{k-1}\mathfrak{p}'),\ N(\mathfrak{p}^{k-2}\mathfrak{p}'^2),\ \ldots,\ N(\mathfrak{p}'^k),}
+und es ist daher
+\weq{2}{(\Delta, p) = +1:\quad \psi(p^k) = k+1.}
+Ist aber $(\Delta, p) = -1$, so ist, wenn $k$ gerade ist, $p^k = N(p^{1/2\,k})$,
+wenn $k$ ungerade ist, $p$ nicht als Norm darstellbar. Es ist also
+\weq{3}{(\Delta, p) = -1:\quad \psi(p^k) = 0 \text{ oder } = 1,}
+je nachdem $k$ ungerade oder gerade ist.
+
+Ist endlich $(\Delta, p) = 0$, also $p$ in $\Delta$ enthalten, so ist $p = \mathfrak{p}^2$
+und $p^k = N(\mathfrak{p}^k)$; also:
+\weq{4}{(\Delta, p) = 0:\quad \psi(p^k) = 1.}
+Man kann diese drei Fälle in eine Formel zusammenfassen:
+Die Zahl $p^k$ hat nämlich die folgenden $k+1$ Teiler:
+\weq{5}{1,\ p,\ p^2,\ \ldots,\ p^k.}
+Und daher geben die Formeln (2), (3), (4), wenn $m = p^k$ ist,
+und $n$ die Teiler von $m$ durchläuft,
+\weq{6}{\psi(m) = \overset{n}{\Sigma}(\Delta, n).}

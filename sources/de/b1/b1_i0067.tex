@@ -1,0 +1,53 @@
+% !PRINTED 42
+\weberpage{42}
+
+Aus der Bedeutung von $B_\nu^{(n)}$ ergiebt sich, und wird auch aus den Formeln (10) durch vollständige Induction bewiesen, dass es die $B_\nu^{(n)}$ positive ganze Zahlen sind.
+% SOURCE-ORIGINAL-SIC: The printed sentence retains the historical expletive "es" in "dass es die B positive ganze Zahlen sind"; no mathematical content is altered.
+
+\begin{center}
+{\large \S.\ 8.}
+
+\vspace{0.5em}
+{\large\gesperrt{Der binomische Lehrsatz.}}
+\end{center}
+
+Wenn wir in der Formel (1) des vorigen Paragraphen die bisher willkürlichen Grössen $\alpha_1,\alpha_2\ldots \alpha_n$ einander gleich setzen, so erhalten wir den \gesperrt{binomischen Lehrsatz}, der in nichts Anderem besteht, als in der Ordnung der $n$ten Potenz eines Binomiums $x+y$ nach Potenzen von $x$. Wenn wir nämlich
+\[
+ \alpha_1=\alpha_2=\cdots=\alpha_n=-y
+\]
+setzen, so ergiebt die Formel (2):
+\[
+ a_\nu=(-1)^\nu \sum \alpha_1\alpha_2\cdots\alpha_\nu=y^\nu B_\nu^{(n)},
+\]
+worin nach der Definition des vorigen Paragraphen $B_\nu^{(n)}$ die Anzahl der Terme der Summe bedeutet, die alle einander gleich und gleich $(-1)^\nu y^\nu$ werden.
+
+Demnach ergiebt sich:
+\begin{equation}
+ (x+y)^n=x^n+B_1^{(n)}x^{n-1}y+B_2^{(n)}x^{n-2}y^2+\cdots+B_n^{(n)}y^n,
+\tag{1}
+\end{equation}
+oder entwickelt geschrieben:
+\[
+\begin{aligned}
+(x+y)^n
+&=x^n+nx^{n-1}y+{n(n-1)\over 1\cdot2}x^{n-2}y^2+\cdots+y^n\\
+&=\Pi(n)\sum_{\nu=0}^{n} {x^{n-\nu}y^\nu\over \Pi(n-\nu)\Pi(\nu)}
+ =\Pi(n)\sum {x^\alpha y^\beta\over \Pi(\alpha)\Pi(\beta)},
+\end{aligned}
+\]
+die letzte Summe über alle nicht negativen ganzzahligen Werthe $\alpha,\beta$ erstreckt, die der Bedingung $\alpha+\beta=n$ genügen.
+
+Hiernach heissen die Coëfficienten $B_\nu^{(n)}$ die \gesperrt{Binomialcoefficienten}.
+
+Wir setzen der Uebersicht wegen eine kleine Tabelle der ersten Werthe der Binomialcoefficienten hierher:
+\[
+\begin{array}{crrrrrrrr}
+ n=1&1&1\\
+ n=2&1&2&1\\
+ n=3&1&3&3&1\\
+ n=4&1&4&6&4&1\\
+ n=5&1&5&10&10&5&1\\
+ n=6&1&6&15&20&15&6&1\\
+ n=7&1&7&21&35&35&21&7&1
+\end{array}
+\]

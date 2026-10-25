@@ -1,0 +1,42 @@
+% !PRINTED 388
+\weberpage{388}
+
+%<<CONT
+es als Normaltheiler von $P$ auch, wenn $(4,5,6)$ ein dreigliedriger Cyklus aus $S'$ ist [nach \S.\,102, (8), (10)]:
+\[
+\Pi_{1,2,3,5}\,(5,4,6)\,\Pi_{1,2,3,5} = (5,4,6)\,\Pi_{1,2,3,4}\,\Pi_{1,2,3,5}
+\]
+\[
+= (5,4,6)(4,5)\,\Pi_{1,2,3,4},
+\]
+und folglich auch
+\[
+S'(4,5)\,\Pi_{1,2,3,4} = S''\,\Pi_{1,2,3,4}.
+\]
+Ist nun
+\[
+\sigma = \begin{pmatrix} 1, & 2, & 3, & 4, & 5, & 6, & 7, & 8 \\ \alpha_1, & \alpha_2, & \alpha_3, & \alpha_4, & \alpha_5, & \alpha_6, & \alpha_7, & \alpha_8 \end{pmatrix}
+\]
+eine Permutation aus $S$, in der $\alpha_1, \alpha_2, \alpha_3, \alpha_4$ beliebig gegeben sind, so kann man die Anordnung der $\alpha_5, \alpha_6, \alpha_7, \alpha_8$ noch so wählen, dass $\sigma$ nach Belieben zu $S'$ oder zu $S''$ gehört. Wählt man $\sigma$ in $S'$ und beachtet, dass dann $S'' = S''\sigma^{-1}$ ist, so ergiebt sich, dass auch
+\[
+S''\,\sigma^{-1}\,\Pi_{1,2,3,4}\,\sigma = S''\,\Pi_{\alpha_1,\alpha_2,\alpha_3,\alpha_4}
+\]
+in $Q$ enthalten sein muss. Nun ist aber auch
+\[
+\Pi_{1,2,3,4}\,(3,5)(4,6)\,\Pi_{1,2,3,4} = (3,5)(4,6)\,\Pi_{1,2,5,6}\,\Pi_{1,2,3,4}
+\]
+\[
+= (3,5)(4,6)(1,2)(3,4)(5,6)(7,8)\,\Pi_{1,2,7,8}
+\]
+\[
+= (1,2)(3,6)(4,5)(7,8)\,\Pi_{1,2,7,8},
+\]
+und da $(1,2)(3,6)(4,5)(7,8)$ zu $S'$ gehört, so enthält $Q$ auch $S'\,\Pi_{1,2,7,8}$, und folglich, wie oben, alle $S'\,\Pi_{\alpha_1,\alpha_2,\alpha_3,\alpha_4}$, also auch alle $S\,\Pi_{\alpha_1\alpha_2\alpha_3\alpha_4}$, und mithin auch
+\[
+S\,\Pi_{\alpha_1,\alpha_2,\alpha_3,\alpha_4}\,\Pi_{\alpha_1,\alpha_2,\alpha_3,\alpha_4} = S,
+\]
+d.\,h. $Q$ umfasst die ganze Gruppe $P$. Daraus folgt in Verbindung mit 1.:
+
+2.\ \gesperrt{Wenn ein Normaltheiler $Q$ von $P$ ausser der identischen Permutation noch irgend eine Permutation mit $S$ gemein hat, so ist $Q$ mit $P$ identisch.}
+
+Es kann nun ferner die Frage sein, ob $Q$ eine Permutation aus einer der Nebengruppen von (1), also ein Element von der Form $\sigma\,\Pi_{1,2,3,4}$ enthalten kann, ohne mit $P$ identisch zu sein. Ist zunächst $\sigma = 1$, enthält also $Q$ das Element $\Pi_{1,2,3,4}$, so enthält es als Normaltheiler von $P$ auch alle anderen $\Pi_{\alpha_1\alpha_2\alpha_3\alpha_4}$, wie aus der Formel \S.\,102, (8) zu ersehen ist, und damit auch $\Pi_{1,2,3,4}\,\Pi_{1,2,3,5}\,\Pi_{1,2,3,4} = (4,5)$, und ist also nach 2. mit $P$ identisch.

@@ -1,0 +1,37 @@
+% !PRINTED 96
+\weberpage{96}
+%<<CONT
+
+\[
+\begin{matrix}
+ A_1^{(1)}&A_2^{(1)}&\cdots&A_n^{(1)}\\
+ A_1^{(2)}&A_2^{(2)}&\cdots&A_n^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ A_1^{(n)}&A_2^{(n)}&\cdots&A_n^{(n)}
+\end{matrix}\tag{2}
+\]
+das System der Unterdeterminanten. Bilden wir aus (2) die Determinante, die wir mit $\Delta$ bezeichnen wollen, so können wir auf das Product $A\Delta$ die Multiplicationsregel anwenden. Dies giebt aber nach §. 22, (3) und (7):
+\[
+ A\Delta=\begin{vmatrix}
+ A&0&\cdots&0\\
+ 0&A&\cdots&0\\
+ \cdots&\cdots&&\cdots\\
+ 0&0&\cdots&A
+\end{vmatrix}=A^n,
+\]
+und daraus durch Division mit $A$:
+\begin{equation}
+ \Delta=A^{n-1}.\tag{3}
+\end{equation}
+Es ist also $\Delta$ die $(n-1)$te Potenz von $A$. Bei dieser Ableitung ist allerdings zunächst vorausgesetzt, dass $A$ von Null verschieden sei. Da aber (3) in Bezug auf die Elemente $a_i^{(h)}$ eine Identität ist, d. h. auch dann gilt, wenn diese Grössen unabhängige Variable sind, so folgt, dass auch noch in diesem Ausnahmefall die Formel (3) gilt, d. h. dass, wenn $A$ verschwindet, auch $\Delta$ verschwindet.
+
+Dies Ergebniss ist ein specieller Fall eines allgemeineren Satzes, nach dem jede beliebige Determinante der Matrix (2) gebildet werden kann. Betrachten wir die $\nu$-reihige Unterdeterminante
+\[
+\Delta_\nu=\begin{vmatrix}
+ A_1^{(1)}&A_2^{(1)}&\cdots&A_\nu^{(1)}\\
+ A_1^{(2)}&A_2^{(2)}&\cdots&A_\nu^{(2)}\\
+ \cdots&\cdots&&\cdots\\
+ A_1^{(\nu)}&A_2^{(\nu)}&\cdots&A_\nu^{(\nu)}
+\end{vmatrix},\tag{4}
+\]
+aus der man durch Permutation der oberen und unteren Indices alle anderen $\nu$-reihigen Unterdeterminanten ableiten kann, so kann man die Multiplicationsregel anwenden, indem man $\Delta_\nu$ nach der Schlussbemerkung des letzten Paragraphen in eine $n$-reihige Determinante verwandelt.

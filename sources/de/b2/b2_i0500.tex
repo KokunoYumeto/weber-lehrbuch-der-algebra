@@ -1,0 +1,55 @@
+% !PRINTED 479
+\weberpage{479}
+%<<CONT
+oder in unserer abgekürzten Schreibweise:
+
+\[
+\left(\frac{\partial \Phi}{\partial x_1}, \frac{\partial \Phi}{\partial x_2}, \frac{\partial \Phi}{\partial x_3}\right) = A_1 \left(\frac{\partial \Phi}{\partial y_1}, \frac{\partial \Phi}{\partial y_2}, \frac{\partial \Phi}{\partial y_3}\right).
+\]
+
+Dies beweist den Satz:
+
+1. \gesperrt{Die Variablenreihen}
+
+\[
+(x_1, x_2, x_3) \quad \text{und} \quad \left(\frac{\partial \Phi}{\partial x_1}, \frac{\partial \Phi}{\partial x_2}, \frac{\partial \Phi}{\partial x_3}\right)
+\]
+
+\gesperrt{sind contragredient.}
+
+Durch wiederholte Anwendung dieses Satzes lassen sich auch die höheren Differentialquotienten nach den $x$ durch die nach den $y$ bilden, wofür man folgende Regel erhält:
+
+2. \gesperrt{Um die $m^{\text{ten}}$ Ableitungen}
+
+\[
+\frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma}, \quad \alpha + \beta + \gamma = m
+\]
+
+\gesperrt{durch die Ableitungen nach $y$ auszudrücken, ersetze man in dem entwickelten Ausdrucke}
+
+\weq{4}{\xi_1^\alpha \xi_2^\beta \xi_3^\gamma = \sum^{\varkappa, \lambda, \mu} C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} \eta_1^\varkappa \eta_2^\lambda \eta_3^\mu, \quad \varkappa + \lambda + \mu = m}
+
+\gesperrt{die Producte}
+
+\[
+\begin{aligned}
+&\xi_1^\alpha \xi_2^\beta \xi_3^\gamma \quad \text{durch} \quad \frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma} \\
+&\eta_1^\varkappa \eta_2^\lambda \eta_3^\mu \quad \text{durch} \quad \frac{\partial^m \Phi}{\partial y_1^\varkappa \partial y_2^\lambda \partial y_3^\mu},
+\end{aligned}
+\]
+
+\gesperrt{also}
+
+\weq{5}{\frac{\partial^m \Phi}{\partial x_1^\alpha \partial x_2^\beta \partial x_3^\gamma} = \sum C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} \frac{\partial^m \Phi}{\partial y_1^\varkappa \partial y_2^\lambda \partial y_3^\mu},}
+
+\gesperrt{wo unter dem Summenzeichen $\varkappa, \lambda, \mu$ alle nicht negativen der Bedingung $\varkappa + \lambda + \mu = m$ genügenden Werthe durchlaufen.}
+
+Die Co\"efficienten $C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu}$ sind ganze rationale Functionen der Substitutionscoëfficienten $a_1, a_2, \ldots$
+
+Um diese Regel allgemein zu beweisen, braucht man nur die Formel (5) für $m - 1$ statt $m$ als bewiesen anzusehen, und mit Anwendung der Formel (3) die Ableitung nach einer der Variablen $x$ zu bilden, und dabei die aus der Definition (4) folgende Relation
+
+\[
+C^{\alpha, \beta, \gamma}_{\varkappa, \lambda, \mu} = C^{\alpha - 1, \beta, \gamma}_{\varkappa - 1, \lambda, \mu}\, a_1 + C^{\alpha - 1, \beta, \gamma}_{\varkappa, \lambda - 1, \mu}\, a_2 + C^{\alpha - 1, \beta, \gamma}_{\varkappa, \lambda, \mu - 1}\, a_3
+\]
+
+zu berücksichtigen.

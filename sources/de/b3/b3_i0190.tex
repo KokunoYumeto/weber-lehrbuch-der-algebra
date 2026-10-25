@@ -1,0 +1,51 @@
+% !PRINTED 169
+\weberpage{169}
+
+%<<CONT
+hervor, wenn man $\alpha=\beta=\frac12$, $\gamma=1$ setzt. Das eine ihrer
+partikularen Integrale ist also
+\weq{10}{F(\tfrac12,\tfrac12,1,x) = 1 + \sum_{\nu=1}^{\infty} \Bigl(\frac{1.3.5\ldots 2\nu-1}{2.4\ldots 2\nu}\Bigr)^2 x^\nu}
+\[
+{}= \sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu,
+\]
+und diese Reihe ist konvergent, so lange der absolute Wert von
+$x$ kleiner als 1 ist. Als das zweite partikulare Integral kann man
+wählen
+\weq{11}{F(\tfrac12,\tfrac12,1,1-x),}
+das aber einen anderen Konvergenzbereich hat. Denken wir uns
+$x$ als komplexe Variable in einer Ebene dargestellt, so konvergiert
+(10) in einem mit dem Radius 1 um den Nullpunkt beschriebenen
+Kreise, (11) in einem gleichen Kreise um den Punkt 1 beschrieben,
+so daß der gemeinsame Konvergenzbereich aus einem Zweieck
+besteht, das den zwischen 0 und 1 gelegenen Teil der reellen
+Achse enthält. Man kann aber auch, was für uns wichtig ist,
+das zweite partikulare Integral in einer Form aufstellen, die in
+demselben Kreise wie die Reihe (10) konvergiert. Dabei ist zu
+beachten, daß das zweite partikulare Integral für $x=0$ unendlich
+wird.
+
+Dieses zweite partikulare Integral erhält man durch den
+folgenden Grenzübergang: Bezeichnen wir die hypergeometrische
+Reihe nach \gesperrt{Gauss} mit
+\[
+F(\alpha,\beta,\gamma,x) = 1 + \frac{\alpha.\beta}{1.\gamma}x + \frac{\alpha(\alpha+1)\beta(\beta+1)}{1.2.\gamma(\gamma+1)}x^2 + \cdots
+\]
+\[
+{}= \frac{\Pi(\gamma-1)}{\Pi(\alpha-1)\Pi(\beta-1)} \sum_{\nu=0}^{\infty} \frac{\Pi(\alpha+\nu-1)\Pi(\beta+\nu-1)}{\Pi(\gamma+\nu-1)\Pi(\nu)} x^\nu,
+\]
+so erhält man im allgemeinen die beiden partikularen Integrale
+von (9):
+\[
+\begin{aligned}
+y_1 &= F_1(x) = F(\alpha,\beta,\gamma,x), \\
+y_2 &= F_2(x) = x^{1-\gamma}(1-x)^{\gamma-\alpha-\beta} F(1-\alpha,1-\beta,2-\gamma,x).
+\end{aligned}
+\]
+Da diese aber für $\alpha=\beta=\frac12$, $\gamma=1$ miteinander identisch
+werden, so setze man zunächst $\alpha=\beta=\frac12$, $\gamma=1+\varepsilon$, also
+\[
+\begin{aligned}
+y_1 &= F(\tfrac12,\tfrac12,1+\varepsilon,x), \\
+y_2 &= \Bigl(\frac{1-x}{x}\Bigr)^\varepsilon F(\tfrac12,\tfrac12,1-\varepsilon,x).
+\end{aligned}
+\]

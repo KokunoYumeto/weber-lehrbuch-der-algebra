@@ -1,0 +1,42 @@
+% !PRINTED 328
+\weberpage{328}
+%<<CONT
+In a complete system of numbers $s$ incongruent and coprime to $D$ there are just as many numbers $\alpha$ for which $(D, \alpha) = +1$ as there are numbers $\beta$ for which $(D, \beta) = -1$, and we have
+\[
+\begin{aligned}
+(D,n) &= +1, \quad \text{if } n \equiv \alpha \\
+&= -1, \quad \text{\textquotedbl} \quad n \equiv \beta \pmod{D}.
+\end{aligned}
+\]
+
+\begin{center}
+\S\,86. The \gesperrt{Gauss} Sums.
+\end{center}
+
+In the first volume we became acquainted with the \gesperrt{Gauss} sums from the theory of the division of the circle. These expressions admit of generalisation, and through the use of the symbol $(D, n)$ they take on a simple shape.
+
+We had [Bd.\,I, \S\,179, (16)], when $n$ denotes an odd prime, $s$ a number not divisible by $n$, and $k$ runs through a system of residues with respect to the modulus $n$:
+\weq{1}{\sum \left(\frac{k}{n}\right) e^{\frac{2\pi i s k}{n}} = \left(\frac{s}{n}\right) i^{\left(\frac{n-1}{2}\right)^2} \sqrt{n}.}
+
+If we put $\pm n = \varDelta \equiv 1 \pmod{4}$, then $\varDelta$ is a prime discriminant, and by \S\,85, (10) we have
+\[
+\left(\frac{k}{n}\right) = (\varDelta, k), \quad \left(\frac{\mp s}{n}\right) = (\varDelta, \mp s) = (\varDelta, s)
+\]
+[the latter by \S\,85, (3), since the upper signs hold for positive and the lower for negative $\varDelta$], further:
+\[
+i^{\left(\frac{n-1}{2}\right)^2} \sqrt{n} = \sqrt{\varDelta},
+\]
+where $\sqrt{\varDelta}$ is positive real or positive imaginary according as $n \equiv 1$ or $\equiv 3 \pmod{4}$, and we can write (1) in the form:
+\weq{2}{\overset{k}{\Sigma}(\varDelta, k) e^{-\frac{2\pi i k s}{\varDelta}} = (\varDelta, s) \sqrt{\varDelta}, % Source scan confirms k as the upper index on Sigma.
+}
+provided that in the case where $\varDelta$ is positive we replace $s$ by $-s$. This formula has so far been proved only for an odd prime discriminant. But it holds also, as direct calculation shows, for
+\[
+\varDelta = -4, \quad 8, \quad -8,
+\]
+and therefore for every prime discriminant.
+
+If we assume the correctness of formula (2) for $\varDelta = \varDelta'$ and for $\varDelta = \varDelta''$, then, provided $\varDelta'$ and $\varDelta''$ have no common divisor, its correctness follows for $\varDelta = \varDelta' \varDelta''$.
+
+For we have
+\weq{3}{\sqrt{\varDelta'}\sqrt{\varDelta''} = \pm\sqrt{\varDelta' \varDelta''},}
+%CONT>>

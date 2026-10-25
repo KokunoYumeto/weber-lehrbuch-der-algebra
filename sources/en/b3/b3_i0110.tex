@@ -1,0 +1,45 @@
+% !PRINTED 89
+\weberpage{89}
+%<<CONT
+choose. This is a single-valued function $F(z)$ of the variable
+\[
+z = e^{2\pi iv},
+\]
+and if, as before, $q = e^{\pi i\omega}$, then it has the periodicity property:
+\weq{2}{F(q^2z) = e^{-2\pi ia}F(z),}
+from which, for every integer $\nu$, it follows that:
+\[
+F(q^{2\nu}z) = e^{-2\pi ia\nu}F(z).
+\]
+The function $F(z)$ becomes infinite for a finite $z$ only
+when one of the factors $q^{2\nu}z - 1$ vanishes, and in
+particular
+\weq{3}{(z-1)F(z) = 1 \quad (\text{for } z = 1).}
+But by (2)
+\[
+(q^{2\nu}z - 1)F(q^{2\nu}z) = e^{-2\pi ia\nu}F(z)(q^{2\nu}z - 1)
+\]
+and consequently, by (3),
+\weq{4}{F(z)(q^{2\nu}z - 1) = e^{2\pi ia\nu} \quad (\text{for } z = q^{-2\nu}).}
+If we set, under the assumption of convergence that is presently
+ to be examined more closely,
+\weq{5}{S(z) = \sum_{-\infty,\infty}^{\nu} \frac{e^{2\pi ia\nu}}{q^{2\nu}z - 1},}
+then, replacing $z$ by $q^2z$ and $\nu$ by $\nu - 1$, we obtain:
+\weq{6}{S(q^2z) = e^{-2\pi ia}S(z),}
+and the difference $F(z) - S(z)$ would therefore be, considered as a function of $v$,
+by (3) and (4) an integral doubly periodic function
+ of the second kind. But by § 16, 6. such a function must be an exponential
+ function, and hence
+\[
+F(z) = S(z) + Ce^{-2\pi imv},
+\]
+where $m$ is an integer and $C$ a constant. But from (2) and
+(6), unless $C = 0$, it follows that:
+\[
+e^{-2\pi im\omega} = e^{-2\pi ia};
+\]
+hence $a = m\omega + n$, where $m, n$ are integers. But if $a$
+is a period, then $F(z)$ reduces to a constant or an
+exponential function. Otherwise $C = 0$ must hold, and there follows
+the development:
+\weq{7}{\frac{\vartheta'_{11}\vartheta_{11}(v+a)}{2i\pi\vartheta_{11}(v)\vartheta_{11}(a)} = \sum_{-\infty,+\infty}^{\nu} \frac{e^{2\pi i\nu a}}{q^{2\nu}e^{2\pi iv} - 1}.}

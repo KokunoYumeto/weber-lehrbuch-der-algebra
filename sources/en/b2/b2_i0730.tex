@@ -1,0 +1,44 @@
+% !PRINTED 707
+\weberpage{707}
+%<<CONT
+every $f$th root of unity; for if in case 1) one takes for $\Theta$ a
+primitive $\mu$th root of unity, in case 2) a primitive $\frac{1}{2}\mu$th
+root of unity, and in the last case sets at the same time $\varepsilon = -1$,
+then $\chi(n)$ is a primitive $f$th root of unity, and from its powers
+all the $f$th roots of unity can be derived.
+
+If therefore $x$ now denotes a variable, then, when $n$ belongs to the
+exponent $f$, the product extended over all the characters $\chi$ is
+\weq{9}{\overset{\chi}{\Pi} [1 - \chi(n)\,x] = (1-x^f)^e,}
+and if one therefore sets $x = p^{-s}$, there results from (4):
+\weq{10}{\Phi(s) = \frac{1}{1-q^{-s}} \overset{\chi}{\Pi} \overset{p}{\Pi} \frac{1}{1-\chi(p)\,p^{-s}},}
+where the first product sign extends over all characters $\chi$, the second
+over all primes $p$. Thus $\Phi(s)$ is a product of a finite number, $\mu$,
+of factors, each of which is an infinite product.
+
+We now propose to develop each factor of one of these infinite products in
+ascending powers of $p^{-s}$. This gives
+\[
+\frac{1}{1-\chi(p)\,p^{-s}} = 1 + \chi(p)\,p^{-s} + \chi(p^2)\,p^{-2s} + \chi(p^3)\,p^{-3s} + \cdots
+\]
+The product of all the factors that one obtains from this, when $\chi$ is
+held fast while $p$ runs through all the primes different from $q$, is an
+aggregate of terms of the form
+\[
+\chi(p^k)\,\chi(p'^{k'})\,\chi(p''^{k''}) \cdots p^{-sk}\,p'^{-sk'}\,p''^{-sk''} \cdots = \chi(n)\,n^{-s},
+\]
+and every term of this form occurs in the product once and only once
+[cf. \S.\,192, (8)]. Accordingly there results the transformation of $\Phi(s)$
+into a finite product of infinite series:
+\weq{11}{\Phi(s) = \frac{1}{1-q^{-s}} \overset{\chi}{\Pi} \overset{n}{\Sigma} \frac{\chi(n)}{n^s},}
+in which the sum extends over all numbers $n$ not divisible by $q$,
+and the product over all $\mu$ characters $\chi$.
+
+This expression is suited to determining the limiting value of
+$(s-1)\,\Phi(s)$ for $s=1$.
+
+Let us first consider the sum corresponding to the principal character
+$\chi = 1$,
+\[
+\overset{n}{\Sigma} \frac{1}{n^s}.
+\]

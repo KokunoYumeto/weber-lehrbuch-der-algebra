@@ -1,0 +1,58 @@
+% !PRINTED 323
+\weberpage{323}
+
+\weq{1}{S\left(\frac{1}{x-\alpha}\right) = \frac{f'(x)}{f(x)},}
+
+in which the summation sign $S$ refers to the different roots
+$\alpha, \alpha_1, \alpha_2 \dots$ If we take the derivative of this once more
+with respect to $x$, it follows that
+
+\weq{2}{S\frac{1}{(x-\alpha)^2} = \frac{f'(x)^2 - f(x)f''(x)}{f(x)^2},}
+
+and if on the right-hand side we introduce the function $H$ [\S.\,106, (9)],
+
+\weq{3}{S\frac{1}{(x-\alpha)^2} = \frac{f'(x)^2 - H(x)}{nf(x)^2}.}
+
+If one applies to this formula a linear transformation under which
+the value $x = \infty$ corresponds to an arbitrary other real value of the new
+variable, one obtains a more general formula,
+which we shall first derive. We introduce homogeneous variables
+by replacing $x$ by $x:y$ and $\alpha$ by $\alpha:\beta$.
+Thereby (3) becomes
+
+\weq{4}{S\frac{\beta^2}{(x\beta - y\alpha)^2} = \frac{f'(x)^2 - y^2H(x,y)}{nf(x,y)^2};}
+
+now we apply an arbitrary linear transformation:
+
+\weq{5}{\begin{aligned}
+x &= ax' + by', & \alpha &= a\alpha' + b\beta', \\
+y &= cx' + dy', & \beta &= c\alpha' + d\beta',
+\end{aligned}}
+
+or, solved:
+
+\weq{6}{\begin{aligned}
+rx' &= dx - by, \\
+ry' &= -cx + ay, & r &= ad - bc.
+\end{aligned}}
+
+If by this transformation
+\[
+f(x,y) = \varphi(x', y')
+\]
+then
+\[
+rf'(x) = d\varphi'(x') - c\varphi'(y'),
+\]
+and, on account of the covariant property of the function $H$ (\S.\,59),
+\[
+r^2 H(x,y) = H'(x', y'),
+\]
+where $H'$ is derived from $\varphi$ in the same way as $H$ is from $f$. From this
+it follows from (4):
+
+\weq{7}{S\frac{(c\alpha' + d\beta')^2}{(x'\beta' - y'\alpha')^2} = \frac{[d\varphi'(x') - c\varphi'(y')]^2 - (cx' + dy')^2 H'(x', y')}{n\varphi(x', y')^2}.}
+
+In this formula, since this is only a matter of notation, the accents
+may be omitted at $x'$, $y'$, $\alpha'$, $\beta'$, $H'$, and $f$ may be
+%CONT>>

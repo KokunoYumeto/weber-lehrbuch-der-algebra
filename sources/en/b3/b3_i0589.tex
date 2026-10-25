@@ -1,0 +1,67 @@
+% !PRINTED 558
+\weberpage{558}
+
+If we sum these formulae once again with respect to $y$ from $1$ to
+$\infty$, and make use of the formulae which are partly known and
+partly follow from \S\,24, (11):
+
+\[
+\sum^{y}\frac{1}{y^2}=\frac{\pi^2}{6},\quad
+\sum^{y}\frac{(-1)^y}{y^2}=-\frac{\pi^2}{12},\quad
+\sum\frac{(-1)^y}{y}=-\log 2,\,.
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{q^{(2n-1)y}}{y}
+=-\log\Pi(1-q^{2n-1})=-\log f_1(\omega)-\frac{\pi i\omega}{24},
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{(-1)^y q^{2ny}}{y}
+=-\log\Pi(1+q^{2n})=-\log f_2(\omega)+\frac{\pi i\omega}{12}-\tfrac{1}{2}\log 2,
+\]
+
+\[
+\sum^{n}\sum^{y}\frac{(-1)^y q^{(2n-1)y}}{y}
+=-\log\Pi(1+q^{2n-1})=-\log f(\omega)-\frac{\pi i\omega}{24},
+\]
+
+then there results:
+
+\weq{5}{\begin{aligned}
+\sum_{1,\infty}^{y}\sum_{1,\infty}^{x}\frac{(-1)^{x+y}\omega}{\omega^2y^2-x^2}
+&=\frac{\pi^2}{24\omega}-\frac{\pi^2\omega}{24}+\pi i\log f(\omega),\\[4pt]
+\sum^{y}\sum^{x}\frac{(-1)^x\omega}{\omega^2y^2-x^2}
+&=-\frac{\pi^2}{12\omega}-\frac{\pi^2\omega}{24}+\pi i\log f_1(\omega),\\[4pt]
+\sum^{y}\sum^{x}\frac{(-1)^y\omega}{\omega^2y^2-x^2}
+&=\frac{\pi^2}{24\omega}+\frac{\pi^2\omega}{12}+\pi i\log f_2(\omega)\,.
+\end{aligned}}
+
+The double sums on the left side of these formulae are to be understood
+in such a way that the summation with respect to $x$ is to be carried
+out first, and then the summation with respect to $y$. But we may also
+sum in such a way that we take
+
+\weq{6}{
+0<x<m,\quad 0<y<n,\quad n=\infty\,,\quad \frac{m}{n}=\infty
+}
+
+and then let $m$ and $n$ grow to infinity so that $m:n$ becomes
+infinite. That both give the same can be shown in various ways, for
+example by comparing the sums with integrals.
+
+If, then, we set, as in \S\,147, (10), binding $x$, $y$ to the
+condition (6):
+
+\[
+\begin{aligned}
+\sum^{x,y}\frac{\omega}{\omega^2y^2-x^2}&=S_0 & x,\,y&\ \text{even,}\\
+&=S_1 & x,\,y&\ \text{odd,}\\
+&=S_2 & x\ \text{odd,}\ y&\ \text{even,}\\
+&=S_3 & x\ \text{even,}\ y&\ \text{odd,}
+\end{aligned}
+\]
+
+it follows from (5):
+%CONT>>
+% [sic] The printed147,(10) reference at the S0,S1,S2,S3 definition names preceding log formulae instead of definition(11). Retained.

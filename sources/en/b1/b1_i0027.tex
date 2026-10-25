@@ -1,0 +1,52 @@
+% !PRINTED 2
+\weberpage{2}
+%<<CONT
+\gesperrt{number}. The number $1$ itself is customarily not designated
+a prime number, for reasons of expediency. If two numbers are divisible
+by a third, then the sum and the difference of the first two are also
+divisible by the third; and if one number is divisible by a second and
+this second by a third, then the first is also divisible by the third.
+
+Two numbers always have the common divisor $1$. If they have no other
+common divisor, as for example the pairs of numbers $5$ and $7$, or
+$21$ and $38$, then the two numbers are called \gesperrt{relative prime
+numbers}, or also \gesperrt{numbers prime to one another}.
+
+Among the common divisors of any two given numbers one will be the
+greatest, and it is a very important problem to find this greatest
+common divisor. This is accomplished by a procedure known under the
+name \gesperrt{algorithm of the greatest common divisor}, which already
+occurs in Euclid.\footnote{Elements, Book VII, II, vol. II of Heiberg's
+edition.}% Source prints Roman II (proposition 2), not Arabic 11.
+
+Let $a,a_1$ be the two numbers; take the larger of them, say $a$, as
+dividend and the smaller $a_1$ as divisor, and determine the quotient
+$q_1$ and, if the division does not come out exactly, the remainder
+$a_2$, so that
+\[
+ a=q_1a_1+a_2,
+\]
+and $a_2<a_1$. Every common divisor of $a$ and $a_1$ is then also a
+common divisor of $a_1$ and $a_2$, and conversely. If one proceeds with
+$a_1,a_2$ just as with $a,a_1$, and puts, when the division does not
+come out exactly,
+\[
+ a_1=q_2a_2+a_3,
+\]
+then again $a_3<a_2$, and every common divisor of $a_1$ and $a_2$ is
+also a common divisor of $a_2$ and $a_3$, and conversely. If one
+continues dividing in this way, then, since the numbers
+$a,a_1,a_2,a_3,\ldots$ continually decrease, the division must
+necessarily come out exactly after a finite number of steps; that is,
+at last a pair of equations
+\[
+ a_{\nu-2}=q_{\nu-1}a_{\nu-1}+a_\nu,
+ \qquad
+ a_{\nu-1}=q_\nu a_\nu
+\]
+must occur. Then $a_\nu$ is a common divisor of all preceding $a$'s,
+hence also of $a$ and $a_1$, and every common divisor of $a$ and $a_1$
+is a divisor of $a_\nu$. Thus $a_\nu$ is the greatest common divisor of
+$a$ and $a_1$, and at the same time we have arrived at the theorem that
+every common divisor of two numbers must divide their greatest common
+divisor.

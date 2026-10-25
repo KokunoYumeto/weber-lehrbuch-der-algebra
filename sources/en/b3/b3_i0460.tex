@@ -1,0 +1,41 @@
+% !PRINTED 429
+\weberpage{429}
+%<<CONT
+is compounded from $\varphi_1\varphi_2$. The form $\varphi$ belongs to a class $k$ which is said to be \gesperrt{compounded} from $k_1,k_2$.
+
+Let us assume $\varphi=(a,b,c)$ in such a way that $a$ is relatively prime to $m$; then $b$ is also relatively prime to $a$ (because of $m=4ac-b^2$). If $a=a_1a_2$, then $(a_1,b,ca_2)$, $(a_2,b,ca_1)$ are likewise concordant primitive forms, and one obtains the composition
+\[
+(a,b,c) = (a_1,b,ca_2),\ (a_2,b,ca), % [sic] German source omits the expected subscript 1 on the final a.
+\]
+and by repeated application of this theorem one arrives at the result:
+
+I. \gesperrt{The form $\varphi=(a,b,c)$ can, if $a$ is relatively prime to $m$, be composed of forms whose first coefficients are primes, namely the prime factors of $a$.}
+
+One of these components, say
+\[
+(p,b,acp^{-1}),
+\]
+can be replaced by an equivalent form $(p,b',c'p^g)$ whose third coefficient $c'p^g$ is divisible by an arbitrarily high power of $p$.
+
+To prove this we need the symbol $\sim$ for equivalence, and we have
+\[
+(p,b,cp^{g-1}) \sim (p,b+2\lambda p^g,c'p^g),
+\]
+in which $c'$, on account of the equality of the discriminants, is to be determined from
+\[
+pc' = c+\lambda b+\lambda^2 p^g
+\]
+Now since $b$ is not divisible by $p$, $\lambda$ can be determined from the congruence $c+\lambda b \equiv 0\ (\mathrm{mod}\ p)$, and $c'$ turns out to be an integer. With this, having regard to (I.), the following is proved:
+
+II. \gesperrt{In every class $k$ of primitive forms of discriminant $D$ one can find a representative $\varphi$ which can be composed of forms}
+\[
+P=(p,b,p^gc),
+\]
+\gesperrt{in which $p$ is a prime not dividing $D$, and $g$ is an arbitrary exponent.}
+
+The form $P$ can easily be composed with itself, for, in the sense of the compositions, when $g>\nu$:
+\[
+(p^\nu,b,p^{g-\nu}c)(p,b,p^gc) = (p^{\nu+1},b,p^{g-\nu-1}c),
+\]
+and consequently, by the inference from $\nu-1$ to $\nu$:
+\weq{2}{P^\nu = (p^\nu,b,p^{g-\nu}c).}

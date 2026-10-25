@@ -1,0 +1,64 @@
+% !PRINTED 656
+\weberpage{656}
+%<<CONT
+\gesperrt{in $n$ (gleiche oder verschiedene) Primfaktoren zerlegt, und}
+\weq{16}{\tau_1, \tau_2, \ldots, \tau_n}
+\gesperrt{seien die konstanten Funktionale, denen $\tau$ nach den
+Modulen}
+\weq{17}{\pi_1, \pi_2, \ldots, \pi_n}
+\gesperrt{kongruent wird.}
+
+\gesperrt{Es sei $\Phi(t)$ ein ganzes holomorphes Funktional in $z$
+vom Grade $m$ in bezug auf $t$, das der Bedingung}
+\weq{18}{
+\Phi(\tau) \equiv 0 \quad (\mathrm{mod}\ z - c)
+}
+\gesperrt{genügt. Dann ist:}
+\weq{19}{
+\Phi(t) \equiv (t - \tau_1)(t - \tau_2)\ldots(t - \tau_n)\,\Psi(t) \quad (\mathrm{mod}\ z - c)\,,
+}
+\gesperrt{worin $\Psi$ ein ebensolches Funktional vom Grade $m - n$ ist.}
+
+Es folgt daraus:
+
+5. \gesperrt{Ein Funktional $\Phi$, das der Bedingung (18) genügt, kann nicht von niedrigerem als $n$tem Grade
+sein.}
+
+Und auf die Funktion $F(t)$ angewandt, folgt die Formel:
+\weq{20}{
+F(t) = N(t - \tau) \equiv (t - \tau_1)(t - \tau_2)\ldots(t - \tau_n) \quad (\mathrm{mod}\ z - c).
+}
+
+Die Kongruenz (20) können wir in folgender Weise durch
+eine Gleichung ersetzen:
+
+Wir fassen, wie in (17) des vorigen Paragraphen, in der
+Zerlegung von $z - c$ in Primfaktoren die gleichen Faktoren zusammen
+ und setzen:
+\weq{21}{
+\begin{aligned}
+z - c &= \pi_1^{e_1}\pi_2^{e_2}\ldots\pi_m^{e_m}\\
+e_1 + e_2 + \cdots + e_m &= n\,,
+\end{aligned}
+}
+dann ist nach (20):
+\weq{22}{
+F(t) = (t - \tau_1)^{e_1}(t - \tau_2)^{e_2}\ldots(t - \tau_m)^{e_m} + (z - c)R(t)\,,
+}
+worin $R(t)$ ein ganzes Funktional zunächst in $\Omega$ ist. Die
+Formel (22) selbst sagt aber, daß $R(t)$ in $\overline{Z}$ enthalten ist, und
+daß es eine ganze Funktion der Funktionalvariablen $t, t_1, t_2,
+\ldots, t_n$ ist.
+
+Wir können also auch die Ableitung der Gleichung (12) in
+% [sic] printed (12), but (23) is the t-derivative of (22) (exponents e_i from (21), term (z-c)R'(t)), so (22) is meant
+bezug auf $t$ bilden und erhalten:
+\weq{23}{
+\begin{aligned}
+F'(t) = {}& e_1(t - \tau_1)^{e_1-1}(t - \tau_2)^{e_2}\ldots(t - \tau_m)^{e_m}\\
++ {}& e_2(t - \tau_1)^{e_1}(t - \tau_2)^{e_2-1}\ldots(t - \tau_m)^{e_m}\\
+& \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\\
++ {}& e_m(t - \tau_2)^{e_1}(t - \tau_2)^{e_2}\ldots(t - \tau_m)^{e_m-1} + (z - c)R'(t) % [sic] first factor of last row printed (t-\tau_2) twice, apparently for (t-\tau_1)
+\end{aligned}
+}
+%CONT>>

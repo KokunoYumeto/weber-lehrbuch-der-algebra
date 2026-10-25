@@ -1,0 +1,62 @@
+% !PRINTED 128
+\weberpage{128}
+%<<CONT
+\[
+-i\omega = r\,e^{i\varphi}, \qquad \alpha-\frac{\beta}{\omega} = \varrho\,e^{i\psi}
+\]
+\[
+-i(-\beta+\alpha\omega) = r\varrho\,e^{i(\varphi+\psi)},
+\]
+then, since the real parts of $-i\omega$, $-i(-\beta+\alpha\omega)$ are positive,
+\[
+-\frac{\pi}{2} < \varphi < \frac{\pi}{2}, \quad -\pi < \psi < \pi, \quad
+-\frac{\pi}{2} < \varphi+\psi < \frac{\pi}{2},
+\]
+\[
+\sqrt{-i\omega} = \sqrt{r}\,e^{\frac{i\varphi}{2}}, \qquad
+\sqrt{\alpha-\frac{\beta}{\omega}} = \sqrt{\varrho}\,e^{\frac{i\psi}{2}},
+\]
+and the real part of
+\[
+\sqrt{-i\omega}\ \sqrt{\alpha-\frac{\beta}{\omega}} = \sqrt{-i(-\beta+\alpha\omega)}
+= \sqrt{r\varrho}\,e^{\frac{i(\varphi+\psi)}{2}}
+\]
+is positive. Accordingly there results from (15), 1:
+\[
+\sqrt{-i\omega}\, E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \frac{-1}{\omega}\right)
+= \left(\frac{\beta}{\alpha}\right) i^{\frac{\alpha-1}{2}}
+e^{\frac{\pi i}{12}\left[\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta\right]}
+\sqrt{-i(-\beta+\alpha\omega)}.
+\]
+
+The same formula, however, is obtained, since $\left(\dfrac{-\beta}{\alpha}\right)=i^{(\alpha-1)}\left(\dfrac{\beta}{\alpha}\right)$,
+from (15), 2. for
+\[
+E\!\left(\begin{matrix}-\beta, & \alpha \\ -\delta, & \gamma\end{matrix}, \omega\right),
+\]
+and with that (14) is proved.
+
+There still remains formula (13). It is enough to take account of the
+upper signs alone, that is, to prove the formula
+\[
+E\!\left(\begin{matrix}\alpha+\beta, & \beta \\ \gamma+\delta, & \delta\end{matrix}, \omega\right)
+= e^{\frac{\pi i}{12}} E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \omega+1\right)
+\]
+since the other case reduces to this one by the interchange of $\alpha, \gamma, \omega$
+with $\alpha+\beta, \gamma+\delta, \omega+1$. If in the first place
+$\beta$ is odd (and positive), then (13) follows from (15), 2. on the
+basis of the congruence
+\[
+(\beta^2-1)(1-\beta\gamma-\alpha\delta-\beta\delta) \equiv -\beta(\beta^2-1)(2\gamma+\delta) \equiv 0\ (\mathrm{mod}\ 24).
+\]
+
+If $\beta$ is even, then $\alpha$ is odd. If we take $\alpha$ positive, then
+$\alpha+\beta$ can be positive or negative. If in the first case the
+upper signs hold, in the second the lower, then (15), 1 gives us
+\weq{16}{
+e^{\frac{i\pi}{12}} E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \omega+1\right)
+= \left(\frac{\beta}{\alpha}\right) i^{-\frac{1-\alpha}{2}}
+e^{\frac{\pi i}{12}\left[1+\alpha(\gamma-\beta)-(\alpha^2-1)\beta\delta\right]}
+\sqrt{\alpha+\beta+\beta\omega},
+}
+%CONT>>

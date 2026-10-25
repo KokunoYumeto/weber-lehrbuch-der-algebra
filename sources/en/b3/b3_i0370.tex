@@ -1,0 +1,53 @@
+% !PRINTED 349
+\weberpage{349}
+
+%% [running head, not body text -- commented out 2026-08-07] Page furniture (running
+%% head, folio, signature) is excluded from this edition by standing policy.
+%% \noindent\S\ 95.\hfill Equivalent forms and ideals in the quadratic field.\hfill 349
+
+Now let $\varphi = (a, b, c)$, $\varphi' = (a', b', c')$ be, conversely, two
+\gesperrt{equivalent forms with positive first coefficients} $a, a'$, and
+\weq{6}{\omega = -\frac{b+\sqrt{\Delta}}{2a}, \quad \omega' = -\frac{b'+\sqrt{\Delta}}{2a'}\,.}
+Then there is a linear substitution $\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}$ with determinant $+1$ by which $(a, b, c)$ passes into $(a', b', c')$.
+
+We then have
+\weq{7}{
+\begin{aligned}
+a' &= a\alpha^2 + b\alpha\gamma + c\gamma^2,\\
+b' &= 2a\alpha\beta + b(\alpha\delta + \beta\gamma) + c\gamma\delta,\\
+c' &= a\beta^2 + b\beta\delta + c\delta^2,
+\end{aligned}
+}
+\weq{8}{
+\omega = \frac{\alpha\omega' + \beta}{\gamma\omega' + \delta}, \quad \omega' = \frac{\delta\omega - \beta}{-\gamma\omega + \alpha}\,,
+}
+and a short calculation shows that $\omega$ and $\omega'$ are corresponding roots, i.\,e. roots with the same sign of $\sqrt{\Delta}$.
+
+Accordingly, for the ideals $\mathfrak{a}, \mathfrak{a}'$ belonging to $\varphi$ and $\varphi'$ we obtain two basis forms:
+\[
+\begin{aligned}
+\lambda &= a(x - \omega y),\\
+\lambda' &= a'(x' - \omega'y'),
+\end{aligned}
+\]
+and by (8) we have
+\[
+\lambda = \frac{a[(\delta x - \beta y) + (\gamma x - \alpha y)\omega']}{\gamma\omega' + \delta}\,.
+\]
+
+If we therefore set
+\[
+x' = \delta x - \beta y, \quad y' = -\gamma x + \alpha y,
+\]
+it follows that
+\[
+\lambda = \frac{a}{a'(\gamma\omega' + \delta)}\,\lambda',
+\]
+and since $a : a'(\gamma\omega' + \delta)$ is a number in $\Omega$, it follows that $\mathfrak{a}$ and $\mathfrak{a}'$ are equivalent.
+
+We thus have once more, in agreement with the general theorem \S\ 88, 4. and at the same time in closer determination:
+
+6. \gesperrt{If $(a, b, c)$ $(a', b', c')$ are two equivalent forms with positive first coefficients, and if $\omega, \omega'$ are corresponding roots of these forms, then the ideals $(a, a\omega)$ and $(a', a'\omega')$ are equivalent.}
+
+For a negative discriminant the first coefficients of equivalent forms always have the same sign, and one considers only those forms in which this sign is positive.
+%CONT>>

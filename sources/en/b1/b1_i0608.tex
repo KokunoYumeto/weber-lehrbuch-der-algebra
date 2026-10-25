@@ -1,0 +1,54 @@
+% !PRINTED 583
+\weberpage{583}
+%<<CONT
+are. If $\varrho$ is a third root of unity, we can set $\varrho = r^3$,
+and obtain the resolvents
+\weq{24}{(\varrho,\eta) = \eta + \varrho\eta' + \varrho^2\eta'', \quad (\varrho^{-1},\eta) = \eta + \varrho^{-1}\eta' + \varrho^{-2}\eta'',}
+for which, by (22), making use of (21), one obtains
+\[
+(\varrho, r) = 3r, \quad (\varrho^{-1}, r) = 3r^{-1},
+\]
+hence
+\weq{25}{(\varrho, r)^3 = 27\varrho,}
+\weq{26}{(\varrho, r)(\varrho^{-1}, r) = 9,}
+% [source-original mathematical notation, verified 2026-08-29] Immediately after defining
+% the resolvents (varrho,eta) in (24), the print switches to (varrho,r) in the two displayed
+% evaluations and in (25)-(26). Direct substitution from (21)-(24) gives (varrho,eta)=3r
+% and (varrho^-1,eta)=3r^-1, so eta is the expected second argument; print preserved.
+which is entirely analogous to the formulae (5) and (6).
+
+We enter briefly also on the case $e = 4$, which occurs for
+the primes $n$ of the form $4f + 1$ ($f$ an integer),
+thus for $n = 5, 13, 17, 29, 37, 41 \dots$
+
+Let the four periods of $f$ terms each again be $\eta, \eta_1, \eta_2, \eta_3$.
+
+For $\alpha$ in \S.\,169 (8), we have to set $i$, and thus obtain,
+since $-2 \equiv +2\ (\mathrm{mod}\ 4)$,
+\weq{27}{\begin{aligned}
+\psi_1(i) &= \sum i^{\operatorname{ind}t + 2\operatorname{ind}(t+1)}\\
+\psi_2(i) &= \sum i^{\operatorname{ind}(t^2+t)} = a + bi,
+\end{aligned}}
+wherein $a$ and $b$ are integers. $\psi_1(i)$ has the same form
+as $\psi_2(i)$. But we shall presently reduce the one function to the
+other.
+
+By the results of \S.\,171 we have
+\weq{28}{(-1,\eta) = \eta + \eta_2 - \eta_1 - \eta_3 = \sqrt{n},}
+and hence
+\weq{29}{2(\eta + \eta_2) = -1 + \sqrt{n}, \quad 2(\eta_1 + \eta_3) = -1 - \sqrt{n},}
+where the sign of $\sqrt{n}$ is to be determined according to \S.\,171 and
+may, on a suitable assumption about $r$, be taken positive.
+
+We have further, by \S.\,169, (14), (15)
+\weq{30}{\begin{aligned}
+(i,\eta)(-i,\eta) &= (-1)^f n\\
+(i,\eta)^2 &= (-1,\eta)\psi_1(i),
+\end{aligned}}
+hence by (28)
+\weq{31}{(i,\eta)^2 = \psi_1(i)\sqrt{n}, \quad (-i,\eta)^2 = \psi_1(-i)\sqrt{n}}
+\weq{32}{(i,\eta)^4 = (-1)^f n\,\psi_1(i)\psi_2(i) = n\,\psi_1(i)^2,}
+from which it follows
+\weq{33}{\psi_1(i) = (-1)^f \psi_2(i) = (-1)^f(a + bi),}
+and from this by (30)
+\weq{34}{\psi_1(i)\psi_1(-i) = \psi_2(i)\psi_2(-i) = a^2 + b^2 = n.}

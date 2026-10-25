@@ -1,0 +1,41 @@
+% !PRINTED 423
+\weberpage{423}
+
+%<<CONT
+introduce, then (\S.\,46)
+\[
+D = P^2.
+\]
+By (8) it is therefore also
+\weq{10}{P = n^{\frac{n-3}{2}} \sqrt{(-1)^{\frac{n-1}{2}} n},}
+whereby $P$ is determined, apart from the sign. $P$ is real when $n \equiv 1$, and imaginary when $n \equiv -1 \ (\mathrm{mod}\ 4)$, hence real for $n = 5, 13, 17, 29, 37 \ldots$, imaginary for $n = 3, 7, 11, 19, 23, 31 \ldots$ The sign that we have to give the root in (10) depends on which $r$ we have chosen in the expression (9).
+
+If we choose a definite $r$, e.g. $r = r_0$, then we can still determine the sign in (10). To carry this out, we divide the binomial factors of $P$,
+\[
+r^\nu - r^\mu, \quad \nu < \mu,
+\]
+whose number amounts to $\frac{n(n-1)}{2}$, into two classes. The differences of the one class form the product
+\weq{11}{Q = (r - r^{n-1})(r^2 - r^{n-2}) \cdots \left(r^{\frac{n-1}{2}} - r^{\frac{n+1}{2}}\right),}
+which thus contains all those factors in which $\mu + \nu = n$.
+
+The remaining factors can be gathered into pairs of the following form
+\weq{12}{R = (r^\nu - r^\mu)(r^{n-\mu} - r^{n-\nu}).}
+The number of factors in $Q$ is $\frac{n-1}{2}$, and hence the number of pairs $R$ is
+\[
+\frac{1}{2}\left(\frac{n(n-1)}{2} - \frac{n-1}{2}\right) = \left(\frac{n-1}{2}\right)^2.
+\]
+Now if
+\[
+r = e^{\frac{2\pi i k}{n}}
+\]
+then
+\[
+R = -2 + r^{\mu-\nu} + r^{\nu-\mu} = -2\left(1 - \cos\frac{2\pi(\mu-\nu)}{n}\,k\right),
+\]
+that is, $R$ is always negative. Consequently the product of all the $R$ has the sign
+\[
+(-1)^{\frac{n-1}{2}}.
+\]
+Further,
+\weq{13}{Q = (2i)^{\frac{n-1}{2}} \sin\frac{2\pi k}{n} \sin\frac{4\pi k}{n} \cdots \sin\frac{(n-1)\pi k}{n},}
+%CONT>>

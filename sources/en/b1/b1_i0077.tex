@@ -1,0 +1,52 @@
+% !PRINTED 52
+\weberpage{52}
+%<<CONT
+
+\begin{equation}
+ f(x+y)=f(x)+yf'(x)+{y^2\over1\cdot2}f''(x)+\cdots
+       =\sum_{\nu=0}^{n}{y^\nu\over\Pi(\nu)}\,f^{(\nu)}(x).
+\tag{2}
+\end{equation}
+
+The functions $f'(x),f''(x),f'''(x),\ldots$ are called the \gesperrt{first, second, third, \ldots{} derivatives or derived functions of $f(x)$}. They are whole functions of $x$, and $f^{(\nu)}(x)$ cannot exceed the degree $n-\nu$, since the sum of the exponents of $x$ and $y$ in no term exceeds the degree $n$.
+
+\gesperrt{The first derivative, which is thus the coefficient of the first power of $y$ in the expansion of $f(x+y)$ according to ascending powers of $y$}, is obtained by applying the binomial theorem to (1):
+\begin{equation}
+ f'(x)=na_0x^{n-1}+(n-1)a_1x^{n-2}+(n-2)a_2x^{n-3}+\cdots .
+\tag{3}
+\end{equation}
+
+The principal theorem on derived functions follows from (2) if we transform $x$ into $x+z$ or $y$ into $y+z$:
+\begin{equation}
+ f(x+y+z)=\sum_{\nu=0}^{n}{y^\nu\over\Pi(\nu)}f^{(\nu)}(x+z)
+ =\sum_{\nu=0}^{n}{(y+z)^\nu\over\Pi(\nu)}f^{(\nu)}(x).
+\tag{4}
+\end{equation}
+If by $f^{(\nu,\mu)}(x)$ we denote the $\mu$th derivative of $f^{(\nu)}(x)$, then by (2)
+\begin{equation}
+ f^{(\nu)}(x+z)=\sum_{\mu=0}^{n-\nu}{z^\mu\over\Pi(\mu)}f^{(\nu,\mu)}(x),
+\tag{5}
+\end{equation}
+and by the binomial theorem
+\begin{equation}
+ { (y+z)^\nu\over\Pi(\nu)}
+ =\sum^{\beta,\gamma}{y^\beta z^\gamma\over\Pi(\beta)\Pi(\gamma)},
+ \qquad \beta+\gamma=\nu.
+\tag{6}
+\end{equation}
+Substituting this in (4), one obtains
+\begin{equation}
+ \sum_{\nu=0}^{n}\sum_{\mu=0}^{n-\nu}
+ {y^\nu z^\mu\over\Pi(\nu)\Pi(\mu)}f^{(\nu,\mu)}(x)
+ =
+ \sum^{\beta,\gamma}
+ {y^\beta z^\gamma\over\Pi(\beta)\Pi(\gamma)}f^{(\beta+\gamma)}(x).
+\tag{7}
+\end{equation}
+The last sum is to be extended over all non-negative numbers $\beta,\gamma$ whose sum does not exceed the degree $n$ of $f(x)$. But the same number-combinations are also run through by the exponents $\nu,\mu$ on the left-hand side, and comparison of the coefficients of equal powers and products gives (by \S~1)
+\begin{equation}
+ f^{(\nu,\mu)}(x)=f^{(\nu+\mu)}(x),
+\tag{8}
+\end{equation}
+and therefore the theorem:
+%CONT>>

@@ -1,0 +1,45 @@
+% !PRINTED 559
+\weberpage{559}
+
+%<<CONT
+\[
+\begin{aligned}
+(a_{0,0} - \eta)\,\eta + &\ a_{1,0}\eta_1 + \cdots \hspace{2em} a_{e-1,0}\eta_{e-1} = 0 \\
+a_{0,1}\eta \ + &\ (a_{1,1} - \eta)\eta_1 + \cdots \hspace{2em} a_{e-1,1}\eta_{e-1} = 0 \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+a_{0,e-1} \ + &\ a_{1,e-1}\eta_1 + \cdots (a_{e-1,e-1} - \eta)\eta_{e-1} = 0,
+\end{aligned}
+\]
+% [sic] The printed last row omits the factor \eta after a_{0,e-1}; retained diplomatically although the parallel rows require it.
+so sieht man, da die $\eta, \eta_1 \ldots \eta_{e-1}$ nicht verschwinden, dass die Determinante dieses Systems Null sein muss, also
+
+\weq{17}{\begin{vmatrix} a_{0,0}-\eta, & a_{1,0}, & \ldots & a_{e-1,0} \\ a_{0,1}, & a_{1,1}-\eta, & \ldots & a_{e-1,1} \\ \cdots & \cdots & \cdots & \cdots \\ a_{0,e-1}, & a_{1,e-1}, & \ldots & a_{e-1,e-1}-\eta \end{vmatrix} = 0,}
+
+was, wenn man $x$ für $\eta$ schreibt, vom Vorzeichen abgesehen, mit $F_e(x)$ übereinstimmen muss.
+
+\gesperrt{Die Function $F_e(x)$ hat also nicht bloss rationale, sondern ganzzahlige Coëfficienten.}
+
+% [sic] authority says that r is indeterminate here, although the displayed polynomial has indeterminate x and r is one of its roots.
+Man kann nun auch die Gleichung $f^{\mathrm{ten}}$ Grades bilden, deren Wurzeln $r, r_e, r_{2e} \ldots r_{(f-1)e}$ sind; denn es ist für ein unbestimmtes $r$
+
+\weq{18}{\Phi_e(x) = (x - r)(x - r_e) \cdots (x - r_{(f-1)e})}
+
+eine Function im Körper $R(\eta)$. Ihre Coëfficienten lassen sich leicht aus den \gesperrt{Newton'schen} Formeln berechnen, durch die die Coëfficienten einer Gleichung mittelst der Potenzsummen der Wurzeln ausgedrückt werden (\S.\,42). Denn es ist nach (12) und (3)
+\[
+r^{g^h} + r_e^{g^h} + \cdots + r_{(f-1)e}^{g^h} = \eta_h,
+\]
+% [resolved 2026-08-06, 5x zoom strip 4/5] r^{g^h} is correct. The exponent really is g
+% carrying a further superscript h, legible on all four terms of the display, and it agrees
+% with the sense: the sum is eta_h, the h-th period, indexed by the same h. Stands.
+also geradezu einer der Potenzsummen gleich, und jede Potenzsumme ist einer der Perioden gleich.
+
+Die Gleichung (18) lässt sich aber ebenso behandeln wie die Gleichung (2); denn die Gruppe von $\Phi_e(x) = 0$ ist eben $C_e$, und wenn $e'$ ein Theiler von $f$ ist, etwa $f = e'f'$, so ist $C_{ee'}$ ein Theiler von $C_e$. Zu $C_{ee'}$ gehört aber die Periode
+\[
+\eta' = r + r_{ee'} + r_{2ee'} + \cdots + r_{(f'-1)ee'},
+\]
+die also von einer Gleichung des Grades $e'$ im Körper $R(\eta)$ abhängt.
+
+Wenn man die Zahlen $e, e' \ldots$ als Primzahlen annimmt, so besteht die Reihe der Resolventen aus einer Reihe von Gleichungen, deren Grade die Primfactoren von $n - 1$ sind.
+
+Was die Gruppe der Gleichung $e^{\mathrm{ten}}$ Grades betrifft, deren Wurzeln die $e$ Grössen $\eta$ sind, so finden wir diese sehr einfach
+%CONT>>

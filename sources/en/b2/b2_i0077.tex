@@ -1,0 +1,58 @@
+% !PRINTED 56
+\weberpage{56}
+
+If now $\varkappa = 1$, then by the definition of $g$ the numbers
+
+\[
+1,\ g,\ g^2 \ldots g^{q-2}
+\]
+
+are all different from one another with respect to the modulus $q$, while $g^{q-1}$ is again congruent to 1.
+
+But if $\varkappa > 1$, then:
+
+\weq{4}{g^{q-1} = 1 + hq,}
+
+and by our assumption about $g$, $h$ is not divisible by $q$. If we raise the equation (4) to the power $q$, and apply the binomial theorem on the right, then it follows that
+
+\[
+g^{q(q-1)} = 1 + hq^2 + h^2\, \frac{q^3(q-1)}{2} + \cdots,
+\]
+
+hence
+
+\weq{5}{g^{q(q-1)} = 1 + h_1 q^2,}
+
+wherein
+
+\[
+h_1 = h + h^2\, \frac{q(q-1)}{2} + \cdots
+\]
+
+is not divisible by $q$. (This would no longer be correct for $q = 2$, and for that reason the prime 2 requires a different treatment.)
+
+If we raise (5) once more to the $q$th power, it follows that
+
+\[
+g^{q^2(q-1)} = 1 + h_2 q^3,
+\]
+
+and we can continue in this way, and obtain for every arbitrary positive exponent $\lambda$
+
+\weq{6}{g^{q^{\lambda-1}(q-1)} = 1 + hq^\lambda,}
+
+wherein $h$ is an integer not divisible by $q$. If we set for brevity:
+
+\weq{7}{q^{\varkappa-1}(q-1) = \varphi(q^\varkappa) = c,}
+
+then we have
+
+\weq{8}{g^c \equiv 1\ (\mathrm{mod}\ q^\varkappa),}
+
+and it remains to be shown that $c$ is the least positive exponent for which the congruence (8) is satisfied. Let us assume that $e$ is this least exponent, so that
+
+\weq{9}{g^e \equiv 1\ (\mathrm{mod}\ q^\varkappa),}
+
+then $e$ must be a divisor of $c$, because otherwise the congruence (8) would also be satisfied if $c$ were replaced by the residue of the division of $c$ by $e$, which is smaller than $e$.
+
+On the other hand, $e$ must be divisible by $q-1$, because the congruence $g^e \equiv 1\ (\mathrm{mod}\ q)$ contained in (9) holds only for such exponents as are divisible by $q-1$.

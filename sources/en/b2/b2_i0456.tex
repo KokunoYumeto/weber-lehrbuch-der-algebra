@@ -1,0 +1,51 @@
+% !PRINTED 435
+\weberpage{435}
+Now, in order to determine $\omega$, we make use of the relation
+\[
+\omega \chi = \chi^2 \omega,
+\]
+and obtain, if
+\[
+\omega = \begin{pmatrix} \alpha_1, & \alpha_2, & \alpha_3 \\ \beta_1, & \beta_2, & \beta_3 \\ \gamma_1, & \gamma_2, & \gamma_3 \end{pmatrix}
+\]
+is set,
+\[
+\begin{pmatrix} \alpha_2, & \alpha_3, & \alpha_1 \\ \beta_2, & \beta_3, & \beta_1 \\ \gamma_2, & \gamma_3, & \gamma_1 \end{pmatrix}
+=
+\begin{pmatrix} \beta_1, & \beta_2, & \beta_3 \\ \gamma_1, & \gamma_2, & \gamma_3 \\ \alpha_1, & \alpha_2, & \alpha_3 \end{pmatrix},
+\]
+hence
+\[
+\begin{aligned}
+\alpha_1 &= \beta_3 = \gamma_2 = \alpha, \\
+\alpha_2 &= \beta_1 = \gamma_3 = \beta, \\
+\alpha_3 &= \beta_2 = \gamma_1 = \gamma,
+\end{aligned}
+\]
+and $\omega$ thus takes the form
+\weq{5}{\omega = \begin{pmatrix} \alpha, & \beta, & \gamma \\ \beta, & \gamma, & \alpha \\ \gamma, & \alpha, & \beta \end{pmatrix}.}
+
+If we express the condition that $\omega$ is to be of degree 2,
+the relations
+\weq{6}{\begin{aligned} \alpha^2 + \beta^2 + \gamma^2 &= 1 \\ \beta\gamma + \gamma\alpha + \alpha\beta &= 0. \end{aligned}}
+result.
+
+From (6) it follows that $(\alpha + \beta + \gamma)^2 = 1$, and if one sets the
+determinant of $\omega$ equal to 1, then with the use of (6) it follows that
+$(\alpha + \beta + \gamma)^3 = -1$, consequently
+\weq{7}{\alpha + \beta + \gamma = -1.}
+
+From (6) and (7) we further infer the relations:
+\weq{8}{\alpha = \beta\gamma - \alpha^2, \quad \beta = \gamma\alpha - \beta^2, \quad \gamma = \alpha\beta - \gamma^2}
+\weq{9}{\alpha^3 + \beta^3 + \gamma^3 - 3\alpha\beta\gamma = -1,}
+of which the latter, which one obtains from
+\[
+(\alpha + \beta + \gamma)^3 - 3(\beta\gamma + \gamma\alpha + \alpha\beta)(\alpha + \beta + \gamma) = -1
+\]
+represents the negative value of the determinant of $\omega$.
+
+Finally we further form, according to the relations [\S.\,72, (15)]
+\[
+\Theta = \chi \tau^3 \omega \tau^4, \quad \Theta^3 = \chi \tau^6 \omega \tau^2 \text{:}
+\]
+\weq{10}{\Theta = \begin{pmatrix} \gamma \varepsilon^2, & \alpha \varepsilon^6, & \beta \\ \alpha, & \beta \varepsilon^4, & \gamma \varepsilon^5 \\ \beta \varepsilon^3, & \gamma, & \alpha \varepsilon \end{pmatrix}, \quad \Theta^{-1} = \begin{pmatrix} \gamma \varepsilon^5, & \alpha, & \beta \varepsilon^4 \\ \alpha \varepsilon, & \beta \varepsilon^3, & \gamma \\ \beta, & \gamma \varepsilon^2, & \alpha \varepsilon^6 \end{pmatrix}.}

@@ -1,0 +1,39 @@
+% !PRINTED 619
+\weberpage{619}
+%<<CONT
+Einheit ist, so ist $N(\sigma') = q$. Folglich ist die Norm von $\sigma : \sigma'$ gleich 1, d.\,h. $\sigma : \sigma'$ ist eine Einheit und $\sigma$ mit $\sigma'$ associirt. Wir haben also den ersten Satz:
+
+\begin{quote}
+I. \gesperrt{Die nat\"urliche Primzahl $q$ ist in dem vollen Kreistheilungsk\"orper $\Omega_m$ mit der $\mu^{\text{ten}}$ Potenz eines Primfactors ersten Grades associirt.}
+\end{quote}
+
+Wenn wir mit $m_1$ einen Theiler von $m$ bezeichnen, kleiner als $m$ und gr\"osser als 1, und
+\weq{8}{m = m_1 m_2}
+setzen, so dass $m_1$ und $m_2$ selbst Potenzen von $q$ sind, so ergiebt sich die Zerlegung:
+\[
+% [sic: The printed product needs the factor (-1)^{m_1-1} on its right-hand side. For even m_1 (the permitted q=2 case), the product as printed equals 1-x^{m_1}, not x^{m_1}-1.]
+x^{m_1} - 1 = (x-1)(xr^{m_2}-1)(xr^{2m_2}-1)\ldots(xr^{(m_1-1)m_2}-1),
+\]
+und wenn wir darin $x = r$ setzen, nach (6):
+% [sic: The prefactor in (9) should be -1 for every m_1. The printed (-1)^{m_1} repeats the preceding sign error when q=2; for m=4,m_1=2,r=i, the two printed sides are -2 and +2. The following norm identity (10) is unaffected because mu is even.]
+\weq{9}{r^{m_1} - 1 = (-1)^{m_1}\prod_{0,\,m_1-1}^{s}\sigma_{1+sm_2},}
+und daraus, da $\mu$ immer gerade ist,
+\weq{10}{N(r^{m_1}-1) = q^{m_1}.}
+
+Hiernach l\"asst sich leicht die Discriminante $\Delta$ der Gleichung (3) bilden, die nach Bd.\,I, \S.\,47 den Ausdruck hat:
+\[
+\Delta = (-1)^{\frac{\mu(\mu-1)}{2}} N f'(r).
+\]
+
+Es ist n\"amlich nach (3):
+\[
+f'(r) = \dfrac{m\,r^{m-1}}{r^{\frac{m}{q}} - 1},
+\]
+also, da die Norm von $r$ gleich 1 ist:
+\[
+N f'(r) = \dfrac{m^{\mu}}{q^{\frac{m}{q}}},
+\]
+und folglich (da $\mu$ immer gerade ist):
+\weq{11}{\Delta = (-1)^{\frac{\mu}{2}} q^{q^{\varkappa-1}[\varkappa(q-1)-1]}.}
+
+Die Discriminante $\Delta$ ist also, vom Vorzeichen abgesehen, eine Potenz von $q$.

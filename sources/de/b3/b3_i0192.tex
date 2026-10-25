@@ -1,0 +1,48 @@
+% !PRINTED 171
+\weberpage{171}
+
+%<<CONT
+also:
+\[
+\mathrm{Lim}\Bigl(\log\frac{\varkappa^2}{16} - i\pi\omega\Bigr) = 0,
+\]
+andererseits ist $2iK' = \pi\vartheta_{00}^2\,\omega$ (\S\,42) oder:
+\[
+2K' + \log\frac{\varkappa^2}{16} = \Bigl(\log\frac{\varkappa^2}{16} - i\pi\omega\Bigr) + i\pi\omega(1-\vartheta_{00}^2),
+\]
+woraus:
+\weq{15}{\mathrm{Lim}_{\varkappa^2=0}\Bigl(K' + \frac12\log\frac{\varkappa^2}{16}\Bigr) = 0.}
+Da nun $K$ und $K'$ partikulare Integrale von (8) sind (für
+$x=\varkappa^2$), so haben beide die Form:
+\[
+K = a_1 y_1 + a_2 y_2, \qquad K' = a_1' y_1 + a_2' y_2,
+\]
+worin $a_1, a_2, a_1', a_2'$ konstant sind. Da $K$ für $x=0$ endlich
+bleibt und den Wert $\frac12\pi$ erhält, so ist $a_2=0$, $a_1=\frac12\pi$, und
+damit $K'+\frac12\log x$ endlich bleibe und [nach (15)] den Wert $\log 4$
+erhalte, muß $a_2'=1$ und $a_1'=0$ sein. Also ergibt sich, wenn
+man $x=\varkappa^2$, $1-x=\varkappa'^2$ setzt:
+\weq{16}{K = \frac{\pi}{2}F(\varkappa^2), \qquad K' = \frac12 G(\varkappa^2) - \frac12\log\frac{\varkappa^2}{16\varkappa'^2}F(\varkappa^2)}
+und
+\weq{17}{q = e^{-\frac{\pi K'}{K}} = \frac{\varkappa^2}{16\varkappa'^2}\,e^{-\frac{G(\varkappa^2)}{F(\varkappa^2)}},}
+worin, wie schon bemerkt, die Reihen $G(\varkappa^2)$, $F(\varkappa^2)$ konvergent
+sind, so lange der absolute Wert von $\varkappa^2$ ein echter Bruch ist.
+In
+der Differentialgleichung (4) liegen nun freilich die Mittel, die
+gefundenen Ausdrücke für $K,K',q$ über dies Konvergenzbereich % [sic] The source prints “dies” (for “diesen”).
+hinaus fortzusetzen. Einfacher gelangt man dazu aber durch die
+Anwendung der \gesperrt{Landen}schen \gesperrt{Transformation}.
+
+Wir begrenzen die Ebene der komplexen Werte $\varkappa^2$, indem
+wir längs der reellen Achse zwei Schnitte von 0 bis $-\infty$ und
+von 1 bis $\infty$ legen. In der so begrenzten Ebene sind dann alle
+Wurzeln aus $\varkappa^2, \varkappa'^2$ eindeutig dadurch bestimmt, daß sie für
+positive echt gebrochene $\varkappa^2$ \gesperrt{reell und positiv} sein sollen. Es
+ist nun nach den Formeln der \gesperrt{Landen}schen Transformation
+[\S\,44, (28)], wenn wir mit $\varkappa_1,\varkappa_1',K_1,K_1'$ die Funktionen von $\omega$
+bezeichnen, die sich aus $\varkappa,\varkappa',K,K'$ ergeben, wenn $\omega$ durch $2\omega$
+ersetzt wird:
+\weq{18}{\begin{aligned}
+\varkappa_1 &= \frac{1-\varkappa'}{1+\varkappa'}, \qquad \varkappa_1' = \frac{2\sqrt{\varkappa'}}{1+\varkappa'}, \\
+2K_1 &= (1+\varkappa')K, \qquad K_1' = (1+\varkappa')K'.
+\end{aligned}}

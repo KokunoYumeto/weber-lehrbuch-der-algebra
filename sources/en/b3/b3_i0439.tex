@@ -1,0 +1,64 @@
+% !PRINTED 408
+\weberpage{408}
+%<<CONT
+and since $\sigma$ is real:
+
+\[
+\begin{aligned}
+\Delta>0. &\qquad \sigma = \frac{1}{\sqrt{\Delta}}\overset{k}{\sum}(\Delta,k)\overset{n}{\sum}\frac{1}{n}\cos\frac{2nk\pi}{\Delta},\\
+\Delta<0. &\qquad \sigma = \frac{1}{\sqrt{-\Delta}}\overset{k}{\sum}(\Delta,k)\overset{n}{\sum}\frac{1}{n}\sin\frac{mk\pi}{-\Delta}. % [sic] index \textquotedbl{}m\textquotedbl{} as printed, sum is taken over n
+\end{aligned}
+\]
+
+The two infinite series in $n$ have, however, determinate
+values, which \gesperrt{Abel} derived in his memoir on the binomial series
+from the power development of $\log(1-z)$, and which follow
+also from the theory of \gesperrt{Fourier} series. If $k$ is
+then taken positive and between $0$ and $\pm\Delta$, there results:
+
+\[
+\begin{aligned}
+\sum\frac{1}{n}\cos\frac{2nk\pi}{\Delta} &= -\log\left(2\sin\frac{k\pi}{\Delta}\right),\\
+\sum\frac{1}{n}\sin\frac{2nk\pi}{-\Delta} &= \frac{\pi}{2}\left(1 - \frac{2k}{-\Delta}\right).
+\end{aligned}
+\]
+
+From (8) there follows therefore [with regard to $\Sigma(\Delta,k) = 0$]:
+
+\weq{10}{\begin{aligned}
+h\log\varepsilon &= -\overset{k}{\Sigma}(\Delta,k)\log\sin\frac{k\pi}{\Delta}, & \Delta&>0,\\
+h &= \frac{1}{\Delta}\overset{k}{\Sigma}(\Delta,k)\,k, & \Delta&<0.
+\end{aligned}}
+
+For the case of the negative discriminant one can recast the
+expression for $h$ in such a way that it takes the form of an
+integer.
+
+If in the first place $\Delta$ is odd ($\equiv 1 \bmod 4$), one can
+decompose the sequence of numbers $k$ thus:
+
+\[
+\begin{aligned}
+v, &\quad -\Delta - v,\\
+2v, &\quad -\Delta - 2v,
+\end{aligned}
+\qquad 0 < v < -\frac{\Delta}{2},
+\]
+
+and one thus obtains, since here $(\Delta,-v) = -(\Delta,v)$ (§ 85), two
+forms of the expression $h$:
+
+\[
+\begin{aligned}
+h &= \frac{2}{\Delta}\overset{v}{\Sigma}(\Delta,v)\,v + \overset{v}{\Sigma}(\Delta,v),\\
+h &= \frac{4}{\Delta}\Sigma(\Delta,2v)\,v + \overset{v}{\Sigma}(\Delta,v),
+\end{aligned}
+\]
+
+from which, if one multiplies the first by 2 and the second by $(\Delta,2)$
+and subtracts:
+
+\weq{11}{[2 - (\Delta,2)]\,h = \overset{v}{\Sigma}(\Delta,v).}
+
+If, then, $(\Delta,2) = -1$, the right-hand side must be
+divisible by 3.

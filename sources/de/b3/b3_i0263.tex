@@ -1,0 +1,37 @@
+% !PRINTED 242
+\weberpage{242}
+%<<CONT
+d. h. für eine Wurzel der Gleichung $F_n[x, j(\omega)] = 0$. Wegen der Irreducibilität der letzteren Gleichung, der Gleichheit des Grades und des Koeffizienten von $x^{\nu}$ ist also
+\weq{21}{F_n[x, j(\omega)] = F_{n'}(x, x_1)\, F_{n'}(x, x_2) \dots F_{n'}(x, x_{\nu''}).}
+5. Ist $n = p^{\pi}$ eine Primzahlpotenz, so ist der Grad der Funktion $F_n[x, j(\omega)]$ gleich $p^{\pi-1}(p+1)$, und die Gleichung
+\weq{22}{F_{p^{\pi-1}}[x, j(\omega)] = 0}
+ist vom Grade
+\[
+\nu' = p^{\pi-2}(p+1).
+\]
+Wir bezeichnen ihre Wurzeln mit $x_1, x_2, \dots x_{\nu'}$.
+Das Produkt
+\[
+P = F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{\nu'})
+\]
+ist in bezug auf $x$ vom Grade $\nu'(p+1) = p^{\pi-2}(p+1)^2$; es hängt symmetrisch von den Wurzeln von (22), also rational von $j(\omega)$ ab und verschwindet für
+\[
+x = j\left(\frac{\omega}{p^{\pi}}\right).
+\]
+Daher ist $P$ durch $F_n[x, j(\omega)]$ teilbar.
+Aber der Grad von $P$ ist höher als der von $F_n$. Nehmen wir
+\[
+x_1 = j\left(\frac{p^{\pi-2}c + \omega}{p^{\pi-1}}\right),
+\]
+wo $c$ jeden der Werte $0, 1, 2, \dots p-1$ haben kann, so verschwindet $F_p(x, x_1)$ für
+\[
+x = j\left(\frac{\omega}{p^{\pi-2}}\right),
+\]
+d. h. es haben $p$ von den Faktoren von $P$ einen bestimmten Faktor mit $F_{p^{\pi-2}}[x, j(\omega)]$ gemein; daraus folgt, daß $P$ durch
+\[
+\{F_{p^{\pi-2}}[x, j(\omega)]\}^p
+\]
+teilbar ist, und mithin, wie die Vergleichung der Grade und höchsten Glieder lehrt:
+\weq{23}{F_{p^{\pi}}[x, j(\omega)] = \dfrac{F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{\nu'})}{\{F_{p^{\pi-2}}[x, j(\omega)]\}^p}.}
+Diese Formel ist einer Ausnahme unterworfen für $\pi = 2$, weil in diesem Falle der Grad der Funktion auf der rechten Seite noch zu hoch ist. Für diesen Fall hat aber \gesperrt{jeder} der $p+1$ Faktoren des Produktes $P$ den Teiler $x - j(\omega)$, weil eben jedes $x_i$ Wurzel der Gleichung $F_p[x, j(\omega)]$ ist, und es tritt an Stelle von (23) die Formel
+\weq{24}{F_{p^2}[x, j(\omega)] = \dfrac{F_p(x, x_1)\, F_p(x, x_2) \dots F_p(x, x_{p+1})}{[x - j(\omega)]^{p+1}}.}

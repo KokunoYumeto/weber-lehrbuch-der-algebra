@@ -1,0 +1,40 @@
+% !PRINTED 574
+\weberpage{574}
+
+Setzen wir $t \equiv g^s \pmod{n}$, so durchl\"auft $s$ ein Restsystem nach dem Modul $m$, und wir erhalten
+\[
+\sum_{1,\,n-1}^{t} t^{\mu+h} \equiv \sum_{0,\,m-1}^{s} g^{s(\mu+h)} \pmod{n}.
+\]
+Es ist aber nach der Summenformel f\"ur die geometrische Reihe
+\[
+(g^{\mu+h} - 1) \sum_{0,\,m-1}^{s} g^{s(\mu+h)} = g^{m(\mu+h)} - 1 \equiv 0 \pmod{n},
+\]
+und folglich ist
+\weq{15}{\sum_{0,\,m-1}^{s} g^{s(\mu+h)} \equiv 0 \pmod{n},}
+ausser wenn $\mu + h \equiv 0 \pmod{m}$ ist, und in diesem Falle ist
+\weq{16}{\sum_{0,\,m-1}^{s} g^{s(\mu+h)} \equiv m \equiv -1 \pmod{n}.}
+Nehmen wir $\lambda, \mu$ zwischen $0$ und $m$ an, so ist
+\begin{quote}
+1) wenn $\lambda + \mu < m$ ist, \quad $\nu = m - \lambda - \mu$,\\
+2) „ $\lambda + \mu > m$ ist, \quad $\nu = 2m - \lambda - \mu$.
+\end{quote}
+Der Exponent $\mu + h$ in der Summe (14) durchl\"auft also im Falle 1) die Werthe $\mu + h = \mu, \mu + 1, \ldots m - \lambda$, im Falle 2) $\mu, \mu + 1, \ldots 2m - \lambda$.
+
+Im Falle 1) kommt also der in (16) vorausgesetzte Fall $\mu + h \equiv 0 \pmod{m}$ gar nicht vor, im Falle 2) kommt er einmal vor, f\"ur $h = m - \mu$.
+
+Demnach haben wir aus (14) mit R\"ucksicht auf (15) und (16), wenn f\"ur den Binomialco\"efficienten $B_h^{(\nu)}$ der Werth $\dfrac{\Pi(\nu)}{\Pi(h)\,\Pi(\nu-h)}$ gesetzt wird,
+\weq{17}{
+\begin{aligned}
+&\text{1)}\quad \psi_{\lambda,\mu}(g) \equiv 0, \quad \lambda + \mu < m\\
+&\text{2)}\quad \psi_{\lambda,\mu}(g) \equiv -\frac{\Pi(2m-\lambda-\mu)}{\Pi(m-\lambda)\,\Pi(m-\mu)}, \quad m < \lambda + \mu < 2m.
+\end{aligned}
+\quad \pmod{n}}
+
+\begin{center}
+\S.\ 171.
+
+\gesperrt{Die Gauss'schen Summen.}
+\end{center}
+
+Im \S.\,169 ist gezeigt, dass, wenn $n - 1 = ef$ ist, die Perioden $\eta, \eta_1, \ldots \eta_{e-1}$ einer ganzzahligen Gleichung $e^{\text{ten}}$ Grades
+%CONT>>

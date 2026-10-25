@@ -1,0 +1,56 @@
+% !PRINTED 188
+\weberpage{188}
+%<<CONT
+\[
+\begin{array}{r@{}c@{}r@{}r@{}r}
+\displaystyle\frac{\partial^2\sigma}{\partial u^2} &{}={}& -\dfrac{g_2}{12}u^3 &{}- 12\,g_3\dfrac{u^5}{2^4\cdot3\cdot5} &{}- \dfrac{3}{8}g_2^2\dfrac{u^7}{2^3\cdot3\cdot5\cdot7},\\[2mm]
+\displaystyle\frac{\partial\sigma}{\partial g_2} &{}={}& &{}- \dfrac{u^5}{2^4\cdot3\cdot5} &\\[2mm]
+\displaystyle\frac{\partial\sigma}{\partial g_3} &{}={}& & &{}- \dfrac{u^7}{2^3\cdot3\cdot5\cdot7},\\[2mm]
+\displaystyle\frac{g_2}{12}u^2\sigma &{}={}& \dfrac{g_2}{12}u^3 & &{}-\dfrac{7}{24}g_2^2\dfrac{u^7}{2^3\cdot3\cdot5\cdot7},
+\end{array}
+\]
+
+und wenn man dies in (12) einsetzt und die Koeffizienten von $u^5$
+und $u^7$ gleich Null setzt, so ergibt sich:
+
+\[
+h_2 = -12\,g_3, \qquad h_3 = -\tfrac{2}{3}g_2^2,
+\]
+
+und wir erhalten die Differentialgleichung:
+
+\weq{13}{\dfrac{\partial^2\sigma}{\partial u^2} - 12\,g_3\dfrac{\partial\sigma}{\partial g_2} - \dfrac{2}{3}g_2^2\dfrac{\partial\sigma}{\partial g_3} + \dfrac{g_2}{12}u^2\sigma = 0.}
+
+Setzt man die Reihenentwickelung für $\sigma$ mit unbestimmten
+Koeffizienten an:
+
+\weq{14}{\sigma = \Sigma A_\nu\dfrac{u^{2\nu+1}}{(2\nu+1)!},}
+
+so erhält man aus (13) die Rekursionsformel:
+
+% [sic] The source prints g_2^2 in the final term of (15); coefficient extraction from (13), and the homogeneous recurrence (17), require g_2.
+\weq{15}{A_\nu = 12\,g_3\dfrac{\partial A_{\nu-1}}{\partial g_2} + \dfrac{2}{3}g_2^2\dfrac{\partial A_{\nu-1}}{\partial g_3} - \dfrac{(2\nu-1)(2\nu-2)}{12}g_2^2A_{\nu-2},}
+
+woraus zu schließen ist, daß die $A_\nu$ \gesperrt{ganze rationale Funktionen}
+von $g_2$ und $g_3$ sind, deren Koeffizienten rationale Zahlen sind,
+die nur Potenzen von 2 und von 3 im Nenner haben können. Die Reihe
+(14) besteht daher aus Gliedern von der Form
+
+\[
+a_{m,n}\left(\tfrac12 g_2\right)^m(2g_3)^n\dfrac{u^{2\nu+1}}{(2\nu+1)!},
+\]
+
+und aus der Homogenität der Funktion $\sigma$ [§ 37, (8), § 46,
+(13)] folgt:
+
+\weq{16}{2m+3n=\nu,}
+
+für die Koeffizienten $a_{m,n}$ ergibt sich dann aus (15):
+
+\weq{17}{\begin{aligned}
+a_{m,n} &= 3(m+1)a_{m+1,\,n-1} + \dfrac{16}{3}(n+1)a_{m-2,\,n+1}\\
+&\quad{}- \dfrac{1}{3}(2m+3n-1)(4m+6n-1)a_{m-1,\,n},
+\end{aligned}}
+
+worin $a_{00}=1$ und die $a$, bei denen einer der beiden Indizes
+negativ ist, gleich Null zu setzen sind.

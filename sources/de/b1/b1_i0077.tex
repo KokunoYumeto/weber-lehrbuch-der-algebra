@@ -1,0 +1,52 @@
+% !PRINTED 52
+\weberpage{52}
+%<<CONT
+
+\begin{equation}
+ f(x+y)=f(x)+yf'(x)+{y^2\over1\cdot2}f''(x)+\cdots
+       =\sum_{\nu=0}^{n}{y^\nu\over\Pi(\nu)}\,f^{(\nu)}(x).
+\tag{2}
+\end{equation}
+
+Die Functionen $f'(x),f''(x),f'''(x),\ldots$ heissen die \gesperrt{erste, zweite, dritte, \ldots{} Derivirte oder Abgeleitete von $f(x)$}. Es sind ganze Functionen von $x$ und $f^{(\nu)}(x)$ kann den Grad $n-\nu$ nicht übersteigen, da die Summe der Exponenten von $x$ und $y$ in keinem Gliede den Grad $n$ übersteigt.
+
+\gesperrt{Die erste Derivirte, die also der Coëfficient der ersten Potenz von $y$ in der Entwickelung von $f(x+y)$ nach steigenden Potenzen von $y$ ist}, erhält man durch Anwendung des binomischen Lehrsatzes auf (1):
+\begin{equation}
+ f'(x)=na_0x^{n-1}+(n-1)a_1x^{n-2}+(n-2)a_2x^{n-3}+\cdots .
+\tag{3}
+\end{equation}
+
+Der Hauptsatz über die derivirten Functionen ergiebt sich aus (2), wenn wir $x$ in $x+z$ oder $y$ in $y+z$ verwandeln:
+\begin{equation}
+ f(x+y+z)=\sum_{\nu=0}^{n}{y^\nu\over\Pi(\nu)}f^{(\nu)}(x+z)
+ =\sum_{\nu=0}^{n}{(y+z)^\nu\over\Pi(\nu)}f^{(\nu)}(x).
+\tag{4}
+\end{equation}
+Bezeichnen wir mit $f^{(\nu,\mu)}(x)$ die $\mu$te Derivirte von $f^{(\nu)}(x)$, so ist nach (2):
+\begin{equation}
+ f^{(\nu)}(x+z)=\sum_{\mu=0}^{n-\nu}{z^\mu\over\Pi(\mu)}f^{(\nu,\mu)}(x)
+\tag{5}
+\end{equation}
+und nach dem binomischen Satz:
+\begin{equation}
+ { (y+z)^\nu\over\Pi(\nu)}
+ =\sum^{\beta,\gamma}{y^\beta z^\gamma\over\Pi(\beta)\Pi(\gamma)},
+ \qquad \beta+\gamma=\nu.
+\tag{6}
+\end{equation}
+Setzen wir dies in (4) ein, so folgt:
+\begin{equation}
+ \sum_{\nu=0}^{n}\sum_{\mu=0}^{n-\nu}
+ {y^\nu z^\mu\over\Pi(\nu)\Pi(\mu)}f^{(\nu,\mu)}(x)
+ =
+ \sum^{\beta,\gamma}
+ {y^\beta z^\gamma\over\Pi(\beta)\Pi(\gamma)}f^{(\beta+\gamma)}(x).
+\tag{7}
+\end{equation}
+Die letzte Summe ist über alle nicht negativen Zahlen $\beta,\gamma$ zu erstrecken, deren Summe den Grad $n$ von $f(x)$ nicht übersteigt. Dieselben Zahlencombinationen durchlaufen aber auch die Exponenten $\nu,\mu$ auf der linken Seite, und die Vergleichung der Coëfficienten gleicher Potenzen und Producte ergiebt (nach \S~1):
+\begin{equation}
+ f^{(\nu,\mu)}(x)=f^{(\nu+\mu)}(x),
+\tag{8}
+\end{equation}
+also den Satz:
+%CONT>>

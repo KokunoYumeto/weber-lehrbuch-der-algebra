@@ -1,0 +1,48 @@
+% !PRINTED 171
+\weberpage{171}
+
+%<<CONT
+thus:
+\[
+\mathrm{Lim}\Bigl(\log\frac{\varkappa^2}{16} - i\pi\omega\Bigr) = 0,
+\]
+on the other hand we have $2iK' = \pi\vartheta_{00}^2\,\omega$ (\S\,42), or:
+\[
+2K' + \log\frac{\varkappa^2}{16} = \Bigl(\log\frac{\varkappa^2}{16} - i\pi\omega\Bigr) + i\pi\omega(1-\vartheta_{00}^2),
+\]
+from which:
+\weq{15}{\mathrm{Lim}_{\varkappa^2=0}\Bigl(K' + \frac12\log\frac{\varkappa^2}{16}\Bigr) = 0.}
+Since $K$ and $K'$ are now particular integrals of (8) (for
+$x=\varkappa^2$), both have the form:
+\[
+K = a_1 y_1 + a_2 y_2, \qquad K' = a_1' y_1 + a_2' y_2,
+\]
+in which $a_1, a_2, a_1', a_2'$ are constant. Since $K$ remains finite
+for $x=0$ and takes the value $\frac12\pi$, we have $a_2=0$, $a_1=\frac12\pi$; and
+in order that $K'+\frac12\log x$ remain finite and [by (15)] take the value $\log 4$,
+$a_2'=1$ and $a_1'=0$ must hold. Thus there results, if
+one puts $x=\varkappa^2$, $1-x=\varkappa'^2$:
+\weq{16}{K = \frac{\pi}{2}F(\varkappa^2), \qquad K' = \frac12 G(\varkappa^2) - \frac12\log\frac{\varkappa^2}{16\varkappa'^2}F(\varkappa^2)}
+and
+\weq{17}{q = e^{-\frac{\pi K'}{K}} = \frac{\varkappa^2}{16\varkappa'^2}\,e^{-\frac{G(\varkappa^2)}{F(\varkappa^2)}},}
+in which, as already remarked, the series $G(\varkappa^2)$, $F(\varkappa^2)$ are convergent
+so long as the absolute value of $\varkappa^2$ is a proper fraction.
+In
+the differential equation (4) there lie, to be sure, the means of continuing
+the expressions found for $K,K',q$ beyond this domain of convergence. % [sic] The German source prints “dies” (for “diesen”).
+One reaches this more simply, however, by the
+application of the \gesperrt{Landen transformation}.
+
+We bound the plane of the complex values $\varkappa^2$ by
+laying two cuts along the real axis, from 0 to $-\infty$ and
+from 1 to $\infty$. In the plane so bounded all
+roots of $\varkappa^2, \varkappa'^2$ are then uniquely determined by the requirement that, for
+positive properly fractional $\varkappa^2$, they are to be \gesperrt{real and positive}. Now
+by the formulae of the \gesperrt{Landen} transformation
+[\S\,44, (28)], if we denote by $\varkappa_1,\varkappa_1',K_1,K_1'$ the functions of $\omega$
+that arise from $\varkappa,\varkappa',K,K'$ when $\omega$ is replaced by $2\omega$,
+we have:
+\weq{18}{\begin{aligned}
+\varkappa_1 &= \frac{1-\varkappa'}{1+\varkappa'}, \qquad \varkappa_1' = \frac{2\sqrt{\varkappa'}}{1+\varkappa'}, \\
+2K_1 &= (1+\varkappa')K, \qquad K_1' = (1+\varkappa')K'.
+\end{aligned}}

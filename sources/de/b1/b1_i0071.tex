@@ -1,0 +1,55 @@
+% !PRINTED 46
+\weberpage{46}
+
+Multiplicirt man die erste Gleichung (5) mit $B_0^{(1)}$, die zweite mit $-B_1^{(1)}$ und addirt, so erhält man nach dem erwähnten Formelsystem (auf $n=1$ angewandt)
+\[
+ -M_1=B_0^{(1)}f(0)-B_1^{(1)}f(1),
+\]
+und so allgemein, indem man die $\nu$ ersten Gleichungen (5) der Reihe nach mit
+\[
+ B_0^{(\nu)},\quad -B_1^{(\nu)},\quad +B_2^{(\nu)},\quad \ldots,\quad \pm B_\nu^{(\nu)}
+\]
+multiplicirt und addirt,
+\begin{equation}
+ \pm M_\nu=B_0^{(\nu)}f(0)-B_1^{(\nu)}f(1)+B_2^{(\nu)}f(2)-\cdots\pm B_\nu^{(\nu)}f(\nu),
+\tag{7}
+\end{equation}
+wodurch nach (4) die Function $F(x)$ bestimmt und die Aufgabe gelöst ist. Es ist klar, dass, so lange wir über die Werthe $f(0),f(1),\ldots,f(n)$ keine besondere Voraussetzung machen, in dieser Form jede beliebige ganze rationale Function von $x$ dargestellt werden kann.
+% SOURCE-ORIGINAL-SIC (mathematical notation): The scan prints uppercase F(x) here although equations (1), (4), and the surrounding argument define lowercase f(x); German remains source-faithful.
+
+\begin{center}
+{\large \S.\ 10.}
+
+\vspace{0.5em}
+{\large\gesperrt{Lösung des Interpolationsproblems durch die Differenzen.}}
+\end{center}
+
+Die Definition der ganzen rationalen Function
+\begin{equation}
+ B_\nu^{(x)}={x(x-1)\cdots(x-\nu+1)\over 1\cdot2\cdot3\cdots\nu}
+\tag{1}
+\end{equation}
+giebt die früher schon für den speciellen Fall eines ganzen positiven $x$ bewiesene Relation
+\begin{equation}
+ B_\nu^{(x+1)}=B_\nu^{(x)}+B_{\nu-1}^{(x)},\qquad B_0^{(x+1)}=B_0^{(x)}=1.
+\tag{2}
+\end{equation}
+Daraus erhalten wir für die Coëfficienten $M_0,M_1,\ldots,M_n$ eine Bestimmungsweise, die für die praktische Rechnung viel bequemer ist, als die Anwendung der Formeln des vorigen Paragraphen.
+
+Es ist nämlich nach den Formeln (4) und (6), \S~9
+\begin{equation}
+ f(x)=f(0)+M_1B_1^{(x)}+M_2B_2^{(x)}+\cdots+M_nB_n^{(x)},
+\tag{3}
+\end{equation}
+und wenn wir darin $x$ durch $x+1$ ersetzen und die Differenz
+\begin{equation}
+ \Delta_x=f(x+1)-f(x)
+\tag{4}
+\end{equation}
+bilden, mit Rücksicht auf (2),
+\begin{equation}
+ \Delta_x=M_1+M_2B_1^{(x)}+M_3B_2^{(x)}+\cdots+M_nB_{n-1}^{(x)},
+\tag{5}
+\end{equation}
+woraus sich ergiebt (da (5) eine Gleichung von derselben Art wie (3) ist, nur dass $n-1$ an Stelle von $n$ getreten ist):
+%CONT>>

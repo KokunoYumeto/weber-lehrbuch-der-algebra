@@ -1,0 +1,38 @@
+% !PRINTED 555
+\weberpage{555}
+%<<CONT
+In the exponent of $r$ only the residue with respect to the modulus $n$ matters, since $r^h = r^k$ holds always and only when $h \equiv k \pmod{n}$.
+
+As we have already seen in the twelfth section, the quantities (1) are the roots of an \gesperrt{irreducible equation} of degree $(n-1)$
+\weq{2}{X = x^{n-1} + x^{n-2} + x^{n-3} + \cdots + x + 1 = 0,}
+and we wish first to show that this equation is \gesperrt{cyclic}. This property results from the existence of primitive roots of the prime $n$, with which we occupied ourselves in \S.\,136. It was proved there that for every prime $n$ there are certain numbers $g$, called primitive roots of $n$, which are characterised by the property that among the residues of the powers
+\[
+1, \ g, \ g^2, \ g^3 \dots g^{n-2},
+\]
+upon division by $n$, each of the numbers
+% [sic] authority includes 0 here; powers of a primitive root modulo n cover only 1,...,n-1.
+\[
+0, \ 1, \ 2, \dots n-1
+\]
+occurs once and only once. The residue of a power $g^h$ remains the same when $h$ is changed by a multiple of $n-1$. If
+\[
+g^\alpha \equiv a \pmod{n},
+\]
+then $\alpha$ is called the index of $a$ ($\alpha = \operatorname{ind} a$) and $a$ the number or the numerus. The index is taken with respect to the modulus $n-1$, the numerus with respect to the modulus $n$ (\S.\,136).
+
+If, then, we assume such a primitive root of $n$, we can, apart from the order, represent the quantities (1) thus:
+\[
+r, \ r^g, \ r^{g^2} \dots r^{g^{n-2}},
+\]
+or, if we set
+\weq{3}{r^{g^h} = r_h}
+then
+\weq{4}{r, \ r_1, \ r_2 \dots r_{n-2}.}
+Every number of the field $R(r)$, i.\,e. every rational function of $r$, can be brought into the form
+\weq{5}{\varphi(r) = b_0 + b_1 r + b_2 r^2 + \cdots + b_{n-2} r^{n-2},}
+or, since by (2)
+\[
+1 + r + r^2 + \cdots + r^{n-1} = 0
+\]
+holds,
+%CONT>>

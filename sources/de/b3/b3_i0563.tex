@@ -1,0 +1,56 @@
+% !PRINTED 532
+\weberpage{532}
+
+Aus (27) leitet man eine einfachere Formel her für die Funktion
+\[
+f(\omega) = e^{-\frac{\pi i}{24}}\,\frac{\eta\!\left(\frac{\omega+1}{2}\right)}{\eta(\omega)} = e^{\frac{\pi i}{24}}\,\frac{\eta\!\left(\frac{\omega-1}{2}\right)}{\eta(\omega)}.
+\]
+
+Ersetzt man nämlich
+\[
+\begin{aligned}
+A &\ \text{durch}\ 2A,\\
+B &\ \text{\textquotedblbase}\ \ A+B,\\
+C &\ \text{\textquotedblbase}\ \ \tfrac12(A+2B+C),
+\end{aligned}
+\]
+so bleibt $m=AC-B^2$ ungeändert und $\omega_1,\omega_2$ gehen über in
+\[
+\omega_1' = \frac{\omega_1+1}{2},\quad \omega_2' = \frac{\omega_2-1}{2}.
+\]
+
+Setzt man also
+\weq{29}{\begin{aligned}
+\psi &= (A,\,2B,\,C),\\
+\psi' &= [2A,\,2(A+B),\,\tfrac12(A+2B+C)],
+\end{aligned}}
+so ergibt sich aus (27)
+\weq{30}{\mathop{\mathrm{Lim}}\limits_{s=1}\left(\sum^{x,y}\frac{1}{\psi^s} - \sum^{x,y}\frac{1}{\psi'^s}\right) = \frac{2\pi}{\sqrt m}\log\frac{f(\omega_1)f(\omega_2)}{\sqrt 2}.}
+
+Wir nehmen jetzt nicht nur $A, 2B, C$, sondern auch $A, B, C$ als ganze Zahlen ohne gemeinschaftlichen Teiler und $A$ ungerade an. Dann ist $\psi$ eine primitive Form der Diskriminante $-4m$, und wir betrachten zunächst die beiden Fälle
+\[
+m\equiv 1,\quad m\equiv 2\ (\mathrm{mod}\ 4).
+\]
+
+Nehmen wir, was keine weitere Beschränkung ist, $B\equiv m+1\ (\mathrm{mod}\ 2)$ an, d. h. $B$ gerade oder ungerade, je nachdem $m$ ungerade oder gerade ist, so ergibt sich aus
+\[
+m = AC-B^2\text{:}
+\]
+\[
+\begin{aligned}
+A-C&\equiv 0\ (\mathrm{mod}\ 4) \quad m\ \text{ungerade},\\
+A+C&\equiv 0\ \text{\textquotedblbase} \qquad\ \ m\ \text{gerade},
+\end{aligned}
+\]
+und die Form $\psi'$ ist primitiv von der Diskriminante $-4m$. Es ist nach der Komposition der quadratischen Formen:
+\[
+\psi' = \psi_0\psi,
+\]
+wenn
+\[
+\begin{aligned}
+\psi_0 &= \left(2,\,2,\,\tfrac{m+1}{2}\right) & (m\ \text{ungerade}),\\
+&= \left(2,\,0,\,\tfrac{m}{2}\right) & (m\ \text{gerade}),
+\end{aligned}
+\]
+%CONT>>

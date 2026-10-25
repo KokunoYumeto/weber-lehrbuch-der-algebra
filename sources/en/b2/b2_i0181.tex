@@ -1,0 +1,32 @@
+% !PRINTED 160
+\weberpage{160}
+
+Namely, if we denote by $x_1, x_2, \dots, x_n$ a system of $n$ variables, and by $\alpha_1, \alpha_2, \dots \alpha_n$ any arrangement of the $n$ figures $1, 2, \dots n$, then the equations:
+\weq{1}{x_1 = x'_{\alpha_1}, \quad x_2 = x'_{\alpha_2}, \quad \dots \quad x_n = x'_{\alpha_n}}
+determine a linear substitution of dimension $n$:
+\weq{2}{A = \begin{pmatrix} a_1^{(1)}, & \dots & a_n^{(1)} \\ \cdot & \cdot & \cdot \\ a_1^{(n)}, & \dots & a_n^{(n)} \end{pmatrix}, \quad (x) = A(x'),}
+in which in every row and in every column only one coefficient is different from zero, and this one has the value 1.
+
+The determinant $|A|$ of the substitution is therefore $= \pm 1$. But if, after carrying out the substitution, one puts $x_i$ again for $x'_i$, the result is nothing other than the permutation
+\[
+\begin{pmatrix} 1, & 2, & \dots & n \\ \alpha_1, & \alpha_2, & \dots & \alpha_n \end{pmatrix}
+\]
+of the indices of $x$.
+
+If $B$ is a second substitution formed in the same way
+\weq{3}{(x') = B(x''),}
+or more explicitly:
+\weq{4}{x'_1 = x''_{\beta_1}, \quad x'_2 = x''_{\beta_2}, \quad \dots, \quad x'_n = x''_{\beta_n},}
+then the composition, by the rules of \S.\,37, yields:
+\weq{5}{x_1 = x''_{\beta_{\alpha_1}}, \quad x_2 = x''_{\beta_{\alpha_2}}, \quad \dots \quad x_n = x''_{\beta_{\alpha_n}},}
+for which the abbreviated notation
+\weq{6}{(x) = AB(x'')}
+is to be used.
+
+But by Bd.\,I, \S.\,148 (by the composition of the permutations):
+\weq{7}{\begin{pmatrix} 1, & 2, & \dots & n \\ \alpha_1, & \alpha_2 & \dots & \alpha_n \end{pmatrix} \begin{pmatrix} 1, & 2, & \dots & n \\ \beta_1, & \beta_2 & \dots & \beta_n \end{pmatrix} = \begin{pmatrix} 1, & 2, & \dots & n \\ \beta_{\alpha_1}, & \beta_{\alpha_2} & \dots & \beta_{\alpha_n} \end{pmatrix}.}
+If, then, we regard the substitutions $A, B$ as permutations of the indices, the substitution $AB$ has the same meaning as the composed permutation $AB$.
+
+The permutation groups of $n$ figures are accordingly nothing other than a special case of \gesperrt{finite groups} of linear substitutions of dimension $n$.
+
+The permutations of the first kind correspond to substitutions with the determinant $+1$, and the permutations of the second kind to substitutions with the determinant $-1$.

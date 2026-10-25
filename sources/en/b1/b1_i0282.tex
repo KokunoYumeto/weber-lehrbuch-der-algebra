@@ -1,0 +1,54 @@
+% !PRINTED 257
+\weberpage{257}
+%<<CONT
+derive, as is indicated by the strokes, that is, in such a way that
+one obtains each preceding one from the one that follows it by
+omitting the last row and column; thus
+\[
+R_0 = 1, \quad R_1 = a_{1,1}, \quad R_2 = a_{1,1}a_{2,2} - a_{1,2}^2,
+\]
+\[
+R_3 = \begin{vmatrix} a_{1,1}, & a_{1,2}, & a_{1,3} \\ a_{2,1}, & a_{2,2}, & a_{2,3} \\ a_{3,1}, & a_{3,2}, & a_{3,3} \end{vmatrix}, \ldots R_m = R.
+\]
+Such a system, when it is ordered in the descending sequence
+\[
+R_m,\ R_{m-1} \ldots R_1,\ R_0
+\]
+shall be called a chain of principal subdeterminants.
+Of such chains, $\Pi(m)$ different ones can be formed, in all of
+which the first term is $R$ and the last term is 1.
+
+\begin{center}
+\S.\,81.
+
+\gesperrt{Quadratic Forms with Vanishing Determinant.}
+\end{center}
+
+If the determinant $R$ of the quadratic form
+$\varphi(x_1, x_2 \ldots x_m)$, defined in (3), \S.\,80, vanishes, then, as we
+have already seen in \S.\,57, $\varphi$ can be expressed by fewer than $m$
+mutually independent linear functions of $x$. If we denote by
+$m - \varrho$ the smallest number of variables by which $\varphi$ can be
+expressed, then $\varrho$ has the same meaning as in the preceding
+section.
+
+Now if among the principal subdeterminants of $R$ there is
+found a $k$-rowed one which is different from zero, say
+\[
+R_k = \Sigma \pm a_{1,1}a_{2,2} \ldots a_{k,k},
+\]
+then, if we set
+\[
+x_{k+1} = 0,\quad x_{k+2} = 0, \ldots x_m = 0
+\]
+the expression
+\[
+\varphi(x_1, x_2 \ldots x_k, 0, 0, 0)
+\]
+is a quadratic form of $k$ variables $x_1, x_2 \ldots x_k$ whose
+determinant $R_k$ is different from zero, and which accordingly cannot
+be expressed by fewer than $k$ variables. Still less, then, can the
+function $\varphi$, when $x_1, x_2 \ldots x_m$ vary without restriction,
+depend on fewer than $k$ variables, and it follows that
+% The source prints the rank/nullity bound with a less-than-or-equal sign.
+\weq{1}{\varrho \leqq m - k.}

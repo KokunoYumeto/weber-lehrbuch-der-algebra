@@ -1,0 +1,80 @@
+% !PRINTED 563
+\weberpage{563}
+%<<CONT
+\[
+\xi = r + r^{-1} = 2\cos\frac{2\pi}{13}, \qquad \xi' = r^5 + r^{-5} = 2\cos\frac{10\pi}{13}
+\]
+
+setzt. Es ist nämlich
+
+\[
+\xi + \xi' = \eta, \qquad \xi\xi' = \eta_2,
+\]
+
+also
+
+\weq{11}{\xi^2 - \eta\xi + \eta_2 = 0}
+
+die quadratische Gleichung für $\xi$, aus der man die biquadratische
+Gleichung für $r$ erhält,
+
+\weq{12}{r^4 - \eta r^3 + (\eta_2 + 2)r^2 - \eta r + 1 = 0.}
+
+Die quadratische Gleichung (11) hat eine positive und eine
+negative Wurzel. Die positive Wurzel ist $2\cos\frac{2\pi}{13}$. Anstatt $r$
+selbst zu berechnen, berechnet man noch $2\sin\frac{2\pi}{13}$, was man als
+die positive Quadratwurzel $\sqrt{4 - \xi^2}$ erhält.
+
+An Stelle der drei viergliedrigen Perioden $\eta$ hätte man auch
+zuerst zwei Perioden von sechs Gliedern betrachten können.
+
+\weq{13}{\begin{aligned}
+\xi &= r + r^3 + r^4 + r^{-1} + r^{-3} + r^{-4}\\
+\xi_1 &= r^2 + r^5 + r^6 + r^{-2} + r^{-5} + r^{-6}.
+\end{aligned}}
+
+Für das Product $\xi\xi_1$ findet man nach der Formel (4) den
+Werth $3(\xi + \xi_1)$ oder $-3$, so dass $\xi$, $\xi_1$ die Wurzeln der quadratischen Gleichung
+
+\weq{14}{\xi^2 + \xi - 3 = 0}
+
+sind, woraus, da aus dem Ausdruck durch die Cosinus leicht zu
+sehen ist, dass $\xi$ positiv ist:
+
+\weq{15}{\xi = \frac{-1 + \sqrt{13}}{2}, \qquad \xi_1 = \frac{-1 - \sqrt{13}}{2}.}
+
+Nach Adjunction der Werthe $\xi$, $\xi_1$ kann man eine cubische
+Gleichung für die zweigliedrigen Perioden bilden. Setzt man
+nämlich
+
+\[
+\begin{aligned}
+\xi &= r + r^{-1}, & \xi_1 &= r^2 + r^{-2},\\
+\xi_2 &= r^4 + r^{-4}, & \xi_3 &= r^5 + r^{-5},\\
+\xi_4 &= r^3 + r^{-3}, & \xi_5 &= r^6 + r^{-6},
+\end{aligned}
+\]
+
+so folgt
+
+% [resolved 2026-08-06, 5x zoom strip 4/5] \zeta is correct and is genuinely a different
+% symbol from \xi here. The glyph is distinct in the scan, and the mathematics settles it
+% independently: the \xi are the six two-term periods of the 13th roots of unity
+% (\xi = r+r^{-1}, \xi_1 = r^2+r^{-2}, \xi_2 = r^4+r^{-4}, \xi_3 = r^5+r^{-5},
+% \xi_4 = r^3+r^{-3}, \xi_5 = r^6+r^{-6}, printed on this same page), and the \zeta are
+% three-term sums of them with \zeta + \zeta_1 = -1, the usual period relation. A \xi on the
+% left would read \xi = \xi + \xi_2 + \xi_4.
+\[
+\zeta = \xi + \xi_2 + \xi_4, \qquad \zeta_1 = \xi_1 + \xi_3 + \xi_5, \qquad \zeta + \zeta_1 = -1,
+\]
+
+ferner
+
+\[
+\xi\xi_2 = \xi_3 + \xi_4, \qquad \xi\xi_4 = \xi_1 + \xi_2, \qquad \xi_2\xi_4 = \xi + \xi_5,
+\]
+
+\[
+\xi\xi_2\xi_4 = 2 + \zeta_1 = 1 - \zeta,
+\]
+%CONT>>

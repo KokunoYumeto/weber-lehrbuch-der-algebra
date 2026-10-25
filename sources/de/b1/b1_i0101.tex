@@ -1,0 +1,42 @@
+% !PRINTED 76
+\weberpage{76}
+
+Ordnet man die Colonnen in umgekehrter Reihenfolge, so sind dazu, je nachdem \(n\) gerade oder ungerade ist,
+\[
+ {n\over2}\quad \hbox{oder}\quad {n-1\over2}
+\]
+Vertauschungen erforderlich, so dass sich die so geordnete Determinante von \(\Delta\) durch den Factor
+\[
+ (-1)^{n(n-1)/2}
+\]
+unterscheidet. Es kommt auf dasselbe hinaus, wenn man den
+\[
+ {n(n-1)\over2}
+\]
+Factoren des Productes (11) das entgegengesetzte Vorzeichen giebt. Es besteht also zugleich mit (11) die Gleichung:
+\begin{equation}
+\begin{vmatrix}
+a_1^{n-1}&a_1^{n-2}&\cdots&a_1&1\\
+a_2^{n-1}&a_2^{n-2}&\cdots&a_2&1\\
+\vdots&\vdots&&\vdots&\vdots\\
+a_n^{n-1}&a_n^{n-2}&\cdots&a_n&1
+\end{vmatrix}
+=
+\begin{gathered}
+(a_1-a_2)(a_1-a_3)\cdots(a_1-a_n)\\
+(a_2-a_3)\cdots(a_2-a_n)\\
+\cdots\\
+(a_{n-1}-a_n).
+\end{gathered}
+\tag{12}
+\end{equation}
+
+Wir wollen hier noch eine Bezeichnungsweise der Unterdeterminanten erwähnen, die der Differentialrechnung entnommen ist und oft mit Nutzen verwendet wird, besonders wenn es sich um die Bildung von Derivirten handelt. Wenn die Grössen \(a_i^{(k)}\) als unabhängige Variable betrachtet werden, so ist die Determinante \(A\) in Bezug auf jede von ihnen nur vom ersten Grade. Die nach \(a_i^{(k)}\) genommene Ableitung oder der Differentialquotient ist also gleich dem Coëfficienten von \(a_i^{(k)}\), also:
+\[
+{\partial A\over \partial a_i^{(k)}}=A_i^{(k)}.
+\]
+Wenn demnach z.~B. die \(a_i^{(k)}\) Functionen einer Variablen \(t\) sind, so ist auch \(A\) eine Function von \(t\), und man erhält nach den ersten Regeln der Differentialrechnung die Ableitung von \(A\) in Bezug auf \(t\) in der Form
+\[
+A'(t)=\sum A_i^{(k)}{\partial a_i^{(k)}\over\partial t},
+\]
+wenn \({\partial a_i^{(k)}}/{\partial t}\) die Ableitung von \(a_i^{(k)}\) nach \(t\) bedeutet.

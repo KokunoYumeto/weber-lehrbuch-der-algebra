@@ -1,0 +1,62 @@
+% !PRINTED 364
+\weberpage{364}
+
+Die $P_1, P_2, P_3 \ldots$ sind, wenn $a_0$ positiv ist, gleichfalls alle positiv, wenn $a_0$ negativ ist, so sind sie alle negativ, mit etwaiger Ausnahme von $P_2 = a_0 a_1 + 1$, was gleich Null sein kann. Die $Q_n$ sind von $a_0$ ganz unabh\"angig. In welcher Weise die $P_n$ von $a_0$ abh\"angen, k\"onnen wir auf folgende Art erkennen.
+
+Nehmen wir die Zahlenreihe
+\[
+a_1, \ a_2, \ a_3, \ a_4 \ldots
+\]
+als gegeben an und betrachten die Recursionsformel
+\weq{5}{
+T_{n+1} = a_n T_n + T_{n-1},
+}
+so ist dadurch $T_n$ vollst\"andig f\"ur alle $n$ bestimmt, wenn $T_0$ und $T_1$ gegeben sind.
+
+Nehmen wir zwei specielle F\"alle $Q_n$ und $R_n$, die durch die Bedingungen
+\weq{6}{
+\begin{aligned}
+R_0 &= 1, & R_1 &= 0 \\
+Q_0 &= 0, & Q_1 &= 1
+\end{aligned}
+}
+bestimmt sind, so erh\"alt man die allgemeine L\"osung der Gleichung (5) in der Form
+\weq{7}{
+T_n = T_0 R_n + T_1 Q_n
+}
+und hierin ist also auch
+\weq{8}{
+P_n = R_n + a_0 Q_n
+}
+enthalten. Wenn wir zwei L\"osungen von (5) betrachten, $T_n$ und $S_n$, also:
+\[
+\begin{aligned}
+T_{n+1} &= a_n T_n + T_{n-1} \\
+S_{n+1} &= a_n S_n + S_{n-1},
+\end{aligned}
+\]
+so folgt durch Elimination von $a_n$
+\[
+T_{n+1} S_n - T_n S_{n+1} = -(T_n S_{n-1} - T_{n-1} S_n),
+\]
+oder wenn wir
+\[
+T_n S_{n+1} - S_n T_{n+1} = \varDelta_n
+\]
+setzen,. % [sic] comma followed by period as printed
+\weq{9}{
+\varDelta_n = -\varDelta_{n-1} = \varDelta_{n-2} = \cdots = (-1)^n \varDelta_0.
+}
+F\"ur $T_n = R_n$ und $S_n = Q_n$ ist aber $\varDelta_0 = 1$, [nach (6)], also nach (9)
+\[
+R_n Q_{n+1} - Q_n R_{n+1} = (-1)^n,
+\]
+oder, indem man $n$ in $n-1$ verwandelt und das Zeichen umkehrt:
+\weq{10}{
+R_n Q_{n-1} - Q_n R_{n-1} = (-1)^n.
+}
+Wendet man dies auf zwei Functionen $T_n$, $S_n$ an, die durch
+\[
+T_n = T_0 R_n + T_1 Q_n, \quad S_n = S_0 R_n + S_1 Q_n
+\]
+%CONT>>

@@ -1,0 +1,33 @@
+% !PRINTED 696
+\weberpage{696}
+The proof is very simply carried out by reduction to an integral. For evidently
+\[
+\frac{1}{(n+1)^s} < \int\limits_n^{n+1} \frac{dx}{x^s} < \frac{1}{n^s},
+\]
+because the first or the second value, $(n+1)^{-s}$ or $n^{-s}$, results when, under the integral sign, the too small or the too large value $(n+1)^{-s}$ or $n^{-s}$ is put in place of $x^{-s}$.
+
+Accordingly there results from (3), for every positive $s$,
+\[
+\alpha^s \int\limits_n^{n+1} \frac{dx}{x^s} < \frac{1}{\mu_n^s} < \beta^s \int\limits_{n-1}^n \frac{dx}{x^s}.
+\]
+If we put
+\[
+R_m = \frac{1}{\mu_{m+1}^s} + \frac{1}{\mu_{m+2}^s} + \frac{1}{\mu_{m+3}^s} + \cdots,
+\]
+then there results from this
+\[
+\alpha^s \int\limits_{m+1}^{\infty} \frac{dx}{x^s} < R_m < \beta^s \int\limits_m^{\infty} \frac{dx}{x^s}
+\]
+or
+\weq{4}{\dfrac{\alpha^s}{(s-1)(m+1)^{s-1}} < R_m < \dfrac{\beta^s}{(s-1)\,m^{s-1}}.}
+
+Thus $R_m$ remains finite, however many terms may be summed, provided $s > 1$ holds; and for series with positive terms this is a sufficient condition for convergence.
+
+If one further puts (4) into the form
+\[
+\frac{\alpha^s}{(m+1)^{s-1}} < (s-1)\,R_m < \frac{\beta^s}{m^{s-1}},
+\]
+then one sees that the two limits can be brought arbitrarily near to $\alpha, \beta$ if $s-1$ is assumed small enough; and from this it follows that $(s-1)\,R_m$, for sufficiently small $s-1$, can no longer lie outside the limits $\alpha, \beta$, unless it approaches one of these values without limit as $s-1$ decreases. Now since $R_m$ differs from $S$ only by a part that is finite for every positive $s$, the theorem is herewith proved.
+
+But the theorem still holds even when the inequality (3) does not hold for all $n$, but subsists only as soon as $n$ has exceeded an arbitrarily given limit $m$. On
+%CONT>>

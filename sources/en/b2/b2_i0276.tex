@@ -1,0 +1,33 @@
+% !PRINTED 255
+\weberpage{255}
+%<<CONT
+To prove this, we form according to (2):
+\weq{5}{\begin{pmatrix} \lambda, & \mu \\ \nu, & \varrho \end{pmatrix}\begin{pmatrix} 0, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} \varrho, & -\mu \\ -\nu, & \lambda \end{pmatrix} = \begin{pmatrix} \mu\varrho\gamma-\lambda\nu\beta-\mu\nu\delta, & -\mu^2\gamma+\lambda^2\beta+\lambda\mu\delta \\ \varrho^2\gamma-\nu^2\beta-\varrho\nu\delta, & -\varrho\mu\gamma+\lambda\nu\beta+\lambda\varrho\delta \end{pmatrix},}
+and it therefore only remains to show that $\lambda,\mu,\nu,\varrho$ can be determined so that the three equations:
+\weq{6}{
+\begin{aligned}
+\lambda\varrho-\mu\nu &= 1\\
+\mu\varrho\gamma-\lambda\nu\beta-\mu\nu\delta &= 0\\
+-\mu^2\gamma+\lambda^2\beta+\lambda\mu\delta &= 1
+\end{aligned}
+}
+are satisfied. But from the last two equations it follows, if one multiplies them first by $\mu,\varrho$, then by $\lambda,\nu$ and adds each time, using the first equation:
+\weq{7}{\lambda\beta+\mu\delta = \varrho, \quad \mu\gamma = \nu,}
+and if one substitutes these values of $\varrho,\nu$ in the first equation (6):
+\weq{8}{\lambda^2\beta+\lambda\mu\delta-\mu^2\gamma = 1.}
+But this equation can always be satisfied. For on account of $\beta\gamma=-1$ neither of the two numbers $\beta,\gamma$ can vanish. Now if $\beta$ is a square, we can set $\mu=0$ and determine $\lambda$ from $\lambda^2\beta=1$. This is \gesperrt{always} possible for $p=2$. But if $p$ is odd, then, if $\beta$ is a non-square, we obtain from (8):
+\[
+(2\lambda\beta+\delta\mu)^2+\mu^2(4-\delta^2) = 4\beta.
+\]
+Now if, in the first place, $4-\delta^2$ is a non-square, one can determine $\mu$ from $\mu^2(4-\delta^2)=4\beta$ and then $\lambda$ from $2\lambda\beta+\delta\mu=0$. But if $4-\delta^2$ is a square, one decomposes $4\beta$, according to \S.\,64, 7., into the sum of two squares $4\beta=\sigma^2+\tau^2$ and determines $\mu$ and $\lambda$ from
+\[
+\mu^2(4-\delta^2) = \sigma^2, \quad 2\lambda\beta+\delta\mu = \tau.
+\]
+Having thus found $\lambda$ and $\mu$, one obtains $\varrho$ and $\nu$ from (7), and thereby the equations (6) are in fact satisfied. With this the goal is attained.
+% [sic] The printed proof omits the case 4-\delta^2=0. Over F_5, \beta=\gamma=\delta=2 has \beta\gamma=-1, while (8), 2\lambda^2+2\lambda\mu-2\mu^2=1, has no solution. Thus the printed argument does not prove the asserted universal solvability; the source text is preserved faithfully.
+
+3) The group $G$ contains the substitution
+\[
+A_0 = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix},
+\]
+%CONT>>

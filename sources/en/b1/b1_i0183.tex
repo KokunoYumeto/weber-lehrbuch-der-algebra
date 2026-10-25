@@ -1,0 +1,52 @@
+% !PRINTED 158
+\weberpage{158}
+
+The computation of resultants is usually very laborious. We shall cite only the simplest example, the resultant of two quadratic functions:
+\[
+f(x) = a_0 x^2 + a_1 x + a_2
+\]
+\[
+\varphi(x) = b_0 x^2 + b_1 x + b_2.
+\]
+Here one can compute the product
+\[
+R = a_0^2 (b_0 \alpha_1^2 + b_1 \alpha_1 + b_2) (b_0 \alpha_2^2 + b_1 \alpha_2 + b_2)
+\]
+directly, and obtains, on setting
+\[
+- a_0 (\alpha_1 + \alpha_2) = a_1, \qquad a_0 \alpha_1 \alpha_2 = a_2
+\]
+the result
+\weq{11}{
+R = a_0^2 b_2^2 + a_2^2 b_0^2 - b_0 b_1 a_1 a_2 - a_0 a_1 b_1 b_2
++ b_0 b_2 a_1^2 + a_0 a_2 b_1^2 - 2 a_0 b_0 a_2 b_2,
+}
+or, what is identical with it,
+\weq{12}{
+R = (a_0 b_2 - a_2 b_0)^2 - (a_0 b_1 - a_1 b_0) (a_1 b_2 - a_2 b_1).
+}
+The individual terms of the resultant of the two functions $f(x)$ and $\varphi(x)$ of degree $n$ and $m$ have, apart from a numerical (integer) factor, the form
+\weq{13}{
+a_0^{\nu_0} a_1^{\nu_1} \ldots a_n^{\nu_n} b_0^{\mu_0} b_1^{\mu_1} \ldots b_m^{\mu_m},
+}
+in which, as follows from the degrees determined above,
+% [source-original mathematical slip, confirmed 2026-08-25 against scan p. 183 / printed p. 158]
+% The printed right-hand sides are reversed: R has degree m in the a-coefficients and degree n
+% in the b-coefficients, so the consistent relations would be sum(nu_i)=m and sum(mu_i)=n.
+% The facing translation preserves the printed formulas verbatim.
+\weq{14}{
+\begin{aligned}
+\nu_0 + \nu_1 + \cdots + \nu_n &= n \\
+\mu_0 + \mu_1 + \cdots + \mu_m &= m.
+\end{aligned}
+}
+But we can give yet another relation between these exponents.
+
+For since [by (6)] $R$ is a homogeneous function of degree $n\,m$ of the $n+m$ variables $\alpha, \beta$, and since further $a_0$ is of the zeroth, $a_1$ of the first, $a_2$ of the second, etc., degree in the $\alpha$, and in general $a_k$ and $b_k$ are of degree $k$ in these variables, it follows that
+\weq{15}{
+\begin{aligned}
+\nu_1 + 2 \nu_2 + 3 \nu_3 + \cdots + n \nu_n \\
+{}+ \mu_1 + 2 \mu_2 + 3 \mu_3 + \cdots + m \mu_m &= n m,
+\end{aligned}
+}
+a relation from which an important conclusion can be drawn, one that we shall discuss somewhat more fully in the following section.

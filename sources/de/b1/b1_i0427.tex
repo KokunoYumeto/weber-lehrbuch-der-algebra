@@ -1,0 +1,56 @@
+% !PRINTED 402
+\weberpage{402}
+%<<CONT
+\[
+x_1 = a_1 + \frac{1}{x_2}
+\]
+in $f_2(x_2)$. Die Gleichung $f_2 = 0$ hat dann wieder mindestens
+eine Wurzel, die grösser als 1 ist, und die also zwischen den
+beiden positiven ganzen Zahlen $a_2$ und $a_2 + 1$ liegt, u.\,s.\,f.
+Schliesslich wird man auf diese Weise dazu kommen, eine einzige
+Wurzel zu isoliren, und man erhält in der Reihe der Näherungsbrüche
+\[
+(a_0), \quad (a_0, a_1), \quad (a_0, a_1, a_2), \quad (a_0, a_1, a_2, a_3) \ldots
+\]
+eine Reihe rationaler Zahlen, die abwechselnd über und unter
+einer der Wurzeln $x$ liegen und sich dieser Wurzel unbegrenzt
+annähern. Ist man so bis zu dem Näherungsbruch
+\[
+(a_0, a_1, a_2 \ldots a_{\nu-1}) = \frac{P_\nu}{Q_\nu}
+\]
+vorgedrungen, so unterscheidet sich dieser von dem wahren Werth
+von $x$ um weniger als $1 : Q_\nu^2$. Die Grösse des Nenners giebt
+also unmittelbar ein Maass für die bereits erreichte Genauigkeit.
+
+In den gewöhnlichen Fällen wird man die Zahlen $a_0, a_1, a_2 \ldots$
+einfach dadurch erhalten, dass man auf die Zeichenwechsel der
+Functionen $f, f_1, f_2 \ldots$ achtet.
+
+Um dies Verfahren an einem Beispiel zu erproben, nehmen
+wir die cubische Gleichung, die wir schon früher betrachtet
+haben:
+\[
+x^3 - 2x - 2 = 0.
+\]
+Sie hat eine Wurzel zwischen 1 und 2, also haben wir $a_0 = 1$
+zu setzen.
+
+Man erhält, wenn man die oben angegebene Transformation
+wirklich ausführt, die folgende Kette von Gleichungen:
+\[
+\begin{aligned}
+x^3 - 2x - 2 &= 0, & a_0 &= 1\\
+3x^3 - x^2 - 3x - 1 &= 0, & a_1 &= 1\\
+2x^3 - 4x^2 - 8x - 3 &= 0, & a_2 &= 3\\
+9x^3 - 22x^2 - 14x - 2 &= 0, & a_4 &= 1\\ % [sic] printed order a_4 before a_3
+46x^3 - 6x^2 - 32x - 9 &= 0, & a_3 &= 2\\
+x^3 - 94x^2 - 132x - 46 &= 0, & a_5 &= 95\\
+3561x^3 - 9183x^2 - 191x - 1 &= 0, & a_6 &= 2,
+\end{aligned}
+\]
+also
+\[
+x = (1, 1, 3, 2, 1, 95, 2 \ldots)
+\]
+und die Näherungsbrüche:
+%CONT>>

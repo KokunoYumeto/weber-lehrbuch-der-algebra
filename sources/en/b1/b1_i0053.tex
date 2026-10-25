@@ -1,0 +1,62 @@
+% !PRINTED 28
+\weberpage{28}
+%<<CONT
+\begingroup
+\setlength{\abovedisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{5pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{3pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}
+\linespread{0.94}\selectfont
+that $m\geqq n$ and that $a_0$ and $b_0$ are different from zero. Then
+the difference
+\begin{equation}
+ A-{a_0\over b_0}x^{m-n}B
+\tag{2}
+\end{equation}
+is also a whole rational function of $x$, but its degree is
+\gesperrt{smaller} than $m$, since the highest power in the two terms
+of the difference has the same coefficient and therefore cancels. We
+put this difference equal to
+\begin{equation}
+ A'=A'(x)=a'_0x^{m'}+a'_1x^{m'-1}+\cdots,
+ \qquad m'<m.
+\tag{3}
+\end{equation}
+If now $m'$ is still $\geqq n$, then in (2) we can put $A'$ in place of
+$A$ and repeat the same reasoning.
+
+This gives a chain of equations:
+\begin{equation}
+\begin{aligned}
+ A-{a_0\over b_0}x^{m-n}B&=A',\\
+ A'-{a'_0\over b_0}x^{m'-n}B&=A'',\\
+ A''-{a''_0\over b_0}x^{m''-n}B&=A''',\\
+ &\cdots,
+\end{aligned}
+\tag{4}
+\end{equation}
+and this chain can be continued until the degree of the function that
+has arisen is smaller than $n$. Since in the sequence of functions
+$A,A',A''\ldots$ the degree of each following function is lowered by
+\gesperrt{at least} one unit, the chain of equations (4) consists of
+\gesperrt{at most} $m-n+1$ members; but it may also contain fewer
+members when \gesperrt{several} powers cancel simultaneously. If we add
+all equations (4), denote the last of the functions $A,A'\ldots$ by
+$C$, and, for abbreviation, set
+\begin{equation}
+ Q={a_0\over b_0}x^{m-n}+{a'_0\over b_0}x^{m'-n}+\cdots,
+\tag{5}
+\end{equation}
+so that $Q$ also is a whole rational function of $x$, then there
+follows
+\begin{equation}
+ A=QB+C.
+\tag{6}
+\end{equation}
+The operation just described, by which the functions $Q,C$ are found
+from $A,B$, is called \gesperrt{division}. $A$ is the
+\gesperrt{dividend}, $B$ the \gesperrt{divisor}, $C$ the
+\gesperrt{remainder}, and $Q$ the \gesperrt{quotient}. \gesperrt{The
+degree of the remainder is always lower than the degree of the
+divisor.}
+\endgroup

@@ -1,0 +1,42 @@
+% !PRINTED 256
+\weberpage{256}
+
+The determinant
+
+\weq{3}{R = \Sigma \pm a_{1,1},\, a_{2,2} \ldots a_{m,m}}
+
+shows by its vanishing that $\varphi$ can be transformed by a linear transformation into a function of fewer than $m$ variables, and hence that $\varrho$ is greater than zero.
+
+The determinant $R$ is a symmetric determinant. Among its subdeterminants of various orders there occur certain ones which are again symmetric determinants, namely those which one obtains from $R$ by striking out rows and columns which intersect in diagonal terms; those, therefore, which, if $\alpha, \beta, \gamma \ldots$ denote any of the indices $1, 2 \ldots m$, are to be denoted by
+
+\weq{4}{\Sigma \pm a_{\alpha,\alpha}\, a_{\beta,\beta}\, a_{\gamma,\gamma} \ldots}
+
+These we shall call the principal subdeterminants of $R$.
+
+We shall now determine the number of the principal subdeterminants.
+
+The number of $\mu$-rowed principal subdeterminants is equal to the number of ways in which groups of $\mu$ different indices can be selected from the sequence of indices $1, 2, 3 \ldots m$, hence equal to the number of combinations of $m$ elements taken $\mu$ at a time, and this number is equal to the binomial coefficient $B_\mu^m$. The number of all the principal subdeterminants is therefore, if we count the determinant $R$ itself and in addition unity as a zero-rowed determinant,
+\[
+1 + m + \frac{m(m-1)}{1.2} + \cdots + m + 1 = 2^m.
+\]
+
+But usually only a small part of these actually needs to be taken into account.
+
+The indices $1, 2, 3 \ldots m$ can be arranged in $\Pi(m) = 1.2.3 \ldots m$ different ways; if we form the determinant with any one of these arrangements
+
+% [the printed determinant carries a dotted-line annotation boxing the entries that
+%  intersect the diagonal (a_{1,1}; a_{2,1},a_{2,2}; a_{3,1},a_{3,2},a_{3,3}) -- a graphical
+%  overlay in the print pointing out the rows/columns that get struck out; reproduced here
+%  as the plain determinant, the box itself is not a mathematical symbol]
+\[
+\begin{vmatrix}
+a_{1,1}, & a_{1,2}, & a_{1,3} & \cdots & a_{1,m} \\
+a_{2,1}, & a_{2,2}, & a_{2,3} & \cdots & a_{2,m} \\
+a_{3,1}, & a_{3,2}, & a_{3,3} & \cdots & a_{3,m} \\
+\cdot & \cdot & \cdot & \cdots & \cdot \\
+a_{m,1}, & a_{m,2}, & a_{m,3} & \cdots & a_{m,m}
+\end{vmatrix},
+\]
+
+then from it a series of principal subdeterminants can be
+%CONT>>

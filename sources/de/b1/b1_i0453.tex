@@ -1,0 +1,52 @@
+% !PRINTED 428
+\weberpage{428}
+Die Differenz
+\[
+x(x-1)(x-2)\dots(x-n+1) - x^n + x
+\]
+ist eine Function, h\"ochstens vom $n-1^{\text{ten}}$ Grade. Sie ist aber
+f\"ur $n$ Werthe von $x$, n\"amlich f\"ur $x = 0, 1, 2, \dots n-1$ congruent mit Null, und daher haben wir identisch
+\[
+x(x-1)(x-2)\dots(x-n+1) \equiv x^n - x \quad (\mathrm{mod}\ n).
+\]
+Daraus ergiebt sich der \gesperrt{Wilson'sche Lehrsatz}:
+\[
+1\,.\,2\,.\,3\dots(n-1) \equiv -1 \quad (\mathrm{mod}\ n),
+\]
+wenn man die Co\"efficienten der ersten Potenz von $x$ beiderseits
+vergleicht.
+
+Wir beschr\"anken uns jetzt auf die zweite der Congruenzen (5)
+\weq{8}{x^{n-1} \equiv 1 \quad (\mathrm{mod}\ n)}
+und beweisen zun\"achst den Satz:
+
+\gesperrt{3. Ist $a$ ein Theiler von $n-1$, so hat die Congruenz}
+\weq{9}{x^a \equiv 1 \quad (\mathrm{mod}\ n)}
+\gesperrt{genau $a$ verschiedene Wurzeln.}
+
+Denn es ist, wenn $n-1 = ab$ ist,
+\[
+x^{n-1} - 1 = (x^a - 1)(x^{a(b-1)} + x^{a(b-2)} + \cdots + x^a + 1),
+\]
+und da jede Wurzel der linken Seite Wurzel entweder des einen
+oder des anderen Factors auf der rechten Seite sein muss, so
+folgt, dass, wenn $x^a - 1 \equiv 0$ weniger als $a$ Wurzeln h\"atte, der
+zweite Factor mehr Wurzeln haben m\"usste, als sein Grad angiebt,
+entgegen dem Satz 1.
+
+Ist $\alpha$ eine durch $n$ nicht theilbare Zahl, und $a$ die kleinste
+positive Zahl, f\"ur die $\alpha^a \equiv 1 \pmod n$ wird, ist ferner $h$ irgend
+eine positive ganze Zahl, f\"ur die $\alpha^h \equiv 1 \pmod n$ ist, so ist $a$
+nothwendig ein Theiler von $h$, insbesondere also $a$ ein Theiler
+von $n - 1$.
+
+Denn setzen wir $h = qa + a'$, worin $q$ eine ganze Zahl und
+$a' < a$ ist, so ist auch $\alpha^{a'} \equiv 1$; also muss $a' = 0$ sein, weil $a$ die
+kleinste positive Zahl sein sollte, wof\"ur diese Congruenz befriedigt ist.
+
+\gesperrt{Eine Wurzel $\alpha$ der Congruenz (9) von der
+Eigenschaft, dass keine niedrigere als die $a^{\text{te}}$
+Potenz der Einheit congruent wird, heisst eine
+primitive Wurzel dieser Congruenz, oder primitive $a^{\text{te}}$ Congruenzwurzel der Primzahl $n$, und eine
+primitive Wurzel $g$ der Congruenz (8) nennen wir
+auch kurz eine primitive Wurzel der Primzahl $n$.}

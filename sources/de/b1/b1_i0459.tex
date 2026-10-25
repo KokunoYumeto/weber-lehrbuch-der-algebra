@@ -1,0 +1,36 @@
+% !PRINTED 434
+\weberpage{434}
+
+\[
+\begin{gathered}
+A_4(x) = x^4 - 4x^2 + 2\\
+A_5(x) = x^5 - 5x^3 + 5x\\
+A_6(x) = x^6 - 6x^4 + 9x^2 - 2
+\end{gathered}
+\]
+\[
+\begin{gathered}
+B_4(x) = x^3 - 2x\\
+B_5(x) = x^4 - 3x^2 + 1\\
+B_6(x) = x^5 - 4x^3 + 3x,
+\end{gathered}
+\]
+und so kann man fortfahren. Man kommt durch Induction zu folgendem allgemeinen Gesetz:
+\weq{7}{A_n(x) = \overset{\nu}{\Sigma}(-1)^\nu \dfrac{n}{n-\nu} B_\nu^{(n-\nu)} x^{n-2\nu}, \quad 0 \leqq \nu \leqq \dfrac{n}{2},}
+\weq{8}{B_n(x) = \overset{\nu}{\Sigma}(-1)^\nu B_\nu^{(n-\nu-1)} x^{n-2\nu-1}, \quad 0 \leqq \nu \leqq \dfrac{n-1}{2},}
+wo die Summen mit $\nu=0$ beginnen, und so lange fortzusetzen sind, als die Exponenten von $x$ nicht negativ werden.
+
+Da sich diese Formeln in den ersten Fällen als richtig erweisen, so ist, um sie allgemein zu beweisen, nur noch der Nachweis nöthig, dass sie die Formeln (6) verificiren. Bilden wir zu diesem Zweck
+\[
+A_{n-1}(x) = \overset{\nu}{\Sigma}(-1)^\nu \dfrac{n-1}{n-\nu-1} B_\nu^{(n-\nu-1)} x^{n-2\nu-1},
+\]
+und setzen $\nu-1$ an Stelle von $\nu$, so folgt
+\weq{9}{\begin{gathered} A_{n-1}(x) = -\overset{\nu}{\Sigma}(-1)^\nu \dfrac{n-1}{n-\nu} B_{\nu-1}^{(n-\nu)} x^{n-2\nu+1}, \\ 1 \leqq \nu \leqq \dfrac{n+1}{2}. \end{gathered}}
+Wenn wir $B_{-1}^{(n)} = 0$ annehmen, können wir auch hierin $\nu$ von 0 an wachsen lassen.
+
+Die Werthe, die $\nu$ in der Formel (7) annimmt, unterscheiden sich dann von denen in der Formel (9) nur wenn $n$ ungerade ist, weil dann der Werth $\nu = (n+1):2$ in (9), aber nicht in (7) vorkommt. Wir können aber diesen Werth in (7) zufügen, wenn wir
+\[
+B_{\frac{n+1}{2}}^{\left(\frac{n-1}{2}\right)} = 0
+\]
+annehmen. Dann ergiebt sich
+%CONT>>

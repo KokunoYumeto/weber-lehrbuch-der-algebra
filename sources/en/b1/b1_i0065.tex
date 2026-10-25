@@ -1,0 +1,49 @@
+% !PRINTED 40
+\weberpage{40}
+%<<CONT
+
+\[
+(x-\alpha_1)(x-\alpha_2)=x^2-(\alpha_1+\alpha_2)x+\alpha_1\alpha_2,
+\]
+\[
+\begin{aligned}
+ (x-\alpha_1)(x-\alpha_2)(x-\alpha_3)&=x^3-(\alpha_1+\alpha_2+\alpha_3)x^2\\
+&\quad +(\alpha_1\alpha_2+\alpha_1\alpha_3+\alpha_2\alpha_3)x-\alpha_1\alpha_2\alpha_3.
+\end{aligned}
+\]
+If we assume the law of formation proved for $n-1$ factors, and put
+\[
+ (x-\alpha_1)(x-\alpha_2)\cdots(x-\alpha_{n-1})=x^{n-1}+a'_1x^{n-2}+\cdots+a'_{n-1},
+\]
+then multiplication by $x-\alpha_n$ gives
+\begin{equation}
+\begin{aligned}
+ a_1&=a'_1-\alpha_n,\\
+ a_2&=a'_2-\alpha_n a'_1,\\
+ a_3&=a'_3-\alpha_n a'_2,\\
+&\cdots\\
+ a_\nu&=a'_\nu-\alpha_n a'_{\nu-1},\\
+&\cdots\\
+ a_n&=-\alpha_n a'_{n-1},
+\end{aligned}
+\tag{3}
+\end{equation}
+and from this the correctness of the formulas (2) is immediately evident.
+
+It is important to determine the number of terms which occur in each of the sums (2). We denote the number of terms occurring in the sum $(-1)^\nu a_\nu$ by $B_\nu^{(n)}$; it is the number of combinations without repetition of $n$ elements to the $\nu$th class, that is, of every $\nu$ distinct ones among the $n$ elements. To determine it, suppose first that the $B_{\nu-1}^{(n)}$ combinations to the $(\nu-1)$st class have been formed. From each of these combinations, by adding one at a time of the missing $n-\nu+1$ elements, one can derive $n-\nu+1$ combinations to the $\nu$th class. In this way however every combination is formed $\nu$ times, namely by addition of each of its elements; hence one obtains the relation
+\begin{equation}
+ B_\nu^{(n)}=B_{\nu-1}^{(n)}{n-\nu+1\over \nu}
+\tag{4}
+\end{equation}
+whereas $B_1^{(n)}$ plainly has the value $n$. Therefore, if one multiplies the equations following from (4),
+\begin{equation}
+\begin{aligned}
+ B_1^{(n)}&=n,\\
+ B_2^{(n)}&=B_1^{(n)}{n-1\over 2},\\
+&\cdots\\
+ B_\nu^{(n)}&=B_{\nu-1}^{(n)}{n-\nu+1\over \nu}
+\end{aligned}
+\tag{5}
+\end{equation}
+it follows that:
+%CONT>>

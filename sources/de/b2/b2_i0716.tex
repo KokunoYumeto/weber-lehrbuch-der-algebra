@@ -1,0 +1,47 @@
+% !PRINTED 693
+\weberpage{693}
+Nun ändert man die Reihenfolge der Integration, und stellt ein etwa noch vorhandenes zweites imaginäres Paar voran, das man wieder in derselben Weise behandelt.
+
+Die verschiedenen Bestandtheile $U_1, U_2, \ldots$ unterscheiden sich durch die Vorzeichen der den reellen $y$ entsprechenden $u$. Nehmen wir das Zeichen so, dass $\pm u$ positiv wird, und setzen
+
+\weq{8}{z = \log(\pm u), \quad \pm du = e^z\,dz,}
+
+so erhalten wir für die verschiedenen $U_1, U_2, \ldots$ denselben Ausdruck durch ein $\nu$-faches Integral
+
+\weq{9}{U_1 = \pi^{n-\nu}\int\int\cdots\int e^{z_1+z_2+\cdots+z_\nu}\,dz_1\,dz_2\ldots dz_\nu,}
+
+wenn wir $dz_1, dz_2, \ldots, dz_\nu$ positiv annehmen.
+
+Die Variablen $z_k$ sind aber nach (6) und (8) hier keine anderen, als in §. 189, (8), (9), (10), und danach ist
+
+\[
+z_1+z_2+\cdots+z_\nu = n\xi_\nu.
+\]
+
+Wenn wir nun die Transformationsformel (1) auf das $\nu$-fache Integral (9) anwenden, um die Variablen $\xi_1, \xi_2, \ldots, \xi_\nu$ einzuführen, so haben wir die Determinante
+
+\[
+\Sigma\pm\frac{\partial z_1}{\partial\xi_1}\frac{\partial z_2}{\partial\xi_2}\cdots\frac{\partial z_\nu}{\partial\xi_\nu}
+\]
+
+zu bilden, die nach §. 188, (3) dem absoluten Werthe nach mit $nL$, d. h. mit dem $n$fachen Werthe des \gesperrt{Körperregulators} $L$ übereinstimmt, und danach ist
+
+\[
+U_1 = \pi^{n-\nu}nL\int\limits_0^1 d\xi_1\ldots\int\limits_0^1 d\xi_{\nu-1}\int\limits_{-\infty}^0 e^{n\xi_\nu}\,d\xi_\nu = \pi^{n-\nu}L
+\]
+
+und
+
+\[
+U = 2^{2\nu-n}\pi^{n-\nu}L.
+\]
+
+Daraus ergiebt sich also endlich nach (4) der Satz:
+
+1. \gesperrt{Bedeutet $T$ die Anzahl der durch $\mathfrak{a}$ theilbaren nicht associirten ganzen Zahlen, deren absolute Norm kleiner als $t$ ist, so ist}
+
+\weq{10}{\mathop{\mathrm{Lim}}\limits_{t=\infty}\frac{T}{t} = \frac{2^\nu\pi^{n-\nu}L}{w\,N(\mathfrak{a})\sqrt{\pm\varDelta}} = \frac{g}{N(\mathfrak{a})},}
+
+\gesperrt{worin $g$ eine durch die Natur des Körpers $\Omega$ völlig bestimmte positive Zahl ist, nämlich:}
+
+\weq{11}{g = \frac{2^\nu\pi^{n-\nu}L}{w\sqrt{\pm\varDelta}}.}

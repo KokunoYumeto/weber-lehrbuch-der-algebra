@@ -1,0 +1,69 @@
+% !PRINTED 152
+\weberpage{152}
+
+\gesperrt{Das Verschwinden der Discriminante ist die nothwendige
+und hinreichende Bedingung daf\"ur, dass zwei der Werthe}
+$\alpha_1,\ \alpha_2 \ldots \alpha_n$ \gesperrt{einander gleich werden.}
+
+Wir k\"onnen f\"ur die Discriminante noch einen zweiten Ausdruck
+aufstellen.
+
+Es ist nach \S.\,29, (4)
+
+% [sic: dieser Formelblock ist im Druck unnummerirt; die Nummerirung springt von (3) auf (5)]
+\[
+\begin{aligned}
+f'(\alpha_1) &= a_0\,(\alpha_1 - \alpha_2)\,(\alpha_1 - \alpha_3)\ldots(\alpha_1 - \alpha_n)\\
+f'(\alpha_2) &= a_0\,(\alpha_2 - \alpha_1)\,(\alpha_2 - \alpha_3)\ldots(\alpha_2 - \alpha_n)\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot &\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+f'(\alpha_n) &= a_0\,(\alpha_n - \alpha_1)\,(\alpha_n - \alpha_2)\ldots(\alpha_n - \alpha_{n-1}),
+\end{aligned}
+\]
+
+folglich, da hier jeder Factor $(\alpha_h - \alpha_k)$ zweimal mit entgegen\-gesetzten
+Zeichen vorkommt,
+
+\weq{5}{D = (-\,1)^{\frac{n\,(n-1)}{2}}\ a_0^{n-2}\,f'(\alpha_1)\,f'(\alpha_2) \ldots f'(\alpha_n).}
+
+Um die Discriminante wirklich darzustellen, haben wir, zu\-n\"achst ein allgemeines Mittel. % [sic]
+Es war nach \S.\,22
+
+\weq{6}{(-\,1)^{\frac{n\,(n-1)}{2}}\ P = \left|\,
+\begin{array}{l}
+1,\ \alpha_1,\ \alpha_1^2 \ldots \alpha_1^{n-1}\\
+1,\ \alpha_2,\ \alpha_2^2 \ldots \alpha_2^{n-1}\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+1,\ \alpha_n,\ \alpha_n^2 \ldots \alpha_n^{n-1}
+\end{array}
+\,\right|,}
+
+und wenn wir nach \S.\,27 das Quadrat dieser Determinante durch
+Multiplication nach Verticalreihen als eine neue Determinante
+darstellen und
+
+\[
+s_m = \alpha_1^m + \alpha_2^m + \cdots \alpha_n^m
+\]
+
+setzen
+
+\weq{7}{D = a_0^{2\,n-2}\left|\,
+\begin{array}{l}
+s_0,\ \ \ s_1,\ s_2\ \ \ldots s_{n-1}\\
+s_1,\ \ \ s_2,\ s_3\ \ \ldots s_n\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+s_{n-1},\ s_n,\ s_{n+1} \ldots s_{2\,n-2}
+\end{array}
+\,\right|.}
+
+Die Gr\"ossen $s_m$ sind aber die Potenzsummen, die wir schon
+im \S.\,42 durch die Co\"efficienten ausgedr\"uckt haben; nur sind an
+Stelle der $a_1,\ a_2 \ldots a_n$ die Quotienten (2) zu setzen.
+
+So finden wir z. B. f\"ur $n = 2$
+
+\weq{8}{D = a_0^2\,(s_0\,s_2 - s_1^2) = a_1^2 - 4\,a_0\,a_2}
+
+und f\"ur $n = 3$
+
+\weq{9}{D = a_0^4\,(s_0\,s_2\,s_4 - s_0\,s_3^2 + 2\,s_1\,s_2\,s_3 - s_1^2\,s_4 - s_2^3).}

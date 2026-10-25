@@ -1,0 +1,49 @@
+% !PRINTED 215
+\weberpage{215}
+%<<CONT
+$\varrho$ passes into $\varrho^m$ if $m$ is congruent to the determinant $(a\partial - bc)$ with respect to the modulus $n$.
+
+4. \gesperrt{We wish finally to determine the number $\nu$, that is, the order of the group $\mathfrak{B}$.}
+
+$\varphi(n)$ has, as is well known, the expression (Bd.\,I, § 140)
+
+\weq{21}{\varphi(n) = n\varPi\left(1 - \frac{1}{p}\right),}
+
+where the product sign $\varPi$ extends over all the primes $p$ dividing $n$ that are distinct from one another.
+
+The number $\nu$ is equal to the number of systems of numbers $\alpha, \beta, \gamma, \delta$ incongruent with respect to $n$ which satisfy the condition
+
+\weq{22}{\alpha\delta - \beta\gamma \equiv 1 \pmod{n}}
+
+We ask first for the number of pairs $\alpha, \beta$ which have no common divisor with $n$, and denote it by $\chi(n)$.
+
+If $n = n'n''$ and $n'$ is relatively prime to $n''$, then out of every combination of a pair of numbers $\alpha', \beta'$ belonging to $n'$ with a pair of numbers $\alpha'', \beta''$ belonging to $n''$ one can derive a pair belonging to $n$,
+
+\[
+\alpha = n''\alpha' + n'\alpha'', \quad \beta = n''\beta' + n'\beta''
+\]
+
+and one obtains in this way all the pairs of numbers $\alpha, \beta$, and each only once. From this it follows:
+
+\weq{23}{\chi(n) = \chi(n')\chi(n'').}
+
+It remains therefore to determine $\chi(p^\pi)$, that is, $\chi(n)$ for a prime power $n = p^\pi$.
+
+If we first put for $\alpha, \beta$ all the numbers distinct modulo $p^\pi$, this number is $p^{2\pi}$. From these, however, all those pairs are to be omitted in which $\alpha$ \gesperrt{and} $\beta$ are divisible by $p$, whose number amounts to $p^{2\pi-2}$, so that
+
+\[
+\chi(p^\pi) = p^{2\pi} - p^{2\pi-2},
+\]
+
+and consequently, by (23), there follows in general
+
+\weq{24}{\chi(n) = n^2\varPi\left(1 - \frac{1}{p^2}\right)}
+
+where $p$ runs through the primes dividing $n$.
+
+Every pair of numbers $\alpha, \beta$ can be changed, by increase through multiples of $n$, into one whose numbers are relatively prime to one another, and then $\gamma, \delta$ can be so determined that
+
+\[
+\alpha\delta - \beta\gamma = 1
+\]
+%CONT>>

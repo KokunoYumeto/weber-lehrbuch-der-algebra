@@ -1,0 +1,48 @@
+% !PRINTED 274
+\weberpage{274}
+
+We consider first the so-called \gesperrt{spherical functions}, which are used
+in many ways in mathematical physics and mechanics.
+
+By spherical functions one understands a system of integral rational
+functions of increasing degree, which is defined as follows:
+\[
+\begin{array}{l}
+P_0(x) = 1 \\
+P_1(x) = x \\
+P_2(x) = \frac{3}{2}(x^2 - \frac{1}{3}) \\
+P_3(x) = \frac{5}{2}(x^3 - \frac{3}{5}x) \\
+\hbox{\quad\quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad .}
+\end{array}
+\]
+\[
+P_n(x) = \frac{1.3 \ldots (2n-1)}{1.2 \ldots n}
+\left(x^n - \frac{n(n-1)}{2(2n-1)}x^{n-2}
++ \frac{n(n-1)(n-2)(n-3)}{2.4(2n-1)(2n-3)}x^{n-4} - \cdots\right),
+\]
+so that $P_n(x)$ is an integral rational function of degree $n$,
+and, according as $n$ is even or odd, contains only the even or
+only the odd powers. By use of the sign $\Pi(n)$ one can also
+represent the general expression for the spherical functions thus:
+\weq{1}{P_n(x) = \sum^{\mu} \frac{(-1)^\mu}{2^n}
+\frac{\Pi(2n-2\mu)x^{n-2\mu}}{\Pi(\mu)\,\Pi(n-2\mu)\,\Pi(n-\mu)},}
+in which the sum with respect to $\mu$ is to be extended from
+$\mu = 0$ so far as $n - 2\mu$ does not become negative.
+
+Between these functions there hold the following relations, which,
+after substituting the expression (1), can be verified by simple
+comparison of the coefficients of equal powers of $x$,
+\weq{2}{\begin{aligned}
+n P_n(x) - (2n-1) x P_{n-1}(x) + (n-1) P_{n-2}(x) &= 0 \\
+P_1(x) - x P_0(x) &= 0
+\end{aligned}}
+\weq{3}{(1-x^2) P_n'(x) + n x P_n(x) - n P_{n-1}(x) = 0.}
+From the last equation it follows for $x = \pm 1$
+\[
+\pm P_n(\pm 1) = P_{n-1}(\pm 1),
+\]
+hence
+\weq{4}{P_n(1) = 1, \quad P_n(-1) = (-1)^n.}
+From (2) and (3) it now follows that the functions $P_n$, ordered
+downwards from an arbitrary $m$,
+%CONT>>

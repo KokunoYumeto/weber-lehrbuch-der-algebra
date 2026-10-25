@@ -1,0 +1,35 @@
+% !PRINTED 359
+\weberpage{359}
+
+%<<CONT
+congruent. Ein solches Zahlensystem wollen wir ein \gesperrt{volles Restsystem} für den Modul $n$ nennen. Ein solches volles Restsystem bilden z. B. bei ungeradem $n$ die Zahlen
+\[
+\varrho = \frac{-n+1}{2}, \ \frac{-n+3}{2} \cdots -1, 0, 1, 2 \cdots \frac{n-1}{2}.
+\]
+
+Die Zahlen $r$ heissen die \gesperrt{kleinsten (oder kleinsten positiven) Reste}, die Zahlen $\varrho$ die \gesperrt{absolut kleinsten Reste}.
+
+Um nun die in (1) angedeutete Division fortzusetzen, wollen wir $m, n, r$ durch $m, m_1, m_2$ bezeichnen, und dann wieder den Quotienten und den Rest der Division von $m_1$ durch $m_2$ mit $a_1, m_3$ u. s. f. Setzen wir ausserdem noch $a_0$ für $a$, so ergiebt sich eine Reihe von Gleichungen:
+\weq{3}{
+\begin{aligned}
+m &= a_0\, m_1 + m_2\\
+m_1 &= a_1\, m_2 + m_3\\
+m_2 &= a_2\, m_3 + m_4\\
+&\ \cdots\cdots\cdots\cdots\\
+m_{\nu-1} &= a_{\nu-1}\, m_\nu + m_{\nu+1},
+\end{aligned}
+}
+die sich so lange fortsetzen lässt, als keiner der Reste verschwindet, d. h. so lange, als keine der Divisionen aufgeht. Weil aber
+\[
+m_1 > m_2 > m_3 > \cdots
+\]
+ist, so muss, da es nur eine endliche Anzahl von positiven Zahlen giebt, die kleiner als $m_1$ sind, nach einer endlichen Anzahl von Theilungen die Division aufgehen. Wenn $m_\nu$ durch $m_{\nu+1}$ theilbar ist, so ist $m_{\nu+1}$ \gesperrt{der grösste gemeinschaftliche Theiler von $m$ und $m_1$}.
+
+Denn $m_{\nu+1}$ ist dann nach den Gleichungen (3) Theiler aller vorausgehenden $m_\mu$, und umgekehrt ist jeder gemeinsame Theiler zweier benachbarter $m_\mu$ auch Theiler aller folgenden, also auch von $m_{\nu+1}$.
+
+Wenn daher $m$ und $m_1$ ausser 1 keinen gemeinsamen Theiler haben (wenn sie also \gesperrt{theilerfremd} oder \gesperrt{relativ prim} sind), so muss $m_{\nu+1} = 1$ sein, und wir können die Gleichungen (3) so darstellen:
+\weq{4}{
+\frac{m}{m_1} = a_0 + \frac{m_2}{m_1}, \quad
+\frac{m_1}{m_2} = a_1 + \frac{m_3}{m_2}, \cdots
+\frac{m_{\nu-1}}{m_\nu} = a_{\nu-1} + \frac{1}{m_\nu}.
+}

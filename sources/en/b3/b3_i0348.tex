@@ -1,0 +1,56 @@
+% !PRINTED 327
+\weberpage{327}
+%<<CONT
+according to the algorithm of the greatest common divisor. For from the congruences
+\[
+\begin{aligned}
+D &\equiv D' \pmod{4n}, \\
+n &\equiv n' \pmod{D'}, \\
+D' &\equiv D'' \pmod{4n'}, \\
+n' &\equiv n'' \pmod{D''}, \\
+&\cdots\cdots\cdots\cdots
+\end{aligned}
+\]
+one can determine the sequence of numbers
+\[
+D', \quad 2n', \quad D'', \quad 2n'', \quad \dots
+\]
+in such a way that each following one is smaller in absolute value than the preceding one, so long as none of the numbers $n'$, $n''$, $n'''$, $\dots$ has become equal to $\pm 1$.
+
+If $D$ is not a square number, then a number $\beta$ can always be determined so that
+\weq{21}{(D, \beta) = -1.}
+
+For if $\varDelta$ is the fundamental discriminant associated with $D$ and $\beta$ is relatively prime to $D$, then (by 9)
+\[
+(D, \beta) = (\varDelta, \beta).
+\]
+
+If $\varDelta = \delta \varDelta'$ and $\delta$ is a prime discriminant, and therefore relatively prime to $\varDelta'$, then $\beta_0$ can be assumed in such a way that
+\[
+(\delta, \beta_0) = -1
+\]
+holds [by (10) and (11)], and $\beta$ can be determined from the two congruences
+\[
+\begin{aligned}
+\beta &\equiv \beta_0 \pmod{\delta}, \\
+&\equiv 1 \pmod{\varDelta'}
+\end{aligned}
+\]
+Then one obtains, by (12),
+\[
+(D, \beta) = (\delta, \beta_0) = -1.
+\]
+
+If one lets $s$ run through a complete system of residues with respect to the modulus $D$ and sets
+\[
+S = \overset{s}{\Sigma}(D, s), % Source scan confirms s as the upper index on Sigma.
+\]
+then multiplication by $(D, \beta)$ gives
+\[
+-S = \overset{s}{\Sigma}(D, \beta s),
+\]
+and since $\beta s$ runs through a system of residues at the same time as $s$, it follows that
+\weq{22}{S = 0.}
+
+From this it follows:
+%CONT>>

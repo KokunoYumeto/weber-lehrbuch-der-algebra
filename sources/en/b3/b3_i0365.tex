@@ -1,0 +1,41 @@
+% !PRINTED 344
+\weberpage{344}
+With the use of the symbol $(\Delta, p)$, which we introduced in §\,85, we can also give these theorems the form:
+\[
+\begin{array}{@{}l@{\enspace}l@{}}
+\text{3.} & \gesperrt{\text{If } \ensuremath{(\Delta, p) = -1} \text{, then } \ensuremath{p} \text{ is indecomposable in } \ensuremath{\Omega}\text{.}} \\
+ & \gesperrt{\text{„} \ \ensuremath{(\Delta, p) = +1} \text{, then } \ensuremath{p} \text{ splits into two different conjugate prime ideals.}} \\
+ & \gesperrt{\text{„} \ \ensuremath{(\Delta, p) = 0} \text{, then } \ensuremath{p} \text{ is the square of a prime ideal.}}
+\end{array}
+\]
+
+\begin{center}
+§ 93. \gesperrt{Representation of Numbers as Ideal Norms.}
+\end{center}
+
+A prime $p$ is the norm of an ideal only when
+$(\Delta, p) = +1$ or $= 0$, but not when $(\Delta, p) = -1$.
+In the last case it is only $p^2$ that is a norm, namely that of $p$. In
+general a positive rational integer $m$ can be represented \gesperrt{as a norm in more than one way}. We will denote the number of
+these representations for the moment by $\psi(m)$
+and determine it more closely.
+
+We first take $m$ to be a prime power $p^k$. If then
+$(\Delta, p) = +1$ and $p = \mathfrak{p}\mathfrak{p}'$, one can represent $p^k$ in the following way:
+\weq{1}{p^k = N(\mathfrak{p}^k),\ N(\mathfrak{p}^{k-1}\mathfrak{p}'),\ N(\mathfrak{p}^{k-2}\mathfrak{p}'^2),\ \ldots,\ N(\mathfrak{p}'^k),}
+and therefore
+\weq{2}{(\Delta, p) = +1:\quad \psi(p^k) = k+1.}
+But if $(\Delta, p) = -1$, then, when $k$ is even, $p^k = N(p^{1/2\,k})$,
+and when $k$ is odd, $p$ is not representable as a norm. Thus
+\weq{3}{(\Delta, p) = -1:\quad \psi(p^k) = 0 \text{ or } = 1,}
+according as $k$ is odd or even.
+
+If finally $(\Delta, p) = 0$, so that $p$ is contained in $\Delta$, then $p = \mathfrak{p}^2$
+and $p^k = N(\mathfrak{p}^k)$; hence:
+\weq{4}{(\Delta, p) = 0:\quad \psi(p^k) = 1.}
+These three cases can be combined into a single formula:
+for the number $p^k$ has the following $k+1$ divisors:
+\weq{5}{1,\ p,\ p^2,\ \ldots,\ p^k.}
+And therefore the formulae (2), (3), (4) give, when $m = p^k$,
+and $n$ runs through the divisors of $m$,
+\weq{6}{\psi(m) = \overset{n}{\Sigma}(\Delta, n).}

@@ -1,0 +1,50 @@
+% !PRINTED 438
+\weberpage{438}
+%<<CONT
+\[
+h = 2m,\ 4m,\ 6m,\ \ldots (n-1)m
+\]
+annimmt, so erhält man in (21) weder zwei gleiche, noch zwei entgegengesetzte Werthe, und es ergeben sich alle von einander verschiedenen Werthe von $x^2$.
+
+Es wird also für ein \gesperrt{ungerades} $n$
+\[
+B_n(x) = \prod\limits_{1,\,\frac{n-1}{2}}^{\nu} \left(x^2 - 4\cos^2\frac{2\nu m\pi}{n}\right). \tag{24}
+\]
+
+Setzen wir in dieser Formel
+\[
+x = 2\cos\varphi,\quad x^2 = 4(1-\sin^2\varphi),\quad \cos^2\frac{2\nu m\pi}{n} = 1 - \sin^2\frac{2\nu m\pi}{n},
+\]
+so können wir sie so darstellen:
+\[
+\frac{\sin n\varphi}{\sin\varphi} = (-1)^{\frac{n-1}{2}} 2^{n-1} \prod\limits_{1,\,\frac{n-1}{2}}^{\nu} \left(\sin^2\varphi - \sin^2\frac{2\nu m\pi}{n}\right), \tag{25}
+\]
+woraus wieder für $\varphi=0$ die Formel (20) folgt.
+
+Da $\cos n\varphi$ bei ungeradem $n$ verschwindet, wenn
+\[
+\cos\varphi = \pm \sin\frac{2\nu m\pi}{n}
+\]
+ist, so haben wir damit auch für diesen Fall die Factorenzerlegung der Function $A_n(x)$ gefunden. Es ist für \gesperrt{ungerades} $n$
+\[
+A_n(x) = x \prod\limits_{1,\,\frac{n-1}{2}}^{\nu} \left(x^2 - 4\sin^2\frac{2\nu m\pi}{n}\right). \tag{26}
+\]
+
+Die Grössen
+\[
+\alpha = \sin^2\frac{2\nu m\pi}{n} \tag{27}
+\]
+sind also die Wurzeln einer algebraischen Gleichung vom Grade $(n-1):2$
+\[
+\Phi_n(x) = 0,
+\]
+und wir erhalten die Function $\Phi_n(x)$, wenn wir an Stelle der Variablen $x^2$ in der Function $A_n(x):x$ eine neue Variable $4x$ setzen und durch $2^{n-1}$ dividiren. Es wird daher [Formel (11)]
+\[
+\Phi_n(x) = \overset{\alpha}{\Pi}(x-\alpha)
+= x^{\frac{n-1}{2}} - \frac{n}{4} x^{\frac{n-3}{2}} + \frac{n(n-3)}{1.2}\,\frac{1}{16}\, x^{\frac{n-5}{2}} - \cdots, \tag{28}
+\]
+und für (25) können wir schreiben
+\[
+\frac{\sin n\varphi}{\sin\varphi}
+= (-1)^{\frac{n-1}{2}} 2^{n-1} \overset{\alpha}{\Pi}(\sin^2\varphi - \alpha). \tag{29}
+\]

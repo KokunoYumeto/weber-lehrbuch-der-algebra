@@ -1,0 +1,43 @@
+% !PRINTED 77
+\weberpage{77}
+
+\begin{center}
+{\large \S.\ 23.}
+
+\vspace{0.5em}
+{\large\gesperrt{The Subdeterminants in the Wider Sense.}}
+\end{center}
+
+We can now generalize the considerations of the preceding paragraph in the following way.  Just as there we started from the problem of seeking out all terms in the developed determinant \(A\) which contain the factor \(a_1^{(1)}\), so now we seek all terms which contain the factor
+\[
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)},
+\]
+where \(\nu\) may be any number less than \(n\).  These terms are obtained from the principal term
+\[
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)}a_{\nu+1}^{(\nu+1)}\cdots a_n^{(n)}
+\]
+if, in permuting the lower indices, one leaves \(1,2,\ldots,\nu\) unchanged and permutes only \(\nu+1,\ldots,n\) in all possible ways, with observance of the rule of signs.  Thus the aggregate of the required terms is
+\begin{equation}
+        a_1^{(1)}a_2^{(2)}\cdots a_\nu^{(\nu)}
+        \begin{vmatrix}
+        a_{\nu+1}^{(\nu+1)}&\cdots&a_n^{(\nu+1)}\\
+        \vdots&&\vdots\\
+        a_{\nu+1}^{(n)}&\cdots&a_n^{(n)}
+        \end{vmatrix}.
+\tag{1}
+\end{equation}
+
+\gesperrt{I. The determinant of \(n-\nu\) rows which occurs here as a factor, and which we denote by}
+\[
+        A_{1,2,\ldots,\nu}^{1,2,\ldots,\nu},
+\]
+\gesperrt{arises from \(A\) by suppressing the first \(\nu\) rows and columns.}
+
+We shall now generalize this result in the following manner.  Choose any \(\nu\) elements
+\[
+        a_{\alpha_1}^{(\beta_1)},
+        a_{\alpha_2}^{(\beta_2)},\ldots,
+        a_{\alpha_\nu}^{(\beta_\nu)}
+\]
+so that no two of them occur in the same row or in the same column, that is, so that neither a lower nor an upper index is repeated.  We denote by
+%CONT>>

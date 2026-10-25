@@ -1,0 +1,56 @@
+% !PRINTED 43
+\weberpage{43}
+
+Among the various properties of the binomial coefficients we shall derive two, of which we shall afterwards make an interesting application.
+
+From (1), replacing $x,y$ by $1,x$ and taking $n=0,1,2,3\ldots$, the formulas
+\begin{equation}
+\begin{aligned}
+1&=B_0^{(0)},\\
+1+x&=B_0^{(1)}+B_1^{(1)}x,\\
+(1+x)^2&=B_0^{(2)}+B_1^{(2)}x+B_2^{(2)}x^2,\\
+&\cdots\\
+(1+x)^n&=B_0^{(n)}+B_1^{(n)}x+B_2^{(n)}x^2+\cdots+B_n^{(n)}x^n.
+\end{aligned}
+\tag{2}
+\end{equation}
+are obtained.
+
+We now use the well-known summation formula for the geometric series:
+\[
+1+(1+x)+(1+x)^2+\cdots+(1+x)^n={(1+x)^{n+1}-1\over x},
+\]
+where, if $(1+x)^{n+1}$ is again expanded by the binomial formula, replacing $n$ by $n+1$ in the last formula (2) and setting $B_0^{(n+1)}=1$,
+\begin{equation}
+{(1+x)^{n+1}-1\over x}=B_1^{(n+1)}+B_2^{(n+1)}x+\cdots+B_{n+1}^{(n+1)}x^n.
+\tag{3}
+\end{equation}
+Comparing this with the sum of the right hand sides of (2), and, according to the rules of \S~1, setting equal the coefficients of corresponding powers of $x$, one obtains
+\begin{equation}
+\begin{aligned}
+ B_0^{(0)}+B_0^{(1)}+B_0^{(2)}+\cdots+B_0^{(n)}&=B_1^{(n+1)},\\
+ B_1^{(1)}+B_1^{(2)}+\cdots+B_1^{(n)}&=B_2^{(n+1)},\\
+&\cdots\\
+ B_n^{(n)}&=B_{n+1}^{(n+1)},
+\end{aligned}
+\tag{4}
+\end{equation}
+or in general
+\begin{equation}
+ B_\nu^{(\nu)}+B_\nu^{(\nu+1)}+\cdots+B_\nu^{(n)}=B_{\nu+1}^{(n+1)}.
+\tag{5}
+\end{equation}
+If however the equations (2) are multiplied in order by
+\[
+ B_0^{(n)},
+ \quad -B_1^{(n)},
+ \quad +B_2^{(n)},
+ \ldots,
+ \quad \pm B_n^{(n)}
+\]
+where the upper sign is to be taken for even and the lower for odd $n$, the sum of the left hand sides gives
+\[
+B_0^{(n)}-B_1^{(n)}(1+x)+B_2^{(n)}(1+x)^2-\cdots\pm B_n^{(n)}(1+x)^n=[1-(1+x)]^n=(-x)^n
+\]
+and equating the coefficients of equal powers on the right and left hand sides yields the system of formulas:
+%CONT>>

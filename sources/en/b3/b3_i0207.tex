@@ -1,0 +1,57 @@
+% !PRINTED 186
+\weberpage{186}
+
+By integration of (2) one finds:
+\[
+\sigma'(u) = \left(\frac{1}{u} - \frac{a_1 u^3}{3} - \frac{a_2 u^5}{5} - \frac{a_3 u^7}{7}\cdots\right)\sigma(u),
+\]
+and from this equation it follows:
+
+% [sic] The German source prints g_3^2 in both \alpha_3 below and the u^9 term of (7); homogeneity and (5) require g_2^2.
+\weq{6}{\alpha = 0, \quad \alpha_1 = \frac{-g_2}{240}, \quad \alpha_2 = \frac{-g_3}{840}, \quad \alpha_3 = \frac{-g_3^2}{161\,280}.}
+
+% [sic] The German source prints \sigma'''(u)=0; the coefficient argument requires \sigma'''(0)=0, since \sigma''' is not identically zero.
+That $\alpha=0$ follows also from the $\sigma'''(u) = 0$ proved in \S\,35;
+there, however, this was proved by a rather cumbersome route. We thus have
+the following beginning of the development of $\sigma(u)$, where, for the
+sake of clarity, the numerical denominators are decomposed into their prime
+factors:
+
+\weq{7}{\sigma(u) = u - \frac{g_2}{2^4\cdot 3\cdot 5}u^5 - \frac{g_3}{2^3\cdot 3\cdot 5\cdot 7}u^7 - \frac{g_3^2}{2^9\cdot 3^2\cdot 5\cdot 7}u^9 - \cdots}
+
+For the recurrent calculation of the coefficients in the power series for
+$\sigma(u)$ there serves a partial differential equation which may be
+regarded as a transformation of the partial differential equation for the
+$\vartheta$-functions. We derive it in the following way.
+
+The function $\sigma(u)$ was determined by the two period equations
+\S\,35, (9)
+
+\weq{8}{
+\begin{aligned}
+&\sigma(u+\omega_1) = -e^{\eta_1(2u+\omega_1)}\sigma(u),\\
+&\sigma(u+\omega_2) = -e^{\eta_2(2u+\omega_2)}\sigma(u),\\
+&\eta_1\omega_2 - \eta_2\omega_1 = \pi i
+\end{aligned}
+}
+
+up to a factor independent of $u$. But differentiation of the last
+equation (8) yields:
+\[
+\begin{aligned}
+\frac{\partial \eta_1}{\partial \omega_1}\omega_2 - \frac{\partial \eta_2}{\partial \omega_1}\omega_1 - \eta_2 &= 0,\\
+\frac{\partial \eta_1}{\partial \omega_2}\omega_2 - \frac{\partial \eta_2}{\partial \omega_2}\omega_1 + \eta_1 &= 0,
+\end{aligned}
+\]
+hence:
+\[
+\omega_2\left(\eta_1\frac{\partial \eta_1}{\partial \omega_1} + \eta_2\frac{\partial \eta_1}{\partial \omega_2}\right) = \omega_1\left(\eta_1\frac{\partial \eta_2}{\partial \omega_1} + \eta_2\frac{\partial \eta_2}{\partial \omega_2}\right),
+\]
+and we therefore introduce a quantity $r$, which we define as follows:
+
+\weq{9}{
+\begin{aligned}
+&\eta_1\frac{\partial \eta_1}{\partial \omega_1} + \eta_2\frac{\partial \eta_1}{\partial \omega_1} = -r\omega_1, \\ % [sic] German source repeats partial omega_1; the derivation requires partial omega_2.
+&\eta_1\frac{\partial \eta_1}{\partial \omega_2} + \eta_2\frac{\partial \eta_2}{\partial \omega_2} = -r\omega_2. % [sic] German source prints partial eta_1 / partial omega_2; the derivation requires partial eta_2 / partial omega_1.
+\end{aligned}
+}

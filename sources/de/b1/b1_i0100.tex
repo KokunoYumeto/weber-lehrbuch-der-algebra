@@ -1,0 +1,64 @@
+% !PRINTED 75
+\weberpage{75}
+%<<CONT
+
+\gesperrt{sich die Determinante auf das Product dieses einen Elementes mit der entsprechenden Unterdeterminante.}
+
+Denn wenn \(a_\nu^{(1)},a_\nu^{(2)},\ldots,a_\nu^{(n)}\) mit Ausnahme von \(a_\nu^{(\mu)}\) verschwinden, so ist nach (2):
+\[
+A=a_\nu^{(\mu)}A_\nu^{(\mu)}.
+\]
+Der Werth von \(A\) ist dann von den \(a_1^{(\mu)},a_2^{(\mu)},\ldots,a_n^{(\mu)}\) (mit Ausnahme von \(a_\nu^{(\mu)}\)) ganz unabhängig.
+
+Um von diesen Sätzen eine Anwendung zu machen, wollen wir den Werth der Determinante
+\[
+\Delta=
+\begin{vmatrix}
+1&a&a^2\\
+1&b&b^2\\
+1&c&c^2
+\end{vmatrix}
+\]
+bestimmen, worin \(a,b,c\) beliebige Grössen seien. Multipliciren wir die zweite Colonne mit \(a\) und subtrahiren sie von der dritten, darauf die erste mit \(a\) und subtrahiren sie von der zweiten, so folgt nach VII:
+\[
+\Delta=
+\begin{vmatrix}
+1&0&0\\
+1&b-a&b(b-a)\\
+1&c-a&c(c-a)
+\end{vmatrix},
+\]
+und nach IX:
+\[
+\Delta=
+\begin{vmatrix}
+b-a&b(b-a)\\
+c-a&c(c-a)
+\end{vmatrix},
+\]
+und endlich nach VIII:
+\begin{equation}
+\Delta=(b-a)(c-a)
+\begin{vmatrix}
+1&b\\
+1&c
+\end{vmatrix}
+=(b-a)(c-a)(c-b).
+\tag{10}
+\end{equation}
+
+Auf die gleiche Weise kann man auch die \(n\)-reihige Determinante
+\[
+\begin{vmatrix}
+1&a_1&a_1^2&\cdots&a_1^{n-1}\\
+1&a_2&a_2^2&\cdots&a_2^{n-1}\\
+\vdots&\vdots&\vdots&&\vdots\\
+1&a_n&a_n^2&\cdots&a_n^{n-1}
+\end{vmatrix}
+\]
+behandeln und findet ihren Werth gleich
+\begin{equation}
+(a_2-a_1)(a_3-a_1)\cdots(a_n-a_1)
+(a_3-a_2)\cdots(a_n-a_2)\cdots(a_n-a_{n-1}).
+\tag{11}
+\end{equation}

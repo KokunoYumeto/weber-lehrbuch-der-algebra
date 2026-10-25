@@ -1,0 +1,55 @@
+% !PRINTED 576
+\weberpage{576}
+
+Let $\mu$ and $\nu$ be two positive integers and $x$ a
+variable. We define a rational function of $x$ by
+the equation
+
+\weq{4}{(\mu, \nu) = \frac{(1 - x^{\mu})(1 - x^{\mu - 1}) \ldots (1 - x^{\mu - \nu + 1})}{(1 - x)(1 - x^2) \ldots (1 - x^{\nu})}.}
+
+If $\nu = \mu + 1$, this function vanishes
+identically, on account of the factor $1 - x^{\mu - \nu + 1}$, and likewise when $\nu$
+becomes still greater.
+
+We set up for these functions some recursion formulae,
+which follow immediately from an inspection of formula (4):
+
+\weq{5}{(1 - x^{\mu - \nu + 1})(\mu + 1, \nu) = (1 - x^{\mu + 1})(\mu, \nu)}
+
+\weq{6}{(1 - x^{\nu + 1})\ (\mu, \nu + 1) = (1 - x^{\mu - \nu})(\mu, \nu),}
+
+and by the combination of (5) and (6), after $\mu$ has been
+replaced by $\mu + 1$ in (6),
+
+\weq{7}{(1 - x^{\nu + 1})(\mu + 1, \nu + 1) = (1 - x^{\mu + 1})(\mu, \nu).}
+
+If one subtracts (6) from (7) and divides by the non-vanishing $1 - x^{\nu + 1}$, it follows further
+
+\weq{8}{(\mu + 1, \nu + 1) = (\mu, \nu + 1) + x^{\mu - \nu}(\mu, \nu).}
+
+If we set, by way of definition, $(\mu, 0) = 1$, and $(\mu, \nu) = 0$ for
+negative $\nu$, then these formulae all hold generally for every
+integer $\nu$.
+
+From the last formula we conclude by complete
+induction that $(\mu, \nu)$ is an \gesperrt{integral function} of $x$. For
+if this property is proved for any one $\mu$, it follows for
+the next greater $\mu$ from formula (8). But, for example,
+$(1, \nu)$ is equal to 1 or equal to 0, and so the theorem is generally correct.
+
+If we put $\mu + 1$ in place of $\mu$ in (8), we can
+with its help transform formula (5) thus,
+
+\weq{9}{(1 - x^{\mu + 1})(\mu, \nu) = (\mu + 1, \nu) + (\mu + 1, \nu + 1) - (\mu + 2, \nu + 1).}
+
+We now consider an integral function
+
+\weq{10}{f(x, \mu) = 1 - (\mu, 1) + (\mu, 2) - (\mu, 3) + \cdots = \overset{\nu}{\Sigma} (-1)^{\nu} (\mu, \nu),}
+
+determined by \gesperrt{Dirichlet}, \gesperrt{Cauchy}, \gesperrt{Kronecker}. The path that
+\gesperrt{Gauss} takes, which we follow in the text, uses only algebraic
+means. \gesperrt{Kronecker} has given in Liouville's Journal Ser.\,2, Bd.\,1 a
+way of determining the sign which, with the use of a
+remark of \gesperrt{Dedekind} (Schlömilch's Ztschr. Bd.\,15, Literaturzeitung
+S.\,21), likewise becomes a purely algebraic one.
+%CONT>>

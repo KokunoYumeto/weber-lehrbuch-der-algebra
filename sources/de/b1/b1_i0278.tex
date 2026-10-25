@@ -1,0 +1,81 @@
+% !PRINTED 253
+\weberpage{253}
+%<<CONT
+
+% [corrected 2026-08-07, 10x zoom strip 1/10] Two defects here, both found by the section-series
+% check rather than by either audit lane.
+%
+% 1. A bare "\S.\,79." stood at the head of this fragment. It is not a heading -- it is the left
+%    half of the RUNNING HEAD, "§. 79. | Bezoutiante und Wurzelrealität. | 253" -- and running
+%    heads are excluded page furniture. The real §. 79 heading, with its title, is on printed 252
+%    (i0277). Transcribing furniture as content gave the volume two §. 79 headings, which is how
+%    it was caught: a heading with no title, sitting directly on body text, is the tell.
+%
+% 2. This theorem is letterspaced on the page and was set plain. It is the Satz announced by the
+%    colon that ends printed 252 -- the same page whose missing %CONT>> the colon check flagged.
+\gesperrt{Sind $x_1, x_2 \ldots x_\nu$ von einander verschiedene Wurzeln der
+Gleichung (1), so sind $y_1, y_2 \ldots y_\nu$ linear unabhängig.}
+
+Denn angenommen, es existire zwischen $y_1, y_2 \ldots y_\nu$ eine in
+Bezug auf $t$ identische lineare Relation
+\[
+\alpha_1 y_1 + \alpha_2 y_2 + \cdots + \alpha_\nu y_\nu = 0,
+\]
+deren Coëfficienten $\alpha$ von den $t$ unabhängig und nicht alle gleich
+Null sind, so würde diese in die folgenden Gleichungen zerfallen
+\[
+\begin{aligned}
+\alpha_1 f_0(x_1) + \alpha_2 f_0(x_2) + \cdots + \alpha_\nu f_0(x_\nu) &= 0, \\
+\alpha_1 f_1(x_1) + \alpha_2 f_1(x_2) + \cdots + \alpha_\nu f_1(x_\nu) &= 0, \\
+\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot & \\
+\alpha_1 f_{n-1}(x_1) + \alpha_2 f_{n-1}(x_2) + \cdots + \alpha_\nu f_{n-1}(x_\nu) &= 0.
+\end{aligned}
+\]
+Da nun $\nu \leqq n$ ist,
+so muss die Determinante der $\nu$ ersten
+von diesen Gleichungen verschwinden, also
+\[
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1) & \ldots & f_{\nu-1}(x_1) \\
+f_0(x_2), & f_1(x_2) & \ldots & f_{\nu-1}(x_2) \\
+\cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot\ \cdot & \cdot \\
+f_0(x_\nu), & f_1(x_\nu) & \ldots & f_{\nu-1}(x_\nu)
+\end{vmatrix}
+= 0,
+\]
+oder
+\[
+\begin{vmatrix}
+1, & x_1 + a_1, & x_1^2 + a_1 x_1 + a_2 \ldots \\
+1, & x_2 + a_1, & x_2^2 + a_1 x_2 + a_2 \ldots \\
+\cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+1, & x_\nu + a_1, & x_\nu^2 + a_1 x_\nu + a_2 \ldots
+\end{vmatrix}
+= 0.
+\]
+Diese Determinante lässt sich aber durch wiederholte Anwendung
+des Satzes von der Addition der Colonnen \S.\,22, (VII)
+auf die Form bringen
+\[
+\pm
+\begin{vmatrix}
+1, & x_1, & x_1^2 & \ldots & x_1^{\nu-1} \\
+1, & x_2, & x_2^2 & \ldots & x_2^{\nu-1} \\
+\cdot & \cdot & \cdot & \cdot\ \cdot\ \cdot\ \cdot & \cdot \\
+1, & x_\nu, & x_\nu^2 & \ldots & x_\nu^{\nu-1}
+\end{vmatrix}
+=
+\begin{aligned}
+&(x_1 - x_2)(x_1 - x_3) \ldots (x_1 - x_\nu) \\
+&\hphantom{(x_1 - x_2)}(x_2 - x_3) \ldots (x_2 - x_\nu) \\
+&\hphantom{(x_1 - x_2)(x_2 - x_3)}\cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+&\hphantom{(x_1 - x_2)(x_2 - x_3)\cdot\cdot}(x_{\nu-1} - x_\nu),
+\end{aligned}
+\]
+und kann also nicht verschwinden, wenn, wie vorausgesetzt war,
+die $x_1, x_2 \ldots x_\nu$ verschieden sind.
+
+Wenn wir daher in der Summe (4) alle unter einander gleichen
+Glieder zusammenfassen, \gesperrt{so bleiben so viele Quadrate
+linear unabhängiger Functionen übrig, als die Gleichung (1)
+verschiedene Wurzeln hat.}

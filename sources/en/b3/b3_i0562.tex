@@ -1,0 +1,37 @@
+% !PRINTED 531
+\weberpage{531}
+
+%<<CONT
+carried out, and with regard to the value $2i\sqrt m$ of $A(\omega_1+\omega_2)$ it gives:
+\[
+\varphi_\pm(\nu) = \frac{A}{2\pi\sqrt m\,y}\,e^{2\pi i y\nu\omega},
+\]
+in which $\omega=\omega_1$ or $=\omega_2$ is to be set, according as the upper or the lower sign is taken in $\varphi_\pm(\nu)$. By carrying out the summation with respect to $y$ there follows from this:
+\[
+\sum_{1,\infty}^{\nu}\sum_{1,\infty}^{y}\varphi_\pm(\nu) = -\frac{A}{2\pi\sqrt m}\sum_{1,\infty}^{\nu}\log\left(1-e^{2\pi i\nu\omega}\right),
+\]
+and the sum with respect to $\nu$ can be reduced to the function $\eta(\omega)$, since by \S\,24, (8):
+\[
+\eta(\omega) = e^{\frac{\pi i \omega}{12}}\prod_{1,\infty}^{\nu}\left(1-e^{2\pi i\nu\omega}\right)
+\]
+holds. Accordingly there results, always for $s=1$,
+\[
+\sum_{1,\infty}^{\nu}\sum_{1,\infty}^{y}\varphi_\pm(\nu) = -\frac{A}{2\pi\sqrt m}\left(\log\eta(\omega) - \frac{\pi i \omega}{12}\right).
+\]
+
+If we introduce this result into (19), after having set $s=1$ there, we obtain the limiting value of $Q_s$:
+\weq{26}{Q = -\frac{2\pi}{\sqrt m}\log\eta(\omega_1)\eta(\omega_2) - \frac{\pi^2}{3A}.}
+
+Accordingly we obtain from (4), (25), (26) the following limit formula, the derivation of which was the aim of this discussion:
+\weq{27}{\begin{aligned}
+\mathop{\mathrm{Lim}}\limits_{s=1}\sum^{x,y}\frac{1}{(Ax^2+2Bxy+Cy^2)^s} - \frac{\pi}{(s-1)\sqrt m}\\
+= -\frac{2\pi\Gamma'(1)}{\sqrt m} + \frac{\pi}{\sqrt m}\log\frac{A}{4m} - \frac{2\pi}{\sqrt m}\log\eta(\omega_1)\eta(\omega_2).
+\end{aligned}}
+
+From (27) there follows, in agreement with \S\,140, (5):
+\[
+\mathrm{Lim}\,(s-1)\sum^{x,y}\frac{1}{\psi^s} = \frac{\pi}{\sqrt m},
+\]
+hence depending only on $m$, not on the particular form $\psi$. If we now understand $A, 2B, C$ to be integers and let $\psi$ run through a complete system of representatives of the classes of forms belonging to the discriminant $-4m$, then it follows
+\weq{28}{\mathop{\mathrm{Lim}}\limits_{s=1}(s-1)\sum^{\psi}\sum^{x,y}\frac{1}{\psi^s} = \frac{\pi h}{\sqrt m},}
+where $h$ is the class number belonging to the discriminant $-4m$.

@@ -1,0 +1,46 @@
+% !PRINTED 170
+\weberpage{170}
+
+Es ist aber
+\[
+F(\tfrac12,\tfrac12,1\pm\varepsilon,x) = \frac{\Pi(\pm\varepsilon)}{[\Pi(-\tfrac12)]^2} \sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu\pm\varepsilon)\Pi(\nu)} x^\nu,
+\]
+und man kann unter Hinzufügung eines konstanten Faktors als
+zweites partikulares Integral auch folgendes annehmen:
+\[
+\frac{1}{2\varepsilon}\cdot\sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu)}\Bigl[\frac{-1}{\Pi(\nu+\varepsilon)} + \Bigl(\frac{x}{1-x}\Bigr)^{-\varepsilon}\frac{1}{\Pi(\nu-\varepsilon)}\Bigr]x^\nu.
+\]
+Entwickelt man hier nach Potenzen von $\varepsilon$ und setzt dann
+$\varepsilon=0$, so folgt:
+\[
+\sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu)^2} x^\nu \Bigl[\frac{\Pi'(\nu)}{\Pi(\nu)} - \frac12 \log\frac{x}{1-x}\Bigr],
+\]
+wofür man mit Benutzung der \gesperrt{Gaussschen} Formel
+\[
+\frac{\Pi(\nu-\tfrac12)\Pi(\nu)}{\Pi(2\nu)} = \sqrt{\pi}\,2^{-2\nu}
+\]
+mit Abwerfung eines konstanten Faktors auch setzen kann:
+\weq{12}{\sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu \Bigl[\frac{\Pi'(\nu)}{\Pi(\nu)} - \frac12 \log\frac{x}{1-x}\Bigr].}
+Es ist aber für ein ganzzahliges positives $\nu$:
+\[
+\frac{\Pi'(\nu)}{\Pi(\nu)} = \Pi'(0) + 1 + \frac12 + \frac13 + \cdots + \frac1\nu,
+\]
+und wenn wir also zur Abkürzung setzen:
+% [sic] In the second line the source omits the plus sign between \cdots and 1/\nu.
+\weq{13}{\begin{aligned}
+F(x) &= \sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu, \\
+G(x) &= 2\sum_{\nu=1}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(1+\frac12+\frac13+\cdots\frac1\nu\Bigr)\Bigl(\frac{x}{16}\Bigr)^\nu,
+\end{aligned}}
+so ergeben sich die beiden partikularen Lösungen der Differentialgleichung
+ (8), wenn man für das zweite eine lineare Kombination
+von (10) und (12) nimmt:
+\weq{14}{y_1 = F(x), \qquad y_2 = \frac12 G(x) - \frac12 \log\frac{x}{16(1-x)}F(x).}
+Um nun aber die partikularen Integrale $K$ und $K'$ durch
+diese Funktionen darzustellen, müssen wir das Verhalten von $K,K'$
+für $q=0$ untersuchen, wofür zugleich $\varkappa^2=0$ wird.
+
+Es ist aber für $q=0$ nach \S\,25 und \S\,42:
+\[
+q^{-1}\varkappa^2 = 16, \qquad 2K = \pi,
+\]
+%CONT>>

@@ -1,0 +1,42 @@
+% !PRINTED 664
+\weberpage{664}
+It is then
+\weq{11}{S_n = \sum^{t} t' E\left(\frac{t n}{m}\right) \equiv \sum^{t_1} t_1' \sum^{t_2} E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right)\ (\mathrm{mod}\ q).}
+
+We now assume $n < q$, and hence also $n t_1 < m$, so that
+$n t_1 : m$ is a proper fraction. Then
+\[
+\begin{aligned}
+\text{a)} \quad E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right)
+  &\quad \text{is either}\quad = E\left(\frac{n t_2}{m'}\right) \\
+\text{b)} \quad
+  &\quad \text{or}\quad = E\left(\frac{n t_2}{m'}\right) + 1,
+\end{aligned}
+\]
+and case b) occurs only when between
+\[
+\frac{n t_2}{m'}\ \text{and}\ \frac{n t_2}{m'} + \frac{n t_1}{m}
+\]
+there lies an integer. But this is the case only when
+the difference between $n t_2 : m'$ and the next greater
+integer is smaller than $n t_1 : m$, that is, when
+\weq{12}{E\left(\frac{n t_2}{m'}\right) + 1 - \frac{n t_2}{m'} < \frac{n t_1}{m}.}
+
+If in the expression on the left-hand side of (12)
+\weq{13}{E\left(\frac{n t_2}{m'}\right) + 1 - \frac{n t_2}{m'}}
+we let $t_2$ run through all its values, we obtain nothing but positive
+rational fractions, not exceeding unity, with the
+denominator $m'$, no two of which are equal to one another. For if
+two of the values that arise from (13) by substitution of
+$t_2', t_2''$ for $t_2$ were equal to one another, then $\dfrac{n(t_2' - t_2'')}{m'}$ would have to be an
+integer, which, since $n$ is relatively prime to $m'$ and $t_2' - t_2''$ is smaller
+than $m'$, cannot be. The expressions (13) therefore run through,
+in some order, the numerical values
+\weq{14}{\frac{1}{m'}, \frac{2}{m'}, \dots, \frac{m'-1}{m'}, 1,}
+and if $a$ denotes an arbitrary positive fraction, then
+$E(m' a)$ is the number of the numbers of the sequence (14) that are not greater
+than $a$. By (12) the number of values of $t_2$ for
+which case b) occurs is therefore equal to $E\left(\dfrac{n t_1}{q}\right)$, and there results
+\[
+\sum^{t_2} E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right) = \sum^{t_2} E\left(\frac{n t_2}{m}\right) + E\left(\frac{n t_1}{q}\right). % [source sic: the first denominator on the right is printed m, not the mathematically required m']
+\]

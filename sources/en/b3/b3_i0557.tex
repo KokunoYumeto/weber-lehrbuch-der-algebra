@@ -1,0 +1,39 @@
+% !PRINTED 526
+\weberpage{526}
+In what follows it shall be shown, by direct transformation of the sum $S$,
+that
+\[ S - \frac{\pi}{(s-1)\sqrt{m}} \]
+has a finite limiting value for $s=1$, and this limiting value
+shall be determined.
+
+\begin{center}
+\S\ 141.\quad \gesperrt{The Kronecker limit formula.}
+\end{center}
+
+We arrange the terms of the series
+\[ S = \Sigma^{x,y}\frac{1}{\psi(x,y)^s} \]
+first in such a way that we separate off the terms corresponding to the
+vanishing $y$, and take together, two at a time, those of the remaining ones
+which correspond to opposite values of $x$ and $y$.
+
+Thus we obtain:
+\weq{1}{S = M_s + N_s,}
+if for brevity
+\weq{2}{M_s = 2\Sigma_{1,\infty}^{y}\Sigma_{-\infty,\infty}^{x}\frac{1}{(Ax^2+2Bxy+Cy^2)^s},}
+\weq{3}{N_s = 2\Sigma_{1,\infty}^{x}\frac{1}{(Ax^2)^s}}
+is set. The value $N$, which $N_s$ takes for $s=1$, can be determined
+directly, since the series remains unconditionally convergent for $s=1$,
+and it gives:
+\weq{4}{N = \frac{2}{A}\Sigma_{1,\infty}^{x}\frac{1}{x^2} = \frac{\pi^2}{3A}.}
+
+In order to ascertain the behaviour of $M_s$ for $s=1$, we decompose
+the function $\psi(x,y) = Ax^2 + 2Bxy + Cy^2$ into two conjugate
+imaginary linear factors:
+\[ Ax^2 + 2Bxy + Cy^2 = A(x+\omega_1y)(x-\omega_2y), \]
+if
+\weq{5}{\omega_1 = \frac{B+i\sqrt{m}}{A}, \quad \omega_2 = \frac{-B+i\sqrt{m}}{A}}
+are so defined that $\sqrt{m}$ is positive.
+
+By this means
+\weq{6}{M = \frac{2}{A^s}\Sigma_{1,\infty}^{y}\Sigma_{-\infty,\infty}^{x}\frac{1}{(x+\omega_1y)^s(x-\omega_2y)^s}.}
+% SOURCE-ORIGINAL-SIC: Equation (6) prints bare M although it rewrites the M_s defined in (2); the subscript s is mathematically expected but the source reading is preserved.

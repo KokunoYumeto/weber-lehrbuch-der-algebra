@@ -1,0 +1,35 @@
+% !PRINTED 362
+\weberpage{362}
+%<<CONT
+so that $x_1, x_2 \ldots x_n$ are positive improper fractions, and $a_1, a_2 \ldots a_{n-1}$ are positive integers.
+
+By the notation of the preceding section, $x$ is thus equal to the continued fraction
+\[
+(a_0, a_1, a_2 \ldots a_{n-1}, x_n).
+\]
+
+But if $x$ is irrational, this continued-fraction development can be \gesperrt{continued without limit}; that is, we may take $n$ as large as we please. Each such development arises from the preceding one by setting
+\[
+x_n = a_n + \frac{1}{x_{n+1}}
+\]
+Here too we call the integers $a_0, a_1, a_2 \ldots a_{n-1}$ the \gesperrt{partial denominators}, and $x_n$ the \gesperrt{closing number}.
+
+The continued-fraction development of the rational numbers is contained in this as a special case. The continued fraction can (by Theorem I.) be continued by at most one term when the closing number is an integer.
+
+\begin{center}
+\S.\ 117.
+
+The Convergents.
+\end{center}
+
+If we convert a continued fraction
+\weq{1}{x = (a_0, a_1, a_2 \ldots a_{n-1}, x_n),}
+in which we may regard $x_n$ as a variable quantity, into an ordinary fraction, we obtain in the numerator and in the denominator a linear expression in $x_n$. Thus we have
+\weq{2}{x = \frac{P_n x_n + P_{n-1}}{Q_n x_n + Q_{n-1}},}
+in which $P_n$, $Q_n$, $P_{n-1}$, $Q_{n-1}$ are integral rational functions of $a_0, a_1, a_2 \ldots a_{n-1}$. That this is correct follows for the first values $n = 1, 2 \ldots$ by direct calculation:
+\[
+\begin{aligned}
+x &= a_0 + \frac{1}{x_1} = \frac{a_0 x_1 + 1}{x_1}\\
+&= a_0 + \cfrac{1}{a_1 + \cfrac{1}{x_2}} = \frac{(a_0 a_1 + 1)x_2 + a_0}{a_1 x_2 + 1}.
+\end{aligned}
+\]

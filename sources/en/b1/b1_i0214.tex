@@ -1,0 +1,51 @@
+% !PRINTED 189
+\weberpage{189}
+
+The constant factor $\Pi(\nu)\Pi(n-\nu):\Pi(n)$ is added so that,
+when the form $F(x)$ is written with the polynomial coefficients,
+the functions $P_\nu$ receive the simplest possible coefficients.
+
+For the binary form $f(x,y)$, to which we shall chiefly apply
+these definitions in what follows, the following expressions
+result for the polars:
+\[
+P_1(x,\xi) = \frac{1}{n}\left[\xi f'(x) + \eta f'(y)\right]
+\]
+\[
+P_2(x,\xi) = \frac{1}{n(n-1)}\left\{\xi^2 f''(x,x) + 2\,\xi\,\eta\, f''(x,y) + \eta^2 f''(y,y)\right\},
+\]
+and in general
+\[
+n(n-1)\ldots(n-\nu+1)\,P_\nu(x,\xi) =
+\]
+\[
+\xi^\nu\frac{\partial^\nu f}{\partial x^\nu} + \nu\,\xi^{\nu-1}\eta\,\frac{\partial^\nu f}{\partial x^{\nu-1}\partial y} + \cdots + \eta^\nu\frac{\partial^\nu f}{\partial y^\nu}.
+\]
+
+\begin{center}
+\S.\,61.
+
+\gesperrt{Linear Transformation of Binary Forms.}
+\end{center}
+
+An integral rational function of degree $n$ in $x$
+\weq{1}{f(x) = a_0x^n + a_1x^{n-1} + a_2x^{n-2} + \cdots + a_{n-1}x + a_n}
+is turned into a binary form by replacing $x$ with $x:y$
+and multiplying by $y^n$:
+\weq{2}{f(x,y) = a_0x^n + a_1x^{n-1}y + a_2x^{n-2}y^2 + \cdots + a_ny^n.}
+
+If one knows the roots of $f(x)$, one can decompose $f(x)$
+into $n$ linear factors:
+\weq{3}{f(x) = a_0(x-\alpha_1)(x-\alpha_2)\ldots(x-\alpha_n),}
+and from this it follows that
+\weq{4}{f(x,y) = a_0(x-\alpha_1y)(x-\alpha_2y)\ldots(x-\alpha_ny).}
+
+But if one also replaces $\alpha_1, \alpha_2\ldots\alpha_n$ by
+ratios $\alpha_1:\beta_1, \alpha_2:\beta_2, \ldots \alpha_n:\beta_n$, then
+one obtains
+\weq{5}{f(x,y) = A(x\beta_1 - y\alpha_1)(x\beta_2 - y\alpha_2)\ldots(x\beta_n - y\alpha_n),}
+if
+\[
+a_0 = A\beta_1\beta_2\ldots\beta_n
+\]
+is set.

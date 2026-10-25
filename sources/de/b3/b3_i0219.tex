@@ -1,0 +1,43 @@
+% !PRINTED 198
+\weberpage{198}
+
+%<<CONT
+ist, wodurch zugleich das nach (5) noch unbestimmte Vorzeichen bestimmt
+ist. Bei dieser Bestimmung der Vorzeichen ist das Anfangsglied in der
+Entwickelung von $\psi_n(u)$ nach steigenden Potenzen von $u$ in beiden
+Fällen (§ 56):
+\weq{7}{\frac{n}{u^{n^2-1}}.}
+
+Erwägt man nun, daß die Unendlichkeitspunkte der Funktion (1) mit den
+Nullpunkten von $\psi_n(u)$ zusammenfallen und die Nullpunkte von (1) mit
+den Nullpunkten von $\psi_{n\pm1}(u)$, daß also
+\weq{8}{\frac{\psi_n(u)^2\left[\wp(nu) - \wp(u)\right]}{\psi_{n+1}(u)\,\psi_{n-1}(u)}}
+eine überall endliche doppelt periodische Funktion und daher eine
+Konstante ist, deren Wert sich aus $u=0$ gleich $-1$ ergibt, so folgt:
+\weq{9}{\wp(nu) = \wp(u) - \frac{\psi_{n+1}(u)\,\psi_{n-1}(u)}{\psi_n(u)^2},}
+woraus sich die beiden folgenden Formeln ergeben:
+\weq{10}{
+\begin{array}{ll}
+\wp(nu) = \wp(u) - \dfrac{P_{n+1}\,P_{n-1}}{\wp'(u)^2\,P_n^2}, & n\text{ gerade,}\\[3mm]
+\phantom{\wp(nu)}{}= \wp(u) - \dfrac{\wp'(u)^2\,P_{n+1}\,P_{n-1}}{P_n^2}, & n\text{ ungerade.}
+\end{array}}
+
+Wir bestimmen zunächst die Funktion $P_n$ in den ersten Fällen $n=1, 2, 3,
+4$. Dazu bilden wir nach dem Additionstheorem der $\wp$-Funktion
+[§ 49, (11)]:
+\[
+4\big[\wp(u) + \wp(v) + \wp(u+v)\big] = \left(\frac{\wp'(u)-\wp'(v)}{\wp(u)-\wp(v)}\right)^2,
+\]
+indem wir $u=v$ setzen und den Grenzwert rechts durch Differentiation
+bestimmen:
+\[
+\wp(2u) + 2\wp(u) = \frac14\left(\frac{\wp''(u)}{\wp'(u)}\right)^2
+= \frac{\frac14\left(6\wp(u)^2 - \frac12 g_2\right)^2}{4\wp(u)^3 - g_2\wp(u) - g_3},
+\]
+oder
+\weq{11}{\wp(2u) = \wp(u) - \frac{3\wp(u)^4 - \frac32 g_2\wp(u)^2 - 3g_3\wp(u) - \frac{g_2^2}{16}}{\wp'(u)^2},}
+so daß
+\[
+\psi_1 = 1,\quad \psi_2 = -\wp'(u),\quad \psi_3 = P_3,
+\]
+%CONT>>

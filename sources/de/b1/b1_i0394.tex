@@ -1,0 +1,45 @@
+% !PRINTED 369
+\weberpage{369}
+
+\begin{center}
+§. 119.
+
+\gesperrt{Convergenz der Näherungsbrüche.}
+\end{center}
+
+Wir nehmen jetzt an, dass die Reihe der Zahlen $a_1, a_2, a_3 \ldots$
+eine unbegrenzte sei, und bilden die Differenz zweier auf einander
+folgender Näherungsbrüche:
+\weq{1}{\frac{P_n}{Q_n} - \frac{P_{n-1}}{Q_{n-1}} = \frac{(-1)^n}{Q_n Q_{n-1}}.}
+
+Diese Differenz hat also bei geradem $n$ das positive, bei
+ungeradem $n$ das negative Zeichen und nimmt, dem absoluten
+Werthe nach, mit unendlich wachsendem $n$ unbegrenzt ab. Bilden
+wir noch aus (1):
+\weq{2}{\begin{aligned}
+\frac{P_n}{Q_n} - \frac{P_{n-2}}{Q_{n-2}} &= \frac{(-1)^n}{Q_n Q_{n-1}} + \frac{(-1)^{n+1}}{Q_{n-1} Q_{n-2}} \\
+&= \frac{(-1)^n}{Q_{n-1}}\left(\frac{1}{Q_n} - \frac{1}{Q_{n-2}}\right),
+\end{aligned}}
+
+so folgt, da $Q_{n-2} < Q_n$ ist, dass diese Differenz bei geradem $n$
+negativ, bei ungeradem $n$ positiv ist.
+
+Hieraus folgt, dass die Reihe der Näherungsbrüche mit geradem
+Index
+\weq{3}{\frac{P_2}{Q_2}, \quad \frac{P_4}{Q_4}, \quad \frac{P_6}{Q_6} \ldots}
+
+\gesperrt{eine abnehmende}, die Reihe der Näherungsbrüche mit ungeradem
+Index
+\weq{4}{\frac{P_1}{Q_1}, \quad \frac{P_3}{Q_3}, \quad \frac{P_5}{Q_5} \ldots}
+
+\gesperrt{eine zunehmende ist}.
+
+Nun ist nach \S.\,117
+\[
+x = \frac{P_n x_n + P_{n-1}}{Q_n x_n + Q_{n-1}},
+\]
+also
+\weq{5}{\frac{P_n}{Q_n} - x = \frac{(-1)^n}{Q_n(Q_n x_n + Q_{n-1})},}
+
+und da $Q_n, Q_{n-1}, x_n$ positiv sind, so sind alle Zahlen der Reihe
+(3) grösser als $x$, alle Zahlen der Reihe (4) kleiner als $x$.

@@ -1,0 +1,55 @@
+% !PRINTED 27
+\weberpage{27}
+%<<CONT
+and from this, by (12) and (14), there is to be deduced:
+\[
+\begin{aligned}
+\Phi' &= M\Phi + N\Psi,\\
+\Psi' &= P\Phi + Q\Psi,
+\end{aligned}
+\]
+in which the coefficients $M$, $N$, $P$, $Q$ are still to be determined.
+We can carry this out by calculation. Without calculation the result
+is obtained in the following way:
+
+The $M$, $N$ are integral functions of the second degree in $p$, $q$ and
+of the third degree in $m$, $n$. If one takes $p:q = m:n$, and so
+$r = mq - np = 0$, then by (18) $\Phi'$ and $\dfrac{\partial \Phi'}{\partial p}$
+pass over into linear combinations of $\varphi$ and $\psi$, and
+therefore vanish. From this it follows that $M$ and $N$ are divisible
+by $r^2$, and that the quotients are linear functions of $m$ and $n$. But
+since for the two cases $\begin{pmatrix} m & n\\ p & q \end{pmatrix} = \begin{pmatrix} 1 & 0\\ 0 & 1 \end{pmatrix},\ \begin{pmatrix} 0 & 1\\ 1 & 0 \end{pmatrix}$
+$\Phi'$ must pass over into $\Phi$ and into $\Psi$, and since the same
+consideration can be applied to $\Psi'$, it follows:
+\weq{19}{\begin{aligned}\Phi' &= r^2(m\Phi+n\Psi),\\ \Psi' &= r^2(p\Phi+q\Psi).\end{aligned}}
+Thus (apart from the factor $r^2$) the functions
+$\Phi$, $\Psi$ are transformed \gesperrt{cogrediently} with the $\varphi$, $\psi$.
+(On the rigorous justification of these inferences see Bd. I, §\,20.)
+
+From these results we can, in a simple way and always under the
+assumption $\varphi = 0$, $\psi = 0$, express the $y_i^2$ by means of $\Phi$ and
+$\Psi$, that is, solve the linear equations (12), (14).
+For if we apply the formulae (19) to the substitution
+\[
+\begin{pmatrix} m, & n\\ p, & q \end{pmatrix} = \begin{pmatrix} \beta_1, & -\alpha_1\\ 0, & 1 \end{pmatrix}
+\]
+then $r = \beta_1$, the function $\psi'$ remains
+unchanged $= \psi$, and $\varphi'$ arises from $\varphi$ when
+\[
+\alpha_1,\quad \alpha_2,\quad \alpha_3,\quad \alpha_4
+\]
+are replaced by
+\[
+0,\quad (\alpha_2\beta_1),\quad (\alpha_3\beta_1),\quad (\alpha_4\beta_1)
+\]
+Thus by (14)
+\[
+\Phi' = \beta_1^2(\alpha_2\beta_1)(\alpha_3\beta_1)(\alpha_4\beta_1)\,y_1^2
+\]
+and consequently by (19):
+\weq{20}{\begin{aligned}
+(\alpha_2\beta_1)(\alpha_3\beta_1)(\alpha_4\beta_1)\,y_1^2 &= \alpha_1\Phi - \beta_1\Psi,\\
+(\alpha_1\beta_2)(\alpha_3\beta_2)(\alpha_4\beta_2)\,y_2^2 &= \alpha_2\Phi - \beta_2\Psi,\\
+(\alpha_1\beta_3)(\alpha_2\beta_3)(\alpha_4\beta_3)\,y_3^2 &= \alpha_3\Phi - \beta_3\Psi,\\
+(\alpha_1\beta_4)(\alpha_2\beta_4)(\alpha_3\beta_4)\,y_4^2 &= \alpha_4\Phi - \beta_4\Psi.
+\end{aligned}}

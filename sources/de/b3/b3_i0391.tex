@@ -1,0 +1,40 @@
+% !PRINTED 370
+\weberpage{370}
+Bezeichnen wir die Klassen in $O$, zu denen $\lambda$, $\mu$, $\nu$ gehören, mit $A$, $B$, $C$ und bezeichnen ebenso die Klassen der quadratischen Formen $U$, $V$, $T$, so heißt auch $C$ aus $A$ und $B$ \gesperrt{komponiert}, und man setzt symbolisch
+\weq{8}{C = AB.}
+\gesperrt{Diese Komposition der Klassen} ist eindeutig bestimmt, wenn irgend drei Repräsentanten $U$, $V$, $T$ derselben gegeben sind, und es genügt also, wenn wir $U$, $V$ in ihren Klassen irgendwie passend wählen.
+
+In jeder Idealklasse gibt es Ideale, die zu einem beliebigen Ideal relativ prim sind. Wir nehmen also zunächst $\mathfrak{a}$ in $A$ primär, sonst beliebig, dann $\mathfrak{b}$ gleichfalls primär und relativ prim, nicht nur zu $\mathfrak{a}$, sondern zu $a_1$. Dann sind $a_1$ und $a_2$ relativ prim (denn der größte gemeinschaftliche Teiler $d$ von $a_1$ und $a_2$ wäre relativ prim zu $\mathfrak{b}$, und folglich wäre $a_2 : d$ durch $\mathfrak{b}$ teilbar). Daraus folgt aber $d=1$, weil $a_2$ die kleinste durch $\mathfrak{b}$ teilbare natürliche Zahl sein sollte.
+
+Hat man $a_1$, $a_2$ so bestimmt, so kann man $b$ den beiden Kongruenzen
+\[
+\begin{aligned}
+b &\equiv b_1 \pmod{2 a_1}, \\
+&\equiv b_2 \pmod{2 a_2}
+\end{aligned}
+\]
+gemäß bestimmen, und dann ist
+\[
+b^2 - D = 4\,a_1 a_2 c
+\]
+durch $4 a_1 a_2$ teilbar. Wir setzen also
+\weq{9}{
+\begin{aligned}
+U &= (a_1,\ b,\ a_2 c), \\
+V &= (a_2,\ b,\ a_1 c).
+\end{aligned}
+}
+Es ist $a_1 a_2$ die kleinste durch $\mathfrak{a}\mathfrak{b}$ teilbare ganze rationale Zahl, und $\mathfrak{a}\mathfrak{b}$ ist der größte gemeinschaftliche Teiler von
+\[
+a_1 a_2, \quad \frac{b-\sqrt D}{2};
+\]
+folglich ist
+\weq{10}{T = (a_1 a_2,\ b,\ c)}
+die aus $U$ und $V$ komponierte Form, und die den quadratischen Formen $T$, $U$, $V$ entsprechenden Linearformen $\lambda$, $\mu$, $\nu$ sind:
+\[
+\begin{aligned}
+\lambda &= a_1 a_2\,t_1 + \frac{b-\sqrt D}{2}\,t_2, \\
+\mu &= a_1\,u_1 + \frac{b-\sqrt D}{2}\,u_2, \\
+\nu &= a_2\,v_1 + \frac{b-\sqrt D}{2}\,v_2.
+\end{aligned}
+\]

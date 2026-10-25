@@ -1,0 +1,49 @@
+% !PRINTED 329
+\weberpage{329}
+
+Lassen wir aber nun $x$ sich der Wurzel $\alpha$ annähern, so
+wird $X$ sich derselben Wurzel nähern, und (20) zeigt, dass auch
+$\xi$ derselben Grenze zustrebt. Es folgt also, dass, wenn $x$ hinlänglich
+nahe an einer Wurzel liegt, diese nächste Wurzel in
+dem Intervall $(\xi, X)$ liegt, in dem keine zweite Wurzel enthalten
+ist, und dass dies Intervall sich mehr und mehr um $\alpha$ schliesst.
+
+Wir nehmen als Beispiel (mit \gesperrt{Laguerre}) die Kugelfunctionen,
+von denen wir schon früher (\S.\,87) nachgewiesen haben,
+dass sie nur reelle Wurzeln haben, die alle zwischen $-1$ und
+$+1$ liegen. Die Function
+\[
+P_n(x) = \frac{1\,.\,3 \ldots (2\,n-1)}{1\,.\,2 \ldots n} \left( x^n - \frac{n(n-1)}{2(2\,n-1)}\,x^{n-2} + \cdots \right)
+\]
+hat die Eigenschaft, dass
+\[
+P_n(1) = 1, \qquad P_n'(1) = \frac{n(n+1)}{2},
+\]
+\[
+P_n''(1) = \frac{n(n-1)(n+1)(n+2)}{8}
+\]
+ist. Man beweist dies leicht durch vollständige Induction, indem
+man in den ersten Fällen $n = 2, 3 \ldots$ die Formeln direct
+nachweist, und dann aus der Recursionsformel
+\[
+(1 - x^2)\,P_n'(x) + n\,x\,P_n(x) - n\,P_{n-1}(x) = 0
+\]
+durch zweimalige Ableitung die Richtigkeit für den Index $n$ nachweist,
+falls sie für den Index $n-1$ vorausgesetzt wird.
+
+Wenn wir dann in (19) und (20) $x = 1$ setzen, so erhalten
+wir zwei Grenzen, zwischen denen die der 1 am nächsten kommende
+Wurzel liegt, nämlich
+\[
+X = 1 - \frac{2}{n + 1 + (n-1)\sqrt{\dfrac{n(n+1)}{2}}},
+\]
+\[
+\xi = 1 - \frac{2}{n + 1 + \sqrt{\dfrac{n(n+1)}{2}}}.
+\]
+Für $n = 7$ z. B. ergiebt sich
+\[
+X = 0{,}94967 \ldots
+\]
+\[
+\xi = 0{,}84952 \ldots
+\]

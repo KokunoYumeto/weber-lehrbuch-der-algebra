@@ -1,0 +1,54 @@
+% !PRINTED 474
+\weberpage{474}
+
+%<<CONT
+\[
+\pi_a = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ a_0, & a_1 & \ldots & a_{m-1} \end{pmatrix}, \quad
+\pi_b = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ b_0, & b_1 & \ldots & b_{m-1} \end{pmatrix}
+\]
+are any two permutations, then by (6) we can also write the second
+thus:
+\[
+\pi_b = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ b_{a_0}, & b_{a_1} & \ldots & b_{a_{m-1}} \end{pmatrix},
+\]
+and if we therefore carry out both one after the other, first $\pi_a$,
+then $\pi_b$, there arises a third permutation, which we call composed
+(componirt) from $\pi_a$ and $\pi_b$, and which we represent as the
+symbolic product of $\pi_a$ and $\pi_b$:
+
+\weq{7}{\pi_a \pi_b = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ b_{a_0}, & b_{a_1} & \ldots & b_{a_{m-1}} \end{pmatrix}.}
+
+In this composition the factors usually cannot be interchanged,
+since $\pi_a \pi_b$ does not in general agree with
+$\pi_b \pi_a$. The following symbolic equation expresses the associative
+principle.
+
+\weq{8}{(\pi_a \pi_b)\pi_c = \pi_a(\pi_b \pi_c) = \pi_a \pi_b \pi_c}
+
+One convinces oneself of this by the following simple
+consideration.
+
+If an index $p$ is changed by $\pi_a$ into $q$, the resulting index is changed
+by $\pi_b$ into $r$, and $r$ by $\pi_c$ into $s$, then $p$ passes by
+$\pi_a \pi_b$ into $r$, and $q$ by $\pi_b \pi_c$ into $s$; hence
+$p$ is changed into $s$ both by $(\pi_a \pi_b)\pi_c$ and by
+$\pi_a(\pi_b \pi_c)$. But formula (8) says nothing else.
+
+To every permutation $\pi_a$ there is a definite
+\gesperrt{opposite} (inverse) permutation, which consists in this,
+that the change produced by $\pi_a$ is undone again, and which
+therefore, composed with $\pi_a$, produces the identical
+permutation. We denote this permutation by
+$\pi_a^{-1}$, and we have, if $\pi_a$ has the expression (5),
+
+\weq{9}{\pi_a^{-1} = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ 0, & 1 & \ldots & m-1 \end{pmatrix}.}
+
+For by the rule of composition in (7) we have
+\[
+\pi_a \pi_a^{-1} = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ 0, & 1 & \ldots & m-1 \end{pmatrix}.
+\]
+But in the same way we also have
+\[
+\pi_a^{-1}\pi_a = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ a_0, & a_1 & \ldots & a_{m-1} \end{pmatrix},
+\]
+%CONT>>

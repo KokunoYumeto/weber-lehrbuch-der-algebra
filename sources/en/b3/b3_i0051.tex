@@ -1,0 +1,42 @@
+% !PRINTED 30
+\weberpage{30}
+\begin{center}
+\S\,8. \textbf{\gesperrt{The Jacobi Transformation Principle.}}
+\end{center}
+
+The \gesperrt{Jacobi} theory of transformation sets itself in general the task of
+reducing an elliptic differential, by an algebraic substitution, to
+another elliptic differential. In setting out here the foundations of
+this theory, we make use of the representation of the elliptic
+differential in homogeneous variables [\S\,1, (4)]:
+\weq{1}{\frac{x\,dy - y\,dx}{\sqrt{f(x,y)}}\,,}
+and substitute in it, for $x,y$, two coprime integral homogeneous
+functions of the same, but arbitrary, degree $n$ in two new variables
+$\xi,\eta$:
+\weq{2}{x = U(\xi,\eta), \qquad y = V(\xi,\eta).}
+From the equations
+\[
+\begin{aligned}
+nU &= \xi\,\frac{\partial U}{\partial \xi} + \eta\,\frac{\partial U}{\partial \eta}, &
+dU &= d\xi\,\frac{\partial U}{\partial \xi} + d\eta\,\frac{\partial U}{\partial \eta},\\
+nV &= \xi\,\frac{\partial V}{\partial \xi} + \eta\,\frac{\partial V}{\partial \eta}, &
+dV &= d\xi\,\frac{\partial V}{\partial \xi} + d\xi\,\frac{\partial V}{\partial \eta} % [sic] second differential printed d\xi; the total differential requires d\eta
+\end{aligned}
+\]
+there then follows
+\weq{3}{U\,dV - V\,dU = H(\xi\,d\eta - \eta\,d\xi),}
+if by $H$ the functional determinant
+\weq{4}{H = \frac{1}{n}\left(\frac{\partial U}{\partial \xi}\frac{\partial V}{\partial \eta} - \frac{\partial V}{\partial \xi}\frac{\partial U}{\partial \eta}\right)}
+is meant.
+
+Accordingly the elliptic differential (1) passes over into the following:
+\weq{5}{H\,\frac{\xi\,d\eta - \eta\,d\xi}{\sqrt{f(U,V)}}\,.}
+Now in order that this differential should again receive the form of an
+elliptic one, it is necessary that from the function $f(U,V)$, whose
+degree is the $4n$th, a square factor $T^2$ of degree $4n-4$ can be
+separated off; that is, if $\varphi(\xi,\eta)$ denotes a function of the
+fourth degree, that
+\weq{6}{f(U,V) = T^2\,\varphi(\xi,\eta)}
+should hold, whereby, if
+\weq{7}{\frac{T}{H} = M}
+%CONT>>

@@ -1,0 +1,35 @@
+% !PRINTED 752
+\weberpage{752}
+
+%<<CONT
+have gradually been so completely removed that the proof can now be carried out by wholly elementary means and in the simplest way.
+
+If, as already before, we denote by $\Pi(n)$ the product
+\[
+\Pi(n) = 1.2.3\dots n
+\]
+then, if $x$ is an arbitrary quantity,
+\weq{1}{\frac{x^n}{\Pi(n)}}
+will approach the limit zero as $n$ increases indefinitely, and indeed more strongly than the terms of a decreasing geometric series.
+
+For if $k$ is an integer greater than the absolute value of $x$, then the absolute value of $x : h$ is a proper fraction whenever $h$ is equal to or greater than $k$. Consequently
+\[
+\left|\frac{x^n}{\Pi(n)}\right| = \left|\frac{x^k}{\Pi(k)}\, \frac{x}{k+1}\, \frac{x}{k+2} \cdots \frac{x}{n}\right| < \left|\frac{x^k}{\Pi(k)}\right| \left|\frac{x}{k}\right|^{n-k}.
+\]
+% [sic] -- the strict inequality tacitly assumes $n>k$ and $x\ne0$; $x=0$ is the trivial equality and convergence case.
+From this it follows that the infinite series
+\weq{2}{e^x = 1 + x + \frac{x^2}{\Pi(2)} + \frac{x^3}{\Pi(3)} + \cdots}
+converges for all values of $x$, and by it we define the exponential function $e^x$, whose simplest properties we here assume from analysis. In particular, for any two values $x, y$ the relation
+\[
+e^{x+y} = e^x e^y,
+\]
+holds, from which it then follows that, for a positive integer $n$, $e^n$ is the $n$th power of the number
+\weq{3}{e = 2 + \frac{1}{\Pi(2)} + \frac{1}{\Pi(3)} + \frac{1}{\Pi(4)} + \cdots = 2{,}718281828459\cdots\,.}
+
+If now $r$ denotes any positive integer, we can represent formula (2) in the following way:
+\weq{4}{\Pi(r)\, e^x = \Pi(r) + \frac{\Pi(r)}{\Pi(1)} x + \frac{\Pi(r)}{\Pi(2)} x^2 + \cdots + x^r + x^r\, U_r,}
+
+\noindent\rule{4cm}{0.4pt}
+
+Zahl\grqq{}. Sitzungsbericht der Berliner Akademie, 3. December 1885. The papers by \gesperrt{Hilbert}, \gesperrt{Hurwitz} and \gesperrt{Gordan} are all three to be found in volume 43 of Mathematische Annalen (1893), the first two also in the G\"ottinger Nachrichten of 1893.
+%CONT>>

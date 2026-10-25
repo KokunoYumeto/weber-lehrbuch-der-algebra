@@ -1,0 +1,59 @@
+% !PRINTED 259
+\weberpage{259}
+%<<CONT
+
+\weq{4}{\begin{array}{cccc}
+\omega, & u, & u_1, & u_2, \\
+-\dfrac{1}{\omega}, & u, & u_2, & u_1, \\
+\omega+1, & e^{-\frac{\pi i}{24}}u_1, & e^{-\frac{\pi i}{24}}u, & e^{\frac{\pi i}{12}}u_2, \\
+\omega+2, & e^{-\frac{\pi i}{12}}u, & e^{-\frac{\pi i}{12}}u_1, & e^{\frac{\pi i}{6}}u_2, \\
+\hline
+\omega, & v, & v_1, & v_2, \\
+-\dfrac{1}{\omega}, & \varrho v, & \varrho v_2, & \varrho v_1, \\
+\omega+1, & \sigma e^{-\frac{n\pi i}{24}}v_1, & \sigma e^{-\frac{n\pi i}{24}}v, & \sigma e^{\frac{n\pi i}{12}}v_2, \\
+\omega+2, & \sigma^2 e^{-\frac{n\pi i}{12}}v, & \sigma^2 e^{-\frac{n\pi i}{12}}v_1, & \sigma^2 e^{\frac{n\pi i}{6}}v_2,
+\end{array}}
+
+where
+
+\[
+\varrho = e^{-\frac{2\pi i}{3}\left[\alpha(\gamma-\beta)+(\alpha^2-1)\beta^3\delta\right]}, \qquad \sigma = \left(\frac{2}{a}\right) e^{\frac{(n-\lambda)\pi i}{24}} % Source confirms \beta^3\delta.
+\]
+
+are two third roots of unity, which, if $n$ is not divisible by 3,
+have the value 1.
+
+In order to determine further the effect of the substitution (2),
+which arises from the transformation of the second degree
+
+\[
+\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix}
+\]
+
+upon the functions $u$, $v$, we must determine the transformations
+of the first and $n$th order
+
+\[
+\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}, \quad \begin{pmatrix} a', & 0 \\ c', & \partial' \end{pmatrix}
+\]
+
+in such a way that
+
+\weq{5}{\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix} = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}\begin{pmatrix} 1, & 1 \\ -1, & 1 \end{pmatrix}\begin{pmatrix} a', & 0 \\ c', & \partial' \end{pmatrix}}
+
+holds. This approach leads to the equations
+
+\weq{6}{\begin{aligned}
+a &= a'(\alpha-\beta)+c'(\alpha+\beta), & a &= \partial'(\alpha+\beta), \\
+c-\partial &= a'(\gamma-\delta)+c'(\gamma+\delta), & c+\partial &= \partial'(\gamma+\delta).
+\end{aligned}}
+
+With this, since $\alpha+\beta$ and $\gamma+\delta$ are relatively prime in
+consequence of $\alpha\delta-\beta\gamma = 1$, $\partial'$ is first determined as the
+greatest common divisor of $a$ and $c+\partial$, and $a'$ results from
+$n = a'\partial'$. Then, by equations (6):
+
+\[
+\alpha+\beta = \frac{a}{\partial'}, \qquad \gamma+\delta = \frac{c+\partial}{\beta'}, % [sic] German source prints \beta'; equations (6) imply \partial'.
+\]
+%CONT>>

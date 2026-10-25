@@ -1,0 +1,50 @@
+% !PRINTED 352
+\weberpage{352}
+
+\begin{center}
+\S.\ 113.
+
+\gesperrt{Die Gauss'sche Methode der Auflösung trinomischer}
+
+\gesperrt{Gleichungen.}
+\end{center}
+
+\gesperrt{Gauss} hat eine Methode angegeben, um die Wurzeln einer Gleichung, die nur drei Glieder enthält, in einfacher Weise numerisch aufzulösen. Solche Gleichungen kommen häufig vor und umfassen als Specialfälle alle quadratischen und die reducirten cubischen Gleichungen. Es wird zunächst von einer solchen Gleichung, deren allgemeine Form
+
+\weq{1}{x^{m+n} + a x^m + b = 0}
+
+ist, nur die positive Wurzel, wenn sie existirt, gesucht. Die etwaige negative ergiebt sich, wenn man $x$ durch $-x$ ersetzt.
+
+Nach den Vorzeichen von $a$, $b$ hat man drei Fälle zu unterscheiden, da, wenn beide Vorzeichen positiv sind, keine positive Wurzel vorhanden ist. Wir betrachten also, indem wir mit $e$ und $g$ positive Zahlen bezeichnen, die drei Fälle:
+
+\[
+\begin{aligned}
+&\text{a)}\quad x^{m+n} + e x^m - g = 0,\\
+&\text{b)}\quad x^{m+n} - e x^m - g = 0,\\
+&\text{c)}\quad x^{m+n} - e x^m + g = 0.
+\end{aligned}
+\]
+
+In den beiden ersten Fällen haben wir nach dem \gesperrt{Cartesischen} Lehrsatz je eine positive Wurzel, im dritten können zwei oder keine positive Wurzel vorhanden sein.
+
+Wir setzen nun mit \gesperrt{Gauss}
+
+\[
+\lambda = \frac{g^n}{e^{m+n}},
+\]
+
+und suchen die drei Gleichungen a), b), c) durch passende Substitutionen auf die Form:
+
+\[
+\sin^2\Theta + \cos^2\Theta = 1
+\]
+
+zurückzuführen. Wir setzen:
+
+\weq{2}{
+\begin{aligned}
+&\text{a)}\quad \frac{x^{m+n}}{g} = \sin\Theta^2, \quad \frac{e x^m}{g} = \cos\Theta^2, \quad \lambda = \frac{\sin\Theta^{2m}}{\cos\Theta^{2m+2n}},\\
+&\text{b)}\quad g x^{-m-n} = \sin\Theta^2, \quad e x^{-n} = \cos\Theta^2, \quad \lambda = \frac{\sin\Theta^{2n}}{\cos\Theta^{2m+2n}},\\
+&\text{c)}\quad \frac{x^n}{e} = \sin\Theta^2, \quad \frac{g x^{-m}}{e} = \cos\Theta^2, \quad \lambda = \sin\Theta^{2m}\cos\Theta^{2n}.
+\end{aligned}
+}

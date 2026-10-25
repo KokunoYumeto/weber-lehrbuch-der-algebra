@@ -1,0 +1,38 @@
+% !PRINTED 710
+\weberpage{710}
+%<<CONT
+elementary theorems of the integral calculus, \gesperrt{if $\alpha$ denotes any angle
+between 0 and $2\pi$,}
+\[
+\int_0^1 \frac{dx}{x-e^{i\alpha}} = \tfrac{1}{2}\log\left(4\sin^2\frac{\alpha}{2}\right) + i\,\frac{\pi-\alpha}{2}.
+\]
+From this there results, by (4):
+\weq{5}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s)\left[\tfrac{1}{2}\log 4\left(\sin\frac{s\pi}{m}\right)^2 - \frac{i\pi(m-2s)}{2m}\right].}
+In this, by (2),
+\weq{6}{f(r^s) = \overset{t}{\Sigma}\chi(t)\,r^{ts},}
+and from this there results [because of (3)]:
+\weq{7}{\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s) = \underset{0,\,m-1}{\overset{s}{\Sigma}} f(r^s) = 0,}
+since
+\[
+\underset{0,\,m-1}{\overset{s}{\Sigma}} r^{st} = 0
+\]
+holds. Accordingly formula (5) simplifies somewhat further and gives
+\weq{8}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s)\left[\tfrac{1}{2}\log\left(\sin\frac{s\pi}{m}\right)^2 + \frac{i\pi s}{m}\right],}
+for which one may also, if one replaces $s$ by $m-s$ and again uses (7), put
+\weq{9}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^{-s})\left[\tfrac{1}{2}\log\left(\sin\frac{s\pi}{m}\right)^2 - \frac{i\pi s}{m}\right]}
+in its place.
+
+But from (6) it follows that
+\[
+f(r^{-s}) = \overset{t}{\Sigma}\chi(t)\,r^{-ts},
+\]
+and the sum taken over $t$ does not change when $t$ is replaced by $m-t$.
+From this it follows:
+\[
+f(r^{-s}) = \chi(-1)\,f(r^s).
+\]
+The factor $\chi(-1)$ has the value $+1$ or $-1$, since its square $=+1$.
+We therefore now distinguish two kinds of characters $\chi_1(n)$,
+$\chi_2(n)$, so that
+\weq{10}{\chi_1(-1) = 1,\quad \chi_2(-1) = -1}
+%CONT>>

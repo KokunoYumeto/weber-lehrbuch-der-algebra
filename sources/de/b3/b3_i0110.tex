@@ -1,0 +1,45 @@
+% !PRINTED 89
+\weberpage{89}
+%<<CONT
+wählen. Dies ist eine eindeutige Funktion $F(z)$ der Variablen
+\[
+z = e^{2\pi iv},
+\]
+und wenn wie früher $q = e^{\pi i\omega}$ ist, so hat sie die Periodeneigenschaft:
+\weq{2}{F(q^2z) = e^{-2\pi ia}F(z),}
+woraus für jedes ganzzahlige $\nu$ folgt:
+\[
+F(q^{2\nu}z) = e^{-2\pi ia\nu}F(z).
+\]
+Die Funktion $F(z)$ wird für ein endliches $z$ nur dann unendlich,
+wenn einer der Faktoren $q^{2\nu}z - 1$ verschwindet, und es
+ist insbesondere
+\weq{3}{(z-1)F(z) = 1 \quad (\text{für } z = 1).}
+Nach (2) ist aber
+\[
+(q^{2\nu}z - 1)F(q^{2\nu}z) = e^{-2\pi ia\nu}F(z)(q^{2\nu}z - 1)
+\]
+und folglich ist nach (3)
+\weq{4}{F(z)(q^{2\nu}z - 1) = e^{2\pi ia\nu} \quad (\text{für } z = q^{-2\nu}).}
+Setzen wir unter der gleich noch näher zu prüfenden Voraussetzung
+ der Konvergenz
+\weq{5}{S(z) = \sum_{-\infty,\infty}^{\nu} \frac{e^{2\pi ia\nu}}{q^{2\nu}z - 1},}
+so ergibt sich, indem wir $z$ durch $q^2z$ und $\nu$ durch $\nu - 1$ ersetzen:
+\weq{6}{S(q^2z) = e^{-2\pi ia}S(z),}
+und die Differenz $F(z) - S(z)$ wäre also, als Funktion von $v$
+betrachtet, nach (3) und (4) eine ganze doppeltperiodische Funktion
+ zweiter Art. Eine solche muß aber nach § 16, 6. eine Exponentialfunktion
+ sein, und es ist also
+\[
+F(z) = S(z) + Ce^{-2\pi imv},
+\]
+worin $m$ eine ganze Zahl und $C$ eine Konstante ist. Aus (2) und
+(6) aber ergibt sich, wenn nicht $C = 0$ ist:
+\[
+e^{-2\pi im\omega} = e^{-2\pi ia};
+\]
+also $a = m\omega + n$, worin $m, n$ ganze Zahlen sind. Ist aber $a$
+eine Periode, so reduziert sich $F(z)$ auf eine Konstante oder eine
+Exponentialfunktion. Anderenfalls muß $C = 0$ sein, und es folgt
+die Entwickelung:
+\weq{7}{\frac{\vartheta'_{11}\vartheta_{11}(v+a)}{2i\pi\vartheta_{11}(v)\vartheta_{11}(a)} = \sum_{-\infty,+\infty}^{\nu} \frac{e^{2\pi i\nu a}}{q^{2\nu}e^{2\pi iv} - 1}.}

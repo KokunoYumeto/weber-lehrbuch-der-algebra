@@ -1,0 +1,50 @@
+% !PRINTED 435
+\weberpage{435}
+Um nun $\omega$ zu bestimmen, bedienen wir uns der Relation
+\[
+\omega \chi = \chi^2 \omega,
+\]
+und erhalten, wenn
+\[
+\omega = \begin{pmatrix} \alpha_1, & \alpha_2, & \alpha_3 \\ \beta_1, & \beta_2, & \beta_3 \\ \gamma_1, & \gamma_2, & \gamma_3 \end{pmatrix}
+\]
+gesetzt wird,
+\[
+\begin{pmatrix} \alpha_2, & \alpha_3, & \alpha_1 \\ \beta_2, & \beta_3, & \beta_1 \\ \gamma_2, & \gamma_3, & \gamma_1 \end{pmatrix}
+=
+\begin{pmatrix} \beta_1, & \beta_2, & \beta_3 \\ \gamma_1, & \gamma_2, & \gamma_3 \\ \alpha_1, & \alpha_2, & \alpha_3 \end{pmatrix},
+\]
+also
+\[
+\begin{aligned}
+\alpha_1 &= \beta_3 = \gamma_2 = \alpha, \\
+\alpha_2 &= \beta_1 = \gamma_3 = \beta, \\
+\alpha_3 &= \beta_2 = \gamma_1 = \gamma,
+\end{aligned}
+\]
+und $\omega$ erhält also die Form
+\weq{5}{\omega = \begin{pmatrix} \alpha, & \beta, & \gamma \\ \beta, & \gamma, & \alpha \\ \gamma, & \alpha, & \beta \end{pmatrix}.}
+
+Drücken wir die Bedingung aus, dass $\omega$ vom 2\textsuperscript{ten} Grade
+sein soll, so ergeben sich die Relationen
+\weq{6}{\begin{aligned} \alpha^2 + \beta^2 + \gamma^2 &= 1 \\ \beta\gamma + \gamma\alpha + \alpha\beta &= 0. \end{aligned}}
+
+Aus (6) ergiebt sich $(\alpha + \beta + \gamma)^2 = 1$, und wenn man die
+Determinante von $\omega$ gleich 1 setzt, so folgt mit Benutzung von (6)
+$(\alpha + \beta + \gamma)^3 = -1$, folglich
+\weq{7}{\alpha + \beta + \gamma = -1.}
+
+Aus (6) und (7) folgern wir noch die Relationen:
+\weq{8}{\alpha = \beta\gamma - \alpha^2, \quad \beta = \gamma\alpha - \beta^2, \quad \gamma = \alpha\beta - \gamma^2}
+\weq{9}{\alpha^3 + \beta^3 + \gamma^3 - 3\alpha\beta\gamma = -1,}
+von denen die letztere, die man aus
+\[
+(\alpha + \beta + \gamma)^3 - 3(\beta\gamma + \gamma\alpha + \alpha\beta)(\alpha + \beta + \gamma) = -1
+\]
+erhält, den negativen Werth der Determinante von $\omega$ darstellt.
+
+Endlich bilden wir noch nach den Relationen [\S.\,72, (15)]
+\[
+\Theta = \chi \tau^3 \omega \tau^4, \quad \Theta^3 = \chi \tau^6 \omega \tau^2 \text{:}
+\]
+\weq{10}{\Theta = \begin{pmatrix} \gamma \varepsilon^2, & \alpha \varepsilon^6, & \beta \\ \alpha, & \beta \varepsilon^4, & \gamma \varepsilon^5 \\ \beta \varepsilon^3, & \gamma, & \alpha \varepsilon \end{pmatrix}, \quad \Theta^{-1} = \begin{pmatrix} \gamma \varepsilon^5, & \alpha, & \beta \varepsilon^4 \\ \alpha \varepsilon, & \beta \varepsilon^3, & \gamma \\ \beta, & \gamma \varepsilon^2, & \alpha \varepsilon^6 \end{pmatrix}.}

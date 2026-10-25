@@ -1,0 +1,41 @@
+% !PRINTED 560
+\weberpage{560}
+
+%<<CONT
+\[
+\begin{aligned}
+\frac{\Gamma(2s)}{[-2\pi i(x+\omega y)]^{2s}} &= \int_0^\infty e^{2\pi i(x+y\omega)\xi}\xi^{2s-1}\,d\xi,\\
+&= \int_0^1 e^{2\pi i x\xi}\sum_{0,\infty}^n e^{2\pi i y\omega(\xi+n)}(\xi+n)^{2s-1}\,d\xi.
+\end{aligned}
+\]
+Summiert man nun nach $x$ und wendet die \gesperrt{Fourier}sche Reihe an:
+\[
+\sum^x \int_0^1 e^{2\pi i x\xi} f(\xi)\,d\xi = \tfrac{1}{2}[f(0)+f(1)],
+\]
+so folgt:
+\[
+\frac{\Gamma(2s)}{(-2\pi i)^{2s}} \sum_{-\infty,\infty}^x \frac{1}{(x+\omega y)^{2s}} = \sum_{1,\infty}^n e^{2\pi i y\omega n}\,n^{2s-1},
+\]
+und durch Summation nach $y$:
+\[
+\begin{aligned}
+\frac{\Gamma(2s)}{(-2\pi i)^{2s}} \sum_{1,\infty}^y \sum_{-\infty,\infty}^x \frac{1}{(x+\omega y)^{2s}} &= \sum_{1,\infty}^n \frac{e^{2\pi i\omega n}}{1-e^{2\pi i\omega n}}\,n^{2s-1}\\
+&= -\frac{1}{2\pi \imath}\sum_{1,\infty}^n \frac{d\log(1-e^{2\pi i\omega n})}{d\omega}\,n^{2s-2}.
+\end{aligned}
+\]
+Hiernach bekommen wir durch den Grenzübergang mit Rücksicht auf die Definition der Funktion $\eta(\omega)$ [§ 24, (8)]:
+\[
+\mathop{\mathrm{Lim}}\limits_{s=1}\sum_{1,\infty}^y \sum^x \frac{1}{(x+\omega y)^{2s}} = -2\pi i\,\frac{d\log\eta(\omega)}{d\omega} - \frac{\pi^2}{6}.
+\]
+Ferner ist
+\[
+\mathrm{Lim}\sum \frac{1}{x^{2s}} = \frac{\pi^2}{6},
+\]
+und demnach folgt (1) und (2):
+\weq{3}{\mathop{\mathrm{Lim}}\limits_{s=1}\sum^{x,y} \frac{1}{(x+\omega y)^{2s}} = -4\pi i\,\frac{d\log\eta(\omega)}{d\omega}}
+[zu summieren, wie zu (1) angegeben]. Wollte man hier unter dem Summenzeichen zur Grenze übergehen, so würde man erhalten:
+\weq{4}{-4\pi i\,\frac{d\log\eta(\omega)}{d\omega} = \sum^{x,y} \frac{1}{(x+\omega y)^2},}
+dann aber würde man eine nur bedingt konvergente Summe haben, und es müßte eine genaue Art des Grenzüberganges festgestellt werden. Man müßte in der $xy$-Ebene eine geschlossene Kurve annehmen, innerhalb deren die Punkte $x, y$ liegen, und dann diese Kurve ins Unendliche hinausrücken lassen. Der Wert der Summe wird von der Beschaffenheit dieser Kurve abhängen. Vielleicht ergibt sich dafür die Ellipse $|x+\omega y| = n$. An sich hat die Formel (4) keinen Sinn.
+
+\begin{center}\rule{3cm}{0.4pt}\end{center}
+% [sic] Gedruckt steht 'und demnach folgt(1) und(2)' ohne 'aus'; die deutsche Lesart bleibt, das englische 'from' verdeutlicht den Zusammenhang.

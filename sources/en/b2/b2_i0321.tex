@@ -1,0 +1,23 @@
+% !PRINTED 300
+\weberpage{300}
+%<<CONT
+that these congruences are independent of one another. Here we can consider each of the functions $\varphi$ by itself. If we therefore set
+\weq{2}{z' \equiv \varphi(z_1, z_2, \ldots, z_k) \quad (\mathrm{mod}\ p),}
+then, if we know for each combination of the $z_i$ the corresponding value of $z'$, we have $p^k$ linear congruences for the determination of the coefficients of $\varphi$. It is to be proved that these congruences are always solvable, where we may assume that this possibility has already been established for functions of fewer variables.
+
+If we now order $\varphi$ according to powers of the variable $z_1$, we obtain
+\weq{3}{z' \equiv \chi_0 z_1^{p-1} + \chi_1 z_1^{p-2} + \cdots + \chi_{p-1} \quad (\mathrm{mod}\ p),}
+in which the coefficients $\chi_0, \chi_1, \ldots, \chi_{p-1}$ are functions of the same kind as $\varphi$, except that they depend on one variable fewer.
+
+If we hold fixed any one of the combinations of the $z_2, \ldots, z_k$, and set $z_1 = 0, 1, \ldots, p - 1$, we obtain from (3) a system of $p$ linear congruences whose determinant is not divisible by $p$, and from it we can, as in \S.\,180 of the first volume, determine the values of $\chi_0, \chi_1, \ldots, \chi_{p-1}$ for this combination of the $z_2, \ldots, z_k$; and hence for every combination of the variables the values of the function $\chi_i$ (with respect to the modulus $p$) are known. By hypothesis, however, we can determine from these the coefficients of the functions $\chi_i$, which indeed depend on only $k - 1$ variables, and with this the lemma is proved.
+
+Accordingly we can represent every permutation of the roots $[z_1, \ldots, z_k]$ thus:
+\weq{4}{\begin{pmatrix} z_1, & z_2, & \ldots \\ \varphi_1(z_1, z_2, \ldots), & \varphi_2(z_1, z_2, \ldots), & \ldots \end{pmatrix},}
+or in a still more abbreviated notation:
+\weq{5}{\begin{pmatrix} z \\ \varphi(z) \end{pmatrix}.}
+
+In the symbol (4) we can, without changing its meaning, replace $z_1, z_2, \ldots$ by any other combination $z_1', z_2', \ldots$, and if therefore, by the lemma,
+\[
+z_i' = \psi_i(z_1, z_2, \ldots)
+\]
+%CONT>>

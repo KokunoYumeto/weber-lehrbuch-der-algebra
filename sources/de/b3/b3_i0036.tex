@@ -1,0 +1,54 @@
+% !PRINTED 15
+\weberpage{15}
+
+Die in Algebra I, \S\ 70 eingeführten Größen $y_1$, $y_2$, $y_3$ sind also gleich $e_1{:}\mu$, $e_2{:}\mu$, $e_3{:}\mu$, und man erhält nach der dortigen Formel (11) für die $e_1$, $e_2$, $e_3$ die kubische Gleichung:
+\[
+z^3 - 3A\mu^2 z + \mu^3 B = 0.
+\]
+Es wird also, wenn $\varphi(z) = z^3 - g_2 z - g_3$, % [sic] factor 4 is absent in print; the next display requires 4z^3
+\[
+\varphi(z) = 4(z-e_1)(z-e_2)(z-e_3) = 4z^3 - g_2 z - g_3
+\]
+sein soll,
+\weq{6}{g_2 = 12\mu^2 A, \qquad g_3 = -4\mu^3 B.}
+Hierin sind
+\weq{7}{
+\begin{aligned}
+A &= a_2^2 - 3a_1a_3 + 12a_0a_4\\
+B &= 27a_1^2a_4 + 27a_0a_3^2 + 2a_2^3 - 72a_0a_2a_4 - 9a_1a_2a_3
+\end{aligned}
+}
+die erste und zweite Invariante der biquadratischen Form $f(x)$.
+
+Die logarithmische Differentiation der beiden ersten Gleichungen (4) ergibt
+\[
+\frac{dz^2}{(z-e_1)(z-e_2)} = \frac{dx^2(x_1x_2)(x_1x_3)}{(xx_1)^2(xx_2)(xx_3)},
+\]
+und mit Hilfe der letzten Gleichung (4) nach (5):
+\weq{8}{\frac{dz}{\sqrt{4z^3-g_2z-g_3}} = \frac{dx}{\sqrt{12\mu f(x)}}.}
+
+Wollen wir diese Resultate auf den Fall anwenden, wo $f(x)$ die Normalform
+\[
+f(x) = x(1-x)(1-\varkappa^2x) = x - x^2(1+\varkappa^2) + \varkappa^2x^3
+\]
+hat, und der Punkt $z=\infty$ dem Punkte $x=0$ entspricht, so lassen wir $a_0$ in Null, $x_4$ in Unendlich übergehen, aber das Produkt $a_0x_4$ in einen endlichen Wert, den wir $=1$ annehmen können.
+
+Es wird dann
+\[
+\begin{gathered}
+a_0x_4 = 1, \qquad a_0 = 0, \qquad a_1 = \varkappa^2,\\
+a_2 = -(1+\varkappa^2), \qquad a_3 = 1, \qquad a_4 = 0
+\end{gathered}
+\]
+und folglich
+\[
+\begin{aligned}
+A &= (1+\varkappa^2)^2 - 3\varkappa^2 = 1 - \varkappa^2 - \varkappa^4 = 1 - \varkappa^2\varkappa'^2 % [sic] second minus is printed; algebra requires plus
+\\
+B &= -(1+\varkappa^2)[2(1+\varkappa^2)^2 - 9\varkappa^2]\\
+&= -(1+\varkappa^2)(2-\varkappa^2)(1-2\varkappa^2)\\
+&= (1+\varkappa^2)(1+\varkappa'^2)(\varkappa^2-\varkappa'^2)\\
+&= (2+\varkappa^2\varkappa'^2)(\varkappa^2-\varkappa'^2),
+\end{aligned}
+\]
+wenn $\varkappa'^2 = 1 - \varkappa^2$ gesetzt ist.

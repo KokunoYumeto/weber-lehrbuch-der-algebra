@@ -1,0 +1,40 @@
+% !PRINTED 631
+\weberpage{631}
+%<<CONT
+\weq{21}{\begin{aligned}
+S(0) &= 0, \\
+S(1) &= n, \\
+S(x\xi) &= x\,S(\zeta), \\
+S(\zeta + \zeta') &= S(\zeta) + S(\zeta').
+% [sic] printed S(x xi) = x S(zeta) and S(zeta + zeta') = S(zeta) + S(zeta'), one function written with two letters: xi on the left of the third line, zeta in the other five places
+\end{aligned}}
+
+Alle Spuren sind rationale Funktionen von $z$.
+
+\S\,173. \gesperrt{Diskriminanten.}
+
+Ist $(\eta_1, \eta_2, \dots, \eta_n) = (\eta_i)$ ein System von $n$ Funktionen im Körper $\Omega$, so sind die $n^2$ Spuren $S(\eta_i \eta_k)$ rationale Funktionen von $z$. Wir definieren als \gesperrt{Diskriminante des Systems} $(\eta_i)$ die Determinante
+\weq{1}{\Delta(\eta_1, \eta_2, \dots, \eta_n) =
+\begin{vmatrix}
+S(\eta_1\eta_1), & S(\eta_1\eta_2), & \dots, & S(\eta_1\eta_n) \\
+S(\eta_2\eta_1), & S(\eta_2\eta_2), & \dots, & S(\eta_2\eta_n) \\
+\cdots & \cdots & \cdots & \cdots \\
+S(\eta_n\eta_1), & S(\eta_n\eta_2), & \dots, & S(\eta_n\eta_n)
+\end{vmatrix},}
+wofür wir auch kürzer $\Delta(\eta_i)$ schreiben.
+
+Wir beweisen den Satz:
+
+7. \gesperrt{Die Diskriminante $\Delta(\eta_i)$ ist dann und nur dann von Null verschieden, wenn $(\eta_i)$ eine Basis des Körpers $\Omega$ ist.}
+
+Nehmen wir, um ihn zu beweisen, zunächst an, daß $\Delta(\eta_i) = 0$ sei. Dann kann man nach einem elementaren Determinantensatz die rationalen Funktionen $y_1, y_2, \dots, y_n$, ohne daß sie alle Null sind, so bestimmen, daß
+\weq{2}{y_1 S(\eta_1\eta_k) + y_2 S(\eta_2\eta_k) + \cdots + y_n S(\eta_n\eta_k) = S[\eta_k(y_1\eta_1 + y_2\eta_2 + \cdots + y_n\eta_n)] = 0 \qquad (k = 1, 2, \dots, n)}
+ist. Bedeutet $x_1, x_2, \dots, x_n$ ein beliebiges System rationaler Funktionen, und setzt man
+\weq{3}{\begin{aligned}
+y_1\eta_1 + y_2\eta_2 + \cdots + y_n\eta_n &= \eta, \\
+x_1\eta_1 + x_2\eta_2 + \cdots + x_n\eta_n &= \xi,
+\end{aligned}}
+so folgt aus (2) durch Multiplikation mit $x_k$ und Summation:
+\weq{4}{S(\xi\eta) = 0.}
+
+Ist nun $(\eta_i)$ eine Basis, so kann $\xi$ jede beliebige Funktion in $\Omega$, also auch $1/\eta$ sein, und dann gibt die Formel (4) das widersprechende Resultat $S(1) = 0$; also kann die Diskriminante einer Basis $(\eta_i)$ nicht verschwinden.

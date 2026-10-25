@@ -1,0 +1,36 @@
+% !PRINTED 109
+\weberpage{109}
+Die in (20) vorkommenden Werte von $\nu$ lassen sich in Paare anordnen derart:
+\[
+\nu,\ n-\nu, \qquad \nu = 1,\ 2,\ \cdots\ \frac{n-1}{2},
+\]
+und da
+\[
+\begin{aligned}
+\vartheta_{00}\left(\frac{\nu}{n}\right) &= \vartheta_{00}\left(\frac{n-\nu}{n}\right), \quad \vartheta_{10}\left(\frac{\nu}{n}\right) = -\vartheta_{10}\left(\frac{n-\nu}{n}\right), \\
+\vartheta_{01}\left(\frac{\nu}{n}\right) &= \vartheta_{01}\left(\frac{n-\nu}{n}\right),
+\end{aligned}
+\]
+so stimmt (20) bis auf das Vorzeichen überein mit dem Quadrat von
+
+\weq{21}{\dfrac{\displaystyle\prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{00}\left(\dfrac{\nu}{n}\right)\vartheta_{10}\left(\dfrac{\nu}{n}\right)\vartheta_{01}\left(\dfrac{\nu}{n}\right)}{\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}}}.}
+
+Der letzte Quotient, der eine stetige, von Null verschiedene Funktion von $\omega$ ist, solange der imaginäre Teil von $\omega$ positiv ist, bleibt also gleichfalls ungeändert, wenn $\omega$ durch $2\omega$, also auch durch $4\omega$, $8\omega$, $\ldots$ ersetzt wird. Man kann den Wert dieses Ausdruckes dadurch bestimmen, daß man den imaginären Teil von $\omega$ unendlich, also $q=0$ annimmt. Für $q=0$ ist aber (nach § 25):
+\[
+\vartheta_{00}(v) = 1, \quad \vartheta_{01}(v) = 1, \quad \frac{\vartheta_{10}(v)}{\vartheta_{10}} = \cos\pi v,
+\]
+und daher der Wert von (21):
+
+\weq{22}{\prod_{1,\,\frac{n-1}{2}}^{\nu} \cos\frac{\nu\pi}{n}.}
+
+Da hierin $\nu\pi/n$ kleiner als $\frac{1}{2}\pi$ ist, so hat dieses Produkt einen positiven Wert. Es ist aber
+\[
+\cos\frac{\nu\pi}{n} = -\cos\frac{(n-\nu)\pi}{n}
+\]
+und nach Bd. I, § 144 ist
+\[
+2^{\frac{n-1}{2}} \prod_{1,\,\frac{n-1}{2}}^{\nu} \cos\frac{\nu\pi}{n} = 1.
+\]
+Dadurch ist die Formel bewiesen:
+
+\weq{23}{2^{\frac{n-1}{2}} \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{00}\left(\frac{\nu}{n}\right)\vartheta_{10}\left(\frac{\nu}{n}\right)\vartheta_{01}\left(\frac{\nu}{n}\right) = \vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}}.}

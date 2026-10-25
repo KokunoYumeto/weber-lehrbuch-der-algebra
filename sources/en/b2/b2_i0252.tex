@@ -1,0 +1,34 @@
+% !PRINTED 231
+\weberpage{231}
+%<<CONT
+and find by a simple calculation:
+\weq{3}{H = -(x_1^{20} + x_2^{20}) + 228\,(x_1^{15}x_2^5 - x_2^{15}x_1^5) - 494\,x_1^{10}x_2^{10}.}
+The fundamental form of degree 30 we can define as the functional determinant of $H$ and $f$. If we set
+\weq{4}{T = \frac{1}{20}\,[f'(x_1)\,H'(x_2) - f'(x_2)\,H'(x_1)],}
+then one finds
+\weq{5}{T = (x_1^{30} + x_2^{30}) + 522\,(x_1^{25}x_2^5 - x_1^5x_2^{25}) - 10005\,(x_1^{20}x_2^{10} + x_2^{20}x_1^{10}).}
+There is also an identity among these three forms. To find it, we set
+\[
+\lambda = x_1^{10} - x_2^{10}, \quad \mu = x_1^5 x_2^5,
+\]
+and obtain, if we take out the factor $x_1^{10} + x_2^{10}$ from $T$ and then form $T^2$:
+\[
+f^5 = \mu\,(\lambda + 11\mu)^5,
+\]
+\[
+H = -\lambda^2 + 228\,\lambda\mu - 496\,\mu^2,
+\]
+\[
+T^2 = (\lambda^2 + 4\mu^2)\,(\lambda^2 + 522\,\lambda\mu - 10004\,\mu^2)^2.
+\]
+From this one obtains by numerical computation
+\weq{6}{T^2 + H^3 = 1728\,f^5,}
+which is the relation sought.
+
+Since the icosahedral group, as we have seen, is simple, it can by \S.\,40 have no relative invariants. From this it follows that the icosahedral forms $f$, $H$, $T$ remain absolutely unchanged when one subjects them to the binary icosahedral substitutions represented with determinant $1$. But the same can also be demonstrated directly in the following way, without making use of those general theorems.
+
+The relation (6) can be presented in the form:
+\weq{7}{\frac{T^2}{f^5} + \frac{H^3}{f^5} = 1728,}
+and the two quotients $T^2 : f^5$, $H^3 : f^5$ we can regard as functions of the single variable $x = x_1 : x_2$. If we apply to this variable a substitution of the icosahedral group, these two quotients change only by constant factors; that is, if we
+\weq{8}{\frac{T^2}{f^5} = \Phi(x), \quad \frac{H^3}{f^5} = \Psi(x), \quad y = \frac{\alpha x + \beta}{\gamma x + \delta}}
+%CONT>>

@@ -1,0 +1,76 @@
+% !PRINTED 580
+\weberpage{580}
+\weq{6}{(\varrho,\eta)(\varrho^2,\eta) = n, \quad \psi_1(\varrho)\psi_1(\varrho^2) = n,}
+in which
+
+\weq{7}{(\varrho,\eta) = \eta + \varrho\eta_1 + \varrho^2\eta_2, \quad (\varrho^2,\eta) = \eta + \varrho^2\eta_1 + \varrho\eta_2.}
+
+For example, for $n = 7, 13$, if one takes the primitive roots 3, 2 as basis and applies the index tables, one obtains:
+
+\[
+n = 7
+\]
+\[
+\begin{array}{c|c|c|c|c|c|c}
+N & 1 & 2 & 3 & 4 & 5 & 6 \\
+\hline
+I & 0 & 2 & 1 & 4 & 5 & 3
+\end{array}
+\]
+\[
+n = 13
+\]
+\[
+\begin{array}{c|c|c|c|c|c|c|c|c|c|c|c}
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+\hline
+0 & 1 & 4 & 2 & 9 & 5 & 11 & 3 & 8 & 10 & 7 & 6
+\end{array}
+\]
+
+\[
+\text{for } n = 7, \quad a + b\varrho = -(1 + 3\varrho),
+\]
+\[
+\text{for } n = 13, \quad a + b\varrho = -(4 + 3\varrho).
+\]
+
+From these formulae we can easily derive the cubic equation whose roots are the $\eta, \eta_1, \eta_2$. On account of (4) it has the form
+\weq{8}{\eta^3 + \eta^2 + \beta\eta + \gamma = 0,}
+
+and the integers $\beta, \gamma$ are to be determined.
+
+If we carry out the multiplication in (6), there results
+\[
+\begin{aligned}
+n &= \eta^2 + \eta_1^2 + \eta_2^2 - \eta\eta_1 - \eta\eta_2 - \eta_1\eta_2 \\
+  &= (\eta + \eta_1 + \eta_2)^2 - 3\beta,
+\end{aligned}
+\]
+hence
+\weq{9}{3\beta = -(n - 1).}
+
+Carrying out the cubes in (5) yields, if for the moment we set
+\[
+s_3 = \eta^3 + \eta_1^3 + \eta_2^3, \quad s = \eta^2\eta_1 + \eta_1^2\eta_2 + \eta_2^2\eta,
+\]
+\[
+s' = \eta_1^2\eta + \eta_2^2\eta_1 + \eta^2\eta_2
+\]
+the relation
+\[
+n\psi_1(\varrho) = s_3 - 6\gamma + 3s\varrho + 3s'\varrho^2.
+\]
+But from (8) and (9) one obtains $s_3 = -n - 3\gamma$, hence
+\weq{10}{n[\psi_1(\varrho) + 1] = -9\gamma + 3s\varrho + 3s'\varrho^2,}
+and likewise
+\weq{11}{n[\psi_1(\varrho^2) + 1] = -9\gamma + 3s\varrho^2 + 3s'\varrho,}
+to which is added, if one raises (4) to the cube,
+\[
+n - 1 = -9\gamma + 3s + 3s'
+\]
+as well. If one adds the last three equations, it follows that
+\[
+n[\psi_1(\varrho) + \psi_1(\varrho^2)] + 3n - 1 = -27\gamma,
+\]
+%CONT>>

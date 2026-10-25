@@ -1,0 +1,37 @@
+% !PRINTED 45
+\weberpage{45}
+%<<CONT
+
+behandeln sie aber jetzt unter der besonderen Voraussetzung, dass die gegebenen Werthe von $x$ die $n+1$ ersten ganzen Zahlen $0,1,2,\ldots,n$ seien.
+
+Die Binomialcoefficienten $B_\nu^{(n)}$, wie sie durch \S~7, (6) definirt sind, behalten ihren guten Sinn, auch wenn $n$ keine ganze Zahl ist, wie bisher vorausgesetzt war, sondern eine beliebige veränderliche Grösse. Es ist dann
+\begin{equation}
+ B_\nu^{(x)}={x(x-1)\cdots(x-\nu+1)\over 1\cdot2\cdot3\cdots\nu}
+\tag{3}
+\end{equation}
+eine ganze rationale Function $\nu$ten Grades von $x$.
+\footnote{Die Bedeutung dieser verallgemeinerten Binominalcoefficienten für die Entwickelung der Potenzen des Binoms gehört nicht hierher, sondern in die Analysis.}
+% SOURCE-ORIGINAL-SIC: The scan prints "Binominalcoefficienten" in the footnote; the historical misspelling is retained.
+Der Coëfficient von $x^\nu$ ist von Null verschieden und daher kann auch $x^\nu$ ausgedrückt werden durch $B_\nu^{(x)}$ und durch niedrigere Potenzen von $x$. Es lässt sich also auch jede ganze Function $n$ten Grades $f(x)$ von $x$ linear ausdrücken durch $B_0^{(x)},B_1^{(x)},\ldots,B_n^{(x)}$ in der Form
+\begin{equation}
+ f(x)=M_0B_0^{(x)}+M_1B_1^{(x)}+\cdots+M_nB_n^{(x)},
+\tag{4}
+\end{equation}
+worin $M_0,M_1,\ldots,M_n$ Constanten sind, und die Function $f(x)$ ist bestimmt, wenn diese Constanten bestimmt sind.
+
+Es sei nun nach unserer Voraussetzung $f(0),f(1),f(2),\ldots,f(n)$ gegeben; da nach (3) $B_\nu^{(x)}$ immer verschwindet, wenn $x$ einen der Werthe $0,1,2,\ldots,\nu-1$ hat, so ergeben sich aus (4) die folgenden linearen Gleichungen für die Unbekannten $M$:
+\begin{equation}
+\begin{aligned}
+ f(0)&=M_0B_0^{(0)},\\
+ f(1)&=M_0B_0^{(1)}+M_1B_1^{(1)},\\
+ f(2)&=M_0B_0^{(2)}+M_1B_1^{(2)}+M_2B_2^{(2)},\\
+ &\quad\cdots\\
+ f(n)&=M_0B_0^{(n)}+M_1B_1^{(n)}+M_2B_2^{(n)}+\cdots+M_nB_n^{(n)}.
+\end{aligned}
+\tag{5}
+\end{equation}
+Diese Gleichungen sind nun in Bezug auf $M_0,M_1,\ldots,M_n$ aufzulösen, was sehr leicht mit Hülfe der Schlussgleichungen (8) des vorigen Paragraphen geschieht. Die erste Gleichung (5) ergiebt nämlich direct
+\begin{equation}
+ M_0=f(0).
+\tag{6}
+\end{equation}

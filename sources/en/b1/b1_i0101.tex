@@ -1,0 +1,42 @@
+% !PRINTED 76
+\weberpage{76}
+
+If one orders the columns in the reverse sequence, then, according as \(n\) is even or odd,
+\[
+ {n\over2}\quad\hbox{or}\quad {n-1\over2}
+\]
+interchanges are necessary, so that the determinant thus ordered differs from \(\Delta\) by the factor
+\[
+ (-1)^{n(n-1)/2}.
+\]
+It comes to the same thing if one gives the opposite sign to the
+\[
+ {n(n-1)\over2}
+\]
+factors of the product (11). Thus, along with (11), the equality also holds:
+\begin{equation}
+\begin{vmatrix}
+a_1^{\,n-1}&a_1^{\,n-2}&\cdots&a_1&1\\
+a_2^{\,n-1}&a_2^{\,n-2}&\cdots&a_2&1\\
+\vdots&\vdots&&\vdots&\vdots\\
+a_n^{\,n-1}&a_n^{\,n-2}&\cdots&a_n&1
+\end{vmatrix}
+=
+\begin{gathered}
+(a_1-a_2)(a_1-a_3)\cdots(a_1-a_n)\\
+(a_2-a_3)\cdots(a_2-a_n)\\
+\cdots\\
+(a_{n-1}-a_n).
+\end{gathered}
+\tag{12}
+\end{equation}
+
+We still mention here a notation for the subdeterminants which is borrowed from differential calculus and is often used with advantage, especially when derivatives are to be formed. If the quantities \(a_i^{(k)}\) are regarded as independent variables, then the determinant \(A\) is only of the first degree with respect to each of them. The derivative or differential quotient taken with respect to \(a_i^{(k)}\) is therefore equal to the coefficient of \(a_i^{(k)}\), hence
+\[
+ {\partial A\over\partial a_i^{(k)}}=A_i^{(k)}.
+\]
+If therefore, for example, the \(a_i^{(k)}\) are functions of a variable \(t\), then \(A\) is also a function of \(t\), and by the first rules of differential calculus one obtains the derivative of \(A\) with respect to \(t\) in the form
+\[
+ A'(t)=\sum A_i^{(k)}\,{\partial a_i^{(k)}\over\partial t},
+\]
+where \({\partial a_i^{(k)}}/{\partial t}\) denotes the derivative of \(a_i^{(k)}\) with respect to \(t\).

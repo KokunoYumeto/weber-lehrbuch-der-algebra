@@ -1,0 +1,58 @@
+% !PRINTED 355
+\weberpage{355}
+%<<CONT
+also, wenn wir beiderseits nach Potenzen von $t$ ordnen:
+
+\[
+\begin{aligned}
+P_2(x,\mu x + \lambda y) &= \lambda^2 P_2(x,y)\\
+P_3(x,\mu x + \lambda y) &= 3\lambda^2\mu\, P_2(x,y) + \lambda^3 P_3(x,y)\\
+P_4(x,\mu x + \lambda y) &= 6\lambda^2\mu^2 P_2(x,y) + 4\lambda^3\mu\, P_3(x,y) + \lambda^4 P_4(x,y),
+\end{aligned}
+\]
+
+und hieraus erhält man nach (6)
+
+\weq{11}{R(x,\mu x+\lambda y) = \lambda^6 R(x,y).}
+
+Diese Formel gilt aber nicht identisch, sondern nur unter der Voraussetzung, dass $(x)$ ein Punkt der Curve sei, also dass $f(x) = 0$ ist.
+
+Der Punkt $(\mu x+\lambda y)$ kann ein ganz beliebiger Punkt der Tangente in $(x)$ sein, und daher können wir, wenn $a_1, a_2, a_3$ drei willkürliche Grössen sind, über $\mu, \lambda$ so verfügen, dass
+
+\weq{12}{\begin{aligned}
+\mu x_1 + \lambda y_1 &= a_2 f'(x_3) - a_3 f'(x_2)\\
+\mu x_2 + \lambda y_2 &= a_3 f'(x_1) - a_1 f'(x_3)\\
+\mu x_3 + \lambda y_3 &= a_1 f'(x_2) - a_2 f'(x_1)
+\end{aligned}}
+
+wird. Dann ist $(\mu x+\lambda y)$ der Schnittpunkt der Tangente mit der Geraden $a_x = 0$, wenn
+
+\weq{13}{a_x = a_1 x_1 + a_2 x_2 + a_3 x_3}
+
+gesetzt ist. Dadurch geht $R(x,\mu x+\lambda y)$ in $D(x,a)$ über.
+
+Um nun $\lambda$ und $\mu$ zu bestimmen, multipliciren wir die Gleichungen (10) und (12) mit $a_1, a_2, a_3$, sodann (12) mit $b_1, b_2, b_3$ und addiren jedesmal. Dadurch erhalten wir mit Rücksicht auf $b_y = 0$:
+
+\[
+\begin{aligned}
+a_y &= -\mu b_x = \Sigma \pm a_1 b_2 f'(x_3)\\
+\mu a_x + \lambda a_y &= 0,
+\end{aligned}
+\]
+
+und daraus
+
+\[
+\lambda b_x = a_x.
+\]
+
+Hiernach lässt sich die Gleichung (11) so darstellen:
+
+\weq{14}{\frac{D(x,a)}{a_x^6} = \frac{D(x,b)}{b_x^6},}
+
+und zeigt in dieser Form, dass der Quotient $D(x,a) : a_x^6$ von den willkürlichen Grössen $a$ unabhängig ist. Die Gleichung (14) ist aber keine Identität, sondern sie ist nur befriedigt, so lange $f(x) = 0$ ist. Wir können aber eine Identität daraus herleiten, wenn wir annehmen, dass $f(x)$ irreducibel sei (oder wenigstens keinen mehrfach zählenden Factor enthält). Es ist nämlich die Form $26^{\text{sten}}$ Grades
+
+\[
+b_x^6\, D(x,a) - a_x^6\, D(x,b)
+\]
+%CONT>>

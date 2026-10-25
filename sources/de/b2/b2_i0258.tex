@@ -1,0 +1,24 @@
+% !PRINTED 237
+\weberpage{237}
+
+%<<CONT
+sein muss, worin $r$ eine ganze Zahl bedeutet. Je nachdem $r$ ungerade oder gerade angenommen wird, erhalten wir zwei verschiedene Gruppen, die sich nicht durch Transformation auf einander zur\"uckf\"uhren lassen:
+\weq{1}{C_n' = \begin{pmatrix} e^{\frac{\pi i h}{2n}}, & 0 \\ 0, & (-1)^h e^{-\frac{\pi i h}{2n}} \end{pmatrix} \quad h = 0, 1, \ldots, 2n-1,}
+\weq{2}{C_n'' = \begin{pmatrix} e^{\frac{\pi i h}{n}}, & 0 \\ 0, & \pm e^{-\frac{\pi i h}{n}} \end{pmatrix} \quad h = 0, 1, \ldots, n-1. \quad \text{(beide Vorzeichen)}}
+Wenn $n$ gerade ist, so kommen $C_1'$ und $C_1''$ beide unter $C_n''$ vor; ist aber $n$ ungerade, so kommt $C_1'$ in $C_n'$, $C_1''$ in $C_n''$ vor.
+
+Ist sodann $\alpha = \delta = 0$, $\beta\gamma = 1$, so k\"onnen wir $\varphi$ durch die Transformation
+\[
+\begin{pmatrix} \beta^{-1/2}, & 0 \\ 0, & \beta^{1/2} \end{pmatrix}
+\begin{pmatrix} 0, & \beta \\ \gamma, & 0 \end{pmatrix}
+\begin{pmatrix} \beta^{1/2}, & 0 \\ 0, & \beta^{-1/2} \end{pmatrix}
+= \begin{pmatrix} 0, & 1 \\ 1, & 0 \end{pmatrix},
+\]
+durch die die Gruppe $P$ unge\"andert bleibt, umformen, und erhalten noch eine dritte Gruppe:
+\weq{3}{C_n''' = \begin{pmatrix} e^{\frac{\pi i h}{n}}, & 0 \\ 0, & e^{-\frac{\pi i h}{n}} \end{pmatrix}, \quad \begin{pmatrix} 0, & e^{\frac{\pi i h}{n}} \\ e^{-\frac{\pi i h}{n}}, & 0 \end{pmatrix} \qquad h = 0, 1, \ldots, n-1.}
+
+III. Es sei $P$ die Di\"edergruppe $D_n$, die aus den Substitutionen
+\weq{8}{\begin{aligned} D_n = {}& 1, c, c^2, \ldots, c^{n-1} \\ & d, cd, c^2d, \ldots, c^{n-1}d, \\ = {}& C_n + C_n d \end{aligned} \qquad d = \begin{pmatrix} 0, & i \\ i, & 0 \end{pmatrix}}
+besteht. Die Substitution $c$ ist vom $n^{\text{ten}}$, die $c^\lambda d$ sind alle vom $2^{\text{ten}}$ Grade. Es ist aber $\varphi^{-1}c\varphi$ vom $n^{\text{ten}}$ Grade, und muss daher, wenn $n > 2$ ist, unter den Potenzen von $c$ enthalten sein. Folglich sind zur Bestimmung von $\varphi$ die vorigen Betrachtungen anwendbar, und in der Gruppe $Q$ muss eine der Gruppen $C_n'$, $C_n''$, $C_n'''$ enthalten sein. Da $d$ nicht in diesen Gruppen vorkommt, so ergeben sich f\"ur die Di\"edergruppen zweiter Art die Formen
+\weq{9}{C_n' + C_n'd, \quad C_n'' + C_n''d, \quad C_n''' + C_n'''d,}
+%CONT>>

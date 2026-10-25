@@ -1,0 +1,53 @@
+% !PRINTED 87
+\weberpage{87}
+%<<CONT
+und daraus:
+\[
+\begin{aligned}
+\vartheta_{00}(v+\omega) &= \sum c_\nu q^{\nu^2+2\nu} e^{2\pi i v \nu}\\
+&=q^{-1}e^{-2\pi i v}\sum c_\nu q^{(\nu+1)^2}e^{2\pi i v(\nu+1)}.
+\end{aligned}
+\]
+Da $\nu$ von $-\infty$ bis $+\infty$ geht, so ist es gestattet, in dieser Formel $\nu - 1$
+an Stelle von $\nu$ zu setzen, und wenn man dies tut, so ergibt sich
+\[
+\vartheta_{00}(v+\omega) = q^{-1}e^{-2\pi i v}\sum c_{\nu-1} q^{\nu^2}e^{2\pi i v \nu}.
+\]
+Nach der zweiten der Fundamentalgleichungen [§ 20, (1)] m\"ussen also die beiden Reihen
+\[
+\sum c_\nu q^{\nu^2}e^{2\pi i v \nu} \quad \text{und} \quad \sum c_{\nu-1} q^{\nu^2}e^{2\pi i v \nu}
+\]
+miteinander \"ubereinstimmen, d. h. es mu\ss{}
+\[
+c_{\nu-1} = c_\nu
+\]
+sein. Die $c_\nu$ sind also alle einander gleich; da\ss{} sie den Wert 1 haben, ergibt die
+Vergleichung der beiden Entwickelungen
+\[
+\sum_{-\infty,\infty}^{\nu} q^{\nu^2}e^{2\pi i v \nu}, \qquad \prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 + q^{2\nu-1}e^{2\pi i v})(1 + q^{2\nu-1}e^{-2\pi i v})
+\]
+f\"ur den Wert $q = 0$.
+
+Der hiermit f\"ur $\vartheta_{00}(v)$ gefundenen Entwickelung kann man auch die beiden
+Formeln geben:
+\weq{1}{\begin{aligned}
+\vartheta_{00}(v) &= \sum q^{\nu^2} e^{2\nu \pi i v}\\
+&= 1 + 2q\cos 2\pi v + 2q^4\cos 4\pi v + 2q^9\cos 6\pi v + \cdots,
+\end{aligned}}
+und daraus erh\"alt man nach § 21, (8) durch Vermehrung von $v$ um $\frac{1}{2}$,
+$\frac{\omega}{2}$, $\frac{1+\omega}{2}$ die Entwickelungen f\"ur die drei \"ubrigen
+$\vartheta$-Funktionen:
+\weq{2}{\begin{aligned}
+\vartheta_{01}(v) &= \sum(-1)^\nu q^{\nu^2} e^{2\nu \pi i v}\\
+&= 1 - 2q\cos 2\pi v + 2q^4\cos 4\pi v - 2q^9\cos 6\pi v + \cdots
+\end{aligned}}
+\weq{3}{\begin{aligned}
+\vartheta_{10}(v) &= \sum q^{\frac{(2\nu+1)^2}{4}} e^{(2\nu+1)\pi i v}\\
+&= 2q^{\frac{1}{4}}\cos\pi v + 2q^{\frac{9}{4}}\cos 3\pi v + 2q^{\frac{25}{4}}\cos 5\pi v + \cdots
+\end{aligned}}
+\weq{4}{\begin{aligned}
+\vartheta_{11}(v) &= -i\sum(-1)^\nu q^{\frac{(2\nu+1)^2}{4}} e^{(2\nu+1)\pi i v}\\
+&= 2q^{\frac{1}{4}}\sin\pi v - 2q^{\frac{9}{4}}\sin 3\pi v + 2q^{\frac{25}{4}}\sin 5\pi v + \cdots
+\end{aligned}}
+Wir ziehen f\"ur sp\"atere Anwendungen aus diesen Entwickelungen die Schl\"usse:
+%CONT>>

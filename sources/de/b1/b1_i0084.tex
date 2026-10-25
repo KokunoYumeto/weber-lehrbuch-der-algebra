@@ -1,0 +1,53 @@
+% !PRINTED 59
+\weberpage{59}
+
+\begin{center}
+{\large \S.\ 16.}
+
+\vspace{0.5em}
+{\large\gesperrt{Die Derivirten von Functionen mehrerer Variablen.}}
+\end{center}
+
+Wir haben im \S~13 die derivirten Functionen einer ganzen rationalen Function einer Veränderlichen definirt. Der Begriff lässt sich unmittelbar übertragen auf Functionen mehrerer Variablen, indem man die Ableitungen in Bezug auf jede Variable für sich, als ob sie die einzige wäre, bildet. So erhält man, wenn man etwa wie in \S~15
+\begin{equation}
+ F(x,y,z,\ldots)=\sum A_{\alpha,\beta,\gamma,\ldots}x^\alpha y^\beta z^\gamma\cdots
+\tag{1}
+\end{equation}
+setzt, die erste Derivirte nach $x$:
+\begin{equation}
+ F'(x)=\sum \alpha A_{\alpha,\beta,\gamma,\ldots}x^{\alpha-1}y^\beta z^\gamma\cdots,
+\tag{2}
+\end{equation}
+oder nach $y$:
+\begin{equation}
+ F'(y)=\sum \beta A_{\alpha,\beta,\gamma,\ldots}x^\alpha y^{\beta-1}z^\gamma\cdots
+\tag{3}
+\end{equation}
+u. s. f. Aus diesen Functionen kann man nach denselben Regeln wieder die Ableitungen nach den verschiedenen Variablen bilden und erhält so die höheren Ableitungen.
+
+Um die Resultate übersichtlicher darzustellen, sei $\Phi(x_1,x_2,\ldots,x_m)$ eine ganze rationale Function $n$ter Ordnung der $m$ Veränderlichen $x_1,x_2,\ldots,x_m$. Wir ersetzen diese Veränderlichen durch Binome:
+\[
+ x_1+\xi_1,\quad x_2+\xi_2,\ldots,\quad x_m+\xi_m
+\]
+und entwickeln in jedem Gliede der Function
+\[
+ \Phi(x_1+\xi_1,x_2+\xi_2,\ldots,x_m+\xi_m)=\Phi(x+\xi)
+\]
+durch Ausführung der Multiplication
+\[
+ (x_1+\xi_1)^{\mu_1}(x_2+\xi_2)^{\mu_2}\cdots(x_m+\xi_m)^{\mu_m}
+\]
+nach Potenzen von $\xi_1,\xi_2,\ldots,\xi_m$. Fassen wir gleiche Potenzen und Producte der Variablen $\xi$ je in ein Glied zusammen, so ergiebt sich in der Bezeichnung (2) \S~15 für $\Phi(x+\xi)$ eine Darstellung, die in der Differentialrechnung die \gesperrt{Taylor'sche Entwickelung} heisst:
+\begin{equation}
+ \Phi(x+\xi)=\sum
+ {\xi_1^{\alpha_1}\xi_2^{\alpha_2}\cdots\xi_m^{\alpha_m}
+ \over \Pi(\alpha_1)\Pi(\alpha_2)\cdots\Pi(\alpha_m)}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi .
+\tag{4}
+\end{equation}
+Die Coëfficienten, die wir mit
+\[
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi
+\]
+bezeichnen, sind Functionen der Variablen $x$ und heissen, wenn
+%CONT>>

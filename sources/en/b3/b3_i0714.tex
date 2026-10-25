@@ -1,0 +1,38 @@
+% !PRINTED 683
+\weberpage{683}
+%<<CONT
+\weq{7}{\begin{aligned}
+-F'(z) &= F'(\omega)\left(\frac{d\omega}{dz} - \omega_1\frac{dx_1}{dz} - \cdots - \omega_n\frac{dx_n}{dz}\right)\\
+&= \varrho\,F'(\tau)\left(\frac{d\omega}{dz} - \omega_1\frac{dx_1}{dz} - \cdots - \omega_n\frac{dx_n}{dz}\right),
+\end{aligned}}
+and from this it follows that $F'(z)$ too (after replacing the $t_i$ by the $x_i$) is divisible by $\varrho$.
+
+Accordingly, with regard to the geometric analogy, we call $\varrho$ the \gesperrt{functional of the double points} in $\omega, z$.
+
+If $\mathfrak{P}$ is a point at which $z$ is finite and $F'(\tau)$ is different from zero, so that it is not a branch point in $z$, then by 4. an integral function $\omega$ of $z$ has a finite differential quotient at $\mathfrak{P}$. A fractional function $\eta$ of $z$ which is finite at $\mathfrak{P}$ can be represented as a quotient of two integral functions $\omega' : \omega$ whose denominator $\omega$ does not vanish at $\mathfrak{P}$.
+
+From this it follows:
+\[
+\frac{d\eta}{dz} = \frac{1}{\omega^2}\left(\omega'\frac{d\omega}{dz} - \omega\frac{d\omega'}{dz}\right),
+% [sic] printed \frac{1}{\omega^2}\left(\omega'\frac{d\omega}{dz} - \omega\frac{d\omega'}{dz}\right), but for \eta = \omega' : \omega (denominator \omega) the quotient rule gives \frac{1}{\omega^2}\left(\omega\frac{d\omega'}{dz} - \omega'\frac{d\omega}{dz}\right); the printed right-hand side has the wrong sign (the conclusion that d\eta : dz is finite is unaffected)
+\]
+and consequently $d\eta : dz$ is likewise finite at the point $\mathfrak{P}$.
+
+In order to recognise the behaviour of an arbitrary differential quotient $d\alpha : d\beta$ at any point $\mathfrak{P}$, take a function $z$ which becomes zero of the first order at $\mathfrak{P}$, and denote by $r, s$ the order numbers of $\alpha - \alpha_0, \beta - \beta_0$ at the point $\mathfrak{P}$. For the case that $\alpha$ becomes infinite at $\mathfrak{P}$, one sets $\alpha_0 = 0$ and obtains a negative order number $r$. The corresponding statement holds when $\beta$ becomes infinite.
+
+Then by \S\,185:
+\weq{8}{\begin{aligned}
+\alpha - \alpha_0 &= z^r\alpha',\\
+\beta - \beta_0 &= z^s\beta',
+\end{aligned}}
+where $\alpha'$ and $\beta'$ are functions in $\Omega$ which become neither zero nor infinite at $\mathfrak{P}$.
+
+From this there results, by \S\,194:
+\[
+\begin{aligned}
+\frac{d\alpha}{dz} &= r z^{r-1}\alpha' + z^r\frac{d\alpha'}{dz},\\
+\frac{d\beta}{dz} &= s z^{s-1}\beta' + z^s\frac{d\beta'}{dz},
+\end{aligned}
+\]
+\weq{9}{\frac{\beta-\beta_0}{\alpha-\alpha_0}\frac{d\alpha}{d\beta} = \frac{r + z\dfrac{d\alpha'}{\alpha'\,dz}}{s + z\dfrac{d\beta'}{\beta'\,dz}},}
+%CONT>>

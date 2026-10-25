@@ -1,0 +1,39 @@
+% !PRINTED 164
+\weberpage{164}
+In Table IV the developments for the 12 functions are collected.
+
+Among the 16 formulae of Tables II, III there are four which contain the factor $\vartheta_{11}(a)$ in the denominator, and in which one therefore cannot simply set $a=0$. These are the formulae (1), (5), (9), (13). If one develops these formulae in ascending powers of $a$, the developments on the right and on the left begin with $a^{-1}$, and if one sets the terms independent of $a$ equal to one another on both sides, the developments sought result.
+
+One may proceed, for example, in such a way that in formula (1) one changes $a$ into $-a$ and takes the arithmetic mean of the two formulae. Then on the right the infinite term $1:\operatorname{cotg}\pi a$ cancels out, and on the left one obtains:
+\[
+\frac{\vartheta'_{11}[\vartheta_{11}(v+a)-\vartheta_{11}(v-a)]}{2\pi\vartheta_{11}(v)\vartheta_{11}(a)} = \frac{\vartheta'_{11}(v)}{\pi\vartheta_{11}(v)} \text{ for } a=0,
+\]
+on the right-hand side of (1) in Table II there results:
+\[
+\operatorname{cotg}\pi v - 4i\sum\left(\frac{q^m}{e^{-2\pi iv}-q^m} - \frac{q^m}{e^{2\pi iv}-q^m}\right)
+\]
+\[
+= \operatorname{cotg}\pi v + 4\sum\frac{q^m\sin 2\pi v}{1-2q^m\cos 2\pi v+q^{2m}},
+\]
+and on the right-hand side of formula (1) of Table III one obtains
+\[
+\operatorname{cotg}\pi v + 4\sum\frac{q^{\frac{m}{2}}}{1-q^m}\sin m\pi v,
+\]
+and if one further introduces the \gesperrt{Jacobi} $H$-function, and writes $u$ for $v$, one obtains
+\weq{3}{\frac{2K}{\pi}\frac{d\log H(2Ku)}{d\,2Ku} = \operatorname{cotg}\pi u + 4\sin 2\pi u\sum\frac{q^m}{1-2q^m\cos 2\pi u+q^m} % [sic] The German source prints q^m as the final denominator term; the preceding equivalent expression requires q^{2m}.
+}
+% [sic] In the following equivalent series the German source prints q^m in the numerator; the immediately preceding Table-III series prints q^{m/2}.
+\[
+= \operatorname{cotg}\pi u + 4\sum\frac{q^m}{1-q^m}\sin m\pi u.
+\]
+
+On the left-hand side there stands a transcendent of the second kind, which by \S\,47, (12) can be expressed by means of the $Z$-function:
+\[
+% [sic] The source prints sin in the denominator; the identity mathematically requires sn.
+\frac{2K}{\pi}Z(2Ku) + \frac{2K}{\pi}\frac{\operatorname{cn}2Ku\,\operatorname{dn}2Ku}{\operatorname{sin}2Ku},
+\]
+for which one may also put:
+\[
+% [sic] The source again prints sin; the identity mathematically requires sn.
+\frac{2K}{\pi}Z(2Ku) + \frac{d\log\operatorname{sin}2Ku}{\pi\,du}.
+\]

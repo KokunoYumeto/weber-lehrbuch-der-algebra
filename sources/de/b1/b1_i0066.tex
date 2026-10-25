@@ -1,0 +1,50 @@
+% !PRINTED 41
+\weberpage{41}
+%<<CONT
+
+\begin{equation}
+B_\nu^{(n)}={n(n-1)(n-2)\cdots(n-\nu+1)\over 1\cdot 2\cdot 3\cdots \nu}.
+\tag{6}
+\end{equation}
+Wir werden in der Folge oft, wenn $m$ eine beliebige positive ganze Zahl ist, das Zeichen
+\begin{equation}
+ \Pi(m)=1\cdot 2\cdot 3\cdots m,
+ \qquad
+ \Pi(0)=1
+\tag{7}
+\end{equation}
+benutzen, so dass
+\begin{equation}
+ \Pi(m)=m\Pi(m-1).
+\tag{8}
+\end{equation}
+Mit Hülfe dieses Zeichens lässt sich der Ausdruck für $B_\nu^{(n)}$ übersichtlicher so darstellen:
+\begin{equation}
+ B_\nu^{(n)}=B_{n-\nu}^{(n)}={\Pi(n)\over \Pi(\nu)\Pi(n-\nu)},
+\tag{9}
+\end{equation}
+der, wenn $B_0^{(n)}=1$ gesetzt wird, auch noch für $\nu=0$ und $\nu=n$ gilt, und die Unveränderlichkeit von $B_\nu^{(n)}$ bei der Vertauschung von $\nu$ mit $n-\nu$ erkennen lässt.
+
+Die Ableitung der Formel (4), die wir soeben nach den Vorschriften der Combinationslehre gegeben haben, ist zwar vollkommen richtig und einleuchtend, erfordert aber zur genauen Begründung einige Ueberlegung, die sich nicht gut in kurze Worte fassen lässt. Wir wollen daher nachträglich noch durch das Mittel der vollständigen Induction die Richtigkeit beweisen.
+
+Die Formeln (3) geben nämlich die folgenden Recursionsformeln:
+\begin{equation}
+\begin{aligned}
+B_1^{(n)}&=B_1^{(n-1)}+1,\\
+B_2^{(n)}&=B_2^{(n-1)}+B_1^{(n-1)},\\
+&\cdots\\
+B_\nu^{(n)}&=B_\nu^{(n-1)}+B_{\nu-1}^{(n-1)},\\
+&\cdots\\
+B_n^{(n)}&=B_{n-1}^{(n-1)}.
+\end{aligned}
+\tag{10}
+\end{equation}
+Nun lässt sich die Formel (6) für die ersten Werthe von $n$ sehr leicht durch Abzählen bestätigen. Nimmt man sie für $n-1$ als richtig an, so ergiebt (10):
+\[
+ B_\nu^{(n)}={\Pi(n-1)\over \Pi(\nu)\Pi(n-\nu-1)}+{\Pi(n-1)\over \Pi(\nu-1)\Pi(n-\nu)},
+\]
+woraus nach (8)
+\[
+ B_\nu^{(n)}={\Pi(n)\over \Pi(\nu)\Pi(n-\nu)},
+\]
+und hierdurch ist die Allgemeingültigkeit der Formel (9) bewiesen.

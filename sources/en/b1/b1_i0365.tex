@@ -1,0 +1,59 @@
+% !PRINTED 340
+\weberpage{340}
+
+If one then sets in (5)
+\[
+x = \alpha' \quad \text{and} \quad x = \beta'
+\]
+and observes that
+\[
+\beta - \alpha' = \frac{(\beta - \alpha)f(\beta)}{f(\beta) - f(\alpha)}, \quad \beta - \beta' = \frac{f(\beta)}{f'(\beta)},
+\]
+it follows that
+\[
+f(\alpha') < 0, \quad f(\beta') > 0.
+\]
+
+The root sought is therefore contained between $\alpha'$ and $\beta'$,
+and the interval $(\alpha', \beta')$ is smaller than $(\alpha, \beta)$.
+
+If we put $\alpha', \beta'$ in place of $\alpha, \beta$ in these expressions,
+we obtain a new, still narrower interval, and so on.
+
+As for the convergence of this procedure, we can assure
+ourselves of it in the following way. Following (6), we set:
+\weq{7}{
+\frac{\beta' - \alpha'}{\beta - \alpha} = \Phi(\alpha, \beta) = \frac{f(\beta)\{f(\alpha) - f(\beta) + (\beta - \alpha)f'(\beta)\}}{(\beta - \alpha)f'(\beta)\{f(\beta) - f(\alpha)\}}.
+}
+Numerator and denominator are here divisible by $(\beta - \alpha)^2$, and
+if we cancel the common factor $(\beta - \alpha)^2$ and put $\xi, \eta$
+for $\alpha, \beta$, we obtain an expression of the form
+\[
+\Phi(\xi, \eta) = \frac{\psi_1(\xi, \eta)}{\psi_2(\xi, \eta)},
+\]
+in which $\psi_1$ and $\psi_2$ are integral rational functions of the two variables
+$\xi, \eta$.
+
+If $x$ is the root lying in the interval $(\alpha, \beta)$, then by our
+assumptions about $f(x)$ the two functions $\psi_1$ and $\psi_2$
+do not become zero when
+\weq{8}{
+\alpha \leqq \xi < x, \quad x < \eta \leqq \beta.
+}
+The function $\Phi(\xi, \eta)$ is less than 1 for $\xi = \alpha, \eta = \beta$, but also for
+every other pair of values in the interval $(\alpha, \beta)$ for which $f(\xi)$
+is negative and $f(\eta)$ positive, since every such interval
+$(\xi, \eta)$ could be taken in place of $(\alpha, \beta)$.
+
+Now since $\Phi(\xi, \eta)$ is a continuous function of the two variables
+$\xi, \eta$ so long as these remain in the region (8), the
+function $\Phi(\xi, \eta)$ must have a maximum value in this region,
+and this must be less than 1, because $\Phi(\xi, \eta)$
+remains less than 1 even in the limiting cases $\xi = x, \eta = x$.
+
+A positive proper fraction $\Theta$ can therefore be assigned
+such that
+\[
+\Phi(\xi, \eta) < \Theta
+\]
+%CONT>>

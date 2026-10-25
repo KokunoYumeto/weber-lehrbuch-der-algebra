@@ -1,0 +1,39 @@
+% !PRINTED 363
+\weberpage{363}
+
+Wenn wir die Formel (2) f\"ur $n$ schon als bewiesen voraussetzen, so erhalten wir, wenn wir
+\[
+x_n = a_n + \frac{1}{x_{n+1}}
+\]
+setzen:
+\[
+x = \frac{(P_n a_n + P_{n-1}) x_{n+1} + P_n}{(Q_n a_n + Q_{n-1}) x_{n+1} + Q_n}.
+\]
+\gesperrt{Das ist aber die Formel, die sich aus (2) durch Vertauschung von $n$ mit $n+1$ ergiebt, wenn wir das folgende Bildungsgesetz f\"ur die $P_n$, $Q_n$ annehmen:}
+\weq{3}{
+\begin{aligned}
+P_{n+1} &= a_n P_n + P_{n-1} \\
+Q_{n+1} &= a_n Q_n + Q_{n-1}.
+\end{aligned}
+}
+
+Diese Formeln bestimmen vollst\"andig die $P_n$, $Q_n$ f\"ur $n = 2, 3, 4 \ldots$, wenn wir noch die Bestimmung hinzuf\"ugen:
+\weq{4}{
+\begin{aligned}
+P_0 &= 1, & P_1 &= a_0, \\
+Q_0 &= 0, & Q_1 &= 1.
+\end{aligned}
+}
+Die Br\"uche
+\[
+\frac{P_0}{Q_0}, \ \frac{P_1}{Q_1}, \ \frac{P_2}{Q_2} \ldots,
+\]
+von denen der erste mit dem Nenner Null nur formell, der Uebereinstimmung wegen, eingef\"uhrt ist, heissen die \gesperrt{N\"aherungsbr\"uche} des Kettenbruches (1), $P_n$ der Z\"ahler und $Q_n$ der Nenner des $n^{\mathrm{ten}}$ N\"aherungsbruches.
+
+Das Bildungsgesetz (3) zeigt, dass, wenn die $a$ ganze Zahlen sind, auch $P_n$ und $Q_n$ ganze Zahlen sind. Sind die Theilnenner von $a_1$ an positiv, so sind die Nenner $Q_1, Q_2, Q_3 \ldots$ alle \gesperrt{positiv} und wachsen mit $n$, und zwar, da es ganze Zahlen sind, ins Unendliche. Nur in dem besonderen Falle, wo $a_1 = 1$ ist, ist $Q_1 = Q_2 = 1$ und das Wachsen beginnt erst von $Q_3$ an, und wir k\"onnen also den Satz formuliren:
+
+II. \gesperrt{Sind} $Q_{n-1}, Q_n$ \gesperrt{die Nenner von zwei auf einander folgenden N\"aherungsbr\"uchen, so ist}
+\[
+0 \leqq Q_{n-1} \leqq Q_n, \quad Q_n = \infty \ \text{f\"ur} \ n = \infty,
+\]
+\gesperrt{wo die Gleichheit mit der unteren Grenze 0 nur bei $n = 1$, mit der oberen Grenze $Q_n$ nur bei $n = 2$ vorkommen kann.}

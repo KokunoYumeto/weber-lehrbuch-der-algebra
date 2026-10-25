@@ -1,0 +1,49 @@
+% !PRINTED 283
+\weberpage{283}
+
+Führen wir ein zweites System von Variablen $\tau$ ein und setzen
+\[
+z = \tau_{n-1} f_0 + \tau_{n-2} f_1 + \cdots + \tau_0 f_{n-1},
+\]
+so ergiebt sich aus (4) mit Benutzung der Formeln [\S.\,68, (6)]
+\[
+S(f_s) = (n-s)\,a_s
+\]
+\weq{6}{\begin{aligned}
+S[(x-\alpha)\,y\,z] &= n\,a_0 \sum_{0,\,n-1}^{s} (E_{-1,s} - \alpha\,E_{0,s})\,\tau_{n-s-1} \\
+&\quad + (n-1)\,a_1 \sum_{0,\,n-1}^{s} (E_{0,s} - \alpha\,E_{1,s})\,\tau_{n-s-1} \\
+&\quad \cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+&\quad + a_{n-1} \sum_{0,\,n-1}^{s} (E_{n-2,s} - \alpha\,E_{n-1,s})\,\tau_{n-s-1},
+\end{aligned}}
+und dies geht geradezu in die Function $H$ über, wenn wir $\tau = t$ setzen.
+
+Nehmen wir als Beispiel den Fall $n = 3$, so ergiebt sich
+\[
+\begin{aligned}
+E_{-1,0} &= -a_1 t_2 - a_2 t_1 - a_3 t_0, & E_{0,0} &= a_0 t_2, \\
+E_{-1,1} &= -a_2 t_2 - a_3 t_1, & E_{0,1} &= -a_2 t_1 - a_3 t_0, \\
+E_{-1,2} &= -a_3 t_2, & E_{0,2} &= -a_3 t_1, \\
+E_{1,0} &= a_0 t_1, & E_{2,0} &= a_0 t_0, \\
+E_{1,1} &= a_0 t_2 + a_1 t_1, & E_{2,1} &= a_0 t_1 + a_1 t_0, \\
+E_{1,2} &= -a_3 t_0, & E_{2,2} &= a_0 t_2 + a_1 t_1 + a_2 t_0,
+\end{aligned}
+\]
+und hieraus kann man die Coëfficienten der Form $H$ nach (6) leicht berechnen:
+\[
+\begin{aligned}
+H_{2,2} &= -a_0 (a_1 + 3 a_0 \alpha) \\
+H_{1,1} &= -3 a_0 a_3 - a_1 a_2 - 2(a_1^2 - a_0 a_2)\alpha \\
+H_{0,0} &= -a_2 a_3 + (2 a_1 a_3 - a_2^2)\alpha \\
+H_{1,0} &= -2 a_1 a_3 + (3 a_0 a_3 - a_1 a_2)\alpha \\
+H_{2,1} &= -2 a_0 (a_2 + a_1 \alpha) \\
+H_{0,2} &= -a_0 (3 a_3 + a_2 \alpha).
+\end{aligned}
+\]
+
+\begin{center}
+\S.\,92.
+
+\gesperrt{Die Determinante der Hermite'schen Form.}
+\end{center}
+
+Für die Frage nach der Anzahl der negativen Quadrate der Form $H$ ist die Kenntniss ihrer Determinante von Wichtigkeit. Diese Determinante lässt sich allgemein auf folgende Art berechnen.

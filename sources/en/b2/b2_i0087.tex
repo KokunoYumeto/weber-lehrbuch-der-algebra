@@ -1,0 +1,35 @@
+% !PRINTED 66
+\weberpage{66}
+This sum is therefore independent of the arbitrarily chosen $\tau$. If we sum here from $\tau=0$ to $\tau=q-1$, then, since $\sum r^{n q^{\varkappa-1}\tau}=0$, we obtain:
+\weq{13}{(\varepsilon^\beta, r) = 0.}
+We therefore have the theorem:
+
+1.~\gesperrt{If the degree of the root of unity $r$ is a power of an odd prime, then the resolvent $(\varepsilon^\beta, r)$ vanishes if and only if $\beta$ is divisible by $q$.}
+
+We still have to consider the case in which the degree of the root of unity $r$ is a power of 2. We therefore set
+\[
+m = 2^\lambda
+\]
+and assume at first $\lambda \geqq 3$. Then for every odd number $n$ we can determine a pair of indices $\nu, \nu_1$ from the congruences
+\[
+n \equiv (-1)^{\nu_1} 5^\nu\ (\mathrm{mod}\ m)
+\]
+and indeed $\nu_1$ is determined to the modulus 2, and $\nu$ to the modulus $2^{\lambda-2}$. By the resolvents we understand in this case the sums
+\weq{14}{\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^n,}
+in which $\Theta$ denotes a primitive root of unity of degree $2^{\lambda-2}$. We now proceed quite similarly as before. If in (14) we replace $n$ by $nn'$ and denote by $\nu_1', \nu'$ the indices of $n'$, we obtain
+\weq{15}{(-1)^{-\beta_1 \nu_1'} \Theta^{-\beta \nu'} \bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^{n n'},}
+and from this, by multiplication with $r^{n'}$ and summation over $n'$,
+\weq{16}{\bigl((-1)^{-\beta_1}, \Theta^{-\beta}, r\bigr)\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) = \sum^{n n'} (-1)^{\beta_1 \nu_1} \Theta^{\beta \nu} r^{n'(n+1)}.}
+Now, for the reasons adduced above,
+\[
+\begin{aligned}
+\sum^{n'} r^{n'(n+1)} &= 0, & &\text{if } n+1 \text{ is not divisible by } 2^{\lambda-1}\text{,} \\
+&= 2^{\lambda-1} & &\text{for } n+1 \equiv 0\ (\mathrm{mod}\ 2^\lambda),\ \nu=0,\ \nu_1=1, \\
+&= -2^{\lambda-1} & &\text{for } n+1 \equiv 2^{\lambda-1}\ (\mathrm{mod}\ 2^\lambda),\ \nu=2^{\lambda-3},\ \nu_1=1,
+\end{aligned}
+\]
+and accordingly (16) gives
+\weq{17}{\begin{aligned}
+\bigl((-1)^{-\beta_1}, \Theta^{-\beta}, r\bigr)\bigl((-1)^{\beta_1}, \Theta^\beta, r\bigr) &= (-1)^{\beta_1} 2^\lambda, & \beta &\equiv 1\ (\mathrm{mod}\ 2) \\
+&= 0, & \beta &\equiv 0\ (\mathrm{mod}\ 2).
+\end{aligned}}

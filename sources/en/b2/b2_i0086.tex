@@ -1,0 +1,46 @@
+% !PRINTED 65
+\weberpage{65}
+%<<CONT
+it follows that
+\[
+g^\nu \equiv g^{\frac{1}{2}\varphi(q^\varkappa)} \ (\mathrm{mod}\ q^{\varkappa-1});
+\]
+hence $\nu \equiv \tfrac{1}{2}\varphi(q^\varkappa)\ \bigl[\mathrm{mod}\ \varphi(q^{\varkappa-1})\bigr]$, since the index of a number for the modulus $q^{\varkappa-1}$ is completely determined with respect to the modulus $\varphi(q^{\varkappa-1})$. Thus we have
+\weq{11}{\nu \equiv \tfrac{1}{2}\varphi(q^\varkappa) + \tau\varphi(q^{\varkappa-1})\ \bigl[\mathrm{mod}\ \varphi(q^\varkappa)\bigr],}
+and in this, since $\varphi(q^\varkappa) = q\,\varphi(q^{\varkappa-1})$, $\tau$ now runs, together with $t$, through a complete system of residues with respect to the modulus $q$. To the value $t=0$ corresponds the value $\tau=0$, on account of (10).
+
+But we have
+\[
+\varepsilon^{\frac{1}{2}\varphi(q^\varkappa)} = -1, \qquad \varepsilon^{\varphi(q^{\varkappa-1})} = \varrho,
+\]
+where $\varrho$ is a primitive $q$th root of unity, and hence by (11)
+\[
+\varepsilon^\nu = -\varrho^\tau,
+\]
+and accordingly there results from (8) and (9):
+\[
+(\varepsilon^{-\beta}, r)(\varepsilon^{\beta}, r) = \sum \varepsilon^{\beta\nu}\sigma_t
+\]
+\[
+= (-1)^\beta (q^\varkappa - q^{\varkappa-1}) - (-1)^\beta q^{\varkappa-1} \sum_{1,\,q-1}^{\tau} \varrho^{\tau\beta}.
+\]
+
+Now the sum $\sum\limits_{1,\,q-1}^{\tau} \varrho^{\tau\beta}$ has, when $\beta$ is not divisible by $q$, the value $-1$, and, when $\beta$ is divisible by $q$, the value $q-1$, so that one obtains the following result:
+\weq{12}{\begin{aligned}
+(\varepsilon^{-\beta}, r)(\varepsilon^{\beta}, r) &= 0, & \beta &\equiv 0\ (\mathrm{mod}\ q) \\
+&= (-1)^\beta q^\varkappa, & \beta\ \text{not} &\equiv 0\ (\mathrm{mod}\ q).
+\end{aligned}}
+
+If, then, $\beta$ is not divisible by $q$, neither of the factors $(\varepsilon^{-\beta}, r), (\varepsilon^{\beta}, r)$ can vanish; but if $\beta$ is divisible by $q$, at least one of the two factors vanishes. That they then both vanish is shown by the following direct consideration of the sum.
+
+If $\beta$ is divisible by $q$, then for every integer $t$
+\[
+\varepsilon^{\beta[\nu + t\varphi(q^{\varkappa-1})]} = \varepsilon^{\beta\nu}
+\]
+\[
+g^{t\varphi(q^{\varkappa-1})} \equiv 1 + \tau q^{\varkappa-1}\ (\mathrm{mod}\ q^\varkappa),
+\]
+in which $\tau$ now runs, together with $t$, through a complete system of residues with respect to the modulus $q$. If, then, under the assumption that $\beta$ is divisible by $q$, one replaces in (3) $\nu$ by $\nu + t\varphi(q^{\varkappa-1})$, i.\,e.\ $n$ by $n(1+\tau q^{\varkappa-1})$, it follows that
+\[
+(\varepsilon^\beta, r) = \sum^{n} \varepsilon^{\beta\nu} r^n r^{n q^{\varkappa-1}\tau}.
+\]

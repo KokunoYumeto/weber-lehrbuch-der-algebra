@@ -1,0 +1,60 @@
+% !PRINTED 44
+\weberpage{44}
+%<<CONT
+
+\begin{equation}
+\begin{aligned}
+0&=B_0^{(0)}B_0^{(n)}-B_0^{(1)}B_1^{(n)}+B_0^{(2)}B_2^{(n)}-\cdots\pm B_0^{(n)}B_n^{(n)},\\
+0&=-B_1^{(1)}B_1^{(n)}+B_1^{(2)}B_2^{(n)}-\cdots\pm B_1^{(n)}B_n^{(n)},\\
+&\cdots\\
+\pm 1&=\pm B_n^{(n)}B_n^{(n)},
+\end{aligned}
+\tag{6}
+\end{equation}
+and this system of formulas can also be written in the reversed order, using the relation $B_\nu^{(n)}=B_{n-\nu}^{(n)}$, as
+\begin{equation}
+\begin{aligned}
+1&=B_0^{(n)}B_0^{(n)},\\
+0&=B_1^{(n)}B_0^{(n)}-B_0^{(n-1)}B_1^{(n)},\\
+0&=B_2^{(n)}B_0^{(n)}-B_1^{(n-1)}B_1^{(n)}+B_0^{(n-2)}B_2^{(n)},\\
+&\cdots\\
+0&=B_n^{(n)}B_0^{(n)}-B_{n-1}^{(n-1)}B_1^{(n)}+B_{n-2}^{(n-2)}B_2^{(n)}-\cdots\pm B_0^{(0)}B_n^{(n)},
+\end{aligned}
+\tag{7}
+\end{equation}
+or, in a summarizing notation,
+\begin{equation}
+ \sum_{\nu=0}^{\mu}(-1)^\nu B_{\mu-\nu}^{(n-\nu)}B_\nu^{(n)}
+ =\begin{cases}
+ 1,&\mu=0,\\
+ 0,&\mu=1,2,\ldots,n.
+ \end{cases}
+\tag{8}
+\end{equation}
+
+
+\begin{center}
+{\large \S.\ 9.}
+
+\vspace{0.5em}
+{\large\gesperrt{Interpolation.}}
+\end{center}
+
+We shall make an application of the last obtained formulae to a problem from the theory of interpolation.
+
+\gesperrt{A whole rational function of degree $n$ is to be determined which, for $n+1$ given values of the variable $x$, has prescribed values.}
+
+Thus the problem is the determination of the $n+1$ coefficients $a_0,a_1,\ldots,a_n$ in
+\begin{equation}
+ f(x)=a_0x^n+a_1x^{n-1}+\cdots+a_{n-1}x+a_n
+\tag{1}
+\end{equation}
+from the $n+1$ equations
+\begin{equation}
+ f(\alpha_0)=A_0,\quad f(\alpha_1)=A_1,\quad \ldots,\quad f(\alpha_n)=A_n,
+\tag{2}
+\end{equation}
+when $\alpha_0,\alpha_1,\ldots,\alpha_n$ are the given values of $x$, and $A_0,A_1,\ldots,A_n$ are the corresponding values of $f(x)$.
+
+Equations (2) form a system of equations of the first degree for the unknowns $a_0,a_1,\ldots,a_n$, which in general can be solved by determinants, as we shall see in the next section. We shall later return to this problem,
+%CONT>>

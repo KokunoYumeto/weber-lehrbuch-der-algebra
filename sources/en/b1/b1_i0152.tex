@@ -1,0 +1,37 @@
+% !PRINTED 127
+\weberpage{127}
+
+\begin{center}
+{\large \S.\ 39.}
+
+\vspace{0.5em}
+{\large\gesperrt{Algorithm for the Calculation of the Roots.}}
+\end{center}
+
+The proof given in the preceding paragraph for the existence of a root of an algebraic equation, although it leaves nothing to be desired in conclusiveness, nevertheless still has the defect that it does not make clear the steps by which a root can be calculated by a convergent computational procedure. We therefore add the following considerations, intended to remedy this defect, even if only theoretically. They also give a second proof of the fundamental theorem, due in its essentials to \gesperrt{Lipschitz} (\emph{Lehrbuch der Analysis}, vol. I, \S\,61 ff.; I owe a simplification to a communication of \gesperrt{Dedekind}).
+
+If the two integral rational functions $f(x)$ and $f'(x)$ have a common divisor, then this can be found and removed by rational operations according to \S\,6. We may therefore assume that $f(x)$ and $f'(x)$ have no common divisor, that is, that they do not vanish simultaneously for any value of $x$.
+
+We now assume that the calculation of the roots has already succeeded for a function of degree $(n-1)$, and accordingly suppose $f'(x)$ resolved into linear factors. Thus, if
+\begin{equation}
+ f(x)=x^n+a_1x^{n-1}+a_2x^{n-2}+\cdots,
+\tag{1}
+\end{equation}
+then
+\begin{equation}
+ f'(x)=nx^{n-1}+(n-1)a_1x^{n-2}+\cdots
+      =n(x-\beta_1)(x-\beta_2)\cdots(x-\beta_{n-1}),
+\tag{2}
+\end{equation}
+where $\beta_1,\beta_2,\ldots,\beta_{n-1}$ are to be regarded as known numbers, some of which may also be identical. By our assumption, the absolute values
+\begin{equation}
+ |f(\beta_1)|,\ |f(\beta_2)|,\ldots, |f(\beta_{n-1})|,
+\tag{3}
+\end{equation}
+which we denote by
+\begin{equation}
+ b_1,b_2,\ldots,b_{n-1}
+\tag{4}
+\end{equation}
+are all different from zero; let the notation be so chosen that $b_1$ is the smallest among them,
+%CONT>>

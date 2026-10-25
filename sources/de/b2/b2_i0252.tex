@@ -1,0 +1,34 @@
+% !PRINTED 231
+\weberpage{231}
+%<<CONT
+und finden durch einfache Rechnung:
+\weq{3}{H = -(x_1^{20} + x_2^{20}) + 228\,(x_1^{15}x_2^5 - x_2^{15}x_1^5) - 494\,x_1^{10}x_2^{10}.}
+Die Grundform 30\textsuperscript{sten} Grades können wir als die Functionaldeterminante von $H$ und $f$ definiren. Setzen wir
+\weq{4}{T = \frac{1}{20}\,[f'(x_1)\,H'(x_2) - f'(x_2)\,H'(x_1)],}
+so findet sich
+\weq{5}{T = (x_1^{30} + x_2^{30}) + 522\,(x_1^{25}x_2^5 - x_1^5x_2^{25}) - 10005\,(x_1^{20}x_2^{10} + x_2^{20}x_1^{10}).}
+Auch zwischen diesen drei Formen besteht eine identische Relation. Um sie zu finden, setzen wir
+\[
+\lambda = x_1^{10} - x_2^{10}, \quad \mu = x_1^5 x_2^5,
+\]
+und erhalten, wenn wir bei $T$ den Factor $x_1^{10} + x_2^{10}$ herausnehmen und dann $T^2$ bilden:
+\[
+f^5 = \mu\,(\lambda + 11\mu)^5,
+\]
+\[
+H = -\lambda^2 + 228\,\lambda\mu - 496\,\mu^2,
+\]
+\[
+T^2 = (\lambda^2 + 4\mu^2)\,(\lambda^2 + 522\,\lambda\mu - 10004\,\mu^2)^2.
+\]
+Daraus erhält man durch die numerische Berechnung
+\weq{6}{T^2 + H^3 = 1728\,f^5,}
+was die gesuchte Relation ist.
+
+Da die Ikosa\"edergruppe, wie wir gesehen haben, einfach ist, so kann sie nach \S.\,40 keine relativen Invarianten haben. Daraus ergiebt sich, dass die Ikosa\"ederformen $f$, $H$, $T$ absolut ungeändert bleiben, wenn man sie den mit der Determinante $1$ dargestellten binären Ikosa\"edersubstitutionen unterwirft. Dasselbe lässt sich aber auch, ohne jene allgemeinen Sätze zu benutzen, in folgender Weise direct nachweisen.
+
+Die Relation (6) lässt sich in der Form darstellen:
+\weq{7}{\frac{T^2}{f^5} + \frac{H^3}{f^5} = 1728,}
+und die beiden Quotienten $T^2 : f^5$, $H^3 : f^5$ können wir als Functionen der einen Veränderlichen $x = x_1 : x_2$ auffassen. Wenden wir auf diese Variable eine Substitution der Ikosa\"edergruppe an, so ändern sich diese beiden Quotienten nur um constante Factoren, d. h. wenn wir
+\weq{8}{\frac{T^2}{f^5} = \Phi(x), \quad \frac{H^3}{f^5} = \Psi(x), \quad y = \frac{\alpha x + \beta}{\gamma x + \delta}}
+%CONT>>

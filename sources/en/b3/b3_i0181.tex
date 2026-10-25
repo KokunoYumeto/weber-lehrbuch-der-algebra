@@ -1,0 +1,40 @@
+% !PRINTED 160
+\weberpage{160}
+
+%<<CONT
+\[
+1 - \varkappa^2\operatorname{sn}^2(u\pm a)\operatorname{sn}^2(v\pm a) = \dfrac{\left[1-\varkappa^2\operatorname{sn}^4\left(\dfrac{u+v}{2}\pm a\right)\right]\left(1-\varkappa^2\operatorname{sn}^4\dfrac{u-v}{2}\right)}{\left[1-\varkappa^2\operatorname{sn}^2\left(\dfrac{u+v}{2}\pm a\right)\operatorname{sn}^2\!\left(\dfrac{u-v}{2}\right)\right]^2},
+\]
+from which the agreement of (9) with (7) follows.
+
+\begin{center}
+\textbf{\S\,49. \gesperrt{The transcendents of the second and third kind}\\
+\gesperrt{of Weierstrass.}}
+\end{center}
+
+It remains now to set up the transcendents of the second and
+third kind in the \gesperrt{Weierstrass} form. We reach the
+former much as in \S\,47, by twofold differentiation of
+$\log \sigma(u)$. In this way there follows from
+\weq{1}{\sigma(u) = \omega_1 e^{\frac{\eta_1 u^2}{\omega_1}} \dfrac{\vartheta_{11}\left(\dfrac{u}{\omega_1}\right)}{\vartheta_{11}'} \ [\S\,37,\,(4)],}
+\[
+\begin{aligned}
+\frac{d^2 \log \sigma(u)}{du^2} &= \frac{2\eta_1}{\omega_1} + \frac{d^2\log \vartheta_{11}\left(\dfrac{u}{\omega_1}\right)}{du^2},\\
+&= \frac{2\eta_1}{\omega_1} + \frac{1}{\omega_1^2}\frac{\vartheta_{00}''}{\vartheta_{00}} - \frac{1}{\omega_1^2}\frac{\vartheta_{11}'^2}{\vartheta_{00}^2}\frac{\vartheta_{00}^2\left(\dfrac{u}{\omega_1}\right)}{\vartheta_{11}^2\left(\dfrac{u}{\omega_1}\right)} \ [\S\,23,\,(18)]
+\end{aligned}
+\]
+and hence, if one expresses the $\vartheta$-quotient by elliptic
+functions according to \S\,42, and these by the $\wp$-function according to \S\,46:
+\[
+\frac{d^2\log\sigma(u)}{du^2} = A - \wp(u),
+\]
+in which $A$ is a constant. This constant is found, however, if
+one writes the equation, following \S\,46, (8), in this way:
+\[
+\sigma''(u)\sigma(u) - \sigma'(u)\sigma'(u) = A\sigma^2(u) - \tfrac{1}{3}\left[\sigma_{00}^2(u) + \sigma_{01}^2(u) + \sigma_{10}^2(u)\right].
+\]
+If one differentiates this twice and then sets $u=0$,
+it follows that $A=0$ [\S\,35, (12), \S\,37, (5), (7)], and we
+obtain:
+\weq{2}{\frac{d^2\log\sigma(u)}{du^2} = -\wp(u),}
+a formula which in \gesperrt{Weierstrass} serves as the definition of the $\wp$-function.

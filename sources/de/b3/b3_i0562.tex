@@ -1,0 +1,37 @@
+% !PRINTED 531
+\weberpage{531}
+
+%<<CONT
+ausführen und ergibt mit Rücksicht auf den Wert $2i\sqrt m$ von $A(\omega_1+\omega_2)$:
+\[
+\varphi_\pm(\nu) = \frac{A}{2\pi\sqrt m\,y}\,e^{2\pi i y\nu\omega},
+\]
+worin $\omega=\omega_1$ oder $=\omega_2$ zu setzen ist, je nachdem das obere oder untere Zeichen in $\varphi_\pm(\nu)$ genommen wird. Durch Ausführung der Summation nach $y$ folgt hieraus:
+\[
+\sum_{1,\infty}^{\nu}\sum_{1,\infty}^{y}\varphi_\pm(\nu) = -\frac{A}{2\pi\sqrt m}\sum_{1,\infty}^{\nu}\log\left(1-e^{2\pi i\nu\omega}\right),
+\]
+und die Summe nach $\nu$ läßt sich auf die Funktion $\eta(\omega)$ zurückführen, da nach \S\,24, (8):
+\[
+\eta(\omega) = e^{\frac{\pi i \omega}{12}}\prod_{1,\infty}^{\nu}\left(1-e^{2\pi i\nu\omega}\right)
+\]
+ist. Danach wird, immer für $s=1$,
+\[
+\sum_{1,\infty}^{\nu}\sum_{1,\infty}^{y}\varphi_\pm(\nu) = -\frac{A}{2\pi\sqrt m}\left(\log\eta(\omega) - \frac{\pi i \omega}{12}\right).
+\]
+
+Führen wir dies Resultat in (19) ein, nachdem wir dort $s=1$ gesetzt haben, so ergibt sich der Grenzwert von $Q_s$:
+\weq{26}{Q = -\frac{2\pi}{\sqrt m}\log\eta(\omega_1)\eta(\omega_2) - \frac{\pi^2}{3A}.}
+
+Hiernach erhalten wir aus (4), (25), (26) die folgende Grenzformel, deren Ableitung das Ziel dieser Betrachtung war:
+\weq{27}{\begin{aligned}
+\mathop{\mathrm{Lim}}\limits_{s=1}\sum^{x,y}\frac{1}{(Ax^2+2Bxy+Cy^2)^s} - \frac{\pi}{(s-1)\sqrt m}\\
+= -\frac{2\pi\Gamma'(1)}{\sqrt m} + \frac{\pi}{\sqrt m}\log\frac{A}{4m} - \frac{2\pi}{\sqrt m}\log\eta(\omega_1)\eta(\omega_2).
+\end{aligned}}
+
+Aus (27) ergibt sich in Übereinstimmung mit \S\,140, (5):
+\[
+\mathrm{Lim}\,(s-1)\sum^{x,y}\frac{1}{\psi^s} = \frac{\pi}{\sqrt m},
+\]
+also nur abhängig von $m$, nicht von der besonderen Form $\psi$. Verstehen wir also jetzt unter $A, 2B, C$ ganze Zahlen und lassen $\psi$ ein vollständiges Repräsentantensystem der zur Diskriminante $-4m$ gehörigen Formenklassen durchlaufen, so folgt
+\weq{28}{\mathop{\mathrm{Lim}}\limits_{s=1}(s-1)\sum^{\psi}\sum^{x,y}\frac{1}{\psi^s} = \frac{\pi h}{\sqrt m},}
+wenn $h$ die zur Diskriminante $-4m$ gehörige Klassenzahl ist.

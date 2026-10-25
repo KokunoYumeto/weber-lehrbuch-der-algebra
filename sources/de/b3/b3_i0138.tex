@@ -1,0 +1,45 @@
+% !PRINTED 117
+\weberpage{117}
+%<<CONT
+nach über in $(\alpha\beta, \gamma\delta)$, $[(\alpha+1)\beta, (\gamma+1)\delta]$, $[\alpha(\beta+1), \gamma(\delta+1)]$, $[(\alpha+1)(\beta+1)-1,\ (\gamma+1)(\delta+1)-1)=(1,1)]$.
+% [sic] bracket shapes as printed: opens with "[", closes with ")" then "=(1,1)]"
+Es bleibt also nur die letzte Charakteristik $(1,1)$ bei allen linearen Transformationen ungeändert, da weder $\alpha$ und $\beta$ noch $\gamma$ und $\delta$ zugleich gerade Zahlen sein können. Es sei also $t(u, \omega_1, \omega_2)$ eine $t$-Funktion von der Charakteristik $(1,1)$, die nach \S\,17, (12) für $u = 0$ verschwinden muß.
+
+Ist
+\[
+(\omega_1', \omega_2') = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix} (\omega_1, \omega_2),
+\]
+so sind nach unserem Transformationsprinzip
+\[
+t(u, \omega_1, \omega_2) \quad \text{und} \quad t(u, \omega_1', \omega_2')
+\]
+verwandte $T$-Funktionen erster Ordnung, und folglich ist, wenn $C$, $\lambda$, $\mu$ von $u$ unabhängige Größen sind,
+
+\weq{2}{t(u,\omega_1',\omega_2') = C e^{\lambda u^2 + \mu u} t(u,\omega_1.\omega_2).}
+% [sic] Printed period between the period arguments; mathematically expected a comma.
+Es ergibt sich hieraus durch logarithmische Differentiation
+
+\weq{3}{2\lambda u + \mu = \frac{d\log t(u,\omega_1',\omega_2')}{du} - \frac{d\log t(u,\omega_1,\omega_2)}{du}.}
+Nun ist, wenn wir nach Potenzen von $u$ nach dem \gesperrt{Taylorschen} Lehrsatz entwickeln und mit $t'$, $t''$, $t'''$ die erste, zweite, dritte Derivierte von $t$ nach $u$ für $u = 0$ bezeichnen,
+\[
+\frac{d\log t(u,\omega_1,\omega_2)}{du} = \frac{1}{u} + \frac{t''}{2t'} + u\left(\frac{t'''}{3t'} - \frac{t''^2}{4t'^2}\right) + \cdots,
+\]
+woraus sich durch Vergleichung mit (3) ergibt, daß $\lambda$ und $\mu$ in die Form gesetzt werden können:
+\[
+\begin{aligned}
+\lambda &= \varphi(\omega_1',\omega_2') - \varphi(\omega_1,\omega_2),\\
+\mu &= \psi(\omega_1',\omega_2') - \psi(\omega_1,\omega_2),
+\end{aligned}
+\]
+worin
+
+\weq{4}{\varphi(\omega_1,\omega_2) = \frac{t'''}{6t'} - \frac{t''^2}{8t'^2}, \qquad \psi(\omega_1,\omega_2) = \frac{t''}{2t'}.}
+Bestimmt man ferner noch den Faktor $C$ in (2) durch den speziellen Wert $u = 0$, so folgt
+
+\weq{5}{C = \frac{t'(\omega_1',\omega_2')}{t'(\omega_1,\omega_2)}.}
+Hiernach läßt sich die Formel (2) in folgendem Lehrsatz aussprechen:
+
+\gesperrt{Die Funktion}
+
+\weq{6}{\sigma(u,\omega_1,\omega_2) = e^{-u^2\left(\frac{t'''}{6t'} - \frac{t''^2}{8t'^2}\right) - u\,\frac{t''}{2t'}} \frac{t(u,\omega_1,\omega_2)}{t'}}
+%CONT>>

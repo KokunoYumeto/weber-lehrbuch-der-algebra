@@ -1,0 +1,48 @@
+% !PRINTED 634
+\weberpage{634}
+%<<CONT
+daher durch einige dieser Primfactoren theilbar sein, und sie können, so wenig wie $p$ selbst, durch das Quadrat eines $\mathfrak{p}_n$ theilbar sein. Wir müssen feststellen, durch welche Primtheiler $\mathfrak{p}_n$ jede dieser Zahlen $\psi_s(r)$ theilbar ist.
+
+Dazu aber führen einerseits die Congruenzen des vorigen Paragraphen:
+\weq{12}{r \equiv g^{-n\frac{p-1}{m}} \ (\mathrm{mod}\ \mathfrak{p}_{n'}), \qquad n n' \equiv 1\ (\mathrm{mod}\ m),}
+andererseits die im \S.\,170 des ersten Bandes abgeleiteten Congruenzen (17):
+\weq{13}{\begin{aligned}
+&\psi_{\lambda,\mu}(g) \equiv 0, && \lambda+\mu<p-1\\[4pt]
+&\psi_{\lambda,\mu}(g) \equiv -\dfrac{\Pi(2p-\lambda-\mu-2)}{\Pi(p-\lambda-1)\,\Pi(p-\mu-1)}, && (\mathrm{mod}\ p)\\
+&&& p-1<\lambda+\mu<2p-2,
+\end{aligned}}
+worin $\lambda$ und $\mu$ zwischen $0$ und $p-1$ genommen sind, so dass der Binominalcoëfficient % [sic] "Binominalcoëfficient" as printed; "Binomialcoëfficient" is meant
+\[
+\frac{\Pi(2p-\lambda-\mu-2)}{\Pi(p-\lambda-1)\,\Pi(p-\mu-1)}
+\]
+eine durch $p$ nicht theilbare ganze Zahl ist.
+
+Nach der Congruenz (12) ist
+\[
+\psi_s(r) \equiv \psi_s(g^{-nm'}) \equiv \sum\limits^{t} g^{-nm'\,[\mathrm{ind}\,t - (s+1)\,\mathrm{ind}\,(t+1)]},
+\]
+oder nach (6):
+\[
+\psi_s(r) \equiv \psi_{\lambda,\mu}(g) \ (\mathrm{mod}\ \mathfrak{p}_{n'}),
+\]
+wenn
+\weq{14}{\begin{aligned}
+\lambda &\ \text{den kleinsten positiven Rest von } {-}nm's\\
+\mu &\ \text{\textquotedbl\ \textquotedbl\ \textquotedbl\ \textquotedbl\ \textquotedbl}\ {-}nm'
+\end{aligned}\quad (\mathrm{mod}\ p-1)}
+bedeutet, und die Congruenzen (13) zeigen dann, dass $\psi_s(r)$ durch $\mathfrak{p}_{n'}$ theilbar ist, wenn $\lambda+\mu<p-1$, und nicht theilbar, wenn $\lambda+\mu>p-1$ ist.
+
+Da die zu $m$ theilerfremde Zahl $n$ nur nach dem Modul $m$ bestimmt ist, so nehmen wir sie jetzt \gesperrt{positiv und kleiner als $m$ an}. Dann ist
+\[
+\mu = m'(m-n).
+\]
+
+Die aus (14) bestimmte Zahl $\lambda$ ist ein Vielfaches von $m'$ und wenn wir $\lambda = m'\varkappa$ setzen, so ist
+\weq{15}{\varkappa \ \text{der kleinste positive Rest von } {-}ns \ (\mathrm{mod}\ m).}
+
+Hiernach wird $\psi_s(r)$ durch $\mathfrak{p}_{\varkappa'}$ theilbar sein, wenn
+% [sic] Source prints the index varkappa' in this sentence; the preceding derivation and following factor count indicate mathfrak p_{n'}. Preserve the printed index.
+\[
+m'(\varkappa+m-n) < m m'
+\]
+oder $\varkappa < n$, und nicht theilbar, wenn $\varkappa > n$ ist.

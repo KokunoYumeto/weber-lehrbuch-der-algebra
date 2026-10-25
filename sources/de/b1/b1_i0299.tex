@@ -1,0 +1,52 @@
+% !PRINTED 274
+\weberpage{274}
+
+Wir betrachten zunächst die sogenannten \gesperrt{Kugelfunctionen}, die in
+der mathematischen Physik und Mechanik vielfach gebraucht
+werden.
+
+Unter Kugelfunctionen versteht man ein System ganzer rationaler
+Functionen von steigendem Grade, das folgendermaassen definirt
+ist:
+\[
+\begin{array}{l}
+P_0(x) = 1 \\
+P_1(x) = x \\
+P_2(x) = \frac{3}{2}(x^2 - \frac{1}{3}) \\
+P_3(x) = \frac{5}{2}(x^3 - \frac{3}{5}x) \\
+\hbox{\quad\quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad . \quad .}
+\end{array}
+\]
+\[
+P_n(x) = \frac{1.3 \ldots (2n-1)}{1.2 \ldots n}
+\left(x^n - \frac{n(n-1)}{2(2n-1)}x^{n-2}
++ \frac{n(n-1)(n-2)(n-3)}{2.4(2n-1)(2n-3)}x^{n-4} - \cdots\right),
+\]
+so dass $P_n(x)$ eine ganze rationale Function $n^{\mathrm{ten}}$
+Grades ist, und, je nachdem $n$ gerade oder ungerade ist, nur
+die geraden oder nur die ungeraden Potenzen enthält. Durch
+Anwendung des Zeichens $\Pi(n)$ kann man den allgemeinen
+Ausdruck für die Kugelfunctionen auch so darstellen:
+\weq{1}{P_n(x) = \sum^{\mu} \frac{(-1)^\mu}{2^n}
+\frac{\Pi(2n-2\mu)x^{n-2\mu}}{\Pi(\mu)\,\Pi(n-2\mu)\,\Pi(n-\mu)},}
+worin die Summe in Bezug auf $\mu$ von $\mu = 0$ an so weit zu
+erstrecken ist, als $n - 2\mu$ nicht negativ wird.
+
+Zwischen diesen Functionen bestehen die folgenden Relationen,
+die sich nach Einsetzen des Ausdruckes (1) durch einfache
+Vergleichung der Coëfficienten gleicher Potenzen von $x$
+verificiren lassen,
+\weq{2}{\begin{aligned}
+n P_n(x) - (2n-1) x P_{n-1}(x) + (n-1) P_{n-2}(x) &= 0 \\
+P_1(x) - x P_0(x) &= 0
+\end{aligned}}
+\weq{3}{(1-x^2) P_n'(x) + n x P_n(x) - n P_{n-1}(x) = 0.}
+Aus der letzten Gleichung folgt für $x = \pm 1$
+\[
+\pm P_n(\pm 1) = P_{n-1}(\pm 1),
+\]
+also
+\weq{4}{P_n(1) = 1, \quad P_n(-1) = (-1)^n.}
+Aus (2) und (3) folgt nun, dass die Functionen $P_n$, von einem
+beliebigen $m$ an abwärts geordnet,
+%CONT>>

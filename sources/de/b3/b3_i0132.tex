@@ -1,0 +1,35 @@
+% !PRINTED 111
+\weberpage{111}
+%<<CONT
+und erhalten aus (8) (§ 21):
+\[
+C\vartheta_{10}(nu,\,n\omega) = \vartheta_{10}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{10}\left(\frac{\nu}{n} + u\right)\vartheta_{10}\left(\frac{\nu}{n} - u\right),
+\]
+
+\weq{3}{C\vartheta_{01}(nu,\,n\omega) = \vartheta_{01}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{01}\left(\frac{\nu}{n} + u\right)\vartheta_{01}\left(\frac{\nu}{n} - u\right),}
+
+\[
+C\vartheta_{00}(nu,\,n\omega) = \vartheta_{00}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{00}\left(\frac{\nu}{n} + u\right)\vartheta_{00}\left(\frac{\nu}{n} - u\right).
+\]
+Daraus aber ergibt sich für $u = 0$ nach der Formel $\vartheta_{11}' = \pi\vartheta_{00}\vartheta_{01}\vartheta_{10}$:
+
+% [sic] printed "4)" without an opening parenthesis, unlike the other numbered equations on this page
+% [sic] The source prints \vartheta_{01} twice; the third factor is mathematically expected to be \vartheta_{10}.
+\weq{4}{C \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right) = \sqrt{n}\ \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{00}\left(\frac{\nu}{n}\right)\vartheta_{01}\left(\frac{\nu}{n}\right)\vartheta_{01}\left(\frac{\nu}{n}\right),}
+
+oder mit Benutzung von (23) des vorigen Paragraphen:
+
+\weq{5}{C\,2^{\frac{n-1}{2}} \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right) = \sqrt{n}\,\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}}.}
+
+Das Vorzeichen ergibt sich aus dem Umstande, der aus einer der Formeln (3) folgt, daß $C = 1$ wird für $q = 0$.
+
+Nach dieser Bestimmung von $C$ lassen sich die Formeln (2), (3) so schreiben:
+
+\weq{6}{\sqrt{n}\,\vartheta_{11}(nu,\,n\omega)\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}} = 2^{\frac{n-1}{2}}\vartheta_{11}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right)\vartheta_{11}\left(\frac{\nu}{n}+u\right)\vartheta_{11}\left(\frac{\nu}{n}-u\right).}
+
+% [sic] The source prints \vartheta_{01} in both product factors of (7); mathematically expected \vartheta_{10} here.
+\weq{7}{\sqrt{n}\,\vartheta_{10}(nu,\,n\omega)\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}} = 2^{\frac{n-1}{2}}\vartheta_{10}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right)\vartheta_{01}\left(\frac{\nu}{n}+u\right)\vartheta_{01}\left(\frac{\nu}{n}-u\right).}
+
+\weq{8}{\sqrt{n}\,\vartheta_{01}(nu,\,n\omega)\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}} = 2^{\frac{n-1}{2}}\vartheta_{01}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right)\vartheta_{01}\left(\frac{\nu}{n}+u\right)\vartheta_{01}\left(\frac{\nu}{n}-u\right).}
+
+\weq{9}{\sqrt{n}\,\vartheta_{00}(nu,\,n\omega)\vartheta_{00}^{\frac{n-1}{2}}\vartheta_{10}^{\frac{n-1}{2}}\vartheta_{01}^{\frac{n-1}{2}} = 2^{\frac{n-1}{2}}\vartheta_{00}(u) \prod_{1,\,\frac{n-1}{2}}^{\nu} \vartheta_{11}\left(\frac{\nu}{n}\right)\vartheta_{00}\left(\frac{\nu}{n}+u\right)\vartheta_{00}\left(\frac{\nu}{n}-u\right).}

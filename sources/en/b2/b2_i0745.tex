@@ -1,0 +1,61 @@
+% !PRINTED 722
+\weberpage{722}
+
+%<<CONT
+runs through the sequence of the positive odd numbers from 1 to $\nu - 1$;
+then the odd $s$ runs through the four sequences of numbers:
+\[
+t, \quad t+\mu, \quad m-t, \quad m-t-\mu,
+\]
+and we have:
+\[
+\begin{aligned}
+\chi(t+\mu) &= -\chi(t), \\
+\chi_1(m-t) &= \chi_1(t), \qquad \chi_1(m-\mu-t) = -\chi_1(t), \\
+\chi_2(m-t) &= -\chi_2(t), \qquad \chi_2(m-\mu-t) = \chi_2(t).
+\end{aligned}
+\]
+By (12) there results from this:
+\[
+\begin{aligned}
+f(r^{t+\mu}) &= -f(r^t), \\
+f_1(r^{m-t}) &= f_1(r^t), \qquad f_1(r^{m-\mu-t}) = -f_1(r^t), \\
+f_2(r^{m-t}) &= -f_2(r^t), \qquad f_2(r^{m-\mu-t}) = f_2(r^t).
+\end{aligned}
+\]
+If accordingly we divide the sums (9) each into four parts, and use
+besides the trigonometric equation
+\[
+\sin \frac{(t+\mu)\pi}{m} = \cos \frac{t\pi}{m},
+\]
+then we obtain
+\[
+\begin{aligned}
+X_1 &= \frac{-1}{m} \sum^{t} f_1(r^t)
+\log\left(\operatorname{tg} \frac{t\pi}{m}\right)^2, \\
+X_2 &= \frac{i\pi}{m} \sum^{t} f_2(r^t).
+\end{aligned}
+\]
+In this sum we have
+\[
+\frac{t\pi}{m} < \frac{\pi}{4}, \qquad
+\operatorname{tg} \frac{t\pi}{m} > 0,
+\]
+and consequently, having regard to (12), (13), we obtain, when we put
+$\Theta^{-1}$ for $\Theta$, whereby $\chi(t)^{-1}$ passes into
+$\chi(t)$:
+\weq{15}{X_1 = -\frac{2}{m} (+1, \Theta^{-1}, r) \sum^{t} \chi_1(t)
+\log\left(\operatorname{tg} \frac{t\pi}{m}\right),}
+\weq{16}{X_2 = \frac{i\pi}{m} (-1, \Theta^{-1}, r) \sum^{t} \chi_2(t),
+\qquad 1 \leqq t \leqq \nu - 1.}
+
+\begin{center}
+\S.\,198.
+
+\gesperrt{The Class Number Factor $A$.}
+\end{center}
+
+In order now to calculate $A$ first of all, we have to substitute the
+expression (16) for $X_2$ into the first formula (8) of the preceding
+section. We can also represent this formula thus:
+\weq{1}{\pi^{\nu'} A = 2\, m^{1/4\,\nu} 2^{-\nu'} \prod X_2.}

@@ -1,0 +1,59 @@
+% !PRINTED 63
+\weberpage{63}
+%<<CONT
+über die Begrenzung des Periodenparallelogramms ausdehnt. Legt man der Einfachheit halber die Ecke $u_0$ (Fig. 1) in den Koordinatenanfangspunkt, so kann man dieses Integral so zerlegen:
+
+\[
+\begin{aligned}
+2\pi i m &= \int_0^{\omega_1} d\bigl[\log T(u) - \log T(u+\omega_2)\bigr]\\
+&\quad - \int_0^{\omega_2} d\bigl[\log T(u) - \log T(u+\omega_1)\bigr]
+\end{aligned}
+\]
+
+und nach (6) ist
+
+\[
+\begin{aligned}
+d\bigl[\log T(u) - \log T(u+\omega_2)\bigr] &= 2\pi i\,a_2,\\
+d\bigl[\log T(u) - \log T(u+\omega_1)\bigr] &= 2\pi i\,a_1.
+\end{aligned}
+\]
+
+Daraus ergibt sich
+
+\weq{10}{a_2\omega_1 - a_1\omega_2 = m.}
+
+Bezeichnen wir weiter mit $\alpha_1$, $\alpha_2$, $\ldots$, $\alpha_m$ die Nullpunkte einer $T$-Funktion im Innern eines Periodenparallelogramms, so erhalten wir aus \S\,15, 7.
+
+\[
+2\pi i \Sigma\alpha = \int u\,d\log Tu,
+\]
+
+wenn das Integral wieder über die Begrenzung des Parallelogramms erstreckt wird. Es ist aber
+
+\[
+\begin{aligned}
+\int u\,d\log Tu &= \int_0^{\omega_1} \bigl[u\,d\log Tu - (u+\omega_2)\,d\log T(u+\omega_2)\bigr]\\
+&\quad - \int_0^{\omega_2} \bigl[u\,d\log Tu - (u+\omega_1)\,d\log T(u+\omega_1)\bigr],
+\end{aligned}
+\]
+
+und das erste dieser beiden Integrale ist nach (6)
+
+\[
+\begin{aligned}
+&-\omega_2\int_0^{\omega_1} d\log T(u) + 2\pi i\,a_2\int_0^{\omega_1} (u+\omega_2)\,du\\
+&= -\omega_2\bigl[\log T(\omega_1) - \log T(0)\bigr] + \pi i\,a_2\omega_1(\omega_1+2\omega_2)\\
+&= \pi i\,\omega_2(a_1\omega_1+b_1) + \pi i\,a_2(\omega_1^2+2\omega_1\omega_2) + 2\pi i\,N_2\omega_2,
+\end{aligned}
+\]
+
+worin $N_2$ (wegen der Vieldeutigkeit des Logarithmus) eine nicht näher bestimmte ganze Zahl ist. Ebenso ergibt sich für das zweite der Integrale:
+
+\[
+-\pi i\,\omega_1(a_2\omega_2+b_2) - \pi i\,a_1(\omega_2^2+2\omega_1\omega_2) + 2\pi i\,N_1\omega_1,
+\]
+
+und folglich (als Kongruenz geschrieben)
+
+\weq{11}{\Sigma\alpha \equiv \frac{1}{2}(b_1\omega_2 - b_2\omega_1) + \frac{m}{2}(\omega_1+\omega_2).}

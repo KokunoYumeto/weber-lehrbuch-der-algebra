@@ -1,0 +1,38 @@
+% !PRINTED 88
+\weberpage{88}
+
+To obtain a system of necessary, sufficient, and mutually independent conditions, we state the question somewhat more precisely and ask for the conditions:
+
+\gesperrt{that from a system of \(m\) linear homogeneous equations with \(n\) unknowns, \(\nu\) of the unknowns can be completely determined by \(n-\nu\) which remain arbitrary.}
+
+This question too is in fact already answered in \S.\,24. Among the \(\nu\)-rowed determinants one must be different from zero, while all the \((\nu+1)\)-rowed determinants vanish. But it is already sufficient if it is known of a smaller number of the \((\nu+1)\)-rowed determinants that they vanish.
+
+Assume that the unknowns \(x_{\nu+1},x_{\nu+2},\ldots,x_n\) are to remain arbitrary, that \(x_1,x_2,\ldots,x_\nu\) are to be determined by them, and take the determinant
+\begin{equation}
+        A=\begin{vmatrix}
+        a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}\\
+        a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}\\
+        \vdots&\vdots&&\vdots\\
+        a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}
+        \end{vmatrix}
+\tag{1}
+\end{equation}
+to be different from zero. We calculate the unknowns \(x_1,x_2,\ldots,x_\nu\) according to \S.\,24, (9), and form the sums (11), whose vanishing says that the given system of equations is actually satisfied. The conditions for this are therefore:
+\begin{equation}
+\begin{vmatrix}
+        a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}&a_h^{(1)}\\
+        a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}&a_h^{(2)}\\
+        \vdots&\vdots&&\vdots&\vdots\\
+        a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}&a_h^{(\nu)}\\
+        a_1^{(k)}&a_2^{(k)}&\cdots&a_\nu^{(k)}&a_h^{(k)}
+\end{vmatrix}=0,
+\tag{2}
+\end{equation}
+or, written otherwise,
+\begin{equation}
+        A a_h^{(k)}-\sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}
+        a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)}=0,
+\tag{3}
+\end{equation}
+and these conditions are also sufficient. Equation (2) or (3), however, is identically satisfied when \(h=1,2,\ldots,\nu\), or \(k=1,2,\ldots,\nu\), and therefore gives no condition on the coefficients for these values. Such conditions arise only for
+%CONT>>

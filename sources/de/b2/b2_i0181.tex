@@ -1,0 +1,32 @@
+% !PRINTED 160
+\weberpage{160}
+
+Bezeichnen wir nämlich mit $x_1, x_2, \dots, x_n$ ein System von $n$ Veränderlichen, und mit $\alpha_1, \alpha_2, \dots \alpha_n$ irgend eine Anordnung der $n$ Ziffern $1, 2, \dots n$, so bestimmen die Gleichungen:
+\weq{1}{x_1 = x'_{\alpha_1}, \quad x_2 = x'_{\alpha_2}, \quad \dots \quad x_n = x'_{\alpha_n}}
+eine lineare Substitution $n^{\mathrm{ter}}$ Dimension:
+\weq{2}{A = \begin{pmatrix} a_1^{(1)}, & \dots & a_n^{(1)} \\ \cdot & \cdot & \cdot \\ a_1^{(n)}, & \dots & a_n^{(n)} \end{pmatrix}, \quad (x) = A(x'),}
+bei der in jeder Zeile und in jeder Colonne nur ein Coëfficient von Null verschieden ist, und dieser eine den Werth 1 hat.
+
+Die Determinante $|A|$ der Substitution ist also $= \pm 1$. Setzt man aber nach Ausführung der Substitution für $x'_i$ wieder $x_i$, so ist das Ergebniss nichts Anderes, als die Permutation
+\[
+\begin{pmatrix} 1, & 2, & \dots & n \\ \alpha_1, & \alpha_2, & \dots & \alpha_n \end{pmatrix}
+\]
+der Indices von $x$.
+
+Ist $B$ eine zweite ebenso gebildete Substitution
+\weq{3}{(x') = B(x''),}
+oder ausführlicher:
+\weq{4}{x'_1 = x''_{\beta_1}, \quad x'_2 = x''_{\beta_2}, \quad \dots, \quad x'_n = x''_{\beta_n},}
+so ergiebt die Zusammensetzung nach den Regeln des \S.\,37:
+\weq{5}{x_1 = x''_{\beta_{\alpha_1}}, \quad x_2 = x''_{\beta_{\alpha_2}}, \quad \dots \quad x_n = x''_{\beta_{\alpha_n}},}
+was abgekürzt durch
+\weq{6}{(x) = AB(x'')}
+zu bezeichnen ist.
+
+Nach Bd.\,I, \S.\,148 ist aber (nach der Zusammensetzung der Permutationen):
+\weq{7}{\begin{pmatrix} 1, & 2, & \dots & n \\ \alpha_1, & \alpha_2 & \dots & \alpha_n \end{pmatrix} \begin{pmatrix} 1, & 2, & \dots & n \\ \beta_1, & \beta_2 & \dots & \beta_n \end{pmatrix} = \begin{pmatrix} 1, & 2, & \dots & n \\ \beta_{\alpha_1}, & \beta_{\alpha_2} & \dots & \beta_{\alpha_n} \end{pmatrix}.}
+Fassen wir also die Substitutionen $A, B$ als Permutationen der Indices auf, so ist die Substitution $AB$ gleichbedeutend mit der zusammengesetzten Permutation $AB$.
+
+Die Permutationsgruppen von $n$ Ziffern sind hiernach nichts Anderes, als ein specieller Fall \gesperrt{endlicher Gruppen} linearer Substitutionen $n^{\mathrm{ter}}$ Dimension.
+
+Die Permutationen der ersten Art entsprechen Substitutionen mit der Determinante $+1$, und die Permutationen der zweiten Art Substitutionen mit der Determinante $-1$.

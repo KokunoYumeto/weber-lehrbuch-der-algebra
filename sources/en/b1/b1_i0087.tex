@@ -1,0 +1,57 @@
+% !PRINTED 62
+\weberpage{62}
+
+The function $\Phi(x,\xi)$ is called the \gesperrt{polar} of $\Phi$. It is linear and homogeneous both with respect to the $x$ and with respect to the $\xi$.
+
+It can be expressed by
+\begin{equation}
+ \Phi(x,\xi)=2\sum a_{ik}\xi_i x_k
+\tag{14}
+\end{equation}
+and satisfies the condition
+\begin{equation}
+ \Phi(x,x)=2\Phi(x).
+\tag{15}
+\end{equation}
+
+\begin{center}
+{\large \S.\ 17.}
+
+\vspace{0.5em}
+{\large\gesperrt{Euler's Theorem on Homogeneous Functions.}}
+\end{center}
+
+From the preceding developments one can easily derive a fundamental theorem on homogeneous functions, discovered by Euler and named after him.
+
+We obtain it most simply from formula (4) of the preceding paragraph if, denoting by $t$ an arbitrary variable, we put
+\begin{equation}
+ \xi_1=tx_1,\quad \xi_2=tx_2,\ldots,\quad \xi_m=tx_m
+\tag{1}
+\end{equation}
+and then apply the fundamental formula \S~15 (1) for homogeneous functions. We thus obtain first:
+\begin{equation}
+ (1+t)^n\Phi(x)
+ =
+ \sum { (tx_1)^{\alpha_1}(tx_2)^{\alpha_2}\cdots(tx_m)^{\alpha_m}
+ \over \Pi(\alpha_1)\Pi(\alpha_2)\cdots\Pi(\alpha_m)}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi.
+\tag{2}
+\end{equation}
+If one applies the binomial theorem to the left-hand side of (2) and then equates on both sides the coefficients of equal powers of $t$, one obtains for every $\nu=1,2,\ldots,n$:
+\begin{equation}
+ {\Pi(n)\over\Pi(n-\nu)}\Phi(x_1,x_2,\ldots,x_m)
+ =
+ \sum^{\alpha}
+ {\Pi(\nu)\over\Pi(\alpha_1)\Pi(\alpha_2)\cdots\Pi(\alpha_m)}
+ x_1^{\alpha_1}x_2^{\alpha_2}\cdots x_m^{\alpha_m}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi,
+\tag{3}
+\end{equation}
+where the sum is extended over all systems of values of the $\alpha$ satisfying the condition
+\begin{equation}
+ \alpha_1+\alpha_2+\cdots+\alpha_m=\nu.
+\tag{4}
+\end{equation}
+
+In this form the theorem to be proved is contained in its full generality. For the special case $\nu=1$ we obtain the formula
+%CONT>>

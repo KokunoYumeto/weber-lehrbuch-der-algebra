@@ -1,0 +1,35 @@
+% !PRINTED 171
+\weberpage{171}
+
+%<<CONT
+the roots of the equation (4), then the corresponding values of $y$ result from (5):
+\weq{7}{y_1 = \varphi(x_1), \quad y_2 = \varphi(x_2) \ldots y_n = \varphi(x_n),}
+and the product
+\weq{8}{\Phi(y) = (y - y_1)(y - y_2) \ldots (y - y_n)}
+is a \gesperrt{symmetric function of the quantities (6), which can therefore be expressed rationally in terms of the coefficients of $f(x)$.}
+
+Represented in this way, let $\Phi(y)$ have the expression
+\weq{9}{\Phi(y) = y^n + b_1 y^{n-1} + b_2 y^{n-2} + \cdots + b_{n-1} y + b_n.}
+
+The coefficients $b_\nu$ are, by \S.\,7, determined through the $y_i$ by means of the formulas
+\[
+b_1 = -\Sigma y_1, \quad b_2 = \Sigma y_1 y_2, \quad b_3 = -\Sigma y_1 y_2 y_3 \ldots,
+\]
+\gesperrt{from which it follows that $b_\nu$ is an integral rational and homogeneous function of degree $\nu$ of the variables $\alpha_0, \alpha_1 \ldots \alpha_{n-1}$.}
+
+$\Phi(y)$ is nothing other than the resultant of the two equations
+\weq{10}{f(x) = 0, \quad \varphi(x) - y = 0,}
+and by \S.\,49 one can also, conversely, express the common root of these two equations (10), when $y$ becomes equal to one of the values $y_1, y_2 \ldots y_n$, rationally in terms of the coefficients of (10), that is, rationally in terms of $a_i$, $\alpha_i$, $y$, provided that \gesperrt{only one such common root exists.}
+
+This will occur when the $n$ values $y_1, y_2 \ldots y_n$ are different from one another. One then obtains an expression
+\[
+x = \beta_0 + \beta_1 y + \beta_2 y^2 + \cdots + \beta_{n-1} y^{n-1},
+\]
+which is valid when one of the values (6) is put for $x$ and the corresponding value (7) for $y$. The quantities $\beta_i$ are composed rationally of the $a_i$ and $\alpha_i$.
+
+But if among the values $y_1, y_2 \ldots y_n$ several equal ones occur, then the determination of the corresponding values of $x$ still requires the solution of an equation of the corresponding degree. \gesperrt{This degree, however, is always smaller than $n$}, since the function $\varphi(x)$ can take the same value $y$ for at most $n-1$ values of $x$. If, then, the equation
+% [source-original mathematical caveat, confirmed 2026-08-25 against scan p. 197 / printed p. 171]
+% The assertion omits the constant-phi case, in which all n roots x_i can have the same y-value.
+% The facing translation preserves the printed claim rather than silently qualifying it.
+\weq{11}{\Phi(y) = 0}
+%CONT>>

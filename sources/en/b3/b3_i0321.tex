@@ -1,0 +1,31 @@
+% !PRINTED 300
+\weberpage{300}
+%<<CONT
+and their powers; likewise the substitutions
+\[
+\begin{pmatrix} 1, & 2 \\ 0, & 1 \end{pmatrix},\quad \begin{pmatrix} 2, & 1 \\ -1, & 0 \end{pmatrix},
+\]
+and consequently also
+\weq{6}{B = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} = \begin{pmatrix} 1, & 2 \\ 0, & 1 \end{pmatrix}\begin{pmatrix} 2, & 1 \\ -1, & 0 \end{pmatrix}.}
+But if the substitutions $A$, $B$ are contained in $\mathfrak{K}$, then by § 79 $\mathfrak{K}$ must be identical with $\mathfrak{L}_0$. We have therefore the theorem:
+
+\gesperrt{The index of a divisor of $\mathfrak{L}_0$ cannot be smaller than $p$.}
+
+Our problem is thus restricted to the question of the divisors of $\mathfrak{L}_0$ of index $p$, or of degree $\dfrac{p^2-1}{2}$.
+
+Let $\mathfrak{K}$ be such a divisor, and let $S_0, S_1, \ldots, S_{\nu-1}$ be its elements, so that the number $\nu$ has the value
+\weq{7}{\nu = \frac{p^2-1}{2}}
+.
+
+Since the degree of every element of a group is always a divisor of the degree of the group, and since $\nu$ is not divisible by $p$, \gesperrt{no} element of degree $p$ can occur in $\mathfrak{K}$; if we therefore take for $T$ the substitution of degree $p$:
+\weq{8}{A = \begin{pmatrix} 1, & 0 \\ 1, & 1 \end{pmatrix},}
+then the group $\mathfrak{L}_0$ can be decomposed into the $p$ subsidiary groups:
+\weq{9}{\mathfrak{L}_0 = \mathfrak{K},\ A\mathfrak{K},\ A^2\mathfrak{K}\ \ldots,\ A^{p-1}\mathfrak{K}.}
+Of the same degree as $\mathfrak{K}$, and hence also of the same index, are all its conjugate divisors
+\[
+T\mathfrak{K}T^{-1}.
+\]
+Now let $g$ be a primitive root of the prime $p$, and
+\weq{10}{C = \begin{pmatrix} g, & 0 \\ 0, & g^{-1} \end{pmatrix},}
+a substitution which is evidently of degree $\dfrac{p-1}{2}$. Like every substitution of $\mathfrak{L}_0$, it must occur in one of the rows (9); that is, there is a substitution $S$ in $\mathfrak{K}$ and an exponent $\lambda$ for which
+\weq{11}{C = A^\lambda S,\quad S = A^{-\lambda} C.}

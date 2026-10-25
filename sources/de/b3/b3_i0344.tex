@@ -1,0 +1,38 @@
+% !PRINTED 323
+\weberpage{323}
+
+Wenn $D$ eine Diskriminante und $n$ eine ganze rationale Zahl ist, so definieren wir ein Symbol $(D,n)$ durch folgende Bestimmungen:
+\weq{1}{(D,0)=0.}
+\weq{2}{(D,1)=1.}
+\weq{3}{\begin{aligned} (D,-1) &= +1, & D>0.\\ &= -1, & D<0. \end{aligned}}
+\weq{4}{(D,p)=0,}
+wenn $p$ ein Primteiler von $D$ ist.
+\weq{5}{(D,2)=(-1)^{\frac{D^2-1}{8}},\quad D\ \text{ungerade}.}
+\weq{6}{(D,p)=\left(\dfrac{D}{p}\right),}
+wenn $p$ eine nicht in $D$ aufgehende ungerade Primzahl ist.
+
+Zerlegt man $\pm n$ in seine Primfaktoren
+\[
+n = \pm p,\ p',\ p'',\ \dots,
+\]
+so ist
+\weq{7}{(D,n) = (D,\pm 1)(D,p)(D,p')(D,p'')\dots}
+
+Durch (1) bis (7) ist offenbar das Symbol $(D,n)$ widerspruchslos für alle Zahlen $n$ definiert, und kann nur einen der Werte $-1$, $0$, $+1$ haben. Es ist immer dann und nur dann $=0$, wenn $D$ und $n$ nicht relativ prim zueinander sind. Aus (7) ergibt sich noch:
+\weq{8}{(D,n)(D,n') = (D,nn'),}
+und wenn $Q^2$ eine Quadratzahl ist, die mit $n$ keinen gemeinsamen Teiler hat,
+\weq{9}{(Q^2D,n) = (D,n).}
+
+Die auf das Reziprozitätsgesetz bezüglichen Formeln nehmen in dieser Bezeichnungsweise eine besondere Form an. Wir betrachten zunächst die \gesperrt{Primdiskriminanten}.
+
+Ist $\pm p \equiv 1$ (mod 4), so ist nach (3), (5), (6):
+\[
+(\pm p, -1) = (-1)^{\frac{p-1}{4}} = \left(\dfrac{-1}{p}\right),
+\]
+\[
+(\pm p, 2) = (-1)^{\frac{p^2-1}{8}} = \left(\dfrac{2}{p}\right),
+\]
+\[
+(\pm p, n) = \left(\dfrac{\pm p}{n}\right) = \left(\dfrac{n}{p}\right),
+\]
+%CONT>>

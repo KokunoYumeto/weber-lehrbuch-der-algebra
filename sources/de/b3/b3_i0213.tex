@@ -1,0 +1,52 @@
+% !PRINTED 192
+\weberpage{192}
+%<<CONT
+Ersetzt man, um ein Beispiel hier ausführlicher durchzuführen,
+$v$ durch $v + K$, also $u$ durch $u + \frac{1}{2}$, so gehen $x, y, z$ nach
+\S\,44, (18) in $y/z$, $-\varkappa' x/z$, $\varkappa'/z$ über, und man erhält nach
+\S\,21, (8) aus der ersten Formel II für ein ungerades $n$:
+
+\[
+\frac{\vartheta_{00}\,\vartheta_{01}^{\,n^2-1}}{\vartheta_{10}}\,
+\frac{\vartheta_{10}(nu)}{\vartheta_{01}(u)^{n^2}}
+\left(\frac{\vartheta_{01}(u)}{\vartheta_{00}(u)}\right)^{n^2}
+= (-1)^{\frac{n-1}{2}}\,\frac{y}{z}\,A\!\left(\frac{y^2}{z^2}\right).
+\]
+Andererseits ist die linke Seite nach der zweiten Gleichung II
+und nach \S\,42 gleich
+\[
+\frac{y}{z}\left(\frac{\sqrt{\varkappa'}}{z}\right)^{n^2-1} B(x^2),
+\]
+und folglich:
+\[
+B(x^2) = (-1)^{\frac{n-1}{2}}\left(\frac{z}{\sqrt{\varkappa'}}\right)^{n^2-1} A\!\left(\frac{y^2}{z^2}\right).
+\]
+
+Setzt man darin $x = 1$, $y = 0$, $z = \varkappa'$ oder $x = 0$, $y = 1$,
+$z = 1$, so folgt:
+\[
+B(1) = (-1)^{\frac{n-1}{2}}\, n\, \sqrt{\varkappa'}^{\,n^2-1}, \qquad
+A(1) = (-1)^{\frac{n-1}{2}}\, \sqrt{\varkappa'}^{\,n^2-1}.
+\]
+Man kann ein ganzes System solcher Formeln ableiten, indem
+man in I und II folgende Substitutionen macht:
+% [source verified, 2026-08-22] At 300 dpi, the final-row denominators are
+% varkappa y and varkappa; the adjacent x/varkappa forms are distinct.
+\[
+\begin{array}{cccc}
+u, & x, & y, & z, \\[6pt]
+u+\dfrac{1}{2}, & \dfrac{y}{z}, & \dfrac{-\varkappa' x}{z}, & \dfrac{\varkappa'}{z}, \\[10pt]
+u+\dfrac{\omega}{2}, & \dfrac{1}{\varkappa x}, & \dfrac{-iz}{\varkappa x}, & \dfrac{-iy}{x}, \\[10pt]
+u+\dfrac{1+\omega}{2}, & \dfrac{z}{\varkappa y}, & \dfrac{i\varkappa'}{\varkappa}\,\dfrac{1}{y}, & \dfrac{i\varkappa' x}{y}.
+\end{array}
+\]
+So erhält man:
+\weq{4}{
+\begin{array}{ll}
+\left(\dfrac{z}{\sqrt{\varkappa'}}\right)^{n^2-4}\! A\!\left(\dfrac{y^2}{z^2}\right) = (-1)^{\frac{n}{2}-1} A(x^2), & A(1) = (-1)^{\frac{n}{2}-1}\, n\, \sqrt{\varkappa'}^{\,n^2-4}, \\[8pt]
+\left(\dfrac{z}{\sqrt{\varkappa'}}\right)^{n^2}\! B\!\left(\dfrac{y^2}{z^2}\right) = (-1)^{\frac{n}{2}} B(x^2), & B(1) = (-1)^{\frac{n}{2}}\, \sqrt{\varkappa'}^{\,n^2}, \\[8pt]
+\left(\dfrac{z}{\sqrt{\varkappa'}}\right)^{n^2}\! C\!\left(\dfrac{y^2}{z^2}\right) = C(x^2), & C(1) = \sqrt{\varkappa'}^{\,n^2}, \\[8pt]
+\left(\dfrac{z}{\sqrt{\varkappa'}}\right)^{n^2}\! D\!\left(\dfrac{y^2}{z^2}\right) = D(x^2), & D(1) = \sqrt{\varkappa'}^{\,n^2}, \\[8pt]
+& n \text{ gerade.}
+\end{array}
+}

@@ -1,0 +1,54 @@
+% !PRINTED 195
+\weberpage{195}
+%<<CONT
+$A, B, C, D$ aus dem Additionstheorem folgert. Wenn wir den Wert des
+Multiplikators $n$, zu dem diese Funktionen gehören, durch einen Index
+andeuten, so haben wir zunächst
+\weq{10}{A_1 = 1, \quad B_1 = 1, \quad C_1 = 1, \quad D_1 = 1;}
+ferner aus den Additionsformeln [\S\,44, (16), für $u = v$]:
+\weq{11}{
+\begin{aligned}
+\mathrm{sn}\,2v &= \dfrac{2\,\mathrm{sn}\,v\,\mathrm{cn}\,v\,\mathrm{dn}\,v}{1-\varkappa^2\,\mathrm{sn}^4 v}, \\
+\mathrm{cn}\,2v &= \dfrac{\mathrm{cn}^2 v - \mathrm{sn}^2 v\,\mathrm{dn}^2 v}{1-\varkappa^2\,\mathrm{sn}^4 v}, \\
+\mathrm{dn}\,2v &= \dfrac{\mathrm{dn}^2 v - \varkappa^2\,\mathrm{sn}^2 v\,\mathrm{cn}^2 v}{1-\varkappa^2\,\mathrm{sn}^4 v}.
+\end{aligned}
+}
+% [source verified, 2026-08-22] The scan distinctly prints coordinate x
+% in the x^2 and x^4 factors below, beside the separate modulus \varkappa.
+\weq{12}{
+\begin{aligned}
+A_2 &= 2, \\
+B_2 &= 1 - 2x^2 + \varkappa^2x^4, \\
+C_2 &= 1 - 2\varkappa^2x^2 + \varkappa^2x^4, \\
+D_2 &= 1 - \varkappa^2x^4.
+\end{aligned}
+}
+Wenn wir in (11) $v$ durch $nv$ ersetzen, so folgt:
+\weq{13}{
+\begin{aligned}
+A_{2n} &= 2A_nB_nC_nD_n, \\
+B_{2n} &= B_n^2D_n^2 - x^2y^2z^2A_n^2C_n^2, & n \text{ gerade,} \\
+&= y^2B_n^2D_n^2 - x^2z^2A_n^2C_n^2, & n \text{ ungerade,} \\
+C_{2n} &= C_n^2D_n^2 - \varkappa^2x^2y^2z^2A_n^2B_n^2, & n \text{ gerade,} \\
+&= z^2C_n^2D_n^2 - \varkappa^2x^2y^2A_n^2B_n^2, & n \text{ ungerade,} \\
+D_{2n} &= D_n^4 - \varkappa^2x^4y^4z^4A_n^4, & n \text{ gerade,} \\
+&= D_n^4 - \varkappa^2x^4A_n^4, & n \text{ ungerade,}
+\end{aligned}
+}
+und wenn man in den Additionsformeln des \S\,44 $u = nv$, $v = (n+1)v$ setzt:
+\weq{14}{
+\begin{aligned}
+A_{2n+1} &= y^2z^2A_nD_nB_{n+1}C_{n+1} + A_{n+1}D_{n+1}C_nB_n, & n \text{ gerade,} \\
+&= A_nD_nB_{n+1}C_{n+1} + y^2z^2A_{n+1}D_{n+1}C_nB_n, & n \text{ ungerade,} \\
+B_{2n+1} &= B_nB_{n+1}D_nD_{n+1} - x^2z^2A_nA_{n+1}C_nC_{n+1}, \\
+C_{2n+1} &= C_nC_{n+1}D_nD_{n+1} - \varkappa^2x^2y^2A_nA_{n+1}B_nB_{n+1}, \\
+D_{2n+1} &= D_n^2D_{n+1}^2 - \varkappa^2x^4y^2z^2A_n^2A_{n+1}^2.
+\end{aligned}
+}
+
+Aus diesen Formeln schließt man, \gesperrt{daß die $A$, $B$, $C$, $D$ ganze rationale
+Funktionen von $\varkappa^2$ sind, und daß die Zahlenkoeffizienten ganze rationale
+Zahlen sind.}
+
+Denn nach (10), (12) hat diese Eigenschaft für $n = 1, 2$ statt und folglich
+nach (13), (14) allgemein.

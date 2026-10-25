@@ -1,0 +1,59 @@
+% !PRINTED 737
+\weberpage{737}
+
+Hiernach ergiebt sich der Regulator $R$ des Systems (7) aus
+der Determinante:
+
+\[
+\left|
+\begin{array}{cccccccc}
+l'_{1,1}, & l'_{2,1}, & \ldots, & l'_{\nu'-1,1}, & L_{0,1}, & L_{1,1}, & \ldots, & L_{\nu'-1,1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\
+l'_{1,\nu'-1}, & l'_{2,\nu'-1}, & \ldots, & l'_{\nu'-1,\nu'-1}, & L_{0,\nu'-1}, & L_{1,\nu'-1}, & \ldots, & L_{\nu'-1,\nu'-1} \\
+l'_{1,0}, & l'_{2,0}, & \ldots, & l'_{\nu'-1,0}, & -L_{0,0}, & -L_{1,0}, & \ldots, & -L_{\nu'-1,0} \\
+l'_{1,1}, & l'_{2,1}, & \ldots, & l'_{\nu'-1,1}, & -L_{0,1}, & -L_{1,1}, & \ldots, & -L_{\nu'-1,1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots & \cdots \\
+l'_{1,\nu'-1}, & l'_{2,\nu'-1}, & \ldots, & l'_{\nu'-1,\nu'-1}, & -L_{0,\nu'-1}, & -L_{1,\nu'-1}, & \ldots, & -L_{\nu'-1,\nu'-1}
+\end{array}
+\right|.
+\]
+
+Diese Determinante hat $\nu-1$ Zeilen; wir addiren die erste
+zur $(\nu'+1)^{\mathrm{ten}}$, die zweite zur $(\nu'+2)^{\mathrm{ten}}$ u.\,s.\,f., die $(\nu'-1)^{\mathrm{te}}$ zur
+letzten. Dadurch heben sich in den letzten $(\nu'-1)$ Zeilen die
+$L$ heraus und die $l$ bekommen den Factor 2 [nach (10), (11)],
+und hieraus ergiebt sich nach einem Determinantensatze (Bd.\,I,
+\S.\,23, V.):
+\weq{12}{R = 2^{\nu'-1} E' T_0.}
+
+Da hiernach $R$ nicht verschwindet und daher in (7) ein
+System von $\nu-1$ unabhängigen Einheiten des Körpers $H_m$ vorliegt,
+so können wir [nach \S.\,186, (5)] die rationalen (ganzen
+oder gebrochenen) Zahlen $m_{i,k}$, $M_{i,k}$ aus den Gleichungen
+\weq{13}{
+\begin{aligned}
+2\, l_{i,k} & = m_{1,i}\, l'_{1,k} + \cdots + m_{\nu'-1,i}\, l'_{\nu'-1,k} \\
+& \quad + M_{0,i}\, L_{0,k} + M_{1,i}\, L_{1,k} + \cdots + M_{\nu'-1,i}\, L_{\nu'-1,k}
+\end{aligned}
+}
+
+bestimmen. Es lässt sich aber leicht durch die Relationen (10), (11)
+nachweisen, dass die Zahlen $m_{i,k}$, $M_{i,k}$ hier \gesperrt{ganze} sein müssen.
+Denn es ist
+\[
+\begin{aligned}
+l_{i,k} + l_{i,k+\nu'} & = \log \lvert \varepsilon_i(r_k)\, \varepsilon_i(-r_k) \rvert = \\
+& \quad m_{1,i}\, l'_{1,k} + \cdots + m_{\nu'-1,i}\, l'_{\nu'-1,k} \\
+l_{i,k} - l_{i,k+\nu'} & = \log \lvert \varepsilon_i(r_k)\, \varepsilon_i(-r_k)^{-1} \rvert = \\
+& \quad M_{0,i}\, L_{0,k} + M_{1,i}\, L_{1,k} + \cdots + M_{\nu'-1,i}\, L_{\nu'-1,k}.
+\end{aligned}
+\]
+
+Die Einheiten $\varepsilon_i(r)\, \varepsilon_i(-r)$ gehören aber dem Körper $H_\mu$
+an, und da die $\varepsilon'_i$ nach Voraussetzung ein Fundamentalsystem
+dieses Körpers sind, so müssen die $m_{i,k}$ nach \S.\,187 ganze rationale
+ Zahlen sein.
+
+Die Einheiten $\varepsilon_i(r)\, \varepsilon_i(-r)^{-1}$ sind Normaleinheiten des Körpers
+ $H_m$, und weil die $\mathcal{E}_i$ ein Fundamentalsystem von Normaleinheiten
+ sein sollten, so sind nach \S.\,200 die $M_{i,k}$ ganze Zahlen.

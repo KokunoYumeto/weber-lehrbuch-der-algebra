@@ -1,0 +1,28 @@
+% !PRINTED 575
+\weberpage{575}
+Da aber die Form $P$ lauter \gesperrt{rationale} Coëfficienten hat, so muss die letztere Congruenz auch nach dem Modul $p$ stattfinden, also
+\weq{18}{P(t, t_1+a_1, \ldots, t_n+a_n) \equiv P(t, t_1, \ldots, t_n) \pmod{p}.}
+Diese Congruenz besteht für variable $t, t_1, \ldots, t_n$.
+
+Nehmen wir nun an, dass, entgegen dem zu beweisenden Satze, $P(\tau)$ durch $\mathfrak p \mathfrak p_1$ theilbar sei, so besteht die Congruenz
+\weq{19}{P(\tau, t_1, \ldots, t_n) \equiv 0 \pmod{\mathfrak p \mathfrak p_1},}
+und diese bleibt richtig, wenn für die unabhängigen Variablen $t_1, t_2, \ldots, t_n$ die Substitution $t_1+a_1, t_2+a_2, \ldots, t_n+a_n$ gemacht wird, und da hierdurch $\tau$ in $\tau+\xi$ übergeht, so folgt
+\weq{20}{P(\tau+\xi, t_1+a_1, \ldots, t_n+a_n) \equiv 0 \pmod{\mathfrak p \mathfrak p_1}.}
+Machen wir andererseits in der Congruenz (18) die Substitution $t=\tau+\xi$, so folgt
+\weq{21}{P(\tau+\xi, t_1, \ldots, t_n) = P(\tau+\xi) \equiv 0 \pmod{\mathfrak p \mathfrak p_1}.}
+Nehmen wir nun zunächst an, $\mathfrak p_1$ sei von $\mathfrak p$ verschieden, dann können wir so schliessen.
+
+Wir setzen in (21) $t_1=t_2=\cdots=t_n=0$, also auch $\tau=0$. Dadurch aber geht $P(t)$ in $t^f$ über (abgesehen von Vielfachen von $p$), und es ergiebt sich aus (21)
+\[ \xi^f \equiv 0 \pmod{\mathfrak p \mathfrak p_1}, \]
+was aber der Annahme widerspricht, dass $\xi$ nicht durch $\mathfrak p_1$ theilbar sein soll.
+
+Ist aber $\mathfrak p_1 = \mathfrak p$, so ordnen wir (21) nach Potenzen von $\xi$ und erhalten
+\weq{22}{P(\tau+\xi) = P(\tau) + \xi P'(\tau) + \frac{\xi^2}{2} P''(\tau) \ldots,}
+wenn $P'(t), P''(t), \ldots$ die Derivirten von $P(t)$ sind, wobei zu beachten ist, dass die Formen
+% [sic: Weber prints $P'''(\tau)$ here although the sentence refers to derivatives of $P(t)$.]
+\[ \frac{1}{2} P''(t), \ \frac{1}{2.3} P'''(\tau) \ldots \]
+trotz der scheinbaren Nenner ganze Formen in $R$ sind. Da nun nach (19) und (21) $P(\tau+\xi)$ und $P(\tau)$ durch $\mathfrak p^2$ theilbar sind, und ebenso nach Voraussetzung $\xi^2, \xi^3, \ldots$, während $\xi$ nicht durch $\mathfrak p^2$ theilbar ist, so folgt aus (22)
+\[ P'(\tau) \equiv 0 \pmod{\mathfrak p}, \]
+woraus wegen
+\[ P(t) \equiv \Pi(t) \pmod{\mathfrak p} \]
+%CONT>>

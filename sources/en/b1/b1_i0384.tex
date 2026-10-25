@@ -1,0 +1,35 @@
+% !PRINTED 359
+\weberpage{359}
+
+%<<CONT
+congruent. Such a system of numbers we shall call a \gesperrt{complete system of residues} for the modulus $n$. Such a complete system of residues is formed, for example, when $n$ is odd, by the numbers
+\[
+\varrho = \frac{-n+1}{2}, \ \frac{-n+3}{2} \cdots -1, 0, 1, 2 \cdots \frac{n-1}{2}.
+\]
+
+The numbers $r$ are called the \gesperrt{least (or least positive) residues}, the numbers $\varrho$ the \gesperrt{absolutely least residues}.
+
+Now, in order to continue the division indicated in (1), we shall denote $m, n, r$ by $m, m_1, m_2$, and then in turn the quotient and the remainder of the division of $m_1$ by $m_2$ by $a_1, m_3$, and so forth. If, moreover, we also write $a_0$ for $a$, there results a series of equations:
+\weq{3}{
+\begin{aligned}
+m &= a_0\, m_1 + m_2\\
+m_1 &= a_1\, m_2 + m_3\\
+m_2 &= a_2\, m_3 + m_4\\
+&\ \cdots\cdots\cdots\cdots\\
+m_{\nu-1} &= a_{\nu-1}\, m_\nu + m_{\nu+1},
+\end{aligned}
+}
+which can be continued so long as none of the remainders vanishes, that is, so long as none of the divisions is exact. But because
+\[
+m_1 > m_2 > m_3 > \cdots
+\]
+it follows, since there is only a finite number of positive numbers smaller than $m_1$, that after a finite number of divisions the division must be exact. If $m_\nu$ is divisible by $m_{\nu+1}$, then $m_{\nu+1}$ is \gesperrt{the greatest common divisor of $m$ and $m_1$}.
+
+For $m_{\nu+1}$ is then, by the equations (3), a divisor of all the preceding $m_\mu$, and conversely every common divisor of two adjacent $m_\mu$ is also a divisor of all the following ones, and hence also of $m_{\nu+1}$.
+
+If therefore $m$ and $m_1$ have no common divisor other than 1 (that is, if they are \gesperrt{coprime} or \gesperrt{relatively prime}), then we must have $m_{\nu+1} = 1$, and we can represent the equations (3) as follows:
+\weq{4}{
+\frac{m}{m_1} = a_0 + \frac{m_2}{m_1}, \quad
+\frac{m_1}{m_2} = a_1 + \frac{m_3}{m_2}, \cdots
+\frac{m_{\nu-1}}{m_\nu} = a_{\nu-1} + \frac{1}{m_\nu}.
+}

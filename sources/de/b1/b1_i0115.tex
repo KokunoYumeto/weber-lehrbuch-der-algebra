@@ -1,0 +1,46 @@
+% !PRINTED 90
+\weberpage{90}
+%<<CONT
+
+\begin{equation}
+\begin{aligned}
+ a_1^{(1)}x_1+a_2^{(1)}x_2+\cdots+a_n^{(1)}x_n&=y_1,\\
+ a_1^{(2)}x_1+a_2^{(2)}x_2+\cdots+a_n^{(2)}x_n&=y_2,\\
+ &\ \vdots\\
+ a_1^{(n)}x_1+a_2^{(n)}x_2+\cdots+a_n^{(n)}x_n&=y_n.
+\end{aligned}
+\tag{1}
+\end{equation}
+worin die Coëfficienten $a_i^{(k)}$ und die unabhängigen Glieder $y_1,y_2,\ldots,y_n$ als gegeben betrachtet werden. Wir bezeichnen mit
+\begin{equation}
+ A=\sum\pm a_1^{(1)}a_2^{(2)}\cdots a_n^{(n)}
+\tag{2}
+\end{equation}
+die Determinante des Systems und wie früher mit $A_i^{(k)}$ die ersten Unterdeterminanten von $A$. Ist $k$ einer der Indices $1,2,\ldots,n$ und multipliciren wir die Gleichungen (1) der Reihe nach mit $A_k^{(1)},A_k^{(2)},\ldots,A_k^{(n)}$ und addiren sie dann, so erhalten wir
+\begin{equation}
+ x_1\sum^{i}a_1^{(i)}A_k^{(i)}+
+ x_2\sum^{i}a_2^{(i)}A_k^{(i)}+
+ \cdots+
+ x_n\sum^{i}a_n^{(i)}A_k^{(i)}
+ =\sum^{i}y_iA_k^{(i)}.
+\tag{3}
+\end{equation}
+Nach \S.\,22, (2) und (6) verschwinden hier die Coëfficienten der $x_1,x_2,\ldots,x_n$ mit Ausnahme des einen Coëfficienten von $x_k$, der den Werth $A$ erhält, und sonach ergiebt sich:
+\begin{equation}
+ A x_k=\sum^{i}y_iA_k^{(i)},
+\tag{4}
+\end{equation}
+und für den Fall, dass $A$ von Null verschieden ist, können hieraus die Werthe der Unbekannten eindeutig so berechnet werden, dass dadurch die Gleichungen (1) wirklich befriedigt sind [\S.\,23, (3), (7)]. Setzen wir $A_k^{(i)}=A\alpha_k^{(i)}$, so können wir die Lösung in der Form schreiben:
+\begin{equation}
+\begin{aligned}
+ x_1&=\alpha_1^{(1)}y_1+\alpha_1^{(2)}y_2+\cdots+\alpha_1^{(n)}y_n,\\
+ x_2&=\alpha_2^{(1)}y_1+\alpha_2^{(2)}y_2+\cdots+\alpha_2^{(n)}y_n,\\
+ &\vdots\\
+ x_n&=\alpha_n^{(1)}y_1+\alpha_n^{(2)}y_2+\cdots+\alpha_n^{(n)}y_n,
+\end{aligned}
+\tag{5}
+\end{equation}
+deren Analogie mit dem System (1) in die Augen fällt.
+
+Wenn aber $A=0$ ist, so lehren die Gleichungen (4) nichts über die Werthe der $x$, sondern sie geben nur ein System von Bedingungen an, denen die $y$ sicher genügen müssen, wenn die Gleichungen (1) überhaupt lösbar sein sollen. Um zu einem allgemein gültigen Resultat zu kommen, verfahren wir ganz ähnlich wie bei den homogenen Gleichungen. Wir nehmen an, dass ausser der Determinante $A$ auch noch alle Unterdeterminanten bis zu einer gewissen Ordnung Null sind. Wir bezeichnen eine nicht verschwindende $\nu$-reihige Unterdeterminante mit
+%CONT>>

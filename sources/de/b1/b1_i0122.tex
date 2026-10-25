@@ -1,0 +1,55 @@
+% !PRINTED 97
+\weberpage{97}
+
+Setzt man
+\[
+\Delta_\nu=\begin{vmatrix}
+ A_1^{(1)}&\cdots&A_\nu^{(1)}&A_{\nu+1}^{(1)}&\cdots&A_n^{(1)}\\
+ \cdots&&\cdots&\cdots&&\cdots\\
+ A_1^{(\nu)}&\cdots&A_\nu^{(\nu)}&A_{\nu+1}^{(\nu)}&\cdots&A_n^{(\nu)}\\
+ 0&\cdots&0&1&\cdots&0\\
+ \cdots&&\cdots&\cdots&&\cdots\\
+ 0&\cdots&0&0&\cdots&1
+\end{vmatrix},\tag{5}
+\]
+wobei $n-\nu$ Zeilen und Colonnen beigefügt sind, von denen die ersteren ausser in den Diagonalgliedern lauter Nullen haben. Bildet man jetzt das Product $A\Delta_\nu$, so folgt
+\begin{equation}
+A\Delta_\nu=
+\begin{vmatrix}
+ A&0&\cdots&0&a_{\nu+1}^{(1)}&\cdots&a_n^{(1)}\\
+ 0&A&\cdots&0&a_{\nu+1}^{(2)}&\cdots&a_n^{(2)}\\
+ \cdots&\cdots&&\cdots&\cdots&&\cdots\\
+ 0&0&\cdots&A&a_{\nu+1}^{(\nu)}&\cdots&a_n^{(\nu)}\\
+ 0&0&\cdots&0&a_{\nu+1}^{(\nu+1)}&\cdots&a_n^{(\nu+1)}\\
+ \cdots&\cdots&&\cdots&\cdots&&\cdots\\
+ 0&0&\cdots&0&a_{\nu+1}^{(n)}&\cdots&a_n^{(n)}
+\end{vmatrix},\tag{6}
+\end{equation}
+und dies ist nach dem Satz IX, §. 22
+\[
+= A^\nu
+ \begin{vmatrix}
+ a_{\nu+1}^{(\nu+1)}&\cdots&a_n^{(\nu+1)}\\
+ \cdots&&\cdots\\
+ a_{\nu+1}^{(n)}&\cdots&a_n^{(n)}
+ \end{vmatrix}.
+\]
+Dividirt man hier durch $A$ und wendet die Bezeichnung des §. 23 an, so folgt
+\begin{equation}
+ \Delta_\nu=A^{\nu-1}A_{1,2,\ldots,\nu}^{1,2,\ldots,\nu}.\tag{7}
+\end{equation}
+Für $\nu=2$ ergiebt sich das specielle Resultat
+\begin{equation}
+ A_1^{(1)}A_2^{(2)}-A_1^{(2)}A_2^{(1)}=A A_{1,2}^{1,2}.\tag{8}
+\end{equation}
+Die Formel (8) werden wir später öfter benutzen. In der Bezeichnung durch die Differentialquotienten lässt sie sich so darstellen
+\begin{equation}
+ A\frac{\partial^2A}{\partial a_1^{(1)}\partial a_2^{(2)}}
+ =\frac{\partial A}{\partial a_1^{(1)}}\frac{\partial A}{\partial a_2^{(2)}}
+ -\frac{\partial A}{\partial a_1^{(2)}}\frac{\partial A}{\partial a_2^{(1)}}.\tag{9}
+\end{equation}
+Besonders wichtig ist sie in dem Fall, wo $A$ eine symmetrische Determinante ist, wo also $a_i^{(k)}=a_k^{(i)}$ ist; dann ist auch
+\[
+ \frac{\partial A}{\partial a_1^{(2)}}=\frac{\partial A}{\partial a_2^{(1)}},
+\]
+%CONT>>

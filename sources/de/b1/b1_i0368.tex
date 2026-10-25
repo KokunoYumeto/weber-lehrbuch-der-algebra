@@ -1,0 +1,54 @@
+% !PRINTED 343
+\weberpage{343}
+Nehmen wir an, es seien
+\[
+x_1, x_2 \ldots x_k
+\]
+unter den Wurzeln $x_1, x_2 \ldots x_n$ solche, deren absolute Werthe grösser sind, als die absoluten Werthe der folgenden $x_{k+1}, x_{k+2} \ldots x_n$, und setzen
+\weq{2}{
+\begin{array}{rcl}
+p_m &=& x_1^m + x_2^m + \cdots + x_k^m\\
+p_{m+1} &=& x_1^{m+1}+x_2^{m+1}+\cdots+x_k^{m+1}\\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots&\\
+p_{m+k} &=& x_1^{m+k}+x_2^{m+k}+\cdots+x_k^{m+k},
+\end{array}
+}
+so werden, wenn wir
+\weq{3}{
+(x-x_1)(x-x_2)\ldots(x-x_k) = x^k + A_1 x^{k-1} + \cdots + A_k
+}
+setzen, die Coëfficienten $A_1, A_2 \ldots A_k$ den Gleichungen genügen
+\weq{4}{
+\begin{array}{rcl}
+p_{m+k} + p_{m+k-1}A_1 + p_{m+k-2}A_2 + \cdots + p_m A_k &=& 0\\
+p_{m+k+1} + p_{m+k}A_1 + p_{m+k-1}A_2 + \cdots + p_{m+1}A_k &=& 0\\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots&\\
+p_{m+2k-1}+p_{m+2k-2}A_1+p_{m+2k-3}A_2+\cdots+p_{m+k-1}A_k &=& 0.
+\end{array}
+}
+Wenn man den Gleichungen (4) noch die Gleichung
+\[
+x^k + A_1 x^{k-1} + A_2 x^{k-2} + \cdots + A_k = 0
+\]
+zugesellt und die $A_1, A_2 \ldots A_k$ eliminirt, so ergiebt sich die Gleichung $k^{\mathrm{ten}}$ Grades
+\[
+\left|
+\begin{array}{llll}
+x^k, & x^{k-1}, & \cdots & 1\\
+p_{m+k}, & p_{m+k-1}, & \cdots & p_m\\
+p_{m+k+1}, & p_{m+k}, & \cdots & p_{m+1}\\
+\multicolumn{4}{c}{\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots}\\
+p_{m+2k-1}, & p_{m+2k-2}, & \cdots & p_{m+k-1}
+\end{array}
+\right| = 0,
+\]
+deren Wurzeln $x_1, x_2 \ldots x_k$ sind. Die Grössen $p_m, p_{m+1} \ldots$ können aber mit um so grösserer Genauigkeit durch die entsprechenden Potenzsummen aller Wurzeln ersetzt werden, je grösser $m$ ist.
+
+So bekommt man z.\,B. für $k = 2$:
+\[
+x^2 + \frac{p_m p_{m+3} - p_{m+1}p_{m+2}}{p_{m+1}^2 - p_m p_{m+2}}\, x + \frac{p_{m+2}^2 - p_{m+1}p_{m+3}}{p_{m+1}^2 - p_m p_{m+2}} = 0,
+\]
+eine Gleichung, die man anwenden kann, wenn bei einer reellen Gleichung ein Paar conjugirter Wurzeln den absolut grössten Werth haben.
+
+Wenn man die \gesperrt{Bernoulli}'sche Methode auf die Summe der negativen Potenzen anwendet, so erhält man, wie schon be-
+%CONT>>

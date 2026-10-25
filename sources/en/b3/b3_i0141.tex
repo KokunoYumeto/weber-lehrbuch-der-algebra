@@ -1,0 +1,42 @@
+% !PRINTED 120
+\weberpage{120}
+%<<CONT
+\[
+(x_1', x_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(x_1, x_2); \quad (y_1', y_2') = \begin{pmatrix}\alpha, & \beta\\ \gamma, & \delta\end{pmatrix}(y_1, y_2),
+\]
+then also
+
+\[
+x_1 y_2 - x_2 y_1 = x_1' y_2' - x_2' y_1',
+\]
+as follows from the multiplication of the determinants. Accordingly, whatever $x_1, x_2$ may be, we have by (7), \S\,35:
+
+\weq{1}{\sigma(u + x_2\omega_1 - x_1\omega_2,\ \omega_1, \omega_2) = \sigma(u + x_2'\omega_1' - x_1'\omega_2',\ \omega_1', \omega_2').}
+This function changes in accordance with formula (11) of the preceding section when $x_1, x_2$ are altered by integers. This change can, however, be avoided if instead one considers the function
+
+\[
+e^{-2(\eta_1 x_2 - \eta_2 x_1)u}\, \frac{\sigma(u + x_2\omega_1 - x_1\omega_2)}{\sigma(x_2\omega_1 - x_1\omega_2)}
+\]
+which we shall (for the moment) denote by $\sigma(u, x_1, x_2, \omega_1, \omega_2)$. This function satisfies the conditions:
+
+\weq{2}{\sigma(u, x_1', x_2', \omega_1', \omega_2') = \sigma(u, x_1, x_2, \omega_1, \omega_2),}
+
+\weq{3}{\begin{aligned}
+\sigma(u, x_1+1, x_2, \omega_1, \omega_2) &= \sigma(u, x_1, x_2, \omega_1, \omega_2),\\
+\sigma(u, x_1, x_2+1, \omega_1, \omega_2) &= \sigma(u, x_1, x_2, \omega_1, \omega_2),
+\end{aligned}}
+
+\weq{4}{\begin{aligned}
+\sigma(u+\omega_1) &= -e^{-2\pi i x_1}\,e^{\eta_1(2u+\omega_1)}\,\sigma(u),\\
+\sigma(u+\omega_2) &= -e^{-2\pi i x_2}\,e^{\eta_2(2u+\omega_2)}\,\sigma(u),
+\end{aligned}}
+\gesperrt{and it therefore remains unchanged when $x_1$ and $x_2$ are altered by integers.}
+
+Restricting ourselves now once more to the principal characteristics, we set $(x_1, x_2) = \left(-\dfrac{1}{2}, \dfrac{1}{2}\right)$, $\left(0, \dfrac{1}{2}\right)$, $\left(-\dfrac{1}{2}, 0\right)$ and obtain in this way the following three functions:
+
+\weq{5}{\begin{aligned}
+\sigma_{00}(u) &= \sigma\left(u, -\frac{1}{2}, \frac{1}{2}, \omega_1, \omega_2\right) = e^{-(\eta_1+\eta_2)u}\,\frac{\sigma\left(u+\dfrac{\omega_1+\omega_2}{2}\right)}{\sigma\left(\dfrac{\omega_1+\omega_2}{2}\right)},\\
+\sigma_{10}(u) &= \sigma\left(u, 0, \frac{1}{2}, \omega_1, \omega_2\right) = e^{-\eta_1 u}\,\frac{\sigma\left(u+\dfrac{\omega_1}{2}\right)}{\sigma\left(\dfrac{\omega_1}{2}\right)},\\
+\sigma_{01}(u) &= \sigma\left(u, -\frac{1}{2}, 0, \omega_1, \omega_2\right) = e^{-\eta_2 u}\,\frac{\sigma\left(u+\dfrac{\omega_2}{2}\right)}{\sigma\left(\dfrac{\omega_2}{2}\right)},
+\end{aligned}}
+%CONT>>

@@ -1,0 +1,41 @@
+% !PRINTED 427
+\weberpage{427}
+Setzen wir wie in § 54, (4)
+\[
+\gamma_2(\omega) = \sqrt[3]{j(\omega)}, \quad \gamma_3(\omega) = \sqrt[2]{j(\omega)-1728},
+\]
+so ergibt sich aus § 54, (14):
+\[
+\gamma_3(i) = -\gamma_3(i), \quad \text{also} \quad \gamma_3(i) = 0.
+\]
+Es ist ferner nach derselben Formel, wenn wir
+\[
+\varrho = \frac{-1+i\sqrt{3}}{2}, \qquad \varrho+1 = \frac{-1}{\varrho}
+\]
+setzen:
+\[
+\gamma_2(\varrho+1) = e^{-\frac{2\pi i}{3}}\gamma_2(\varrho) = \gamma_2\left(-\frac{1}{\varrho}\right) = \gamma_2(\varrho),
+\]
+folglich $\gamma_2(\varrho) = 0$, und wir erhalten
+\weq{1}{\begin{aligned}
+H_3(u) &= u, & j(\varrho) &= 0, \\
+H_4(u) &= u-1728, & j(i) &= 1728.
+\end{aligned}}
+
+Es haben also die beiden Funktionen $H_3(u)$ und $H_4(u)$ ganze rationale Zahlenkoeffizienten. Diese Eigenschaft können wir nun durch vollständige Induktion allgemein für alle $H_m$ nachweisen.
+
+Zunächst bemerken wir, daß, wenn bewiesen ist, daß $H_m(u)$ \gesperrt{rationale Koeffizienten} hat, sogleich folgt, daß die Koeffizienten \gesperrt{ganze rationale Zahlen} sind (der erste $=1$). Denn diese Koeffizienten sind ganze algebraische Zahlen (nach § 115, VI.) und folglich, wenn sie rational sind, \gesperrt{ganze rationale Zahlen}. Nun betrachten wir die größten unter den Werten von $m$, die in der Gleichung (10), § 115 vorkommen; das sind
+\[
+\begin{aligned}
+m &= 4n, & x &= 1, & y &= 0, & k &= 1, \\
+m &= 4n-1, & x &= 1, & y &= \pm 1, & k &= 2.
+\end{aligned}
+\]
+
+Es enthält hiernach $F_n(u,u)$ die beiden Faktoren $H_{4n}(u)$, $H_{4n-1}(u)^2$, und sonst lauter Faktoren $H_m(u)$, in denen $m<4n-1$ ist. Nehmen wir an, daß von den letzteren schon bewiesen sei, daß sie rationale Koeffizienten haben, so folgt, daß
+\[
+H_{4n}(u)\, H_{4n-1}(u)^2 = \varPhi(u)
+\]
+rationale Koeffizienten hat, und man hat also, um $H_{4n-1}(u)$ zu finden, den größten gemeinschaftlichen Teiler von $\varPhi(u)$ und $\varPhi'(u)$ zu suchen, was durch rationale Rechnung geschieht. Damit ist aber auch $H_{4n}(u)$ auf rationalem Wege gefunden, und da $H_3(u)$ und $H_4(u)$ rationale Koeffizienten haben, so folgt allgemein:
+
+VII. \gesperrt{Die Klassenfunktionen $H_m(u)$ haben ganze rationale Zahlenkoeffizienten.}

@@ -1,0 +1,59 @@
+% !PRINTED 63
+\weberpage{63}
+%<<CONT
+extends over the boundary of the period parallelogram. If, for the sake of simplicity, we place the vertex $u_0$ (Fig. 1) at the origin of coordinates, this integral can be decomposed as follows:
+
+\[
+\begin{aligned}
+2\pi i m &= \int_0^{\omega_1} d\bigl[\log T(u) - \log T(u+\omega_2)\bigr]\\
+&\quad - \int_0^{\omega_2} d\bigl[\log T(u) - \log T(u+\omega_1)\bigr]
+\end{aligned}
+\]
+
+and by (6) we have
+
+\[
+\begin{aligned}
+d\bigl[\log T(u) - \log T(u+\omega_2)\bigr] &= 2\pi i\,a_2,\\
+d\bigl[\log T(u) - \log T(u+\omega_1)\bigr] &= 2\pi i\,a_1.
+\end{aligned}
+\]
+
+From this there results
+
+\weq{10}{a_2\omega_1 - a_1\omega_2 = m.}
+
+If we denote further by $\alpha_1$, $\alpha_2$, $\ldots$, $\alpha_m$ the zero points of a $T$-function in the interior of a period parallelogram, we obtain from \S\,15, 7.
+
+\[
+2\pi i \Sigma\alpha = \int u\,d\log Tu,
+\]
+
+if the integral is again extended over the boundary of the parallelogram. But we have
+
+\[
+\begin{aligned}
+\int u\,d\log Tu &= \int_0^{\omega_1} \bigl[u\,d\log Tu - (u+\omega_2)\,d\log T(u+\omega_2)\bigr]\\
+&\quad - \int_0^{\omega_2} \bigl[u\,d\log Tu - (u+\omega_1)\,d\log T(u+\omega_1)\bigr],
+\end{aligned}
+\]
+
+and the first of these two integrals is, by (6),
+
+\[
+\begin{aligned}
+&-\omega_2\int_0^{\omega_1} d\log T(u) + 2\pi i\,a_2\int_0^{\omega_1} (u+\omega_2)\,du\\
+&= -\omega_2\bigl[\log T(\omega_1) - \log T(0)\bigr] + \pi i\,a_2\omega_1(\omega_1+2\omega_2)\\
+&= \pi i\,\omega_2(a_1\omega_1+b_1) + \pi i\,a_2(\omega_1^2+2\omega_1\omega_2) + 2\pi i\,N_2\omega_2,
+\end{aligned}
+\]
+
+in which $N_2$ is (because of the many-valuedness of the logarithm) an integer not more closely determined. In the same way there results for the second of the integrals:
+
+\[
+-\pi i\,\omega_1(a_2\omega_2+b_2) - \pi i\,a_1(\omega_2^2+2\omega_1\omega_2) + 2\pi i\,N_1\omega_1,
+\]
+
+and consequently (written as a congruence)
+
+\weq{11}{\Sigma\alpha \equiv \frac{1}{2}(b_1\omega_2 - b_2\omega_1) + \frac{m}{2}(\omega_1+\omega_2).}

@@ -1,0 +1,47 @@
+% !PRINTED 85
+\weberpage{85}
+%<<CONT
+determine the factor $Q$. One obtains first
+\[
+1 = Q^2\prod^{\nu}\frac{(1-q^{2\nu-1})^2(1+q^{2\nu-1})^2(1+q^{2\nu})^2}{(1-q^{2\nu})^2},
+\]
+or, by disposing of the still undetermined sign of $Q$ and thereby of the \gesperrt{signs} of the
+$\vartheta$-functions:
+\[
+Q = \prod_{1,\infty}^{\nu}\frac{(1-q^{2\nu})}{(1+q^{2\nu})(1+q^{2\nu-1})(1-q^{2\nu-1})}.
+\]
+In the denominator one may put $\prod(1+q^{\nu})$ in place of $\prod(1+q^{2\nu})(1+q^{2\nu-1})$,
+and the numerator $\prod(1-q^{2\nu})$ can be decomposed into
+\[
+\prod(1-q^{\nu})(1+q^{\nu}) = \prod(1-q^{2\nu})(1-q^{2\nu-1})(1+q^{\nu}).
+\]
+In this way there results finally
+\weq{6}{Q = \prod^{\nu}(1 - q^{2\nu}).}
+The expressions (1), (2), (3), (4) can be represented in real form if one carries out the
+multiplication of the conjugate imaginary factors. One thus obtains:
+\weq{7}{\begin{gathered}
+\vartheta_{00}(v) = \prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 + 2q^{2\nu-1}\cos 2\pi v + q^{4\nu-2}),\\
+\vartheta_{01}(v) = \prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 - 2q^{2\nu-1}\cos 2\pi v + q^{4\nu-1}),\\
+% [sic] German source prints exponent 4\nu-1; mathematically expected 4\nu-2.
+\vartheta_{10}(v) = 2q^{\frac{1}{4}}\cos\pi v\prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 + 2q^{2\nu}\cos 2\pi v + q^{4\nu}),\\
+\vartheta_{11}(v) = 2q^{\frac{1}{4}}\sin\pi v\prod_{1,\infty}^{\nu}(1 - q^{2\nu})(1 - 2q^{2\nu}\cos 2\pi v + q^{4\nu}).
+\end{gathered}}
+If we introduce the expression (6) into the last equation (5), there results
+\[
+\vartheta_{11}' = 2\pi q^{\frac{1}{4}}\prod(1 - q^{2\nu})^3,
+\]
+and if we therefore put
+\weq{8}{\eta(\omega) = q^{\frac{1}{12}}\prod(1 - q^{2\nu})}
+then we have
+\weq{9}{\vartheta_{11}' = 2\pi\eta(\omega)^3.}
+By eliminating $Q$ with the help of the relation
+\[
+Q = q^{-\frac{1}{12}}\eta(\omega)
+\]
+from (5), we set
+\weq{10}{\begin{gathered}
+\vartheta_{00} = \eta(\omega)f(\omega)^2,\\
+\vartheta_{01} = \eta(\omega)f_1(\omega)^2,\\
+\vartheta_{10} = \eta(\omega)f_2(\omega)^2,
+\end{gathered}}
+%CONT>>

@@ -1,0 +1,71 @@
+% !PRINTED 60
+\weberpage{60}
+%<<CONT
+
+\[
+ \alpha_1+\alpha_2+\cdots+\alpha_m=\nu,
+\]
+the \gesperrt{derivatives of order $\nu$ of the function $\Phi$}.
+
+They are also written, according to the notation usual in differential calculus, as
+\begin{equation}
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}\Phi
+ =
+ {\partial^\nu\Phi\over
+ \partial x_1^{\alpha_1}\partial x_2^{\alpha_2}\cdots\partial x_m^{\alpha_m}}.
+\tag{5}
+\end{equation}
+
+The law of formation of the derivatives can be summarized in the following propositions, where for brevity we omit the indices on the symbol $D$.
+
+\gesperrt{I. If $C$ is a constant, then}
+\[
+ D(C\Phi)=CD\Phi.
+\]
+\gesperrt{II. If $\Phi$ and $\Psi$ are any two functions, then}
+\[
+ D(\Phi+\Psi)=D\Phi+D\Psi.
+\]
+Both follow immediately from (4).
+
+Thus we can easily form the derived functions in general if we know them for the special case in which $\Phi$ is a product of powers, that is, if we know
+\[
+ D_{\alpha_1,\alpha_2,\ldots,\alpha_m}(x_1^{\mu_1}x_2^{\mu_2}\cdots x_m^{\mu_m}),
+\]
+where the $\mu$ are arbitrary non-negative exponents.
+
+But
+\[
+ (x_1+\xi_1)^{\mu_1}
+ =\sum^{\alpha_1}{\Pi(\mu_1)\over\Pi(\alpha_1)\Pi(\mu_1-\alpha_1)}
+ \xi_1^{\alpha_1}x_1^{\mu_1-\alpha_1},
+\]
+and therefore
+\begin{equation}
+\begin{aligned}
+&(x_1+\xi_1)^{\mu_1}\cdots(x_m+\xi_m)^{\mu_m}\\
+&=\sum^{\alpha_1\ldots\alpha_m}
+ {\Pi(\mu_1)\cdots\Pi(\mu_m)x_1^{\mu_1-\alpha_1}\cdots x_m^{\mu_m-\alpha_m}
+ \over
+ \Pi(\mu_1-\alpha_1)\cdots\Pi(\mu_m-\alpha_m)\Pi(\alpha_1)\cdots\Pi(\alpha_m)}
+ \xi_1^{\alpha_1}\cdots\xi_m^{\alpha_m}.
+\end{aligned}
+\tag{6}
+\end{equation}
+Comparison with (4) and (6) therefore gives
+\begin{equation}
+\begin{aligned}
+&D_{\alpha_1,\ldots,\alpha_m}(x_1^{\mu_1}\cdots x_m^{\mu_m})\\
+&\quad =
+{\Pi(\mu_1)\cdots\Pi(\mu_m)\over
+ \Pi(\mu_1-\alpha_1)\cdots\Pi(\mu_m-\alpha_m)}
+ x_1^{\mu_1-\alpha_1}\cdots x_m^{\mu_m-\alpha_m},
+\end{aligned}
+\tag{7}
+\end{equation}
+as long as $\alpha_1\leq\mu_1,\ldots,\alpha_m\leq\mu_m$. On the other hand,
+\begin{equation}
+ D_{\alpha_1,\ldots,\alpha_m}(x_1^{\mu_1}\cdots x_m^{\mu_m})=0,
+\tag{8}
+\end{equation}
+as soon as one of the indices $\alpha$ is greater than the corresponding exponent $\mu$.

@@ -1,0 +1,62 @@
+% !PRINTED 694
+\weberpage{694}
+\gesperrt{Dies ist das Abelsche Theorem für die Differentialquotienten
+ erster Gattung.}
+
+Um zu zeigen, daß diese Forderung über die $y_i$ für die Erfüllung
+ von b) auch genügt, betrachten wir die Funktionen in $\Omega$
+als Funktionen von $z' = 1:z$. Für diese bildet
+\[
+\lambda_1' = z'^{r_1}\lambda_1,\quad \lambda_2' = z'^{r_2}\lambda_2,\quad \ldots,\quad \lambda_n' = z'^{r_n}\lambda_n
+\]
+nach § 193, 6. eine Minimalbasis, und
+\[
+\mu_1' = z^{r_1}\mu_1,\quad \mu_2' = z^{r_2}\mu_2,\quad \ldots,\quad \mu_n' = z^{r_n}\mu_n
+\]
+ist nach (10) die dazu komplementäre Basis. Folglich ist $z'\mu' = 0$
+für $z' = 0$ [nach a), auf $z'$ angewandt], also
+\[
+z^{r_i-1}\mu_i = 0,
+\]
+\[
+zy_i\mu_i = \frac{y_i}{z^{i-2}}z^{r_i-1}\mu_i = 0 \text{ für } z = \infty, % [sic] printed with dropped r in denominator exponent; expected r_i-2
+\]
+wenn der Grad von $y_i$ nicht höher als $(r_i-1)$ ist. % [sic] printed bound is $r_i-1$; the preceding and following derivation require $r_i-2$
+
+Damit ist nachgewiesen, daß alle in der Form (19) enthaltenen
+ Funktionen, in denen die $y_i$ ganze rationale Funktionen
+von $z$, höchstens vom Grade $r_i-2$ sind, Differentialquotienten
+erster Gattung sind, und daß auch umgekehrt in dieser Form
+alle Differentialquotienten erster Gattung darstellbar sind, und
+es folgt der Hauptsatz:
+
+1. \gesperrt{Die Klasse der Differentiale erster Gattung
+ist von der Dimension}
+\[
+(O,W) = (r_2-1)+(r_3-1)+\cdots+(r_n-1) = p.
+\]
+
+Hieraus ergibt sich noch folgendes: Ist $A$ eine beliebige
+Polygonklasse von der Ordnung $a$ und $W$ die Hauptklasse erster
+Gattung, so ist nach § 192, (14):
+\[
+(A, W) \mathrel{\underset{>}{=}} (O, W) - a = p - a, % source prints equality bars over a greater-than wedge
+\]
+also, wenn $a \mathrel{\underset{<}{=}} p - 1$ ist: % source prints equality bars over a less-than wedge
+\[
+(A, W) \mathrel{\underset{>}{=}} 1. % source prints equality bars over a greater-than wedge
+\]
+
+Es gibt also, wenn $a$ kleiner als $p$ ist, immer Polygone erster
+Gattung, die durch $\mathfrak{A}$ teilbar sind, und daraus folgt:
+
+2. \gesperrt{Jedes Polygon von $(p-1)$ter und niedrigerer
+Ordnung ist von der ersten Gattung.}
+
+Nach § 192, 5. kann man, wenn $m$ nicht größer als $p$ ist,
+ein $m$-Eck $\mathfrak{M}$ so wählen, daß, wenn $M$ die durch $\mathfrak{M}$ bestimmte
+Klasse ist,
+\[
+(M, W) = p - m
+\]
+%CONT>>

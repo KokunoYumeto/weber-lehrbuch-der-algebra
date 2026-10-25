@@ -1,0 +1,43 @@
+% !PRINTED 30
+\weberpage{30}
+\begin{center}
+\S\,8. \textbf{\gesperrt{Das Jacobische Transformationsprinzip.}}
+\end{center}
+
+Die \gesperrt{Jacobische} Transformationstheorie stellt sich im allgemeinen die
+Aufgabe, ein elliptisches Differential durch eine algebraische
+Substitution auf ein anderes elliptisches Differential zurückzuführen.
+Indem wir hier die Grundlagen dieser Theorie auseinandersetzen, bedienen
+wir uns der Darstellung des elliptischen Differentials in homogenen
+Variablen [\S\,1, (4)]:
+\weq{1}{\frac{x\,dy - y\,dx}{\sqrt{f(x,y)}}\,,}
+und substituieren darin für $x,y$ zwei teilerfremde ganze homogene
+Funktionen gleichen, aber beliebigen Grades $n$ zweier neuer Variablen
+$\xi,\eta$:
+\weq{2}{x = U(\xi,\eta), \qquad y = V(\xi,\eta).}
+Aus den Gleichungen
+\[
+\begin{aligned}
+nU &= \xi\,\frac{\partial U}{\partial \xi} + \eta\,\frac{\partial U}{\partial \eta}, &
+dU &= d\xi\,\frac{\partial U}{\partial \xi} + d\eta\,\frac{\partial U}{\partial \eta},\\
+nV &= \xi\,\frac{\partial V}{\partial \xi} + \eta\,\frac{\partial V}{\partial \eta}, &
+dV &= d\xi\,\frac{\partial V}{\partial \xi} + d\xi\,\frac{\partial V}{\partial \eta} % [sic] second differential printed d\xi; the total differential requires d\eta
+\end{aligned}
+\]
+folgt sodann
+\weq{3}{U\,dV - V\,dU = H(\xi\,d\eta - \eta\,d\xi),}
+wenn $H$ die Funktionaldeterminante
+\weq{4}{H = \frac{1}{n}\left(\frac{\partial U}{\partial \xi}\frac{\partial V}{\partial \eta} - \frac{\partial V}{\partial \xi}\frac{\partial U}{\partial \eta}\right)}
+bedeutet.
+
+Danach geht das elliptische Differential (1) in das folgende über:
+\weq{5}{H\,\frac{\xi\,d\eta - \eta\,d\xi}{\sqrt{f(U,V)}}\,.}
+Damit nun dieses Differential wieder die Form eines elliptischen erhält,
+ist erforderlich, daß von der Funktion $f(U,V)$, deren Grad der $4n$te
+ist, sich ein quadratischer Faktor $T^2$ vom Grade $4n-4$ absondern
+lasse, also, wenn $\varphi(\xi,\eta)$ eine Funktion vierten Grades
+bedeutet, daß
+\weq{6}{f(U,V) = T^2\,\varphi(\xi,\eta)}
+werde, wodurch, wenn
+\weq{7}{\frac{T}{H} = M}
+%CONT>>

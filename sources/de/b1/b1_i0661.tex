@@ -1,0 +1,62 @@
+% !PRINTED 636
+\weberpage{636}
+%<<CONT
+erheben und dann alles multipliciren, und wenn wir noch beachten, dass
+$\varepsilon^{g^{n-1}} = \varepsilon$ ist, so heben sich im Product der
+linken Seite der Gleichungen (5) alle Resolventen mit Ausnahme von
+$(\varepsilon, x)$ heraus, und es folgt
+
+\weq{8}{(\varepsilon, x)^{1-g^{n-1}} = f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+Bezeichnen wir nun mit $\lambda$ einen noch unbestimmten ganzzahligen
+Exponenten, so leiten wir aus (8) die folgende Relation her:
+
+\weq{9}{(\varepsilon^\lambda, x)^n = \left[ (\varepsilon, x)^{\frac{g^{n-1}-1}{n}} (\varepsilon^\lambda, x) \right]^n f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+Verstehen wir unter $g_1$ irgend eine feste primitive Wurzel von $n$, so
+können wir $g = g_1 + l n$ setzen, worin $l$ eine beliebige ganze Zahl
+bedeutet, da ja die primitiven Wurzeln nur bis auf Vielfache von $n$
+definirt sind. Dann ist
+
+\[
+g^{n-1} \equiv g_1^{n-1} + n(n-1) l g_1^{n-2} \pmod{n^2},
+\]
+
+woraus
+
+\[
+\frac{g^{n-1}-1}{n} \equiv \frac{g_1^{n-1}-1}{n} - l g^{n-2} \pmod{n},
+\]
+
+und $l$ lässt sich so bestimmen, dass
+
+\[
+\frac{g^{n-1}-1}{n} \equiv 1 \pmod{n}
+\]
+
+wird.
+
+In (9) setzen wir nun unter dieser Voraussetzung
+
+\weq{10}{\lambda = \frac{g^{n-1}-1}{n} \equiv 1 \pmod{n},}
+
+und wie in (4)
+
+\weq{11}{F(\varepsilon) = (\varepsilon^\lambda, x)(\varepsilon, x)^{-\lambda} = (\varepsilon, x)^{nk},}
+
+worin $\varepsilon^\lambda = \varepsilon$ und $1 - \lambda$, was durch $n$
+theilbar ist, $= nk$ gesetzt ist. Daraus erhalten wir
+
+\weq{12}{(\varepsilon, x)^n = [F(\varepsilon)]^n f_0^{g^{n-2}} f_1^{g^{n-3}} \cdots f_{n-2}.}
+
+Diese Formeln lassen sich verallgemeinern, wenn man beachtet, dass die
+Functionen $f_0, f_1 \ldots f_{n-2}$ eine cyklische Permutation erleiden,
+wenn die Substitution $(\varepsilon, \varepsilon^g)$ ausgeführt wird.
+Setzen wir also fest, dass $f_h = f_k$ sein soll, wenn $h \equiv k
+\pmod{n-1}$ ist, und setzen
+
+\weq{13}{F(\varepsilon^{g^\nu}) = F_\nu = (\varepsilon^{g^\nu}, x)^{nk},}
+
+so ergiebt die Substitution $(\varepsilon, \varepsilon^{g^\nu})$ in (12)
+
+\weq{14}{(\varepsilon^{g^\nu}, x)^n = F_\nu^n f_\nu^{g^{n-2}} f_{\nu+1}^{g^{n-3}} \cdots f_{\nu+n-2}.}

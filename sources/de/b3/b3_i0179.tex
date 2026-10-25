@@ -1,0 +1,54 @@
+% !PRINTED 158
+\weberpage{158}
+
+%<<CONT
+schiedenen Formen gibt, die nur mühsam aufeinander zurückführbar
+ sind. Zunächst erhalten wir aus der Definition (1),
+wenn wir den Parameter jetzt mit $a$ bezeichnen:
+
+\weq{6}{\begin{aligned}
+&\Pi(u+v,a)-\Pi(u,a)-\Pi(v,a)\\
+&\qquad = \dfrac{1}{2}\log\dfrac{\Theta(u+v-a)}{\Theta(u+v+a)}\,\dfrac{\Theta(u+a)\,\Theta(v+a)}{\Theta(u-a)\,\Theta(v-a)},
+\end{aligned}}
+
+und es handelt sich noch darum, den unter dem Logarithmus
+stehenden Ausdruck durch elliptische Funktionen darzustellen.
+
+Dies geschieht zunächst leicht, wie an der erwähnten Stelle
+der Fundamenta, mittels der Formel [§ 43, (11)]:
+
+\[
+\Theta^2(0)\,\Theta(u+v)\,\Theta(u-v) = \Theta^2(u)\,\Theta^2(v)\,[1-\varkappa^2\,\mathrm{sn}^2u\,\mathrm{sn}^2v],
+\]
+
+wenn man darin für $u,v$ setzt $u\pm a$, $v\pm a$, dann $\pm a$,
+$u+v\pm a$.
+
+Man erhält so:
+
+\[
+\begin{aligned}
+\Theta^2(0)\,\Theta(u+v\pm 2a)\,\Theta(u-v) &= \Theta^2(u\pm a)\,\Theta^2(v\pm a)\,[1-\varkappa^2\,\mathrm{sn}^2(u\pm a)\,\mathrm{sn}^2(v\pm a)],\\
+\Theta^2(0)\,\Theta(u+v\pm 2a)\,\Theta(u+v) &= \Theta^2(a)\,\Theta^2(u+v\pm a)\,[1-\varkappa^2\,\mathrm{sn}^2a\,\mathrm{sn}^2(u+v\pm a)],
+\end{aligned}
+\]
+
+woraus folgt:
+
+\weq{7}{\dfrac{\Theta(u+v-a)\,\Theta(u+a)\,\Theta(v+a)}{\Theta(u+v+a)\,\Theta(u-a)\,\Theta(v-a)} = \sqrt{\dfrac{[1-\varkappa^2\,\mathrm{sn}^2(u-a)\,\mathrm{sn}^2(v-a)]\,[1-\varkappa^2\,\mathrm{sn}^2a\,\mathrm{sn}^2(u+v+a)]}{[1-\varkappa^2\,\mathrm{sn}^2(u+a)\,\mathrm{sn}^2(v+a)]\,[1-\varkappa^2\,\mathrm{sn}^2a\,\mathrm{sn}^2(u+v-a)]}}.}
+
+Einen zweiten Ausdruck erhält man aus der Additionsformel
+(13), § 22, die man so darstellen kann:
+
+\[
+\Theta(0)\,\Theta(u\pm a)\,\Theta(v\pm a)\,\Theta(u+v) = \Theta(u)\,\Theta(v)\,\Theta(a)\,\Theta(u+v\pm a)\,[1\pm\varkappa^2\,\mathrm{sn}\,a\,\mathrm{sn}\,u\,\mathrm{sn}\,v\,\mathrm{sn}(u+v\pm a)],
+\]
+
+woraus durch Division:
+
+\weq{8}{\dfrac{\Theta(u+v-a)\,\Theta(u+a)\,\Theta(v+a)}{\Theta(u+v+a)\,\Theta(u-a)\,\Theta(v-a)} = \dfrac{1+\varkappa^2\,\mathrm{sn}\,a\,\mathrm{sn}\,u\,\mathrm{sn}\,v\,\mathrm{sn}(u+v+a)}{1-\varkappa^2\,\mathrm{sn}\,a\,\mathrm{sn}\,u\,\mathrm{sn}\,v\,\mathrm{sn}(u+v-a)}.}
+
+\gesperrt{Jacobi} gibt noch einen dritten Ausdruck für die
+$\Theta$-Quotienten in (6):
+
+\weq{9}{\dfrac{\left\{1-\varkappa^2\,\mathrm{sn}^2\!\left(\dfrac{u-v}{2}\right)\mathrm{sn}^2\!\left(\dfrac{u+v}{2}+a\right)\right\}\left\{1-\varkappa^2\,\mathrm{sn}^2\!\left(\dfrac{u+v}{2}\right)\mathrm{sn}^2\!\left(\dfrac{u+v}{2}-a\right)\right\}}{\left\{1-\varkappa^2\,\mathrm{sn}^2\!\left(\dfrac{u-v}{2}\right)\mathrm{sn}^2\!\left(\dfrac{u+v}{2}-a\right)\right\}\left\{1-\varkappa^2\,\mathrm{sn}^2\!\left(\dfrac{u+v}{2}\right)\mathrm{sn}^2\!\left(\dfrac{u+v}{2}+a\right)\right\}}.}

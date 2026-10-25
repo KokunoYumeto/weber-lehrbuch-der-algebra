@@ -1,0 +1,64 @@
+% !PRINTED 75
+\weberpage{75}
+%<<CONT
+
+\gesperrt{to the product of this one element and the corresponding subdeterminant.}
+
+For if \(a_\nu^{(1)},a_\nu^{(2)},\ldots,a_\nu^{(n)}\), with the exception of \(a_\nu^{(\mu)}\), vanish, then by (2)
+\[
+ A=a_\nu^{(\mu)}A_\nu^{(\mu)}.
+\]
+The value of \(A\) is then wholly independent of the \(a_1^{(\mu)},a_2^{(\mu)},\ldots,a_n^{(\mu)}\) with the exception of \(a_\nu^{(\mu)}\).
+
+To make an application of these theorems, we determine the value of the determinant
+\[
+ \Delta=
+ \begin{vmatrix}
+ 1&a&a^2\\
+ 1&b&b^2\\
+ 1&c&c^2
+ \end{vmatrix},
+\]
+where \(a,b,c\) are arbitrary quantities. If we multiply the second column by \(a\) and subtract it from the third, then multiply the first by \(a\) and subtract it from the second, then by VII
+\[
+ \Delta=
+ \begin{vmatrix}
+ 1&0&0\\
+ 1&b-a&b(b-a)\\
+ 1&c-a&c(c-a)
+ \end{vmatrix},
+\]
+and by IX
+\[
+ \Delta=
+ \begin{vmatrix}
+ b-a&b(b-a)\\
+ c-a&c(c-a)
+ \end{vmatrix},
+\]
+and finally by VIII
+\begin{equation}
+ \Delta=(b-a)(c-a)
+ \begin{vmatrix}
+ 1&b\\
+ 1&c
+ \end{vmatrix}
+ =(b-a)(c-a)(c-b).
+\tag{10}
+\end{equation}
+
+In the same way one can also treat the \(n\)-rowed determinant
+\[
+\begin{vmatrix}
+1&a_1&a_1^2&\cdots&a_1^{n-1}\\
+1&a_2&a_2^2&\cdots&a_2^{n-1}\\
+\vdots&\vdots&\vdots&&\vdots\\
+1&a_n&a_n^2&\cdots&a_n^{n-1}
+\end{vmatrix}
+\]
+and finds its value equal to
+\begin{equation}
+ (a_2-a_1)(a_3-a_1)\cdots(a_n-a_1)
+ (a_3-a_2)\cdots(a_n-a_2)\cdots(a_n-a_{n-1}).
+\tag{11}
+\end{equation}

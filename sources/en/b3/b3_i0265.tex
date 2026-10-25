@@ -1,0 +1,36 @@
+% !PRINTED 244
+\weberpage{244}
+%<<CONT
+where $c_{h,k}$ are the coefficients to be determined, which by 3. satisfy the condition
+\[
+c_{h,k} = c_{k,h}\text{.}
+\]
+To determine them, we set in (29)
+\[
+x = u, \quad y = v,
+\]
+whereby $F_p$ vanishes, and obtain
+\weq{30}{(u^p - v)(u - v^p) = \sum^{h,k} c_{h,k} u^h v^k.}
+From this it follows first of all that
+\[
+c_{p,p} = 0
+\]
+must hold, since by (28), in the development (of the left side) in powers of $q$, the power $q^{-2(p^2+p)}$ cannot occur, and we can now put (29) into the form:
+\weq{31}{(u^p - v)(u - v^p) = \sum_{0,p}^{h} \sum_{0,h-1}^{k} c_{h,k}(u^h v^k + u^k v^h) + \sum_{0,p-1}^{h} c_{h,h} u^h v^h.}
+In this there are to be inserted the developments, resulting from (25) and (27), of
+\[
+u^h v^k + u^k v^h, \quad u^h v^h
+\]
+in powers of $q$, whose initial terms
+\[
+q^{-2(hp+k)}, \quad q^{-2h(p+1)}
+\]
+have the coefficients 1.
+On the right side of (31) no two terms occur whose development begins with the same power of $q$; for from
+\[
+hp + k = h'p + k'
+\]
+it follows that $k \equiv k'\ (\mathrm{mod}\ p)$, and hence, since $k$ and $k' < p$, that $k = k'$, $h = h'$.
+If one therefore arranges the series which represent the two sides of (31) according to ascending powers of $q$, and then sets equal to one another the coefficients of equally high powers, one obtains a sequence of linear equations for the unknowns $c_{h,k}$, of which each succeeding one contains only \gesperrt{one} new unknown, and this with the coefficient 1. The known terms of these equations which arise from the left side are, by (28), all \gesperrt{integers divisible by $p$}, and hence the $c_{h,k}$ likewise have integer values divisible by $p$. Accordingly we have
+\weq{32}{F_p(x, y) = (x^p - y)(x - y^p) - p \sum_{0,p}^{h,k} a_{h,k} x^h y^k,}
+%CONT>>

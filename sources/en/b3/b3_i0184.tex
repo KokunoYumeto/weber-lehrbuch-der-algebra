@@ -1,0 +1,42 @@
+% !PRINTED 163
+\weberpage{163}
+%<<CONT
+\[
+\begin{array}{lll}
+\operatorname{sn}2Ku, & \operatorname{cn}2Ku, & \operatorname{dn}2Ku, \\[2mm]
+\dfrac{1}{\operatorname{sn}2Ku}, & \dfrac{\operatorname{cn}2Ku}{\operatorname{sn}2Ku}, & \dfrac{\operatorname{dn}2Ku}{\operatorname{sn}2Ku}, \\[2mm]
+\dfrac{1}{\operatorname{cn}2Ku}, & \dfrac{\operatorname{sn}2Ku}{\operatorname{cn}2Ku}, & \dfrac{\operatorname{dn}2Ku}{\operatorname{cn}2Ku}, \\[2mm]
+\dfrac{1}{\operatorname{dn}2Ku}, & \dfrac{\operatorname{sn}2Ku}{\operatorname{dn}2Ku}, & \dfrac{\operatorname{cn}2Ku}{\operatorname{dn}2Ku}.
+\end{array}
+\]
+
+Thus there results from formula (2), Table II:
+\[
+\frac{\vartheta'_{11}\vartheta_{10}(u)}{\pi\vartheta_{11}(u)\vartheta_{10}} = \operatorname{cotg}\pi u - 2i\sum(-1)^{\frac{m}{2}}q^m\left(\frac{1}{e^{-2\pi iu}-q^m} - \frac{1}{e^{2\pi iu}-q^m}\right)
+\]
+\[
+= \operatorname{cotg}\pi u + 4\sin 2\pi u\sum\frac{(-1)^{\frac{m}{2}}q^m}{1-2q^m\cos 2\pi u+q^{2m}},
+\]
+where $m$ runs through the sequence of positive even numbers 2, 4, 6, 8, \dots{}
+
+But according to \S\,42, (4) we have
+\[
+\frac{\vartheta_{10}(u)}{\vartheta_{11}(u)} = \frac{\vartheta_{00}}{\vartheta_{01}}\frac{\operatorname{cn}2Ku}{\operatorname{sn}2Ku},
+\]
+and from this there results
+% [sic] The source prints \cos\pi u in (1), although the preceding derivation requires \cos 2\pi u.
+\weq{1}{\frac{2K}{\pi}\frac{\operatorname{cn}2Ku}{\operatorname{sn}2Ku} = \operatorname{cotg}\pi u + 4\sin 2\pi u\sum\frac{(-1)^{\frac{m}{2}}q^m}{1-2q^m\cos\pi u+q^{2m}}.}
+
+If one applies the same procedure to formula (2) of Table III, one obtains:
+\[
+\frac{2K}{\pi}\frac{\operatorname{cn}2Ku}{\operatorname{sn}2Ku} = \operatorname{cotg}\pi u + 4\sum(-1)^{\frac{m'}{2}}q^{\frac{mm'}{2}}\sin\pi mu.
+\]
+
+Here $m$ and $m'$ run, independently of one another, through the sequences of positive even numbers, and the summation with respect to $m'$ can still be carried out:
+\[
+\sum(-1)^{\frac{m'}{2}}q^{\frac{mm'}{2}} = -\frac{q^m}{1+q^m},
+\]
+hence:
+\weq{2}{\frac{2K}{\pi}\frac{\operatorname{cn}2Ku}{\operatorname{sn}2Ku} = \operatorname{cotg}\pi u - 4\sum\frac{q^m}{1+q^m}\sin\pi mu.}
+
+But while the first two formulae converge for all values of $u$, the convergence of the third is restricted to the region in which the imaginary part of $u$ is absolutely smaller than the imaginary part of $\omega$. The formula is therefore in any case valid for real $u$.

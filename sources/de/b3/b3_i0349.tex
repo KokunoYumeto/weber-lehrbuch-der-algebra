@@ -1,0 +1,42 @@
+% !PRINTED 328
+\weberpage{328}
+%<<CONT
+In einem vollständigen System inkongruenter, zu $D$ teilerfremder Zahlen $s$ gibt es ebensoviele Zahlen $\alpha$, für die $(D, \alpha) = +1$ ist, wie Zahlen $\beta$, für die $(D, \beta) = -1$ ist, und es ist
+\[
+\begin{aligned}
+(D,n) &= +1, \quad \text{wenn } n \equiv \alpha \\
+&= -1, \quad \text{\textquotedbl} \quad n \equiv \beta \pmod{D}.
+\end{aligned}
+\]
+
+\begin{center}
+\S\,86. Die \gesperrt{Gaussschen} Summen.
+\end{center}
+
+Wir haben im ersten Bande die \gesperrt{Gaussschen} Summen aus der Theorie der Kreisteilung kennen gelernt. Diese Ausdrücke lassen sich verallgemeinern und nehmen durch Anwendung des Symbols $(D, n)$ eine einfache Gestalt an.
+
+Es war [Bd.\,I, \S\,179, (16)], wenn $n$ eine ungerade Primzahl, $s$ eine durch $n$ nicht teilbare Zahl bedeutet und $k$ ein Restsystem nach dem Modul $n$ durchläuft:
+\weq{1}{\sum \left(\frac{k}{n}\right) e^{\frac{2\pi i s k}{n}} = \left(\frac{s}{n}\right) i^{\left(\frac{n-1}{2}\right)^2} \sqrt{n}.}
+
+Setzen wir $\pm n = \varDelta \equiv 1 \pmod{4}$, so ist $\varDelta$ eine Primdiskriminante, und es ist nach \S\,85, (10)
+\[
+\left(\frac{k}{n}\right) = (\varDelta, k), \quad \left(\frac{\mp s}{n}\right) = (\varDelta, \mp s) = (\varDelta, s)
+\]
+[letzteres nach \S\,85, (3), da die oberen Zeichen bei positiven, die unteren bei negativen $\varDelta$ gelten], ferner:
+\[
+i^{\left(\frac{n-1}{2}\right)^2} \sqrt{n} = \sqrt{\varDelta},
+\]
+wenn $\sqrt{\varDelta}$ positiv reell oder positiv imaginär ist, je nachdem $n \equiv 1$ oder $\equiv 3 \pmod{4}$ ist, und wir können (1) in der Form schreiben:
+\weq{2}{\overset{k}{\Sigma}(\varDelta, k) e^{-\frac{2\pi i k s}{\varDelta}} = (\varDelta, s) \sqrt{\varDelta}, % Source scan confirms k as the upper index on Sigma.
+}
+wenn wir im Falle, wo $\varDelta$ positiv ist, $s$ durch $-s$ ersetzen. Diese Formel ist zunächst nur für eine ungerade Primdiskriminante erwiesen. Sie gilt aber auch, wie die direkte Rechnung zeigt, für
+\[
+\varDelta = -4, \quad 8, \quad -8,
+\]
+also für jede Primdiskriminante.
+
+Setzen wir die Richtigkeit der Formel (2) für $\varDelta = \varDelta'$, $\varDelta = \varDelta''$ voraus, so folgt, wenn $\varDelta'$ und $\varDelta''$ keinen gemeinschaftlichen Teiler haben, ihre Richtigkeit für $\varDelta = \varDelta' \varDelta''$.
+
+Es ist nämlich
+\weq{3}{\sqrt{\varDelta'}\sqrt{\varDelta''} = \pm\sqrt{\varDelta' \varDelta''},}
+%CONT>>

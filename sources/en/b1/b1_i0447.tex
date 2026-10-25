@@ -1,0 +1,47 @@
+% !PRINTED 422
+\weberpage{422}
+
+%<<CONT
+meaning we call the equation $X_n = 0$, whose roots are the quantities (1), the \gesperrt{cyclotomic equation}.
+
+We now determine the discriminant of the cyclotomic equation $X_n = 0$, but restrict ourselves to the case in which $n$ is an \gesperrt{odd prime}.
+
+We then have
+\weq{3}{X_n = x^{n-1} + x^{n-2} + \cdots + x + 1,}
+and since only the one imprimitive $n$th root of unity 1 exists, we have
+\weq{4}{f_n(x) = x^n - 1 = (x-1) X_n,}
+hence
+\weq{5}{f_n'(x) = n x^{n-1} = X_n + (x-1) X_n'.}
+Now if $D$ is the discriminant of $X_n$, then by \S.\,46
+\weq{6}{D = (-1)^{\frac{n-1}{2}} \Pi X_n'(r),}
+where the product sign $\Pi$ extends over all roots $r$ of the equation $X_n = 0$, and where, since $n$ is odd, the equality
+\[
+(-1)^{\frac{n(n-1)}{2}} = (-1)^{\frac{n-1}{2}}
+\]
+could be used. But by (5) we have
+\weq{7}{n r^{n-1} = (r-1) X_n'(r),}
+and since the product of all the $r$ is equal to 1 (because it is equal to the term of $X_n$ independent of $x$), and since
+\[
+\Pi(x-r) = \Pi(r-x) = X_n,
+\]
+hence
+\[
+\Pi(r-1) = X_n(1) = n, \qquad (\text{\S.\,133})
+\]
+it follows from (6) and (7) that
+\weq{8}{D = (-1)^{\frac{n-1}{2}} n^{n-2}.}
+The roots of $X_n$, if $r$ is one of them, are all contained in the form
+\[
+r, r^2, r^3 \ldots r^{n-1},
+\]
+and if we therefore form the difference product
+\begin{equation}
+\tag*{9)}
+\begin{gathered}
+P = (r - r^2)(r - r^3) \cdots (r - r^{n-1}) \\
+(r^2 - r^3) \cdots (r^2 - r^{n-1}) \\
+\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+(r^{n-2} - r^{n-1})
+\end{gathered}
+\end{equation} % [sic] source prints the equation tag as $9)$, without an opening parenthesis
+%CONT>>

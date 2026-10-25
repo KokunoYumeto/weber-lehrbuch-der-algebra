@@ -1,0 +1,69 @@
+% !PRINTED 152
+\weberpage{152}
+
+\gesperrt{The vanishing of the discriminant is the necessary
+and sufficient condition that two of the values}
+$\alpha_1,\ \alpha_2 \ldots \alpha_n$ \gesperrt{become equal to one another.}
+
+We can set up yet a second expression for the
+discriminant.
+
+By \S.\,29, (4) we have
+
+% [sic: this block of formulas is unnumbered in print; the numbering jumps from (3) to (5)]
+\[
+\begin{aligned}
+f'(\alpha_1) &= a_0\,(\alpha_1 - \alpha_2)\,(\alpha_1 - \alpha_3)\ldots(\alpha_1 - \alpha_n)\\
+f'(\alpha_2) &= a_0\,(\alpha_2 - \alpha_1)\,(\alpha_2 - \alpha_3)\ldots(\alpha_2 - \alpha_n)\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot &\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+f'(\alpha_n) &= a_0\,(\alpha_n - \alpha_1)\,(\alpha_n - \alpha_2)\ldots(\alpha_n - \alpha_{n-1}),
+\end{aligned}
+\]
+
+and consequently, since here every factor $(\alpha_h - \alpha_k)$ occurs twice with
+opposite signs,
+
+\weq{5}{D = (-\,1)^{\frac{n\,(n-1)}{2}}\ a_0^{n-2}\,f'(\alpha_1)\,f'(\alpha_2) \ldots f'(\alpha_n).}
+
+In order actually to represent the discriminant, we have, first of all a general means. % [sic: comma as printed]
+By \S.\,22 we had
+
+\weq{6}{(-\,1)^{\frac{n\,(n-1)}{2}}\ P = \left|\,
+\begin{array}{l}
+1,\ \alpha_1,\ \alpha_1^2 \ldots \alpha_1^{n-1}\\
+1,\ \alpha_2,\ \alpha_2^2 \ldots \alpha_2^{n-1}\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+1,\ \alpha_n,\ \alpha_n^2 \ldots \alpha_n^{n-1}
+\end{array}
+\,\right|,}
+
+and if, following \S.\,27, we represent the square of this determinant,
+by multiplication along vertical rows, as a new determinant,
+and set
+
+\[
+s_m = \alpha_1^m + \alpha_2^m + \cdots \alpha_n^m
+\]
+
+then
+
+\weq{7}{D = a_0^{2\,n-2}\left|\,
+\begin{array}{l}
+s_0,\ \ \ s_1,\ s_2\ \ \ldots s_{n-1}\\
+s_1,\ \ \ s_2,\ s_3\ \ \ldots s_n\\
+\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\;\;\cdot\\
+s_{n-1},\ s_n,\ s_{n+1} \ldots s_{2\,n-2}
+\end{array}
+\,\right|.}
+
+The quantities $s_m$, however, are the power sums which we have already
+expressed in \S.\,42 by the coefficients; only, in place
+of the $a_1,\ a_2 \ldots a_n$, the quotients (2) are to be put.
+
+Thus we find, e.g., for $n = 2$
+
+\weq{8}{D = a_0^2\,(s_0\,s_2 - s_1^2) = a_1^2 - 4\,a_0\,a_2}
+
+and for $n = 3$
+
+\weq{9}{D = a_0^4\,(s_0\,s_2\,s_4 - s_0\,s_3^2 + 2\,s_1\,s_2\,s_3 - s_1^2\,s_4 - s_2^3).}

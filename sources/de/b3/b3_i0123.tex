@@ -1,0 +1,54 @@
+% !PRINTED 102
+\weberpage{102}
+%<<CONT
+jede Substitution $L$ der Gruppe $\mathfrak{L}$ zusammensetzen läßt. Es ist
+zunächst
+\weq{3}{A^{-1} = \begin{pmatrix}1, & 0\\-1, & 1\end{pmatrix}, \quad A^\lambda = \begin{pmatrix}1, & 0\\\lambda, & 1\end{pmatrix}}
+(für jedes ganzzahlige positive oder negative $\lambda$)
+\weq{4}{B^{-1} = \begin{pmatrix}0, & -1\\1, & 0\end{pmatrix}, \quad B^2 = \begin{pmatrix}-1, & 0\\0, & -1\end{pmatrix}, \quad B^3 = B^{-1}.}
+
+Wir setzen noch
+\weq{5}{C = \begin{pmatrix}1, & -1\\0, & 1\end{pmatrix} = B^{-1}AB, \quad C^\lambda = \begin{pmatrix}1, & -\lambda\\0, & 1\end{pmatrix},}
+$C$ ist also aus $A$ und $B$ ableitbar.
+
+Nun sei $L = \begin{pmatrix}\alpha, & \beta\\\gamma, & \delta\end{pmatrix}$ eine beliebige lineare Transformation.
+Wir leiten daraus die Reihe ab:
+\[
+L' = LA^\lambda, \quad L'' = L'C^{\lambda'}, \quad L''' = L''A^{\lambda''}, \quad L'''' = L'''C^{\lambda'''},
+\]
+deren erste und zweite Elemente so gebildet sind:
+\[
+\begin{gathered}
+\alpha' = \alpha + \lambda\beta, \quad \beta'' = \beta' - \lambda'\alpha', \quad \alpha''' = \alpha'' + \lambda''\beta'',\\
+\beta'''' = \beta''' - \lambda'''\alpha''', \dots,
+\end{gathered}
+\]
+und man kann über $\lambda, \lambda', \lambda'', \lambda''', \dots$ so verfügen, daß, dem
+absoluten Werte nach
+\[
+\alpha' \leqq \tfrac{1}{2}\beta, \quad \beta'' \leqq \tfrac{1}{2}\alpha', \quad \alpha''' \leqq \tfrac{1}{2}\beta'', \quad \beta'''' \geqq \tfrac{1}{2}\alpha''' \dots, % [sic] Printed \geqq; the stated decreasing sequence requires \leqq.
+\]
+solange keine dieser Zahlen verschwindet. Die Zahlen
+\[
+\beta, \alpha', \beta'', \alpha''', \beta'''', \dots
+\]
+bilden daher eine dem absoluten Werte nach abnehmende Zahlenreihe, und nach einer endlichen Anzahl von Zusammensetzungen
+dieser Art muß eine Zahl dieser Reihe verschwinden.
+
+Ist $\beta^{(\nu)} = 0$, so ist
+\[
+L^{(\nu)} = \begin{pmatrix}\pm 1, & 0\\\gamma^{(\nu)}, & \pm 1\end{pmatrix} = \begin{pmatrix}\pm 1, & 0\\0, & \pm 1\end{pmatrix} A^{\pm\gamma^{(\nu)}}
+\]
+und ist $\alpha^{(\nu)} = 0$, so ist
+\[
+L^{(\nu)} = \begin{pmatrix}0, & \pm 1\\\mp 1, & \delta^{(\nu)}\end{pmatrix} = A^{\pm\delta^\nu} B^{\pm 1},
+% [sic] Printed \delta^\nu here; the parallel matrix entry has \delta^{(\nu)}.
+\]
+und da
+\[
+\begin{gathered}
+L = L'A^{-\lambda} = L''C^{-\lambda'}A^{-\lambda}\\
+= L'''A^{-\lambda''}C^{-\lambda'}A^{-\lambda} = L''''C^{-\lambda'''}A^{-\lambda''}C^{-\lambda'}A^{-\lambda}, \dots
+\end{gathered}
+\]
+ist, so ist der Satz bewiesen.

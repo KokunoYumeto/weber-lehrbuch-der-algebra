@@ -1,0 +1,43 @@
+% !PRINTED 592
+\weberpage{592}
+
+\begin{center}
+\S.\,174.
+
+\gesperrt{The Field of the Third Roots of Unity.}
+\end{center}
+
+The principal theorem of the preceding section, that every integer of the field $R(i)$ can be decomposed in only one way into indecomposable factors, and that in consequence the concept of the indecomposable number coincides with that of the prime, rests, as one sees, in the main on the algorithm of the greatest common divisor contained in the formulae \S.\,173, (1); and thus if in another field one has such an algorithm, terminating after finitely many steps, the same conclusions can be drawn.
+
+This is the case for the field which can be derived from $R$ by means of the third root of unity $\varrho = \dfrac{-1+\sqrt{-3}}{2}$, and which may be denoted by $R(\varrho)$ or also by $R(\sqrt{-3})$. This field consists of the totality of all numbers of the form $\xi = x+\varrho y$, in which $x$, $y$ are rational numbers, and the norm of such a number is
+\[
+\begin{aligned}
+N(\xi) &= (x+\varrho y)(x+\varrho^2 y) = x^2 - xy + y^2\\
+&= \frac{2x-y+y\sqrt{-3}}{2}\cdot\frac{2x-y-y\sqrt{-3}}{2} = \frac{(2x-y)^2+3y^2}{4}.
+\end{aligned}
+\]
+A number $\alpha = a+b\varrho$ is called an integer in $R(\varrho)$ if $a$, $b$ are rational integers. The units in this field result from
+\[
+N(\alpha) = a^2 - ab + b^2 = 1,
+\]
+or
+\[
+(2a-b)^2 + 3b^2 = 4,
+\]
+which is satisfied only for $b=0$, $a=\pm 1$ or $b=\pm 1$, $a=\pm 1$, so that here one has six units
+% [source-original mathematical omission/ambiguity, verified 2026-08-29] Solving
+% a^2-ab+b^2=1 gives (a,b)=(+-1,0),(0,+-1),(1,1),(-1,-1). The printed
+% condition omits the a=0,b=+-1 cases and leaves the signs in its second pair ambiguous;
+% the following six-unit list itself is correct and the printed meaning is preserved.
+\[
+\pm 1,\quad \pm\varrho,\quad \pm\varrho^2.
+\]
+A system of associated numbers is here
+\[
+\begin{aligned}
+&\pm(a+b\varrho),\quad \pm(a\varrho+b\varrho^2) = \pm[-b+(a-b)\varrho]\\
+&\pm(a\varrho^2+b) = \pm(b-a-a\varrho).
+\end{aligned}
+\]
+If $\xi$ is an arbitrary fractional number in $R(\varrho)$, one can determine the integer $\mu$ so that in $\xi-\mu = x+\varrho y$ the
+%CONT>>

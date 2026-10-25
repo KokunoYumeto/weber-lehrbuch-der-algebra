@@ -1,0 +1,48 @@
+% !PRINTED 624
+\weberpage{624}
+
+\[
+\begin{array}{lcccccc}
+ & a_1\sqrt{\Delta}, & a_2, & a_3\sqrt{\Delta}, & a_4, & a_5\sqrt{\Delta}, & a_6\\
+\text{the degrees} & 2 & 4 & 6 & 8 & 10 & 12.
+\end{array}
+\]
+But $\sqrt{\Delta}$ is of degree 10 in the $x$, and consequently $a_1=0$,
+$a_3=0$ must hold, and $a_5$ must be a number.
+
+One can compute the coefficients $a_2$, $a_4$, $a_5$, $a_6$ by actual
+formation of the expressions according to the rules for the representation of the symmetric
+functions, which has been done by \gesperrt{Cayley}. But the calculation and the formulae are very
+lengthy.
+
+We shall content ourselves here with forming the resolvent for
+a special case. The value found in doing so
+for the number $a_5$ is then of course generally valid.
+
+Let the equation of degree 5 have the \gesperrt{Bring-Jerrard}
+form\footnote{\gesperrt{Runge}, Acta mathematica, Bd.\,7.}
+\weq{13}{x^5+\alpha x+\beta=0.}
+Then $a_2$, $a_4$, $a_6$ are integral rational functions of $\alpha$ and $\beta$.
+Of the coefficients of the general equation (6), $d$ is of
+the fourth, $e$ of the fifth order in the $x$. From this it follows that
+in $a_2$, $a_4$, $a_6$ the coefficient $e$ can occur only multiplied by one of the coefficients
+$a$, $b$, $c$, and hence that, if $a$, $b$, $c$
+are set to zero, $e$ must drop out of these expressions.
+For equation (13), therefore, $a_2$, $a_4$, $a_6$ cannot depend
+on $\beta$, and, having regard to the degree, one obtains, if
+$m$, $m_1$, $m_2$, $m_3$ denote numbers,
+\weq{14}{a_2=m_1\alpha,\quad a_4=m_2\alpha^2,\quad a_6=m_3\alpha^3,\quad a_5=m.}
+
+The numbers $m$, $m_1$, $m_2$, $m_3$ can be determined from a special
+assumption. If we set $\beta=0$, then
+\weq{15}{\begin{aligned}
+x_0&=0,\quad x_1=\sqrt[4]{-\alpha},\quad x_2=i\sqrt[4]{-\alpha},\\
+&\hphantom{{}=0,\quad{}} x_3=-\sqrt[4]{-\alpha},\quad x_4=-i\sqrt[4]{-\alpha},
+\end{aligned}}
+and from this there results
+\weq{16}{\begin{aligned}
+\sqrt{\Delta} &= (x_0-x_1)(x_0-x_2)(x_0-x_3)(x_0-x_4)(x_1-x_2)\\
+&\quad (x_1-x_3)(x_1-x_4)(x_2-x_3)(x_2-x_4)(x_3-x_4)\\
+&= 16i\sqrt{-\alpha}^5 = -16\sqrt{\alpha}^5\\
+\Delta &= 256\alpha^5.
+\end{aligned}}

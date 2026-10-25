@@ -1,0 +1,48 @@
+% !PRINTED 88
+\weberpage{88}
+%<<CONT
+eine Determinante von $\tau$ Reihen bilden, die nicht durch $p$ theilbar ist, während alle Determinanten von mehr als $\tau$ Reihen,
+wenn solche vorhanden sind, durch $p$ theilbar sind. Wir können
+voraussetzen, dass die Indices so angeordnet sind, dass
+\[
+\Delta = \sum \pm a_{1,1}a_{2,2} \dots a_{\tau,\tau}
+\]
+nicht durch $p$ theilbar ist. Bezeichnen wir mit $\Delta_{k,h}$ die Unterdeterminanten von $\Delta$ und setzen
+\[
+\Delta_{k,1}a_{s,1} + \Delta_{k,2}a_{s,2} + \cdots \Delta_{k,\tau}a_{s,\tau} = D_{k,s},
+\]
+so ist $D_{k,s} = \Delta$, wenn $k = s$, und $= 0$, wenn $s \leqq \tau$ und von
+$k$ verschieden ist, und ist, wenn $s > \tau$ ist, eine $\tau$-reihige Determinante der Matrix (22). Mit Hülfe dieser Bezeichnung lassen
+sich nun aus den $\tau$ ersten Congruenzen (21) die folgenden herleiten:
+\begin{gather}
+\Delta y_1 + D_{1,\tau+1}y_{\tau+1} + \cdots D_{1,\varrho}y_\varrho \equiv 0 \notag\\
+\Delta y_2 + D_{2,\tau+1}y_{\tau+1} + \cdots D_{2,\varrho}y_\varrho \equiv 0\ (\mathrm{mod}\ p^\pi) \tag{23}\\
+\dots\dots\dots\dots\dots\dots\dots\dots\dots \notag\\
+\Delta y_\tau + D_{\tau,\tau+1}y_{\tau+1} + \cdots D_{\tau,\varrho}y_\varrho \equiv 0. \notag
+\end{gather}
+Setzen wir zur Abkürzung
+\[
+A_{s,r} = \Delta a_{s,r} - \sum_{1,\tau}^{k} a_{k,r}D_{k,s} = \Delta a_{s,r} - \sum_{1,\tau}^{h}\sum_{1,\tau}^{k} \Delta_{k,h}a_{s,h}a_{k,r},
+\]
+so ist $A_{s,r}$ nach Bd. I, \S.\,23 eine $(\tau+1)$-reihige Determinante der
+Matrix (22) und also nach Voraussetzung durch $p$ theilbar.
+
+    Nach dieser Bezeichnungsweise erhalten wir aus (23):
+\[
+\Delta (a_{1,r}y_1 + a_{2,r}y_2 + \cdots + a_{\varrho,r}y_\varrho)
+\equiv A_{\tau+1,r}y_{\tau+1} + \cdots + A_{\varrho,r}y_\varrho\ (\mathrm{mod}\ p^\pi),
+\]
+und es zeigt sich also, dass, wenn $\tau < \varrho$ ist, die Congruenzen (20)
+schon befriedigt sind, wenn $y_{\tau+1}, \dots y_\varrho$ durch $p^{\pi-1}$ theilbar angenommen werden, weil alle $A_{s,r}$ durch $p$ theilbar sind. Dies
+ist also nicht zulässig. Es muss also $\tau = \varrho$ sein, und dies genügt
+auch, weil dann (23) sich auf
+\[
+\Delta y_1 \equiv 0,\ \Delta y_2 \equiv 0 \dots \Delta y_\varrho \equiv 0\ (\mathrm{mod}\ p^\pi)
+\]
+reducirt, und folglich, da $\Delta$ durch $p$ nicht theilbar ist, $y_1, y_2, \dots y_\varrho$
+durch $p^\pi$ theilbar sein müssen.
+
+    Hierdurch ist die Forderung 6. in eine andere Form gebracht, die wir, indem wir zu unserer ursprünglichen Bezeichnung
+in (20) zurückkehren, so aussprechen können:
+% [sic: Weber prints Forderung 6; the determinant argument reformulates Forderung 5, while Forderung 6 is the separate primarity condition.]
+%CONT>>

@@ -1,0 +1,36 @@
+% !PRINTED 614
+\weberpage{614}
+
+%<<CONT
+die auch durch $(z, a_z)$ dargestellt werden kann, so kann man eine ganze Function $\varphi(z)$ von $z$ mit rationalen Co\"efficienten, deren Grad nicht höher als $n - 1$ ist, so bestimmen, dass $a_z = \varphi(z)$ gesetzt werden kann. Man braucht nur die $n$ Co\"efficienten in $\varphi(z)$ aus den $n$ linearen Gleichungen
+\[
+a_0 = \varphi(0), \quad a_1 = \varphi(1), \ldots a_{n-1} = \varphi(n - 1)
+\]
+zu bestimmen. Man kann dazu die im \S.\,29 abgeleitete \gesperrt{Lagrange'sche} Interpolationsformel verwenden, der man aber noch eine einfachere Gestalt geben kann, da es hier nur auf Congruenzen nach dem Modul $n$ ankommt. Setzt man nämlich
+\[
+\psi(z) = z(z - 1)(z - 2) \ldots (z - n + 1),
+\]
+so giebt die erwähnte Interpolationsformel
+\[
+\varphi(z) = \psi(z)\left(\frac{a_0}{\psi'(0) z} + \frac{a_1}{\psi'(1)(z - 1)} + \cdots + \frac{a_{n-1}}{\psi'(n-1)(z - n + 1)}\right).
+\]
+Nun ist, wie wir im \S.\,136 gesehen haben, die Congruenz
+\[
+\psi(z) \equiv z^n - z\ (\mathrm{mod}\ n)
+\]
+identisch; also ist auch
+\[
+\psi'(z) \equiv n z^{n-1} - 1 \equiv -1\ (\mathrm{mod}\ n),
+\]
+und daher können wir $\varphi(z)$ mit ganzzahligen Co\"efficienten so darstellen:
+\weq{6}{\varphi(z) \equiv -a_0 \frac{\psi(z)}{z} - a_1 \frac{\psi(z)}{z - 1} - \cdots - a_{n-1}\frac{\psi(z)}{z - n + 1}\ (\mathrm{mod}\ n).}
+
+Wenn, wie in unserer Aufgabe, die Zahlen $a_0, a_1 \ldots a_{n-1}$, von der Ordnung abgesehen, mit den Zahlen $0, 1, 2 \ldots n - 1$ übereinstimmen, so ist, wenn $n > 2$ ist, $a_0 + a_1 + \cdots + a_{n-1} \equiv 0\ (\mathrm{mod}\ n)$ und also $\varphi(z)$ höchstens vom Grade $n - 2$, was aber für unseren Beweis nicht von Bedeutung ist.
+
+Hiernach lässt sich also jede beliebige Permutation $\pi$ durch eine Substitution $[z, \varphi(z)]$ darstellen.
+
+Ist nun $L$ eine transitive lineare Gruppe und zugleich Normaltheiler von einer anderen Gruppe $P$, ist $\lambda$ eine beliebige Permutation von $L$, $\pi$ eine gleichfalls beliebige Permutation von $P$, so ist $\pi^{-1}\lambda\pi = \lambda'$ in $L$ enthalten, und $\lambda\pi = \pi\lambda'$. Setzen wir nach dem, was eben bewiesen ist, $\pi = [z, \varphi(z)]$ und wählen für $\lambda$ die cyklische Substitution $(z, z + 1)$, die nach der Voraussetzung der Transitivität in $L$ vorkommt, so muss sich $a'$ und $a$ so bestimmen lassen, dass
+\[
+(z, z + 1)[z, \varphi(z)] = [z, \varphi(z)](z, a'z + a),
+\]
+%CONT>>

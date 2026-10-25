@@ -1,0 +1,45 @@
+% !PRINTED 99
+\weberpage{99}
+%<<CONT
+
+In the product of all these expressions each factor of the product (1) occurs twice with opposite sign; since the number of factors of (1) is $\frac{n(n-1)}{2}$, we obtain the equation
+\begin{equation}
+ f'(\alpha_1)f'(\alpha_2)\cdots f'(\alpha_n)=(-1)^{\frac{n(n-1)}2}[\alpha_1,\alpha_2,\ldots,\alpha_n]^2.\tag{5}
+\end{equation}
+But with the aid of the relations (4) we may also represent our product (1) as follows:
+\begin{align}
+ [\alpha_1,\alpha_2,\ldots,\alpha_n]
+ &= f'(\alpha_1)[\alpha_2,\alpha_3,\ldots,\alpha_n]\notag\\
+ &=-f'(\alpha_2)[\alpha_1,\alpha_3,\ldots,\alpha_n]\tag{6}\\
+ &=+f'(\alpha_3)[\alpha_1,\alpha_2,\ldots,\alpha_n]\notag\\% [sic] Weber prints the full alpha_1,alpha_2,...,alpha_n sequence here, although the factor f'(alpha_3) requires the bracket with alpha_3 omitted and the immediately following sentence explicitly says each right-hand bracket contains one element fewer. Source-original mathematical error preserved rather than silently normalized.
+ &=\cdots=(-1)^{n-1}f'(\alpha_n)[\alpha_1,\alpha_2,\ldots,\alpha_{n-1}],\notag
+\end{align}
+where on the right-hand side each bracketed expression contains one element fewer than the bracketed expression on the left.
+
+Now pose the problem of determining an integral rational function of degree $(n-1)$, $\varphi(x)$, which, for the argument values $x=\alpha_1,\alpha_2,
+\ldots,\alpha_n$, assumes in order the prescribed values $\varphi(\alpha_1),\varphi(\alpha_2),\ldots,\varphi(\alpha_n)$.
+
+If one puts
+\begin{equation}
+ \varphi(x)=a_1x^{n-1}+a_2x^{n-2}+\cdots+a_{n-1}x+a_n,\tag{7}
+\end{equation}
+then the $n$ unknown coefficients $a_1,a_2,
+\ldots,a_n$ are to be determined from the linear equations
+\begin{align}
+ \varphi(\alpha_1)&=a_1\alpha_1^{n-1}+a_2\alpha_1^{n-2}+\cdots+a_{n-1}\alpha_1+a_n,\notag\\
+ \varphi(\alpha_2)&=a_1\alpha_2^{n-1}+a_2\alpha_2^{n-2}+\cdots+a_{n-1}\alpha_2+a_n,\tag{8}\\
+ &\vdots\notag\\
+ \varphi(\alpha_n)&=a_1\alpha_n^{n-1}+a_2\alpha_n^{n-2}+\cdots+a_{n-1}\alpha_n+a_n.\notag
+\end{align}
+The determinant of this system is precisely the quantity (2)
+\[
+[\alpha_1,\alpha_2,\ldots,\alpha_n],
+\]
+and the problem is therefore always soluble by § 26 when this quantity is different from zero, that is, when no two of the $n$ quantities $\alpha_1,\alpha_2,
+\ldots,\alpha_n$ are equal.
+
+Instead of solving the equations (8) by § 26 and substituting the expressions so found into (7), it is preferable, by § 24, II, to eliminate the homogeneous quantities
+\[
+1,a_1,a_2,\ldots,a_n
+\]
+%CONT>>

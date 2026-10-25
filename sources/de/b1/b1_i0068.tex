@@ -1,0 +1,51 @@
+% !PRINTED 43
+\weberpage{43}
+
+Wir wollen unter den verschiedenen Eigenschaften der Binomialcoefficienten zwei ableiten, von denen wir nachher eine interessante Anwendung machen werden.
+
+Aus (1) ergeben sich, wenn man $x,y$ durch $1,x$ ersetzt, und $n=0,1,2,3\ldots$ nimmt, die Formeln
+\begin{equation}
+\begin{aligned}
+1&=B_0^{(0)},\\
+1+x&=B_0^{(1)}+B_1^{(1)}x,\\
+(1+x)^2&=B_0^{(2)}+B_1^{(2)}x+B_2^{(2)}x^2,\\
+&\cdots\\
+(1+x)^n&=B_0^{(n)}+B_1^{(n)}x+B_2^{(n)}x^2+\cdots+B_n^{(n)}x^n.
+\end{aligned}
+\tag{2}
+\end{equation}
+Wir machen nun von der bekannten Summenformel der geometrischen Reihe Gebrauch:
+\[
+ 1+(1+x)+(1+x)^2+\cdots+(1+x)^n={(1+x)^{n+1}-1\over x},
+\]
+worin, wenn man $(1+x)^{n+1}$ wieder nach der Binomialformel entwickelt, indem man in der letzten Formel (2) $n$ in $n+1$ verwandelt und $B_0^{(n+1)}=1$ setzt:
+\begin{equation}
+{(1+x)^{n+1}-1\over x}=B_1^{(n+1)}+B_2^{(n+1)}x+\cdots+B_{n+1}^{(n+1)}x^n.
+\tag{3}
+\end{equation}
+Vergleicht man dies mit der Summe der rechten Seiten von (2) und setzt den Vorschriften des \S~1 gemäss die Coëfficienten entsprechender Potenzen von $x$ einander gleich, so folgt:
+\begin{equation}
+\begin{aligned}
+ B_0^{(0)}+B_0^{(1)}+B_0^{(2)}+\cdots+B_0^{(n)}&=B_1^{(n+1)},\\
+ B_1^{(1)}+B_1^{(2)}+\cdots+B_1^{(n)}&=B_2^{(n+1)},\\
+&\cdots\\
+ B_n^{(n)}&=B_{n+1}^{(n+1)},
+\end{aligned}
+\tag{4}
+\end{equation}
+oder allgemein
+\begin{equation}
+ B_\nu^{(\nu)}+B_\nu^{(\nu+1)}+\cdots+B_\nu^{(n)}=B_{\nu+1}^{(n+1)}.
+\tag{5}
+\end{equation}
+Wenn man aber die Gleichungen (2) der Reihe nach mit
+\[
+B_0^{(n)},\quad -B_1^{(n)},\quad +B_2^{(n)},\ldots,\quad \pm B_n^{(n)}
+\]
+multiplicirt (wo das obere Zeichen bei geradem, das untere bei ungeradem $n$ gilt), so ergiebt die Summe der linken Seiten:
+\[
+ B_0^{(n)}-B_1^{(n)}(1+x)+B_2^{(n)}(1+x)^2-\cdots\pm B_n^{(n)}(1+x)^n
+ =[1-(1+x)]^n=(-x)^n
+\]
+und die Gleichsetzung der Coëfficienten gleich hoher Potenzen auf der rechten und linken Seite liefert das Formelsystem:
+%CONT>>

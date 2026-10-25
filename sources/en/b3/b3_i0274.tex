@@ -1,0 +1,54 @@
+% !PRINTED 253
+\weberpage{253}
+%<<CONT
+$j(\omega)$ in powers of $q$ has the coefficient 1, one concludes
+easily that the numerical coefficients in these equations are
+\gesperrt{integers}.
+
+For $p=5$ the equation in question has the form:
+\[
+x^6 + A_1\gamma_2^2x^5 + A_2\gamma_2x^4 + A_3x^3 + A_4\gamma_2x + 5 = 0,
+\]
+in which $A_1$, $A_2$, $A_3$, $A_4$ are polynomials in
+$j(\omega)$ and, as is easily seen, constants.
+
+From the initial terms there follows at once
+\[
+A_1 = 0, \quad A_2 = 0, \quad A_4 = -1.
+\]
+
+But in order to determine $A_3$, one carries the development of $x_0$
+as far as the next following term:
+\[
+x_0 = q^{-\frac{7}{15}}\Bigl(1 - 2q^{\frac{2}{5}}\dots\Bigr),
+\]
+from which one obtains $A_3 = 10$; thus for $n=5$ the multiplier
+equation reads
+\weq{8}{x^6 + 10x^3 - \gamma_2x + 5 = 0.}
+
+In the same way one computes the equations for $p=7$, $p=11$, by using
+the developments of $x_0$:
+\[
+p=7:\ x_0 = -q^{-\frac{1}{7}}\Bigl(1 - 2q^{\frac{2}{7}} - q^{\frac{4}{7}} + 2q^{\frac{6}{7}}\dots\Bigr),
+\]
+\[
+p=11:\ x_0 = -q^{-\frac{5}{33}}\Bigl(1 - 2q^{\frac{2}{11}} - q^{\frac{4}{11}} + 2q^{\frac{6}{11}} + q^{\frac{8}{11}} + 2q^{\frac{10}{11}} + \dots\Bigr),
+\]
+while of $\gamma_2(\omega)$, $\gamma_3(\omega)$ only the first terms
+are ever needed. Thus one finds
+\weq{9}{p=7:\quad x^8 + 7\cdot2x^6 + 7\cdot9x^4 + 7\cdot10x^2 + \gamma_3x - 7 = 0,}
+\weq{10}{p=11:\quad x^{12} - 11\cdot90x^6 + 11\cdot40\gamma_2x^4 + 11\cdot15\gamma_3x^3 + 11\cdot2\gamma_2^2x^2 + \gamma_2\gamma_3x - 11 = 0.}
+
+If $n$ is an odd square number, we assume $c$ to be \gesperrt{divisible by 8}.
+Then $a:e$ and $\partial:e$ are likewise square numbers. Further we
+have
+\weq{11}{\alpha \equiv \delta \equiv 0\ (\mathrm{mod}\ 8), \quad \lambda \equiv 1\ (\mathrm{mod}\ 8)}
+\weq{12}{\left.
+\begin{aligned}
+a &= \beta\partial_2, & a_2 &= \beta\partial, & a &\equiv \partial \equiv e \equiv 1\\
+c &= \delta\partial_2, & c_2 &= -\alpha\partial, & a_2 &\equiv \partial_2 \equiv e_2 \equiv 1
+\end{aligned}
+\right\}\ (\mathrm{mod}\ 8).}
+
+The root of unity $r$ in (2) takes the value
+\weq{13}{r = \left(\frac{\alpha}{\beta}\right) i^{\frac{1-\beta}{2}} e^{\frac{2\pi i}{3}\frac{\beta(\alpha+\delta) - (\beta^2-1)\alpha\gamma}{8}}.}

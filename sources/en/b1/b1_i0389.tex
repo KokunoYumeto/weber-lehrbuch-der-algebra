@@ -1,0 +1,62 @@
+% !PRINTED 364
+\weberpage{364}
+
+The $P_1, P_2, P_3 \ldots$ are, if $a_0$ is positive, likewise all positive; if $a_0$ is negative, then they are all negative, with the possible exception of $P_2 = a_0 a_1 + 1$, which can be equal to zero. The $Q_n$ are entirely independent of $a_0$. In what manner the $P_n$ depend on $a_0$ we can recognise in the following way.
+
+Let us take the sequence of numbers
+\[
+a_1, \ a_2, \ a_3, \ a_4 \ldots
+\]
+as given and consider the recursion formula
+\weq{5}{
+T_{n+1} = a_n T_n + T_{n-1},
+}
+then $T_n$ is thereby completely determined for all $n$, once $T_0$ and $T_1$ are given.
+
+If we take two special cases $Q_n$ and $R_n$, which are determined by the conditions
+\weq{6}{
+\begin{aligned}
+R_0 &= 1, & R_1 &= 0 \\
+Q_0 &= 0, & Q_1 &= 1
+\end{aligned}
+}
+then one obtains the general solution of equation (5) in the form
+\weq{7}{
+T_n = T_0 R_n + T_1 Q_n
+}
+and in this is therefore also contained
+\weq{8}{
+P_n = R_n + a_0 Q_n
+}
+If we consider two solutions of (5), $T_n$ and $S_n$, thus:
+\[
+\begin{aligned}
+T_{n+1} &= a_n T_n + T_{n-1} \\
+S_{n+1} &= a_n S_n + S_{n-1},
+\end{aligned}
+\]
+then by elimination of $a_n$ it follows that
+\[
+T_{n+1} S_n - T_n S_{n+1} = -(T_n S_{n-1} - T_{n-1} S_n),
+\]
+or, if we set
+\[
+T_n S_{n+1} - S_n T_{n+1} = \varDelta_n
+\]
+,. % [sic] comma followed by period as printed
+\weq{9}{
+\varDelta_n = -\varDelta_{n-1} = \varDelta_{n-2} = \cdots = (-1)^n \varDelta_0.
+}
+But for $T_n = R_n$ and $S_n = Q_n$ we have $\varDelta_0 = 1$, [by (6)], hence by (9)
+\[
+R_n Q_{n+1} - Q_n R_{n+1} = (-1)^n,
+\]
+or, by changing $n$ into $n-1$ and reversing the sign:
+\weq{10}{
+R_n Q_{n-1} - Q_n R_{n-1} = (-1)^n.
+}
+If one applies this to two functions $T_n$, $S_n$, which are defined by
+\[
+T_n = T_0 R_n + T_1 Q_n, \quad S_n = S_0 R_n + S_1 Q_n
+\]
+%CONT>>

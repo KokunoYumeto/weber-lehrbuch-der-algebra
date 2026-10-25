@@ -1,0 +1,44 @@
+% !PRINTED 85
+\weberpage{85}
+%<<CONT
+
+elements of the \(\mu\)th column \(a_\mu^{(1)},a_\mu^{(2)},\ldots,a_\mu^{(\nu)}\) by \(a_\lambda^{(1)},a_\lambda^{(2)},\ldots,a_\lambda^{(\nu)}\). By (7), since \(A\) is different from zero, \(x_1,x_2,\ldots,x_\nu\) are now expressed linearly in terms of \(x_{\nu+1},\ldots,x_n\) and the known quantities.
+
+It remains to show
+
+\gesperrt{III. that the expressions (7) satisfy equations (1), whatever values \(x_{\nu+1},\ldots,x_n\) may have; thus \(n-\nu\) of the unknowns remain arbitrary, and the other \(\nu\) depend on them according to (7).}
+
+To see the truth of this theorem, we need only substitute the expressions (7) in equations (1). The calculation is greatly simplified by use of a summation sign \(\Sigma\), to which, as above, we append the summation letters above and the limits below. We can then first write equations (7) as
+\begin{equation}
+ A x_\mu=-\sum_{h=\nu+1}^{n}\sum_{i=1}^{\nu}a_h^{(i)}A_\mu^{(i)}x_h,
+ \qquad \mu=1,2,\ldots,\nu.
+\tag{9}
+\end{equation}
+We multiply by \(a_\mu^{(k)}\), where \(k\) denotes any one of the digits \(1,2,\ldots,m\), and sum with respect to \(\mu\):
+\begin{equation}
+ A\sum_{\mu=1}^{\nu}a_\mu^{(k)}x_\mu
+ =-\sum_{h=\nu+1}^{n}x_h\sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}
+ a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)},
+ \qquad k=1,2,\ldots,m.
+\tag{10}
+\end{equation}
+To both sides we add the sum \(A\sum_{h=\nu+1}^{n}a_h^{(k)}x_h\), and obtain
+\begin{equation}
+ A\sum_{\mu=1}^{n}a_\mu^{(k)}x_\mu
+ =\sum_{h=\nu+1}^{n}x_h\left(Aa_h^{(k)}-
+ \sum_{i=1}^{\nu}\sum_{\mu=1}^{\nu}a_h^{(i)}a_\mu^{(k)}A_\mu^{(i)}\right).
+\tag{11}
+\end{equation}
+The factor of \(x_h\) in the sum on the right-hand side is, by \S.\,23, (12), the determinant
+\begin{equation}
+\begin{vmatrix}
+ a_1^{(1)}&a_2^{(1)}&\cdots&a_\nu^{(1)}&a_h^{(1)}\\
+ a_1^{(2)}&a_2^{(2)}&\cdots&a_\nu^{(2)}&a_h^{(2)}\\
+ \vdots&\vdots&&\vdots&\vdots\\
+ a_1^{(\nu)}&a_2^{(\nu)}&\cdots&a_\nu^{(\nu)}&a_h^{(\nu)}\\
+ a_1^{(k)}&a_2^{(k)}&\cdots&a_\nu^{(k)}&a_h^{(k)}
+\end{vmatrix},
+\tag{12}
+\end{equation}
+and therefore vanishes, if \(k\le\nu\), by \S.\,21, V, because
+%CONT>>

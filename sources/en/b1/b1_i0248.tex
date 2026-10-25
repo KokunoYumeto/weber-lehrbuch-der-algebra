@@ -1,0 +1,52 @@
+% !PRINTED 223
+\weberpage{223}
+
+\begin{center}
+\S.\,72.
+\end{center}
+
+\begin{center}
+\gesperrt{General execution of the transformation.}
+\end{center}
+
+In the general carrying-out of the \gesperrt{Tschirnhausen} transformation in the \gesperrt{Hermite} form we can go a significant step further.
+
+We first consider the general substitution \S.\,68, (5)
+\weq{1}{
+y = t_{n-1} f_0 + t_{n-2} f_1 + t_{n-3} f_2 + \cdots + t_0 f_{n-1},
+}
+from which we obtain the more special form \S.\,68 (12) if we bind the variables $t$ to the one linear condition
+\weq{2}{
+S(y) = n a_0 t_{n-1} + (n-1) a_1 t_{n-2} + \cdots + a_{n-1} t_0 = 0
+}
+— which, however, is not yet to be done for the present.
+
+By means of the functions $f_0, f_1, f_2 \ldots f_{n-1}$, according to \S.\,68, (4), all powers of $x$, and hence also all rational functions of $x$, can be represented \gesperrt{linearly} and homogeneously.
+
+If we can find this representation for the various powers of $y$, then by elimination of the $f_i$ the equation of degree $n$ for $y$ can be formed.
+
+But we attain the same end still more simply if we represent the $n$ products $y f_s$ linearly in terms of the $f$. For if we have the equations
+\weq{3}{
+y f_s = E_{0,s} f_0 + E_{1,s} f_1 + E_{2,s} f_2 + \cdots + E_{n-1,s} f_{n-1}
+}
+\[
+s = 0, 1, 2 \ldots n-1,
+\]
+then by elimination of $f_0, f_1 \ldots f_{n-1}$ from the system (3) we obtain
+\weq{4}{
+E =
+\begin{vmatrix}
+E_{0,0} - y, & E_{1,0}, & E_{2,0} & \cdots & E_{n-1,0} \\
+E_{0,1}, & E_{1,1} - y, & E_{2,1} & \cdots & E_{n-1,1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots \\
+E_{0,n-1}, & E_{1,n-1}, & E_{2,n-1} & \cdots & E_{n-1,n-1} - y
+\end{vmatrix}
+= 0,
+}
+that is, an equation of degree $n$ for $y$, which is the transformed equation sought. Everything is therefore reduced to the determination of the coefficients $E_{r,s}$, which, as appears from (1), are in any case linear functions of the variables $t$. In particular,
+\weq{5}{
+E_{0,0} = a_0 t_{n-1}, \quad E_{1,0} = a_0 t_{n-2}, \quad \ldots \quad E_{n-1,0} = a_0 t_0.
+}
+
+To compute the remaining $E$, we observe that by the definition \S.\,68, (4) the following relations hold between the functions $f$:
+%CONT>>

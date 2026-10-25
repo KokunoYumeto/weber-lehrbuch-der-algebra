@@ -1,0 +1,26 @@
+% !PRINTED 123
+\weberpage{123}
+
+Durch logarithmische Differentiation von (1) erhält man mittels (2):
+\[
+\frac{d\log\sigma(u)}{du} = -\frac{4\pi i u}{\omega_1^2}\,\frac{d\log\eta(\omega)}{d\omega} + \frac{d\log\vartheta_{11}\left(\dfrac{u}{\omega_1},\dfrac{\omega_2}{\omega_1}\right)}{du},
+\]
+und wenn man hierin $u = \dfrac{\omega_1}{2}, \dfrac{\omega_2}{2}$ setzt und die Formeln (8) des § 21 anwendet nach § 35, (16):
+\weq{3}{\begin{aligned}
+\eta_1 &= -\frac{2\pi i}{\omega_1}\,\frac{d\log\eta(\omega)}{d\omega}, \\
+\eta_2 &= -\frac{2\pi i \omega_2}{\omega_1^2}\,\frac{d\log\eta(\omega)}{d\omega} - \frac{\pi i}{\omega_1}.
+\end{aligned}}
+Hiernach kann man für $\sigma$ setzen:
+\weq{4}{\sigma(u) = \omega_1\, e^{\frac{\eta_1 u^2}{\omega_1}}\,\frac{\vartheta_{11}\left(\dfrac{u}{\omega_1},\dfrac{\omega_2}{\omega_1}\right)}{\vartheta_{11}'},}
+und für die drei Funktionen $\sigma_{00}, \sigma_{01}, \sigma_{10}$ erhält man nach § 36, (5), wenn man einen konstanten Faktor aus
+\weq{5}{\sigma_{00}(0) = 1, \quad \sigma_{01}(0) = 1, \quad \sigma_{10}(0) = 1}
+bestimmt:
+\weq{6}{\begin{aligned}
+\sigma_{00}(u) &= e^{\frac{\eta_1 u^2}{\omega_1}}\,\frac{\vartheta_{00}\left(\dfrac{u}{\omega_1},\dfrac{\omega_2}{\omega_1}\right)}{\vartheta_{00}}, \\
+\sigma_{01}(u) &= e^{\frac{\eta_1 u^2}{\omega_1}}\,\frac{\vartheta_{01}\left(\dfrac{u}{\omega_1},\dfrac{\omega_2}{\omega_1}\right)}{\vartheta_{01}}, \\
+\sigma_{10}(u) &= e^{\frac{\eta_1 u^2}{\omega_1}}\,\frac{\vartheta_{10}\left(\dfrac{u}{\omega_1},\dfrac{\omega_2}{\omega_1}\right)}{\vartheta_{10}}.
+\end{aligned}}
+Die Funktionen $\sigma_{00}(u)$, $\sigma_{01}(u)$, $\sigma_{10}(u)$ sind \gesperrt{gerade Funktionen} von $u$, und durch zweimalige Differentiation der Logarithmen von (6) ergibt sich noch [nach (3) und § 34, (2)]:
+\weq{7}{\sigma_{00}''(0) + \sigma_{01}''(0) + \sigma_{10}''(0) = 0.}
+Die Ausdrücke (4), (6) lassen auf den ersten Blick eine wichtige Eigenschaft der $\sigma$-Funktionen erkennen, daß nämlich $\sigma_{00}, \sigma_{01}, \sigma_{10}$ nur von den \gesperrt{Verhältnissen} $u:\omega_1:\omega_2$ abhängen, während bei $\sigma$ dasselbe, abgesehen von dem Faktor $\omega_1$, gilt. Es sind also $\sigma$, $\sigma_{00}$, $\sigma_{01}$, $\sigma_{10}$ \gesperrt{homogene Funktionen der drei}
+%CONT>>

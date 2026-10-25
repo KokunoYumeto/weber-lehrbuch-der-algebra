@@ -1,0 +1,41 @@
+% !PRINTED 549
+\weberpage{549}
+%<<CONT
+setzt, so ergibt sich
+\[
+A = 1, \quad B = \alpha, \quad C = \alpha^2+\beta^2, \quad m = \beta^2,
+\]
+und die Formel 1 ergibt:
+
+\weq{3}{\begin{aligned}
+\sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s} &= \sum^{x,y} \frac{1}{(x+\omega_1 y)^s (x-\omega_2 y)^s}\\
+&= \frac{\pi}{(s-1)\beta} - \frac{2\pi\Gamma'(1)}{\beta} - \frac{\pi}{\beta}\log 4\beta^2 - \frac{2\pi}{\beta}\log \eta(\omega_1)\eta(\omega_2).
+\end{aligned}}
+
+Das Zeichen Lim ist hier der Kürze wegen weggelassen.
+
+Wir setzen
+
+\weq{4}{S = \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s},}
+
+worin $x, y$ alle ganzzahligen Werte mit Ausnahme der Kombination $0,0$ durchlaufen. $S$ ist eine unbedingt konvergente Reihe, solange $s > 1$ ist.
+
+Nun teilen wir die Glieder von $S$ in drei Arten ein, je nachdem die $x, y$ gerade oder ungerade sind, und setzen
+
+\weq{5}{\begin{aligned}
+S_0 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & x &\equiv y \pmod2,\\
+S_1 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & x &\equiv 0 \pmod2,\\
+S_2 &= \sum^{x,y} \frac{1}{[(x-\alpha y)^2+\beta^2 y^2]^s}, & y &\equiv 0 \pmod2.
+\end{aligned}}
+
+In $S_0$ sind also die Zahlen $x, y$ entweder beide gerade oder beide ungerade, in $S_1$ durchläuft $x$ die geraden, $y$ alle ganzen Zahlen, in $S_2$ ist $y$ gerade, $x$ beliebig. Betrachtet man die Summe $S_0+S_1+S_2$, so kommen darin alle Glieder von $S$ vor, und zwar die Glieder dreimal, in denen $x$ und $y$ beide gerade sind. Hebt man in der Summe dieser Glieder den Faktor $4^{-s}$ heraus, so bleibt $S$ selbst übrig, und es ergibt sich also:
+
+\weq{6}{S_0+S_1+S_2 = \left(1+\frac{2}{4^s}\right) S.}
+
+Geht man zur Grenze $s = 1$ über, so hat man zu setzen
+
+\weq{7}{\frac{1}{4^s} = \frac14 - \frac{s-1}{2}\log2 \ldots,}
+
+und erhält aus (3) die für $s = 1$ gültige Formel:
+
+\weq{8}{S_0+S_1+S_2 = \frac32 S - \frac{\pi}{\beta}\log2.}

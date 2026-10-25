@@ -1,0 +1,53 @@
+% !PRINTED 226
+\weberpage{226}
+Nun ist nach \S.\,68, (6)
+\[
+S f_0 = n a_0, \quad S f_1 = (n-1) a_1, \ldots S f_{n-1} = a_{n-1},
+\]
+so dass man erhält
+\[
+\begin{aligned}
+S(y z) = {} & n a_0 \sum_{0,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + (n-1) a_1 \sum_{0,\,n-1}^{s} E_{1,s} \tau_{n-s-1} \\
+& \cdots\cdots\cdots\cdots \\
+& + a_{n-1} \sum_{0,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1}.
+\end{aligned}
+\]
+Hierin ist nun der Coëfficient von $\tau_{n-1}$
+\[
+n a_0 E_{0,0} + (n-1) a_1 E_{1,0} + \cdots + a_{n-1} E_{n-1,0},
+\]
+also nach (3)
+\[
+= a_0 S(y).
+\]
+Da nun $S(z)$ mit dem Gliede $n a_0 \tau_{n-1}$ anfängt, so wird in
+der Differenz
+\weq{5}{S(y z) - \frac{1}{n} S(y) S(z)}
+kein Glied vorkommen, das mit $\tau_{n-1}$ multiplicirt ist. Da dieser
+Ausdruck aber ausserdem in Bezug auf $t$ und $\tau$ symmetrisch ist,
+so enthält er auch nicht $t_{n-1}$, und wir können bei seiner Bildung
+% [sic] Der Druck lässt nach dem ersten Glied „=0“ aus; der unmittelbar folgende Absatz bestätigt, dass sowohl t_{n-1} als auch tau_{n-1} gleich Null gesetzt werden.
+einfach $t_{n-1}$ und $\tau_{n-1} = 0$ annehmen.
+
+Wir setzen nun
+\[
+S(y) = n a_0 t_{n-1} + \varphi(t),
+\]
+worin
+\weq{6}{\varphi(t) = (n-1) a_1 t_{n-2} + (n-2) a_2 t_{n-3} + \cdots + a_{n-1} t_0.}
+Dann wird
+\weq{7}{
+\begin{aligned}
+S(y z) - \frac{1}{n} S(y) S(z) = {} & n a_0 \sum_{1,\,n-1}^{s} E_{0,s} \tau_{n-s-1} \\
+& + (n-1) a_1 \sum_{1,\,n-1}^{s} E_{1,s} \tau_{n-s-1} \\
+& \cdots\cdots\cdots\cdots \\
+& + a_{n-1} \sum_{1,\,n-1}^{s} E_{n-1,s} \tau_{n-s-1} - \frac{1}{n} \varphi(t) \varphi(\tau),
+\end{aligned}
+}
+wobei jedoch zu bemerken ist, dass $t_{n-1} = 0$ anzunehmen, also
+\[
+E_{s,s} = a_1 t_{n-2} + \cdots + a_s t_{n-s-1}
+\]
+zu setzen ist, während die übrigen $E$ durch die Formeln (9) des
+vorigen Paragraphen bestimmt sind.

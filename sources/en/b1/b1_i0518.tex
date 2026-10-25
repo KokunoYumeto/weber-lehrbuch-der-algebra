@@ -1,0 +1,43 @@
+% !PRINTED 493
+\weberpage{493}
+%<<CONT
+\[
+\begin{pmatrix} 0, & 1, & 2 \dots m-2 \\ b_0, & b_1, & b_2 \dots b_{m-2} \end{pmatrix}
+\]
+can be represented, and is therefore a permutation of at most $m-1$ figures. Since now also
+\[
+\pi = \pi_1(m-1, a_{m-1})
+\]
+it follows from this by complete induction
+
+1. \gesperrt{that every permutation can be decomposed (and indeed in infinitely many different ways) into transpositions.}
+
+And from this it follows further:
+
+2. \gesperrt{If a permutation group of $m$ figures contains all transpositions with one fixed figure, e.g.:
+\[
+(0,1), (0,2) \dots (0, m-1)
+\]
+then it is identical with the symmetric group.}
+
+For such a group, as one recognises from the composition
+\[
+(1,2) = (0,1)(0,2)(0,1)
+\]
+contains also all the other transpositions, and by 1. all the permutations of the symmetric group can be composed from these.
+
+A permutation $\pi$ is called \gesperrt{cyclic} if the figures can be so arranged in a sequence that by $\pi$ each figure passes into the following one, and the last again into the first, thus e.g.
+\[
+\begin{pmatrix} 0, & 1, & 2 \dots m-2, & m-1 \\ 1, & 2, & 3 \dots m-1, & 0 \end{pmatrix};
+\]
+such cyclic permutations are denoted more simply, by setting the figures of the cycle next to one another, by
+\[
+(0, 1, 2 \dots m-1).
+\]
+Here it is indifferent with which figure one begins; one could therefore also write
+\[
+(1, 2 \dots m-1, 0)
+\]
+in its place. The following theorem now holds:
+
+3. \gesperrt{Every permutation $\pi$ can be decomposed, and indeed in only one way, into a sequence of cyclic permutations, so that no two of these cycles have a figure in common.}

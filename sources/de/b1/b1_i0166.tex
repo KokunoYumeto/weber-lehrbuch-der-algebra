@@ -1,0 +1,65 @@
+% !PRINTED 141
+\weberpage{141}
+%<<CONT
+
+die Summe, die wir erhalten, wenn $x$ in $\varphi(x)$ durch jede der Variablen $\alpha_1,\alpha_2,\ldots,\alpha_n$ ersetzt und die so gebildeten Functionen addirt werden, also
+\[
+ S[\varphi(\alpha)]=\varphi(\alpha_1)+\varphi(\alpha_2)+\cdots+\varphi(\alpha_n).
+\]
+Hiernach ist z. B.
+\[
+ S(\alpha^\nu)=s_\nu
+\]
+die $\nu$te Potenzsumme.
+
+Wir dividiren nun $f(x)$ nach \S.\,4 durch eine beliebige lineare Function $x-\alpha$ und erhalten
+\begin{equation}
+ \frac{f(x)}{x-\alpha}
+   =x^{n-1}+f_1(\alpha)x^{n-2}+f_2(\alpha)x^{n-3}+\cdots+f_{n-1}(\alpha)+\frac{f(\alpha)}{x-\alpha},
+\tag{2}
+\end{equation}
+worin [\S.\,4, (8)]:
+\begin{equation}
+\begin{aligned}
+ f_1(\alpha)&=\alpha+a_1,\\
+ f_2(\alpha)&=\alpha^2+a_1\alpha+a_2,\\
+ f_3(\alpha)&=\alpha^3+a_1\alpha^2+a_2\alpha+a_3,\\
+ &\ \vdots\\
+ f_{n-1}(\alpha)&=\alpha^{n-1}+a_1\alpha^{n-2}+a_2\alpha^{n-3}+\cdots+a_{n-1}.
+\end{aligned}
+\tag{3}
+\end{equation}
+
+Wir setzen in (2) für $\alpha$ jede der Grössen $\alpha_1,\alpha_2,\ldots,\alpha_n$, wodurch $f(\alpha)=0$ wird, und bilden die Summe $S$. Die linke Seite ergiebt dann nach \S.\,14, (11)
+\begin{equation}
+\begin{aligned}
+ S\left(\frac{f(x)}{x-\alpha}\right)&=f'(x)\\
+ &=n x^{n-1}+(n-1)a_1x^{n-2}+(n-2)a_2x^{n-3}+\cdots+a_{n-1},
+\end{aligned}
+\tag{4}
+\end{equation}
+während die rechte Seite
+\begin{equation}
+ n x^{n-1}+x^{n-2}S[f_1(\alpha)]+x^{n-3}S[f_2(\alpha)]+\cdots+S[f_{n-1}(\alpha)]
+\tag{5}
+\end{equation}
+wird, und die Vergleichung der Coëfficienten gleicher Potenzen von $x$ in (4) und (5) ergiebt
+\begin{equation}
+\begin{aligned}
+ S[f_1(\alpha)]&=(n-1)a_1,\\
+ S[f_2(\alpha)]&=(n-2)a_2,\\
+ &\ \vdots\\
+ S[f_{n-1}(\alpha)]&=a_{n-1}.
+\end{aligned}
+\tag{6}
+\end{equation}
+Es ist aber nach (1) und (3)
+\[
+\begin{aligned}
+ S[f_1(\alpha)]&=s_1+na_1,\\
+ S[f_2(\alpha)]&=s_2+a_1s_1+na_2,\\
+ &\ \vdots\\
+ S[f_{n-1}(\alpha)]&=s_{n-1}+a_1s_{n-2}+a_2s_{n-3}+\cdots+na_{n-1}.
+\end{aligned}
+\]
+%CONT>>

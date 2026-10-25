@@ -1,0 +1,46 @@
+% !PRINTED 170
+\weberpage{170}
+
+But we have
+\[
+F(\tfrac12,\tfrac12,1\pm\varepsilon,x) = \frac{\Pi(\pm\varepsilon)}{[\Pi(-\tfrac12)]^2} \sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu\pm\varepsilon)\Pi(\nu)} x^\nu,
+\]
+and, with the addition of a constant factor, one may also take
+the following as the second particular integral:
+\[
+\frac{1}{2\varepsilon}\cdot\sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu)}\Bigl[\frac{-1}{\Pi(\nu+\varepsilon)} + \Bigl(\frac{x}{1-x}\Bigr)^{-\varepsilon}\frac{1}{\Pi(\nu-\varepsilon)}\Bigr]x^\nu.
+\]
+If we here develop in powers of $\varepsilon$ and then set
+$\varepsilon=0$, it follows that:
+\[
+\sum_{\nu=0}^{\infty} \frac{\Pi(\nu-\tfrac12)^2}{\Pi(\nu)^2} x^\nu \Bigl[\frac{\Pi'(\nu)}{\Pi(\nu)} - \frac12 \log\frac{x}{1-x}\Bigr],
+\]
+for which, using the \gesperrt{Gauss} formula
+\[
+\frac{\Pi(\nu-\tfrac12)\Pi(\nu)}{\Pi(2\nu)} = \sqrt{\pi}\,2^{-2\nu}
+\]
+one may also write, on discarding a constant factor:
+\weq{12}{\sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu \Bigl[\frac{\Pi'(\nu)}{\Pi(\nu)} - \frac12 \log\frac{x}{1-x}\Bigr].}
+But for a positive integer $\nu$ we have:
+\[
+\frac{\Pi'(\nu)}{\Pi(\nu)} = \Pi'(0) + 1 + \frac12 + \frac13 + \cdots + \frac1\nu,
+\]
+and if we therefore set, for brevity:
+% [sic] In the second line the source omits the plus sign between \cdots and 1/\nu.
+\weq{13}{\begin{aligned}
+F(x) &= \sum_{\nu=0}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(\frac{x}{16}\Bigr)^\nu, \\
+G(x) &= 2\sum_{\nu=1}^{\infty} \frac{\Pi(2\nu)^2}{\Pi(\nu)^4}\Bigl(1+\frac12+\frac13+\cdots\frac1\nu\Bigr)\Bigl(\frac{x}{16}\Bigr)^\nu,
+\end{aligned}}
+then the two particular solutions of the differential equation
+ (8) result, if for the second one takes a linear combination
+of (10) and (12):
+\weq{14}{y_1 = F(x), \qquad y_2 = \frac12 G(x) - \frac12 \log\frac{x}{16(1-x)}F(x).}
+But in order now to represent the particular integrals $K$ and $K'$ by
+these functions, we must investigate the behaviour of $K,K'$
+for $q=0$, for which at the same time $\varkappa^2=0$.
+
+But for $q=0$ we have, by \S\,25 and \S\,42:
+\[
+q^{-1}\varkappa^2 = 16, \qquad 2K = \pi,
+\]
+%CONT>>

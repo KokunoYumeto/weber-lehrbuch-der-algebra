@@ -1,0 +1,37 @@
+% !PRINTED 172
+\weberpage{172}
+
+%<<CONT
+is completely solved, then the equation (1) is thereby also completely solved [if (11) has $n$ distinct roots], or at least reduced to the solution of an equation of lower degree [if (11) has equal roots].
+
+Accordingly we regard (11) as a transformation of the equation (1), and the formation of (11) from (1) is called the \gesperrt{Tschirnhausen transformation} of the equation (1).
+
+The purpose of such a transformation is to determine the coefficients $\alpha_i$ in such a way that $\Phi(y)$ takes a simpler form than $f(x)$.
+
+One can form the coefficients $b_\nu$ if one knows the power sums of the $y_i$ (\S.\,42).
+
+If we denote the sums of the $m$th powers of the $x_i$ by $s_m$, and those of the $y_i$ by $\sigma_m$, that is
+\[
+s_m = S x_i^m, \qquad \sigma_m = S y_i^m,
+\]
+then we can form $\sigma_m$ from the $s_m$ in the following way.
+
+We first expand $y^m$ by the polynomial theorem (\S.\,12), that is, we set
+% [sic] The print omits the plus sign before \cdots in the following exponent.
+\weq{12}{
+y^m = \sum^{\nu} \frac{\Pi(m)}{\Pi(\nu_0)\,\Pi(\nu_1)\,\dots\,\Pi(\nu_{n-1})}\, \alpha_0^{\nu_0}\alpha_1^{\nu_1}\dots\alpha_{n-1}^{\nu_{n-1}}\, x^{\nu_1+2\nu_2\cdots+(n-1)\nu_{n-1}},
+}
+where the sum extends over all non-negative integral values of $\nu_0, \nu_1 \dots \nu_{n-1}$ that satisfy the condition
+\weq{13}{
+\nu_0 + \nu_1 + \cdots + \nu_{n-1} = m
+}
+If we then substitute $x_1, x_2 \dots x_n$ for $x$ in (12) and form the sum of the values of $y_1^m, y_2^m \dots y_n^m$ so obtained, it follows that
+\weq{14}{
+\sigma_m = \sum^{\nu} \frac{\Pi(m)}{\Pi(\nu_0)\,\Pi(\nu_1)\,\dots\,\Pi(\nu_{n-1})}\, s_{\nu_1+2\nu_2+\cdots+(n+1)\nu_{n-1}}\, \alpha_0^{\nu_0}\alpha_1^{\nu_1}\dots\alpha_{n-1}^{\nu_{n-1}}. % [sic] exponent reads (n+1), cf. (n-1) in (12)
+}
+In this way $\sigma_m$ is represented as an integral homogeneous function of order $m$ of the $\alpha_0, \alpha_1 \dots \alpha_{n-1}$. A somewhat simplified notation is obtained by the second representation of forms (\S.\,15). If we let $\mu_1, \mu_2 \dots \mu_m$ run independently of one another through the sequence of numbers $0, 1 \dots n-1$, then, if in a combination the index 0 occurs $\nu_0$ times, the index 1 occurs $\nu_1$ times, the index 2 occurs $\nu_2$ times, \dots the index $n-1$ occurs $\nu_{n-1}$ times, we have
+\[
+\nu_0 + \nu_1 + \nu_2 + \cdots + \nu_{n-1} = m
+\]
+and
+%CONT>>

@@ -1,0 +1,38 @@
+% !PRINTED 710
+\weberpage{710}
+%<<CONT
+elementaren Sätzen der Integralrechnung, \gesperrt{wenn $\alpha$ irgend einen Winkel
+zwischen 0 und $2\pi$ bedeutet,}
+\[
+\int_0^1 \frac{dx}{x-e^{i\alpha}} = \tfrac{1}{2}\log\left(4\sin^2\frac{\alpha}{2}\right) + i\,\frac{\pi-\alpha}{2}.
+\]
+Hieraus ergiebt sich nach (4):
+\weq{5}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s)\left[\tfrac{1}{2}\log 4\left(\sin\frac{s\pi}{m}\right)^2 - \frac{i\pi(m-2s)}{2m}\right].}
+Hierin ist nach (2)
+\weq{6}{f(r^s) = \overset{t}{\Sigma}\chi(t)\,r^{ts},}
+und daraus ergiebt sich [wegen (3)]:
+\weq{7}{\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s) = \underset{0,\,m-1}{\overset{s}{\Sigma}} f(r^s) = 0,}
+da
+\[
+\underset{0,\,m-1}{\overset{s}{\Sigma}} r^{st} = 0
+\]
+ist. Hiernach vereinfacht sich die Formel (5) noch etwas und ergiebt
+\weq{8}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^s)\left[\tfrac{1}{2}\log\left(\sin\frac{s\pi}{m}\right)^2 + \frac{i\pi s}{m}\right],}
+wofür man auch, wenn man $s$ durch $m-s$ ersetzt und wieder (7) benutzt,
+\weq{9}{X = -\frac{1}{m}\underset{1,\,m-1}{\overset{s}{\Sigma}} f(r^{-s})\left[\tfrac{1}{2}\log\left(\sin\frac{s\pi}{m}\right)^2 - \frac{i\pi s}{m}\right]}
+setzen kann.
+
+Aus (6) folgt aber
+\[
+f(r^{-s}) = \overset{t}{\Sigma}\chi(t)\,r^{-ts},
+\]
+und die nach $t$ genommene Summe ändert sich nicht, wenn $t$ durch $m-t$
+ersetzt wird. Daraus folgt:
+\[
+f(r^{-s}) = \chi(-1)\,f(r^s).
+\]
+Der Factor $\chi(-1)$ hat den Werth $+1$ oder $-1$, da sein Quadrat $=+1$
+ist. Wir unterscheiden daher jetzt zwei Arten von Charakteren $\chi_1(n)$,
+$\chi_2(n)$, so dass
+\weq{10}{\chi_1(-1) = 1,\quad \chi_2(-1) = -1}
+%CONT>>

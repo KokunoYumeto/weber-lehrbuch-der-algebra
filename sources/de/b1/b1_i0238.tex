@@ -1,0 +1,66 @@
+% !PRINTED 213
+\weberpage{213}
+%<<CONT
+von $\varphi(\xi)$ gebildet sind, wie die entsprechenden Functionen
+$F_0(x), F_1(x) \cdots F_{n-2}(x)$ aus $x$ und den Co\"efficienten von $f(x)$.
+
+Wenn wir nun andererseits in $F(t, x)$ gleichzeitig mit der
+Substitution (1) die Substitution
+
+\weq{4}{t = \frac{\alpha\tau+\beta}{\gamma\tau+\delta}}
+
+ausf\"uhren, so erhalten wir
+
+\weq{5}{(\gamma\tau+\delta)^n f(t) = \varphi(\tau),}
+\weq{6}{(\gamma\xi+\delta)(\gamma\tau+\delta)(t-x) = r(\tau-\xi)}
+
+und, indem wir von (5) die Ableitung, am einfachsten durch
+Differentiation mittelst der Formel
+
+\[
+\frac{dt}{d\tau} = \frac{r}{(\gamma\tau+\delta)^2}
+\]
+
+bilden,
+
+\weq{7}{r(\gamma\tau+\delta)^{n-1}\frac{1}{n}f'(t) = (\gamma\tau+\delta)\frac{1}{n}\varphi'(\tau) - \gamma\varphi(\tau).}
+
+Aus (5), (6) und (7) folgt
+
+\[
+r(\gamma\tau+\delta)^{n-2}\frac{f(t)}{t-x} = \frac{\varphi(\tau)}{\tau-\xi}\frac{\gamma\xi+\delta}{\gamma\tau+\delta}
+\]
+
+\[
+r(\gamma\tau+\delta)^{n-2}\frac{1}{n}f'(t) = -\frac{\gamma(\tau-\xi)\varphi(\tau)}{(\gamma\tau+\delta)(\tau-\xi)} + \frac{1}{n}\varphi'(\tau),
+\]
+
+und durch Subtraction beider Formeln
+
+\[
+r(\gamma\tau+\delta)^{n-2}\left(\frac{f(t)}{t-x} - \frac{1}{n}f'(t)\right) = \frac{\varphi(\tau)}{\tau-\xi} - \frac{1}{n}\varphi'(\tau),
+\]
+
+also
+
+\weq{8}{r(\gamma\tau+\delta)^{n-2}F(t, x) = \Phi(\tau, \xi)}
+
+oder, ausf\"uhrlicher geschrieben
+
+\weq{9}{\tau^{n-2}\Phi_0 + \tau^{n-3}\Phi_1 + \cdots + \Phi_{n-2} = r[(\alpha\tau+\beta)^{n-2}F_0 +(\alpha\tau+\beta)^{n-3}(\gamma\tau+\delta)F_1 +\cdots+(\gamma\tau+\delta)^{n-2}F_{n-2}].}
+
+Wir setzen nun, indem wir in $F(t, x)$ die Potenzen $t^k$ durch
+beliebige Variable $t_k$ ersetzen und ebenso in $\Phi(\tau, k)$ % [sic] printed \textquotedbl{}$\Phi(\tau,k)$\textquotedbl{}, not $\Phi(\tau,\xi)$
+$\tau^k$ durch $\tau_k$,
+
+\weq{10}{\begin{aligned}
+Y(t, x) &= t_{n-2}F_0 + t_{n-3}F_1 + \cdots + t_0 F_{n-2},\\
+H(\tau, \xi) &= \tau_{n-2}\Phi_0 + \tau_{n-3}\Phi_1 + \cdots + \tau_0\Phi_{n-2},
+\end{aligned}}
+
+so dass die Substitutionen der Tschirnhausen-Transformation
+
+\weq{11}{y = Y(t, x), \qquad \eta = H(\tau, \xi)}
+
+lauten [\S.\,68, (12)].
+%CONT>>

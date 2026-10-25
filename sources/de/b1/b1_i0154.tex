@@ -1,0 +1,57 @@
+% !PRINTED 129
+\weberpage{129}
+%<<CONT
+
+\begin{equation}
+ f(\alpha+h)=f(\alpha)+h f'(\alpha)+\frac{h^2}{1\cdot2}f''(\alpha)+\cdots
+\tag{6}
+\end{equation}
+\begin{equation}
+ h=-\delta\frac{f(\alpha)}{f'(\alpha)},
+\tag{7}
+\end{equation}
+und erhalten
+\begin{align}
+ f(\alpha+h)={}&(1-\delta)f(\alpha)
+ +\delta^2\left\{\frac{f(\alpha)^2 f''(\alpha)}{1\cdot2\,f'(\alpha)^2}
+ -\delta\frac{f(\alpha)^3 f'''(\alpha)}{1\cdot2\cdot3\,f'(\alpha)^3}+\cdots\right\}.
+\tag{8}
+\end{align}
+
+Nun ist nach (2)
+\[
+ f'(\alpha)=n(\alpha-\beta_1)(\alpha-\beta_2)\cdots(\alpha-\beta_{n-1}),
+\]
+also, wenn wir die absoluten Werthe von $(\alpha-\beta_1),(\alpha-\beta_2),\ldots,(\alpha-\beta_{n-1})$ durch $r_1,r_2,
+\ldots,r_{n-1}$ bezeichnen,
+\[
+ |f'(\alpha)|=nr_1r_2\cdots r_{n-1}.
+\]
+Da nun $\alpha$ ausserhalb des um $\beta_1$ beschriebenen Kreises $\varrho_1$ liegt, so ist $r_1>\varrho_1,r_2>\varrho_2,
+\ldots$, und folglich
+\[
+ |f'(\alpha)|>n\varrho_1\varrho_2\cdots\varrho_{n-1},
+\]
+also $|f'(\alpha)|$ grösser als eine von der Lage von $\alpha$ innerhalb $G$ unabhängige positive Zahl $k$. Daraus ergiebt sich, dass man eine hinlänglich grosse positive Zahl $Q$, die gleichfalls von der Lage von $\alpha$ und von dem echten Bruch $\delta$ unabhängig ist, so wählen kann, dass
+\begin{equation}
+ \left|\frac{f(\alpha)^2f''(\alpha)}{1\cdot2\,f'(\alpha)^2}
+ -\delta\frac{f(\alpha)^3f'''(\alpha)}{1\cdot2\cdot3\,f'(\alpha)^3}+\cdots\right|<Q
+\tag{9}
+\end{equation}
+ist.
+
+Man kann $Q$ erhalten, wenn man auf der linken Seite von (9) in den Nennern $f'(\alpha)$ durch $k$, $\delta$ durch $1$ und sonst alle Glieder durch ihre absoluten Werthe und endlich den absoluten Werth von $\alpha$ durch den grösseren Werth $R$ ersetzt, und die so gewonnene Zahl noch beliebig grösser macht. Dann ergiebt sich aber aus (8)
+\begin{equation}
+ |f(\alpha+h)|<(1-\delta)|f(\alpha)|+\delta^2Q.
+\tag{10}
+\end{equation}
+Nehmen wir nun $Q$ so gewählt an, dass für jedes $\alpha$ innerhalb $G$
+\[
+ 2Q>|f(\alpha)|=a
+\]
+ist, was mit der obigen Bestimmung offenbar verträglich ist, so können wir
+\[
+ \delta=\frac{a}{2Q},\qquad
+ h=-\frac{a f(\alpha)}{2Q f'(\alpha)}
+\]
+%CONT>>

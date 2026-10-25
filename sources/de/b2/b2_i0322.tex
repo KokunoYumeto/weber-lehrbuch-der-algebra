@@ -1,0 +1,57 @@
+% !PRINTED 301
+\weberpage{301}
+%<<CONT
+ist, so können wir (4) oder (5) auch so darstellen:
+
+\weq{6}{\begin{pmatrix} \psi_1(z_1, z_2, \dots), & \psi_2(z_1, z_2, \dots), \dots \\ \varphi_1(\psi_1, \psi_2, \dots), & \varphi_2(\psi_1, \psi_2, \dots), \dots \end{pmatrix} = \begin{pmatrix} \psi(z) \\ \varphi[\psi(z)] \end{pmatrix}.}
+
+Dies führt zur Zusammensetzung der Permutationen:
+
+\weq{7}{\begin{pmatrix} z \\ \psi(z) \end{pmatrix}\begin{pmatrix} z \\ \varphi(z) \end{pmatrix} = \begin{pmatrix} z \\ \varphi[\psi(z)] \end{pmatrix}.}
+
+\begin{center}
+§.\,78.
+
+\gesperrt{Darstellung der metacyklischen Gruppe $P$.}
+\end{center}
+
+Nun soll die Gruppe $Q$ ein Normaltheiler der Gruppe $P$ sein, d. h. wenn $A$ eine Permutation aus $Q$, $B$ eine Permutation aus $P$ ist, so soll sich eine zweite Permutation $A'$ aus $Q$ so
+bestimmen lassen, dass
+
+\weq{1}{AB = BA'}
+
+ist. Setzen wir in der abgekürzten Bezeichnung des vorigen Paragraphen
+
+\[
+A = \begin{pmatrix} z \\ z+\alpha \end{pmatrix}, \quad A' = \begin{pmatrix} z \\ z+\alpha' \end{pmatrix}, \quad B = \begin{pmatrix} z \\ \varphi(z) \end{pmatrix},
+\]
+
+so wird
+
+\[
+AB = \begin{pmatrix} z \\ \varphi(z+\alpha) \end{pmatrix}, \quad BA' = \begin{pmatrix} z \\ \varphi(z)+\alpha' \end{pmatrix},
+\]
+
+oder
+
+\[
+\varphi(z+\alpha) \equiv \varphi(z) + \alpha'.
+\]
+
+Diese Congruenz aber ist nur ein abgekürztes Symbol für das System der Congruenzen nach dem Modul $p$:
+
+\weq{2}{\begin{aligned}
+\varphi_1(z_1+\alpha_1, z_2+\alpha_2, \dots) &\equiv \varphi_1(z_1, z_2, \dots) + \alpha_1' \\
+\varphi_2(z_1+\alpha_1, z_2+\alpha_2, \dots) &\equiv \varphi_2(z_1, z_2, \dots) + \alpha_2' \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots
+\end{aligned}}
+
+Hierin kann das System der Zahlen $\alpha_1, \alpha_2, \dots$ nach dem Modul $p$ beliebig gegeben sein, $\alpha_1', \alpha_2', \dots$ sind dadurch bestimmt.
+
+Setzen wir in der ersten der Formeln (2) je eine der Zahlen $\alpha_1, \alpha_2, \dots$ gleich 1, die übrigen gleich 0, so mag sich ergeben:
+
+\weq{3}{\begin{aligned}
+\varphi_1(z_1+1, z_2 \dots) &\equiv \varphi_1(z_1, z_2, \dots) + \alpha_{1,1} \\
+\varphi_1(z_1, z_2+1, \dots) &\equiv \varphi_1(z_1, z_2, \dots) + \alpha_{1,2} \\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots
+\end{aligned}}

@@ -1,0 +1,50 @@
+% !PRINTED 41
+\weberpage{41}
+%<<CONT
+
+\begin{equation}
+B_\nu^{(n)}={n(n-1)(n-2)\cdots(n-\nu+1)\over 1\cdot2\cdot3\cdots\nu}.
+\tag{6}
+\end{equation}
+In what follows we shall often, when $m$ is an arbitrary positive integer, use the symbol
+\begin{equation}
+ \Pi(m)=1\cdot2\cdot3\cdots m,
+ \qquad
+ \Pi(0)=1
+\tag{7}
+\end{equation}
+so that
+\begin{equation}
+ \Pi(m)=m\Pi(m-1).
+\tag{8}
+\end{equation}
+With the help of this symbol the expression for $B_\nu^{(n)}$ can be displayed more conveniently as
+\begin{equation}
+ B_\nu^{(n)}=B_{n-\nu}^{(n)}={\Pi(n)\over \Pi(\nu)\Pi(n-\nu)},
+\tag{9}
+\end{equation}
+which, if $B_0^{(n)}=1$ is put, is also valid for $\nu=0$ and $\nu=n$, and makes evident the invariance of $B_\nu^{(n)}$ under the interchange of $\nu$ with $n-\nu$.
+
+The derivation of the formula (4), which we have just given according to the rules of the theory of combinations, is indeed perfectly correct and clear, but for its exact foundation it requires some reflection which cannot easily be compressed into a few words. We shall therefore subsequently prove its correctness once more by the method of complete induction.
+
+The formulas (3), namely, give the following recurrence formulas:
+\begin{equation}
+\begin{aligned}
+B_1^{(n)}&=B_1^{(n-1)}+1,\\
+B_2^{(n)}&=B_2^{(n-1)}+B_1^{(n-1)},\\
+&\cdots\\
+B_\nu^{(n)}&=B_\nu^{(n-1)}+B_{\nu-1}^{(n-1)},\\
+&\cdots\\
+B_n^{(n)}&=B_{n-1}^{(n-1)}.
+\end{aligned}
+\tag{10}
+\end{equation}
+Now the formula (6) can be confirmed very easily by counting for the first values of $n$. If one assumes it correct for $n-1$, then (10) gives
+\[
+ B_\nu^{(n)}={\Pi(n-1)\over \Pi(\nu)\Pi(n-\nu-1)}+{\Pi(n-1)\over \Pi(\nu-1)\Pi(n-\nu)},
+\]
+whence, by (8),
+\[
+ B_\nu^{(n)}={\Pi(n)\over \Pi(\nu)\Pi(n-\nu)},
+\]
+and by this the general validity of formula (9) is proved.

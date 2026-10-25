@@ -1,0 +1,42 @@
+% !PRINTED 664
+\weberpage{664}
+Es ist dann
+\weq{11}{S_n = \sum^{t} t' E\left(\frac{t n}{m}\right) \equiv \sum^{t_1} t_1' \sum^{t_2} E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right)\ (\mathrm{mod}\ q).}
+
+Wir nehmen jetzt $n < q$ an, also auch $n t_1 < m$, so dass
+$n t_1 : m$ ein echter Bruch ist. Dann ist
+\[
+\begin{aligned}
+\text{a)} \quad E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right)
+  &\quad \text{entweder}\quad = E\left(\frac{n t_2}{m'}\right) \\
+\text{b)} \quad
+  &\quad \text{oder}\quad = E\left(\frac{n t_2}{m'}\right) + 1,
+\end{aligned}
+\]
+und zwar tritt der Fall b) nur dann ein, wenn zwischen
+\[
+\frac{n t_2}{m'}\ \text{und}\ \frac{n t_2}{m'} + \frac{n t_1}{m}
+\]
+eine ganze Zahl liegt. Dies ist aber nur dann der Fall, wenn
+der Unterschied zwischen $n t_2 : m'$ und der nächst grösseren
+ganzen Zahl kleiner als $n t_1 : m$ ist, also wenn
+\weq{12}{E\left(\frac{n t_2}{m'}\right) + 1 - \frac{n t_2}{m'} < \frac{n t_1}{m}.}
+
+Lassen wir in dem Ausdrucke auf der linken Seite von (12)
+\weq{13}{E\left(\frac{n t_2}{m'}\right) + 1 - \frac{n t_2}{m'}}
+$t_2$ alle seine Werthe durchlaufen, so erhalten wir lauter positive,
+die Einheit nicht übersteigende rationale Brüche mit dem
+Nenner $m'$, von denen keine zwei einander gleich sind. Denn
+wären zwei der Werthe, die aus (13) durch Substitution von
+$t_2', t_2''$ für $t_2$ entstehen, einander gleich, so müsste $\dfrac{n(t_2' - t_2'')}{m'}$ eine
+ganze Zahl sein, was, da $n$ relativ prim zu $m'$ und $t_2' - t_2''$ kleiner
+als $m'$ ist, nicht sein kann. Die Ausdrücke (13) durchlaufen
+daher in irgend einer Reihenfolge die Zahlenwerthe
+\weq{14}{\frac{1}{m'}, \frac{2}{m'}, \dots, \frac{m'-1}{m'}, 1,}
+und wenn $a$ einen beliebigen positiven Bruch bedeutet, so ist
+$E(m' a)$ die Anzahl der Zahlen der Reihe (14), die nicht grösser
+als $a$ sind. Nach (12) ist daher die Anzahl der Werthe von $t_2$,
+für die der Fall b) eintritt, gleich $E\left(\dfrac{n t_1}{q}\right)$, und es ergiebt sich
+\[
+\sum^{t_2} E\left(\frac{n t_2}{m'} + \frac{n t_1}{m}\right) = \sum^{t_2} E\left(\frac{n t_2}{m}\right) + E\left(\frac{n t_1}{q}\right). % [source sic: the first denominator on the right is printed m, not the mathematically required m']
+\]

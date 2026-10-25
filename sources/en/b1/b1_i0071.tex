@@ -1,0 +1,55 @@
+% !PRINTED 46
+\weberpage{46}
+
+If the first equation (5) is multiplied by $B_0^{(1)}$, the second by $-B_1^{(1)}$, and they are added, one obtains, by the formula system mentioned (applied to $n=1$),
+\[
+ -M_1=B_0^{(1)}f(0)-B_1^{(1)}f(1),
+\]
+and so in general, if the first $\nu$ equations (5) are multiplied in order by
+\[
+ B_0^{(\nu)},\quad -B_1^{(\nu)},\quad +B_2^{(\nu)},\quad \ldots,\quad \pm B_\nu^{(\nu)}
+\]
+and then added,
+\begin{equation}
+ \pm M_\nu=B_0^{(\nu)}f(0)-B_1^{(\nu)}f(1)+B_2^{(\nu)}f(2)-\cdots\pm B_\nu^{(\nu)}f(\nu),
+\tag{7}
+\end{equation}
+whereby, according to (4), the function $F(x)$ is determined and the problem is solved. It is clear that, so long as we make no special supposition about the values $f(0),f(1),\ldots,f(n)$, every arbitrary whole rational function of $x$ can be represented in this form.
+% SOURCE-ORIGINAL-SIC (mathematical notation): The scan prints uppercase F(x) here although equations (1), (4), and the surrounding argument define lowercase f(x); both lanes remain source-faithful.
+
+\begin{center}
+{\large \S.\ 10.}
+
+\vspace{0.5em}
+{\large\gesperrt{Solution of the Interpolation Problem by Differences.}}
+\end{center}
+
+The definition of the whole rational function
+\begin{equation}
+ B_\nu^{(x)}={x(x-1)\cdots(x-\nu+1)\over 1\cdot2\cdot3\cdots\nu}
+\tag{1}
+\end{equation}
+gives the relation, already proved earlier for the special case of a positive integer $x$,
+\begin{equation}
+ B_\nu^{(x+1)}=B_\nu^{(x)}+B_{\nu-1}^{(x)},\qquad B_0^{(x+1)}=B_0^{(x)}=1.
+\tag{2}
+\end{equation}
+From this we obtain for the coefficients $M_0,M_1,\ldots,M_n$ a mode of determination which is much more convenient for practical calculation than the application of the formulae of the preceding paragraph.
+
+Namely, by the formulae (4) and (6) of \S~9,
+\begin{equation}
+ f(x)=f(0)+M_1B_1^{(x)}+M_2B_2^{(x)}+\cdots+M_nB_n^{(x)},
+\tag{3}
+\end{equation}
+and if in this expression we replace $x$ by $x+1$ and form the difference
+\begin{equation}
+ \Delta_x=f(x+1)-f(x)
+\tag{4}
+\end{equation}
+then, with regard to (2),
+\begin{equation}
+ \Delta_x=M_1+M_2B_1^{(x)}+M_3B_2^{(x)}+\cdots+M_nB_{n-1}^{(x)},
+\tag{5}
+\end{equation}
+from which follows (since (5) is an equation of the same kind as (3), except that $n-1$ has taken the place of $n$):
+%CONT>>

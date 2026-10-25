@@ -1,0 +1,38 @@
+% !PRINTED 592
+\weberpage{592}
+%<<CONT
+also, wenn $t$ eine Variable ist, die Function $F$ in der Form annehmen:
+\[
+F(t) = t^\nu + \alpha_1 t^{\nu-1} + \alpha_2 t^{\nu-2} + \cdots + \alpha_\nu,
+\]
+deren Coëfficienten $\alpha_1, \alpha_2, \ldots, \alpha_\nu$ ganze Zahlen in $R$ sind. Durch Division können wir dann für jede andere ganze Function $F_1(t)$ den Quotienten $Q(t)$ und den Rest $\varphi(t)$ so bestimmen, dass
+\weq{5}{F_1(t) = Q(t) F(t) + \varphi(t),}
+worin
+\weq{6}{\varphi(t) = \varrho_0 + \varrho_1 t + \cdots + \varrho_{\nu-1} t^{\nu-1}}
+eine durch $F_1(t)$ eindeutig bestimmte Function $(\nu-1)^{\text{ten}}$ Grades ist, mit ganzzahligen Coëfficienten $\varrho$.
+
+Setzen wir für $\Theta$ die Primitivwurzel $\gamma$ und für $F_1(t)$ eine Potenz von $t$, so ergiebt sich aus (4), (5) und (6), dass jede durch $\mathfrak{p}$ nicht theilbare Zahl $\omega$ einer Congruenz
+\weq{7}{\omega \equiv \varrho_0 + \varrho_1 \gamma + \cdots + \varrho_{\nu-1} \gamma^{\nu-1} \pmod{\mathfrak{p}}}
+genügt, und da die $\varrho$ auch $= 0$ sein können, so gilt dies auch noch für ein durch $\mathfrak{p}$ theilbares $\omega$.
+
+Die Coëfficienten $\varrho$ in dem Ausdrucke (7) sind durch $\omega$ selbst nach dem Modul $\mathfrak{P}$ völlig bestimmt, da nach unserer Voraussetzung $\gamma$ keiner Congruenz in $R$ von niedrigerem als dem $\nu^{\text{ten}}$ Grade genügen soll, deren Coëfficienten nicht alle durch $\mathfrak{P}$ theilbar sind. Folglich giebt es, da jeder der Coëfficienten in (7) nur $P$ incongruente Werthe haben kann, $P^\nu$ und nicht mehr incongruente Zahlen $\omega$, und daraus folgt, dass $\nu = f$ sein muss.
+
+Aus einer Congruenz $F(\gamma) \equiv 0 \pmod{\mathfrak{p}}$ folgt nun aber durch wiederholtes Potenziren mit Rücksicht auf (1):
+\[
+F(\gamma^P) \equiv 0, \ F(\gamma^{P^2}) \equiv 0, \ldots \pmod{\mathfrak{p}},
+\]
+und wir haben also den Satz bewiesen (\S.\,150, 2.):
+
+\gesperrt{Eine Primitivwurzel $\gamma$ von $\mathfrak{p}$ genügt nach dem Modul $\mathfrak{p}$ einer Congruenz in $R$ vom $f^{\text{ten}}$ Grade, deren sämmtliche Wurzeln}
+\[
+\gamma, \gamma^P, \gamma^{P^2}, \ldots, \gamma^{P^f-1}
+\]
+\gesperrt{sind.}
+% [sic: The source prints $\gamma^{P^f-1}$ as the last root, with -1 on the P-exponent level rather than inside the exponent of P. The P-power orbit requires $\gamma^{P^{f-1}}$; the printed expression is retained.]
+
+Diesem Satze kann man auch den Ausdruck geben:
+
+\gesperrt{Das Product}
+% [sic: The last factor repeats the source's $\gamma^{P^f-1}$; the P-power-orbit factor would be $\gamma^{P^{f-1}}$.]
+\weq{8}{(t-\gamma)(t-\gamma^P) \ldots (t-\gamma^{P^f-1})}
+\gesperrt{ist nach dem Modul $\mathfrak{p}$ mit einer ganzen Function $F(t)$ in $R$ congruent.}

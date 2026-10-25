@@ -1,0 +1,54 @@
+% !PRINTED 15
+\weberpage{15}
+
+The quantities $y_1$, $y_2$, $y_3$ introduced in Algebra I, \S\ 70 are therefore equal to $e_1{:}\mu$, $e_2{:}\mu$, $e_3{:}\mu$, and by formula (11) there one obtains for the $e_1$, $e_2$, $e_3$ the cubic equation:
+\[
+z^3 - 3A\mu^2 z + \mu^3 B = 0.
+\]
+Thus, if, with $\varphi(z) = z^3 - g_2 z - g_3$, % [sic] factor 4 is absent in print; the next display requires 4z^3
+\[
+\varphi(z) = 4(z-e_1)(z-e_2)(z-e_3) = 4z^3 - g_2 z - g_3
+\]
+is to hold,
+\weq{6}{g_2 = 12\mu^2 A, \qquad g_3 = -4\mu^3 B.}
+In these,
+\weq{7}{
+\begin{aligned}
+A &= a_2^2 - 3a_1a_3 + 12a_0a_4\\
+B &= 27a_1^2a_4 + 27a_0a_3^2 + 2a_2^3 - 72a_0a_2a_4 - 9a_1a_2a_3
+\end{aligned}
+}
+are the first and second invariants of the biquadratic form $f(x)$.
+
+Logarithmic differentiation of the first two equations (4) gives
+\[
+\frac{dz^2}{(z-e_1)(z-e_2)} = \frac{dx^2(x_1x_2)(x_1x_3)}{(xx_1)^2(xx_2)(xx_3)},
+\]
+and with the help of the last equation (4), by (5):
+\weq{8}{\frac{dz}{\sqrt{4z^3-g_2z-g_3}} = \frac{dx}{\sqrt{12\mu f(x)}}.}
+
+If we wish to apply these results to the case in which $f(x)$ has the normal form
+\[
+f(x) = x(1-x)(1-\varkappa^2x) = x - x^2(1+\varkappa^2) + \varkappa^2x^3
+\]
+and the point $z=\infty$ corresponds to the point $x=0$, then we let $a_0$ pass over into zero and $x_4$ into infinity, but the product $a_0x_4$ into a finite value, which we may take to be $=1$.
+
+We then have
+\[
+\begin{gathered}
+a_0x_4 = 1, \qquad a_0 = 0, \qquad a_1 = \varkappa^2,\\
+a_2 = -(1+\varkappa^2), \qquad a_3 = 1, \qquad a_4 = 0
+\end{gathered}
+\]
+and consequently
+\[
+\begin{aligned}
+A &= (1+\varkappa^2)^2 - 3\varkappa^2 = 1 - \varkappa^2 - \varkappa^4 = 1 - \varkappa^2\varkappa'^2 % [sic] second minus is printed; algebra requires plus
+\\
+B &= -(1+\varkappa^2)[2(1+\varkappa^2)^2 - 9\varkappa^2]\\
+&= -(1+\varkappa^2)(2-\varkappa^2)(1-2\varkappa^2)\\
+&= (1+\varkappa^2)(1+\varkappa'^2)(\varkappa^2-\varkappa'^2)\\
+&= (2+\varkappa^2\varkappa'^2)(\varkappa^2-\varkappa'^2),
+\end{aligned}
+\]
+when $\varkappa'^2 = 1 - \varkappa^2$ is put.

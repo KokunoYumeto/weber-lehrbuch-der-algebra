@@ -1,0 +1,39 @@
+% !PRINTED 263
+\weberpage{263}
+Wir kommen also zu dem ersten Resultate:
+
+1.~\gesperrt{Eine Substitution $A$ ist immer auf die Normalform $S$ transformirbar, wenn $a+d$ nicht $=\pm 2$
+ist. $\sigma$ ist reell oder imaginär, je nachdem $(a+d)^2 - 4$ quadratischer Rest oder Nichtrest
+von $p$ ist.}
+
+In dem noch übrigen Falle, wo $a+d = \pm 2$ ist, lässt sich
+die Normalform $S$ nicht herstellen; dagegen können wir $A$ in
+diesem Falle auf eine andere Normalform, nämlich
+\weq{6}{T = \begin{pmatrix} 1, & t \\ 0, & 1 \end{pmatrix}}
+bringen, in der $t$ reell ist.
+
+Um dies zu beweisen, können wir zunächst
+\weq{7}{a + d = +2}
+annehmen, weil der andere Fall $a+d = -2$ durch Aenderung
+aller Vorzeichen von $a, b, c, d$ auf diesen zurückgeführt wird.
+
+Aus (7) aber folgt noch
+\weq{8}{a - 1 = -(d-1), \quad (a-1)(d-1) = b\,c.}
+Wenn also zunächst $b$ oder $c = 0$ ist, so ist $a = d = 1$
+und wir haben entweder
+\[
+A = \begin{pmatrix} 1, & b \\ 0, & 1 \end{pmatrix},
+\]
+was schon die Normalform $T$ hat, oder
+\[
+A = \begin{pmatrix} 1, & 0 \\ c, & 1 \end{pmatrix} = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} \begin{pmatrix} 1, & -c \\ 0, & 1 \end{pmatrix} \begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix},
+\]
+so dass $\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} A \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}$ die Normalform $T$ hat. Sind aber $b$ und $c$ von Null verschieden,
+so erhalten wir aus (8) die Transformation
+\[
+\begin{pmatrix} (d-1)\,b^{-1}, & 0, \\ -1, & (a-1)\,c^{-1} \end{pmatrix} \begin{pmatrix} a, & b \\ c, & d \end{pmatrix} \begin{pmatrix} (a-1)\,c^{-1}, & 0, \\ 1, & (d-1)\,b^{-1} \end{pmatrix} = \begin{pmatrix} 1, & -c \\ 0, & 1 \end{pmatrix},
+\]
+was die Form $T$ hat. Damit ist also bewiesen:
+
+2.~\gesperrt{Eine Substitution $A$, in der $a+d = \pm 2$ ist, kann immer durch
+Transformation auf die Normalform $T$ gebracht werden.}

@@ -1,0 +1,32 @@
+% !PRINTED 754
+\weberpage{754}
+Es ist dann $F(x)$ eine ganze Function von $x$ vom Grade $n$. Setzen wir endlich noch
+
+\weq{10}{Q(x) = c_n q_n x^n + c_{n-1}q_{n-1}x^{n-1}+\cdots+c_0 q_0,}
+
+\weq{11}{P = c_n\Pi(n)+c_{n-1}\Pi(n-1)+\cdots+c_0,}
+
+so ist $Q(x)$ von $x$ abhängig, wenn auch nicht rational durch $x$ ausdrückbar; $P$ aber ist von $x$ unabhängig.
+
+Wenn wir nun die Gleichungen (6) der Reihe nach mit $c_n, c_{n-1},\ldots, c_0$ multipliciren und addiren, so folgt
+
+\weq{12}{e^x P = F(x) + e^{\xi}Q(x).}
+
+Diese Formel ist nun der Ausgangspunkt der weiteren Schlüsse.
+
+Nehmen wir an, es sei $e$ eine algebraische Zahl, so muss eine Gleichung, deren Grad $m$ sei, bestehen:
+
+\weq{13}{C_0 + C_1 e + C_2 e^2 + \cdots + C_m e^m = 0,}
+
+deren Coëfficienten $C_0, C_1, \ldots, C_m$ \gesperrt{ganze rationale Zahlen} sind, von denen $C_0$ und $C_m$ von Null verschieden sind. Es handelt sich darum, die Unmöglichkeit dieser Annahme darzuthun.
+
+Zu diesem Zwecke setzen wir in der Gleichung (12) für $x$ der Reihe nach die ganzen Zahlen $0,1,2,\ldots,m$, so dass $\xi$ mit $x$ identisch wird, multipliciren mit $C_0, C_1, \ldots, C_m$ und addiren. Dann ergiebt sich nach (13), da $P$ von $x$ unabhängig ist:
+
+\weq{14}{0 = C_0 F(0) + C_1 F(1) + \cdots + C_m F(m) + C_0 Q(0) + C_1 e\,Q(1) + \cdots + C_m e^m Q(m),}
+
+und nun soll aus einer passenden Annahme über die noch willkürliche Function $f(x)$ nachgewiesen werden, dass die Gleichung (14) unmöglich ist.
+
+Wir wählen eine Primzahl $p$, die grösser ist als $m$\,\footnote{Dass es immer eine Primzahl $p$ giebt, die grösser ist, als eine beliebige Zahl $\mu$, ist schon bei \gesperrt{Euklid} bewiesen (Elemente, Buch IX, Nr. XX, Bd. 2 der \gesperrt{Heiberg}'schen Ausgabe). Der Beweis ist einfach der, dass die ganze Zahl $\Pi(\mu)+1$, die offenbar grösser als $\mu$ ist, durch keine Primzahl theilbar ist, die nicht grösser als $\mu$ ist, weil diese Zahl bei der Theilung durch jede der Zahlen $2,3,\ldots,\mu$ den Rest 1 ergiebt. Es ist also unmöglich, dass keine Primzahl über $\mu$ liegt.}, und setzen
+
+\weq{15}{f(x) = \frac{x^{p-1}(1-x)^p(2-x)^p\ldots(m-x)^p}{\Pi(p-1)},}
+%CONT>>

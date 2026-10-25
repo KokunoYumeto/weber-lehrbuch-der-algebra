@@ -1,0 +1,45 @@
+% !PRINTED 277
+\weberpage{277}
+%<<CONT
+and we shall now show that if we add the assumption \gesperrt{that of the quantities (3) no two consecutive ones vanish at the same time}, we have before us a \gesperrt{Sturm} chain.
+
+This is a simple consequence of the formula which we already used in \S.\,82 for a similar purpose, and which we can represent thus:
+
+\weq{4}{L_k S_k - T_k^2 = L_{k-1} L_{k+1},}
+
+in which $S_k$ and $T_k$ are integral rational functions of $x$.
+
+We have only to show that the requirements \S.\,86, 1. to 4. are satisfied. Of these, however, 1. is included in the assumption, and 2. is fulfilled, since the last element is equal to $\pm 1$. From the formula (4) it follows that when $L_k=0$, $L_{k-1}$ and $L_{k+1}$ have opposite signs, so that condition 3. is fulfilled.
+
+Only condition 4. now remains. But if we apply the formula (4) to $k=n-1$, it reads
+
+\[
+\frac{\partial L_n}{\partial a_{n,n}} \cdot \frac{\partial L_n}{\partial a_{n-1,n-1}} - \left(\frac{\partial L_n}{\partial a_{n,n-1}}\right)^2 = L_n L_{n-2},
+\]
+
+and from this it follows that, when $L_n=0$,
+
+\[
+\frac{\partial L_n}{\partial a_{n,n}}, \quad \frac{\partial L_n}{\partial a_{n-1,n-1}}
+\]
+
+have equal signs; and in the same way one can conclude that all the principal subdeterminants of $L_n$
+
+\[
+\frac{\partial L_n}{\partial a_{i,i}}
+\]
+
+have the same sign.
+
+Now, however, the derivative of $L_n$ is (cf. \S.\,22)
+
+\[
+L_n'(x) = -\sum_{1,n}^{i} \frac{\partial L_n}{\partial a_{i,i}},
+\]
+
+and hence, for a value $x$ for which $L_n(x)$ vanishes, it has the opposite sign to $L_{n-1}$, which is precisely what requirement 4. demands. From this follows the theorem:
+
+I.\ \gesperrt{If $\alpha, \beta$ are two real values, $\alpha<\beta$, then the number of roots of $L_n(x)$ lying between $\alpha$ and $\beta$ is equal to the excess of the number of sign changes of the chain (3) for $x=\alpha$ over the number of sign changes for $x=\beta$.}
+
+The highest power of $x$ that occurs in $L_k(x)$ is, as already remarked above,
+%CONT>>

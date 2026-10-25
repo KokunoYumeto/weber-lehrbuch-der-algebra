@@ -1,0 +1,41 @@
+% !PRINTED 84
+\weberpage{84}
+%<<CONT
+so ist $q$ eine Gr\"o\ss{}e, deren absoluter Wert ein echter Bruch ist. Das \gesperrt{konvergente}
+unendliche Produkt
+\[
+P(v) = \prod_{1,\infty}^{\nu} (1 + q^{2\nu-1}e^{2\pi i v})(1 + q^{2\nu-1}e^{-2\pi i v})
+\]
+verschwindet also in \gesperrt{allen und nur} in den Punkten, in denen $\vartheta_{00}(v)$
+verschwindet, und es ist \"uberdies
+\[
+\begin{gathered}
+P(v+1) = P(v)\\
+P(v+\omega) = \frac{1+q^{-1}e^{-2\pi i v}}{1+qe^{2\pi i v}}P(v) = q^{-1}e^{-2\pi i v}P(v).
+\end{gathered}
+\]
+Dies ist aber nach § 20, (1) die Periodeneigenschaft der Funktion $\vartheta_{00}(v)$, und
+wir haben daher:
+\weq{1}{\vartheta_{00}(v) = Q\prod_{1,\infty}^{\nu}(1 + q^{2\nu-1}e^{2\pi i v})(1 + q^{2\nu-1}e^{-2\pi i v}),}
+worin $Q$ ein von $v$ unabh\"angiger Faktor ist. Nach den Formeln (8) des § 21 erh\"alt man
+hieraus, indem man $v$ durch
+\[
+v + \frac{1}{2}, \qquad v + \frac{\omega}{2}, \qquad v + \frac{1+\omega}{2}
+\]
+ersetzt:
+\weq{2}{\vartheta_{01}(v) = Q\prod_{1,\infty}^{\nu}(1 - q^{2\nu-1}e^{2\pi i v})(1 - q^{2\nu-1}e^{-2\pi i v}),}
+\weq{3}{\vartheta_{10}(v) = Qq^{\frac{1}{4}}(e^{\pi i v} + e^{-\pi i v})\prod_{1,\infty}^{\nu}(1 + q^{2\nu}e^{2\pi i v})(1 + q^{2\nu}e^{-2\pi i v}),}
+\weq{4}{\vartheta_{11}(v) = -iQq^{\frac{1}{4}}(e^{\pi i v} - e^{-\pi i v})\prod_{1,\infty}^{\nu}(1 - q^{2\nu}e^{2\pi i v})(1 - q^{2\nu}e^{-2\pi i v}).}
+Setzt man in diesen Formeln $v = 0$, in der letzten nach einmaliger Differentiation, so
+folgt
+\weq{5}{\begin{gathered}
+\vartheta_{00} = Q\prod_{1,\infty}^{\nu}(1 + q^{2\nu-1})^2,\\
+\vartheta_{01} = Q\prod_{1,\infty}^{\nu}(1 - q^{2\nu-1})^2,\\
+\vartheta_{10} = 2Qq^{\frac{1}{4}}\prod_{1,\infty}^{\nu}(1 + q^{2\nu})^2,\\
+\vartheta_{11}' = 2\pi Qq^{\frac{1}{4}}\prod_{1,\infty}^{\nu}(1 - q^{2\nu})^2.
+\end{gathered}}
+Hiernach l\"a\ss{}t sich mittels (5), § 23:
+\[
+\vartheta_{11}' = \pi\vartheta_{00}\vartheta_{01}\vartheta_{10}
+\]
+%CONT>>

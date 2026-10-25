@@ -1,0 +1,45 @@
+% !PRINTED 117
+\weberpage{117}
+%<<CONT
+into $(\alpha\beta, \gamma\delta)$, $[(\alpha+1)\beta, (\gamma+1)\delta]$, $[\alpha(\beta+1), \gamma(\delta+1)]$, $[(\alpha+1)(\beta+1)-1,\ (\gamma+1)(\delta+1)-1)=(1,1)]$.
+% [sic] bracket shapes as printed: opens with "[", closes with ")" then "=(1,1)]"
+Thus only the last characteristic $(1,1)$ remains unchanged under all linear transformations, since neither $\alpha$ and $\beta$ nor $\gamma$ and $\delta$ can be even numbers at the same time. Let $t(u, \omega_1, \omega_2)$ therefore be a $t$-function of the characteristic $(1,1)$, which by \S\,17, (12) must vanish for $u = 0$.
+
+If
+\[
+(\omega_1', \omega_2') = \begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix} (\omega_1, \omega_2),
+\]
+then, by our principle of transformation,
+\[
+t(u, \omega_1, \omega_2) \quad \text{and} \quad t(u, \omega_1', \omega_2')
+\]
+are related $T$-functions of the first order, and consequently, if $C$, $\lambda$, $\mu$ are quantities independent of $u$,
+
+\weq{2}{t(u,\omega_1',\omega_2') = C e^{\lambda u^2 + \mu u} t(u,\omega_1.\omega_2).}
+% [sic] German source prints a period between the period arguments; mathematically expected a comma.
+From this there follows by logarithmic differentiation
+
+\weq{3}{2\lambda u + \mu = \frac{d\log t(u,\omega_1',\omega_2')}{du} - \frac{d\log t(u,\omega_1,\omega_2)}{du}.}
+Now if we develop in powers of $u$ by \gesperrt{Taylor's} theorem and denote by $t'$, $t''$, $t'''$ the first, second and third derivative of $t$ with respect to $u$ for $u = 0$, then
+\[
+\frac{d\log t(u,\omega_1,\omega_2)}{du} = \frac{1}{u} + \frac{t''}{2t'} + u\left(\frac{t'''}{3t'} - \frac{t''^2}{4t'^2}\right) + \cdots,
+\]
+from which it follows by comparison with (3) that $\lambda$ and $\mu$ can be put into the form:
+\[
+\begin{aligned}
+\lambda &= \varphi(\omega_1',\omega_2') - \varphi(\omega_1,\omega_2),\\
+\mu &= \psi(\omega_1',\omega_2') - \psi(\omega_1,\omega_2),
+\end{aligned}
+\]
+in which
+
+\weq{4}{\varphi(\omega_1,\omega_2) = \frac{t'''}{6t'} - \frac{t''^2}{8t'^2}, \qquad \psi(\omega_1,\omega_2) = \frac{t''}{2t'}.}
+If one determines further the factor $C$ in (2) from the special value $u = 0$, it follows that
+
+\weq{5}{C = \frac{t'(\omega_1',\omega_2')}{t'(\omega_1,\omega_2)}.}
+Formula (2) can accordingly be expressed in the following theorem:
+
+\gesperrt{The function}
+
+\weq{6}{\sigma(u,\omega_1,\omega_2) = e^{-u^2\left(\frac{t'''}{6t'} - \frac{t''^2}{8t'^2}\right) - u\,\frac{t''}{2t'}} \frac{t(u,\omega_1,\omega_2)}{t'}}
+%CONT>>

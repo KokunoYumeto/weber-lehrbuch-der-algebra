@@ -1,0 +1,49 @@
+% !PRINTED 567
+\weberpage{567}
+Since the $f$-term periods (for $f = 1$) include the quantities $r$
+among them, we shall pass at once to the determination of these
+periods.
+
+We shall therefore understand by $\alpha$ a primitive $e$th root of unity
+and set $\mu = f$.
+Then
+\[ (\alpha^\lambda, r) = r + \alpha^\lambda r_1 + \alpha^{2\lambda} r_2 + \cdots + \alpha^{(n-2)\lambda} r_{n-2}, \]
+or by \S.\,167, (12)
+\weq{11}{(\alpha^\lambda, r) = (\alpha^\lambda, \eta) = \eta + \alpha^\lambda \eta_1 + \alpha^{2\lambda} \eta_2 + \cdots + \alpha^{(e-1)\lambda} \eta_{e-1},}
+and the formulae (9) and (10) yield
+\weq{12}{(\alpha^\lambda, \eta)(\alpha, \eta) = (\alpha^{\lambda+1}, \eta)\psi_\lambda(\alpha) \qquad \lambda = 1, 2 \ldots (e-2),}
+\weq{13}{(\alpha^\lambda, \eta)(\alpha^{-\lambda}, \eta) = (-1)^{f\lambda} n.}
+Equation (13) shows that none of the numbers $(\alpha^\lambda, \eta)$ vanishes,
+and by (12) the $\psi_\lambda(\alpha)$ also are different from zero;
+and if we form equation (12) for $\lambda = 1, 2 \ldots \lambda - 1$,
+it follows that
+% [source-original mathematical notation, verified 2026-08-29] The print uses lambda
+% both for the running values and for the fixed upper index in "lambda-1". The displayed
+% sequence below makes the intended range clear; the diplomatic meaning is preserved.
+\[
+\begin{aligned}
+(\alpha, \eta)(\alpha, \eta) &= (\alpha^2, \eta)\psi_1(\alpha)\\
+(\alpha^2, \eta)(\alpha, \eta) &= (\alpha^3, \eta)\psi_2(\alpha)\\
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\
+(\alpha^{\lambda-1}, \eta)(\alpha, \eta) &= (\alpha^\lambda, \eta)\psi_{\lambda-1}(\alpha).
+\end{aligned}
+\]
+From this we obtain, by multiplication and cancellation
+of the factor $(\alpha^2, \eta) \ldots (\alpha^{\lambda-1}, \eta)$,
+\weq{14}{(\alpha, \eta)^\lambda = (\alpha^\lambda, \eta)\psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{\lambda-1}(\alpha).}
+By this, $(\alpha^\lambda, \eta)$ is rationally expressed in terms of $(\alpha, \eta)$. But if
+we set $\lambda = e - 1$ in (14), there results
+\[ (\alpha, \eta)^{e-1} = (\alpha^{-1}, \eta)\psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{e-2}(\alpha), \]
+and, by multiplication with $(\alpha, \eta)$, if (13) is used in the form
+\[ (\alpha, \eta)(\alpha^{-1}, \eta) = (-1)^f n \]
+we obtain
+\weq{15}{(\alpha, \eta)^e = (-1)^f n\, \psi_1(\alpha)\psi_2(\alpha) \ldots \psi_{e-2}(\alpha),}
+whereby the formation of $(\alpha, \eta)$ is reduced to an $e$th
+root. If we set $e = m$, we obtain $(\varepsilon, r)$.
+
+We shall apply this procedure to the interesting case $n = 17$,
+which leads to the geometrically remarkable result, first found by
+\gesperrt{Gauss}, that the division of the circumference of the circle
+into 17 parts depends on a sequence of quadratic equations,
+and that therefore the regular seventeen-gon can be
+constructed with compass and ruler.

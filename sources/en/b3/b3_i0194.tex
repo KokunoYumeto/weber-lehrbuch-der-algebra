@@ -1,0 +1,38 @@
+% !PRINTED 173
+\weberpage{173}
+%<<CONT
+$\varkappa_\nu$ approaches the limit zero as $\nu$ increases infinitely. From this one obtains for $q$ the representation:
+
+\weq{22}{q = \mathop{\mathrm{Lim}}\limits_{\nu=\infty} \sqrt[2^{\nu-1}]{\frac{\varkappa_\nu}{4\varkappa_\nu'}} = \mathrm{Lim} \sqrt[2^{\nu-1}]{\frac{\varkappa_\nu}{4}},}
+
+which is suited to computation for real values of $\varkappa$.
+
+From each of the formulae (21) one can derive a series development of $q$ in ascending powers of $\varkappa_\nu$, whose convergence increases as $\nu$ increases. If in particular one applies formula (20), one obtains a development which was communicated by \gesperrt{Weierstrass} in the Monatsberichte der Berliner Akademie for the year 1883, and whose domain of convergence fills the plane $\varkappa^2$ twice.
+
+The coefficients of this development are most simply computed from:
+
+\weq{23}{\sqrt{\varkappa_2} = \frac{\vartheta_{10}(0,4\omega)}{\vartheta_{00}(0,4\omega)} = \frac{2q+2q^9+2q^{25}+\cdots}{1+2q^4+2q^{16}+\cdots},}
+
+and one thus obtains, by the method of undetermined coefficients:
+
+\weq{24}{q = \frac{\sqrt{\varkappa_2}}{2} + 2\left(\frac{\sqrt{\varkappa_2}}{2}\right)^5 + 15\left(\frac{\sqrt{\varkappa_2}}{2}\right)^9 + 150\left(\frac{\sqrt{\varkappa_2}}{2}\right)^{13} + 1707\left(\frac{\sqrt{\varkappa_2}}{2}\right)^{17} + \cdots}
+
+In the same way, conversely, $\sqrt{\varkappa_2}$ can also be developed by (23) into a series proceeding in powers of $q$:
+
+\weq{25}{\tfrac{1}{2}\sqrt{\varkappa_2} = q - 2q^5 + 5q^9 - 10q^{13} + 18q^{17}\cdots,}
+
+which one also obtains by inversion of the series (24).
+
+With this the question posed at the beginning of this section is completely answered.
+
+As regards the application of the formulae developed here to the numerical computation of $q$, it may still be remarked that, when $\varkappa^2$ lies nearer to 1, one obtains a better converging procedure if one interchanges $\varkappa^2$ with $\varkappa'^2$. The calculation then yields at first not $q$, but
+
+\[
+q' = e^{-\frac{\pi i}{\omega}},
+\]
+
+from which, however, one obtains $q$ from the formula:
+
+\[
+\log q \log q' = \pi^2.
+\]

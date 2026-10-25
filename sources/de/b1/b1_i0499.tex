@@ -1,0 +1,55 @@
+% !PRINTED 474
+\weberpage{474}
+
+%<<CONT
+\[
+\pi_a = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ a_0, & a_1 & \ldots & a_{m-1} \end{pmatrix}, \quad
+\pi_b = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ b_0, & b_1 & \ldots & b_{m-1} \end{pmatrix}
+\]
+irgend zwei Permutationen, so können wir nach (6) die zweite auch so
+schreiben:
+\[
+\pi_b = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ b_{a_0}, & b_{a_1} & \ldots & b_{a_{m-1}} \end{pmatrix},
+\]
+und wenn wir also beide nach einander ausführen, zuerst $\pi_a$,
+sodann $\pi_b$, so entsteht eine dritte Permutation, die wir aus
+$\pi_a$ und $\pi_b$ zusammengesetzt (componirt) nennen und die wir als
+symbolisches Product von $\pi_a$ und $\pi_b$ darstellen:
+
+\weq{7}{\pi_a \pi_b = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ b_{a_0}, & b_{a_1} & \ldots & b_{a_{m-1}} \end{pmatrix}.}
+
+Es ist bei dieser Zusammensetzung meist nicht die Vertauschung
+gestattet, da $\pi_a \pi_b$ im Allgemeinen nicht mit $\pi_b \pi_a$
+übereinstimmt. Aber es gilt das associative Princip, was sich in der
+symbolischen Gleichung
+
+\weq{8}{(\pi_a \pi_b)\pi_c = \pi_a(\pi_b \pi_c) = \pi_a \pi_b \pi_c}
+
+ausspricht. Davon überzeugt man sich durch folgende einfache
+Ueberlegung.
+
+Wird irgend ein Index $p$ durch $\pi_a$ in $q$, dieser durch $\pi_b$
+in $r$, und $r$ durch $\pi_c$ in $s$ verwandelt, so geht $p$ durch
+$\pi_a \pi_b$ in $r$, und $q$ durch $\pi_b \pi_c$ in $s$ über; mithin
+wird $p$ sowohl durch $(\pi_a \pi_b)\pi_c$ als durch
+$\pi_a(\pi_b \pi_c)$ in $s$ verwandelt. Nichts anderes aber besagt die
+Formel (8).
+
+Zu jeder Permutation $\pi_a$ giebt es eine bestimmte
+\gesperrt{entgegengesetzte} (inverse) Permutation, die darin besteht,
+dass die durch $\pi_a$ hervorgerufene Veränderung wieder rückgängig
+gemacht wird, die also, mit $\pi_a$ zusammengesetzt, die identische
+Permutation hervorbringt. Wir bezeichnen diese Permutation mit
+$\pi_a^{-1}$ und wir haben, wenn $\pi_a$ den Ausdruck (5) hat,
+
+\weq{9}{\pi_a^{-1} = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ 0, & 1 & \ldots & m-1 \end{pmatrix}.}
+
+Denn nach der Vorschrift der Zusammensetzung in (7) ist
+\[
+\pi_a \pi_a^{-1} = \begin{pmatrix} 0, & 1 & \ldots & m-1 \\ 0, & 1 & \ldots & m-1 \end{pmatrix}.
+\]
+Ebenso ist aber auch
+\[
+\pi_a^{-1}\pi_a = \begin{pmatrix} a_0, & a_1 & \ldots & a_{m-1} \\ a_0, & a_1 & \ldots & a_{m-1} \end{pmatrix},
+\]
+%CONT>>

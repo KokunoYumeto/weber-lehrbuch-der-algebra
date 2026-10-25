@@ -1,0 +1,38 @@
+% !PRINTED 4
+\weberpage{4}
+%<<CONT
+\gesperrt{das allgemeine elliptische Differential.} Es läßt sich nun aber dies allgemeine Integral und Differential auf wesentlich einfachere zurückführen. Zunächst läßt sich $\Phi$ in die Form setzen:
+\[
+\frac{A + B\sqrt{f(x)}}{C + D\sqrt{f(x)}},
+\]
+worin $A$, $B$, $C$, $D$ ganze rationale Funktionen von $x$ sind, und indem man diesen Bruch mit $C - D\sqrt{f(x)}$ erweitert, in die Form
+\[
+\Psi(x) + \frac{\Phi(x)}{\sqrt{f(x)}},
+\]
+worin $\Psi(x)$ und $\Phi(x)$ ganze oder gebrochene rationale Funktionen von $x$ sind, nämlich
+\[
+\Psi(x) = \frac{AC - BDf(x)}{C^2 - D^2f(x)},
+\]
+\[
+\Phi(x) = \frac{(BC - AD)f(x)}{C^2 - D^2f(x)}.
+\]
+
+Wir lassen nun das rationale Integral
+\[
+\int \Psi(x)\, dx,
+\]
+das auf Logarithmen und algebraische Funktionen führt, außer Betracht, und befassen uns nur noch mit dem elliptischen Integral
+\weq{2}{\int \frac{\Phi(x)\, dx}{\sqrt{f(x)}}}
+oder dem entsprechenden elliptischen Differential
+\weq{3}{\Phi(x) \frac{dx}{\sqrt{f(x)}}.}
+
+Es ist bisweilen nützlich, dies Differential in der homogenen Form zu betrachten; zu diesem Ende setzen wir für $x$ das Verhältnis zweier Variablen $x:y$, und demnach für $dx$
+\[
+\frac{y\, dx - x\, dy}{y^2}.
+\]
+Ist dann
+\[
+f(x, y) = a_0 x^4 + 4 a_1 x^3 y + 6 a_2 x^2 y^2 + 4 a_3 x y^3 + a_4 y^4,
+\]
+und $\Phi(x, y)$ eine homogene Funktion 0ter Ordnung, so erhält unser elliptisches Differential die Gestalt
+\weq{4}{\Phi(x, y) \frac{y\, dx - x\, dy}{\sqrt{f(x, y)}}.}

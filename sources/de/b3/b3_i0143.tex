@@ -1,0 +1,53 @@
+% !PRINTED 122
+\weberpage{122}
+%<<CONT
+\[
+\alpha_1 = \begin{pmatrix}1, & 0\\ 0, & 1\end{pmatrix}, \quad \alpha_2 = \begin{pmatrix}0, & 1\\ -1, & 0\end{pmatrix}, \quad \alpha_3 = \begin{pmatrix}1, & 1\\ -1, & 0\end{pmatrix},
+\]
+\[
+\alpha_4 = \begin{pmatrix}1, & 1\\ 0, & 1\end{pmatrix}, \quad \alpha_5 = \begin{pmatrix}1, & 0\\ 1, & 1\end{pmatrix}, \quad \alpha_6 = \begin{pmatrix}0, & 1\\ -1, & 1\end{pmatrix},
+\]
+so sind $\alpha_1\mathfrak{A}, \alpha_2\mathfrak{A}, \alpha_3\mathfrak{A}, \alpha_4\mathfrak{A}, \alpha_5\mathfrak{A}, \alpha_6\mathfrak{A}$ die Nebengruppen zu $\mathfrak{A}$ und es ist
+
+\[
+\mathfrak{L} = \alpha_1\mathfrak{A} + \alpha_2\mathfrak{A} + \alpha_3\mathfrak{A} + \alpha_4\mathfrak{A} + \alpha_5\mathfrak{A} + \alpha_6\mathfrak{A}
+\]
+und $\mathfrak{A}$ ist ein Teiler von $\mathfrak{L}$ vom endlichen Index 6:
+
+\[
+(\mathfrak{L}, \mathfrak{A}) = 6 \quad (\text{Bd.\ II}, \ \S\,2).
+\]
+Die Gesamtheit $\alpha_1\mathfrak{A} + \alpha_2\mathfrak{A}$ ist ebenfalls eine Gruppe $\mathfrak{A}'$, und es ist
+
+\[
+\mathfrak{L} = \alpha_1\mathfrak{A}' + \alpha_3\mathfrak{A}' + \alpha_4\mathfrak{A}'
+\]
+und $(\mathfrak{L}, \mathfrak{A}') = 3$.
+
+\gesperrt{So wie sämtliche lineare Transformationen aus den beiden Fundamentaltransformationen, so lassen sich die Transformationen der ersten Klasse aus wiederholter Anwendung von}
+
+\[
+\begin{pmatrix}1, & 0\\ 2, & 1\end{pmatrix}, \quad \begin{pmatrix}1, & 2\\ 0, & 1\end{pmatrix}, \quad \begin{pmatrix}-1, & 0\\ 0, & -1\end{pmatrix}
+\]
+\gesperrt{ableiten, was sich auf dem Wege des \S\,30 beweisen läßt.}
+
+\begin{center}
+\textbf{\S\,37. \gesperrt{Darstellung der $\sigma$-Funktionen durch $\vartheta$-Funktionen.}}
+\end{center}
+
+Um die Funktion $\sigma(u)$ als $\vartheta$-Funktion darzustellen, kann man einfach die Formel (6) des \S\,35 auf die Funktion
+
+\[
+t(u) = \vartheta_{11}\left(\frac{u}{\omega_1}, \frac{\omega_2}{\omega_1}\right)
+\]
+anwenden, also
+
+\weq{1}{\sigma(u, \omega_1, \omega_2) = \omega_1\, e^{-\dfrac{u^2}{6\omega_1^2}\,\dfrac{\vartheta_{11}'''}{\vartheta_{11}'}}\; \frac{\vartheta_{11}\left(\dfrac{u}{\omega_1}, \dfrac{\omega_2}{\omega_1}\right)}{\vartheta_{11}'}}
+setzen. Es ist aber infolge der Differentialgleichung \S\,20, (4):
+
+\[
+\vartheta_{11}''' = 4\pi i\, \frac{d\vartheta_{11}'}{d\omega}
+\]
+und also nach der Definition der Funktion $\eta(\omega)$ in \S\,34, (2):
+
+\weq{2}{\frac{\vartheta_{11}'''}{\vartheta_{11}'} = 4\pi i\, \frac{d\log \vartheta_{11}'}{d\omega} = 12\pi i\, \frac{d\log \eta(\omega)}{d\omega}.}

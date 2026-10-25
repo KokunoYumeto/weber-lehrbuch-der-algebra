@@ -1,0 +1,48 @@
+% !PRINTED 694
+\weberpage{694}
+\begin{center}
+§. 191.
+
+\gesperrt{Sätze aus der Reihenlehre.}
+\end{center}
+
+Bei den weiteren Anwendungen der bisherigen Resultate sind einige Sätze aus der Lehre von den unendlichen Reihen erforderlich, die zunächst hier abgeleitet werden sollen.
+
+1. \gesperrt{Ist $a_1, a_2, a_3, \ldots, a_n\ldots$ ein unbegrenztes System reeller (positiver, negativer oder auch verschwindender) Grössen, von dem wir voraussetzen, dass die Summe}
+
+\weq{1}{\sigma_n = a_1+a_2+\cdots+a_n}
+
+\gesperrt{für jedes beliebige $n$ dem absoluten Werthe nach unter einer endlichen Grenze $C$ bleibt, so ist die Reihe}
+
+\weq{2}{S = \frac{a_1}{1^s}+\frac{a_2}{2^s}+\frac{a_3}{3^s}+\cdots}
+
+\gesperrt{für jedes positive $s$ nicht nur convergent, sondern auch eine stetige Function von $s$.}
+
+Um diesen Satz zu beweisen, zerlegen wir $S$ in der Weise:
+\[
+S = S_m+R_m,
+\]
+worin
+\[
+S_m = \frac{a_1}{1^s}+\frac{a_2}{2^s}+\cdots+\frac{a_{m-1}}{(m-1)^s},
+\]
+\[
+R_m = \frac{a_m}{m^s}+\frac{a_{m+1}}{(m+1)^s}+\frac{a_{m+2}}{(m+2)^s}+\cdots
+\]
+Nun ist nach (1):
+\[
+a_m = \sigma_m-\sigma_{m-1}, \quad a_{m+1}=\sigma_{m+1}-\sigma_m, \quad a_{m+2}=\sigma_{m+2}-\sigma_{m+1}, \ldots
+\]
+und daher
+\[
+\begin{aligned}
+R_m+\frac{\sigma_{m-1}}{m^s}
+&= \sigma_m\left(\frac{1}{m^s}-\frac{1}{(m+1)^s}\right) \\
+&\quad +\sigma_{m+1}\left(\frac{1}{(m+1)^s}-\frac{1}{(m+2)^s}\right)+\cdots
+\end{aligned}
+\]
+Da nun nach der Voraussetzung $\sigma_{m-1}, \sigma_m, \sigma_{m+1}, \ldots$ zwischen endlichen Grenzen $\pm C$ eingeschlossen sind, so ist hiernach $R_m+\dfrac{\sigma_{m-1}}{m^s}$ zwischen den beiden Grenzen
+\[
+\pm C\left(\frac{1}{m^s}-\frac{1}{(m+1)^s}+\frac{1}{(m+1)^s}-\frac{1}{(m+2)^s}+\cdots\right) = \pm\frac{C}{m^s}
+\]
+%CONT>>

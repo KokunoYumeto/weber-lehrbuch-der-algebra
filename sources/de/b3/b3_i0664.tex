@@ -1,0 +1,77 @@
+% !PRINTED 633
+\weberpage{633}
+
+Zwischen diesen Funktionen bestehen die Relationen:
+
+\weq{5}{
+\begin{aligned}
+\theta\,\eta_0 &= -a_n\eta_{n-1}, \\
+\theta\,\eta_1 &= \eta_0 - a_{n-1}\eta_{n-1}, \\
+\theta\,\eta_2 &= \eta_1 - a_{n-2}\eta_{n-1}, \\
+&\cdots\cdots\cdots\cdots\cdots\cdots \\
+\theta\,\eta_{n-1} &= \eta_{n-2} - a_1\eta_{n-1},
+\end{aligned}
+}
+
+und die $\eta_0, \eta_1, \ldots, \eta_{n-1}$ bilden eine Basis von $\Omega$, da man durch
+(4) die Potenzen von $\theta$ linear durch die $\eta_i$ ausdr\"ucken kann.
+
+Ist also $\zeta$ eine beliebige Funktion in $\Omega$, so kann man setzen:
+
+\weq{6}{\zeta = y_0\eta_0 + y_1\eta_1 + \cdots + y_{n-1}\eta_{n-1}.}
+
+Wir leiten aus $y_0, y_1, \ldots, y_{n-1}$ eine Fortsetzung der Reihe dieser rationalen
+Funktionen $y_n, y_{n+1}, y_{n+2}, \ldots$ ab, indem wir setzen:
+
+\weq{7}{a_n y_r + a_{n-1}y_{r+1} + \cdots + a_1 y_{r+n-1} + y_{r+n} = 0
+\qquad (r = 0, 1, 2, \ldots).}
+
+Dann ergibt sich aus (5) und (6):
+
+\[
+\begin{aligned}
+\zeta\theta &= \eta_0 y_1 + \eta_1 y_2 + \cdots + \eta_{n-2}y_{n-1}, \\
+&\quad - \eta_{n-1}(a_n y_0 + a_{n-1}y_1 + \cdots + a_1 y_{n-1}), \\
+&= y_1\eta_0 + y_2\eta_1 + \cdots + y_n\eta_{n-1},
+\end{aligned}
+\]
+
+und allgemein f\"ur ein positives $r$:
+
+\weq{8}{\zeta\theta^r = y_r\eta_0 + y_{r+1}\eta_1 + \cdots + y_{r+n-1}\eta_{n-1},}
+
+wie man aus (5) und (7) durch den Schlu\ss{} von $r$ auf $r+1$ leicht best\"atigt.
+Ordnet man diese Summe nach Potenzen von $\theta$, so ergibt sich ein Ausdruck von der
+Form
+
+\weq{9}{\zeta\theta^r = x_{0,r} + x_{1,r}\theta + x_{2,r}\theta^2 + \cdots + x_{n-1,r}\theta^{n-1},}
+
+worin
+
+\weq{10}{
+\begin{aligned}
+x_{0,r} &= y_r a_{n-1} + y_{r+1}a_{n-2} + \cdots + y_{r+n-2}a_1 + y_{r+n-1}, \\
+x_{1,r} &= y_r a_{n-2} + y_{r+1}a_{n-3} + \cdots + y_{r+n-1}, \\
+% [sic] printed $y_{r+n-1}$ as the last term of $x_{1,r}$ in (10), an error: collecting the coefficient of $\theta$ in (8) by (4) gives a sum ending with $y_{r+n-2}$ (from $\eta_{n-2} = a_1 + \theta$; $\eta_{n-1} = 1$ contributes no $\theta$), as the trace (11) also requires
+&\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots \\
+x_{n-2,r} &= y_r a_1 + y_{r+1}, \\
+x_{n-1,r} &= y_r.
+\end{aligned}
+}
+
+Nach der Definition der Spur [\S\,172, (20)] ist aber
+
+\weq{11}{
+\begin{aligned}
+S(\zeta) &= x_{0,0} + x_{1,1} + \cdots + x_{n-1,n-1}, \\
+&= y_0 a_{n-1} + 2y_1 a_{n-2} + 3y_2 a_{n-3} + \cdots + n y_{n-1}.
+\end{aligned}
+}
+
+Will man diesen Ausdruck auf $\zeta = \eta_r$ anwenden, so hat man $y_r = 1$, die \"ubrigen
+$y = 0$ zu setzen und erh\"alt
+
+\[
+S(\eta_r) = (r+1)a_{n-r-1}, \quad S(\eta_{n-1-r}) = (n-r)a_r,
+\]
+%CONT>>

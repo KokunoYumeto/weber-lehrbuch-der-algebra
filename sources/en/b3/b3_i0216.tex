@@ -1,0 +1,52 @@
+% !PRINTED 195
+\weberpage{195}
+%<<CONT
+$A, B, C, D$ from the addition theorem. If we indicate the value of the
+multiplier $n$ to which these functions belong by an index, we have first
+\weq{10}{A_1 = 1, \quad B_1 = 1, \quad C_1 = 1, \quad D_1 = 1;}
+further, from the addition formulae [\S\,44, (16), for $u = v$]:
+\weq{11}{
+\begin{aligned}
+\mathrm{sn}\,2v &= \dfrac{2\,\mathrm{sn}\,v\,\mathrm{cn}\,v\,\mathrm{dn}\,v}{1-\varkappa^2\,\mathrm{sn}^4 v}, \\
+\mathrm{cn}\,2v &= \dfrac{\mathrm{cn}^2 v - \mathrm{sn}^2 v\,\mathrm{dn}^2 v}{1-\varkappa^2\,\mathrm{sn}^4 v}, \\
+\mathrm{dn}\,2v &= \dfrac{\mathrm{dn}^2 v - \varkappa^2\,\mathrm{sn}^2 v\,\mathrm{cn}^2 v}{1-\varkappa^2\,\mathrm{sn}^4 v}.
+\end{aligned}
+}
+% [source verified, 2026-08-22] The scan distinctly prints coordinate x
+% in the x^2 and x^4 factors below, beside the separate modulus \varkappa.
+\weq{12}{
+\begin{aligned}
+A_2 &= 2, \\
+B_2 &= 1 - 2x^2 + \varkappa^2x^4, \\
+C_2 &= 1 - 2\varkappa^2x^2 + \varkappa^2x^4, \\
+D_2 &= 1 - \varkappa^2x^4.
+\end{aligned}
+}
+If we replace $v$ in (11) by $nv$, it follows that:
+\weq{13}{
+\begin{aligned}
+A_{2n} &= 2A_nB_nC_nD_n, \\
+B_{2n} &= B_n^2D_n^2 - x^2y^2z^2A_n^2C_n^2, & n \text{ even,} \\
+&= y^2B_n^2D_n^2 - x^2z^2A_n^2C_n^2, & n \text{ odd,} \\
+C_{2n} &= C_n^2D_n^2 - \varkappa^2x^2y^2z^2A_n^2B_n^2, & n \text{ even,} \\
+&= z^2C_n^2D_n^2 - \varkappa^2x^2y^2A_n^2B_n^2, & n \text{ odd,} \\
+D_{2n} &= D_n^4 - \varkappa^2x^4y^4z^4A_n^4, & n \text{ even,} \\
+&= D_n^4 - \varkappa^2x^4A_n^4, & n \text{ odd,}
+\end{aligned}
+}
+and if in the addition formulae of \S\,44 one sets $u = nv$, $v = (n+1)v$:
+\weq{14}{
+\begin{aligned}
+A_{2n+1} &= y^2z^2A_nD_nB_{n+1}C_{n+1} + A_{n+1}D_{n+1}C_nB_n, & n \text{ even,} \\
+&= A_nD_nB_{n+1}C_{n+1} + y^2z^2A_{n+1}D_{n+1}C_nB_n, & n \text{ odd,} \\
+B_{2n+1} &= B_nB_{n+1}D_nD_{n+1} - x^2z^2A_nA_{n+1}C_nC_{n+1}, \\
+C_{2n+1} &= C_nC_{n+1}D_nD_{n+1} - \varkappa^2x^2y^2A_nA_{n+1}B_nB_{n+1}, \\
+D_{2n+1} &= D_n^2D_{n+1}^2 - \varkappa^2x^4y^2z^2A_n^2A_{n+1}^2.
+\end{aligned}
+}
+
+From these formulae one concludes \gesperrt{that the $A$, $B$, $C$, $D$ are
+polynomials in $\varkappa^2$, and that their numerical coefficients are integers.}
+
+For by (10), (12) this property holds for $n = 1, 2$, and consequently by
+(13), (14) in general.

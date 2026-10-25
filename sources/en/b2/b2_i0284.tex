@@ -1,0 +1,39 @@
+% !PRINTED 263
+\weberpage{263}
+We thus arrive at the first result:
+
+1.~\gesperrt{A substitution $A$ can always be transformed to the normal form $S$ when $a+d$ is not $=\pm 2$.
+$\sigma$ is real or imaginary, according as $(a+d)^2 - 4$ is a quadratic residue or non-residue
+of $p$.}
+
+In the case that still remains, where $a+d = \pm 2$, the
+normal form $S$ cannot be produced; on the other hand, in
+this case we can bring $A$ to another normal form, namely
+\weq{6}{T = \begin{pmatrix} 1, & t \\ 0, & 1 \end{pmatrix}}
+in which $t$ is real.
+
+To prove this, we may first assume
+\weq{7}{a + d = +2}
+because the other case $a+d = -2$ is reduced to this one by
+changing all the signs of $a, b, c, d$.
+
+But from (7) it follows further that
+\weq{8}{a - 1 = -(d-1), \quad (a-1)(d-1) = b\,c.}
+If then, first, $b$ or $c = 0$, we have $a = d = 1$
+and either
+\[
+A = \begin{pmatrix} 1, & b \\ 0, & 1 \end{pmatrix},
+\]
+which already has the normal form $T$, or
+\[
+A = \begin{pmatrix} 1, & 0 \\ c, & 1 \end{pmatrix} = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix} \begin{pmatrix} 1, & -c \\ 0, & 1 \end{pmatrix} \begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix},
+\]
+so that $\begin{pmatrix} 0, & -1 \\ 1, & 0 \end{pmatrix} A \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}$ has the normal form $T$. But if $b$ and $c$ are different from zero,
+we obtain from (8) the transformation
+\[
+\begin{pmatrix} (d-1)\,b^{-1}, & 0, \\ -1, & (a-1)\,c^{-1} \end{pmatrix} \begin{pmatrix} a, & b \\ c, & d \end{pmatrix} \begin{pmatrix} (a-1)\,c^{-1}, & 0, \\ 1, & (d-1)\,b^{-1} \end{pmatrix} = \begin{pmatrix} 1, & -c \\ 0, & 1 \end{pmatrix},
+\]
+which has the form $T$. With this, then, it is proved:
+
+2.~\gesperrt{A substitution $A$ in which $a+d = \pm 2$ can always be brought
+to the normal form $T$ by transformation.}

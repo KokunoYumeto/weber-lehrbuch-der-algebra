@@ -1,0 +1,56 @@
+% !PRINTED 49
+\weberpage{49}
+%<<CONT
+
+\gesperrt{it follows that from the whole rational functions \(f(x)\) of degree \(n\) all arithmetic series of \(n\)th order are produced when in them the series of natural numbers is substituted for \(x\).}
+
+The expression for the general term is then given by formula (7) of the preceding paragraph.
+
+The sums of the first $m+1$ terms of an arithmetic series of $n$th order,
+\[
+ s_m=u_0+u_1+\cdots+u_m,
+\]
+form an arithmetic series of $(n+1)$st order, since their first differences
+\[
+ s_{m+1}-s_m=u_{m+1}
+\]
+form an arithmetic series of $n$th order.
+
+Thus, with the help of formula (7) of \S~10, the sum $s_m$ can be determined in general when $s_0,s_1,\ldots,s_{n+1}$ are assumed known.
+
+To find the generating function $F(x)$ of $s_m$, when $f(x)$ is the generating function of $u_m$, put
+\[
+ F(0)=f(0),
+\]
+\[
+ F(1)=f(0)+f(1),
+\]
+\[
+ F(2)=f(0)+f(1)+f(2),
+\]
+\[
+ \cdots\cdots\cdots\cdots
+\]
+and in formula (7), \S~10,
+\[
+ F(x)=F(0)+D_0B_1^{(x)}+D'_0B_2^{(x)}+\cdots
+\]
+one has to put
+\[
+\begin{aligned}
+D_0&=F(1)-F(0)=f(1),& D'_0&=f(2)-f(1)=\Delta_1,\\
+D_1&=F(2)-F(1)=f(2),& D'_1&=f(3)-f(2)=\Delta_2,\\
+ D_2&=F(3)-F(2)=f(3),& D''_0&=\Delta_2-\Delta_1=\Delta'_1.
+\end{aligned}
+\]
+Thus one obtains
+\begin{equation}
+ F(x)=f(0)+f(1)B_1^{(x)}+\Delta_1B_2^{(x)}+\Delta'_1B_3^{(x)}+\cdots.
+\tag{4}
+\end{equation}
+For example, take $f(x)=x^2$; then $F(m)$ gives the sum of the first $m$ square numbers. Here
+\[
+ \Delta_x=2x+1,\qquad \Delta'_x=2,
+\]
+and therefore
+%CONT>>

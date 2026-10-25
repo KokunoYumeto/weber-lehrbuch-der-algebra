@@ -1,0 +1,59 @@
+% !PRINTED 20
+\weberpage{20}
+
+Für die Untersuchung algebraischer Differentiale von diesem
+Gesichtspunkte ist die Einführung \gesperrt{homogener Variablen} zweckmäßig.
+Wir setzen $x = x_1{:}x_3$, $y = x_2{:}x_3$, $x_3^n F(x,y) = f(x_1,x_2,x_3)$;
+dann ist $f(x_1,x_2,x_3)$ eine \gesperrt{homogene Funktion} $n^{\mathrm{ter}}$ Ordnung
+der drei Veränderlichen $x_1, x_2, x_3$ und
+\weq{3}{f(x_1,x_2,x_3) = 0}
+die Gleichung einer Kurve $n^{\mathrm{ter}}$ Ordnung in homogenen Koordinaten.
+Es wird
+\[
+dx = \frac{x_3\,dx_1 - x_1\,dx_3}{x_3^2}
+\]
+und
+\weq{4}{d\Omega = \Phi(x,y)\,dx = \frac{1}{x_3^2}\,\Phi\!\left(\frac{x_1}{x_3},\frac{x_2}{x_3}\right)(x_3\,dx_1 - x_1\,dx_3).}
+
+Nun ist aber nach dem \gesperrt{Eulerschen Satz} über homogene
+Funktionen, wenn wir mit $f_1, f_2, f_3$ die partiellen Ableitungen
+von $f$ nach $x_1, x_2, x_3$ bezeichnen,
+\[
+\begin{aligned}
+f_1x_1 + f_2x_2 + f_3x_3 &= 0,\\
+f_1\,dx_1 + f_2\,dx_2 + f_3\,dx_3 &= 0,
+\end{aligned}
+\]
+daher, wenn $\varrho$ einen Proportionalitätsfaktor bedeutet,
+\[
+\begin{aligned}
+f_1 &= \varrho(x_2\,dx_3 - x_3\,dx_2),\\
+f_2 &= \varrho(x_3\,dx_1 - x_1\,dx_3),\\
+f_3 &= \varrho(x_1\,dx_2 - x_2\,dx_1),
+\end{aligned}
+\]
+und wenn man mit $c_1, c_2, c_3$ ganz willkürliche Größen, z.\,B. Konstanten,
+bezeichnet:
+\[
+c_1f_1 + c_2f_2 + c_3f_3 = \varrho\,\Sigma \pm c_1x_2\,dx_3,
+\]
+wenn $\Sigma \pm c_1x_2\,dx_3$ in üblicher Weise die Determinante
+\[
+\begin{vmatrix} c_1 & c_2 & c_3 \\ x_1 & x_2 & x_3 \\ dx_1 & dx_2 & dx_3 \end{vmatrix}
+\]
+bedeutet. Es folgt also:
+\[
+x_3\,dx_1 - x_1\,dx_3 = \frac{f_2\,\Sigma \pm c_1x_2\,dx_3}{c_1f_1 + c_2f_2 + c_3f_3},
+\]
+und wenn man
+\[
+\frac{f_2}{x_3^2}\,\Phi\!\left(\frac{x_1}{x_4}, \frac{x_2}{x_3}\right) = \Psi
+% [sic] printed first denominator x_4; expected x_3 by the surrounding formulas.
+\]
+
+%CONT>>
+
+\begin{center}\rule{2cm}{0.4pt}\end{center}
+\gesperrt{Brill}, Über diejenigen Kurven, deren Koordinaten sich als hyperelliptische Funktionen eines Parameters darstellen lassen (ibid., Bd. 65).
+
+\gesperrt{Clebsch} und \gesperrt{Gordan}, Theorie der Abelschen Funktionen (Teubner, Leipzig 1866).

@@ -1,0 +1,36 @@
+% !PRINTED 614
+\weberpage{614}
+
+%<<CONT
+which can also be represented by $(z, a_z)$, then one can determine an integral function $\varphi(z)$ of $z$ with rational coefficients, whose degree is not higher than $n - 1$, so that $a_z = \varphi(z)$ can be set. One need only determine the $n$ coefficients in $\varphi(z)$ from the $n$ linear equations
+\[
+a_0 = \varphi(0), \quad a_1 = \varphi(1), \ldots a_{n-1} = \varphi(n - 1)
+\]
+For this one may use the \gesperrt{Lagrange} interpolation formula derived in \S.\,29, which, however, can be given a still simpler form, since here only congruences with respect to the modulus $n$ come into question. Namely, if one sets
+\[
+\psi(z) = z(z - 1)(z - 2) \ldots (z - n + 1),
+\]
+the interpolation formula just mentioned gives
+\[
+\varphi(z) = \psi(z)\left(\frac{a_0}{\psi'(0) z} + \frac{a_1}{\psi'(1)(z - 1)} + \cdots + \frac{a_{n-1}}{\psi'(n-1)(z - n + 1)}\right).
+\]
+Now, as we have seen in \S.\,136, the congruence
+\[
+\psi(z) \equiv z^n - z\ (\mathrm{mod}\ n)
+\]
+is identical; hence also
+\[
+\psi'(z) \equiv n z^{n-1} - 1 \equiv -1\ (\mathrm{mod}\ n),
+\]
+and therefore we can represent $\varphi(z)$ with integral coefficients as follows:
+\weq{6}{\varphi(z) \equiv -a_0 \frac{\psi(z)}{z} - a_1 \frac{\psi(z)}{z - 1} - \cdots - a_{n-1}\frac{\psi(z)}{z - n + 1}\ (\mathrm{mod}\ n).}
+
+If, as in our problem, the numbers $a_0, a_1 \ldots a_{n-1}$ agree, apart from the order, with the numbers $0, 1, 2 \ldots n - 1$, then, if $n > 2$, we have $a_0 + a_1 + \cdots + a_{n-1} \equiv 0\ (\mathrm{mod}\ n)$, and hence $\varphi(z)$ is at most of degree $n - 2$, which, however, is of no significance for our proof.
+
+Accordingly, then, every arbitrary permutation $\pi$ can be represented by a substitution $[z, \varphi(z)]$.
+
+Now if $L$ is a transitive linear group and at the same time a normal divisor of another group $P$, and if $\lambda$ is an arbitrary permutation of $L$, and $\pi$ a likewise arbitrary permutation of $P$, then $\pi^{-1}\lambda\pi = \lambda'$ is contained in $L$, and $\lambda\pi = \pi\lambda'$. If, by what has just been proved, we set $\pi = [z, \varphi(z)]$ and choose for $\lambda$ the cyclic substitution $(z, z + 1)$, which by the hypothesis of transitivity occurs in $L$, then $a'$ and $a$ must admit of being determined so that
+\[
+(z, z + 1)[z, \varphi(z)] = [z, \varphi(z)](z, a'z + a),
+\]
+%CONT>>

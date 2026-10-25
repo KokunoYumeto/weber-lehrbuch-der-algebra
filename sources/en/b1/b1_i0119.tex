@@ -1,0 +1,41 @@
+% !PRINTED 94
+\weberpage{94}
+
+We shall form the principal term of the determinant $C$ from (6). Let $s_1,s_2,\ldots,s_n$ be mutually independent summation letters which run from $1$ to $n$. Then
+\begin{align}
+ c_1^{(1)}c_2^{(2)}\cdots c_n^{(n)}
+ &=\sum_{s_1}a_1^{(s_1)}b_1^{(s_1)}
+   \sum_{s_2}a_2^{(s_2)}b_2^{(s_2)}\cdots
+   \sum_{s_n}a_n^{(s_n)}b_n^{(s_n)}\notag\\
+ &=\sum_{s_1,s_2,\ldots,s_n}a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}
+ b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)}.\tag{12}
+\end{align}
+The permutation of the lower indices of the $c$ corresponds to the permutation of the lower indices of the $a$, and if, with regard to the rule of signs, one therefore forms the determinant $C$, one obtains
+\begin{align}
+ \sum \pm c_1^{(1)}c_2^{(2)}\cdots c_n^{(n)}
+ =\sum_{s_1,s_2,\ldots,s_n} b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)}
+ \sum\pm a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}.\tag{13}
+\end{align}
+Now
+\[
+\sum\pm a_1^{(s_1)}a_2^{(s_2)}\cdots a_n^{(s_n)}
+\]
+is, by § 21, VI, always zero if the same digit occurs twice among $s_1,s_2,
+\ldots,s_n$; hence only those terms in (13) keep a non-zero value for which $s_1,s_2,
+\ldots,s_n$ is an arrangement of the indices $1,2,
+\ldots,n$. This value is $+A$ or $-A$ according as this arrangement belongs to the first or the second kind (§ 21, IV).
+
+Therefore the right-hand side of (13) becomes
+\[
+ A\sum_{s_1,s_2,\ldots,s_n}\pm b_1^{(s_1)}b_2^{(s_2)}\cdots b_n^{(s_n)},
+\]
+where the sum is extended over all permutations $s_1,s_2,
+\ldots,s_n$. But this sum is precisely the determinant $B$, and hence the formula
+\[
+ C=AB
+\]
+is proved.
+
+The law of formation of the elements $c_i^{(h)}$ contained in formula (6) can be expressed in words as follows: \gesperrt{To obtain the elements of the determinant $C$, which is the product of the two determinants $A,B$, one multiplies the elements of each column of $A$ by the corresponding elements of a column of $B$ and adds the products.}
+
+By the theorems on determinants the form of $C$ can be varied in many ways. We record the following.

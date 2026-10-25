@@ -1,0 +1,46 @@
+% !PRINTED 100
+\weberpage{100}
+%<<CONT
+
+aus den $n+1$ Gleichungen (7) und (8) zu eliminiren, wodurch man die Determinantengleichung erhält
+\[
+\begin{vmatrix}
+ \varphi(x)&x^{n-1}&x^{n-2}&\cdots&x&1\\
+ \varphi(\alpha_1)&\alpha_1^{n-1}&\alpha_1^{n-2}&\cdots&\alpha_1&1\\
+ \varphi(\alpha_2)&\alpha_2^{n-1}&\alpha_2^{n-2}&\cdots&\alpha_2&1\\
+ \cdots&\cdots&\cdots&&\cdots&\cdots\\
+ \varphi(\alpha_n)&\alpha_n^{n-1}&\alpha_n^{n-1}&\cdots&\alpha_n&1% [sic] Weber druckt das 3. Element der letzten Zeile als \alpha_n^{n-1} statt \alpha_n^{n-2} (Druckfehler; die Spalte ist \alpha^{n-2}, vgl. \alpha_1^{n-2}/\alpha_2^{n-2}). ZOOM p100 crop_27_19: beide Exponenten der letzten Zeile = n-1. Recon hatte zu n-2 normalisiert; quellentreu n-1 reproduziert.
+\end{vmatrix}=0.\tag{9}
+\]
+Diese Determinante entwickeln wir nun nach den Elementen der ersten Colonne. Für die dabei auftretenden Unterdeterminanten können wir dann die Bezeichnung (2) anwenden und erhalten so
+\begin{align}
+&\varphi(x)[\alpha_1,\alpha_2,\ldots,\alpha_n]
+-\varphi(\alpha_1)[x,\alpha_2,\alpha_3,\ldots,\alpha_n]
++\varphi(\alpha_2)[x,\alpha_1,\alpha_3,\ldots,\alpha_n]
+\notag\\
+&\qquad+\cdots(-1)^n\varphi(\alpha_n)[x,\alpha_1,\alpha_2,\ldots,\alpha_{n-1}]=0.\tag{10}
+\end{align}
+Nun ist nach (1)
+\[
+ [x,\alpha_2,\alpha_3,
+ \ldots,\alpha_n]=(x-\alpha_2)(x-\alpha_3)\cdots(x-\alpha_n)[\alpha_2,\alpha_3,
+ \ldots,\alpha_n],
+\]
+wofür wir auch setzen können
+\[
+ [x,\alpha_2,\alpha_3,\ldots,\alpha_n]=\frac{f(x)}{x-\alpha_1}[\alpha_2,\alpha_3,\ldots,\alpha_n],
+\]
+und ebenso
+\[
+ [x,\alpha_1,\alpha_3,\ldots,\alpha_n]=\frac{f(x)}{x-\alpha_2}[\alpha_1,\alpha_3,\ldots,\alpha_n],
+\]
+\[\cdots\]
+\[
+ [x,\alpha_1,\alpha_2,\ldots,\alpha_{n-1}]=\frac{f(x)}{x-\alpha_n}[\alpha_1,\alpha_2,\ldots,\alpha_{n-1}],
+\]
+und wenn man also (10) durch $[\alpha_1,\alpha_2,\ldots,\alpha_n]$ dividirt, und die verschiedenen Ausdrücke (6) dabei berücksichtigt, so erhält man schliesslich
+\begin{equation}
+ \varphi(x)=f(x)\left(\frac{\varphi(\alpha_1)}{(x-\alpha_1)f'(\alpha_1)}+\frac{\varphi(\alpha_2)}{(x-\alpha_2)f'(\alpha_2)}+\cdots+\frac{\varphi(\alpha_n)}{(x-\alpha_n)f'(\alpha_n)}\right).\tag{11}
+\end{equation}
+wodurch die Function $\varphi(x)$ völlig bestimmt ist. Dieser Ausdruck für $\varphi(x)$ heisst die \gesperrt{Interpolationsformel von Lagrange}. Dass sie die gestellten Forderungen erfüllt, lässt sich nachträglich sehr leicht verificiren, wenn man $x_1=\alpha_1,\alpha_2,
+\ldots,\alpha_n$ setzt. Die Nenner $x-\alpha_1,x-\alpha_2,\ldots,x-\alpha_n$ sind nur scheinbar darin enthalten.% [sic] Weber druckt oben "x_1" (Index 1) statt "x" ("wenn man x=alpha_1,..,alpha_n setzt"); Druckfehler, ZOOM p100 crop_42_83. Recon hatte zu x normalisiert; quellentreu x_1 reproduziert.

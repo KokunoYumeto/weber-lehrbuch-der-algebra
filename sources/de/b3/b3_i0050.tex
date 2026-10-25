@@ -1,0 +1,65 @@
+% !PRINTED 29
+\weberpage{29}
+Das allgemeinste zu der Grundkurve gehörige Integral (2) geht durch
+Einführung homogener Variabler $z = x_3 : x_4$ in folgende Form über:
+\[
+\int F'(x,y,z)\,\frac{x_3\,dx_4 - x_4\,dx_3}{x_4^2},
+\]
+oder wenn man
+\[
+F(x,y,z) = x_4^2\,\frac{F(x_1,x_2,x_3,x_4)}{\varphi_1\psi_2 - \varphi_2\psi_1}
+\]
+setzt, in
+\[
+\int F(x_1,x_2,x_3,x_4)\,\frac{x_3\,dx_4 - x_4\,dx_3}{\varphi_1\psi_2 - \varphi_2\psi_1},
+\]
+worin $F$ eine homogene Funktion 0ten Grades ist. Der einfachste Fall ist
+$F=1$, und wir betrachten also das Integral erster Gattung:
+\weq{26}{u = \int \frac{x_3\,dx_4 - x_4\,dx_3}{\varphi_1\psi_2 - \varphi_2\psi_1}\,.}
+
+Nun bilden wir nach dem Multiplikationssatze der Determinanten das
+Produkt $K(x_3\,dx_4 - x_2\,dx_4)$, % [sic] printed x_3 dx_4 - x_2 dx_4; the determinant and (26) require x_3 dx_4 - x_4 dx_3
+also wegen $\varphi=0$, $\psi=0$:
+\[
+\begin{vmatrix}
+\varphi_1, & \varphi_2, & \varphi_3, & \varphi_4 \\
+\psi_1, & \psi_2, & \psi_3, & \psi_4 \\
+\varPhi_1, & \varPhi_2, & \varPhi_3, & \varPhi_4 \\
+\varPsi_1, & \varPsi_2, & \varPsi_3, & \varPsi_4
+\end{vmatrix}
+\begin{vmatrix}
+1, & 0, & 0, & 0 \\
+0, & 1, & 0, & 0 \\
+x_1, & x_2, & x_3, & x_4 \\
+dx_1, & dx_2, & dx_3, & dx_4
+\end{vmatrix}
+=
+\begin{vmatrix}
+\varphi_1, & \varphi_2, & 0, & 0 \\
+\psi_1, & \psi_2, & 0, & 0 \\
+\varPhi_1, & \varPhi_2, & \varPhi, & d\varPhi \\
+\varPsi_1, & \varPsi_2, & \varPsi, & d\varPsi
+\end{vmatrix}
+\]
+\[
+= (\varphi_1\psi_2 - \varphi_2\psi_1)(\varPhi\,d\varPsi - \varPsi\,d\varPhi),
+\]
+und folglich ergibt sich aus (26) und (23)
+\weq{27}{u = \int \frac{\varPhi\,d\varPsi - \varPsi\,d\varPhi}{K} = \int \frac{\varPhi\,d\varPsi - \varPsi\,d\varPhi}{\sqrt{f(\varPhi,-\varPsi)}}\,.}
+
+Wendet man hierauf die Transformation des \S\,5 an, indem man $x,y$
+durch $\varPhi, -\varPsi$ ersetzt, so folgt
+\[
+u = \sqrt{3}\int \frac{f\,dH - H\,df}{\sqrt{-(H^3 - 48\,Af^2H - 64\,Bf^3)f}},
+\]
+und wenn man in \S\,5, (17) $\mu = 3$, also
+\[
+z = -\frac{3H}{4f}
+\]
+setzt:
+\[
+u = 3\int \frac{dz}{\sqrt{4z^3 - g_2 z - g_3}},
+\]
+\[
+g_2 = 12\cdot 9\,A, \qquad g_3 = -4\cdot 27\,B.
+\]

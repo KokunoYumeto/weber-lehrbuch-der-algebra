@@ -1,0 +1,43 @@
+% !PRINTED 333
+\weberpage{333}
+%<<CONT
+that the arc of the curve running between the two curve points $\alpha, f(\alpha)$ and
+$\alpha + \delta, f(\alpha + \delta)$ is replaced by the chord. If the second difference is
+also taken into account, then the arc of the curve passing through the three successive
+points with the abscissae $\alpha, \alpha + \delta,
+\alpha + 2\delta$ is replaced by the arc of a parabola
+which passes through the same points and whose axis is parallel to the axis of ordinates;
+and this parabola will fit the curve still more closely than the chord.
+The smaller the interval $\delta$ is, the less influence the higher
+differences will have.
+
+How far one has to go in the approximation, then, depends not only on the
+accuracy with which one wishes to know $f(x)$, but essentially also
+on the density of the values $\alpha, \alpha + \delta, \alpha + 2\delta
+\ldots$ for which the function is known. On these theorems rests the
+arrangement of our works of tables, especially of the tables of logarithms. There, to be
+sure, we are not dealing with integral rational functions; but for
+continuous functions in general the same laws hold here. In the tables
+one therefore also finds, beside the values $f(\alpha), f(\alpha + \delta),
+f(\alpha + 2\delta) \ldots$, the values of the first difference, or of the first two
+differences, given. For the customary seven-place tables the
+first difference suffices. In the ten-place table ``Thesaurus
+logarithmorum'' of \gesperrt{Vega} the second differences are also
+given, and must be taken into account in quite precise computations.
+
+Our interpolation formulae can be applied with advantage to compute the roots
+of equations, or, more exactly expressed, to improve the approximate values
+found by other means.
+
+We can formulate the problem thus: for a given value of $f(x)$ lying between
+$f(\alpha)$ and $f(\alpha + \delta)$, the
+corresponding value of $x$ is to be found.
+
+We regard $x = \alpha$ as a first approximate value. If we now set
+\[
+f(x) - f(\alpha) = \varDelta,
+\]
+then $\varDelta$ is a given value of the same sign as
+$\varDelta_\alpha = f(\alpha + \delta) - f(\alpha)$ and absolutely smaller than
+$\varDelta_\alpha$. If we further set $x - \alpha = u$, formula (4) gives
+\weq{6}{\varDelta = \frac{\varDelta_\alpha u}{\delta} + \frac{\varDelta'_\alpha}{\delta^2}\,\frac{u(u-\delta)}{2} + \cdots}

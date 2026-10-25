@@ -1,0 +1,63 @@
+% !PRINTED 130
+\weberpage{130}
+Setzen wir
+\weq{18}{
+E\!\left(\begin{matrix}\alpha, & \beta \\ \gamma, & \delta\end{matrix}, \omega\right) = \varepsilon\sqrt{\alpha+\beta\omega},
+}
+so ist $\varepsilon$ eine 24ste Einheitswurzel, deren Produkt mit $\sqrt{\alpha+\beta\omega}$
+durch (15) vollständig bestimmt ist, und es ergibt sich die Transformation
+ der $\eta$-Funktion
+\weq{19}{
+\eta\!\left(\frac{\gamma+\delta\omega}{\alpha+\beta\omega}\right) = \varepsilon\sqrt{\alpha+\beta\omega}\ \eta(\omega).
+}
+Für $\varepsilon^{12}$ findet man
+\weq{20}{
+\varepsilon^{12} = (-1)^{\alpha\beta+\gamma\delta+\beta\gamma}.
+}
+
+\begin{center}
+\textbf{§ 39. \gesperrt{Lineare Transformation der $\vartheta$-Funktionen.}}
+\end{center}
+
+Die Transformationsformeln der $\vartheta$-Funktionen sind Folgen
+der Grundeigenschaften der $\sigma$-Funktion, durch die Substitution
+\[
+(\omega_1', \omega_2') = \begin{pmatrix}\alpha, & \beta \\ \gamma, & \delta\end{pmatrix}(\omega_1, \omega_2)
+\]
+ungeändert zu bleiben. Aus § 37, (4) ergibt sich hiernach, wenn
+man $\omega_1, \omega_2, \eta_1$ durch $\omega_1', \omega_2', \eta_1'$ ersetzt:
+\[
+\frac{\omega_1\, e^{\frac{\eta_1 u^2}{\omega_1}}\, \vartheta_{11}\!\left(\dfrac{u}{\omega_1}, \dfrac{\omega_2}{\omega_1}\right)}{\vartheta'_{11}\!\left(0, \dfrac{\omega_2}{\omega_1}\right)}
+=
+\frac{\omega_1'\, e^{\frac{\eta_1' u^2}{\omega_1'}}\, \vartheta_{11}\!\left(\dfrac{u}{\omega_1'}, \dfrac{\omega_2'}{\omega_1'}\right)}{\vartheta'_{11}\!\left(0, \dfrac{\omega_2'}{\omega_1'}\right)},
+\]
+oder, weil nach § 35, (10), (13), (14)
+\weq{1}{
+\frac{\eta_1}{\omega_1} - \frac{\eta_1'}{\omega_1'}
+= \frac{\omega_1'\eta_1 - \eta_1'\omega_1}{\omega_1\omega_1'}
+= \beta\,\frac{\omega_2\eta_1 - \omega_1\eta_2}{\omega_1\omega_1'}
+= \frac{\pi i\beta}{\omega_1\omega_1'}
+}
+ist, wenn wir:
+\weq{2}{
+\begin{aligned}
+v &= \frac{u}{\omega_1}, & \omega &= \frac{\omega_2}{\omega_1},\\
+v' &= \frac{u}{\omega_1'} = \frac{v}{\alpha+\beta\omega}, &
+\omega' &= \frac{\omega_2'}{\omega_1'} = \frac{\gamma+\delta\omega}{\alpha+\beta\omega}
+\end{aligned}
+}
+setzen:
+\[
+\frac{\vartheta_{11}(v', \omega')}{\vartheta'_{11}(0, \omega')}
+= \frac{e^{\pi i\beta v v'}}{\alpha+\beta\omega}\ \frac{\vartheta_{11}(v, \omega)}{\vartheta'_{11}(0, \omega)}.
+\]
+Es ist ferner
+\[
+\vartheta'_{11}(0, \omega) = 2\pi\,\eta(\omega)^3, \qquad
+\vartheta'_{11}(0, \omega') = 2\pi\,\eta(\omega')^3,
+\]
+woraus nach § 38, (19):
+\[
+\vartheta'_{11}(0, \omega') = \varepsilon^3\sqrt{\alpha+\beta\omega}^{\,3}\ \vartheta'_{11}(0, \omega),
+\]
+%CONT>>

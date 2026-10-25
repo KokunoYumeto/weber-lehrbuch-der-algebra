@@ -1,0 +1,39 @@
+% !PRINTED 619
+\weberpage{619}
+%<<CONT
+unit, then $N(\sigma') = q$. Consequently the norm of $\sigma : \sigma'$ is equal to 1, i.\,e. $\sigma : \sigma'$ is a unit and $\sigma$ is associated with $\sigma'$. We thus have the first theorem:
+
+\begin{quote}
+I. \gesperrt{The natural prime $q$ is associated, in the full cyclotomic field $\Omega_m$, with the $\mu$th power of a prime factor of the first degree.}
+\end{quote}
+
+If we denote by $m_1$ a divisor of $m$, smaller than $m$ and greater than 1, and set
+\weq{8}{m = m_1 m_2}
+so that $m_1$ and $m_2$ are themselves powers of $q$, then there results the decomposition:
+\[
+% [sic: The printed product needs the factor (-1)^{m_1-1} on its right-hand side. For even m_1 (the permitted q=2 case), the product as printed equals 1-x^{m_1}, not x^{m_1}-1.]
+x^{m_1} - 1 = (x-1)(xr^{m_2}-1)(xr^{2m_2}-1)\ldots(xr^{(m_1-1)m_2}-1),
+\]
+and if we set $x = r$ in it, by (6):
+% [sic: The prefactor in (9) should be -1 for every m_1. The printed (-1)^{m_1} repeats the preceding sign error when q=2; for m=4,m_1=2,r=i, the two printed sides are -2 and +2. The following norm identity (10) is unaffected because mu is even.]
+\weq{9}{r^{m_1} - 1 = (-1)^{m_1}\prod_{0,\,m_1-1}^{s}\sigma_{1+sm_2},}
+and from this, since $\mu$ is always even,
+\weq{10}{N(r^{m_1}-1) = q^{m_1}.}
+
+From these results the discriminant $\Delta$ of the equation (3) is easily formed, which by Bd.\,I, \S.\,47 has the expression:
+\[
+\Delta = (-1)^{\frac{\mu(\mu-1)}{2}} N f'(r).
+\]
+
+For by (3):
+\[
+f'(r) = \dfrac{m\,r^{m-1}}{r^{\frac{m}{q}} - 1},
+\]
+hence, since the norm of $r$ is equal to 1:
+\[
+N f'(r) = \dfrac{m^{\mu}}{q^{\frac{m}{q}}},
+\]
+and consequently (since $\mu$ is always even):
+\weq{11}{\Delta = (-1)^{\frac{\mu}{2}} q^{q^{\varkappa-1}[\varkappa(q-1)-1]}.}
+
+The discriminant $\Delta$ is thus, apart from the sign, a power of $q$.

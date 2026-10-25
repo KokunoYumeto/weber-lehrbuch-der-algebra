@@ -1,0 +1,56 @@
+% !PRINTED 727
+\weberpage{727}
+
+%<<CONT
+der Formel (9) alle Werthe von $\beta$ auf das Intervall von $0$ bis
+$\nu' - 1$ reduciren, so bekommen wir alle Zahlen dieses Intervalles.
+
+Demnach lässt sich die Formel (3) so darstellen:
+\weq{10}{
+X_1 = -\frac{2}{m}\,(1,\,\Theta^{-1},\,r)\sum_{0,\,\nu'-1}^{\beta}\Theta^\beta\lambda_\beta.
+}
+Dies haben wir in dem im \S.\,197, (8) angegebenen Ausdrucke
+\[
+D B = 2^{2^{\varkappa-4}(\varkappa-2)}\prod X_1 = m^{\nu''}2^{-\nu'}\prod X_1
+\]
+einzusetzen, und dann ergiebt sich, wenn wir
+\weq{11}{
+U_\Theta = \sum_{0,\,\nu'-1}^{\beta}\Theta^\beta\lambda_\beta
+}
+setzen, mit Rücksicht auf \S.\,197, (14):
+\weq{12}{
+D B = \prod^{\Theta} U_\Theta.
+}
+Dies Product lässt sich nun auf folgende Weise durch eine
+Determinante darstellen, die nur die conjugirten Logarithmen
+der Einheiten $\tau$ enthält.
+
+Lassen wir den Index $\Theta$ bei $U$ weg, so können wir das
+Gleichungssystem ansetzen:
+\[
+\begin{array}{l}
+U \;=\; \lambda_0 \;+\; \lambda_1\Theta \;+\; \lambda_2\Theta^2 \;+\; \cdots \;+\; \lambda_{\nu'-1}\Theta^{\nu'-1} \\[4pt]
+\Theta U \;=\; -\lambda_{\nu'-1} \;+\; \lambda_0\Theta \;+\; \lambda_1\Theta^2 \;+\; \cdots \;+\; \lambda_{\nu'-2}\Theta^{\nu'-1} \\[4pt]
+\text{\normalfont .\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.} \\[4pt]
+\Theta^{\nu'-1} U \;=\; -\lambda_1 \;-\; \lambda_2\Theta \;-\; \lambda_3\Theta^2 \;+\; \cdots \;+\; \lambda_0\Theta^{\nu'-1},
+\end{array}
+\]
+woraus durch Elimination der Potenzen von $\Theta$ folgt:
+\weq{13}{
+\begin{vmatrix}
+\lambda_0 - U, & \lambda_1, & \lambda_2, & \ldots, & \lambda_{\nu'-1} \\
+-\lambda_{\nu'-1}, & \lambda_0 - U, & \lambda_1, & \ldots, & \lambda_{\nu'-2} \\
+\multicolumn{5}{c}{\text{\normalfont .\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.\;.}} \\
+-\lambda_1, & -\lambda_2, & -\lambda_3, & \ldots, & \lambda_0 - U
+\end{vmatrix} = 0.
+}
+% [source note: the first row prints a semicolon-shaped mark after \lambda_0-U; the mathematically required list punctuation is normalized to a comma.]
+Dies ist für $U$ eine Gleichung $\nu'^{\text{ten}}$ Grades, deren Wurzeln
+die Grössen $U_\Theta$ sind. Ordnet man nach Potenzen von $U$, so
+erhält, da $\nu'$ gerade ist, die höchste Potenz $U^{\nu'}$ von $U$ den
+Co\"efficienten $1$, und man findet also das in (12) vorkommende
+Product der Wurzeln, wenn man $U = 0$ setzt, aus der Determinante (13).
+
+Die so gewonnene Determinante wollen wir etwas anders anordnen,
+indem wir die erste Zeile an ihrer Stelle lassen, die
+%CONT>>

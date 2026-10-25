@@ -1,0 +1,37 @@
+% !PRINTED 528
+\weberpage{528}
+%<<CONT
+\[ \xi - \eta = u, \qquad \xi + \eta = v, \]
+in the second part:
+\[ \xi - \eta = -u, \qquad \xi + \eta = v. \]
+If one then integrates, as the figure indicates, first with respect
+to $v$ at constant $u$, one obtains:
+\[
+W = \int_0^\infty e^{2\pi ixu}\,du\int_u^\infty e^{\pi iy[u(\omega_1-\omega_2)+v(\omega_1+\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv,
+\]
+\[
+{}+\int_0^\infty e^{-2\pi ixu}\,du\int_u^\infty e^{\pi iy[-u(\omega_1-\omega_2)+v(\omega_1+\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv,
+\]
+or, if one sets, as an abbreviation,
+\weq{10}{\varphi_{\pm}(u) = \int_u^\infty e^{\pi iy[v(\omega_1+\omega_2)\pm u(\omega_1-\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv}
+then
+\weq{11}{W = \int_0^\infty e^{2\pi ixu}\varphi_+(u)\,du + \int_0^\infty e^{-2\pi ixu}\varphi_-(u)\,du.}
+We decompose these integrals taken with respect to $u$ into parts of
+such a kind that their limits are the sequence of the integers; we
+therefore set, since $x$ is an integer:
+\weq{12}{\begin{aligned}
+\int_0^\infty e^{\pm2\pi ixu}\varphi_{\pm}(u)\,du &= \Sigma_{0,\infty}^{\nu}\int_\nu^{\nu+1}e^{\pm2\pi ixu}\varphi_{\pm}(u)\,du,\\
+&= \Sigma_{0,\infty}^{\nu}\int_0^1 e^{\pm2\pi ixu}\varphi_{\pm}(u+\nu)\,du,\\
+&= \int_0^1 e^{\pm2\pi ixu}f(u)\,du,
+\end{aligned}}
+if again
+\weq{13}{f(u) = \Sigma_{0,\infty}^{\nu}\varphi_{\pm}(u+\nu)}
+is set.
+
+If we now first carry out the summation with respect to $x$, we can
+make use of the fundamental formula from the theory of \gesperrt{Fourier series}:
+\weq{14}{\begin{aligned}
+\Sigma_{-\infty,\infty}^{x}\int_0^1 e^{\pm2\pi ixu}f(u)\,du &= \tfrac{1}{2}[f(0)+f(1)]\\
+&= \tfrac{1}{2}\varphi_{\pm}(0) + \Sigma_{1,\infty}^{\nu}\varphi_{\pm}(\nu),
+\end{aligned}}
+%CONT>>

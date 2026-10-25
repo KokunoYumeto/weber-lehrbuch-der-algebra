@@ -1,0 +1,52 @@
+% !PRINTED 226
+\weberpage{226}
+In order, then, finally to establish the existence of the icosahedral group, it remains to show that the totality of the substitutions (20) forms a group. But this follows from the laws of composition now to be derived.
+
+First of all, one obtains very simply from the meaning of $\Theta$, $\psi$, $\chi$:
+\[
+\Theta = \begin{pmatrix} \varepsilon, & 0 \\ 0, & 1 \end{pmatrix}, \quad
+\psi = \begin{pmatrix} 0, & 1 \\ -1, & 0 \end{pmatrix}, \quad
+\chi = \begin{pmatrix} \omega, & 1 \\ 1, & -\omega \end{pmatrix}
+\]
+\weq{23}{\psi\Theta = \Theta^{-1}\psi, \quad \chi\psi = \psi\chi.}
+
+Further, for an arbitrary exponent $\lambda$ one obtains:
+\[
+\chi\Theta^\lambda\chi = \begin{pmatrix} \varepsilon^\lambda\omega^2+1, & (\varepsilon^\lambda-1)\omega \\ (\varepsilon^\lambda-1)\omega, & \varepsilon^\lambda+\omega^2 \end{pmatrix},
+\]
+or, if according to (5) and (6) one sets
+\weq{24}{\omega = \varepsilon+\varepsilon^{-1}, \quad \omega' = \varepsilon^2+\varepsilon^{-2}, \quad \omega\omega' = -1}
+then:
+\[
+\chi\Theta^\lambda\chi = \begin{pmatrix} \varepsilon^\lambda\omega-\omega', & \varepsilon^\lambda-1 \\ \varepsilon^\lambda-1, & -\varepsilon^\lambda\omega'+\omega \end{pmatrix}.
+\]
+
+If we first set $\lambda=1$ in this, it follows by (24), (13), (14):
+\[
+\chi\Theta\chi = \begin{pmatrix} 1-\varepsilon^3, & \varepsilon-1 \\ \varepsilon-1, & \varepsilon-\varepsilon^3 \end{pmatrix}
+= \begin{pmatrix} \varepsilon^3(\varepsilon+1), & 1 \\ 1, & -\varepsilon(\varepsilon+1) \end{pmatrix}
+\]
+\[
+= \begin{pmatrix} \varepsilon\omega', & 1 \\ 1, & -\varepsilon^{-1}\omega' \end{pmatrix}
+= \begin{pmatrix} -\varepsilon^2, & \varepsilon\omega \\ \varepsilon\omega, & 1 \end{pmatrix}
+= \Theta\chi\psi\Theta,
+\]
+from which, on taking inverses on both sides,
+\[
+\chi\Theta^{-1}\chi = \Theta^{-1}\chi\psi\Theta^{-1}
+\]
+follows. If, on the other hand, one sets $\lambda=2$, it follows:
+\[
+\chi\Theta^2\chi = \begin{pmatrix} \varepsilon-\varepsilon^2, & \varepsilon^2-1 \\ \varepsilon^2-1, & \varepsilon-1 \end{pmatrix}
+= \begin{pmatrix} \varepsilon^2(\varepsilon^2+1), & 1 \\ 1, & -\varepsilon(\varepsilon^2+1) \end{pmatrix}
+\]
+\[
+= \begin{pmatrix} \varepsilon^3\omega, & 1 \\ 1, & -\varepsilon^2\omega \end{pmatrix}
+= \Theta^{-2}\chi\Theta^{-2},
+\]
+in which again $\Theta$ may be replaced by $\Theta^{-1}$. One therefore has the composition formulae:
+
+\weq{25}{\chi\Theta^{\pm1}\chi = \Theta^{\pm1}\chi\psi\Theta^{\pm1}, \quad \chi\Theta^{\pm2}\chi = \Theta^{\mp2}\chi\Theta^{\mp2}.}
+
+By application of the formulae (23) and (25) one can now compose any two of the substitutions (20), and one always arrives again at a substitution of the form (20), whereby
+%CONT>>

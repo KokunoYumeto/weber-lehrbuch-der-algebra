@@ -1,0 +1,55 @@
+% !PRINTED 200
+\weberpage{200}
+%<<CONT
+scheiden sich also nur durch einen konstanten Faktor voneinander,
+der sich aus (7) gleich 1 ergibt. Wir haben daher
+\weq{14}{\begin{aligned}
+&\psi_{m+n}(u)\,\psi_{m+n}(u)\\
+% [sic] The source prints m+n in both factors; the identity mathematically requires m-n in the second.
+={}&\psi_{m+1}(u)\,\psi_{m-1}(u)\,\psi_n(u)^2 - \psi_{n+1}(u)\,\psi_{n-1}(u)\,\psi_m(u)^2.
+\end{aligned}}
+Diese Formel wenden wir auf zwei spezielle F\"alle an, indem
+wir $n+1$, $n$ oder $n+1$, $n-1$ an Stelle von $m$, $n$ setzen, und
+erhalten so:
+\[
+\begin{aligned}
+\psi_{2n+1}(u) &= \psi_{n+2}(u)\,\psi_n(u)^3 - \psi_{n+1}(u)^3\,\psi_{n-1}(u)\\
+\wp'(u)\,\psi_{2n}(u) &= -\,\psi_n(u)\,[\psi_{n+2}(u)\,\psi_{n-1}(u)^2 - \psi_{n+1}(u)^2\,\psi_{n-2}(u)],
+\end{aligned}
+\]
+und daraus erh\"alt man nach (6) die Rekursionsformeln f\"ur $P_n$:
+\weq{15}{\begin{aligned}
+P_{2n+1} &= \wp'(u)^4\,P_{n+2}\,P_n^3 - P_{n+1}^3\,P_{n-1}, &&\text{$n$ gerade,}\\
+&= P_{n+2}\,P_n^3 - \wp'(u)^4\,P_{n+1}^3\,P_{n-1}, &&\text{$n$ ungerade.}
+\end{aligned}}
+\weq{16}{P_{2n} = -\,P_n\,(P_{n+2}\,P_{n-1}^2 - P_{n+1}^2\,P_{n-2}).}
+
+Da sich die Funktionen $P_n$ alle hiernach aus $P_1$, $P_2$, $P_3$, $P_4$
+berechnen lassen, so folgt, \gesperrt{da\ss{} die Koeffizienten von}
+$P_n$ \gesperrt{rational aus} $g_2$, $g_3$ \gesperrt{und rationalen
+Zahlen zusammengesetzt sind}.
+
+Unsere ferneren Betrachtungen \"uber die Teilung kn\"upfen
+wir aber an die Multiplikationsformeln der Funktionen $\operatorname{sn} u$, $\operatorname{cn} u$,
+$\operatorname{dn} u$, deren Vorz\"uge erst im vierten Teil vollst\"andig zur Geltung
+kommen werden.
+
+\begin{center}
+\textbf{\S~59. Die Teilung durch 2.}
+\end{center}
+
+Indem wir uns zun\"achst zur Betrachtung des einfachsten
+Falles wenden, setzen wir in den Gleichungen (5) des \S~57 $v$ an
+Stelle von $2v$. Dann ist, wenn wir
+\weq{1}{x = \operatorname{sn}\frac{v}{2}, \qquad y = \operatorname{cn}\frac{v}{2}, \qquad z = \operatorname{dn}\frac{v}{2}}
+setzen:
+\weq{2}{\begin{aligned}
+\operatorname{sn} v &= \frac{2\,x\,y\,z}{1 - \varkappa^2\,x^4},\\
+\operatorname{cn} v &= \frac{y^2 - x^2\,z^2}{1 - \varkappa^2\,x^4},\\
+\operatorname{dn} v &= \frac{z^2 - \varkappa^2\,x^2\,y^2}{1 - \varkappa^2\,x^4}.
+\end{aligned}}
+
+Die beiden letzten dieser Gleichungen sind quadratisch in
+bezug auf $x^2$, sie haben aber nur \gesperrt{eine gemeinschaftliche}
+Wurzel, denn die Wurzeln der zweiten der Gleichungen (2) sind
+%CONT>>

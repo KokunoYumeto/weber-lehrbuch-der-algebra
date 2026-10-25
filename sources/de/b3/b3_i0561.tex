@@ -1,0 +1,36 @@
+% !PRINTED 530
+\weberpage{530}
+
+Zerlegt man also das Integral (21) in seine beiden Bestandteile und setzt
+\[
+\int_0^\infty t^{2s-3}e^{-t}\,dt = \Gamma(2s-2) = \frac{\Gamma(2s-1)}{2(s-1)},
+\]
+so folgt:
+\[
+\mathop{\mathrm{Lim}}\limits_{s=1}\left(\int_0^\infty \frac{t^{2s-2}\,dt}{e^t-1} - \frac{\Gamma(2s-1)}{2(s-1)}\right) = -\Gamma'(1),
+\]
+und wenn man also die Entwickelung nach Potenzen von $s-1$:
+\[
+\Gamma(2s-1) = 1 + 2\Gamma'(1)(s-1) + \cdots
+\]
+einsetzt,
+\weq{22}{\mathop{\mathrm{Lim}}\limits_{s=1}\left\{2\int_0^\infty \frac{t^{2s-2}\,dt}{e^t-1} - \frac{1}{s-1}\right\} = 0.}
+
+Man erhält ferner durch Entwickelung nach Potenzen von $s-1$:
+\weq{23}{\begin{aligned}
+\frac{(2\pi)^{2s}A^{s-1}}{(4\pi\sqrt m)^{2s-1}\Gamma(s)^2}
+&= \frac{\pi}{\sqrt m}\left[1+(s-1)\left(\log\frac{A}{4m}-2\Gamma'(1)\right)+\cdots\right]
+\end{aligned}}
+so daß nach (20):
+\weq{24}{\begin{aligned}
+P_s &= \frac{(2\pi)^{2s}A^{s-1}}{(4\pi\sqrt m)^{2s-1}\Gamma(s)^2}\left(2\int_0^\infty \frac{t^{2s-2}\,dt}{e_t-1} - \frac{1}{s-1}\right)\\ % [sic] printed $e_t-1$; equation (22) and the sense require $e^t-1$
+&\quad + \frac{\pi}{\sqrt m(s-1)} + \frac{\pi}{\sqrt m}\left(\log\frac{A}{4m}-2\Gamma'(1)\right)+\cdots,
+\end{aligned}}
+worin die noch folgenden Glieder mit $s-1$ verschwinden. Daraus folgt:
+\weq{25}{\mathrm{Lim}\left(P_s' - \frac{\pi}{\sqrt m(s-1)}\right) = \frac{\pi}{\sqrt m}\left(\log\frac{A}{4m}-2\Gamma'(1)\right).}
+% [sic] printed $P_s'$; equation (24) defines $P_s$ without a prime.
+
+Es bleibt noch der Bestandteil $Q_s$ zu untersuchen übrig, der für $s=1$ einen endlichen Grenzwert $Q$ erhält; diesen können wir ohne weiteres durch Einsetzen des Wertes $s=1$ bestimmen.
+
+Es läßt sich nämlich in (10), solange $u$ und $y$ größer als Null sind, nach Einsetzen des Wertes $s=1$ die Integration
+%CONT>>

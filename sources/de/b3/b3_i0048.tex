@@ -1,0 +1,55 @@
+% !PRINTED 27
+\weberpage{27}
+%<<CONT
+und daraus ist nach (12) und (14) abzuleiten:
+\[
+\begin{aligned}
+\Phi' &= M\Phi + N\Psi,\\
+\Psi' &= P\Phi + Q\Psi,
+\end{aligned}
+\]
+worin die Koeffizienten $M$, $N$, $P$, $Q$ noch zu bestimmen sind.
+Wir können dies durch Rechnung ausführen. Ohne Rechnung ergibt sich
+das Resultat auf folgendem Wege:
+
+Die $M$, $N$ sind ganze Funktionen zweiten Grades von $p$, $q$ und
+dritten Grades von $m$, $n$. Nimmt man $p:q = m:n$, also
+$r = mq - np = 0$, so gehen $\Phi'$ und $\dfrac{\partial \Phi'}{\partial p}$
+nach (18) in lineare Verbindungen von $\varphi$ und $\psi$ über und
+verschwinden also. Daraus folgt, daß $M$ und $N$ durch $r^2$ teilbar
+sind, und die Quotienten sind lineare Funktionen von $m$ und $n$. Da
+aber für die beiden Fälle $\begin{pmatrix} m & n\\ p & q \end{pmatrix} = \begin{pmatrix} 1 & 0\\ 0 & 1 \end{pmatrix},\ \begin{pmatrix} 0 & 1\\ 1 & 0 \end{pmatrix}$
+$\Phi'$ in $\Phi$ und in $\Psi$ übergehen muß, und da man dieselbe
+Betrachtung auf $\Psi'$ anwenden kann, so folgt:
+\weq{19}{\begin{aligned}\Phi' &= r^2(m\Phi+n\Psi),\\ \Psi' &= r^2(p\Phi+q\Psi).\end{aligned}}
+Es werden also (von dem Faktor $r^2$ abgesehen) die Funktionen
+$\Phi$, $\Psi$ mit den $\varphi$, $\psi$ \gesperrt{kongredient} transformiert.
+(Über die strenge Begründung dieser Schlüsse sehe man Bd. I, §\,20.)
+
+Aus diesen Ergebnissen können wir auf einfache Weise, immer unter der
+Voraussetzung $\varphi = 0$, $\psi = 0$, die $y_i^2$ durch $\Phi$ und
+$\Psi$ ausdrücken, also die linearen Gleichungen (12), (14) auflösen.
+Wenn wir nämlich die Formeln (19) auf die Substitution
+\[
+\begin{pmatrix} m, & n\\ p, & q \end{pmatrix} = \begin{pmatrix} \beta_1, & -\alpha_1\\ 0, & 1 \end{pmatrix}
+\]
+anwenden, so ist $r = \beta_1$, die Funktion $\psi'$ bleibt
+ungeändert $= \psi$ und $\varphi'$ geht aus $\varphi$ hervor, wenn
+\[
+\alpha_1,\quad \alpha_2,\quad \alpha_3,\quad \alpha_4
+\]
+durch
+\[
+0,\quad (\alpha_2\beta_1),\quad (\alpha_3\beta_1),\quad (\alpha_4\beta_1)
+\]
+ersetzt werden. Es wird also nach (14)
+\[
+\Phi' = \beta_1^2(\alpha_2\beta_1)(\alpha_3\beta_1)(\alpha_4\beta_1)\,y_1^2
+\]
+und folglich nach (19):
+\weq{20}{\begin{aligned}
+(\alpha_2\beta_1)(\alpha_3\beta_1)(\alpha_4\beta_1)\,y_1^2 &= \alpha_1\Phi - \beta_1\Psi,\\
+(\alpha_1\beta_2)(\alpha_3\beta_2)(\alpha_4\beta_2)\,y_2^2 &= \alpha_2\Phi - \beta_2\Psi,\\
+(\alpha_1\beta_3)(\alpha_2\beta_3)(\alpha_4\beta_3)\,y_3^2 &= \alpha_3\Phi - \beta_3\Psi,\\
+(\alpha_1\beta_4)(\alpha_2\beta_4)(\alpha_3\beta_4)\,y_4^2 &= \alpha_4\Phi - \beta_4\Psi.
+\end{aligned}}

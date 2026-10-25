@@ -1,0 +1,53 @@
+% !PRINTED 233
+\weberpage{233}
+%<<CONT
+von denen die erste linear, die andere von der $n$ten Ordnung ist,
+so bestimmen, daß
+
+\weq{7}{\begin{pmatrix} \alpha', & \beta' \\ \gamma', & \delta' \end{pmatrix}\begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix} = \begin{pmatrix} 1, & 0 \\ 0, & n \end{pmatrix}\begin{pmatrix} \alpha, & \beta \\ \gamma, & \delta \end{pmatrix}.}
+
+Denn schreiben wir die Relation (7) so:
+\[
+\begin{pmatrix} \delta', & -\beta' \\ -\gamma', & \alpha' \end{pmatrix}\begin{pmatrix} 1, & 0 \\ 0, & n \end{pmatrix} = \begin{pmatrix} a, & 0 \\ c, & \partial \end{pmatrix}\begin{pmatrix} \delta, & -\beta \\ -\gamma, & \alpha \end{pmatrix},
+\]
+so leitet man daraus einfach her:
+
+\weq{8}{\begin{aligned}
+\delta' &= a\delta, & \gamma' &= \partial\gamma - c\delta,\\
+\partial\beta' &= \beta, & n\alpha' &= \partial\alpha - c\beta, & a\alpha' &= \alpha - c\beta'.
+\end{aligned}}
+
+Hierdurch ist zunächst $\partial$ bestimmt als der \gesperrt{größte gemeinschaftliche
+Teiler} von $\beta$ und $n$ oder [wegen (4)] von $\mu'$ und $n$. Denn wäre
+$\partial$ nicht der größte gemeinschaftliche Teiler von $n=\partial a$ und
+$\beta=\partial\beta'$, so müßten $a$ und $\beta'$ einen gemeinsamen Teiler
+% [sic] The source prints \alpha=\alpha a'+c\beta, contrary to (8).
+haben und folglich auch $\beta$ und $\alpha=\alpha a'+c\beta$, was nicht sein
+kann. Dadurch ist zugleich $a=n/\partial$ bestimmt, und $c$ muß der Kongruenz
+
+\weq{9}{\partial\alpha - c\beta \equiv 0\ (\mathrm{mod}\ n)}
+
+genügen, wodurch jedoch $c$ nicht absolut, sondern nur nach dem Modul $a$
+bestimmt ist. Man kann also $c$ z.\,B. noch an die Bedingung knüpfen, daß es
+durch irgend eine Potenz von 2, oder wenn $a$ nicht durch 3 teilbar ist,
+durch irgend eine Potenz von 3 teilbar sein soll, was wir später bisweilen
+tun werden.
+
+Die drei Zahlen $a$, $\partial$, $c$ können keinen gemeinsamen Teiler haben,
+denn ein solcher wäre [nach (8)] auch Teiler von $\alpha$ und $\beta$, was
+unmöglich ist. Bezeichnen wir also den größten gemeinsamen Teiler von $a$
+und $\partial$ mit $e$, so muß $c$ \gesperrt{relativ prim} zu $e$ sein.
+
+Die Zahlen $a$, $\partial$, $c$, letztere modulo $a$, sind wegen (4) und (8)
+durch die beiden Zahlen $\mu$, $\mu'$ völlig bestimmt und ändern sich nicht,
+wenn $\mu$, $\mu'$ mit einem gemeinsamen, zu $n$ teilerfremden Faktor
+multipliziert, d.\,h. durch ein anderes Paar derselben \gesperrt{Reihe} ersetzt werden.
+Zerlegt man $n$ irgendwie in zwei Faktoren $a$, $\partial$, so kann man für
+$c$ noch
+\[
+\frac{a}{e}\varphi(e)
+\]
+nach dem Modul $a$ verschiedene zu $e$ teilerfremde Werte annehmen. Jede
+dieser Annahmen führt zu einem Zahlenpaar $\mu$, $\mu'$ durch die
+Kongruenzen
+%CONT>>

@@ -1,0 +1,54 @@
+% !PRINTED 429
+\weberpage{429}
+
+We wish to prove that primitive roots exist for every prime $n$, and to
+determine their number; and in doing so we follow the same path as with
+the roots of unity.
+
+Let $a$ and $b$ be two divisors of $n-1$ which are relatively prime
+to each other, and let $\alpha$ be an $a$th, $\beta$ a $b$th
+primitive congruence root of $n$. If we set $ab=c$, then
+$\gamma=\alpha\beta$ is a primitive $c$th congruence root, and
+conversely every primitive $c$th congruence root can also be represented
+in the form $\alpha\beta$.
+
+For, first: $(\alpha\beta)^c = \alpha^c\beta^c \equiv 1 \pmod{n}$;
+and secondly: if $(\alpha\beta)^h = \alpha^h\beta^h \equiv 1 \pmod{n}$,
+then also $\alpha^{hb}\beta^{hb}\equiv 1$, hence $\alpha^{hb}\equiv 1$,
+hence $hb$ is divisible by $a$, hence $h$ too is divisible by $a$; and in
+the same way one concludes that $h$ must be divisible by $b$, and hence
+also by $ab=c$; that is, $\alpha\beta$ is a primitive $c$th
+congruence root.
+
+If conversely $\gamma$ is a primitive $c$th congruence root, then we
+determine the positive integers $x, y$ so that
+\weq{10}{a y + b x \equiv 1 \pmod{c}}
+holds, by first determining $x$ from $bx \equiv 1 \pmod{a}$ and then $y$ from
+$y \equiv \dfrac{1-bx}{a} \pmod{b}$. Then $y$ is relatively prime
+to $b$ and $x$ relatively prime to $a$. Accordingly
+\[
+\gamma \equiv \gamma^{bx}\gamma^{ay} = \alpha\beta \pmod{n}
+\]
+and $\gamma^{bx} = \alpha$ is a primitive $a$th
+congruence root, $\gamma^{ay} = \beta$ a primitive $b$th
+congruence root (because $\alpha^h = \gamma^{bxh}$ can be $\equiv 1$
+only when $h$ is divisible by $a$).
+
+It remains to be shown that the products $\alpha\beta$ are all distinct
+from one another, that is, that the congruence
+\weq{11}{\alpha\beta \equiv \alpha'\beta' \pmod{n},}
+when $\alpha, \alpha'$; $\beta, \beta'$ are primitive $a$th and
+$b$th congruence roots, can be satisfied only when
+\[
+\alpha \equiv \alpha', \quad \beta \equiv \beta' \pmod{n}
+\]
+holds. But this follows by (10), if one raises (11) to the power
+\[
+bx \equiv 1 \pmod{a}
+\]
+from which $\alpha \equiv \alpha'$ results, and then also
+$\beta \equiv \beta'$.
+
+If, then, we denote the number of primitive $a$th
+congruence roots by $\varphi(a)$, it follows from what has been proved that
+\weq{12}{\varphi(c) = \varphi(a)\varphi(b).}

@@ -1,0 +1,42 @@
+% !PRINTED 652
+\weberpage{652}
+%<<CONT
+of the roots (2). Every cyclic function of these quantities is
+a rational number. What we have to prove is that the $x$ can be
+expressed rationally in terms of roots of unity. If we adjoin
+to the field $\Omega$ in addition the $m$th root of unity $r$, there
+arises a field $R(x, r)$, which contains the two fields $\Omega = R(x)$ and
+$R(r) = \Omega_m$ as divisors.
+
+\gesperrt{If a number} $\omega = \Phi(x, r)$ of the field $R(x, r)$ admits
+all the substitutions $(x_0, x_1), (x_0, x_2), \ldots, (x_0, x_{m-1})$,
+then it is contained in the field $\Omega_m$; for then
+\[
+m\,\omega = \Phi(x_0, r) + \Phi(x_1, r) + \cdots + \Phi(x_{m-1}, r),
+\]
+and in this the coefficients of the powers of $r$ are not only
+cyclic, but even symmetric functions of the roots
+(2), and hence rational numbers. This holds even in the
+case that the equation for $x$ becomes reducible upon the adjunction
+of $r$.
+
+We apply this to the \gesperrt{resolvents}
+\weq{3}{(r, x_0) = x_0 + r x_1 + r^2 x_2 + \cdots + r^{m-1} x_{m-1},}
+and more generally, if $s$ denotes an arbitrary integral exponent:
+\weq{4}{(r^s, x_0) = x_0 + r^s x_1 + r^{2s} x_2 + \cdots + r^{(m-1)s} x_{m-1}.}
+
+By means of these resolvents $x_0$ itself can in turn be expressed
+rationally, namely:
+\weq{5}{m x_0 = \sum\limits_{0,\,m-1}^{s} (r^s, x_0),}
+and if therefore we can show that all these resolvents
+$(r^s, x_0)$ are cyclotomic numbers, we have attained our
+goal. If we set
+\weq{6}{(r^s, x_{\varkappa}) = x_{\varkappa} + r^s x_{\varkappa+1} + r^{2s} x_{\varkappa+2} + \cdots + r^{(m-1)s} x_{\varkappa+m-1}}
+then $(r^s, x_{\varkappa})$ arises from $(r^s, x_0)$ by the substitution
+$(x_0, x_{\varkappa})$, and there subsists the fundamental relation
+\weq{7}{r^{\varkappa s} (r^s, x_{\varkappa}) = (r^s, x_0).}
+
+All these resolvents are numbers of the field $R(x, r)$;
+we consider by preference the two following combinations:
+\weq{8}{(r^s, x_0)^m = \omega_s,}
+\weq{9}{(r^s, x_0)^{-1} (r, x_0)^s = \alpha.}

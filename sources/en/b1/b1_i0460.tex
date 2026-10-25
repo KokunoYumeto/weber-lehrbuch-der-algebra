@@ -1,0 +1,29 @@
+% !PRINTED 435
+\weberpage{435}
+%<<CONT
+\weq{10}{\begin{gathered} x A_n(x) - A_{n-1}(x) \\ = \overset{\nu}{\Sigma}(-1)^\nu x^{n-2\nu+1} \dfrac{n B_\nu^{(n-\nu)} + (n-1) B_{\nu-1}^{(n-\nu)}}{n-\nu}, \quad 0 \leqq \nu \leqq \dfrac{n+1}{2}. \end{gathered}}
+Now, as follows easily from the expressions for the binomial coefficients (\S.\,8),
+\[
+\dfrac{n B_\nu^{(n-\nu)} + (n-1) B_{\nu-1}^{(n-\nu)}}{n-\nu} = \dfrac{n+1}{n-\nu+1} B_\nu^{(n-\nu+1)},
+\]
+also in the two limiting cases $\nu=0$, $\nu=(n+1):2$, and thus (10) agrees with what results from the right-hand side of (7) by interchanging $n$ with $n+1$.
+
+In just the same way, formula (8) yields
+\[
+x B_n(x) - B_{n-1}(x) = \overset{\nu}{\Sigma}(-1)^\nu x^{n-2\nu}\left(B_\nu^{(n-\nu-1)} + B_{\nu-1}^{(n-\nu-1)}\right),
+\]
+and since
+\[
+B_\nu^{(n-\nu-1)} + B_{\nu-1}^{(n-\nu-1)} = B_\nu^{(n-\nu)}
+\]
+holds, (8) is thereby also proved in general.
+
+For the sake of a clearer view we set out the formulae somewhat more fully:
+\weq{11}{A_n(x) = x^n - n x^{n-2} + \dfrac{n(n-3)}{1\,.\,2} x^{n-4} - \dfrac{n(n-4)(n-5)}{1\,.\,2\,.\,3} x^{n-6} + \cdots}
+\weq{12}{B_n(x) = x^{n-1} - (n-2) x^{n-3} + \dfrac{(n-3)(n-4)}{1\,.\,2} x^{n-5} - \dfrac{(n-4)(n-5)(n-6)}{1\,.\,2\,.\,3} x^{n-7} + \cdots}
+If we take $\cos n\varphi$ and $\sin n\varphi$ as given, then the equation of degree $n$
+\weq{13}{2 \cos n\varphi = A_n(x)}
+serves to determine the unknown $x = 2\cos\varphi$. The meaning of the $n$ roots of this equation follows from the fact that the cosine does not change when the angle increases by a multiple of $2\pi$. Accordingly, equation (13) is satisfied by every value
+\weq{14}{x = 2\cos\left(\varphi + \dfrac{2\nu\pi}{n}\right),}
+where $\nu$ denotes an arbitrary positive or negative integer. But one obtains all the mutually distinct values of (14) by letting $\nu$ run through a complete system of residues with respect to $n$, thus setting, for example, $\nu = 0, 1, 2 \ldots n-1$, and one
+%CONT>>

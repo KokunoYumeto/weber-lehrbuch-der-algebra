@@ -1,0 +1,44 @@
+% !PRINTED 755
+\weberpage{755}
+%<<CONT
+so that the degree $n$ of $f(x)$ is equal to $(m+1)p-1$, and we now prove two things:
+
+1) $C_0 F(0) + C_1 F(1) + \cdots + C_m F(m)$ is an integer different from zero, and therefore, apart from the sign, at least equal to 1,
+
+2) $C_0 Q(0) + C_1 e\,Q(1) + \cdots + C_m e^m Q(m)$ is less than 1,
+
+both under the assumption that a suitable choice is made for $p$. If both of these are proved, one recognises the impossibility of equation (14), and hence that of equation (13), from which (14) had been inferred.
+
+If we arrange the numerator of $f(x)$ according to powers of $x$, an expression of the following form results:
+
+\weq{16}{f(x) = \frac{A_{p-1}x^{p-1}+A_p x^p + A_{p+1}x^{p+1}+\cdots}{\Pi(p-1)},}
+
+in which $A_{p-1}, A_p, A_{p+1}, \ldots$ are integers, and $A_{p-1}=[\Pi(m)]^p$, hence certainly not divisible by $p$. Accordingly, if one compares (16) with the \gesperrt{Taylor} expansion
+\[
+f(x) = f(0) + xf'(0) + \frac{x^2}{\Pi(2)}f''(0)+\cdots
+\]
+one finds
+\[
+f(0)=f'(0)=f''(0)=\cdots=f^{(p-2)}(0)=0,
+\]
+\[
+f^{(p-1)}(0)=A_{p-1},\quad f^{(p)}(0)=pA_p,\quad f^{(p+1)}(0)=p(p+1)A_{p+1}\cdots,
+\]
+and therefore
+\[
+F(0) = A_{p-1}+pA_{p+1}+p(p+1)A_{p+1}+\cdots, % [sic] -- printed with A_{p+1} repeated where the pattern would expect A_p, A_{p+1}
+\]
+an \gesperrt{integer not divisible by $p$}. If, however, we arrange $f(x)$ according to powers of $x-1$, there follows:
+\[
+f(x) = \frac{B_p(x-1)^p+B_{p+1}(x-1)^{p+1}+\cdots}{\Pi(p-1)},
+\]
+in which the $B_p, B_{p+1}, \ldots$ are again integers. From this there follows, as above, by comparison with
+\[
+f(x) = f(1) + (x-1)f'(1) + \frac{(x-1)^2}{\Pi(2)}f''(1)+\cdots
+\]
+\[
+F(1) = pB_p + p(p+1)B_{p+1}+\cdots,
+\]
+consequently $F(1)$ is an \gesperrt{integer divisible by $p$}, and in exactly the same way it follows that $F(2), F(3), \ldots, F(m)$ are integers divisible by $p$. Since $p$ can now also be chosen so large that $C_0$ is not divisible by $p$, it follows
+%CONT>>
+% signature "48*" at foot -- not text, omitted

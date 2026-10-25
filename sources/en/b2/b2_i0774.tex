@@ -1,0 +1,53 @@
+% !PRINTED 753
+\weberpage{753}
+%<<CONT
+in which
+
+\weq{5}{U_r = \frac{x}{r+1}+\frac{x^2}{(r+1)(r+2)}+\frac{x^3}{(r+1)(r+2)(r+3)}+\cdots,}
+
+and this formula holds also for $r=0$, if one assumes $\Pi(0)=1$.
+
+If we denote the absolute value of $x$ by $\xi$, then, by the theorem proved in the Introduction that the absolute value of a sum is never greater than the sum of the absolute values of its parts, the absolute value of $U_r$ is certainly not greater than
+\[
+\frac{\xi}{r+1}+\frac{\xi^2}{(r+1)(r+2)}+\frac{\xi^3}{(r+1)(r+2)(r+3)}+\cdots,
+\]
+and hence smaller than
+\[
+1+\frac{\xi}{1}+\frac{\xi^2}{1.2}+\frac{\xi^3}{1.2.3}+\cdots=e^{\xi}.
+\]
+If we therefore set
+\[
+U_r = q_r\,e^{\xi}
+\]
+then $q_r$ is a function of $x$, of which we establish only this much, that its absolute value is smaller than 1.
+
+Accordingly we set up formula (4) for $r=0,1,\ldots,n$, and write the terms, arranged in reverse order, in a clear survey thus:
+\[
+\begin{aligned}
+\Pi(n)\,e^x &= q_n\,x^n e^{\xi} + x^n + n\,x^{n-1} + n(n-1)x^{n-2}+\cdots\\
+&\qquad{}+\Pi(n)\\[4pt]
+(6)\qquad \Pi(n-1)\,e^x &= q_{n-1}\,x^{n-1}e^{\xi}+x^{n-1}+(n-1)x^{n-2}\\
+&\qquad{}+(n-1)(n-2)x^{n-3}+\cdots\\[4pt]
+&\hphantom{\Pi(n)\,e^x{}}\;\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\[4pt]
+e^x &= q_0\,e^{\xi}+1.
+\end{aligned}
+\]
+
+Now we take an arbitrary integral function of degree $n$ in $x$:
+
+\weq{7}{f(x) = c_n x^n + c_{n-1}x^{n-1} + c_{n-2}x^{n-2}+\cdots+c_0,}
+
+and its derivatives
+\[
+\begin{aligned}
+f'(x) &= n\,c_n x^{n-1} + (n-1)c_{n-1}x^{n-2}+\cdots\\[4pt]
+(8)\qquad f''(x) &= n(n-1)c_n x^{n-2}+(n-1)(n-2)c_{n-1}x^{n-3}+\cdots\\[4pt]
+&\hphantom{f''(x){}}\;\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\\[4pt]
+f^{(n)}(x) &= \Pi(n)\,c_n,
+\end{aligned}
+\]
+
+and we set further, for abbreviation,
+
+\weq{9}{F(x) = f(x)+f'(x)+f''(x)+\cdots+f^{(n)}(x).}
+% signature "Weber, Algebra. II." and gathering-mark "48" at foot -- not text, omitted

@@ -1,0 +1,47 @@
+% !PRINTED 422
+\weberpage{422}
+
+%<<CONT
+deutung nennen wir die Gleichung $X_n = 0$, deren Wurzeln die Grössen (1) sind, die \gesperrt{Kreistheilungsgleichung}.
+
+Wir bestimmen jetzt die Discriminante der Kreistheilungsgleichung $X_n = 0$, beschränken uns aber auf den Fall, dass $n$ eine \gesperrt{ungerade Primzahl} ist.
+
+Es ist dann
+\weq{3}{X_n = x^{n-1} + x^{n-2} + \cdots + x + 1,}
+und da nur die eine imprimitive $n^{\text{te}}$ Einheitswurzel 1 existirt, so ist
+\weq{4}{f_n(x) = x^n - 1 = (x-1) X_n,}
+also
+\weq{5}{f_n'(x) = n x^{n-1} = X_n + (x-1) X_n'.}
+Ist nun $D$ die Discriminante von $X_n$, so ist nach \S.\,46
+\weq{6}{D = (-1)^{\frac{n-1}{2}} \Pi X_n'(r),}
+worin sich das Productzeichen $\Pi$ auf alle Wurzeln $r$ der Gleichung $X_n = 0$ erstreckt, und worin, da $n$ ungerade ist,
+\[
+(-1)^{\frac{n(n-1)}{2}} = (-1)^{\frac{n-1}{2}}
+\]
+gesetzt werden konnte. Es ist aber nach (5)
+\weq{7}{n r^{n-1} = (r-1) X_n'(r),}
+und da das Product aller $r$ gleich 1 ist (weil es gleich dem von $x$ unabhängigen Gliede in $X_n$ ist), und da
+\[
+\Pi(x-r) = \Pi(r-x) = X_n,
+\]
+also
+\[
+\Pi(r-1) = X_n(1) = n, \qquad (\text{\S.\,133})
+\]
+so folgt aus (6) und (7)
+\weq{8}{D = (-1)^{\frac{n-1}{2}} n^{n-2}.}
+Die Wurzeln von $X_n$ sind, wenn $r$ eine von ihnen ist, alle in der Form enthalten
+\[
+r, r^2, r^3 \ldots r^{n-1},
+\]
+und wenn wir also das Differenzenproduct
+\begin{equation}
+\tag*{9)}
+\begin{gathered}
+P = (r - r^2)(r - r^3) \cdots (r - r^{n-1}) \\
+(r^2 - r^3) \cdots (r^2 - r^{n-1}) \\
+\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot \\
+(r^{n-2} - r^{n-1})
+\end{gathered}
+\end{equation} % [sic] source prints the equation tag as $9)$, without an opening parenthesis
+%CONT>>

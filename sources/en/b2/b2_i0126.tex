@@ -1,0 +1,45 @@
+% !PRINTED 105
+\weberpage{105}
+%<<CONT
+and obtain, if $\varepsilon_1$, $\varepsilon_2$ have the value 0 or 1, the resolvents
+
+\weq{6}{\begin{aligned}
+\Omega_{\varepsilon_1,\varepsilon_2} &= \sum^n (-1)^{\varepsilon_1\sigma_1+\varepsilon_2\sigma_2}\, r^n\\
+&= \eta + (-1)^{\varepsilon_1}\eta' + (-1)^{\varepsilon_2}\eta'' + (-1)^{\varepsilon_1+\varepsilon_2}\eta'''.
+\end{aligned}}
+
+If now $m = q_1\, q_2 \ldots q_\mu$ is not divisible by 8, then, if $r_1, r_2, \ldots r_\mu$
+denote primitive roots of the degrees $q_1, q_2, \ldots q_\mu$, we can
+set
+\[ r = r_1\, r_2 \ldots r_\mu \]
+and further
+\[ \begin{aligned}
+n &\equiv n_1\ (\mathrm{mod}\ q_1)\\
+&\equiv n_2\ (\mathrm{mod}\ q_2)\\
+&\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\\
+&\equiv n_\mu\ (\mathrm{mod}\ q_\mu),
+\end{aligned} \]
+from which it results:
+\weq{7}{\Omega_{\varepsilon_1,\varepsilon_2} = \prod_{1,\mu}^{h} \sum^{n_h} (-1)^{\nu_h(\varepsilon_1 e_{1,h}+\varepsilon_2 e_{2,h})}\, r_h^{n_h}.}
+
+The individual factors of this product are the \gesperrt{Gauss sums}
+determined in \S.\,171 (Bd.\ I), which are there expressed by
+square roots. Only when $q_1 = 4$ and
+$\varepsilon_1\, e_{1,1} + \varepsilon_2\, e_{1,2} = 0$ is $\Omega_{\varepsilon_1,\varepsilon_2} = 0$. % [sic: Weber prints e_{1,2}; specializing the preceding general factor to h=1 requires e_{2,1}.]
+
+But if $m$ is divisible by 8 and
+\[ m = q_2\, q_3 \ldots q_\mu, \quad q_2 = 8, \]
+then, setting $r = r_2\, r_3 \ldots r_\mu$, one obtains:
+\[ \begin{aligned}
+\Omega_{\varepsilon_1,\varepsilon_2} &= \sum^{n_2} (-1)^{\varepsilon_1(e_{1,1}\nu_1+e_{1,2}\nu_2)}(-1)^{\varepsilon_2(e_{2,1}\nu_1+e_{2,2}\nu_2)}\, r_2^{n_2}\\
+&\times \prod_{3,\mu}^{h} \sum^{n_h} (-1)^{\nu_h(\varepsilon_1 e_{1,h}+\varepsilon_2 e_{2,h})}\, r_h^{n_h}.
+\end{aligned} \]
+
+In the five groups set up above, which belong to $m = 24$,
+the periods can be computed from this formula, or also
+easily directly, by setting
+\[ r = e^{\frac{\pi i}{12}} = e^{\frac{\pi i}{3}}\, e^{-\frac{\pi i}{4}} \]
+and one then obtains for the five quantities:
+\[ \mathfrak{A}_1)\quad \eta = \frac{(1+i)\sqrt{3}}{\sqrt{2}} \]
+\[ \mathfrak{A}_2)\quad \eta = \frac{\sqrt{3}-i}{\sqrt{2}} \]
+%CONT>>

@@ -1,0 +1,42 @@
+% !PRINTED 42
+\weberpage{42}
+%<<CONT
+\[
+\frac{1}{\sqrt{f(x)}} = (x^4 + a_1 x^3 + a_2 x^2 + a_3 x^2 + a_4)^{-1/2} % [sic] source prints a_3x^2; the defining quartic and later full polynomial require a_3x.
+\]
+\[
+= x^{-2} - \frac{a_1}{2}x^{-3} + \cdots,
+\]
+und in der Entwickelung von $\left(x^2 + \dfrac{a_1}{2}x\right):\sqrt{f(x)}$ nach fallenden Potenzen kommt kein Glied mit $x^{-1}$ vor. Folglich ist $S_2 + \dfrac{a_2}{2}S_1$ ein \gesperrt{Integral zweiter Gattung}. % [sic] source prints a_2/2; the displayed expansion immediately above gives a_1/2.
+
+Durch Vermittelung einer logarithmischen Funktion kann man aber auch noch die vier Integrale des Falles I auf drei reduzieren. Zu dem Ende bringe man $f(x)$ auf die Form
+\[
+x^4 + a_1 x^3 + a_2 x^2 + a_3 x + a_4 = P^2 + ax + b,
+\]
+worin $P = x^2 + px + q$ eine quadratische Funktion und $a$ und $b$ Konstanten sind. Es ergibt sich:
+\[
+p = \frac{a_1}{2}, \quad q = \frac{a_2}{2} - \frac{a_1^2}{8},
+\]
+\[
+a = a_3 - \frac{a_1 a_2}{2} + \frac{a_1^3}{8}, \quad b = a_4 - \left(\frac{a_2}{2} - \frac{a_1^2}{8}\right)^2.
+\]
+
+Nun ist:
+\weq{3}{d\log\frac{\sqrt{f}-P}{\sqrt{f}+P} = \frac{f'(x)P - 2f(x)P'(x)}{f - P^2}\,\frac{dx}{\sqrt{f(x)}},}
+\[
+f - P^2 = ax + b,
+\]
+\[
+f'(x) = 2PP' + a
+\]
+und folglich
+\[
+f'(x)P - 2f(x)P'(x) = a(P - 2xP') - 2bP' = Q
+\]
+eine quadratische Funktion von $x$, und demnach ergibt sich aus (3)
+\weq{4}{\log\frac{\sqrt{f}-P}{\sqrt{f}+P} = \int \frac{Q}{ax+b}\,\frac{dx}{\sqrt{f(x)}}.}
+
+Die rechte Seite ist aber eine lineare Funktion von $S_0$, $S_1$ und $S_{-1}$ (f\"ur $\alpha = -b/a$). In dem besonderen Falle, wo $a = 0$ ist, wird $Q$ vom ersten Grade, und man kann eine lineare Verbindung von $S_0$ und $S_{-1}$ durch eine logarithmische Funktion ausdr\"ucken.
+
+Nehmen wir $a_1$ und $a_3 = 0$ an, worauf wir den allgemeinen Fall nach \S\ 4 durch lineare Transformation zur\"uckf\"uhren k\"onnen, so erhalten wir als die Grundintegrale
+%CONT>>

@@ -1,0 +1,28 @@
+% !PRINTED 601
+\weberpage{601}
+
+The proof that the alternating group is simple may be conducted as follows:
+
+Let $A$ be the alternating group of the permutations of $n$ figures $0, 1, 2 \ldots n-1$, and $Q$ a normal divisor of $A$. We have seen in \S.\,153, 6. and \S.\,154, 6. that all permutations of $A$ can be composed of three-term cycles, and that, if $\varkappa$ and $\pi$ are any permutations whatever, one obtains the transformed permutation of $\varkappa$, $\pi^{-1}\varkappa\pi$, by carrying out in the cycles of $\varkappa$ the permutations $\pi$. Now if $\varkappa$ is a three-term cycle, say $(0,\,1,\,2)$, then $\pi$ can be chosen from $A$ so that $\pi^{-1}\varkappa\pi$ represents any arbitrary three-term cycle of the $n$ figures; for in
+% [sic] the German column prints "zusammmensetzen", with three m, on this page
+
+\[
+\pi = \begin{pmatrix} 0,\,1,\,2,\,3 \ldots n-1 \\ a_0,\,a_1,\,a_2,\,a_3 \ldots a_{n-1} \end{pmatrix}
+\]
+
+one may choose the first three figures $a_0, a_1, a_2$ arbitrarily, and, if it is necessary in order that $\pi$ belong to $A$, further interchange $a_1$ and $a_2$. In this way there arises from $\varkappa$ one of the two cycles $(a_0,\,a_1,\,a_2)$, $(a_0,\,a_2,\,a_1)$, of which each is the second power of the other. Now if $Q$ is a normal divisor of $A$, and $\varkappa$ a permutation. from $Q$, then $\pi^{-1}\varkappa\pi$ is also contained in $Q$ whenever $\pi$ is contained in $A$, and from this it follows that, if a three-term cycle occurs in $Q$, then $Q$ is identical with $A$.
+% [sic] source prints a full stop after "Permutation" before "aus Q"
+
+Our proof now rests on the fact that, if $\varkappa$ is any permutation in $Q$, then $\pi^{-1}\varkappa\pi$, and consequently also
+
+\weq{1}{\lambda = \varkappa^{-1}\pi^{-1}\varkappa\pi}
+
+must occur in $Q$; and it is then to be shown that, if $\varkappa$ is any non-identical permutation, $\pi$ can always be so chosen from $A$ that the permutation $\lambda$ becomes a three-term cycle, and consequently $Q$ identical with $A$.
+
+For this purpose we suppose both $\varkappa$ and $\pi$ decomposed into their cycles, and remark that in the formation of $\lambda$ one need not take into account at all those cycles of $\varkappa$ whose figures remain unchanged by $\pi$, because they cancel each other in $\varkappa^{-1}$ and $\varkappa$. We must now consider the various possible forms of $\varkappa$ one by one.
+
+1. Let $\varkappa$ contain a cycle of more than three figures, say $(1,\,2,\,3 \ldots m)$; we take $\pi = (1,\,2,\,3)$ and obtain
+
+\[
+\lambda = \varkappa^{-1}\pi^{-1}\varkappa\pi = (1,\,m,\,m-1 \ldots 2)(2,\,3,\,1,\,4 \ldots m) = (1,\,2,\,4)
+\]

@@ -1,0 +1,54 @@
+% !PRINTED 588
+\weberpage{588}
+%<<CONT
+and in this way one determines a sequence of integers $\alpha, \alpha_1, \alpha_2, \alpha_3 \dots$
+with steadily decreasing norm, which can be continued so long
+as zero does not occur among them. Since these norms are positive
+rational integers which always decrease, zero must appear
+after a finite number of steps, and one thus obtains
+a system of equations
+
+\weq{1}{\begin{aligned}
+\alpha &= \mu\alpha_1 + \alpha_2,\\
+\alpha_1 &= \mu_1\alpha_2 + \alpha_3,\\
+&\cdots\cdots\cdots\cdots\\
+\alpha_{h-2} &= \mu_{h-2}\alpha_{h-1} + \alpha_h,\\
+\alpha_{h-1} &= \mu_{h-1}\alpha_h.
+\end{aligned}}
+
+From this one concludes that the whole sequence of numbers
+$\alpha, \alpha_1, \alpha_2 \dots$, and thus in particular also $\alpha$ and $\alpha_1$, are divisible
+by $\alpha_h$, and conversely, that every common divisor of $\alpha$
+and $\alpha_1$ is a divisor of all the following $\alpha$, and hence also of $\alpha_h$.
+Every other number that has these two properties must
+be associated with $\alpha_h$, and one therefore calls $\alpha_h$ (and every number
+associated with $\alpha_h$) the \gesperrt{greatest common divisor} of
+$\alpha$ and $\alpha_1$.
+
+If from the algorithm (1) we eliminate the intermediate $\alpha$,
+by substituting $\alpha_2$ from the first equation into the second, then $\alpha_3$
+from the second into the third, there results
+a result of the form $\alpha\varkappa + \alpha_1\lambda = \alpha_h$, and we can
+therefore, if instead of $\alpha, \alpha_1, \alpha_h$ we write $\alpha, \beta, \delta$, state the theorem:
+
+4. \gesperrt{If $\alpha, \beta$ are any two integers in $R(i)$,
+and $\delta$ their greatest common divisor,
+then the integers $\varkappa, \lambda$
+can be so determined that}
+
+\weq{2}{\alpha\varkappa + \beta\lambda = \delta}
+\gesperrt{holds.}
+
+If the greatest common divisor $\delta$ of two numbers
+$\alpha, \beta$ is a unit, then $\alpha$ and $\beta$ are called relatively prime, and in this
+case we can satisfy the equation
+
+\weq{3}{\alpha\varkappa + \beta\lambda = 1}
+by integral $\varkappa, \lambda$.
+
+If $\beta$ is a prime, then either $\alpha$ is divisible by $\beta$,
+or $\alpha$ and $\beta$ are relatively prime. In the latter case
+equation (3) holds. If then $\gamma$ is another number in $R(i)$, it follows from (3) that
+\[
+\alpha\gamma\varkappa + \beta\gamma\lambda = \gamma.
+\]

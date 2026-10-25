@@ -1,0 +1,45 @@
+% !PRINTED 105
+\weberpage{105}
+%<<CONT
+und erhalten, wenn $\varepsilon_1$, $\varepsilon_2$ den Werth 0 oder 1 haben, die Resolventen
+
+\weq{6}{\begin{aligned}
+\Omega_{\varepsilon_1,\varepsilon_2} &= \sum^n (-1)^{\varepsilon_1\sigma_1+\varepsilon_2\sigma_2}\, r^n\\
+&= \eta + (-1)^{\varepsilon_1}\eta' + (-1)^{\varepsilon_2}\eta'' + (-1)^{\varepsilon_1+\varepsilon_2}\eta'''.
+\end{aligned}}
+
+Ist nun $m = q_1\, q_2 \ldots q_\mu$ nicht durch 8 theilbar, so können
+wir, wenn $r_1, r_2, \ldots r_\mu$ primitive Wurzeln der Grade $q_1, q_2, \ldots q_\mu$
+bedeuten,
+\[ r = r_1\, r_2 \ldots r_\mu \]
+setzen, ferner
+\[ \begin{aligned}
+n &\equiv n_1\ (\mathrm{mod}\ q_1)\\
+&\equiv n_2\ (\mathrm{mod}\ q_2)\\
+&\cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\ \cdot\\
+&\equiv n_\mu\ (\mathrm{mod}\ q_\mu),
+\end{aligned} \]
+wodurch sich ergiebt:
+\weq{7}{\Omega_{\varepsilon_1,\varepsilon_2} = \prod_{1,\mu}^{h} \sum^{n_h} (-1)^{\nu_h(\varepsilon_1 e_{1,h}+\varepsilon_2 e_{2,h})}\, r_h^{n_h}.}
+
+Die einzelnen Factoren dieses Productes sind die in \S.\,171
+(Bd.\ I) bestimmten \gesperrt{Gauss'schen Summen}, die dort durch
+Quadratwurzeln ausgedrückt sind. Nur wenn $q_1 = 4$ ist und
+$\varepsilon_1\, e_{1,1} + \varepsilon_2\, e_{1,2} = 0$, ist $\Omega_{\varepsilon_1,\varepsilon_2} = 0$. % [sic: Weber prints e_{1,2}; specializing the preceding general factor to h=1 requires e_{2,1}.]
+
+Ist aber $m$ durch 8 theilbar und
+\[ m = q_2\, q_3 \ldots q_\mu, \quad q_2 = 8, \]
+so erhält man, wenn man $r = r_2\, r_3 \ldots r_\mu$ setzt:
+\[ \begin{aligned}
+\Omega_{\varepsilon_1,\varepsilon_2} &= \sum^{n_2} (-1)^{\varepsilon_1(e_{1,1}\nu_1+e_{1,2}\nu_2)}(-1)^{\varepsilon_2(e_{2,1}\nu_1+e_{2,2}\nu_2)}\, r_2^{n_2}\\
+&\times \prod_{3,\mu}^{h} \sum^{n_h} (-1)^{\nu_h(\varepsilon_1 e_{1,h}+\varepsilon_2 e_{2,h})}\, r_h^{n_h}.
+\end{aligned} \]
+
+In den fünf oben aufgestellten Gruppen, die zu $m = 24$
+gehören, kann man die Perioden aus dieser Formel oder auch
+leicht direct berechnen, wenn man
+\[ r = e^{\frac{\pi i}{12}} = e^{\frac{\pi i}{3}}\, e^{-\frac{\pi i}{4}} \]
+setzt. Man erhält dann für die fünf Grössen:
+\[ \mathfrak{A}_1)\quad \eta = \frac{(1+i)\sqrt{3}}{\sqrt{2}} \]
+\[ \mathfrak{A}_2)\quad \eta = \frac{\sqrt{3}-i}{\sqrt{2}} \]
+%CONT>>

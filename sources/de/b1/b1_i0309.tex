@@ -1,0 +1,63 @@
+% !PRINTED 284
+\weberpage{284}
+
+Setzen wir
+\[
+H = \sum_{0,\,n-1}^{i} \sum^{k} H_{i,k}\, t_i\, t_k,
+\]
+so sind die Coëfficienten $H_{i,k}$, deren Determinante gebildet werden soll, durch die Formel \S.\,91, (6) gegeben. Es ist $H_{i,k}$ der Coëfficient von $t_i \tau_k$ in jener Formel, also
+\[
+H_{i,k} = S(x-\alpha)\,f_{n-i-1}\,f_{n-k-1}.
+\]
+Die Determinante aus diesen $n^2$ Grössen lässt sich aber nach dem Multiplicationssatz in die Form setzen:
+\[
+\varDelta =
+\begin{vmatrix}
+(x_1-\alpha)f_0(x_1), & (x_1-\alpha)f_1(x_1), & \dots & (x_1-\alpha)f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+(x_n-\alpha)f_0(x_n), & (x_n-\alpha)f_1(x_n), & \dots & (x_n-\alpha)f_{n-1}(x_n)
+\end{vmatrix}
+\times
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1), & \dots & f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+f_0(x_n), & f_1(x_n), & \dots & f_{n-1}(x_n)
+\end{vmatrix},
+\]
+oder auch, da
+\[
+a_0 (x_1-\alpha)(x_2-\alpha)\cdots(x_n-\alpha) = (-1)^n f(\alpha)
+\]
+ist, in die Form
+\[
+\frac{(-1)^n f(\alpha)}{a_0}
+\begin{vmatrix}
+f_0(x_1), & f_1(x_1) & \dots & f_{n-1}(x_1) \\
+\cdots & \cdots & \cdots & \cdots \\
+f_0(x_n), & f_1(x_n) & \dots & f_{n-1}(x_n)
+\end{vmatrix}^2.
+\]
+Die hier noch vorkommende Determinante der $f_k(x_i)$ ist das Product der beiden folgenden:
+\[
+\begin{vmatrix}
+a_0, & 0 & \dots & 0 \\
+a_1, & a_0 & \dots & 0 \\
+\cdots & \cdots & \cdots & \cdots \\
+a_{n-1}, & a_{n-2} & \dots & a_0
+\end{vmatrix}
+\begin{vmatrix}
+1, & x_1, & x_1^2 & \dots & x_1^{n-1} \\
+1, & x_2, & x_2^2 & \dots & x_2^{n-1} \\
+\cdots & \cdots & \cdots & \cdots & \cdots \\
+1, & x_n, & x_n^2 & \dots & x_n^{n-1}
+\end{vmatrix}.
+\]
+Das Quadrat dieses Productes ist aber, wenn $D$ die Discriminante der Function $f(x)$ bedeutet (\S.\,46), gleich $a_0^2 D$, so dass sich für $\varDelta$ ergiebt
+\weq{1}{\varDelta = (-1)^n a_0 f(\alpha)\, D.} % source type in $(-1)^n$ is damaged; reading resolved by the immediately preceding identity
+Da nach der Voraussetzung $D$ nicht verschwinden soll, so wird $\varDelta$ also nur dann verschwinden, wenn für $\alpha$ eine der Wurzeln von $f(x) = 0$ gesetzt wird, und dies soll auch ausgeschlossen sein.
+
+Bezeichnen wir eine Kette von Haupt-Unterdeterminanten von $\varDelta$, mit der niedrigsten angefangen, mit
+\[
+\varDelta_1(\alpha),\ \varDelta_2(\alpha), \dots, \varDelta_n(\alpha) = \varDelta,
+\]
+%CONT>>

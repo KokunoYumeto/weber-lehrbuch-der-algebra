@@ -1,0 +1,44 @@
+% !PRINTED 709
+\weberpage{709}
+%<<CONT
+von denen hiernach die Bestimmung der Classenzahl noch abhängt, lassen
+sich durch endliche Ausdrücke darstellen. Es ist nämlich
+\[
+\frac{1}{n} = \int_0^1 x^{n-1}\,dx,
+\]
+und demnach
+\[
+X = \int_0^1 \Sigma \chi(n)\,x^{n-1}\,dx.
+\]
+
+Nun bleibt $\chi(n)$ ungeändert, wenn $n$ um ein Vielfaches von $m$ wächst.
+Versteht man aber unter $t$ den kleinsten positiven Rest von $n$ und setzt
+\[
+n = t + ml,
+\]
+so ist $\chi(n) = \chi(t)$, und es folgt:
+\[
+X = \int_0^1 \overset{t}{\Sigma} \chi(t)\,x^{t-1} \underset{0,\,\infty}{\overset{l}{\Sigma}} x^{ml}\,dx.
+\]
+
+Setzt man jetzt
+\weq{2}{f(x) = \overset{t}{\Sigma} \chi(t)\,x^t,}
+so ist $f(x)$ eine ganze Function von $x$ vom Grade $m-1$, und zugleich ist
+wegen der Relation $\Sigma \chi(t) = 0$:
+\weq{3}{f(0) = 0,\quad f(1) = 0,}
+also $f(x)$ durch $x(1-x)$ theilbar. Für $X$ ergiebt sich dann nach der
+Summenformel für die geometrische Reihe $\Sigma x^{ml}$:
+\weq{4}{X = \int_0^1 \frac{f(x)\,dx}{x(1-x^m)}.}
+
+Um ein solches Integral zu finden, schreibt die Integralrechnung vor, den
+rationalen Bruch unter dem Integralzeichen in Partialbrüche zu zerlegen.
+Diese Partialbruch-Zerlegung ergiebt aber, wegen (3), wenn
+\[
+r = e^{\frac{2\pi i}{m}}
+\]
+gesetzt wird:
+\[
+\frac{f(x)}{x(1-x^m)} = -\frac{1}{m} \sum\limits_{1,\,m-1}^{s} \frac{f(r^s)}{x-r^s}
+\]
+[Bd. I, \S.\,29, (11)], und nun haben wir weiter nach bekannten
+%CONT>>

@@ -1,0 +1,37 @@
+% !PRINTED 528
+\weberpage{528}
+%<<CONT
+\[ \xi - \eta = u, \qquad \xi + \eta = v, \]
+im zweiten Teil:
+\[ \xi - \eta = -u, \qquad \xi + \eta = v. \]
+Wenn man dann, wie die Figur andeutet, zuerst bei konstantem
+ $u$ in bezug auf $v$ integriert, so erhält man:
+\[
+W = \int_0^\infty e^{2\pi ixu}\,du\int_u^\infty e^{\pi iy[u(\omega_1-\omega_2)+v(\omega_1+\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv,
+\]
+\[
+{}+\int_0^\infty e^{-2\pi ixu}\,du\int_u^\infty e^{\pi iy[-u(\omega_1-\omega_2)+v(\omega_1+\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv,
+\]
+oder, wenn man zur Abkürzung
+\weq{10}{\varphi_{\pm}(u) = \int_u^\infty e^{\pi iy[v(\omega_1+\omega_2)\pm u(\omega_1-\omega_2)]}\left(\frac{v^2-u^2}{4}\right)^{s-1}dv}
+setzt,
+\weq{11}{W = \int_0^\infty e^{2\pi ixu}\varphi_+(u)\,du + \int_0^\infty e^{-2\pi ixu}\varphi_-(u)\,du.}
+Diese nach $u$ genommenen Integrale zerlegen wir in lauter
+solche Bestandteile, deren Grenzen die Reihe der ganzen Zahlen
+sind, wir setzen also, da $x$ eine ganze Zahl ist:
+\weq{12}{\begin{aligned}
+\int_0^\infty e^{\pm2\pi ixu}\varphi_{\pm}(u)\,du &= \Sigma_{0,\infty}^{\nu}\int_\nu^{\nu+1}e^{\pm2\pi ixu}\varphi_{\pm}(u)\,du,\\
+&= \Sigma_{0,\infty}^{\nu}\int_0^1 e^{\pm2\pi ixu}\varphi_{\pm}(u+\nu)\,du,\\
+&= \int_0^1 e^{\pm2\pi ixu}f(u)\,du,
+\end{aligned}}
+wenn wiederum
+\weq{13}{f(u) = \Sigma_{0,\infty}^{\nu}\varphi_{\pm}(u+\nu)}
+gesetzt ist.
+
+Wenn wir nun zunächst die Summation in bezug auf $x$ ausführen, so können wir von der Grundformel aus der Theorie der
+\gesperrt{Fourierschen Reihen} Gebrauch machen:
+\weq{14}{\begin{aligned}
+\Sigma_{-\infty,\infty}^{x}\int_0^1 e^{\pm2\pi ixu}f(u)\,du &= \tfrac{1}{2}[f(0)+f(1)]\\
+&= \tfrac{1}{2}\varphi_{\pm}(0) + \Sigma_{1,\infty}^{\nu}\varphi_{\pm}(\nu),
+\end{aligned}}
+%CONT>>

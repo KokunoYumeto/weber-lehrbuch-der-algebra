@@ -1,0 +1,63 @@
+% !PRINTED 560
+\weberpage{560}
+%<<CONT
+from the remark that the substitution $(r, r_h)$ calls forth among the $\eta_k$
+the substitution $(\eta_k, \eta_{k+h})$, when the index of $\eta$
+is taken modulo $e$. The group of $F_e(x) = 0$
+therefore consists of the powers of the cyclic permutation
+
+\[
+(\eta, \eta_1, \eta_2 \ldots \eta_{e-1}).
+\]
+
+\begin{center}
+\S.\,168.
+
+\gesperrt{The Gauss Method for the Computation of the\\
+Resolvents.}
+\end{center}
+
+In order actually to carry out the solution of the cyclotomic
+equation in concrete cases, all that matters, after what we
+have developed in the preceding section, is to represent the
+products of any two conjugate periods as linear functions
+of these same periods. For this \gesperrt{Gauss} has given a simple
+procedure, which we shall now become acquainted with. To this
+end we must alter the notation of the periods a little.
+
+We write any two of the periods \S.\,167, (12) in
+the form
+
+\weq{1}{\begin{aligned}
+\eta^{(\lambda)} &= r^\lambda + r^{\lambda'} + r^{\lambda''} + \cdots\\
+\eta^{(\mu)} &= r^\mu + r^{\mu'} + r^{\mu''} + \cdots
+\end{aligned}}
+
+so that, if $\lambda \equiv g^h \ (\mathrm{mod}\ n)$, then $\eta^{(\lambda)} = \eta_h$ or also
+$\eta^{(\lambda)} = \eta_{\mathrm{ind}\,\lambda}$; we then have
+
+\weq{2}{\begin{aligned}
+\lambda' &\equiv \lambda g^e, & \lambda'' &\equiv \lambda g^{2e} \cdots\\
+\mu' &\equiv \mu g^e, & \mu'' &\equiv \mu g^{2e} \cdots
+\end{aligned}\ (\mathrm{mod}\ n);}
+
+if, then, we let the symbols $s$ and $t$ each run through a complete system of residues
+modulo $f$, we have
+
+\[
+\eta^{(\lambda)} = \sum^{s} r^{\lambda g^{se}}, \qquad \eta^{(\mu)} = \sum^{t} r^{\mu g^{te}}.
+\]
+
+The product of these is
+
+\[
+\eta^{(\lambda)} \eta^{(\mu)} = \sum^{s}\sum^{t} r^{\lambda g^{se} + \mu g^{te}}.
+\]
+
+If, in forming this sum, we first hold $s$ fixed,
+and sum with respect to $t$, we may replace $t$ by $t + s$, because both run simultaneously through a complete system of residues
+modulo $f$. Accordingly we obtain
+\[
+\eta^{(\lambda)}\eta^{(\mu)} = \sum^{s}\sum^{t} r^{(\lambda + \mu g^{te})g^{se}}.
+\]
+%CONT>>

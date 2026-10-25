@@ -1,0 +1,45 @@
+% !PRINTED 71
+\weberpage{71}
+%<<CONT
+equal to a new $\vartheta$, there results for the latter the partial
+differential equation
+
+\weq{4}{\frac{\partial^2 \vartheta(v,\omega)}{\partial v^2} - 4\pi i\,\frac{\partial \vartheta(v,\omega)}{\partial \omega} = 0,}
+
+\gesperrt{and by (1) and (4) the function $\vartheta$ is now defined up to a
+factor that is independent of $v$ and $\omega$ and therefore still
+depends only on $g_1, g_2$.}
+
+\begin{center}
+\textbf{\S\,21.\quad\gesperrt{The Theta Functions of Different Characteristics.}}
+
+\textbf{\gesperrt{Principal Characteristics.}}
+\end{center}
+
+Before we go on to determine the factor in the $\vartheta$-functions
+that still remains and is independent of $v$ and $\omega$, we now wish
+to reduce the different characteristics to one another, which
+by \S\,17 is always possible. If we denote by
+$\vartheta(v)$ the $\vartheta$-function belonging to the characteristic $(0, 0)$, then
+\[
+\Phi(v,\omega) = e^{-\pi i g_1 v}\, \vartheta\!\left(v - \frac{g_1\omega - g_2}{2}\right)
+\]
+is a function satisfying the conditions (1) \S 20. But now, in
+view of the differential equation (4):
+\[
+\frac{\partial^2 \Phi}{\partial v^2} - 4\pi i\,\frac{\partial \Phi}{\partial \omega} = -\pi^2 g_1^2\,\Phi,
+\]
+and so, if we put
+
+\weq{1}{\vartheta_{g_1,\, g_2}(v) = e^{\frac{\pi i \omega g_1^2}{4} - \pi i g_1 v + \frac{g_1 g_2 \pi i}{2}}\ \vartheta\!\left(v - \frac{g_1\omega - g_2}{2}\right)}
+
+\gesperrt{then the differential equation (4) \S 20 is satisfied by all
+these functions. In this way, then, the functions
+ $\vartheta_{g_1,\, g_2}$ are determined up to a numerical factor common to
+them all.}
+
+From formula (1) a more general one can be derived by
+replacing $v$ by $v - \dfrac{g_1'\omega - g_2'}{2}$. One obtains in this way
+
+\weq{2}{\vartheta_{g_1,\, g_2}\!\left(v - \frac{g_1'\omega - g_2'}{2}\right)
+= e^{-\frac{\pi i \omega}{4}g_1'^2 + \pi i g_1' v - \pi i g_1 g_2' - \frac{\pi i}{2}g_1'(g_2+g_2')}\ \vartheta_{g_1+g_1',\, g_2+g_2'}(v).}

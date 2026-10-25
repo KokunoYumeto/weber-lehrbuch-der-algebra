@@ -1,0 +1,28 @@
+% !PRINTED 601
+\weberpage{601}
+
+Der Beweis, dass die alternirende Gruppe einfach ist, lässt sich so führen:
+
+Sei $A$ die alternirende Gruppe der Permutationen von $n$ Ziffern $0, 1, 2 \ldots n-1$ und $Q$ ein normaler Theiler von $A$. Wir haben im \S.\,153, 6. und \S.\,154, 6. gesehen, dass sich alle Permutationen von $A$ aus dreigliedrigen Cyklen zusammmensetzen lassen, und dass man, wenn $\varkappa$ und $\pi$ irgend welche Permutationen sind, die transformirte Permutation zu $\varkappa$, $\pi^{-1}\varkappa\pi$ erhält, wenn man in den Cyklen von $\varkappa$ die Vertauschungen $\pi$ vornimmt. Ist nun $\varkappa$ ein dreigliedriger Cyklus, etwa $(0,\,1,\,2)$, so kann man $\pi$ aus $A$ so wählen, dass $\pi^{-1}\varkappa\pi$ jeden beliebigen dreigliedrigen Cyklus der $n$ Ziffern darstellt; denn man kann in
+% [sic] "zusammmensetzen" printed thus, with three m, on this page
+
+\[
+\pi = \begin{pmatrix} 0,\,1,\,2,\,3 \ldots n-1 \\ a_0,\,a_1,\,a_2,\,a_3 \ldots a_{n-1} \end{pmatrix}
+\]
+
+die drei ersten Ziffern $a_0, a_1, a_2$ beliebig wählen, und, wenn es n\"othig ist, damit $\pi$ zu $A$ gehöre, noch $a_1$ und $a_2$ vertauschen. Dadurch geht aus $\varkappa$ einer der beiden Cyklen $(a_0,\,a_1,\,a_2)$, $(a_0,\,a_2,\,a_1)$ hervor, von denen jeder die zweite Potenz des anderen ist. Wenn nun $Q$ ein Normaltheiler von $A$ ist, und $\varkappa$ eine Permutation. aus $Q$, so ist $\pi^{-1}\varkappa\pi$ auch in $Q$ enthalten, wenn $\pi$ in $A$ enthalten ist, und daraus folgt, dass, wenn in $Q$ ein dreigliedriger Cyklus vorkommt, $Q$ mit $A$ identisch ist.
+% [sic] source prints a full stop after "Permutation" before "aus Q"
+
+Unser Beweis beruht nun darauf, dass, wenn $\varkappa$ irgend eine Permutation in $Q$ ist, auch $\pi^{-1}\varkappa\pi$ und folglich auch
+
+\weq{1}{\lambda = \varkappa^{-1}\pi^{-1}\varkappa\pi}
+
+in $Q$ vorkommen muss, und es ist dann zu zeigen, dass man, wenn $\varkappa$ irgend eine nicht identische Permutation ist, $\pi$ immer so aus $A$ wählen kann, dass die Permutation $\lambda$ ein dreigliedriger Cyklus, und folglich $Q$ mit $A$ identisch wird.
+
+Wir nehmen zu diesem Zwecke sowohl $\varkappa$ als $\pi$ in ihre Cykeln zerlegt an und bemerken, dass man bei der Bildung von $\lambda$ solche Cykeln von $\varkappa$ gar nicht zu berücksichtigen braucht, deren Ziffern durch $\pi$ ungeändert bleiben, weil sie sich in $\varkappa^{-1}$ und $\varkappa$ gegenseitig aufheben. Wir müssen nun die verschiedenen möglichen Formen von $\varkappa$ einzeln betrachten.
+
+1. Es enthalte $\varkappa$ einen Cyklus von mehr als drei Ziffern etwa $(1,\,2,\,3 \ldots m)$, wir nehmen $\pi = (1,\,2,\,3)$ an und erhalten
+
+\[
+\lambda = \varkappa^{-1}\pi^{-1}\varkappa\pi = (1,\,m,\,m-1 \ldots 2)(2,\,3,\,1,\,4 \ldots m) = (1,\,2,\,4)
+\]
