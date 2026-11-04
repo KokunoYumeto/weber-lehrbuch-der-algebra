@@ -21,6 +21,11 @@ are kept as printed and marked in the sources with `% [sic]` comments.
 
 Maxim Leyenson contributed tables of contents of Volume III; they were used to check the transcribed contents.
 
+## Status
+
+All three volumes are complete in German and in English. No human reader has checked the whole text, and errors may
+remain.
+
 ## Sources
 
 - `sources/de/` and `sources/en/`: one LaTeX file per printed page; `% !PRINTED n` gives the page of the original.
