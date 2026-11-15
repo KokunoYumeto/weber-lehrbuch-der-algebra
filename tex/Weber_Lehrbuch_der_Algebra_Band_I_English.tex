@@ -183,6 +183,11 @@
 \newcommand{\inhaltpar}[3]{\par\noindent\hangindent=3.4em\hbox to 3.4em{\S~#1.\hfil}#2\dotfill\,\hyperref[wp:#3]{#3}\par}
 \newcommand{\inhaltzeile}[2]{\par\noindent #1\dotfill\,\hyperref[wp:#2]{#2}\par}
 
+
+% --- build fix (typesetting only), 14-15 Nov 2026 ---
+\usepackage{adjustbox}
+\setlength{\emergencystretch}{5em}
+\tolerance=2000
 \begin{document}
 \selectlanguage{english}
 \pagenumbering{roman}
@@ -14353,7 +14358,7 @@ H_{i,k} = S(x-\alpha)\,f_{n-i-1}\,f_{n-k-1}.
 \]
 By the multiplication theorem, however, the determinant of these $n^2$ quantities can be put into the form:
 \[
-\varDelta =
+\adjustbox{max width=\displaywidth}{$\displaystyle \varDelta =
 \begin{vmatrix}
 (x_1-\alpha)f_0(x_1), & (x_1-\alpha)f_1(x_1), & \dots & (x_1-\alpha)f_{n-1}(x_1) \\
 \cdots & \cdots & \cdots & \cdots \\
@@ -14364,7 +14369,7 @@ By the multiplication theorem, however, the determinant of these $n^2$ quantitie
 f_0(x_1), & f_1(x_1), & \dots & f_{n-1}(x_1) \\
 \cdots & \cdots & \cdots & \cdots \\
 f_0(x_n), & f_1(x_n), & \dots & f_{n-1}(x_n)
-\end{vmatrix},
+\end{vmatrix},$}
 \]
 or also, since
 \[
@@ -15457,7 +15462,7 @@ f_\nu(0) = \frac{\Pi(n-\nu)\,\Pi(\nu)}{\Pi(n)}\, a_{n-\nu},
 \]
 and consequently
 \[
-F_\nu(0) = \frac{\Pi(\nu)\,\Pi(\nu-1)\,\Pi(n-\nu)\,\Pi(n-\nu-1)}{\Pi(n)\,\Pi(n)}\left[\nu(n-\nu)\,a_{n-\nu}^2 - (\nu+1)(n-\nu+1)\,a_{n-\nu-1}\,a_{n-\nu+1}\right]
+\adjustbox{max width=\displaywidth}{$\displaystyle F_\nu(0) = \frac{\Pi(\nu)\,\Pi(\nu-1)\,\Pi(n-\nu)\,\Pi(n-\nu-1)}{\Pi(n)\,\Pi(n)}\left[\nu(n-\nu)\,a_{n-\nu}^2 - (\nu+1)(n-\nu+1)\,a_{n-\nu-1}\,a_{n-\nu+1}\right]$}
 \]
 and further that the sequence of the $f_\nu(x)$ presents, for $x = +\infty$, only successions of signs, and for $x = -\infty$ only changes of sign.
 

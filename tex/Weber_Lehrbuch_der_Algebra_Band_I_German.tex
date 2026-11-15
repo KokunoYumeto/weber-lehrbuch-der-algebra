@@ -183,6 +183,11 @@
 \newcommand{\inhaltpar}[3]{\par\noindent\hangindent=3.4em\hbox to 3.4em{\S~#1.\hfil}#2\dotfill\,\hyperref[wp:#3]{#3}\par}
 \newcommand{\inhaltzeile}[2]{\par\noindent #1\dotfill\,\hyperref[wp:#2]{#2}\par}
 
+
+% --- build fix (typesetting only), 14-15 Nov 2026 ---
+\usepackage{adjustbox}
+\setlength{\emergencystretch}{5em}
+\tolerance=2000
 \begin{document}
 \selectlanguage{ngerman}
 \pagenumbering{roman}
@@ -14566,7 +14571,7 @@ H_{i,k} = S(x-\alpha)\,f_{n-i-1}\,f_{n-k-1}.
 \]
 Die Determinante aus diesen $n^2$ Grössen lässt sich aber nach dem Multiplicationssatz in die Form setzen:
 \[
-\varDelta =
+\adjustbox{max width=\displaywidth}{$\displaystyle \varDelta =
 \begin{vmatrix}
 (x_1-\alpha)f_0(x_1), & (x_1-\alpha)f_1(x_1), & \dots & (x_1-\alpha)f_{n-1}(x_1) \\
 \cdots & \cdots & \cdots & \cdots \\
@@ -14577,7 +14582,7 @@ Die Determinante aus diesen $n^2$ Grössen lässt sich aber nach dem Multiplicat
 f_0(x_1), & f_1(x_1), & \dots & f_{n-1}(x_1) \\
 \cdots & \cdots & \cdots & \cdots \\
 f_0(x_n), & f_1(x_n), & \dots & f_{n-1}(x_n)
-\end{vmatrix},
+\end{vmatrix},$}
 \]
 oder auch, da
 \[
@@ -15686,7 +15691,7 @@ f_\nu(0) = \frac{\Pi(n-\nu)\,\Pi(\nu)}{\Pi(n)}\, a_{n-\nu},
 \]
 und folglich
 \[
-F_\nu(0) = \frac{\Pi(\nu)\,\Pi(\nu-1)\,\Pi(n-\nu)\,\Pi(n-\nu-1)}{\Pi(n)\,\Pi(n)}\left[\nu(n-\nu)\,a_{n-\nu}^2 - (\nu+1)(n-\nu+1)\,a_{n-\nu-1}\,a_{n-\nu+1}\right]
+\adjustbox{max width=\displaywidth}{$\displaystyle F_\nu(0) = \frac{\Pi(\nu)\,\Pi(\nu-1)\,\Pi(n-\nu)\,\Pi(n-\nu-1)}{\Pi(n)\,\Pi(n)}\left[\nu(n-\nu)\,a_{n-\nu}^2 - (\nu+1)(n-\nu+1)\,a_{n-\nu-1}\,a_{n-\nu+1}\right]$}
 \]
 wird, dass ferner die Reihe der $f_\nu(x)$ für $x = +\infty$ nur Zeichenfolgen, für $x = -\infty$ nur Zeichenwechsel darbietet.
 
